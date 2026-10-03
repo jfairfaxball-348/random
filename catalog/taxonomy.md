@@ -261,15 +261,11 @@ Generalized Martin-Löf and Schnorr randomness are DEF-0033 and DEF-0034. DEF-00
 
 ## P1-S006 category/genericity convention guard
 
-Category and measure are two different smallness frameworks. In the inspected effective-category source, an effectively meagre set is covered by an effective (F_\sigma) union of uniformly (Pi^0_1) nowhere-dense classes; no probability value occurs in that definition. The same source explicitly presents meagre/null correspondences as an **analogy** whose results may differ. Do not translate a null-set theorem into a meagre-set theorem, or conversely, without a separately inspected statement.
+Category and measure are two different smallness frameworks. In the inspected effective-category source, an effectively meagre set is covered by an effective `F_sigma` union of uniformly `Pi^0_1` nowhere-dense classes; no probability value occurs in that definition. The same source explicitly presents meagre/null correspondences as an **analogy** whose results may differ. Do not translate a null-set theorem into a meagre-set theorem, or conversely, without a separately inspected statement.
 
-For (X\in2^\omega), weak 1-genericity means meeting every **globally dense c.e.** set of strings. By contrast, the inspected 1-generic definition asks (X) to meet every c.e. set that is **dense along (X)**, equivalently to avoid (V\setminus\operatorname{Int}(V)) for every (Pi^0_1) class (V). These quantifier patterns are not interchangeable.
+For `X in 2^omega`, weak 1-genericity means meeting every **globally dense c.e.** set of strings. By contrast, the inspected 1-generic definition asks `X` to meet every c.e. set that is **dense along X**, equivalently to avoid `V \ Int(V)` for every `Pi^0_1` class `V`. These quantifier patterns are not interchangeable.
 
-The higher hierarchy is likewise indexed separately: weakly (n)-generic means meeting every dense (Sigma^0_n) set of strings, while (n)-generic means meeting or avoiding every (Sigma^0_n) set of strings. The inspected primary hierarchy is
-[
-n\text{-generic} \supsetneq \text{weakly }(n+1)\text{-generic} \supsetneq (n+1)\text{-generic}.
-]
-This indexing is unrelated to `notion:weak-n` randomness. Never read “weakly n-generic” as “weakly n-random”.
+The higher hierarchy is likewise indexed separately: weakly `n`-generic means meeting every dense `Sigma^0_n` set of strings, while `n`-generic means meeting or avoiding every `Sigma^0_n` set of strings. The inspected primary hierarchy is `n-generic ⊋ weakly (n+1)-generic ⊋ (n+1)-generic`. This indexing is unrelated to `notion:weak-n` randomness. Never read “weakly n-generic” as “weakly n-random”.
 
 The one direct P1-S006 category-to-measure bridge is source-stated: every weakly 1-generic real is Kurtz random, and the converse fails. It is recorded as `THM-0043` / `REL-0037`; it does not identify the frameworks or license extrapolation to Martin-Löf, Schnorr, higher weak randomness, or generalized measures.
 
