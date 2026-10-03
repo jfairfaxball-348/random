@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S005",
+  "session": "P1-S006",
   "checked_on": "2026-10-03",
   "records": [
     {
@@ -1798,12 +1798,16 @@
         "kurtz-randomness",
         "martingales",
         "lowness",
-        "bases-for-randomness"
+        "bases-for-randomness",
+        "genericity",
+        "weak-1-genericity"
       ],
       "aliases_search_terms": [
         "Schnorr random relative to A",
         "Kurtz random relative to A",
-        "relativizations randomness genericity"
+        "relativizations randomness genericity",
+        "1-generic relative to A",
+        "weakly 1-generic relative to A"
       ],
       "definitions": [
         "DEF-0022",
@@ -1812,11 +1816,12 @@
       "theorems": [],
       "questions": [],
       "priority_relevance": "Primary statement-level source for explicit oracle-relativized Schnorr and Kurtz betting formulations.",
-      "notes": "Full manuscript text was statement-inspected. Property 1.1 presents the paper's A-recursive martingale/rate/bound formulations. P1-S003 preserves this source-specific formulation rather than silently translating it into a different test convention.",
+      "notes": "Full manuscript text was statement-inspected. Property 1.1 presents the paper's A-recursive martingale/rate/bound formulations. P1-S003 preserves this source-specific formulation rather than silently translating it into a different test convention. P1-S006 additionally re-inspected the paper's genericity discussion/Property 1.2 to confirm that 1-genericity and weak 1-genericity are separate notions; no new oracle-genericity survey was opened.",
       "inspected_material": [
         "full manuscript text",
         "Property 1.1",
-        "publisher metadata"
+        "publisher metadata",
+        "P1-S006 re-inspection of genericity discussion and Property 1.2"
       ],
       "pointers": [
         "Bulletin of the London Mathematical Society 43(4) (2011), 721-733",
@@ -1824,7 +1829,9 @@
       ],
       "cross_links": [
         "SRC-0010",
-        "SRC-0032"
+        "SRC-0032",
+        "SRC-0041",
+        "SRC-0044"
       ],
       "checked_on": "2026-10-03",
       "exact_relevance": "Source-supported ordinary oracle relativizations for Schnorr and Kurtz randomness, with all effective resources relativized to A in the inspected martingale presentation.",
@@ -2323,6 +2330,340 @@
         "A uniform test t(omega,P) is jointly lower semicomputable and has integral at most one for every probability measure P.",
         "Every P-test lower semicomputable relative to P can be dominated by a uniform test at P up to the stated constant, and every uniform test restricts to a P-test."
       ]
+    },
+    {
+      "id": "SRC-0039",
+      "title": "Degrees of Generic Sets",
+      "authors": [
+        "Carl G. Jockusch Jr."
+      ],
+      "author_ids": [
+        "AUT-0043"
+      ],
+      "year": 1980,
+      "source_type": "book_chapter",
+      "doi": "10.1017/CBO9780511629181.004",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1017/CBO9780511629181.004",
+      "access_level": "METADATA_ONLY",
+      "topics": [
+        "genericity",
+        "n-genericity",
+        "forcing",
+        "turing-degrees"
+      ],
+      "aliases_search_terms": [
+        "Degrees of Generic Sets",
+        "Jockusch generic sets",
+        "n-genericity"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Foundational original source for computability-theoretic n-genericity; exact internal statements were not inspected in P1-S006.",
+      "notes": "Cambridge bibliographic metadata and later primary citation trails were inspected. The chapter itself was not available at statement level in this bounded session, so exact definitions are supported from later statement-inspected primary sources rather than reconstructed from this record.",
+      "inspected_material": [
+        "publisher metadata",
+        "later primary citation trails"
+      ],
+      "pointers": [
+        "Recursion Theory: its Generalisations and Applications, LMS Lecture Note Series 45 (1980), pp. 110-139"
+      ],
+      "cross_links": [
+        "SRC-0040",
+        "SRC-0044"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Historical provenance anchor only; no statement-level theorem or definition is promoted from this source in P1-S006."
+    },
+    {
+      "id": "SRC-0040",
+      "title": "Notions of weak genericity",
+      "authors": [
+        "Stuart Alan Kurtz"
+      ],
+      "author_ids": [
+        "AUT-0026"
+      ],
+      "year": 1983,
+      "source_type": "journal_article",
+      "doi": "10.2307/2273469",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2307/2273469",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "weak-genericity",
+        "weak-n-genericity",
+        "genericity-hierarchy",
+        "forcing"
+      ],
+      "aliases_search_terms": [
+        "Notions of weak genericity",
+        "weakly n-generic",
+        "Kurtz weak genericity"
+      ],
+      "definitions": [
+        "DEF-0040"
+      ],
+      "theorems": [
+        "THM-0042"
+      ],
+      "questions": [],
+      "priority_relevance": "Original paper introducing the weak n-generic classes and their interleaving with n-genericity.",
+      "notes": "The publisher extract states that the paper defines weakly n-generic sets for every n≥1 and proves that these classes merge with the n-generic classes into the indicated hierarchy. Full internal definition/theorem text was not accessible, so exact syntax and quantifiers are taken only from later statement-inspected primary papers.",
+      "inspected_material": [
+        "Cambridge publisher extract",
+        "bibliographic metadata"
+      ],
+      "pointers": [
+        "Journal of Symbolic Logic 48(3) (1983), 764-770",
+        "publisher extract"
+      ],
+      "cross_links": [
+        "SRC-0025",
+        "SRC-0039",
+        "SRC-0044"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Original provenance for weak n-genericity and its hierarchy, with access level deliberately below statement-inspected."
+    },
+    {
+      "id": "SRC-0041",
+      "title": "Lowness for Weakly 1-Generic and Kurtz-Random",
+      "authors": [
+        "Frank Stephan",
+        "Liang Yu"
+      ],
+      "author_ids": [
+        "AUT-0009",
+        "AUT-0030"
+      ],
+      "year": 2006,
+      "source_type": "conference_paper",
+      "doi": "10.1007/11750321_72",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1007/11750321_72",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "weak-1-genericity",
+        "kurtz-randomness",
+        "lowness",
+        "effective-category"
+      ],
+      "aliases_search_terms": [
+        "weakly 1-generic Kurtz random",
+        "low for weakly 1-generic",
+        "low for Kurtz-random"
+      ],
+      "definitions": [
+        "DEF-0038"
+      ],
+      "theorems": [
+        "THM-0043"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary statement-level source for the direct comparison weakly 1-generic ⇒ Kurtz-random and its non-converse.",
+      "notes": "Author-uploaded/full indexed text was inspected and cross-checked against the NUS repository technical-report record and Springer proceedings metadata. The paper explicitly contrasts dense Σ^0_1 classes with measure-one Σ^0_1 classes and states that every weakly 1-generic is Kurtz-random, while the converse fails.",
+      "inspected_material": [
+        "author-uploaded full text",
+        "NUS repository record",
+        "Springer proceedings metadata"
+      ],
+      "pointers": [
+        "TAMC 2006, LNCS 3959, pp. 756-764",
+        "paragraph immediately before Definition 6",
+        "Definition 6"
+      ],
+      "cross_links": [
+        "SRC-0025",
+        "SRC-0031",
+        "SRC-0040"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Direct primary bridge between the category/genericity stratum and the already catalogued Kurtz/weak-randomness stratum."
+    },
+    {
+      "id": "SRC-0042",
+      "title": "Effective Genericity and Differentiability",
+      "authors": [
+        "Rutger Kuyper",
+        "Sebastiaan A. Terwijn"
+      ],
+      "author_ids": [
+        "AUT-0044",
+        "AUT-0024"
+      ],
+      "year": 2014,
+      "source_type": "journal_article",
+      "doi": "10.4115/jla.2014.6.4",
+      "arxiv": "1309.3983",
+      "stable_locator": "https://doi.org/10.4115/jla.2014.6.4",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "1-genericity",
+        "effective-category",
+        "effective-open-classes",
+        "computable-analysis"
+      ],
+      "aliases_search_terms": [
+        "1-genericity Sigma01 genericity",
+        "effective genericity",
+        "dense along x",
+        "Pi01 boundary"
+      ],
+      "definitions": [
+        "DEF-0039"
+      ],
+      "theorems": [
+        "THM-0041"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary statement-level source for an exact Cantor-space 1-generic definition and its Π^0_1-boundary characterization.",
+      "notes": "The arXiv/published-version text was visually and textually inspected. Section 2 fixes Cantor-space cylinders, effectively open/closed classes, 'meets', and 'dense along x' before Definition 2.1; Corollary 2.3 gives the boundary formulation.",
+      "inspected_material": [
+        "arXiv full text",
+        "Definition 2.1",
+        "Lemma 2.2",
+        "Corollary 2.3",
+        "published metadata"
+      ],
+      "pointers": [
+        "§2, Definition 2.1",
+        "§2, Corollary 2.3",
+        "J. Logic & Analysis 6:4 (2014), 1-14"
+      ],
+      "cross_links": [
+        "SRC-0039",
+        "SRC-0044"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Pins the object space and dense/open/c.e. conventions for 1-genericity without replacing category by measure."
+    },
+    {
+      "id": "SRC-0043",
+      "title": "An analogy between cardinal characteristics and highness properties of oracles",
+      "authors": [
+        "Jörg Brendle",
+        "Andrew D. Brooke-Taylor",
+        "Keng Meng Ng",
+        "André Nies"
+      ],
+      "author_ids": [
+        "AUT-0045",
+        "AUT-0046",
+        "AUT-0037",
+        "AUT-0005"
+      ],
+      "year": 2015,
+      "source_type": "conference_paper",
+      "doi": "10.1142/9789814678001_0001",
+      "arxiv": "1404.2839",
+      "stable_locator": "https://doi.org/10.1142/9789814678001_0001",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "effective-category",
+        "effective-meagreness",
+        "weak-1-genericity",
+        "schnorr-nullness",
+        "highness"
+      ],
+      "aliases_search_terms": [
+        "effectively meager",
+        "effectively meagre",
+        "effective F sigma",
+        "weakly 1-generic effective meager"
+      ],
+      "definitions": [
+        "DEF-0037",
+        "DEF-0038"
+      ],
+      "theorems": [
+        "THM-0044"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary statement-level source that puts effective meagreness beside effective nullness while explicitly treating them as an analogy whose results may differ.",
+      "notes": "The arXiv/proceedings text was visually and textually inspected. §3.1 defines effective Fσ classes and effectively meager subsets of Cantor space via uniformly Π^0_1 nowhere-dense components; §3.1.1 identifies avoidance of all effectively meager sets with weak 1-genericity. The introduction explicitly warns that meager/null correspondences are analogy rather than identity.",
+      "inspected_material": [
+        "arXiv full text",
+        "§1 introduction",
+        "§3.1",
+        "§3.1.1",
+        "publisher metadata"
+      ],
+      "pointers": [
+        "§1, pp. 1-2",
+        "§3.1, printed p. 8",
+        "§3.1.1, printed p. 9"
+      ],
+      "cross_links": [
+        "SRC-0041",
+        "SRC-0042"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Supplies the effective-category smallness definition and the source-grounded reason category is an alternative smallness framework rather than a probability measure."
+    },
+    {
+      "id": "SRC-0044",
+      "title": "Every 1-Generic Computes a Properly 1-Generic",
+      "authors": [
+        "Barbara F. Csima",
+        "Rodney G. Downey",
+        "Noam Greenberg",
+        "Denis R. Hirschfeldt",
+        "Joseph S. Miller"
+      ],
+      "author_ids": [
+        "AUT-0047",
+        "AUT-0006",
+        "AUT-0040",
+        "AUT-0007",
+        "AUT-0032"
+      ],
+      "year": 2006,
+      "source_type": "journal_article",
+      "doi": "10.2178/jsl/1164060461",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2178/jsl/1164060461",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "n-genericity",
+        "weak-n-genericity",
+        "genericity-hierarchy",
+        "category-vs-measure"
+      ],
+      "aliases_search_terms": [
+        "n-generic weakly n-generic",
+        "properly n-generic",
+        "genericity hierarchy"
+      ],
+      "definitions": [
+        "DEF-0040",
+        "DEF-0041"
+      ],
+      "theorems": [
+        "THM-0042"
+      ],
+      "questions": [],
+      "priority_relevance": "Later primary source giving exact n-generic/weak-n-generic syntax and explicitly recording Kurtz's interleaving hierarchy.",
+      "notes": "An author-hosted copy matched to Journal of Symbolic Logic metadata was visually and textually inspected. The introduction states the Σ^0_n string-set formulation of n-genericity, defines weak n-genericity as meeting every dense Σ^0_n set of strings, and records the strict interleaving attributed to Kurtz.",
+      "inspected_material": [
+        "author-hosted full text",
+        "introduction",
+        "§1.1 notation and terminology",
+        "publisher metadata"
+      ],
+      "pointers": [
+        "Introduction, printed p. 1",
+        "§1.1, printed pp. 2-3",
+        "JSL 71(4) (2006), 1385-1393"
+      ],
+      "cross_links": [
+        "SRC-0039",
+        "SRC-0040",
+        "SRC-0042"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Separates 1-/n-genericity from weak n-genericity and prevents importing the repository's weak-n-randomness indexing into the category hierarchy."
     }
   ]
 }
