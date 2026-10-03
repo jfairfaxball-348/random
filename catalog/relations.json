@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S006",
+  "session": "P1-S007",
   "records": [
     {
       "id": "REL-0001",
@@ -568,6 +568,86 @@
         }
       ],
       "caution": "This is a source-stated category-to-measure comparison. It does not identify the smallness frameworks or justify analogous implications at other levels."
+    },
+    {
+      "id": "REL-0038",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0042",
+      "to": "DEF-0043",
+      "statement": "For reals α∈(0,1], α is left-c.e. iff α is the halting probability of some prefix-free/self-delimiting partial computable machine.",
+      "support": [
+        {
+          "source": "SRC-0046",
+          "theorem": "THM-0047",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The witnessing machine need not be universal, so this equivalence carries no randomness conclusion."
+    },
+    {
+      "id": "REL-0039",
+      "type": "CHARACTERIZATION_BY_PROPERTIES",
+      "from": "DEF-0044",
+      "to": "property:left-c.e.-and-martin-lof-random",
+      "statement": "Chaitin Ω-numbers are exactly the Martin-Löf-random left-c.e. reals in the unit interval.",
+      "support": [
+        {
+          "source": "SRC-0047",
+          "theorem": "THM-0048",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0046",
+          "theorem": "THM-0048",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The characterization requires both left-c.e. approximation and Martin-Löf randomness and requires the witnessing machine to be universal."
+    },
+    {
+      "id": "REL-0040",
+      "type": "IMPLICATION",
+      "from": "DEF-0044",
+      "to": "DEF-0042",
+      "statement": "Every Chaitin Ω-number is left-c.e.",
+      "support": [
+        {
+          "source": "SRC-0045",
+          "theorem": "THM-0046",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0046",
+          "theorem": "THM-0046",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0047",
+          "theorem": "THM-0046",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The converse fails without the additional Martin-Löf-randomness hypothesis; see REL-0039."
+    },
+    {
+      "id": "REL-0041",
+      "type": "IMPLICATION",
+      "from": "DEF-0044",
+      "to": "DEF-0002",
+      "statement": "The binary expansion of every Chaitin Ω-number is Martin-Löf random.",
+      "support": [
+        {
+          "source": "SRC-0046",
+          "theorem": "THM-0046",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0047",
+          "theorem": "THM-0046",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The conclusion is about the infinite binary expansion of Ω_U, not the finite program strings in dom(U); the expansion convention is DEF-0045."
     }
   ]
 }
