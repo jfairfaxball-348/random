@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "session": "P1-S001",
+  "records": [
+    {
+      "id": "THM-0001",
+      "name": "Prefix-free incompressibility characterization of Martin-Löf randomness",
+      "statement": "For an infinite binary sequence X, X is Martin-Löf random iff there is a constant c such that for every n, K(X↾n) ≥ n-c.",
+      "hypotheses": [
+        "X is an infinite binary sequence",
+        "K is prefix-free Kolmogorov complexity for a fixed optimal prefix-free machine"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0007",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4; survey attributes the result to Schnorr/Levin"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0011"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0002",
+      "name": "Basic strict hierarchy: Martin-Löf, computable, Schnorr randomness",
+      "statement": "Martin-Löf randomness implies computable randomness, which implies Schnorr randomness, and neither implication reverses.",
+      "hypotheses": [
+        "standard fair-coin Cantor-space versions of the notions in SRC-0007"
+      ],
+      "direction": "two strict implications",
+      "source_support": [
+        {
+          "source": "SRC-0007",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0003",
+        "DEF-0004"
+      ],
+      "relations": [
+        "REL-0001",
+        "REL-0002"
+      ]
+    },
+    {
+      "id": "THM-0003",
+      "name": "Low for Martin-Löf randomness iff K-trivial",
+      "statement": "A set A is low for Martin-Löf randomness iff A is K-trivial.",
+      "hypotheses": [
+        "A is a set/real in the standard computability-theoretic setting"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0009",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0007",
+        "DEF-0008"
+      ],
+      "relations": [
+        "REL-0003"
+      ]
+    },
+    {
+      "id": "THM-0004",
+      "name": "Bases for 1-randomness are exactly K-trivial sets",
+      "statement": "A set B is a base for 1-randomness iff B is K-trivial.",
+      "hypotheses": [
+        "base is in the sense of DEF-0009",
+        "1-randomness denotes Martin-Löf randomness in the source's context"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint abstract, p. 1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0008",
+        "DEF-0009"
+      ],
+      "relations": [
+        "REL-0004"
+      ]
+    },
+    {
+      "id": "THM-0005",
+      "name": "Universal uniform randomness test on computable metric spaces",
+      "statement": "Every computable metric space admits a universal uniform randomness test in the Hoyrup-Rojas framework.",
+      "hypotheses": [
+        "space is a computable metric space",
+        "probability measures and tests use the representations/effectivity framework of SRC-0011"
+      ],
+      "direction": "existence",
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "publisher abstract plus preprint pp. 18-19"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0006"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0006",
+      "name": "Schnorr randomness characterized by typicality for mixing computable dynamics",
+      "statement": "In the computable-probability-space framework developed by Gács, Hoyrup and Rojas, a point is Schnorr random iff it is typical for every mixing computable dynamics.",
+      "hypotheses": [
+        "computable probability space and the authors' effective dynamical notions"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "journal/arXiv abstract"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0003"
+      ],
+      "relations": [
+        "REL-0006"
+      ]
+    },
+    {
+      "id": "THM-0007",
+      "name": "No-randomness-from-nothing separates computable from Schnorr randomness",
+      "statement": "For almost-everywhere computable measure-preserving transformations on Cantor space, the no-randomness-from-nothing property holds for computable randomness but does not hold for Schnorr randomness.",
+      "hypotheses": [
+        "F:2^N→2^N is almost-everywhere computable and measure-preserving, in the setting of SRC-0015"
+      ],
+      "direction": "property holds / fails",
+      "source_support": [
+        {
+          "source": "SRC-0015",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0003",
+        "DEF-0004"
+      ],
+      "relations": [
+        "REL-0007"
+      ]
+    },
+    {
+      "id": "THM-0008",
+      "name": "Martin-Löf randomness and the joint conservation/no-randomness-from-nothing property",
+      "statement": "The results summarized in SRC-0015 imply that the Martin-Löf randoms form the largest subset of 2^N satisfying both no-randomness-from-nothing and randomness conservation for the almost-everywhere computable measure-preserving maps considered there.",
+      "hypotheses": [
+        "Cantor-space setting and map class of SRC-0015"
+      ],
+      "direction": "maximality characterization stated in source abstract",
+      "source_support": [
+        {
+          "source": "SRC-0015",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002"
+      ],
+      "relations": [
+        "REL-0008"
+      ]
+    },
+    {
+      "id": "THM-0009",
+      "name": "Martin-Löf random sequences have constructive dimension 1",
+      "statement": "Every Martin-Löf random infinite binary sequence has constructive dimension 1.",
+      "hypotheses": [
+        "constructive dimension as developed in SRC-0013"
+      ],
+      "direction": "implication",
+      "source_support": [
+        {
+          "source": "SRC-0013",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002"
+      ],
+      "relations": [
+        "REL-0005"
+      ]
+    },
+    {
+      "id": "THM-0010",
+      "name": "Kolmogorov-complexity characterization of constructive dimension",
+      "statement": "For an infinite binary sequence S, its constructive dimension is the limit inferior of the average prefix-free Kolmogorov complexity of its first n bits: dim(S)=liminf_n K(S↾n)/n.",
+      "hypotheses": [
+        "constructive dimension and prefix-free K in the standard setting of the cited work"
+      ],
+      "direction": "equality/characterization",
+      "source_support": [
+        {
+          "source": "SRC-0013",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "abstract explicitly attributes this theorem to Mayordomo"
+        },
+        {
+          "source": "SRC-0014",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "primary paper title/abstract context"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0011"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0011",
+      "name": "Dense Martin-Löf-random subsequences of KL-random sequences",
+      "statement": "Every Kolmogorov-Loveland random sequence has arbitrarily dense subsequences that are Martin-Löf random.",
+      "hypotheses": [
+        "KL-randomness and subsequence density as in SRC-0018"
+      ],
+      "direction": "implication/existence",
+      "source_support": [
+        {
+          "source": "SRC-0018",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0006A",
+        "DEF-0002"
+      ],
+      "relations": []
+    }
+  ]
+}
