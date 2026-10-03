@@ -1,9 +1,9 @@
 # Phase 1 — Research / Catalogue
 
-Status: **CLOSED**
+Status: **OPEN / IN PROGRESS**
 
-Do not begin until authoritative state opens Phase 1.
+Phase 1 is authorized and active under `authoritative/STATE.json`. P1-S001 through P1-S003 are completed. Gate 1 remains CLOSED / NOT READY FOR REVIEW; Phases 2–5 remain CLOSED.
 
 Purpose: conduct the extensive literature/status research and construct the durable agent-searchable catalogue described by the roadmap and Gate 1 criteria.
 
-This folder will later hold Phase-1 session records, coverage plans, search logs, synthesis records and the final coverage/gate audit. The actual structured catalogue lives in `catalog/`.
+Session close records live in `phase1/`; structured catalogue state lives in `catalog/`. Always pin live `main` and read the authoritative entry point before a new bounded session.
