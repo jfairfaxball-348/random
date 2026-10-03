@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S006",
+  "session": "P1-S007",
   "checked_on": "2026-10-03",
   "records": [
     {
@@ -2664,6 +2664,241 @@
       ],
       "checked_on": "2026-10-03",
       "exact_relevance": "Separates 1-/n-genericity from weak n-genericity and prevents importing the repository's weak-n-randomness indexing into the category hierarchy."
+    },
+    {
+      "id": "SRC-0045",
+      "title": "A Theory of Program Size Formally Identical to Information Theory",
+      "authors": [
+        "Gregory J. Chaitin"
+      ],
+      "author_ids": [
+        "AUT-0004"
+      ],
+      "year": 1975,
+      "source_type": "journal_article",
+      "doi": "10.1145/321892.321894",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1145/321892.321894",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "algorithmic-information",
+        "self-delimiting-programs",
+        "prefix-free-complexity",
+        "finite-strings",
+        "infinite-sequences",
+        "halting-probability",
+        "chaitin-omega"
+      ],
+      "aliases_search_terms": [
+        "Chaitin 1975 program size",
+        "self-delimiting programs",
+        "probability that U halts",
+        "Chaitin Omega",
+        "A Theory of Program Size"
+      ],
+      "definitions": [
+        "DEF-0011",
+        "DEF-0044",
+        "DEF-0045"
+      ],
+      "theorems": [
+        "THM-0045",
+        "THM-0046"
+      ],
+      "questions": [],
+      "priority_relevance": "Original primary source for the self-delimiting program-size framework used here, the finite/infinite complexity distinction, and Chaitin's halting-probability construction.",
+      "notes": "Bibliographic identity was cross-checked against IBM Research and DOI metadata (JACM 22(3), 329-340). Statement inspection used the article as reprinted in Chaitin's collected papers, not a reconstructed secondary summary. This source is distinct from SRC-0004 (1966) and from the 1969 'Statistical Considerations' continuation preserved in FL-002.",
+      "inspected_material": [
+        "IBM Research metadata and abstract",
+        "full article reprint in Chaitin's collected papers",
+        "Theorem 4.2 and the following Definition of Randomness/Remark",
+        "Definition of Base-Two Representations",
+        "Definition of the Probability ω that U Halts",
+        "Theorem 4.3"
+      ],
+      "pointers": [
+        "Journal of the ACM 22(3) (1975), 329-340",
+        "reprint: Theorem 4.2 and Definition of Randomness, printed p. 215",
+        "reprint: base-two representation, halting probability and Theorem 4.3, printed p. 216"
+      ],
+      "cross_links": [
+        "SRC-0004",
+        "SRC-0007",
+        "SRC-0046",
+        "SRC-0047"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Statement-level original source distinguishing finite-string maximal self-delimiting complexity from the sharp infinite-sequence initial-segment criterion and constructing a random lower-approximable halting probability for the standard optimal universal self-delimiting computer.",
+      "inspected_claims": [
+        "Theorem 4.2 gives max H(s) over strings of length n as n+H(n)+O(1), and the following text treats finite-string randomness as closeness to this maximum rather than a sharp finite dichotomy.",
+        "The same Definition of Randomness says an infinite string α is random iff there is a constant c such that H(α↾n)>n-c for every n, and the following note states equivalence with Martin-Löf's statistical definition.",
+        "Programs in this framework are self-delimiting; the paper's abstract explicitly explains this as no program being a prefix of another.",
+        "The halting probability ω of the standard optimal universal computer U is the sum of 2^{-|p|} over halting programs; Theorem 4.3 gives a recursive increasing rational approximation to ω and states that ω is random.",
+        "The paper fixes a base-two representation convention for reals in (0,1] by choosing the unique expansion with infinitely many 1s."
+      ]
+    },
+    {
+      "id": "SRC-0046",
+      "title": "Recursively Enumerable Reals and Chaitin Ω Numbers",
+      "authors": [
+        "Cristian S. Calude",
+        "Peter H. Hertling",
+        "Bakhadyr Khoussainov",
+        "Yongge Wang"
+      ],
+      "author_ids": [
+        "AUT-0049",
+        "AUT-0050",
+        "AUT-0051",
+        "AUT-0031"
+      ],
+      "year": 2001,
+      "source_type": "journal_article",
+      "doi": "10.1016/S0304-3975(99)00159-0",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/S0304-3975(99)00159-0",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "recursively-enumerable-reals",
+        "left-c.e.-reals",
+        "self-delimiting-machines",
+        "prefix-free-machines",
+        "halting-probability",
+        "chaitin-omega",
+        "martin-lof-randomness",
+        "solovay-domination"
+      ],
+      "aliases_search_terms": [
+        "r.e. real",
+        "recursively enumerable real",
+        "left-c.e. real",
+        "lower semicomputable real",
+        "Chaitin Omega numbers",
+        "Omega-like"
+      ],
+      "definitions": [
+        "DEF-0042",
+        "DEF-0043",
+        "DEF-0044",
+        "DEF-0045"
+      ],
+      "theorems": [
+        "THM-0046",
+        "THM-0047",
+        "THM-0048"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary theorem paper giving exact approximation and prefix-free-code characterizations of r.e. (modern left-c.e.) reals and the Ω-like/universal-halting-probability characterization.",
+      "notes": "Publisher metadata and a coauthor-hosted publisher-version PDF were statement-inspected. The paper uses the historical term 'r.e. real'; P1-S007 records 'left-c.e.' as the modern normalization without changing the underlying one-sided computable approximation definition. The published text's added note records Slaman's result that random r.e. reals coincide with Ω numbers.",
+      "inspected_material": [
+        "ScienceDirect metadata/abstract",
+        "coauthor-hosted publisher-version full text",
+        "§3 definitions and Theorems 3.2-3.4",
+        "§4 definition and Theorem 4.1",
+        "§6 Theorems 6.5-6.6",
+        "§7 added note on random r.e. reals"
+      ],
+      "pointers": [
+        "Theoretical Computer Science 255 (2001), 125-149",
+        "Theorem 3.4, printed p. 130",
+        "Theorem 4.1 and footnote on domains of self-delimiting machines, printed p. 132",
+        "Theorems 6.5-6.6, printed p. 144",
+        "added note, printed p. 147"
+      ],
+      "cross_links": [
+        "SRC-0045",
+        "SRC-0047"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact statement-level source for the modern left-c.e./historical r.e. real approximation convention, realization by prefix-free halting probabilities, universality conditions for Ω, and representation qualifications.",
+      "inspected_claims": [
+        "A real is r.e. iff it is the limit of a recursive nondecreasing rational sequence; Theorem 4.1 gives equivalent lower-cut and prefix-free-code formulations.",
+        "The paper notes that prefix-free r.e. sets are exactly domains of self-delimiting Turing machines, so the prefix-free-code form realizes r.e. reals in (0,1] as halting probabilities of not-necessarily-universal self-delimiting machines.",
+        "For every universal self-delimiting machine U, Ω_U is random (Theorem 3.4), with its increasing rational approximation displayed in the proof.",
+        "Theorems 6.5-6.6 identify Ω-like reals in the unit interval with halting probabilities of universal self-delimiting machines.",
+        "The published added note states that Slaman showed every r.e. random real is Ω-like and hence, by Theorem 6.6, r.e. random reals coincide with Ω numbers.",
+        "The paper explicitly notes that the Ω binary expansion is unique because Ω is random and therefore irrational."
+      ]
+    },
+    {
+      "id": "SRC-0047",
+      "title": "Randomness and Recursive Enumerability",
+      "authors": [
+        "Antonín Kučera",
+        "Theodore A. Slaman"
+      ],
+      "author_ids": [
+        "AUT-0016",
+        "AUT-0048"
+      ],
+      "year": 2001,
+      "source_type": "journal_article",
+      "doi": "10.1137/S0097539799357441",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1137/S0097539799357441",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "martin-lof-randomness",
+        "finite-strings",
+        "infinite-sequences",
+        "self-delimiting-complexity",
+        "recursively-enumerable-reals",
+        "left-c.e.-reals",
+        "halting-probability",
+        "chaitin-omega",
+        "solovay-domination"
+      ],
+      "aliases_search_terms": [
+        "random r.e. real",
+        "random left-c.e. real",
+        "Omega numbers",
+        "Chaitin universal",
+        "sequential Martin-Lof test"
+      ],
+      "definitions": [
+        "DEF-0002",
+        "DEF-0042",
+        "DEF-0043",
+        "DEF-0044",
+        "DEF-0045"
+      ],
+      "theorems": [
+        "THM-0001",
+        "THM-0045",
+        "THM-0046",
+        "THM-0048"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary theorem paper proving that recursively enumerable random reals are exactly Ω-numbers and explicitly separating finite strings, infinite sequences and real-number binary representations.",
+      "notes": "SIAM metadata and an author-hosted full paper were statement-inspected. The paper uses 'recursively enumerable real' rather than the later term 'left-c.e. real'. Its Martin-Löf tests are explicitly said to apply to infinite binary sequences ('sequential' tests), distinguished from tests applied to finite strings.",
+      "inspected_material": [
+        "SIAM metadata/abstract",
+        "author-hosted full paper",
+        "§1.1 Definitions 1.1, 1.4, Convention 1.5, Definitions 1.6 and 1.8, Theorem 1.9",
+        "§1.2 Definitions 1.10 and 1.12, Theorems 1.14-1.15",
+        "Theorem 2.1"
+      ],
+      "pointers": [
+        "SIAM Journal on Computing 31(1) (2001), 199-211",
+        "printed pp. 199-201, Definitions 1.1-1.12 and Theorems 1.9-1.15",
+        "printed p. 202, Theorem 2.1"
+      ],
+      "cross_links": [
+        "SRC-0007",
+        "SRC-0045",
+        "SRC-0046"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact primary characterization that random left-c.e./r.e. reals are precisely Ω numbers, together with the object-domain and binary-representation conventions needed to avoid finite-string/infinite-sequence conflation.",
+      "inspected_claims": [
+        "Σ* is the set of finite binary sequences and Σ^ω the set of infinite binary sequences; the paper maps each to binary rationals/reals and says it will refer to elements of R and Σ^ω as real numbers under this convention.",
+        "The paper explicitly says its Martin-Löf tests are applied to infinite binary sequences and calls them sequential tests to distinguish them from tests applied to finite strings.",
+        "For a self-delimiting partial recursive function f, the halting probability is Σ_{f(a)↓}2^{-|a|}; self-delimiting means distinct domain strings are prefix-incompatible.",
+        "A Chaitin-universal self-delimiting function is optimal up to an additive complexity constant, and a Chaitin Ω-number is the halting probability of such a universal function.",
+        "Every Ω-number is Chaitin-random; Chaitin randomness is equivalent here to Martin-Löf randomness via Definition 1.8, the preceding converse statement and Theorem 1.9.",
+        "Definition 1.12 gives recursive enumerability by nondecreasing computable approximation; Ω-numbers are examples.",
+        "Theorem 2.1 plus Theorem 1.15 yields the paper's stated conclusion that recursively enumerable random reals are exactly the Ω-numbers."
+      ]
     }
   ]
 }
