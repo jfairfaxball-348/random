@@ -84,3 +84,30 @@ Primary statements now support the local strict chain `weak 2 → Martin-Löf �
 - No statement-level copy of Schnorr's 1971 original book/article was reliably inspected.
 - No statement-level copy of Kurtz's 1981 thesis was obtained.
 - Demuth originals and other stronger notions were intentionally outside this bounded session.
+
+
+## P1-S003 — 2026-10-03
+
+Scope: primary-source consolidation of relative/oracle randomness, exact relativization conventions, van Lambalgen statements, and the n-random/weak-n bridge. Search failure is not treated as nonexistence.
+
+### Primary/strong sources inspected
+- SRC-0030 (Downey–Hirschfeldt–Miller–Nies) supplies an exact fair-coin A-Martin-Löf-test definition, the convention n-random = Martin-Löf random relative to ∅^(n−1), and a two-part van Lambalgen statement.
+- SRC-0010 was upgraded within its existing record: Definition 1.7 and the following paragraph give the exact A-computable-martingale definition of computable randomness relative to A and the general low-for-R convention.
+- SRC-0031 (Franklin–Stephan–Yu) gives statement-level martingale/rate formulations of Schnorr and Kurtz randomness relative to A.
+- SRC-0032 (Miyabe–Rute) defines uniformly relative Schnorr/computable randomness and proves the exact uniform-relative van-Lambalgen statements recorded in THM-0023/THM-0024; Corollary 5.4 separates uniform from ordinary relative computable randomness.
+- SRC-0033 is van Lambalgen's 1990 *The Axiomatization of Randomness*. Its Section 5 was visually statement-inspected at Definitions/Theorems 5.3, 5.9 and 5.10.
+
+### Convention reconciliation
+1. Martin-Löf: ordinary oracle relativization uses uniformly A-c.e. test components; SRC-0032 states its uniform-relative variant coincides with ordinary relative ML randomness.
+2. n-randomness: the inspected convention is ML-randomness relative to ∅^(n−1). This is now explicit in DEF-0020 and is the convention used to read the n-random side of the P1-S002 weak-n sandwich.
+3. Schnorr/computable: ordinary oracle relativization must not be collapsed with Miyabe–Rute uniform relativization. The latter uses a single total computable family whose oracle instance supplies the test/martingale.
+4. van Lambalgen: THM-0021 is recorded only in fair-coin Cantor space. SRC-0032 uses even/odd interleaving for `A⊕B`. The uniform Schnorr theorem is asymmetric like the ML theorem; the computable-randomness theorem inspected here is the weaker symmetric mutual-relative form.
+5. Kurtz: SRC-0031 supplies an ordinary oracle martingale/rate formulation. No generalized-measure oracle-Kurtz normalization is inferred.
+
+### Retrieval/provenance correction
+The P1-S002 coverage note treated the already catalogued 1987 SRC-0020 as if it were the uninspected source of the central van Lambalgen relativization theorem. Exact citation following showed that the original source used by the later theorem literature is the 1990 SRC-0033. The 1987 record remains valid for its own selection-rule/statistical-test topic but is no longer used as the theorem anchor.
+
+### Remaining access gaps
+- The original Merkle et al. counterexample paper behind failure of the naive forward van-Lambalgen direction for ordinary Schnorr/computable randomness was not separately statement-inspected; SRC-0032's explicit report is retained without manufacturing a new strictness record from definitions.
+- Arbitrary computable measures/spaces were outside this bounded fair-coin relativization pass.
+- Broader lowness/base/traceability families were intentionally not surveyed beyond exact cross-links needed here.
