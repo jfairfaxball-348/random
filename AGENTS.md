@@ -4,9 +4,13 @@
 
 Read `authoritative/START_HERE.md` first. The committed repository is authoritative. Conversation history, model memory and pasted prompts are not research authority. If they conflict with live committed authority, stop and reconcile the mismatch before substantive work.
 
-## Current bootstrap restriction
+## Current phase restriction
 
-The repository is presently **SCAFFOLD-ONLY**. No research phase is open. Until `authoritative/STATE.json` explicitly opens Phase 1, agents may validate or improve scaffolding only. They must not perform literature research, gap discovery, novelty assessment, mathematical proof search, formalisation, Palomar registration, paper drafting or submission work.
+Phase 1 — **Research / Catalogue** — is OPEN by explicit owner authorization recorded on 2026-10-03. Phases 2–5 remain CLOSED.
+
+Phase-1 work may build the durable literature catalogue, coverage map, definitions, theorem/characterization records, relation records, author/topic indexes, status-question records and search logs. It must not perform candidate invention or selection, dedicated novelty/prior-art audits of hypothetical new notions, original mathematical investigation, Lean formalisation, Palomar registration, manuscript/publication work or external outreach.
+
+Opening Phase 1 is not a PASS of the Phase 1 -> Phase 2 gate.
 
 ## Programme objective
 
