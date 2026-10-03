@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S005",
+  "session": "P1-S006",
   "records": [
     {
       "id": "REL-0001",
@@ -503,6 +503,71 @@
       "hypotheses": [
         "measure is atomless"
       ]
+    },
+    {
+      "id": "REL-0034",
+      "type": "IMPLICATION",
+      "from": "DEF-0039",
+      "to": "DEF-0038",
+      "statement": "Every 1-generic real is weakly 1-generic.",
+      "support": [
+        {
+          "source": "SRC-0031",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "genericity discussion/Property 1.2; weak 1-genericity is presented as a generalization of 1-genericity"
+        },
+        {
+          "source": "SRC-0044",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "meet-or-avoid versus dense-meeting definitions in the introduction"
+        }
+      ],
+      "caution": "P1-S006 records only implication here; no same-level strictness claim is promoted without a separately inspected source statement."
+    },
+    {
+      "id": "REL-0035",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0041",
+      "to": "DEF-0040",
+      "statement": "For n≥1, (n+1)-genericity strictly implies weak (n+1)-genericity.",
+      "support": [
+        {
+          "source": "SRC-0044",
+          "theorem": "THM-0042",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This relation is parameter-shifted exactly as stated; it does not collapse the two genericity hierarchies."
+    },
+    {
+      "id": "REL-0036",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0040",
+      "to": "DEF-0041",
+      "statement": "For n≥1, weak (n+1)-genericity strictly implies n-genericity.",
+      "support": [
+        {
+          "source": "SRC-0044",
+          "theorem": "THM-0042",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The target index is n while the source index is n+1."
+    },
+    {
+      "id": "REL-0037",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0038",
+      "to": "DEF-0013",
+      "statement": "Weak 1-genericity strictly implies Kurtz randomness (weak 1-randomness).",
+      "support": [
+        {
+          "source": "SRC-0041",
+          "theorem": "THM-0043",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This is a source-stated category-to-measure comparison. It does not identify the smallness frameworks or justify analogous implications at other levels."
     }
   ]
 }
