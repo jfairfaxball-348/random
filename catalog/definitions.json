@@ -166,7 +166,7 @@
       ]
     },
     {
-      "id": "DEF-0006A",
+      "id": "DEF-0012",
       "name": "Kolmogorov–Loveland randomness",
       "object_domain": "infinite binary sequence",
       "effective_resources": "computable non-monotonic betting strategies that may choose which bit to bet on next",
