@@ -241,3 +241,39 @@ Scope: primary-source consolidation of COV-0015, restricted to finite-string ver
 
 ### Bounded exclusions
 No Fairfax-Ball candidate was invented or selected; no Phase-2 target selection or dedicated novelty audit was performed; no original mathematics or proof search beyond understanding published statements was performed; no Lean/Palomar work, manuscript/publication preparation or external outreach was performed.
+
+## P1-S008 — Pseudorandomness / resource-bounded / derandomization boundary
+
+Date: 2026-10-04
+
+Bounded objective: consolidate COV-0016 only deeply enough to prevent conflation of unbounded individual algorithmic randomness, finite-string distributional pseudorandomness, resource-bounded individual-sequence randomness, and algorithmic derandomization. No general cryptography/complexity survey was attempted.
+
+### Primary-source searches and inspections
+
+- **Yao 1982, _Theory and Applications of Trapdoor Functions_.** DOI/proceedings metadata were cross-checked and an accessible scan of the actual FOCS paper was inspected. The printed p. 84 passage explicitly separates “what is a random sequence?” (a property of a single sequence) from pseudorandom number generation. Definitions 10–14 give the source-ensemble / polynomial-statistical-test setup, and Theorem 3 gives the paper's perfect-source iff every-polynomial-test characterization. Promoted as `SRC-0048`, supporting `DEF-0046`, `DEF-0047`, and `THM-0049`.
+- **Håstad–Impagliazzo–Levin–Luby 1999, _A Pseudorandom Generator from any One-way Function_.** SIAM bibliographic metadata/abstract were cross-checked; Håstad's author-hosted full paper was statement-inspected. Definitions 2.3.7–2.3.8 fix probability ensembles/P-samplability; Definitions 3.3.1–3.3.3 fix bounded-adversary computational indistinguishability and the P-time stretching PRG definition. Promoted as `SRC-0049`, supporting `DEF-0046`, `DEF-0047`, and `REL-0042`.
+- **Nisan–Wigderson 1994, _Hardness vs. Randomness_.** JCSS metadata/abstract were checked. The authors' 1988 FOCS extended abstract corresponding to the later journal paper was inspected at the abstract/introduction: a short truly random seed is stretched into a longer string intended to fool algorithms from a stated complexity class, and deterministic simulation is described by trying all seeds. Promoted as `SRC-0050` only for the minimal derandomization boundary; exact journal theorem numbering was not reconstructed from the preliminary version.
+- **Lutz 1992, _Almost Everywhere High Nonuniform Complexity_.** ScienceDirect metadata/abstract and the author-hosted full journal PDF were inspected. Paper pp. 8–9 define `p_i` resource classes and `p=p1`, with `G1` polynomially bounded; Definition 3.18 defines martingale success; Definition 6.1 defines Δ-tests/Δ-randomness; Theorem 6.2 gives Δ-random iff no Δ-computable martingale succeeds. Promoted as `SRC-0051`, supporting `DEF-0048`, `DEF-0049`, `THM-0050`, and `REL-0043`.
+
+### Boundary distinctions fixed
+
+- Yao/HILL computational pseudorandomness is **distributional**: indexed finite-string distributions/ensembles are compared by computationally bounded observers.
+- A PRG's output randomness is the distribution induced by a uniformly random finite seed; no individual output string is thereby catalogued as Martin-Löf/Schnorr/computably random.
+- Lutz Δ-randomness is an **individual infinite-sequence** property whose tests/martingales are resource bounded. For p-randomness the `p` resource is retained explicitly.
+- Complexity-theoretic languages enter the resource-bounded framework through characteristic sequences; this representation is not the same object as a PRG output ensemble.
+- Derandomization is recorded only as the algorithm-simulation problem supported by pseudorandom generators/hardness assumptions; it is not an additional infinite-sequence randomness predicate.
+- No cross-hierarchy implication between p-randomness and the existing unbounded randomness notions was promoted.
+
+### Retrieval failures / formulation hazards
+
+- The IEEE landing route for Yao's original was access-limited; statement inspection therefore used an accessible proceedings scan after DOI/title/page cross-checking. No publisher-only internal claim was inferred.
+- The SIAM landing page for HILL exposes metadata/abstract but not the full internal text in this environment; the exact definitions were inspected in the author-hosted journal paper matched to the SIAM record.
+- For Nisan–Wigderson, the exact journal article metadata and abstract were available, while statement inspection used the authors' FOCS extended abstract. The catalogue does not claim journal theorem-number inspection.
+- **Terminology collision:** Lutz calls time/space-bounded Δ-random individual infinite sequences “pseudorandom sequences,” while Yao/HILL pseudorandomness is an ensemble/generator notion. The collision is recorded rather than normalized.
+- **Historical terminology warning:** Lutz's discussion of `rec`-randomness uses historical Schnorr/weak-randomness terminology. P1-S008 did not promote a fresh edge into the repository's modern weaker-randomness hierarchy from that prose; only the Δ-martingale theorem needed for COV-0016 was recorded.
+
+### Deliberate exclusions
+
+No cryptographic primitive survey beyond the PRG definition; no one-way-function catalogue expansion; no resource-bounded dimension survey; no hardness-amplification survey; no extractor/sampler survey; no BPP landscape audit; no transfer from generalized measure, genericity, Ω/left-c.e. or oracle randomness; no Fairfax-Ball candidate definition/selection; no novelty audit; no original mathematics; no formalization/manuscript/outreach work.
+
+Result: `COV-0016` becomes `PARTIAL_P1_S008`. Boundary depth is sufficient for this bounded session, but the stratum is not marked complete and Gate 1 is unchanged.
