@@ -49,7 +49,11 @@
         "SRC-0007",
         "SRC-0011"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Seminal primary source for Martin-Löf's effective-test approach to individual infinite sequences.",
+      "inspected_claims": [
+        "Publisher abstract: Kolmogorov-style random elements withstand a universal stochasticity test; for infinite binary sequences the nonrandom sequences form a maximal constructive null set."
+      ]
     },
     {
       "id": "SRC-0002",
@@ -96,7 +100,11 @@
         "SRC-0020",
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary historical source imposing effective calculability on admissible selection rules.",
+      "inspected_claims": [
+        "Primary statement: Church's effective selection-rule formulation on p. 134, requiring retained limiting frequency under every admissible effectively calculable infinite place selection."
+      ]
     },
     {
       "id": "SRC-0003",
@@ -139,7 +147,9 @@
         "SRC-0004",
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Foundational primary source for algorithmic-information/complexity approaches.",
+      "inspected_claims": []
     },
     {
       "id": "SRC-0004",
@@ -184,7 +194,11 @@
         "SRC-0003",
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Early primary source connecting description length of finite binary sequences with patternlessness/randomness.",
+      "inspected_claims": [
+        "Abstract: program length for finite binary sequences is studied and proposed as a route to defining patternless sequences."
+      ]
     },
     {
       "id": "SRC-0005",
@@ -232,7 +246,11 @@
         "SRC-0006",
         "SRC-0009"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Authoritative monograph spanning Martin-Löf variants, lowness, betting, and higher randomness.",
+      "inspected_claims": [
+        "Publisher abstract and contents: monograph explicitly treats Martin-Löf randomness/variants, lowness/K-triviality, betting, and higher randomness."
+      ]
     },
     {
       "id": "SRC-0006",
@@ -278,7 +296,9 @@
         "SRC-0005",
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Comprehensive monograph and navigation source for the field.",
+      "inspected_claims": []
     },
     {
       "id": "SRC-0007",
@@ -340,7 +360,16 @@
         "SRC-0008",
         "SRC-0018"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Compact authoritative survey used in P1-S001 to normalize core definitions and the basic strict hierarchy while primary-source acquisition continues.",
+      "inspected_claims": [
+        "Preprint p. 1: Borel normality definition.",
+        "Preprint p. 3: Martin-Löf test and passing-all-tests definition.",
+        "Preprint p. 4: prefix-free K characterization of Martin-Löf randomness.",
+        "Preprint p. 4: martingale fairness/success formulation.",
+        "Preprint p. 4: Schnorr and computable randomness descriptions and strict chain ML -> computable -> Schnorr.",
+        "Preprint p. 4: weak-2 randomness described as intermediate between Martin-Löf and 2-randomness."
+      ]
     },
     {
       "id": "SRC-0008",
@@ -383,7 +412,12 @@
       "cross_links": [
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary research source on Schnorr randomness and machine characterizations.",
+      "inspected_claims": [
+        "Abstract: c.e. Schnorr-random non-Martin-Löf-random reals exist.",
+        "Abstract: a prefix-free-machine characterization of Schnorr randomness is proved (exact statement not yet inspected)."
+      ]
     },
     {
       "id": "SRC-0009",
@@ -432,7 +466,14 @@
         "SRC-0010",
         "SRC-0021"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary source for the equivalence between lowness for Martin-Löf randomness and K-triviality.",
+      "inspected_claims": [
+        "Abstract: definition of low for Martin-Löf randomness.",
+        "Abstract: definition of K-triviality via K(A↾n) ≤ K(n)+O(1).",
+        "Abstract: low for Martin-Löf randomness iff K-trivial.",
+        "Abstract: every set low for computable randomness is computable."
+      ]
     },
     {
       "id": "SRC-0010",
@@ -484,7 +525,13 @@
       "cross_links": [
         "SRC-0009"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary source introducing/using bases for randomness and characterizing bases for 1-randomness.",
+      "inspected_claims": [
+        "Preprint abstract: definition of base for R-randomness.",
+        "Preprint abstract: bases for 1-randomness are exactly K-trivial sets.",
+        "Preprint abstract: stated bounds/results for bases for computable randomness."
+      ]
     },
     {
       "id": "SRC-0011",
@@ -536,7 +583,14 @@
         "SRC-0012",
         "SRC-0001"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary source extending effective measure/randomness machinery beyond Cantor space.",
+      "inspected_claims": [
+        "Preprint pp. 18-19: effective μ-null tests/random points on Cantor space.",
+        "Preprint pp. 18-19: uniform lower-semicomputable integral-test formulation.",
+        "Preprint pp. 18-19: universal uniform test statement.",
+        "Abstract: computable metric spaces with computable probability measure are computably/measure-theoretically isomorphic to Cantor space in the paper's sense."
+      ]
     },
     {
       "id": "SRC-0012",
@@ -587,7 +641,11 @@
       "cross_links": [
         "SRC-0011"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary bridge between computable probability spaces, Schnorr randomness and effective dynamics.",
+      "inspected_claims": [
+        "Abstract: Schnorr random iff typical for every mixing computable dynamics in the developed computable-probability-space framework."
+      ]
     },
     {
       "id": "SRC-0013",
@@ -636,7 +694,14 @@
       "cross_links": [
         "SRC-0014"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary source developing constructive dimension for individual infinite sequences and finite strings.",
+      "inspected_claims": [
+        "Abstract: constructive dimension assigns each infinite binary sequence a value in [0,1].",
+        "Abstract: Martin-Löf random sequences have constructive dimension 1.",
+        "Abstract: sequence dimension is the liminf of dimensions of prefixes and cites Mayordomo's liminf average-K characterization.",
+        "Abstract: a finite-string dimension is developed."
+      ]
     },
     {
       "id": "SRC-0014",
@@ -679,7 +744,12 @@
       "cross_links": [
         "SRC-0013"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary short communication associated with the Kolmogorov-complexity characterization of constructive dimension.",
+      "inspected_claims": [
+        "Abstract/context: constructive dimension augments Martin-Löf randomness and Martin-Löf random sequences have dimension 1.",
+        "Paper is the primary source associated with the Kolmogorov-complexity characterization; exact displayed theorem statement remains to inspect."
+      ]
     },
     {
       "id": "SRC-0015",
@@ -728,7 +798,12 @@
       "cross_links": [
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary modern source clarifying conservation and no-randomness-from-nothing across major notions.",
+      "inspected_claims": [
+        "Abstract: no-randomness-from-nothing holds for computable randomness and fails for Schnorr randomness for almost-everywhere computable measure-preserving maps.",
+        "Abstract: combined results characterize Martin-Löf randoms as the largest subset satisfying both no-randomness-from-nothing and randomness conservation in the stated setting."
+      ]
     },
     {
       "id": "SRC-0016",
@@ -776,7 +851,11 @@
       "cross_links": [
         "SRC-0005"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Historical/technical survey guiding retrieval of Demuth's original notions and sources.",
+      "inspected_claims": [
+        "Abstract: Demuth introduced several effective-null-set notions, including what later became major algorithmic-randomness notions and Demuth randomness; exact definitions were not inspected."
+      ]
     },
     {
       "id": "SRC-0017",
@@ -821,7 +900,11 @@
       "cross_links": [
         "SRC-0005"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Modern survey chapter mapping higher-randomness classes and lowness phenomena.",
+      "inspected_claims": [
+        "Publisher summary: chapter surveys Δ1_1-randomness, Π1_1-Martin-Löf randomness, higher weak-2 randomness, higher difference randomness and Π1_1-randomness, plus lowness/separation themes."
+      ]
     },
     {
       "id": "SRC-0018",
@@ -880,7 +963,14 @@
         "SRC-0019",
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary source defining KL-randomness/stochasticity and explicitly identifying the ML-vs-KL coincidence problem as open.",
+      "inspected_claims": [
+        "Abstract: definition of KL-randomness via computable non-monotonic betting.",
+        "Abstract: definition of KL-stochasticity via computable non-monotonic selection.",
+        "Abstract: explicitly states ML=KL as a major open problem.",
+        "Abstract: every KL-random sequence has arbitrarily dense Martin-Löf-random subsequences."
+      ]
     },
     {
       "id": "SRC-0019",
@@ -925,7 +1015,12 @@
       "cross_links": [
         "SRC-0018"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Recent status-check source explicitly continuing to describe KLR=MLR as a major open problem.",
+      "inspected_claims": [
+        "2025 abstract: explicitly states whether KLR equals MLR remains a major open problem.",
+        "Abstract: KL betting strategies lack a finite-strategy property used for broader betting classes that induce MLR."
+      ]
     },
     {
       "id": "SRC-0020",
@@ -969,7 +1064,11 @@
       "cross_links": [
         "SRC-0002"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary research reassessment of selection-rule and statistical-test approaches.",
+      "inspected_claims": [
+        "Abstract: paper studies the relationship between subsequence-selection definitions and statistical-test definitions; exact theorem statements not inspected."
+      ]
     },
     {
       "id": "SRC-0021",
@@ -1014,7 +1113,12 @@
       "cross_links": [
         "SRC-0009"
       ],
-      "checked_on": "2026-10-03"
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Early primary source showing existence of nonrecursive sets low for the class of random sets.",
+      "inspected_claims": [
+        "Abstract: defines low for RAND by RAND = RAND^A in the paper's notation.",
+        "Abstract: establishes existence of nonrecursive sets low for the class of random sets."
+      ]
     }
   ]
 }
