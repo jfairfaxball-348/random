@@ -1,7 +1,7 @@
 # Phase-1 Catalogue Taxonomy
 
 Status: **ACTIVE / evolving**  
-Last refined: 2026-10-03 in `P1-S005`
+Last refined: 2026-10-03 in `P1-S006`
 
 This taxonomy is a retrieval vocabulary, not a claim that all listed areas are already covered. Use the controlled tag families below in structured records and add aliases/search terms where the literature uses competing terminology.
 
@@ -50,6 +50,10 @@ The object tag matters: finite-string incompressibility is not itself an infinit
 - `notion:balanced-randomness` — weak-Demuth-style tests with O(2^n), equivalently exact 2^n, component-index changes
 - `notion:oberwolfach-randomness` — coherent weak-Demuth moving-component tests
 - `notion:higher-randomness` — navigation only in P1-S001
+- `notion:1-genericity` — Σ^0_1/Cohen-style finite-extension genericity; category framework, not a randomness synonym
+- `notion:weak-1-genericity` — meeting every dense c.e. set of strings; strictly implies Kurtz randomness by an inspected primary statement
+- `notion:n-genericity` — meet-or-avoid every Σ^0_n set of strings
+- `notion:weak-n-genericity` — meet every dense Σ^0_n set of strings; distinct from `notion:weak-n`
 
 Do not use a tag as evidence that a definition/relationship has been verified.
 
@@ -69,7 +73,11 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 - `framework:measure-parameter-uniform-test`
 - `framework:effective-open-set`
 - `framework:lower-semicomputable-integral-test`
-- `framework:effective-category` — coverage pending
+- `framework:effective-category`
+- `framework:effective-meagre-set`
+- `framework:effective-meager-set` — American-spelling retrieval alias for the same category notion
+- `framework:dense-c.e.-open`
+- `framework:finite-extension-genericity`
 
 ## 5. Betting / prediction / selection
 
@@ -180,7 +188,7 @@ Never infer strictness from differing definitions.
 - `interface:computable-analysis`
 - `interface:pseudorandomness` — boundary only
 - `interface:derandomization` — boundary only
-- `interface:genericity-category` — coverage pending
+- `interface:genericity-category` — statement-level P1-S006 coverage; retain category/measure separation
 
 ## 14. Evidence / access
 
@@ -230,6 +238,11 @@ Important query aliases include:
 - `Oberwolfach random` / `coherent moving-component randomness`
 - `Oberwolfach randomness` / `interval-test randomness` / `left-c.e.-bounded randomness` — equivalent source-specific normal forms in SRC-0037
 - `NWAP` / `A_beta` — historical Demuth-era search terms, not context-free modern synonyms
+- `effectively meager` / `effectively meagre`
+- `1-generic` / `Σ^0_1-generic`
+- `weakly 1-generic` / `weak 1-generic`
+- `weakly n-generic` / `weak n-generic`
+- `Cohen genericity` / `finite-extension genericity`
 
 P1-S004 convention guard: Demuth randomness uses **Solovay passing** (membership in only finitely many final components), whereas the inspected balanced and Oberwolfach weak-Demuth tests use ordinary escape from a component. SRC-0035 also uses `n-r.e.` in two different test semantics: its naive string-test hierarchy yields 2-randomness for n≥2, while its neighborhood/difference hierarchy yields difference randomness for n≥2. Preserve the test semantics before normalizing terminology.
 
@@ -244,3 +257,20 @@ The inspected generalized-space sources use **computable metric spaces** with a 
 Every inspected computable probability space has a Cantor-space representation with an **appropriate computable measure** (THM-0033). This is not a fair-coin reduction. The stronger fixed nonatomic/Lebesgue isomorphism in THM-0034 assumes **atomlessness**. Non-full support is permitted in the general machinery; support qualifications must be retained in density/representation statements.
 
 Generalized Martin-Löf and Schnorr randomness are DEF-0033 and DEF-0034. DEF-0002 and DEF-0003 remain fair-coin Cantor-space records. No Demuth/difference/balanced/Oberwolfach result from P1-S004 is transferred to arbitrary measures or spaces without a separately inspected primary statement.
+
+
+## P1-S006 category/genericity convention guard
+
+Category and measure are two different smallness frameworks. In the inspected effective-category source, an effectively meagre set is covered by an effective (F_\sigma) union of uniformly (Pi^0_1) nowhere-dense classes; no probability value occurs in that definition. The same source explicitly presents meagre/null correspondences as an **analogy** whose results may differ. Do not translate a null-set theorem into a meagre-set theorem, or conversely, without a separately inspected statement.
+
+For (X\in2^\omega), weak 1-genericity means meeting every **globally dense c.e.** set of strings. By contrast, the inspected 1-generic definition asks (X) to meet every c.e. set that is **dense along (X)**, equivalently to avoid (V\setminus\operatorname{Int}(V)) for every (Pi^0_1) class (V). These quantifier patterns are not interchangeable.
+
+The higher hierarchy is likewise indexed separately: weakly (n)-generic means meeting every dense (Sigma^0_n) set of strings, while (n)-generic means meeting or avoiding every (Sigma^0_n) set of strings. The inspected primary hierarchy is
+[
+n\text{-generic} \supsetneq \text{weakly }(n+1)\text{-generic} \supsetneq (n+1)\text{-generic}.
+]
+This indexing is unrelated to `notion:weak-n` randomness. Never read “weakly n-generic” as “weakly n-random”.
+
+The one direct P1-S006 category-to-measure bridge is source-stated: every weakly 1-generic real is Kurtz random, and the converse fails. It is recorded as `THM-0043` / `REL-0037`; it does not identify the frameworks or license extrapolation to Martin-Löf, Schnorr, higher weak randomness, or generalized measures.
+
+`SRC-0039` (Jockusch 1980) remains `METADATA_ONLY`, `SRC-0040` (Kurtz 1983) remains `ABSTRACT_INSPECTED` via its publisher extract, and `SRC-0025` (Kurtz 1981 thesis) remains `METADATA_ONLY`. Exact genericity syntax in this pass is therefore supported by later statement-inspected primary sources rather than inferred from inaccessible originals.
