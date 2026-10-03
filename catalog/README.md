@@ -33,3 +33,14 @@ The foundational Jockusch 1980 chapter remains METADATA_ONLY, Kurtz 1983 remains
 The close counts are 44 sources, 41 definitions, 44 theorem/characterization records, 37 relation records, 1 status question, 47 author-navigation records and 19 coverage records. No coverage stratum is yet complete; COV-0019 is PARTIAL_P1_S006.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.
+
+
+## P1-S007 checkpoint
+
+P1-S007 consolidated COV-0015 at primary-source level. The catalogue now distinguishes finite-string self-delimiting incompressibility from infinite-sequence randomness; normalizes historical “r.e. real” to left-c.e. real without adding randomness; separates halting probabilities of arbitrary prefix-free machines from Chaitin Ω-numbers of universal prefix-free machines; records the binary-expansion qualification; and adds exact primary statements that Ω is left-c.e. and Martin-Löf random and that the Martin-Löf-random left-c.e. reals are exactly the Ω-numbers.
+
+Chaitin's 1975 article was statement-inspected through its collected-paper reprint with DOI/IBM metadata cross-checking. SRC-0004 remains abstract-only, the distinct 1969 near-title paper is not conflated with it, and the uninspected Solovay draft remains an explicit provenance gap.
+
+The close counts are 47 sources, 45 definitions, 48 theorem/characterization records, 41 relation records, 1 status question, 51 author-navigation records and 19 coverage records. No coverage stratum is complete; COV-0015, COV-0006 and COV-0018 are updated through P1-S007.
+
+Phase 1 remains materially incomplete and Gate 1 is not ready for review.
