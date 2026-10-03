@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "session": "P1-S001",
+  "records": [
+    {
+      "id": "REL-0001",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0002",
+      "to": "DEF-0004",
+      "statement": "Martin-Löf randomness strictly implies computable randomness.",
+      "support": [
+        {
+          "source": "SRC-0007",
+          "theorem": "THM-0002",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0002",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0004",
+      "to": "DEF-0003",
+      "statement": "Computable randomness strictly implies Schnorr randomness.",
+      "support": [
+        {
+          "source": "SRC-0007",
+          "theorem": "THM-0002",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0003",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0007",
+      "to": "DEF-0008",
+      "statement": "Low for Martin-Löf randomness is equivalent to K-triviality.",
+      "support": [
+        {
+          "source": "SRC-0009",
+          "theorem": "THM-0003",
+          "evidence": "ABSTRACT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0004",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0009",
+      "to": "DEF-0008",
+      "statement": "Being a base for 1-randomness is equivalent to K-triviality.",
+      "support": [
+        {
+          "source": "SRC-0010",
+          "theorem": "THM-0004",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0005",
+      "type": "IMPLICATION",
+      "from": "DEF-0002",
+      "to": "property:constructive-dimension-1",
+      "statement": "Martin-Löf randomness implies constructive dimension 1.",
+      "support": [
+        {
+          "source": "SRC-0013",
+          "theorem": "THM-0009",
+          "evidence": "ABSTRACT_INSPECTED"
+        }
+      ],
+      "caution": "No converse is asserted in P1-S001."
+    },
+    {
+      "id": "REL-0006",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0003",
+      "to": "property:typical-for-every-mixing-computable-dynamics",
+      "statement": "In the Gács-Hoyrup-Rojas computable-probability-space framework, Schnorr randomness is equivalent to typicality for every mixing computable dynamics.",
+      "support": [
+        {
+          "source": "SRC-0012",
+          "theorem": "THM-0006",
+          "evidence": "ABSTRACT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0007",
+      "type": "SEPARATION_BY_PROPERTY",
+      "from": "DEF-0004",
+      "to": "DEF-0003",
+      "statement": "No-randomness-from-nothing holds for computable randomness but fails for Schnorr randomness for the map class in SRC-0015.",
+      "support": [
+        {
+          "source": "SRC-0015",
+          "theorem": "THM-0007",
+          "evidence": "ABSTRACT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0008",
+      "type": "CHARACTERIZATION_BY_PROPERTIES",
+      "from": "DEF-0002",
+      "to": "property:conservation-plus-no-randomness-from-nothing",
+      "statement": "Within the setting summarized by SRC-0015, Martin-Löf randoms are the largest subset satisfying both conservation and no-randomness-from-nothing.",
+      "support": [
+        {
+          "source": "SRC-0015",
+          "theorem": "THM-0008",
+          "evidence": "ABSTRACT_INSPECTED"
+        }
+      ]
+    }
+  ]
+}
