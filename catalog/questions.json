@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "session": "P1-S001",
+  "records": [
+    {
+      "id": "QST-0001",
+      "question": "Does Kolmogorov–Loveland randomness coincide with Martin-Löf randomness?",
+      "status": "SOURCE-STATED OPEN",
+      "source_stating_status": "SRC-0018",
+      "evidence_year": 2006,
+      "status_statement": "SRC-0018's publisher abstract calls whether Martin-Löf randomness is the same as KL-randomness one of the major open problems in effective randomness.",
+      "later_status_check_performed": true,
+      "later_status_sources": [
+        "SRC-0019"
+      ],
+      "later_status_evidence_year": 2025,
+      "later_status_note": "SRC-0019's 2025 publisher abstract explicitly still calls KLR=MLR a major open problem.",
+      "checked_on": "2026-10-03",
+      "current_status_note": "SOURCE-STATED OPEN on the documented 2025 evidence. P1-S001 did not find and does not claim an exhaustive post-2025 resolution search.",
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0006A"
+      ]
+    }
+  ]
+}
