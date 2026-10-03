@@ -23,3 +23,7 @@ Phase-1 records use stable IDs, structured metadata, normalized terms, compact s
 ## D-0006 — Scaffold does not open research
 
 Bootstrap creates only architecture. All research phases remain closed pending explicit owner authorization.
+
+## D-0007 — Owner opens Phase 1
+
+On 2026-10-03 the owner explicitly authorized opening Phase 1 — Research / Catalogue — and P1-S001. Phase 1 may perform bounded literature mapping and catalogue construction. Phases 2–5 remain CLOSED. Candidate invention/selection, dedicated novelty audits, original mathematics, formalisation, publication work and external outreach remain unauthorized. This authorization does not constitute a PASS of the Phase 1 -> Phase 2 gate.
