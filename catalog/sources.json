@@ -1,0 +1,1020 @@
+{
+  "schema_version": 1,
+  "session": "P1-S001",
+  "checked_on": "2026-10-03",
+  "records": [
+    {
+      "id": "SRC-0001",
+      "title": "The definition of random sequences",
+      "authors": [
+        "Per Martin-Löf"
+      ],
+      "author_ids": [
+        "AUT-0001"
+      ],
+      "year": 1966,
+      "source_type": "journal_article",
+      "doi": "10.1016/S0019-9958(66)80018-9",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/S0019-9958(66)80018-9",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "algorithmic-randomness",
+        "martin-lof-randomness",
+        "effective-null-tests",
+        "cantor-space",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "Martin-Löf 1966",
+        "Martin-Lof random",
+        "universal stochasticity test",
+        "constructive null set"
+      ],
+      "definitions": [
+        "DEF-0002"
+      ],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Seminal primary source for Martin-Löf's effective-test approach to individual infinite sequences.",
+      "notes": "Publisher abstract inspected. It states that the infinite-sequence definition yields nonrandom sequences forming a maximal constructive null set and is equivalent to withstanding a universal stochasticity test. Exact internal theorem numbering and proof details remain uninspected in P1-S001.",
+      "inspected_material": [
+        "publisher metadata",
+        "publisher abstract"
+      ],
+      "pointers": [
+        "Information and Control 9(6) (1966), 602-619"
+      ],
+      "cross_links": [
+        "SRC-0007",
+        "SRC-0011"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0002",
+      "title": "On the concept of a random sequence",
+      "authors": [
+        "Alonzo Church"
+      ],
+      "author_ids": [
+        "AUT-0002"
+      ],
+      "year": 1940,
+      "source_type": "journal_article",
+      "doi": "10.1090/S0002-9904-1940-07154-X",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1090/S0002-9904-1940-07154-X",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "selection-rules",
+        "church-randomness",
+        "von-mises",
+        "foundations-history",
+        "infinite-sequences"
+      ],
+      "aliases_search_terms": [
+        "Church random sequence",
+        "place selection",
+        "collective",
+        "von Mises Church"
+      ],
+      "definitions": [
+        "DEF-0001"
+      ],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Primary historical source imposing effective calculability on admissible selection rules.",
+      "notes": "Definition statement inspected in the paper. The programme records Church's own formulation rather than silently identifying every later 'Church stochasticity' convention with it.",
+      "inspected_material": [
+        "full-text definition statement"
+      ],
+      "pointers": [
+        "Bulletin AMS 46(2) (1940), 130-135; definition on p. 134"
+      ],
+      "cross_links": [
+        "SRC-0020",
+        "SRC-0007"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0003",
+      "title": "Three approaches to the definition of the concept “quantity of information”",
+      "authors": [
+        "A. N. Kolmogorov"
+      ],
+      "author_ids": [
+        "AUT-0003"
+      ],
+      "year": 1965,
+      "source_type": "journal_article",
+      "doi": null,
+      "arxiv": null,
+      "stable_locator": "https://www.mathnet.ru/eng/ppi68",
+      "access_level": "METADATA_ONLY",
+      "topics": [
+        "kolmogorov-complexity",
+        "algorithmic-information",
+        "finite-strings",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "Kolmogorov 1965 three approaches",
+        "quantity of information",
+        "algorithmic complexity"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Foundational primary source for algorithmic-information/complexity approaches.",
+      "notes": "Bibliographic record and availability located at Math-Net.Ru. The primary text was not inspected in P1-S001, so no exact definition or theorem is attributed here.",
+      "inspected_material": [
+        "bibliographic metadata"
+      ],
+      "pointers": [
+        "Problemy Peredachi Informatsii 1(1) (1965), 3-11"
+      ],
+      "cross_links": [
+        "SRC-0004",
+        "SRC-0007"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0004",
+      "title": "On the Length of Programs for Computing Finite Binary Sequences",
+      "authors": [
+        "Gregory J. Chaitin"
+      ],
+      "author_ids": [
+        "AUT-0004"
+      ],
+      "year": 1966,
+      "source_type": "journal_article",
+      "doi": "10.1145/321356.321363",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1145/321356.321363",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "kolmogorov-complexity",
+        "algorithmic-information",
+        "finite-strings",
+        "incompressibility",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "Chaitin 1966 program length",
+        "finite binary sequences",
+        "program-size complexity"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Early primary source connecting description length of finite binary sequences with patternlessness/randomness.",
+      "notes": "Publisher-derived metadata and abstract inspected. A distinct 1969 Chaitin continuation has a very similar title; DOI/year were disambiguated before cataloguing.",
+      "inspected_material": [
+        "metadata",
+        "abstract"
+      ],
+      "pointers": [
+        "Journal of the ACM 13(4) (1966), 547-569"
+      ],
+      "cross_links": [
+        "SRC-0003",
+        "SRC-0007"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0005",
+      "title": "Computability and Randomness",
+      "authors": [
+        "André Nies"
+      ],
+      "author_ids": [
+        "AUT-0005"
+      ],
+      "year": 2009,
+      "source_type": "book",
+      "doi": "10.1093/acprof:oso/9780199230761.001.0001",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1093/acprof:oso/9780199230761.001.0001",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "algorithmic-randomness",
+        "computability",
+        "martingales",
+        "lowness",
+        "k-triviality",
+        "higher-randomness"
+      ],
+      "aliases_search_terms": [
+        "Nies Computability and Randomness",
+        "randomness and betting strategies",
+        "higher computability and randomness"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Authoritative monograph spanning Martin-Löf variants, lowness, betting, and higher randomness.",
+      "notes": "Book abstract and table of contents inspected; chapter-level publisher summaries located. Full chapter statements are access-restricted and were not treated as inspected.",
+      "inspected_material": [
+        "book metadata",
+        "book abstract",
+        "table of contents",
+        "publisher chapter summaries"
+      ],
+      "pointers": [
+        "Oxford University Press (2009); Chapters 3, 5, 7-9 are directly relevant"
+      ],
+      "cross_links": [
+        "SRC-0006",
+        "SRC-0009"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0006",
+      "title": "Algorithmic Randomness and Complexity",
+      "authors": [
+        "Rodney G. Downey",
+        "Denis R. Hirschfeldt"
+      ],
+      "author_ids": [
+        "AUT-0006",
+        "AUT-0007"
+      ],
+      "year": 2010,
+      "source_type": "book",
+      "doi": "10.1007/978-0-387-68441-3",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1007/978-0-387-68441-3",
+      "access_level": "METADATA_ONLY",
+      "topics": [
+        "algorithmic-randomness",
+        "kolmogorov-complexity",
+        "relative-randomness",
+        "lowness",
+        "effective-dimension"
+      ],
+      "aliases_search_terms": [
+        "Downey Hirschfeldt book",
+        "Algorithmic Randomness and Complexity"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Comprehensive monograph and navigation source for the field.",
+      "notes": "Springer bibliographic metadata and overview inspected; subscription preview prevented treating chapter statements as inspected.",
+      "inspected_material": [
+        "publisher metadata",
+        "publisher overview"
+      ],
+      "pointers": [
+        "Theory and Applications of Computability, Springer (2010), 855 pp."
+      ],
+      "cross_links": [
+        "SRC-0005",
+        "SRC-0007"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0007",
+      "title": "Algorithmic Randomness",
+      "authors": [
+        "Rod Downey",
+        "Denis R. Hirschfeldt"
+      ],
+      "author_ids": [
+        "AUT-0006",
+        "AUT-0007"
+      ],
+      "year": 2019,
+      "source_type": "survey",
+      "doi": "10.1145/3319408",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1145/3319408",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "algorithmic-randomness",
+        "normality",
+        "martin-lof-randomness",
+        "schnorr-randomness",
+        "computable-randomness",
+        "martingales",
+        "kolmogorov-complexity",
+        "weak-randomness"
+      ],
+      "aliases_search_terms": [
+        "Downey Hirschfeldt 2019 survey",
+        "calibrating randomness",
+        "computable martingale"
+      ],
+      "definitions": [
+        "DEF-0002",
+        "DEF-0003",
+        "DEF-0004",
+        "DEF-0010",
+        "DEF-0011"
+      ],
+      "theorems": [
+        "THM-0001",
+        "THM-0002"
+      ],
+      "questions": [
+        "QST-0001"
+      ],
+      "priority_relevance": "Compact authoritative survey used in P1-S001 to normalize core definitions and the basic strict hierarchy while primary-source acquisition continues.",
+      "notes": "Author-hosted preprint statements inspected visually. Published metadata separately verified as Communications of the ACM 62(5) (2019), 70-80. The preprint header is an earlier conference-format draft, so published bibliographic metadata is taken from the author publication page/DOI.",
+      "inspected_material": [
+        "author-hosted preprint statements",
+        "published metadata"
+      ],
+      "pointers": [
+        "preprint pp. 3-4: Martin-Löf tests, complexity characterization, martingales, Schnorr/computable randomness and strict hierarchy; preprint p. 1: normality"
+      ],
+      "cross_links": [
+        "SRC-0001",
+        "SRC-0008",
+        "SRC-0018"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0008",
+      "title": "Schnorr Randomness",
+      "authors": [
+        "Rodney G. Downey",
+        "Evan J. Griffiths"
+      ],
+      "author_ids": [
+        "AUT-0006",
+        "AUT-0008"
+      ],
+      "year": 2002,
+      "source_type": "journal_article",
+      "doi": "10.1016/S1571-0661(04)80376-1",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/S1571-0661(04)80376-1",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "schnorr-randomness",
+        "prefix-free-machines",
+        "c.e.-reals",
+        "computability"
+      ],
+      "aliases_search_terms": [
+        "Schnorr randomness Downey Griffiths",
+        "Schnorr random c.e. reals"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Primary research source on Schnorr randomness and machine characterizations.",
+      "notes": "Publisher abstract inspected. It establishes existence of c.e. Schnorr-random but non-Martin-Löf-random reals and reports a prefix-free-machine characterization; exact characterization statement not yet inspected.",
+      "inspected_material": [
+        "publisher abstract"
+      ],
+      "pointers": [
+        "Electronic Notes in Theoretical Computer Science 66(1) (2002), 25-35"
+      ],
+      "cross_links": [
+        "SRC-0007"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0009",
+      "title": "Lowness properties and randomness",
+      "authors": [
+        "André Nies"
+      ],
+      "author_ids": [
+        "AUT-0005"
+      ],
+      "year": 2005,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.aim.2004.10.006",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/j.aim.2004.10.006",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "lowness",
+        "martin-lof-randomness",
+        "k-triviality",
+        "computable-randomness",
+        "prefix-free-complexity"
+      ],
+      "aliases_search_terms": [
+        "low for Martin-Löf randomness",
+        "K-trivial",
+        "low for computably random"
+      ],
+      "definitions": [
+        "DEF-0007",
+        "DEF-0008"
+      ],
+      "theorems": [
+        "THM-0003"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source for the equivalence between lowness for Martin-Löf randomness and K-triviality.",
+      "notes": "Publisher abstract inspected; it states the definitions used and the coincidence theorem. Proof not inspected.",
+      "inspected_material": [
+        "publisher abstract"
+      ],
+      "pointers": [
+        "Advances in Mathematics 197(1) (2005), 274-305"
+      ],
+      "cross_links": [
+        "SRC-0010",
+        "SRC-0021"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0010",
+      "title": "Using random sets as oracles",
+      "authors": [
+        "Denis R. Hirschfeldt",
+        "André Nies",
+        "Frank Stephan"
+      ],
+      "author_ids": [
+        "AUT-0007",
+        "AUT-0005",
+        "AUT-0009"
+      ],
+      "year": 2007,
+      "source_type": "journal_article",
+      "doi": "10.1112/jlms/jdm041",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1112/jlms/jdm041",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "bases-for-randomness",
+        "relative-randomness",
+        "k-triviality",
+        "computable-randomness",
+        "turing-reducibility"
+      ],
+      "aliases_search_terms": [
+        "basis for randomness",
+        "base for 1-randomness",
+        "random sets as oracles"
+      ],
+      "definitions": [
+        "DEF-0009"
+      ],
+      "theorems": [
+        "THM-0004"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source introducing/using bases for randomness and characterizing bases for 1-randomness.",
+      "notes": "Abstract statement visually inspected in the author-hosted PDF and independently matched to journal metadata.",
+      "inspected_material": [
+        "author-hosted PDF abstract",
+        "journal metadata"
+      ],
+      "pointers": [
+        "Journal of the London Mathematical Society 75(3) (2007), 610-622; abstract on p. 1 of preprint"
+      ],
+      "cross_links": [
+        "SRC-0009"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0011",
+      "title": "Computability of probability measures and Martin-Löf randomness over metric spaces",
+      "authors": [
+        "Mathieu Hoyrup",
+        "Cristóbal Rojas"
+      ],
+      "author_ids": [
+        "AUT-0010",
+        "AUT-0011"
+      ],
+      "year": 2009,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.ic.2008.12.009",
+      "arxiv": "0709.0907",
+      "stable_locator": "https://doi.org/10.1016/j.ic.2008.12.009",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "computable-probability-spaces",
+        "computable-metric-spaces",
+        "martin-lof-randomness",
+        "uniform-tests",
+        "effective-measure"
+      ],
+      "aliases_search_terms": [
+        "Martin-Löf randomness metric spaces",
+        "computable probability measure",
+        "uniform randomness test"
+      ],
+      "definitions": [
+        "DEF-0005",
+        "DEF-0006"
+      ],
+      "theorems": [
+        "THM-0005"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source extending effective measure/randomness machinery beyond Cantor space.",
+      "notes": "Publisher abstract plus author/preprint definition statements inspected. The paper gives Cantor-space effective tests, uniform integral tests and a universal uniform test framework for computable metric spaces.",
+      "inspected_material": [
+        "publisher abstract",
+        "full-text definition statements"
+      ],
+      "pointers": [
+        "Information and Computation 207(7) (2009), 830-847; preprint PDF pp. 18-19 for tests/random points"
+      ],
+      "cross_links": [
+        "SRC-0012",
+        "SRC-0001"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0012",
+      "title": "Randomness on Computable Probability Spaces - A Dynamical Point of View",
+      "authors": [
+        "Peter Gács",
+        "Mathieu Hoyrup",
+        "Cristóbal Rojas"
+      ],
+      "author_ids": [
+        "AUT-0012",
+        "AUT-0010",
+        "AUT-0011"
+      ],
+      "year": 2011,
+      "source_type": "journal_article",
+      "doi": "10.1007/s00224-010-9263-x",
+      "arxiv": "0902.1939",
+      "stable_locator": "https://doi.org/10.1007/s00224-010-9263-x",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "computable-probability-spaces",
+        "schnorr-randomness",
+        "ergodic-theory",
+        "typicality",
+        "computable-dynamics"
+      ],
+      "aliases_search_terms": [
+        "Schnorr randomness computable probability spaces",
+        "typicality mixing computable dynamics",
+        "Gacs Hoyrup Rojas"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0006"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary bridge between computable probability spaces, Schnorr randomness and effective dynamics.",
+      "notes": "Journal/arXiv abstract inspected. A 2009 STACS conference version also exists (DOI 10.4230/LIPIcs.STACS.2009.1828); this catalogue record uses the 2011 journal version.",
+      "inspected_material": [
+        "journal metadata",
+        "abstract",
+        "arXiv abstract"
+      ],
+      "pointers": [
+        "Theory of Computing Systems 48(3) (2011), 465-485"
+      ],
+      "cross_links": [
+        "SRC-0011"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0013",
+      "title": "The Dimensions of Individual Strings and Sequences",
+      "authors": [
+        "Jack H. Lutz"
+      ],
+      "author_ids": [
+        "AUT-0013"
+      ],
+      "year": 2003,
+      "source_type": "journal_article",
+      "doi": "10.1016/S0890-5401(03)00187-1",
+      "arxiv": "cs/0203017",
+      "stable_locator": "https://doi.org/10.1016/S0890-5401(03)00187-1",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "effective-dimension",
+        "constructive-dimension",
+        "supergales",
+        "finite-strings",
+        "infinite-sequences",
+        "kolmogorov-complexity"
+      ],
+      "aliases_search_terms": [
+        "constructive dimension",
+        "effective Hausdorff dimension",
+        "supergale",
+        "individual strings sequences"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0009",
+        "THM-0010"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source developing constructive dimension for individual infinite sequences and finite strings.",
+      "notes": "Publisher/arXiv abstract inspected. Exact supergale definition remains to be statement-inspected before a DEF record is created.",
+      "inspected_material": [
+        "publisher abstract",
+        "arXiv abstract"
+      ],
+      "pointers": [
+        "Information and Computation 187(1) (2003), 49-79"
+      ],
+      "cross_links": [
+        "SRC-0014"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0014",
+      "title": "A Kolmogorov complexity characterization of constructive Hausdorff dimension",
+      "authors": [
+        "Elvira Mayordomo"
+      ],
+      "author_ids": [
+        "AUT-0014"
+      ],
+      "year": 2002,
+      "source_type": "journal_article",
+      "doi": "10.1016/S0020-0190(02)00343-5",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/S0020-0190(02)00343-5",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "effective-dimension",
+        "kolmogorov-complexity",
+        "martin-lof-randomness"
+      ],
+      "aliases_search_terms": [
+        "Mayordomo dimension theorem",
+        "constructive Hausdorff dimension Kolmogorov complexity"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0010"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary short communication associated with the Kolmogorov-complexity characterization of constructive dimension.",
+      "notes": "Publisher metadata/preview and abstract text located. Exact displayed theorem statement/proof not inspected; THM-0010 is additionally supported by SRC-0013's abstract attribution.",
+      "inspected_material": [
+        "publisher metadata",
+        "abstract/preview"
+      ],
+      "pointers": [
+        "Information Processing Letters 84(1) (2002), 1-3"
+      ],
+      "cross_links": [
+        "SRC-0013"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0015",
+      "title": "When does randomness come from randomness?",
+      "authors": [
+        "Jason Rute"
+      ],
+      "author_ids": [
+        "AUT-0015"
+      ],
+      "year": 2016,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.tcs.2016.05.001",
+      "arxiv": "1508.05082",
+      "stable_locator": "https://doi.org/10.1016/j.tcs.2016.05.001",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "randomness-conservation",
+        "no-randomness-from-nothing",
+        "martin-lof-randomness",
+        "computable-randomness",
+        "schnorr-randomness",
+        "measure-preserving-maps"
+      ],
+      "aliases_search_terms": [
+        "no randomness from nothing",
+        "randomness preservation",
+        "randomness conservation",
+        "no randomness ex nihilo"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0007",
+        "THM-0008"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary modern source clarifying conservation and no-randomness-from-nothing across major notions.",
+      "notes": "Publisher and arXiv abstracts inspected. The recorded theorems preserve the abstract's hypotheses about almost-everywhere computable measure-preserving transformations.",
+      "inspected_material": [
+        "publisher abstract",
+        "arXiv abstract"
+      ],
+      "pointers": [
+        "Theoretical Computer Science 635 (2016), 35-50"
+      ],
+      "cross_links": [
+        "SRC-0007"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0016",
+      "title": "Demuth's Path to Randomness",
+      "authors": [
+        "Antonín Kučera",
+        "André Nies",
+        "Christopher P. Porter"
+      ],
+      "author_ids": [
+        "AUT-0016",
+        "AUT-0005",
+        "AUT-0017"
+      ],
+      "year": 2015,
+      "source_type": "survey",
+      "doi": "10.1017/bsl.2015.24",
+      "arxiv": "1404.4449",
+      "stable_locator": "https://doi.org/10.1017/bsl.2015.24",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "demuth-randomness",
+        "effective-null-sets",
+        "constructive-analysis",
+        "history",
+        "weak-strong-randomness"
+      ],
+      "aliases_search_terms": [
+        "Demuth randomness",
+        "Demuth tests",
+        "constructive analysis randomness"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Historical/technical survey guiding retrieval of Demuth's original notions and sources.",
+      "notes": "Abstract inspected. P1-S001 does not elevate a Demuth-randomness definition from this source because the exact test definition was not inspected.",
+      "inspected_material": [
+        "abstract",
+        "metadata"
+      ],
+      "pointers": [
+        "Bulletin of Symbolic Logic 21(3) (2015), 270-305"
+      ],
+      "cross_links": [
+        "SRC-0005"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0017",
+      "title": "Higher randomness",
+      "authors": [
+        "Benoit Monin"
+      ],
+      "author_ids": [
+        "AUT-0018"
+      ],
+      "year": 2020,
+      "source_type": "chapter",
+      "doi": "10.1017/9781108781718.009",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1017/9781108781718.009",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "higher-randomness",
+        "higher-computability",
+        "pi11-randomness",
+        "delta11-randomness",
+        "higher-weak-2",
+        "lowness"
+      ],
+      "aliases_search_terms": [
+        "higher randomness Monin",
+        "Pi11 Martin-Löf randomness",
+        "higher weak-2 randomness"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Modern survey chapter mapping higher-randomness classes and lowness phenomena.",
+      "notes": "Cambridge chapter summary inspected; chapter full text was access-restricted. Exact higher-randomness definitions are therefore deferred.",
+      "inspected_material": [
+        "publisher summary",
+        "metadata"
+      ],
+      "pointers": [
+        "in Algorithmic Randomness: Progress and Prospects (2020), pp. 232-300"
+      ],
+      "cross_links": [
+        "SRC-0005"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0018",
+      "title": "Kolmogorov–Loveland randomness and stochasticity",
+      "authors": [
+        "Wolfgang Merkle",
+        "Joseph S. Miller",
+        "André Nies",
+        "Jan Reimann",
+        "Frank Stephan"
+      ],
+      "author_ids": [
+        "AUT-0019",
+        "AUT-0020",
+        "AUT-0005",
+        "AUT-0021",
+        "AUT-0009"
+      ],
+      "year": 2006,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.apal.2005.06.011",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/j.apal.2005.06.011",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "stochasticity",
+        "selection-rules",
+        "open-problem"
+      ],
+      "aliases_search_terms": [
+        "KL-randomness",
+        "Kolmogorov Loveland randomness",
+        "nonmonotonic betting",
+        "KL stochasticity"
+      ],
+      "definitions": [
+        "DEF-0006A"
+      ],
+      "theorems": [
+        "THM-0011"
+      ],
+      "questions": [
+        "QST-0001"
+      ],
+      "priority_relevance": "Primary source defining KL-randomness/stochasticity and explicitly identifying the ML-vs-KL coincidence problem as open.",
+      "notes": "Publisher abstract inspected. The definition and dense-subsequence result are recorded only at abstract granularity.",
+      "inspected_material": [
+        "publisher abstract"
+      ],
+      "pointers": [
+        "Annals of Pure and Applied Logic 138(1-3) (2006), 183-210"
+      ],
+      "cross_links": [
+        "SRC-0019",
+        "SRC-0007"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0019",
+      "title": "Kolmogorov-Loveland betting strategies lose the Betting game on open sets",
+      "authors": [
+        "Tomislav Petrović"
+      ],
+      "author_ids": [
+        "AUT-0022"
+      ],
+      "year": 2025,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.tcs.2025.115177",
+      "arxiv": "2403.19817",
+      "stable_locator": "https://doi.org/10.1016/j.tcs.2025.115177",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "martin-lof-randomness",
+        "nonmonotonic-betting",
+        "open-problem"
+      ],
+      "aliases_search_terms": [
+        "KLR MLR open problem",
+        "Betting game open sets",
+        "Kolmogorov-Loveland betting 2025"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [
+        "QST-0001"
+      ],
+      "priority_relevance": "Recent status-check source explicitly continuing to describe KLR=MLR as a major open problem.",
+      "notes": "2025 publisher abstract inspected as a later-status check. This supports the status record; it does not establish that no 2026 resolution exists beyond the documented search.",
+      "inspected_material": [
+        "publisher abstract",
+        "arXiv abstract"
+      ],
+      "pointers": [
+        "Theoretical Computer Science 1037 (2025), 115177"
+      ],
+      "cross_links": [
+        "SRC-0018"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0020",
+      "title": "Von Mises' Definition of Random Sequences Reconsidered",
+      "authors": [
+        "Michiel van Lambalgen"
+      ],
+      "author_ids": [
+        "AUT-0023"
+      ],
+      "year": 1987,
+      "source_type": "journal_article",
+      "doi": "10.2307/2274360",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2307/2274360",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "von-mises",
+        "selection-rules",
+        "stochasticity",
+        "statistical-tests",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "von Mises randomness",
+        "selection procedures",
+        "random sequences reconsidered"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Primary research reassessment of selection-rule and statistical-test approaches.",
+      "notes": "Journal abstract inspected. The two theorems indicated in the abstract were not statement-inspected, so no THM records are created for them in P1-S001.",
+      "inspected_material": [
+        "journal abstract",
+        "metadata"
+      ],
+      "pointers": [
+        "Journal of Symbolic Logic 52(3) (1987), 725-755"
+      ],
+      "cross_links": [
+        "SRC-0002"
+      ],
+      "checked_on": "2026-10-03"
+    },
+    {
+      "id": "SRC-0021",
+      "title": "Lowness for the class of random sets",
+      "authors": [
+        "Antonín Kučera",
+        "Sebastiaan A. Terwijn"
+      ],
+      "author_ids": [
+        "AUT-0016",
+        "AUT-0024"
+      ],
+      "year": 1999,
+      "source_type": "journal_article",
+      "doi": "10.2307/2586785",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2307/2586785",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "lowness",
+        "martin-lof-randomness",
+        "relative-randomness",
+        "computability"
+      ],
+      "aliases_search_terms": [
+        "low for RAND",
+        "low for random sets",
+        "Kucera Terwijn lowness"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Early primary source showing existence of nonrecursive sets low for the class of random sets.",
+      "notes": "Journal abstract inspected. Later equivalence with K-triviality is recorded from SRC-0009, not retroactively attributed to this 1999 paper.",
+      "inspected_material": [
+        "journal abstract",
+        "metadata"
+      ],
+      "pointers": [
+        "Journal of Symbolic Logic 64(4) (1999), 1396-1402"
+      ],
+      "cross_links": [
+        "SRC-0009"
+      ],
+      "checked_on": "2026-10-03"
+    }
+  ]
+}
