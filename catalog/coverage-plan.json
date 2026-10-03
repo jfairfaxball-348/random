@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S005",
+  "session": "P1-S006",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-03",
   "status_vocabulary": [
@@ -15,7 +15,8 @@
     "PARTIAL_P1_S002",
     "PARTIAL_P1_S003",
     "PARTIAL_P1_S004",
-    "PARTIAL_P1_S005"
+    "PARTIAL_P1_S005",
+    "PARTIAL_P1_S006"
   ],
   "records": [
     {
@@ -730,13 +731,27 @@
         "COV-0001"
       ],
       "expected_depth_required": "BOUNDARY_MEDIUM",
-      "present_coverage_status": "NOT_STARTED_P1_S001",
-      "covered_by": [],
+      "present_coverage_status": "PARTIAL_P1_S006",
+      "covered_by": [
+        "SRC-0025",
+        "SRC-0031",
+        "SRC-0039",
+        "SRC-0040",
+        "SRC-0041",
+        "SRC-0042",
+        "SRC-0043",
+        "SRC-0044"
+      ],
       "known_retrieval_access_limitations": [
-        "No dedicated effective-category source search was performed in P1-S001."
+        "P1-S006 now has statement-level primary definitions for effective meagreness, weak 1-genericity, 1-genericity, weak n-genericity and n-genericity, together with the strict weak-1-generic → Kurtz-random bridge and the interleaving genericity hierarchy.",
+        "Jockusch's 1980 foundational chapter remains METADATA_ONLY internally, and Kurtz's 1983 original weak-genericity paper is available only through its publisher extract in this repository pass. Exact syntax is therefore grounded in later statement-inspected primary papers rather than reconstructed from inaccessible originals.",
+        "Kurtz's 1981 thesis SRC-0025 remains METADATA_ONLY. P1-S006 did not manufacture original priority detail from the thesis.",
+        "No probability-measure consequence is inferred merely from category definitions, and no category consequence is inferred merely from measure-null definitions. The only cross-framework implication added is the exact primary statement REL-0037.",
+        "The session did not expand into general forcing, oracle-genericity, computable-metric-space genericity, or higher-category surveys beyond the definitions and hierarchy needed to keep weak/1/higher genericity distinct."
       ],
       "next_actions": [
-        "Acquire a bounded category/genericity corpus and state distinctions from measure-based randomness."
+        "If accessible in a later Phase-1 retrieval pass, inspect the internal statements of Jockusch 1980, Kurtz 1981 and Kurtz 1983; otherwise preserve their present access levels.",
+        "Do not broaden COV-0019 by analogy: add further category/randomness comparisons only when an exact primary statement is inspected."
       ]
     }
   ]
