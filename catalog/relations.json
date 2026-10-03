@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S007",
+  "session": "P1-S008",
   "records": [
     {
       "id": "REL-0001",
@@ -648,6 +648,37 @@
         }
       ],
       "caution": "The conclusion is about the infinite binary expansion of Ω_U, not the finite program strings in dom(U); the expansion convention is DEF-0045."
+    },
+    {
+      "id": "REL-0042",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0047",
+      "to": "DEF-0046",
+      "statement": "A P-time stretching function ensemble is a pseudorandom generator in SRC-0049 exactly when its output distribution on a uniform seed and the uniform distribution of the same output length satisfy the source's computational-indistinguishability requirement.",
+      "support": [
+        {
+          "source": "SRC-0049",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.3.3, paper pp. 12-13"
+        }
+      ],
+      "caution": "This relation is between finite-string distribution ensembles; it is not an implication to or from any individual-sequence algorithmic-randomness definition."
+    },
+    {
+      "id": "REL-0043",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0048",
+      "to": "DEF-0049",
+      "statement": "An infinite sequence is Δ-random exactly when every Δ-computable martingale fails to succeed on it.",
+      "support": [
+        {
+          "source": "SRC-0051",
+          "theorem": "THM-0050",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 6.2, paper p. 35"
+        }
+      ],
+      "caution": "The resource parameter Δ, including the polynomial-time specialization p=p1, is essential. No unbounded-randomness hierarchy edge is inferred."
     }
   ]
 }
