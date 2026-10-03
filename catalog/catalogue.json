@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 44,
-    "definitions": 41,
-    "theorems": 44,
-    "relations": 37,
+    "sources": 47,
+    "definitions": 45,
+    "theorems": 48,
+    "relations": 41,
     "questions": 1,
-    "authors": 47,
+    "authors": 51,
     "coverage_records": 19
   },
   "sources": [
@@ -68,7 +68,10 @@
     "SRC-0041",
     "SRC-0042",
     "SRC-0043",
-    "SRC-0044"
+    "SRC-0044",
+    "SRC-0045",
+    "SRC-0046",
+    "SRC-0047"
   ],
   "definitions": [
     "DEF-0001",
@@ -111,7 +114,11 @@
     "DEF-0038",
     "DEF-0039",
     "DEF-0040",
-    "DEF-0041"
+    "DEF-0041",
+    "DEF-0042",
+    "DEF-0043",
+    "DEF-0044",
+    "DEF-0045"
   ],
   "theorems": [
     "THM-0001",
@@ -157,7 +164,11 @@
     "THM-0041",
     "THM-0042",
     "THM-0043",
-    "THM-0044"
+    "THM-0044",
+    "THM-0045",
+    "THM-0046",
+    "THM-0047",
+    "THM-0048"
   ],
   "relations": [
     "REL-0001",
@@ -196,7 +207,11 @@
     "REL-0034",
     "REL-0035",
     "REL-0036",
-    "REL-0037"
+    "REL-0037",
+    "REL-0038",
+    "REL-0039",
+    "REL-0040",
+    "REL-0041"
   ],
   "questions": [
     "QST-0001"
@@ -248,7 +263,11 @@
     "AUT-0044",
     "AUT-0045",
     "AUT-0046",
-    "AUT-0047"
+    "AUT-0047",
+    "AUT-0048",
+    "AUT-0049",
+    "AUT-0050",
+    "AUT-0051"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -308,7 +327,18 @@
     "n-generic",
     "weakly n-generic",
     "Cohen genericity",
-    "dense c.e. open class"
+    "dense c.e. open class",
+    "left-c.e. real",
+    "left computably enumerable real",
+    "recursively enumerable real",
+    "lower semicomputable real",
+    "Chaitin Omega",
+    "Omega number",
+    "halting probability",
+    "universal prefix-free machine",
+    "self-delimiting machine",
+    "random left-c.e. real",
+    "finite-string incompressibility"
   ],
   "coverage_records": [
     "COV-0001",
@@ -331,7 +361,7 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "P1-S006 consolidated effective category/genericity at primary-source level: effective meagreness is separated from nullness; 1-generic, weak 1-generic, n-generic and weak n-generic conventions are explicit; the genericity hierarchy is source-grounded; and the only new category-to-measure edge is the inspected strict weak-1-generic → Kurtz-random implication. Foundational Jockusch/Kurtz originals remain at their actually inspected metadata/extract access levels. Phase 1 remains incomplete, especially for finite-string/random-real/left-c.e./Ω coverage, pseudorandomness/resource-bounded boundaries, higher randomness, and remaining foundational-source gaps.",
+  "coverage_summary": "P1-S007 consolidated COV-0015 at primary-source level: finite-string self-delimiting incompressibility is kept distinct from infinite-sequence randomness; left-c.e. reals are normalized from the historical r.e.-real terminology; arbitrary prefix-free halting probabilities are separated from universal-machine Ω-numbers; Ω is source-grounded as left-c.e. and Martin-Löf random; and Martin-Löf-random left-c.e. reals are exactly the Ω-numbers. Chaitin source/title provenance and binary-expansion qualifications remain explicit. Phase 1 is still incomplete, especially for the not-started pseudorandomness/resource-bounded boundary, higher randomness, effective ergodic interfaces, and remaining foundational-source access gaps.",
   "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S006"
+  "last_completed_session": "P1-S007"
 }
