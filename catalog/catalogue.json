@@ -3,7 +3,7 @@
   "phase": 1,
   "status": "IN_PROGRESS",
   "active_session": null,
-  "last_validated_on": "2026-10-03",
+  "last_validated_on": "2026-10-04",
   "record_files": {
     "sources": "catalog/sources.json",
     "definitions": "catalog/definitions.json",
@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 47,
-    "definitions": 45,
-    "theorems": 48,
-    "relations": 41,
+    "sources": 51,
+    "definitions": 49,
+    "theorems": 50,
+    "relations": 43,
     "questions": 1,
-    "authors": 51,
+    "authors": 58,
     "coverage_records": 19
   },
   "sources": [
@@ -71,7 +71,11 @@
     "SRC-0044",
     "SRC-0045",
     "SRC-0046",
-    "SRC-0047"
+    "SRC-0047",
+    "SRC-0048",
+    "SRC-0049",
+    "SRC-0050",
+    "SRC-0051"
   ],
   "definitions": [
     "DEF-0001",
@@ -80,12 +84,12 @@
     "DEF-0004",
     "DEF-0005",
     "DEF-0006",
+    "DEF-0012",
     "DEF-0007",
     "DEF-0008",
     "DEF-0009",
     "DEF-0010",
     "DEF-0011",
-    "DEF-0012",
     "DEF-0013",
     "DEF-0014",
     "DEF-0015",
@@ -118,7 +122,11 @@
     "DEF-0042",
     "DEF-0043",
     "DEF-0044",
-    "DEF-0045"
+    "DEF-0045",
+    "DEF-0046",
+    "DEF-0047",
+    "DEF-0048",
+    "DEF-0049"
   ],
   "theorems": [
     "THM-0001",
@@ -168,7 +176,9 @@
     "THM-0045",
     "THM-0046",
     "THM-0047",
-    "THM-0048"
+    "THM-0048",
+    "THM-0049",
+    "THM-0050"
   ],
   "relations": [
     "REL-0001",
@@ -211,7 +221,9 @@
     "REL-0038",
     "REL-0039",
     "REL-0040",
-    "REL-0041"
+    "REL-0041",
+    "REL-0042",
+    "REL-0043"
   ],
   "questions": [
     "QST-0001"
@@ -267,7 +279,14 @@
     "AUT-0048",
     "AUT-0049",
     "AUT-0050",
-    "AUT-0051"
+    "AUT-0051",
+    "AUT-0052",
+    "AUT-0053",
+    "AUT-0054",
+    "AUT-0055",
+    "AUT-0056",
+    "AUT-0057",
+    "AUT-0058"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -363,5 +382,26 @@
   ],
   "coverage_summary": "P1-S007 consolidated COV-0015 at primary-source level: finite-string self-delimiting incompressibility is kept distinct from infinite-sequence randomness; left-c.e. reals are normalized from the historical r.e.-real terminology; arbitrary prefix-free halting probabilities are separated from universal-machine Ω-numbers; Ω is source-grounded as left-c.e. and Martin-Löf random; and Martin-Löf-random left-c.e. reals are exactly the Ω-numbers. Chaitin source/title provenance and binary-expansion qualifications remain explicit. Phase 1 is still incomplete, especially for the not-started pseudorandomness/resource-bounded boundary, higher randomness, effective ergodic interfaces, and remaining foundational-source access gaps.",
   "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S007"
+  "last_completed_session": "P1-S007",
+  "coverage": [
+    "COV-0001",
+    "COV-0002",
+    "COV-0003",
+    "COV-0004",
+    "COV-0005",
+    "COV-0006",
+    "COV-0007",
+    "COV-0008",
+    "COV-0009",
+    "COV-0010",
+    "COV-0011",
+    "COV-0012",
+    "COV-0013",
+    "COV-0014",
+    "COV-0015",
+    "COV-0016",
+    "COV-0017",
+    "COV-0018",
+    "COV-0019"
+  ]
 }
