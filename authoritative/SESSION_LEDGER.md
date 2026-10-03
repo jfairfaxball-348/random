@@ -18,12 +18,30 @@ Next substantive step: owner must explicitly authorize Phase 1.
 
 ## P1-S001 — Foundational territory map and corpus acquisition
 
-Status: IN PROGRESS
+Status: COMPLETED
 
 Owner authorization received: 2026-10-03.
 
 Incoming checkpoint: `51ee5da396325eb3c898dcb475ad14e628ba4af4`
 
-Bounded scope: open Phase 1; establish the coverage architecture; refine taxonomy; acquire a foundational, source-grounded corpus; begin definition, theorem, relation, author/topic, status-question and search-log records.
+Bounded scope completed: opened Phase 1; established 19-stratum coverage architecture; refined taxonomy; acquired a foundational source-grounded corpus; began definition, theorem, relationship, author/topic, status-question and search-log records.
 
-Explicit exclusions: no candidate invention or selection; no dedicated prior-art audit of a hypothetical Fairfax-Ball notion; no original mathematical investigation; no Lean/Palomar; no publication work; no external outreach.
+Catalogue at close: 21 sources; 12 definitions; 11 theorem/characterization records; 8 relationship records; 1 status-sensitive question; 24 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 strata complete. Two strata remain not started; the rest range from navigation-only to partial/core-started. Gate 1 is NOT READY FOR REVIEW.
+
+Validation: PASS at closeout; ID syntax/uniqueness, required source fields, catalogue counts and cross-file references validated with zero unresolved reference errors.
+
+Close record: `phase1/P1-S001_CLOSE.md`
+
+Research checkpoint before authoritative ledger synchronization: `74349dada88c46d5ecbe915a89707cb7fac4429e`
+
+Meaningful retrieval/validation lessons: `FL-001` through `FL-003`.
+
+Explicit exclusions respected: no candidate invention or selection; no dedicated prior-art audit of a hypothetical Fairfax-Ball notion; no original mathematical investigation; no Lean/Palomar; no publication work; no external outreach.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: `P1-S002`, primary-source consolidation of the core weaker-randomness hierarchy (Schnorr, computable, Kurtz, weak randomness) and source-supported implication/separation records.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
