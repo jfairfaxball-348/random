@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "session": "P1-S001",
+  "records": [
+    {
+      "id": "AUT-0001",
+      "name": "Per Martin-Löf",
+      "topics": [
+        "martin-lof-randomness",
+        "effective-tests",
+        "foundations"
+      ],
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0002",
+      "name": "Alonzo Church",
+      "topics": [
+        "selection-rules",
+        "foundations",
+        "computability"
+      ],
+      "source_ids": [
+        "SRC-0002"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0003",
+      "name": "A. N. Kolmogorov",
+      "topics": [
+        "algorithmic-information",
+        "complexity",
+        "foundations"
+      ],
+      "source_ids": [
+        "SRC-0003"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0004",
+      "name": "Gregory J. Chaitin",
+      "topics": [
+        "algorithmic-information",
+        "program-size-complexity",
+        "finite-strings"
+      ],
+      "source_ids": [
+        "SRC-0004"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0005",
+      "name": "André Nies",
+      "topics": [
+        "algorithmic-randomness",
+        "lowness",
+        "k-triviality",
+        "higher-randomness",
+        "KL-randomness"
+      ],
+      "source_ids": [
+        "SRC-0005",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0016",
+        "SRC-0018"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0006",
+      "name": "Rodney G. Downey",
+      "topics": [
+        "algorithmic-randomness",
+        "schnorr-randomness",
+        "computability",
+        "complexity"
+      ],
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0007",
+        "SRC-0008"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0007",
+      "name": "Denis R. Hirschfeldt",
+      "topics": [
+        "algorithmic-randomness",
+        "computability",
+        "bases-for-randomness"
+      ],
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0007",
+        "SRC-0010"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0008",
+      "name": "Evan J. Griffiths",
+      "topics": [
+        "schnorr-randomness"
+      ],
+      "source_ids": [
+        "SRC-0008"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0009",
+      "name": "Frank Stephan",
+      "topics": [
+        "bases-for-randomness",
+        "KL-randomness",
+        "computability"
+      ],
+      "source_ids": [
+        "SRC-0010",
+        "SRC-0018"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0010",
+      "name": "Mathieu Hoyrup",
+      "topics": [
+        "computable-probability-spaces",
+        "effective-measure",
+        "ergodic-theory"
+      ],
+      "source_ids": [
+        "SRC-0011",
+        "SRC-0012"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0011",
+      "name": "Cristóbal Rojas",
+      "topics": [
+        "computable-probability-spaces",
+        "effective-measure",
+        "ergodic-theory"
+      ],
+      "source_ids": [
+        "SRC-0011",
+        "SRC-0012"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0012",
+      "name": "Peter Gács",
+      "topics": [
+        "computable-probability-spaces",
+        "ergodic-theory",
+        "schnorr-randomness"
+      ],
+      "source_ids": [
+        "SRC-0012"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0013",
+      "name": "Jack H. Lutz",
+      "topics": [
+        "effective-dimension",
+        "supergales",
+        "resource-bounded-randomness"
+      ],
+      "source_ids": [
+        "SRC-0013"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0014",
+      "name": "Elvira Mayordomo",
+      "topics": [
+        "effective-dimension",
+        "kolmogorov-complexity"
+      ],
+      "source_ids": [
+        "SRC-0014"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0015",
+      "name": "Jason Rute",
+      "topics": [
+        "randomness-conservation",
+        "no-randomness-from-nothing",
+        "computable-randomness"
+      ],
+      "source_ids": [
+        "SRC-0015"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0016",
+      "name": "Antonín Kučera",
+      "topics": [
+        "lowness",
+        "relative-randomness",
+        "demuth-randomness"
+      ],
+      "source_ids": [
+        "SRC-0016",
+        "SRC-0021"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0017",
+      "name": "Christopher P. Porter",
+      "topics": [
+        "demuth-randomness",
+        "algorithmic-randomness-history"
+      ],
+      "source_ids": [
+        "SRC-0016"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0018",
+      "name": "Benoit Monin",
+      "topics": [
+        "higher-randomness",
+        "higher-computability"
+      ],
+      "source_ids": [
+        "SRC-0017"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0019",
+      "name": "Wolfgang Merkle",
+      "topics": [
+        "KL-randomness",
+        "stochasticity"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0020",
+      "name": "Joseph S. Miller",
+      "topics": [
+        "KL-randomness",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0021",
+      "name": "Jan Reimann",
+      "topics": [
+        "KL-randomness",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0018"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0022",
+      "name": "Tomislav Petrović",
+      "topics": [
+        "KL-randomness",
+        "nonmonotonic-betting"
+      ],
+      "source_ids": [
+        "SRC-0019"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0023",
+      "name": "Michiel van Lambalgen",
+      "topics": [
+        "von-mises",
+        "selection-rules",
+        "relative-randomness"
+      ],
+      "source_ids": [
+        "SRC-0020"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0024",
+      "name": "Sebastiaan A. Terwijn",
+      "topics": [
+        "lowness",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0021"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    }
+  ]
+}
