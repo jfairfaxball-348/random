@@ -1,7 +1,7 @@
 # Phase-1 Catalogue Taxonomy
 
 Status: **ACTIVE / evolving**  
-Last refined: 2026-10-03 in `P1-S006`
+Last refined: 2026-10-03 in `P1-S007`
 
 This taxonomy is a retrieval vocabulary, not a claim that all listed areas are already covered. Use the controlled tag families below in structured records and add aliases/search terms where the literature uses competing terminology.
 
@@ -12,6 +12,9 @@ This taxonomy is a retrieval vocabulary, not a claim that all listed areas are a
 - `object:subset-of-N`
 - `object:real-number`
 - `object:left-c.e.-real`
+- `object:prefix-free-machine`
+- `object:halting-probability`
+- `object:binary-real-representation`
 - `object:point-computable-metric-space`
 - `object:computable-probability-space`
 - `object:probability-measure-name`
@@ -50,6 +53,8 @@ The object tag matters: finite-string incompressibility is not itself an infinit
 - `notion:balanced-randomness` — weak-Demuth-style tests with O(2^n), equivalently exact 2^n, component-index changes
 - `notion:oberwolfach-randomness` — coherent weak-Demuth moving-component tests
 - `notion:higher-randomness` — navigation only in P1-S001
+- `notion:chaitin-omega` — halting probability of a universal self-delimiting/prefix-free machine; P1-S007
+- `notion:random-left-c.e.-real` — conjunction of left-c.e. approximation and Martin-Löf randomness; exactly the Ω-numbers by THM-0048
 - `notion:1-genericity` — Σ^0_1/Cohen-style finite-extension genericity; category framework, not a randomness synonym
 - `notion:weak-1-genericity` — meeting every dense c.e. set of strings; strictly implies Kurtz randomness by an inspected primary statement
 - `notion:n-genericity` — meet-or-avoid every Σ^0_n set of strings
@@ -100,6 +105,7 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 - `complexity:program-size`
 - `complexity:initial-segment`
 - `complexity:algorithmic-information`
+- `complexity:self-delimiting-H` — Chaitin's historical notation in SRC-0045/SRC-0047; normalized to the prefix-free-complexity family with source notation retained
 
 Future additions should distinguish monotone, a priori, process and resource-bounded complexities rather than folding them into `K`.
 
@@ -116,6 +122,7 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `resource:computable`
 - `resource:c.e.`
 - `resource:lower-semicomputable`
+- `resource:left-c.e.` — computable nondecreasing rational approximation from below; historical alias `r.e. real`
 - `resource:oracle-relative`
 - `resource:uniform-relativization` — uniform family selected by the oracle; distinct from ordinary oracle computation for Schnorr/computable randomness
 - `resource:arithmetical-level`
@@ -177,6 +184,7 @@ Never infer strictness from differing definitions.
 - `history:schnorr-effectivity`
 - `history:kurtz-weak-randomness`
 - `history:demuth`
+- `history:chaitin-omega`
 
 ## 13. Interface areas
 
@@ -243,6 +251,9 @@ Important query aliases include:
 - `weakly 1-generic` / `weak 1-generic`
 - `weakly n-generic` / `weak n-generic`
 - `Cohen genericity` / `finite-extension genericity`
+- `left-c.e. real` / `left computably enumerable real` / `recursively enumerable real` / `r.e. real` / `lower semicomputable real`
+- `Chaitin Ω` / `Chaitin Omega` / `Omega number` / `universal halting probability`
+- `prefix-free machine` / `self-delimiting machine`
 
 P1-S004 convention guard: Demuth randomness uses **Solovay passing** (membership in only finitely many final components), whereas the inspected balanced and Oberwolfach weak-Demuth tests use ordinary escape from a component. SRC-0035 also uses `n-r.e.` in two different test semantics: its naive string-test hierarchy yields 2-randomness for n≥2, while its neighborhood/difference hierarchy yields difference randomness for n≥2. Preserve the test semantics before normalizing terminology.
 
@@ -270,3 +281,16 @@ The higher hierarchy is likewise indexed separately: weakly `n`-generic means me
 The one direct P1-S006 category-to-measure bridge is source-stated: every weakly 1-generic real is Kurtz random, and the converse fails. It is recorded as `THM-0043` / `REL-0037`; it does not identify the frameworks or license extrapolation to Martin-Löf, Schnorr, higher weak randomness, or generalized measures.
 
 `SRC-0039` (Jockusch 1980) remains `METADATA_ONLY`, `SRC-0040` (Kurtz 1983) remains `ABSTRACT_INSPECTED` via its publisher extract, and `SRC-0025` (Kurtz 1981 thesis) remains `METADATA_ONLY`. Exact genericity syntax in this pass is therefore supported by later statement-inspected primary sources rather than inferred from inaccessible originals.
+
+
+## P1-S007 finite-string / left-c.e. / Ω convention guard
+
+Finite binary strings, infinite binary sequences and real numbers are different object types. `DEF-0011` assigns prefix-free complexity to a finite string. `THM-0001` turns those finite values into an infinite-sequence Martin-Löf-randomness characterization only by requiring a uniform lower bound on **every** initial segment. `THM-0045` preserves Chaitin's own finite/infinite distinction: finite-string randomness is treated as a degree of closeness to maximal self-delimiting complexity, whereas the infinite criterion is a quantified property of the whole sequence. Do not promote finite-string incompressibility to a standalone infinite-sequence randomness notion.
+
+`DEF-0042` uses **left-c.e. real** as the normalized modern name for what SRC-0046/SRC-0047 call a recursively enumerable (r.e.) real: a real with a computable nondecreasing rational approximation. This property alone says nothing about randomness. `THM-0047` identifies the left-c.e. reals in (0,1] with halting probabilities of **some** prefix-free/self-delimiting machines; those machines need not be universal.
+
+`DEF-0044` reserves **Chaitin Ω-number** for the halting probability of a **universal** self-delimiting/prefix-free machine. Universality must remain explicit in every Ω-randomness claim. `THM-0046` states that such Ω-numbers are left-c.e. and Martin-Löf random, and `THM-0048` states the exact converse characterization: the Martin-Löf-random left-c.e. reals are precisely the Ω-numbers. Never replace this by “left-c.e. reals are random.”
+
+Binary representation is also a convention, not an identity without qualification. `DEF-0045` records Chaitin's canonical choice of the expansion with infinitely many 1s for reals in (0,1] and the later sources' uniqueness qualification for irrational reals. Ω-numbers are irrational because they are random, so their binary expansions are unambiguous. Preserve this distinction when moving between a real number and a point of Cantor space.
+
+No P1-S005 generalized-measure result, P1-S003 relative/oracle result, P1-S004 stronger-test result or P1-S006 category result is transferred to Ω/left-c.e. reals by analogy. `DEF-0020`'s jump convention is unchanged.
