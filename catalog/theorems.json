@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S004",
+  "session": "P1-S005",
   "records": [
     {
       "id": "THM-0001",
@@ -125,7 +125,7 @@
     {
       "id": "THM-0006",
       "name": "Schnorr randomness characterized by typicality for mixing computable dynamics",
-      "statement": "In the computable-probability-space framework developed by Gács, Hoyrup and Rojas, a point is Schnorr random iff it is typical for every mixing computable dynamics.",
+      "statement": "In the computable-probability-space framework of Gács, Hoyrup and Rojas, Schnorr randomness is characterized by typicality for every mixing computable dynamical system in the precise effective sense developed there.",
       "hypotheses": [
         "computable probability space and the authors' effective dynamical notions"
       ],
@@ -133,53 +133,64 @@
       "source_support": [
         {
           "source": "SRC-0012",
-          "evidence": "ABSTRACT_INSPECTED",
-          "pointer": "journal/arXiv abstract"
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "full paper main theorem and Section 3 definitions"
         }
       ],
       "related_definitions": [
-        "DEF-0003"
+        "DEF-0032",
+        "DEF-0034"
       ],
       "relations": [
         "REL-0006"
+      ],
+      "cautions": [
+        "This is a general computable-probability-space statement; DEF-0003 is only the fair-coin specialization."
       ]
     },
     {
       "id": "THM-0007",
-      "name": "No-randomness-from-nothing separates computable from Schnorr randomness",
-      "statement": "For almost-everywhere computable measure-preserving transformations on Cantor space, the no-randomness-from-nothing property holds for computable randomness but does not hold for Schnorr randomness.",
+      "name": "No-randomness-from-nothing: computable randomness holds, Schnorr randomness fails",
+      "statement": "For computable probability measures on Cantor space, Rute proves no-randomness-from-nothing for computable randomness under μ-a.e. computable maps to their computable pushforwards (Theorem 7), while Theorem 25 and Corollary 26 show that Schnorr randomness does not satisfy no-randomness-from-nothing for the corresponding a.e.-computable measure-preserving map class.",
       "hypotheses": [
-        "F:2^N→2^N is almost-everywhere computable and measure-preserving, in the setting of SRC-0015"
+        "source measure μ is a computable probability measure on Cantor space",
+        "T is μ-a.e. computable (partial computable with μ(dom T)=1); its pushforward μ_T is computable",
+        "the positive clause uses μ-computable randomness DEF-0036; the negative Schnorr clause is Corollary 26"
       ],
       "direction": "property holds / fails",
       "source_support": [
         {
           "source": "SRC-0015",
-          "evidence": "ABSTRACT_INSPECTED",
-          "pointer": "publisher abstract"
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 6, Theorem 7, Theorem 25 and Corollary 26"
         }
       ],
       "related_definitions": [
-        "DEF-0003",
-        "DEF-0004"
+        "DEF-0034",
+        "DEF-0036"
       ],
       "relations": [
         "REL-0007"
+      ],
+      "cautions": [
+        "The negative Schnorr result is no-randomness-from-nothing failure, not randomness-conservation failure; the paper's status table records Schnorr conservation positively.",
+        "Do not replace the arbitrary computable Cantor-space measures here by general represented spaces without a source-specific extension."
       ]
     },
     {
       "id": "THM-0008",
-      "name": "Martin-Löf randomness and the joint conservation/no-randomness-from-nothing property",
-      "statement": "The results summarized in SRC-0015 imply that the Martin-Löf randoms form the largest subset of 2^N satisfying both no-randomness-from-nothing and randomness conservation for the almost-everywhere computable measure-preserving maps considered there.",
+      "name": "Fair-coin Martin-Löf maximality under conservation and no-randomness-from-nothing",
+      "statement": "The set of fair-coin Martin-Löf randoms is the largest subset of 2^ω closed under both randomness conservation and no-randomness-from-nothing for a.e. computable measure-preserving self-maps F:(2^ω,λ)→(2^ω,λ).",
       "hypotheses": [
-        "Cantor-space setting and map class of SRC-0015"
+        "fair-coin measure λ on Cantor space",
+        "a.e. computable measure-preserving self-maps of (2^ω,λ)"
       ],
       "direction": "maximality characterization stated in source abstract",
       "source_support": [
         {
           "source": "SRC-0015",
-          "evidence": "ABSTRACT_INSPECTED",
-          "pointer": "publisher abstract"
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 36"
         }
       ],
       "related_definitions": [
@@ -187,6 +198,9 @@
       ],
       "relations": [
         "REL-0008"
+      ],
+      "cautions": [
+        "This is the fair-coin self-map theorem. The distinct all-computable-measure point/measure maximality statement is THM-0039."
       ]
     },
     {
@@ -763,6 +777,238 @@
       "relations": [],
       "cautions": [
         "Only Oberwolfach randomness receives a DEF record in P1-S004; interval and left-c.e.-bounded formulations are retained as source-specific equivalent normal forms."
+      ]
+    },
+    {
+      "id": "THM-0032",
+      "name": "Equivalent computability criteria for probability measures",
+      "statement": "For a Borel probability measure μ on a computable metric space X, Hoyrup and Rojas prove equivalence between μ being a computable point of M(X), lower semicomputability of the valuation U↦μ(U) on open sets, and uniform lower semicomputability on finite unions of ideal balls. On Cantor space, μ is computable iff cylinder measures are uniformly computable.",
+      "hypotheses": [
+        "X is a computable metric space in DEF-0030",
+        "μ is a Borel probability measure"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 4.2.1 and Corollary 4.2.1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0030",
+        "DEF-0031"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0033",
+      "name": "Binary representation of every computable probability space",
+      "statement": "Every computable probability space has a binary representation by Cantor space equipped with an appropriate computable probability measure. The representation is a surjective morphism; on a constructive full-measure domain of points having unique expansions, the inverse is computable. The density qualification is tied to the support when support is not full.",
+      "hypotheses": [
+        "(X,μ) is a computable probability space",
+        "the Cantor-space measure is the source-specific computable pushforward/representation measure, not asserted to be fair coin"
+      ],
+      "direction": "effective representation / isomorphism on full-measure domains",
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 5.1.1 and Theorem 5.1.1"
+        },
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Proposition 3.12"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0032",
+        "DEF-0035"
+      ],
+      "relations": [],
+      "cautions": [
+        "No atomlessness hypothesis is required for this arbitrary-computable-measure Cantor representation.",
+        "Do not read 'Cantor space' here as 'fair-coin Cantor space'."
+      ]
+    },
+    {
+      "id": "THM-0034",
+      "name": "Atomless computable probability spaces are computable Lebesgue spaces",
+      "statement": "Every computable probability space with no atoms is a computable Lebesgue space, i.e. isomorphic in the paper's effective measure-theoretic sense to ([0,1],m).",
+      "hypotheses": [
+        "(X,μ) is a computable probability space",
+        "μ has no atoms"
+      ],
+      "direction": "effective isomorphism",
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.18 and Theorem 3.19"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0032",
+        "DEF-0035"
+      ],
+      "relations": [],
+      "cautions": [
+        "Atomlessness is essential to this stronger fixed nonatomic-model statement; it is not part of THM-0033.",
+        "P1-S005 does not silently replace the source's ([0,1],m) target by a fair-coin Cantor-space statement."
+      ]
+    },
+    {
+      "id": "THM-0035",
+      "name": "Martin-Löf randomness conservation and isomorphism invariance on computable probability spaces",
+      "statement": "A morphism of computable probability spaces is defined on Martin-Löf random points and maps them to Martin-Löf random points. If the spaces are isomorphic, the isomorphism and its inverse restrict to inverse computable bijections between their sets of Martin-Löf random points.",
+      "hypotheses": [
+        "source and target are computable probability spaces",
+        "map is a morphism / pair is an isomorphism in DEF-0035"
+      ],
+      "direction": "conservation; isomorphism invariance",
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Proposition 6.2.1 and Corollary 6.2.1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0033",
+        "DEF-0035"
+      ],
+      "relations": [
+        "REL-0026"
+      ]
+    },
+    {
+      "id": "THM-0036",
+      "name": "Schnorr randomness conservation under computable-probability-space morphisms",
+      "statement": "Every morphism of computable probability spaces is defined on every Schnorr-random point and maps each such point to a Schnorr-random point in the target space.",
+      "hypotheses": [
+        "source and target are computable probability spaces",
+        "map is a morphism as in DEF-0035"
+      ],
+      "direction": "randomness conservation",
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Proposition 3.27"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0034",
+        "DEF-0035"
+      ],
+      "relations": [
+        "REL-0027"
+      ],
+      "cautions": [
+        "This is conservation. SRC-0015 separately proves that Schnorr randomness fails no-randomness-from-nothing for the broader a.e.-computable measure-preserving Cantor-space setting."
+      ]
+    },
+    {
+      "id": "THM-0037",
+      "name": "No-randomness-from-nothing for computable randomness under a.e.-computable Cantor-space maps",
+      "statement": "If μ is a computable probability measure on Cantor space, T is μ-a.e. computable, and y is μ_T-computably random, then y=T(x) for some μ-computably random x.",
+      "hypotheses": [
+        "μ is a computable probability measure on 2^ω",
+        "T is partial computable with μ(dom T)=1",
+        "μ_T is the induced computable pushforward",
+        "randomness is DEF-0036"
+      ],
+      "direction": "no-randomness-from-nothing",
+      "source_support": [
+        {
+          "source": "SRC-0015",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 6 and Theorem 7"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0036"
+      ],
+      "relations": [
+        "REL-0028"
+      ],
+      "cautions": [
+        "The paper later explains a computable-metric-space extension via representation machinery, but the theorem recorded here preserves Theorem 7's explicit Cantor-space statement."
+      ]
+    },
+    {
+      "id": "THM-0038",
+      "name": "Computable-randomness invariance under a.e.-computable measure isomorphisms on Cantor space",
+      "statement": "Let μ and ν be computable probability measures on Cantor space and let F:(2^ω,μ)→(2^ω,ν) and G:(2^ω,ν)→(2^ω,μ) be a.e.-computable measure-preserving maps that are inverses almost everywhere. Then F and G conserve computable randomness, and the inverse identities hold on μ- and ν-computably random points.",
+      "hypotheses": [
+        "μ,ν computable probability measures on Cantor space",
+        "F,G a.e.-computable and measure-preserving",
+        "G∘F=id μ-a.e. and F∘G=id ν-a.e."
+      ],
+      "direction": "isomorphism invariance",
+      "source_support": [
+        {
+          "source": "SRC-0015",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Lemma 8"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0036"
+      ],
+      "relations": [
+        "REL-0029"
+      ]
+    },
+    {
+      "id": "THM-0039",
+      "name": "Martin-Löf maximality across all computable Cantor-space measures",
+      "statement": "Let M_comp be the computable probability measures on Cantor space. The class of pairs (x,μ) with x μ-Martin-Löf random is the largest subset of 2^ω×M_comp closed under both no-randomness-from-nothing and randomness conservation.",
+      "hypotheses": [
+        "ambient objects are point/measure pairs (x,μ) with μ a computable probability measure on Cantor space",
+        "closure principles use the a.e.-computable measure-preserving maps of SRC-0015"
+      ],
+      "direction": "maximality characterization",
+      "source_support": [
+        {
+          "source": "SRC-0015",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 33"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0005"
+      ],
+      "relations": [
+        "REL-0031"
+      ],
+      "cautions": [
+        "This is not the same statement as the fair-coin self-map maximality theorem THM-0008; the ambient class here ranges over all computable Cantor-space measures."
+      ]
+    },
+    {
+      "id": "THM-0040",
+      "name": "Uniformization of measure-relative integral tests",
+      "statement": "For a probability measure P on Cantor space, every P-test that is lower semicomputable relative to P can be dominated at P, up to the stated constant factor, by a jointly lower-semicomputable uniform test; conversely, restricting any uniform test to P yields a P-test.",
+      "hypotheses": [
+        "P is a Borel probability measure on Cantor space, not necessarily computable",
+        "P-test and uniform test use the source's integral-bound definitions"
+      ],
+      "direction": "equivalence up to multiplicative normalization at fixed P",
+      "source_support": [
+        {
+          "source": "SRC-0038",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 5.11 and Theorem 5.12"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0006"
+      ],
+      "relations": [],
+      "cautions": [
+        "This measure-parameter uniformity is distinct from ordinary versus uniform oracle relativization in P1-S003."
       ]
     }
   ]
