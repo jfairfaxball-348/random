@@ -5,7 +5,8 @@
   "programme_status": "PHASE_1_ACTIVE",
   "active_phase": 1,
   "active_phase_name": "Research / Catalogue",
-  "active_session": "P1-S001",
+  "active_session": null,
+  "last_completed_session": "P1-S001",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -30,8 +31,29 @@
       "status": "CLOSED"
     }
   },
-  "current_authorization": "Phase 1 Research / Catalogue only; owner authorization received 2026-10-03. P1-S001 is authorized. Phases 2-5 remain closed.",
+  "current_authorization": "Phase 1 Research / Catalogue only. Phases 2-5 remain closed.",
+  "phase1_gate_status": "CLOSED_NOT_READY_FOR_REVIEW",
+  "phase1_coverage": {
+    "coverage_records": 19,
+    "complete": 0,
+    "started_core": 4,
+    "started": 1,
+    "partial": 7,
+    "started_edge": 2,
+    "early_navigation_only": 2,
+    "navigation_only": 1,
+    "not_started": 2
+  },
+  "catalogue_counts": {
+    "sources": 21,
+    "definitions": 12,
+    "theorems": 11,
+    "relations": 8,
+    "questions": 1,
+    "authors": 24
+  },
   "next_transition": "Complete Phase 1 coverage and pass the Phase 1 -> Phase 2 gate before any Discovery work.",
+  "recommended_next_session": "P1-S002",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
