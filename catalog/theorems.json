@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S002",
+  "session": "P1-S003",
   "records": [
     {
       "id": "THM-0001",
@@ -382,7 +382,7 @@
       "statement": "For every n≥1, weak (n+1)-randomness implies n-randomness, and n-randomness implies weak n-randomness; neither converse holds.",
       "hypotheses": [
         "weak n-randomness as DEF-0014",
-        "n-randomness means the usual n-th Martin-Löf-relative level in SRC-0027"
+        "n-randomness uses DEF-0020's source-supported convention: Martin-Löf randomness relative to ∅^(n−1)"
       ],
       "direction": "two strict implications for each n≥1",
       "source_support": [
@@ -396,7 +396,8 @@
         "DEF-0002",
         "DEF-0013",
         "DEF-0014",
-        "DEF-0015"
+        "DEF-0015",
+        "DEF-0020"
       ],
       "relations": [
         "REL-0009",
@@ -468,6 +469,143 @@
         "DEF-0002",
         "DEF-0003",
         "DEF-0004"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0021",
+      "name": "van Lambalgen's theorem for Martin-Löf randomness",
+      "statement": "For A,B∈2^ω in the fair-coin setting, A⊕B is Martin-Löf (1-)random iff A is Martin-Löf random and B is Martin-Löf random relative to A.",
+      "hypotheses": [
+        "A,B are binary reals in Cantor space with fair-coin measure",
+        "A⊕B uses the even/odd interleaving convention documented in SRC-0032"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0030",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "introductory van Lambalgen theorem, part (i)"
+        },
+        {
+          "source": "SRC-0032",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 1.1; join convention before proof of Theorem 5.3"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0019"
+      ],
+      "relations": [
+        "REL-0016"
+      ],
+      "cautions": [
+        "P1-S003 does not generalize this fair-coin Cantor-space statement to arbitrary measures or spaces.",
+        "SRC-0033 is the original statement-inspected provenance for the underlying product/relative-randomness phenomenon, but its printed theorem is kept in its actual product-space/complexity notation rather than rewritten as this later A⊕B sentence."
+      ]
+    },
+    {
+      "id": "THM-0022",
+      "name": "van Lambalgen symmetry consequence for 1-random reals",
+      "statement": "If A is 1-random and B is 1-random relative to A, then A is 1-random relative to B.",
+      "hypotheses": [
+        "A,B∈2^ω",
+        "fair-coin/1-random setting"
+      ],
+      "direction": "implication",
+      "source_support": [
+        {
+          "source": "SRC-0030",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "introductory van Lambalgen theorem, part (ii)"
+        },
+        {
+          "source": "SRC-0033",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 5.10, printed p. 1165; original product/relative-prefix-complexity form"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0019"
+      ],
+      "relations": [],
+      "cautions": [
+        "SRC-0033's exact original formulation uses its own complexity/random-pair notation; SRC-0030 supplies the clean modern statement recorded here."
+      ]
+    },
+    {
+      "id": "THM-0023",
+      "name": "van Lambalgen theorem for uniformly relative Schnorr randomness",
+      "statement": "A⊕B is Schnorr random iff A is Schnorr random and B is Schnorr random uniformly relative to A.",
+      "hypotheses": [
+        "A,B∈2^ω",
+        "fair-coin Cantor-space Schnorr randomness",
+        "uniform relativization is DEF-0024, not ordinary oracle Schnorr randomness DEF-0022"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0032",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 1.2 / corrected proof in Section 4"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0003",
+        "DEF-0024"
+      ],
+      "relations": [],
+      "cautions": [
+        "SRC-0032 explicitly reports failure of the forward direction for the naive theorem using ordinary relative Schnorr randomness; this theorem therefore must retain the word uniformly."
+      ]
+    },
+    {
+      "id": "THM-0024",
+      "name": "Symmetric van-Lambalgen-type theorem for uniformly relative computable randomness",
+      "statement": "A⊕B is computably random iff A is computably random uniformly relative to B and B is computably random uniformly relative to A.",
+      "hypotheses": [
+        "A,B∈2^ω",
+        "fair-coin computable randomness",
+        "uniform relativization is DEF-0025"
+      ],
+      "direction": "equivalence with mutual relative conditions",
+      "source_support": [
+        {
+          "source": "SRC-0032",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 1.3 / Theorem 5.3"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0004",
+        "DEF-0025"
+      ],
+      "relations": [],
+      "cautions": [
+        "This is intentionally symmetric and is not the asymmetric ML form. SRC-0032 states that the claimed asymmetric converse proof for uniformly relative computable randomness was erroneous at that time."
+      ]
+    },
+    {
+      "id": "THM-0025",
+      "name": "Uniformly relative computable randomness is separated from ordinary relative computable randomness",
+      "statement": "There exist A,B such that A is computably random uniformly relative to B but A is not computably random relative to B.",
+      "hypotheses": [
+        "A,B∈2^ω",
+        "ordinary relative computable randomness as DEF-0021",
+        "uniform relative computable randomness as DEF-0025"
+      ],
+      "direction": "existential separation",
+      "source_support": [
+        {
+          "source": "SRC-0032",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Corollary 5.4"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0021",
+        "DEF-0025"
       ],
       "relations": []
     }
