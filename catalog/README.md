@@ -22,3 +22,14 @@ The general effective Cantor representation uses an appropriate computable measu
 The close counts are 38 sources, 36 definitions, 40 theorem/characterization records, 33 relation records, 1 status question, 42 author-navigation records and 19 coverage records. No coverage stratum is yet complete.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.
+
+
+## P1-S006 checkpoint
+
+P1-S006 consolidated COV-0019 at primary-source level. The catalogue now separates effective meagreness from effective nullness; weak 1-genericity from 1-genericity; and weak n-genericity from n-genericity and from the unrelated weak-n-randomness hierarchy. Exact primary statements ground the Π^0_1-boundary characterization of 1-genericity, Kurtz's interleaving genericity hierarchy as restated in inspected primary literature, and the strict weak-1-generic → Kurtz-random bridge.
+
+The foundational Jockusch 1980 chapter remains METADATA_ONLY, Kurtz 1983 remains ABSTRACT_INSPECTED via its publisher extract, and the Kurtz 1981 thesis remains METADATA_ONLY. No missing original statement was reconstructed from secondary literature.
+
+The close counts are 44 sources, 41 definitions, 44 theorem/characterization records, 37 relation records, 1 status question, 47 author-navigation records and 19 coverage records. No coverage stratum is yet complete; COV-0019 is PARTIAL_P1_S006.
+
+Phase 1 remains materially incomplete and Gate 1 is not ready for review.
