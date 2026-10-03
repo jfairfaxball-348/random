@@ -180,3 +180,35 @@ Scope: primary-source consolidation of computable measures, computable probabili
 
 ### Bounded exclusions
 No Fairfax-Ball candidate was invented or selected; no Phase-2 target selection or dedicated novelty audit was performed; no original mathematics/proof search, Lean/Palomar work, manuscript/publication work or external outreach was performed.
+
+
+## P1-S006 — 2026-10-03
+
+Scope: primary-source consolidation of COV-0019, restricted to effective category/meagreness, the principal computability-theoretic genericity notions needed to separate weak/1/higher levels, and exact inspected comparison links to already catalogued randomness notions. Search failure is not treated as nonexistence.
+
+### Primary sources inspected or anchored
+- SRC-0039 (Jockusch 1980, *Degrees of Generic Sets*) was added as the foundational n-genericity provenance anchor at METADATA_ONLY. Cambridge metadata was verified, but the chapter's internal statements were not available for statement-level inspection in this bounded pass.
+- SRC-0040 (Kurtz 1983, *Notions of weak genericity*) was added at ABSTRACT_INSPECTED from the Cambridge publisher extract. The extract confirms that the paper defines weakly n-generic classes for n≥1 and proves their interleaving with n-genericity, but exact syntax was not reconstructed from the unavailable full text.
+- SRC-0041 (Stephan–Yu 2006) was statement-inspected from author-uploaded/indexed full text cross-checked with the NUS repository and Springer metadata. It explicitly contrasts dense Σ^0_1 classes with measure-one Σ^0_1 classes and states weakly 1-generic ⇒ Kurtz-random with non-converse.
+- SRC-0042 (Kuyper–Terwijn 2014) was visually and textually statement-inspected. Definition 2.1 fixes Cantor-space 1-genericity via c.e. sets of strings dense along x; Corollary 2.3 gives the Π^0_1-boundary characterization.
+- SRC-0043 (Brendle–Brooke-Taylor–Ng–Nies 2015 / arXiv:1404.2839) was visually and textually statement-inspected. §3.1 defines effective F_sigma classes and effectively meagre sets using uniformly Π^0_1 nowhere-dense components; §3.1.1 connects avoidance of all effectively meagre sets to weak 1-genericity. Its introduction explicitly says the meagre/null relationship is an analogy and that corresponding results may differ.
+- SRC-0044 (Csima–Downey–Greenberg–Hirschfeldt–Miller 2006) was visually and textually inspected from an author-hosted copy matched to JSL metadata. The introduction gives exact Σ^0_n string-set formulations for n-genericity and weak n-genericity and records Kurtz's strict interleaving hierarchy.
+- Existing SRC-0031 was re-inspected only far enough to confirm its separate 1-generic/weak-1-generic terminology; P1-S006 did not reopen the general oracle-relativization survey.
+
+### Exact convention reconciliation
+1. Effective meagreness is category-theoretic smallness: containment in a uniform effective F_sigma union of nowhere-dense Π^0_1 classes. It has no measure bound.
+2. Weak 1-genericity meets every globally dense c.e. set of strings. 1-genericity instead meets every c.e. set dense along the given real, equivalently avoids Π^0_1 boundaries. These are not one definition with different wording.
+3. Higher genericity has two interleaving hierarchies. Weakly n-generic meets every dense Σ^0_n set of strings; n-generic meets or avoids every Σ^0_n set. The inspected hierarchy is n-generic ⊋ weakly (n+1)-generic ⊋ (n+1)-generic.
+4. “Weakly n-generic” and repository “weak n-random” are unrelated naming axes. DEF-0014/DEF-0015 are unchanged.
+5. The only direct measure/category comparison promoted in this pass is the source-stated strict implication weakly 1-generic ⇒ Kurtz-random. No Martin-Löf/Schnorr/higher or generalized-measure edge is inferred by analogy.
+6. DEF-0020's jump convention is unchanged. Although SRC-0044 discusses standard relative formulations, P1-S006 does not create a new oracle-genericity survey.
+
+### Retrieval failures / access qualifications
+- Jockusch's 1980 chapter could be verified bibliographically but not inspected internally; SRC-0039 is therefore METADATA_ONLY.
+- Kurtz's 1983 paper was available through a publisher extract but not full statement text; SRC-0040 is therefore ABSTRACT_INSPECTED.
+- Kurtz's 1981 thesis SRC-0025 remains METADATA_ONLY; P1-S006 did not upgrade it from citation trails.
+- Direct publisher routes for some otherwise recovered papers were access-limited, so statement inspection used author-hosted/arXiv/NUS copies whose bibliographic identity was cross-checked.
+- No inaccessible-original gap was filled from a secondary summary.
+
+### Bounded exclusions
+No Fairfax-Ball candidate was invented or selected; no Phase-2 research target or dedicated novelty audit was performed; no original mathematics or proof search beyond understanding published statements was performed; no Lean/Palomar work, manuscript/publication preparation or external outreach was performed.
