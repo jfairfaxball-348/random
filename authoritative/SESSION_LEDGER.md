@@ -69,3 +69,22 @@ Explicit exclusions respected: no candidate invention/selection; no Phase-2 targ
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: `P1-S003`, primary-source consolidation of relative/oracle randomness and van Lambalgen-type results.
+
+
+## P1-S003 — Relative/oracle-randomness primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `aab0c2057599186c174d312bc8161767a7f39640`
+
+Scope completed: exact relative/oracle randomness conventions, n-random jump convention, van Lambalgen statement/provenance work, and bounded lowness/base cross-links.
+
+Catalogue at close: 33 sources; 25 definitions; 25 theorems; 16 relations; 1 question; 35 authors; 19 coverage records.
+
+Coverage at close: 0/19 complete — 4 started-core, 10 partial, 1 started-edge, 1 early-navigation-only, 1 navigation-only, 2 not-started.
+
+Validation: PASS. Close record: `phase1/P1-S003_CLOSE.md`. Meaningful correction: FL-005.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S004`, stronger test-randomness primary-source consolidation.
