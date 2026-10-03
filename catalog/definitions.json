@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S007",
+  "session": "P1-S008",
   "records": [
     {
       "id": "DEF-0001",
@@ -1503,6 +1503,147 @@
       "cautions": [
         "Dyadic rationals have two ordinary binary expansions, so an arbitrary real cannot be silently identified with a unique binary sequence without a convention.",
         "For Ω itself the ambiguity disappears because the inspected sources establish randomness and hence irrationality."
+      ]
+    },
+    {
+      "id": "DEF-0046",
+      "name": "Computational indistinguishability of probability ensembles (bounded-adversary form)",
+      "object_domain": "two probability ensembles D=(D_n) and E=(E_n), each D_n/E_n a distribution on finite binary strings of the prescribed length for security parameter n",
+      "effective_resources": "bounded statistical distinguishers/adversaries; Yao's foundational form uses polynomial statistical tests, while SRC-0049 parameterizes adversary running time and distinguishing success/security",
+      "framework": "distribution ensembles / bounded observers",
+      "measure_assumptions": "probabilities are over the sampled finite strings and any internal randomness of the test/adversary; no Cantor-space null-test semantics is assumed",
+      "relativization": "not treated in P1-S008",
+      "aliases": [
+        "computational indistinguishability",
+        "indistinguishable probability ensembles",
+        "polynomial-test indistinguishability"
+      ],
+      "formal_summary": "Two indexed distributions on finite strings are computationally indistinguishable when the allowed resource-bounded observers cannot distinguish which ensemble supplied a sample with the prohibited level of advantage. P1-S008 retains the source-specific quantitative security convention rather than replacing it with an uninspected normal form.",
+      "equivalent_characterizations": [
+        "THM-0049"
+      ],
+      "relationships": [
+        "REL-0042"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0048",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "printed p. 84, polynomial statistical tests and Theorem 3"
+        },
+        {
+          "source": "SRC-0049",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 2.3.7 and 3.3.1, paper pp. 10 and 12"
+        }
+      ],
+      "cautions": [
+        "This is a relation between probability ensembles/distributions on finite strings, not an intrinsic property of one infinite binary sequence.",
+        "Do not identify computational indistinguishability with Martin-Löf, Schnorr or computable randomness. Their objects and testing resources differ.",
+        "The source-specific bound on the distinguisher/adversary is part of the definition and must not be erased."
+      ]
+    },
+    {
+      "id": "DEF-0047",
+      "name": "Pseudorandom generator (finite-seed distribution-ensemble form)",
+      "object_domain": "a deterministic P-time function ensemble g mapping finite seeds of length t_n to finite outputs of length l_n with l_n>t_n",
+      "effective_resources": "P-time generation plus the bounded distinguisher/adversary class used in DEF-0046",
+      "framework": "computational pseudorandomness / distributional generator",
+      "measure_assumptions": "the seed is sampled uniformly; the induced output distribution g(U_{t_n}) is compared with the uniform distribution U_{l_n} on finite output strings",
+      "relativization": "not treated in P1-S008",
+      "aliases": [
+        "pseudorandom generator",
+        "PRG",
+        "pseudorandom bit generator"
+      ],
+      "formal_summary": "In SRC-0049, a P-time stretching function ensemble g is pseudorandom when the induced output ensemble on a uniformly random seed is computationally indistinguishable, at the stated security level, from the uniform output ensemble of the same length. SRC-0048 supplies the foundational polynomial-test source-ensemble viewpoint.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0042"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0049",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.3.3, paper pp. 12-13"
+        },
+        {
+          "source": "SRC-0048",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "printed p. 84, source/test definitions and Theorem 3"
+        }
+      ],
+      "cautions": [
+        "The randomness claim is distributional over a uniformly sampled finite seed. It is not a claim that every fixed output string, or an infinite concatenation of outputs, is Martin-Löf/Schnorr/computably random.",
+        "Stretch and the computational resource bound are substantive parts of the notion.",
+        "No cryptographic security claim beyond the inspected source definitions is imported into the Fairfax-Ball catalogue."
+      ]
+    },
+    {
+      "id": "DEF-0048",
+      "name": "Resource-bounded Δ-randomness of an infinite binary sequence (including p-randomness)",
+      "object_domain": "individual infinite binary sequence x∈{0,1}^ω; complexity-theoretic languages are represented by their characteristic sequences under the source's fixed string ordering",
+      "effective_resources": "a resource class Δ from SRC-0051's transduction classes; in particular p=p1 is the polynomial-time class, with p_i defined by G_i-time computation",
+      "framework": "resource-bounded measure / individual-sequence randomness",
+      "measure_assumptions": "a Δ-test is a subset X of Cantor space with resource-bounded measure μ_Δ(X)=1 in SRC-0051's measure theory; x passes X when x∈X",
+      "relativization": "not treated in P1-S008",
+      "aliases": [
+        "Δ-randomness",
+        "p-randomness",
+        "resource-bounded randomness",
+        "pseudorandom sequence (Lutz 1992 terminology)"
+      ],
+      "formal_summary": "SRC-0051 defines x to be Δ-random when x belongs to every set of Δ-measure one. For Δ=p, where the paper writes p=p1 for polynomial-time transductions, this gives polynomial-time p-randomness of an individual infinite sequence.",
+      "equivalent_characterizations": [
+        "THM-0050"
+      ],
+      "relationships": [
+        "REL-0043"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0051",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "resource classes on paper pp. 8-9; Definition 6.1 on paper p. 35"
+        }
+      ],
+      "cautions": [
+        "This is an individual-infinite-sequence notion, unlike DEF-0046/DEF-0047's finite-string probability ensembles.",
+        "The resource class Δ is part of the definition; dropping it changes the notion.",
+        "P1-S008 records no implication between p-randomness and the existing unbounded Martin-Löf/Schnorr/computable-randomness hierarchy.",
+        "The source's use of the word 'pseudorandom' here does not make this definition identical to a cryptographic PRG output ensemble."
+      ]
+    },
+    {
+      "id": "DEF-0049",
+      "name": "Resource-bounded martingale success test (Lutz Δ-computable form)",
+      "object_domain": "a martingale d on finite binary prefixes together with an individual infinite binary sequence x",
+      "effective_resources": "d is Δ-computable for the chosen resource class Δ; p is the polynomial-time specialization from SRC-0051",
+      "framework": "resource-bounded betting / martingale test",
+      "measure_assumptions": "fair-coin martingale equality in SRC-0051's density-function/martingale framework",
+      "relativization": "not treated in P1-S008",
+      "aliases": [
+        "Δ-computable martingale",
+        "resource-bounded martingale",
+        "p-computable martingale"
+      ],
+      "formal_summary": "A martingale succeeds on x when its capital along the successive prefixes of x has unbounded limsup. Restricting the martingale to Δ-computable strategies supplies the betting characterization of Δ-randomness in THM-0050.",
+      "equivalent_characterizations": [
+        "THM-0050"
+      ],
+      "relationships": [
+        "REL-0043"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0051",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.18, paper p. 20; Theorem 6.2, paper p. 35"
+        }
+      ],
+      "cautions": [
+        "The Δ-computability restriction is essential; this record must not be silently replaced by unrestricted or merely computable martingales.",
+        "This is the minimal P1-S008 bridge to the already catalogued martingale viewpoint; no hierarchy implication is inferred."
       ]
     }
   ]
