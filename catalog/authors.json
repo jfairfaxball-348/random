@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S002",
+  "session": "P1-S003",
   "records": [
     {
       "id": "AUT-0001",
@@ -419,6 +419,62 @@
       ],
       "source_ids": [
         "SRC-0029"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0032",
+      "name": "Joseph S. Miller",
+      "topics": [
+        "algorithmic-randomness",
+        "relative-randomness",
+        "n-randomness",
+        "halting-probability"
+      ],
+      "source_ids": [
+        "SRC-0030"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0033",
+      "name": "Johanna N. Y. Franklin",
+      "topics": [
+        "relative-randomness",
+        "schnorr-randomness",
+        "kurtz-randomness",
+        "genericity"
+      ],
+      "source_ids": [
+        "SRC-0031"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0034",
+      "name": "Kenshi Miyabe",
+      "topics": [
+        "relative-randomness",
+        "schnorr-randomness",
+        "computable-randomness",
+        "van-lambalgen"
+      ],
+      "source_ids": [
+        "SRC-0032"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0035",
+      "name": "Jason Rute",
+      "topics": [
+        "relative-randomness",
+        "schnorr-randomness",
+        "computable-randomness",
+        "van-lambalgen"
+      ],
+      "source_ids": [
+        "SRC-0032"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
