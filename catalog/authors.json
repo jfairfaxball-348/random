@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S007",
+  "session": "P1-S008",
   "records": [
     {
       "id": "AUT-0001",
@@ -217,10 +217,13 @@
       "topics": [
         "effective-dimension",
         "supergales",
-        "resource-bounded-randomness"
+        "resource-bounded-randomness",
+        "resource-bounded-measure",
+        "p-randomness"
       ],
       "source_ids": [
-        "SRC-0013"
+        "SRC-0013",
+        "SRC-0051"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -755,6 +758,97 @@
       ],
       "source_ids": [
         "SRC-0046"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0052",
+      "name": "Andrew Chi-Chih Yao",
+      "topics": [
+        "computational-pseudorandomness",
+        "pseudorandom-generators",
+        "polynomial-statistical-tests"
+      ],
+      "source_ids": [
+        "SRC-0048"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0053",
+      "name": "Johan Håstad",
+      "topics": [
+        "pseudorandom-generators",
+        "one-way-functions",
+        "computational-indistinguishability"
+      ],
+      "source_ids": [
+        "SRC-0049"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0054",
+      "name": "Russell Impagliazzo",
+      "topics": [
+        "pseudorandom-generators",
+        "one-way-functions",
+        "computational-indistinguishability"
+      ],
+      "source_ids": [
+        "SRC-0049"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0055",
+      "name": "Leonid A. Levin",
+      "topics": [
+        "pseudorandom-generators",
+        "one-way-functions",
+        "computational-indistinguishability"
+      ],
+      "source_ids": [
+        "SRC-0049"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0056",
+      "name": "Michael Luby",
+      "topics": [
+        "pseudorandom-generators",
+        "one-way-functions",
+        "computational-indistinguishability"
+      ],
+      "source_ids": [
+        "SRC-0049"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0057",
+      "name": "Noam Nisan",
+      "topics": [
+        "pseudorandom-generators",
+        "hardness-vs-randomness",
+        "derandomization"
+      ],
+      "source_ids": [
+        "SRC-0050"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0058",
+      "name": "Avi Wigderson",
+      "topics": [
+        "pseudorandom-generators",
+        "hardness-vs-randomness",
+        "derandomization"
+      ],
+      "source_ids": [
+        "SRC-0050"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
