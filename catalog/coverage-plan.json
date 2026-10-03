@@ -1,0 +1,681 @@
+{
+  "schema_version": 1,
+  "phase": 1,
+  "session": "P1-S001",
+  "status": "IN_PROGRESS",
+  "checked_on": "2026-10-03",
+  "status_vocabulary": [
+    "NOT_STARTED_P1_S001",
+    "NAVIGATION_ONLY_P1_S001",
+    "EARLY_NAVIGATION_ONLY_P1_S001",
+    "STARTED_EDGE_P1_S001",
+    "PARTIAL_P1_S001",
+    "STARTED_P1_S001",
+    "STARTED_CORE_P1_S001"
+  ],
+  "records": [
+    {
+      "id": "COV-0001",
+      "area": "Measure-theoretic and effective-measure foundations",
+      "scope": "Classical probability-space/null-set background needed to state effective tests; computable measures; effective open sets; integral-test formulations.",
+      "terminology_aliases": [
+        "measure zero",
+        "null set",
+        "effective null set",
+        "constructive null set",
+        "computable measure",
+        "effective open set",
+        "lower semicomputable test"
+      ],
+      "why_it_matters": "Test-based randomness definitions depend on exactly which null sets/measures/tests are effectively present.",
+      "key_source_types": [
+        "foundational measure/effective-measure papers",
+        "algorithmic-randomness monographs",
+        "computable-analysis papers"
+      ],
+      "dependencies": [],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "PARTIAL_P1_S001",
+      "covered_by": [
+        "SRC-0001",
+        "SRC-0011"
+      ],
+      "known_retrieval_access_limitations": [
+        "Classical measure-theory foundations were not separately catalogued in P1-S001; only randomness-relevant effective-measure machinery was started."
+      ],
+      "next_actions": [
+        "Acquire authoritative effective-measure references and normalize conventions for effective openness, computable measures and integral tests."
+      ]
+    },
+    {
+      "id": "COV-0002",
+      "area": "Historical statistical randomness, normality, von Mises and Church selection",
+      "scope": "Normal numbers/statistical frequency tests; collectives; admissible place selections; Church effectivization; later stochasticity terminology.",
+      "terminology_aliases": [
+        "Borel normality",
+        "absolute normality",
+        "collective",
+        "Kollektiv",
+        "place selection",
+        "Church randomness",
+        "Church stochasticity",
+        "selection-rule stochasticity"
+      ],
+      "why_it_matters": "Separates frequency/selection approaches from stronger effective-test and betting notions and prevents ahistorical equivalence claims.",
+      "key_source_types": [
+        "original papers",
+        "historical surveys",
+        "modern technical reassessments"
+      ],
+      "dependencies": [
+        "COV-0001"
+      ],
+      "expected_depth_required": "MEDIUM",
+      "present_coverage_status": "PARTIAL_P1_S001",
+      "covered_by": [
+        "SRC-0002",
+        "SRC-0007",
+        "SRC-0020"
+      ],
+      "known_retrieval_access_limitations": [
+        "Borel and von Mises original sources not yet catalogued directly; Church source statement inspected; later terminology crosswalk incomplete."
+      ],
+      "next_actions": [
+        "Add primary Borel/von Mises records and source-supported relationships among normality, Church stochasticity and modern notions."
+      ]
+    },
+    {
+      "id": "COV-0003",
+      "area": "Martin-Löf randomness and effective null tests",
+      "scope": "Core definitions, universal tests, equivalent formulations and foundational history for individual infinite sequences.",
+      "terminology_aliases": [
+        "Martin-Löf randomness",
+        "Martin-Lof randomness",
+        "ML-randomness",
+        "1-randomness",
+        "effective randomness"
+      ],
+      "why_it_matters": "Central benchmark notion against which many weaker, stronger, relative and generalized notions are calibrated.",
+      "key_source_types": [
+        "Martin-Löf original paper",
+        "authoritative monographs",
+        "primary characterization papers",
+        "surveys"
+      ],
+      "dependencies": [
+        "COV-0001"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "STARTED_CORE_P1_S001",
+      "covered_by": [
+        "SRC-0001",
+        "SRC-0007",
+        "SRC-0011"
+      ],
+      "known_retrieval_access_limitations": [
+        "Original 1966 paper abstract inspected but its internal theorem statements/proofs were not yet fully indexed."
+      ],
+      "next_actions": [
+        "Inspect original statements and add Solovay-test, martingale and further complexity characterizations with primary sources."
+      ]
+    },
+    {
+      "id": "COV-0004",
+      "area": "Schnorr, computable, Kurtz and weak randomness notions",
+      "scope": "Major weaker notions; exact test/betting resources; strictness and separation theorems; weak-n hierarchy where relevant.",
+      "terminology_aliases": [
+        "Schnorr randomness",
+        "computable randomness",
+        "recursive randomness",
+        "Kurtz randomness",
+        "weak randomness",
+        "weak 2-randomness"
+      ],
+      "why_it_matters": "These notions expose how changes in effectivity/resource constraints alter randomness and provide a calibrated local landscape around Martin-Löf randomness.",
+      "key_source_types": [
+        "original Schnorr/Kurtz work",
+        "primary separation papers",
+        "monographs",
+        "surveys"
+      ],
+      "dependencies": [
+        "COV-0003",
+        "COV-0005"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "PARTIAL_P1_S001",
+      "covered_by": [
+        "SRC-0007",
+        "SRC-0008",
+        "SRC-0005"
+      ],
+      "known_retrieval_access_limitations": [
+        "Exact original Schnorr source not yet statement-inspected.",
+        "Kurtz thesis/source metadata was located during searching but no primary definition statement was inspected.",
+        "Weak-2 was encountered in survey text but was not promoted to a formal DEF record in this session."
+      ],
+      "next_actions": [
+        "Prioritize original/primary Schnorr and Kurtz sources; then add weak-n definitions and full strictness graph."
+      ]
+    },
+    {
+      "id": "COV-0005",
+      "area": "Martingale, betting, prediction and selection-rule characterizations",
+      "scope": "Monotone martingales, computable/lower-semicomputable betting, non-monotone Kolmogorov-Loveland strategies, selection rules and unpredictability paradigms.",
+      "terminology_aliases": [
+        "martingale randomness",
+        "betting strategy",
+        "computable martingale",
+        "nonmonotonic betting",
+        "Kolmogorov-Loveland randomness",
+        "selection rule",
+        "stochasticity"
+      ],
+      "why_it_matters": "Provides the unpredictability axis and reveals where adaptive/non-monotonic access changes a randomness notion.",
+      "key_source_types": [
+        "primary betting papers",
+        "monographs",
+        "surveys",
+        "KL-randomness papers"
+      ],
+      "dependencies": [
+        "COV-0002",
+        "COV-0003"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "PARTIAL_P1_S001",
+      "covered_by": [
+        "SRC-0007",
+        "SRC-0018",
+        "SRC-0019"
+      ],
+      "known_retrieval_access_limitations": [
+        "KL definition is currently abstract-inspected rather than proof-inspected; several historical martingale sources remain uncatalogued."
+      ],
+      "next_actions": [
+        "Acquire primary martingale characterization sources and inspect KL machinery beyond abstracts."
+      ]
+    },
+    {
+      "id": "COV-0006",
+      "area": "Kolmogorov complexity, algorithmic information and incompressibility",
+      "scope": "Plain and prefix-free complexity; coding/incompressibility characterizations; finite-string and infinite-sequence interfaces.",
+      "terminology_aliases": [
+        "Kolmogorov complexity",
+        "plain complexity C",
+        "prefix-free complexity K",
+        "self-delimiting complexity",
+        "program-size complexity",
+        "incompressibility"
+      ],
+      "why_it_matters": "Complexity provides a second foundational characterization axis and is central to lowness, dimension and random-real theory.",
+      "key_source_types": [
+        "Kolmogorov/Chaitin primary papers",
+        "Levin/Schnorr characterization sources",
+        "monographs",
+        "AIT surveys"
+      ],
+      "dependencies": [],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "PARTIAL_P1_S001",
+      "covered_by": [
+        "SRC-0003",
+        "SRC-0004",
+        "SRC-0007"
+      ],
+      "known_retrieval_access_limitations": [
+        "Kolmogorov 1965 primary text only metadata-inspected.",
+        "Primary Levin/Schnorr sources for the prefix-free characterization have not yet been separately catalogued."
+      ],
+      "next_actions": [
+        "Inspect primary complexity definitions and original incompressibility-characterization sources; add conditional/monotone variants only where randomness-relevant."
+      ]
+    },
+    {
+      "id": "COV-0007",
+      "area": "Effective dimension and partial randomness",
+      "scope": "Constructive/effective Hausdorff dimension, supergales, complexity-rate characterizations and finite-string dimension.",
+      "terminology_aliases": [
+        "constructive dimension",
+        "effective Hausdorff dimension",
+        "algorithmic dimension",
+        "supergale",
+        "dimension of an individual sequence"
+      ],
+      "why_it_matters": "Quantifies degrees of algorithmic information/randomness rather than only binary pass/fail notions.",
+      "key_source_types": [
+        "Lutz/Mayordomo primary papers",
+        "surveys",
+        "monograph chapters"
+      ],
+      "dependencies": [
+        "COV-0005",
+        "COV-0006"
+      ],
+      "expected_depth_required": "MEDIUM_DEEP",
+      "present_coverage_status": "PARTIAL_P1_S001",
+      "covered_by": [
+        "SRC-0013",
+        "SRC-0014"
+      ],
+      "known_retrieval_access_limitations": [
+        "Exact supergale definition not statement-inspected, so no DEF record yet."
+      ],
+      "next_actions": [
+        "Inspect primary definitions and distinguish constructive dimension, strong dimension and resource-bounded variants."
+      ]
+    },
+    {
+      "id": "COV-0008",
+      "area": "Relative/oracle randomness",
+      "scope": "Relativized tests/complexity/betting notions; oracle dependence; van Lambalgen-type phenomena; relative random reals.",
+      "terminology_aliases": [
+        "relative randomness",
+        "random relative to A",
+        "oracle randomness",
+        "A-random",
+        "relativized Martin-Löf randomness"
+      ],
+      "why_it_matters": "Relativization is structurally central to lowness, bases, jumps and higher notions.",
+      "key_source_types": [
+        "primary relative-randomness papers",
+        "monographs",
+        "van Lambalgen literature"
+      ],
+      "dependencies": [
+        "COV-0003",
+        "COV-0006"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "STARTED_EDGE_P1_S001",
+      "covered_by": [
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0021"
+      ],
+      "known_retrieval_access_limitations": [
+        "No standalone formal DEF record for relative ML randomness yet.",
+        "Van Lambalgen 1987 was catalogued only at abstract level; its major theorem was not statement-inspected."
+      ],
+      "next_actions": [
+        "Inspect exact relativized definitions and theorems, including van Lambalgen's theorem and oracle-level conventions."
+      ]
+    },
+    {
+      "id": "COV-0009",
+      "area": "Lowness notions and bases for randomness",
+      "scope": "Low-for-randomness classes, K-triviality, bases for randomness, traceability interfaces and computational weakness.",
+      "terminology_aliases": [
+        "low for random",
+        "low for Martin-Löf randomness",
+        "K-trivial",
+        "base for randomness",
+        "basis for randomness",
+        "traceability"
+      ],
+      "why_it_matters": "Shows how oracles interact with randomness and supplies equivalence classes connecting complexity and relative randomness.",
+      "key_source_types": [
+        "primary lowness papers",
+        "bases papers",
+        "monographs"
+      ],
+      "dependencies": [
+        "COV-0006",
+        "COV-0008"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "STARTED_CORE_P1_S001",
+      "covered_by": [
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0021"
+      ],
+      "known_retrieval_access_limitations": [
+        "Only a small core equivalence set is indexed; Schnorr/computable lowness and traceability families remain to map."
+      ],
+      "next_actions": [
+        "Expand lowness/bases graph with exact primary statements and separations across randomness notions."
+      ]
+    },
+    {
+      "id": "COV-0010",
+      "area": "Stronger randomness notions",
+      "scope": "2-randomness, n-randomness, weak-2 comparisons, Demuth randomness and other stronger effective-test notions.",
+      "terminology_aliases": [
+        "2-randomness",
+        "n-randomness",
+        "Demuth randomness",
+        "difference randomness",
+        "Oberwolfach randomness",
+        "balanced randomness"
+      ],
+      "why_it_matters": "Tests the effect of stronger resources and is necessary for an honest implication/separation map.",
+      "key_source_types": [
+        "original/primary notion papers",
+        "modern surveys",
+        "monographs"
+      ],
+      "dependencies": [
+        "COV-0003",
+        "COV-0004",
+        "COV-0008"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "EARLY_NAVIGATION_ONLY_P1_S001",
+      "covered_by": [
+        "SRC-0016",
+        "SRC-0005",
+        "SRC-0007"
+      ],
+      "known_retrieval_access_limitations": [
+        "Demuth original sources not yet acquired/inspected.",
+        "Several modern stronger notions have not yet been searched in P1-S001."
+      ],
+      "next_actions": [
+        "Build a dedicated stronger-notions tranche with exact definitions, implication chains and separations."
+      ]
+    },
+    {
+      "id": "COV-0011",
+      "area": "Higher randomness and higher computability",
+      "scope": "Δ1_1-, Π1_1-Martin-Löf-, Π1_1-randomness, higher weak-2/difference notions and lowness at higher levels.",
+      "terminology_aliases": [
+        "higher randomness",
+        "hyperarithmetic randomness",
+        "Pi11 randomness",
+        "Delta11 randomness",
+        "higher Martin-Löf randomness"
+      ],
+      "why_it_matters": "Tests which classical randomness structures persist under higher computability and where genuinely different phenomena arise.",
+      "key_source_types": [
+        "higher-randomness primary papers",
+        "survey chapters",
+        "higher-computability monographs"
+      ],
+      "dependencies": [
+        "COV-0008",
+        "COV-0010"
+      ],
+      "expected_depth_required": "MEDIUM_DEEP",
+      "present_coverage_status": "NAVIGATION_ONLY_P1_S001",
+      "covered_by": [
+        "SRC-0017",
+        "SRC-0005"
+      ],
+      "known_retrieval_access_limitations": [
+        "Cambridge chapter full text access restricted; no higher-randomness definition is yet promoted to DEF."
+      ],
+      "next_actions": [
+        "Retrieve accessible primary papers and index exact higher definitions/separations."
+      ]
+    },
+    {
+      "id": "COV-0012",
+      "area": "Randomness conservation and no-randomness-from-nothing",
+      "scope": "Preservation under effective measure-preserving maps; existence of random preimages; notion-specific failures and maximality principles.",
+      "terminology_aliases": [
+        "randomness conservation",
+        "randomness preservation",
+        "no randomness from nothing",
+        "no randomness ex nihilo",
+        "random preimage"
+      ],
+      "why_it_matters": "Supplies structural invariance principles that can distinguish randomness notions independently of their syntactic definitions.",
+      "key_source_types": [
+        "primary computable-analysis/randomness papers",
+        "surveys"
+      ],
+      "dependencies": [
+        "COV-0003",
+        "COV-0004",
+        "COV-0013"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "STARTED_CORE_P1_S001",
+      "covered_by": [
+        "SRC-0015"
+      ],
+      "known_retrieval_access_limitations": [
+        "P1-S001 indexed abstract-level results only; predecessor results attributed to Shen and related conservation literature still need primary-source tracing."
+      ],
+      "next_actions": [
+        "Trace primary antecedents, inspect exact map hypotheses, and connect conservation/NRFN records to generalized spaces."
+      ]
+    },
+    {
+      "id": "COV-0013",
+      "area": "Computable probability spaces and randomness beyond Cantor space",
+      "scope": "Computable metric/probability spaces, arbitrary computable measures, uniform tests, isomorphisms and non-binary domains.",
+      "terminology_aliases": [
+        "computable probability space",
+        "computable metric space",
+        "random point",
+        "randomness over metric spaces",
+        "computable measure"
+      ],
+      "why_it_matters": "Prevents the programme from mistaking Cantor-space presentation choices for intrinsic features of randomness.",
+      "key_source_types": [
+        "computable-analysis primary papers",
+        "generalized-randomness papers",
+        "surveys"
+      ],
+      "dependencies": [
+        "COV-0001",
+        "COV-0003"
+      ],
+      "expected_depth_required": "DEEP",
+      "present_coverage_status": "STARTED_CORE_P1_S001",
+      "covered_by": [
+        "SRC-0011",
+        "SRC-0012"
+      ],
+      "known_retrieval_access_limitations": [
+        "Current corpus concentrates on Martin-Löf/Schnorr generalizations; other spaces/measures and representation choices remain unmapped."
+      ],
+      "next_actions": [
+        "Expand to biased measures, general represented probability spaces and invariance/isomorphism results."
+      ]
+    },
+    {
+      "id": "COV-0014",
+      "area": "Probability and ergodic-theory interfaces",
+      "scope": "Typicality, effective ergodic theorems, mixing computable dynamics and probability-theoretic characterizations tied to individual randomness.",
+      "terminology_aliases": [
+        "effective ergodic theorem",
+        "typical point",
+        "Birkhoff typicality",
+        "computable dynamics",
+        "mixing"
+      ],
+      "why_it_matters": "Connects individual randomness to long-run statistical behavior under dynamical systems.",
+      "key_source_types": [
+        "primary effective-ergodic papers",
+        "surveys",
+        "computable-probability papers"
+      ],
+      "dependencies": [
+        "COV-0013"
+      ],
+      "expected_depth_required": "MEDIUM_DEEP",
+      "present_coverage_status": "STARTED_EDGE_P1_S001",
+      "covered_by": [
+        "SRC-0012"
+      ],
+      "known_retrieval_access_limitations": [
+        "Only one core Schnorr/typicality result is indexed; Martin-Löf and other effective-ergodic characterizations remain untouched."
+      ],
+      "next_actions": [
+        "Acquire primary effective Birkhoff/ergodic characterization literature."
+      ]
+    },
+    {
+      "id": "COV-0015",
+      "area": "Finite strings, random reals, left-c.e. reals and Ω",
+      "scope": "Randomness/patternlessness for finite strings; infinite reals as binary sequences; left-c.e. random reals; Chaitin Ω and related representations.",
+      "terminology_aliases": [
+        "random finite string",
+        "incompressible string",
+        "random real",
+        "left-c.e. random",
+        "Chaitin Omega",
+        "halting probability"
+      ],
+      "why_it_matters": "Clarifies object type and prevents conflating finite incompressibility with infinite-sequence randomness.",
+      "key_source_types": [
+        "AIT primary papers",
+        "Ω/left-c.e. primary papers",
+        "monographs"
+      ],
+      "dependencies": [
+        "COV-0003",
+        "COV-0006"
+      ],
+      "expected_depth_required": "MEDIUM_DEEP",
+      "present_coverage_status": "EARLY_NAVIGATION_ONLY_P1_S001",
+      "covered_by": [
+        "SRC-0004",
+        "SRC-0007"
+      ],
+      "known_retrieval_access_limitations": [
+        "No dedicated Ω/left-c.e. primary source record yet; finite-string randomness definitions not yet normalized."
+      ],
+      "next_actions": [
+        "Add left-c.e./Ω literature and separate finite-string criteria from infinite-sequence notions."
+      ]
+    },
+    {
+      "id": "COV-0016",
+      "area": "Pseudorandomness, resource-bounded randomness and derandomization boundary",
+      "scope": "Computational indistinguishability, resource-bounded betting/measure/dimension and derandomization only to clarify contrast with 'genuine' individual randomness.",
+      "terminology_aliases": [
+        "pseudorandomness",
+        "computational indistinguishability",
+        "resource-bounded randomness",
+        "p-randomness",
+        "derandomization"
+      ],
+      "why_it_matters": "Needed to distinguish algorithmic randomness of individuals from bounded-observer pseudorandomness without allowing Phase 1 to drift into general complexity theory.",
+      "key_source_types": [
+        "foundational complexity-theory papers",
+        "resource-bounded measure/randomness surveys"
+      ],
+      "dependencies": [
+        "COV-0005",
+        "COV-0006",
+        "COV-0007"
+      ],
+      "expected_depth_required": "BOUNDARY_MEDIUM",
+      "present_coverage_status": "NOT_STARTED_P1_S001",
+      "covered_by": [],
+      "known_retrieval_access_limitations": [
+        "Deliberately deferred in this first foundational session."
+      ],
+      "next_actions": [
+        "Later acquire a small boundary corpus sufficient to state distinctions and vocabulary, not an exhaustive derandomization survey."
+      ]
+    },
+    {
+      "id": "COV-0017",
+      "area": "Philosophical/foundational distinctions with mathematical consequences",
+      "scope": "Chance vs individual randomness; statistical typicality vs unpredictability vs incompressibility; only arguments that materially shape mathematical definitions.",
+      "terminology_aliases": [
+        "individual randomness",
+        "collective",
+        "typicality",
+        "unpredictability",
+        "incompressibility",
+        "statistical test"
+      ],
+      "why_it_matters": "Provides conceptual provenance for why different formal frameworks exist, while avoiding nontechnical philosophical sprawl.",
+      "key_source_types": [
+        "original foundational papers",
+        "mathematically substantive historical surveys"
+      ],
+      "dependencies": [
+        "COV-0002",
+        "COV-0003",
+        "COV-0005",
+        "COV-0006"
+      ],
+      "expected_depth_required": "BOUNDARY_MEDIUM",
+      "present_coverage_status": "PARTIAL_P1_S001",
+      "covered_by": [
+        "SRC-0002",
+        "SRC-0007",
+        "SRC-0020"
+      ],
+      "known_retrieval_access_limitations": [
+        "No dedicated philosophy-of-probability literature was collected because P1-S001 prioritizes mathematical definitions/results."
+      ],
+      "next_actions": [
+        "Add only sources that resolve terminology/provenance or materially explain formal design choices."
+      ]
+    },
+    {
+      "id": "COV-0018",
+      "area": "Relationship, separation and characterization graph",
+      "scope": "Implications, strict implications, equivalences, incomparabilities, relativized relationships and known separations among indexed notions.",
+      "terminology_aliases": [
+        "implication hierarchy",
+        "strictness",
+        "separation",
+        "equivalence",
+        "incomparability",
+        "characterization"
+      ],
+      "why_it_matters": "A future agent must be able to traverse what a notion implies and what implies it without guessing from definitions.",
+      "key_source_types": [
+        "primary separation/characterization papers",
+        "authoritative surveys"
+      ],
+      "dependencies": [
+        "ALL_NOTION_STRATA"
+      ],
+      "expected_depth_required": "DEEP_CROSS_CUTTING",
+      "present_coverage_status": "STARTED_P1_S001",
+      "covered_by": [
+        "SRC-0007",
+        "SRC-0009",
+        "SRC-0010",
+        "SRC-0012",
+        "SRC-0013",
+        "SRC-0015"
+      ],
+      "known_retrieval_access_limitations": [
+        "Current relation map is intentionally sparse and source-backed; no inferred edges were added merely because definitions look stronger/weaker."
+      ],
+      "next_actions": [
+        "Expand only with exact hypotheses/directions and create explicit incomparability/separation witnesses where source-supported."
+      ]
+    },
+    {
+      "id": "COV-0019",
+      "area": "Effective category, genericity and non-measure alternative frameworks",
+      "scope": "Category-based smallness/genericity and other mathematically established alternatives that illuminate the boundary of 'randomness' versus genericity.",
+      "terminology_aliases": [
+        "effective category",
+        "genericity",
+        "1-generic",
+        "weak genericity",
+        "effective meagreness"
+      ],
+      "why_it_matters": "The project charter includes measure/category interfaces; understanding nearby non-measure notions prevents conflation of randomness and genericity.",
+      "key_source_types": [
+        "computability/genericity primary papers",
+        "surveys/monographs"
+      ],
+      "dependencies": [
+        "COV-0001"
+      ],
+      "expected_depth_required": "BOUNDARY_MEDIUM",
+      "present_coverage_status": "NOT_STARTED_P1_S001",
+      "covered_by": [],
+      "known_retrieval_access_limitations": [
+        "No dedicated effective-category source search was performed in P1-S001."
+      ],
+      "next_actions": [
+        "Acquire a bounded category/genericity corpus and state distinctions from measure-based randomness."
+      ]
+    }
+  ]
+}
