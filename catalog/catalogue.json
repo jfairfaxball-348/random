@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 37,
-    "definitions": 29,
-    "theorems": 31,
-    "relations": 25,
+    "sources": 38,
+    "definitions": 36,
+    "theorems": 40,
+    "relations": 33,
     "questions": 1,
-    "authors": 41,
+    "authors": 42,
     "coverage_records": 19
   },
   "sources": [
@@ -61,7 +61,8 @@
     "SRC-0034",
     "SRC-0035",
     "SRC-0036",
-    "SRC-0037"
+    "SRC-0037",
+    "SRC-0038"
   ],
   "definitions": [
     "DEF-0001",
@@ -92,7 +93,14 @@
     "DEF-0026",
     "DEF-0027",
     "DEF-0028",
-    "DEF-0029"
+    "DEF-0029",
+    "DEF-0030",
+    "DEF-0031",
+    "DEF-0032",
+    "DEF-0033",
+    "DEF-0034",
+    "DEF-0035",
+    "DEF-0036"
   ],
   "theorems": [
     "THM-0001",
@@ -125,7 +133,16 @@
     "THM-0028",
     "THM-0029",
     "THM-0030",
-    "THM-0031"
+    "THM-0031",
+    "THM-0032",
+    "THM-0033",
+    "THM-0034",
+    "THM-0035",
+    "THM-0036",
+    "THM-0037",
+    "THM-0038",
+    "THM-0039",
+    "THM-0040"
   ],
   "relations": [
     "REL-0001",
@@ -152,7 +169,15 @@
     "REL-0022",
     "REL-0023",
     "REL-0024",
-    "REL-0025"
+    "REL-0025",
+    "REL-0026",
+    "REL-0027",
+    "REL-0028",
+    "REL-0029",
+    "REL-0030",
+    "REL-0031",
+    "REL-0032",
+    "REL-0033"
   ],
   "questions": [
     "QST-0001"
@@ -198,7 +223,8 @@
     "AUT-0038",
     "AUT-0039",
     "AUT-0040",
-    "AUT-0041"
+    "AUT-0041",
+    "AUT-0042"
   ],
   "search_terms": [
     "Martin-Löf random",
