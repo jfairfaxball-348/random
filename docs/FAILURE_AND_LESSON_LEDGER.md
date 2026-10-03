@@ -169,3 +169,36 @@ Resolution: DEF-0042 records the historical/modern terminology equivalence; DEF-
 The Solovay manuscript cited by the primary papers was not independently statement-inspected in this bounded pass. Its detailed claims are not reconstructed from secondary citation trails.
 
 Lesson: never infer randomness from left-c.e.-ness alone, never drop universality from an Ω-randomness theorem, and never move between a real and a binary sequence without preserving the source's representation convention.
+
+## FL-015 — Computational-pseudorandomness originals required mixed publisher/author-hosted access routes
+
+Session: `P1-S008`  
+Status: STATEMENTS RECOVERED WITH PROVENANCE QUALIFICATIONS / NOT A PROGRAMME BLOCKER
+
+The bounded COV-0016 pass found that bibliographic landing pages and full statement access did not coincide uniformly. Yao 1982 was statement-inspected from an accessible proceedings scan after DOI/title/page verification because the IEEE route was access-limited. Håstad–Impagliazzo–Levin–Luby 1999 was statement-inspected from Håstad's author-hosted journal paper after SIAM metadata/abstract cross-checking. Nisan–Wigderson journal metadata/abstract were available, while the inspected internal statements came from the authors' corresponding 1988 FOCS extended abstract.
+
+Resolution: `SRC-0048`–`SRC-0050` say exactly which artefact was inspected. No access level is upgraded on the strength of a publisher abstract alone, and no journal theorem numbering is reconstructed from a preliminary version.
+
+Lesson: source identity, bibliographic publication status and the copy actually statement-inspected are distinct provenance fields. Record all three when publisher access is incomplete.
+
+## FL-016 — “Pseudorandom sequence” names different object types across foundational sources
+
+Session: `P1-S008`  
+Status: RESOLVED AS OBJECT/RESOURCE DISCIPLINE
+
+Yao/HILL computational pseudorandomness compares probability ensembles on finite strings with bounded statistical distinguishers; a PRG induces such an ensemble from a uniformly sampled finite seed. Lutz 1992, by contrast, explicitly uses “pseudorandom sequences” for Δ-random **individual infinite binary sequences** defined through resource-bounded measure/martingales. His polynomial-time specialization retains the exact `p=p1` resource convention.
+
+Resolution: `DEF-0046`/`DEF-0047` and `DEF-0048`/`DEF-0049` are separate records with separate object domains. `THM-0050` records only the inspected Δ-random/martingale equivalence. No implication to or from Martin-Löf, Schnorr or computable randomness is inferred for p-randomness, and a fixed PRG output is not relabelled algorithmically random.
+
+Lesson: the word “pseudorandom” is not a stable mathematical type signature. Before normalizing terminology, identify whether the object is a distribution ensemble, finite generator output, language/characteristic sequence, or individual infinite sequence, and retain the resource bound on the observer/test/strategy.
+
+## FL-017 — Authoritative entry-point session pointer lagged committed state
+
+Session: `P1-S008`  
+Status: RESOLVED AUTHORITY-SYNCHRONIZATION CORRECTION
+
+At the incoming checkpoint, `authoritative/STATE.json` and `authoritative/SESSION_LEDGER.md` correctly recorded P1-S007 as the latest completed session, but `authoritative/START_HERE.md` still named P1-S006 and omitted P1-S007 from its completed-session sentence.
+
+Resolution: P1-S008 treated the more specific committed state/ledger plus the verified incoming hash as controlling, did not widen authorization, and synchronized `START_HERE.md` during closeout. Phase 1 remained OPEN and Phases 2–5 remained CLOSED throughout.
+
+Lesson: entry-point prose can lag machine-readable/session-ledger state even within an otherwise consistent checkpoint. Pin `main`, reconcile the specific mismatch, and correct the entry point rather than using stale prose to roll back completed work.
