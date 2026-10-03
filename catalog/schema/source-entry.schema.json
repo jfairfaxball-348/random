@@ -12,7 +12,9 @@
     "topics",
     "stable_locator",
     "aliases_search_terms",
+    "exact_relevance",
     "priority_relevance",
+    "inspected_claims",
     "notes",
     "inspected_material",
     "pointers",
@@ -157,6 +159,16 @@
         "null"
       ],
       "format": "date"
+    },
+    "exact_relevance": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inspected_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "additionalProperties": true
