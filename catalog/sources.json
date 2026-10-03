@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "session": "P1-S007",
-  "checked_on": "2026-10-03",
+  "session": "P1-S008",
+  "checked_on": "2026-10-04",
   "records": [
     {
       "id": "SRC-0001",
@@ -2898,6 +2898,254 @@
         "Every Ω-number is Chaitin-random; Chaitin randomness is equivalent here to Martin-Löf randomness via Definition 1.8, the preceding converse statement and Theorem 1.9.",
         "Definition 1.12 gives recursive enumerability by nondecreasing computable approximation; Ω-numbers are examples.",
         "Theorem 2.1 plus Theorem 1.15 yields the paper's stated conclusion that recursively enumerable random reals are exactly the Ω-numbers."
+      ]
+    },
+    {
+      "id": "SRC-0048",
+      "title": "Theory and Applications of Trapdoor Functions (Extended Abstract)",
+      "authors": [
+        "Andrew Chi-Chih Yao"
+      ],
+      "author_ids": [
+        "AUT-0052"
+      ],
+      "year": 1982,
+      "source_type": "conference_paper",
+      "doi": "10.1109/SFCS.1982.45",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1109/SFCS.1982.45",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "computational-pseudorandomness",
+        "pseudorandom-generation",
+        "probability-ensembles",
+        "polynomial-statistical-tests",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "Yao 1982 pseudorandom generator",
+        "perfect source",
+        "polynomial statistical test",
+        "trapdoor functions pseudorandom"
+      ],
+      "definitions": [
+        "DEF-0046",
+        "DEF-0047"
+      ],
+      "theorems": [
+        "THM-0049"
+      ],
+      "questions": [],
+      "priority_relevance": "Foundational primary source that explicitly separates the question of randomness of one sequence from pseudorandom number generation and formulates polynomial statistical tests for source ensembles.",
+      "notes": "FOCS proceedings metadata/DOI were cross-checked against DBLP. Statement inspection used an accessible scan of the actual proceedings paper. The paper's own term 'perfect' is retained in THM-0049 rather than silently rewritten as a later security convention.",
+      "inspected_material": [
+        "full proceedings-paper scan",
+        "printed p. 84 discussion separating single-sequence randomness from pseudorandom number generation",
+        "Definitions 10-14 and Theorem 3 around printed p. 84"
+      ],
+      "pointers": [
+        "23rd Annual Symposium on Foundations of Computer Science (FOCS 1982), pp. 80-91",
+        "printed p. 84: Definitions 10-14 and Theorem 3"
+      ],
+      "cross_links": [
+        "SRC-0049",
+        "SRC-0050"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Foundational bounded-test source for the object-domain distinction between an individual random sequence and a pseudorandom source/ensemble, with polynomial-time statistical tests.",
+      "inspected_claims": [
+        "The paper explicitly distinguishes the question 'what is a random sequence?' as a property of a single sequence from the pseudorandom-number-generation problem it studies.",
+        "A polynomial statistical test is a probabilistic algorithm on N-bit samples with polynomial running time.",
+        "Theorem 3 characterizes the paper's perfect uniform source ensembles by passing every polynomial statistical test."
+      ]
+    },
+    {
+      "id": "SRC-0049",
+      "title": "A Pseudorandom Generator from any One-way Function",
+      "authors": [
+        "Johan Håstad",
+        "Russell Impagliazzo",
+        "Leonid A. Levin",
+        "Michael Luby"
+      ],
+      "author_ids": [
+        "AUT-0053",
+        "AUT-0054",
+        "AUT-0055",
+        "AUT-0056"
+      ],
+      "year": 1999,
+      "source_type": "journal_article",
+      "doi": "10.1137/S0097539793244708",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1137/S0097539793244708",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "computational-pseudorandomness",
+        "computational-indistinguishability",
+        "probability-ensembles",
+        "pseudorandom-generators",
+        "one-way-functions"
+      ],
+      "aliases_search_terms": [
+        "HILL pseudorandom generator",
+        "Håstad Impagliazzo Levin Luby",
+        "computational indistinguishability probability ensembles",
+        "PRG from one-way function"
+      ],
+      "definitions": [
+        "DEF-0046",
+        "DEF-0047"
+      ],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Later primary paper giving an exact, security-parameterized probability-ensemble formulation of computational indistinguishability and pseudorandom generators.",
+      "notes": "SIAM metadata and abstract were checked; statement inspection used Johan Håstad's author-hosted full paper. The catalogue uses its exact probability-ensemble/function-ensemble domains and does not convert these definitions into predicates on one infinite sequence.",
+      "inspected_material": [
+        "SIAM bibliographic metadata and abstract",
+        "author-hosted full journal paper",
+        "Definitions 2.3.7-2.3.8",
+        "Definitions 3.3.1-3.3.3"
+      ],
+      "pointers": [
+        "SIAM Journal on Computing 28(4) (1999), 1364-1396",
+        "Definitions 2.3.7-2.3.8, paper p. 10",
+        "Definitions 3.3.1-3.3.3, paper pp. 12-13"
+      ],
+      "cross_links": [
+        "SRC-0048",
+        "SRC-0050"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Exact modern primary formulation for finite-string probability ensembles, bounded distinguishing advantage and a P-time stretching generator whose output ensemble is computationally indistinguishable from uniform.",
+      "inspected_claims": [
+        "A probability ensemble is indexed by the security parameter n and gives a distribution on fixed-length finite binary strings.",
+        "Definition 3.3.1 defines computational indistinguishability through an adversary's difference in acceptance probabilities, with the paper parameterizing time/success security.",
+        "Definition 3.3.3 requires a P-time function ensemble with output length greater than seed length and requires g(U_seed) and the uniform output ensemble to be computationally indistinguishable."
+      ]
+    },
+    {
+      "id": "SRC-0050",
+      "title": "Hardness vs. Randomness",
+      "authors": [
+        "Noam Nisan",
+        "Avi Wigderson"
+      ],
+      "author_ids": [
+        "AUT-0057",
+        "AUT-0058"
+      ],
+      "year": 1994,
+      "source_type": "journal_article",
+      "doi": "10.1016/S0022-0000(05)80043-1",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/S0022-0000(05)80043-1",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "pseudorandom-generators",
+        "hardness-vs-randomness",
+        "derandomization",
+        "randomized-algorithms",
+        "complexity-classes"
+      ],
+      "aliases_search_terms": [
+        "Nisan Wigderson hardness randomness",
+        "NW generator",
+        "hardness versus randomness",
+        "derandomization pseudorandom generator"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Primary boundary source for the meaning of derandomization: a short true-random seed is expanded to fool a specified complexity class, enabling deterministic simulation by seed enumeration under hardness assumptions.",
+      "notes": "Journal metadata/abstract were checked against ScienceDirect and the authors' publication record. Statement inspection used the authors' 1988 FOCS extended abstract corresponding to the later 1994 JCSS paper; exact journal theorem numbering was not inferred from the preliminary version.",
+      "inspected_material": [
+        "JCSS bibliographic metadata and abstract",
+        "author-hosted FOCS 1988 extended abstract",
+        "abstract and introduction of the extended abstract"
+      ],
+      "pointers": [
+        "Journal of Computer and System Sciences 49(2) (1994), 149-167",
+        "FOCS 1988 extended abstract, printed p. 2: abstract and introduction"
+      ],
+      "cross_links": [
+        "SRC-0048",
+        "SRC-0049"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Minimal primary-source vocabulary showing that derandomization concerns simulation of randomized computation using generators that fool a bounded computational class, not classification of an individual infinite sequence by unbounded effective tests.",
+      "inspected_claims": [
+        "The generator stretches a short truly random seed into a longer string that looks random to algorithms from a specified complexity class C.",
+        "The introduction describes deterministic simulation of a randomized algorithm by trying all possible seeds.",
+        "The paper frames the construction as a hardness-versus-randomness tradeoff, with simulation efficiency depending on the hardness assumption."
+      ]
+    },
+    {
+      "id": "SRC-0051",
+      "title": "Almost Everywhere High Nonuniform Complexity",
+      "authors": [
+        "Jack H. Lutz"
+      ],
+      "author_ids": [
+        "AUT-0013"
+      ],
+      "year": 1992,
+      "source_type": "journal_article",
+      "doi": "10.1016/0022-0000(92)90020-J",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/0022-0000(92)90020-J",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "resource-bounded-measure",
+        "resource-bounded-randomness",
+        "p-randomness",
+        "martingales",
+        "characteristic-sequences",
+        "complexity-classes",
+        "pseudorandom-sequences"
+      ],
+      "aliases_search_terms": [
+        "Lutz resource bounded measure",
+        "Delta-random",
+        "p-random sequence",
+        "resource bounded martingale",
+        "pseudorandom sequences Lutz"
+      ],
+      "definitions": [
+        "DEF-0048",
+        "DEF-0049"
+      ],
+      "theorems": [
+        "THM-0050"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source giving exact resource classes, resource-bounded measure tests and the martingale characterization of Δ-random individual infinite binary sequences, including polynomial-time p-randomness.",
+      "notes": "ScienceDirect metadata/abstract and Jack Lutz's author-hosted journal PDF were inspected. In this paper 'pseudorandom sequences' names an individual-sequence resource-bounded notion; that terminology is not identified with Yao/HILL distribution-ensemble pseudorandomness. The paper writes p for p1, the polynomial-time transduction class.",
+      "inspected_material": [
+        "ScienceDirect metadata and abstract",
+        "author-hosted full journal paper",
+        "resource classes around paper pp. 8-9",
+        "Definition 3.18, paper p. 20",
+        "Definition 6.1 and Theorem 6.2, paper p. 35"
+      ],
+      "pointers": [
+        "Journal of Computer and System Sciences 44(2) (1992), 220-258",
+        "paper pp. 8-9: G_i, p_i and p=p1 resource conventions",
+        "paper p. 20: Definition 3.18",
+        "paper p. 35: Definition 6.1 and Theorem 6.2"
+      ],
+      "cross_links": [
+        "SRC-0013",
+        "SRC-0028"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Exact primary formulation of resource-bounded individual-sequence randomness and its martingale characterization, with the polynomial-time p resource convention explicit.",
+      "inspected_claims": [
+        "The paper defines p_i as transductions computable in G_i time and writes p for p1; G1 contains the polynomially bounded growth rates.",
+        "Definition 3.18 says a martingale succeeds on x when its capital along prefixes of x has unbounded limsup.",
+        "Definition 6.1 defines a Δ-test as a set of infinite binary sequences of Δ-measure one and Δ-randomness as passing every such test.",
+        "Theorem 6.2 states that x is Δ-random iff no Δ-computable martingale succeeds on x.",
+        "The paper explicitly treats time- or space-bounded Δ-randomness as pseudorandomness and keeps it in an individual infinite-sequence/resource-bounded-measure setting."
       ]
     }
   ]
