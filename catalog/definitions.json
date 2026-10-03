@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S005",
+  "session": "P1-S006",
   "records": [
     {
       "id": "DEF-0001",
@@ -1145,6 +1145,188 @@
       "cautions": [
         "This is an arbitrary-computable-measure Cantor-space definition, not a claim that the fair-coin martingale equation in DEF-0004 transfers verbatim to every computable probability space.",
         "The paper's proposed fully uniform-relativized NRFN extension is Conjecture 21, not promoted here as a theorem."
+      ]
+    },
+    {
+      "id": "DEF-0037",
+      "name": "Effective meagreness on Cantor space",
+      "object_domain": "subset F of Cantor space 2^ω",
+      "effective_resources": "an effective F_sigma cover ⋃_m C_m with the C_m uniformly Π^0_1 and each C_m nowhere dense",
+      "framework": "effective category / effective meagre sets",
+      "measure_assumptions": "none; smallness is topological/category-theoretic, not defined by probability measure",
+      "relativization": "P1-S006 records only the unrelativized definition; oracle-effective variants occur in SRC-0043 but are not separately normalized here.",
+      "aliases": [
+        "effectively meager set",
+        "effectively meagre set",
+        "effective meagreness",
+        "effective meagerness"
+      ],
+      "formal_summary": "F⊆2^ω is effectively meagre if F is contained in an effective F_sigma class ⋃_m C_m where (C_m)_m is a uniform sequence of Π^0_1 classes and every C_m is nowhere dense. For such Π^0_1 components, from m and a finite string σ one can effectively find an extension ρ⊒σ whose cylinder misses C_m.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0043",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "§3.1, printed p. 8"
+        }
+      ],
+      "cautions": [
+        "This is a category notion: no test-level probability bound or null-measure hypothesis is part of the definition.",
+        "SRC-0043 sometimes also works in Baire space; this record fixes the explicitly stated Cantor-space version rather than silently identifying the two presentations."
+      ]
+    },
+    {
+      "id": "DEF-0038",
+      "name": "Weak 1-genericity",
+      "object_domain": "infinite binary sequence / real X in Cantor space 2^ω",
+      "effective_resources": "dense computably enumerable (Σ^0_1) sets of finite binary strings, equivalently dense effectively open classes",
+      "framework": "effective category / weak genericity",
+      "measure_assumptions": "none in the definition; the Kurtz-random comparison is a separate primary-source theorem",
+      "relativization": "P1-S006 does not reopen the oracle-genericity survey. SRC-0031/SRC-0041 contain relative variants, but this record is unrelativized.",
+      "aliases": [
+        "weakly 1-generic",
+        "weak 1-generic",
+        "weak genericity (when the level is explicitly 1)"
+      ],
+      "formal_summary": "X is weakly 1-generic iff X meets every dense c.e. set of finite binary strings (equivalently, X belongs to every dense Σ^0_1 open class). In the effective-category formulation of SRC-0043 this is equivalently avoidance of every effectively meagre set in the sense of DEF-0037.",
+      "equivalent_characterizations": [
+        "THM-0044"
+      ],
+      "relationships": [
+        "REL-0034",
+        "REL-0037"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0041",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "paragraph before Definition 6"
+        },
+        {
+          "source": "SRC-0043",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "§3.1.1, printed p. 9"
+        },
+        {
+          "source": "SRC-0044",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction, n=1 specialization of weak n-genericity"
+        }
+      ],
+      "cautions": [
+        "Do not identify weak 1-genericity with 1-genericity (DEF-0039).",
+        "Do not identify weakly 1-generic with weakly 1-random/Kurtz random (DEF-0013): REL-0037 is a strict implication, not an equivalence.",
+        "The word 'weak' here belongs to the genericity hierarchy and is unrelated to the weak-n-randomness indexing in DEF-0014."
+      ]
+    },
+    {
+      "id": "DEF-0039",
+      "name": "1-genericity on Cantor space",
+      "object_domain": "infinite binary sequence x in Cantor space 2^ω",
+      "effective_resources": "c.e. subsets A⊆2^{<ω}; x must meet each A that is dense along x",
+      "framework": "effective category / Cohen-style finite-extension genericity",
+      "measure_assumptions": "none",
+      "relativization": "P1-S006 records the unrelativized Σ^0_1-generic notion only.",
+      "aliases": [
+        "1-generic",
+        "Σ^0_1-generic",
+        "Sigma-0-1 generic"
+      ],
+      "formal_summary": "For A⊆2^{<ω}, x meets A if some prefix of x lies in A; A is dense along x if every prefix σ⊑x has an extension τ⊒σ with [τ]⊆[A]. Then x is 1-generic iff it meets every c.e. A that is dense along x. Equivalently, for every Π^0_1 class V, x avoids V\\Int(V).",
+      "equivalent_characterizations": [
+        "THM-0041"
+      ],
+      "relationships": [
+        "REL-0034"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0042",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "§2, Definition 2.1 and Corollary 2.3"
+        },
+        {
+          "source": "SRC-0044",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction and §1.1"
+        }
+      ],
+      "cautions": [
+        "Dense-along-x is local to x and is not the same quantifier pattern as meeting every globally dense c.e. set; the latter is weak 1-genericity.",
+        "No probability measure appears in this definition."
+      ]
+    },
+    {
+      "id": "DEF-0040",
+      "name": "Weak n-genericity",
+      "object_domain": "infinite binary sequence / real A in Cantor space 2^ω, with integer n≥1",
+      "effective_resources": "dense Σ^0_n sets of finite binary strings",
+      "framework": "arithmetical hierarchy of effective category/genericity",
+      "measure_assumptions": "none",
+      "relativization": "Not separately normalized in P1-S006; this parameter n is an arithmetical-complexity level, not the repository's weak-n-randomness notion.",
+      "aliases": [
+        "weakly n-generic",
+        "weak n-generic",
+        "weak n-genericity"
+      ],
+      "formal_summary": "For n≥1, A is weakly n-generic iff A meets every dense Σ^0_n set of finite binary strings.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0035",
+        "REL-0036"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0044",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction, printed p. 1"
+        },
+        {
+          "source": "SRC-0040",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher extract for original provenance only"
+        }
+      ],
+      "cautions": [
+        "Weak n-genericity is a category/genericity hierarchy and must not be confused with weak n-randomness (DEF-0014), which is measure-one typicality.",
+        "Unqualified 'weak genericity' is ambiguous unless the level is stated."
+      ]
+    },
+    {
+      "id": "DEF-0041",
+      "name": "n-genericity",
+      "object_domain": "infinite binary sequence / real A in Cantor space 2^ω, with integer n≥1",
+      "effective_resources": "Σ^0_n sets S of finite binary strings; finite-extension meet-or-avoid requirement",
+      "framework": "arithmetical hierarchy of effective category / Cohen genericity",
+      "measure_assumptions": "none",
+      "relativization": "SRC-0044 notes the standard jump-relative reformulation, but P1-S006 does not open a new oracle-genericity record and leaves DEF-0020's n-random jump convention unchanged.",
+      "aliases": [
+        "n-generic",
+        "Σ^0_n-generic",
+        "arithmetically n-generic"
+      ],
+      "formal_summary": "For n≥1, A is n-generic iff for every Σ^0_n set S⊆2^{<ω}, there is a prefix σ⊑A such that either σ∈S or no extension τ⊒σ lies in S.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0035",
+        "REL-0036"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0044",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction, printed p. 1"
+        },
+        {
+          "source": "SRC-0039",
+          "evidence": "METADATA_ONLY",
+          "pointer": "foundational provenance only; internal statement not inspected"
+        }
+      ],
+      "cautions": [
+        "Do not collapse n-genericity with weak n-genericity; the source-stated hierarchies interleave.",
+        "The symbol n here indexes arithmetical genericity requirements, not a probability-test bound or the weak-n-randomness class."
       ]
     }
   ]
