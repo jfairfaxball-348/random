@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S003",
+  "session": "P1-S004",
   "records": [
     {
       "id": "DEF-0001",
@@ -49,7 +49,8 @@
         "REL-0001",
         "REL-0009",
         "REL-0011",
-        "REL-0016"
+        "REL-0016",
+        "REL-0020"
       ],
       "source_support": [
         {
@@ -463,7 +464,10 @@
       ],
       "relationships": [
         "REL-0011",
-        "REL-0012"
+        "REL-0012",
+        "REL-0019",
+        "REL-0021",
+        "REL-0025"
       ],
       "source_support": [
         {
@@ -597,7 +601,9 @@
       "formal_summary": "For n≥1, X is n-random iff X is Martin-Löf random relative to the oracle ∅^(n−1). Thus n=1 recovers ordinary Martin-Löf randomness.",
       "equivalent_characterizations": [],
       "relationships": [
-        "REL-0015"
+        "REL-0015",
+        "REL-0017",
+        "REL-0025"
       ],
       "source_support": [
         {
@@ -751,6 +757,153 @@
       "cautions": [
         "This is weaker than ordinary computable randomness relative to B in the sense witnessed by SRC-0032 Corollary 5.4 (THM-0025).",
         "SRC-0032's computable-randomness van-Lambalgen theorem is symmetric: each half is uniformly random relative to the other; do not rewrite it as the asymmetric ML theorem."
+      ]
+    },
+    {
+      "id": "DEF-0026",
+      "name": "Demuth randomness",
+      "object_domain": "infinite binary sequence / real Z in Cantor space 2^ω in the modern inspected formulation; Demuth's 1982 original is formulated for arithmetical reals",
+      "effective_resources": "c.e. open test components whose indices are given by an ω-c.e. function f (equivalently in SRC-0016, f≤wtt∅'), so the index for level m changes only a computably bounded number of times depending on m",
+      "framework": "moving-component effective null test with computably bounded mind changes and Solovay passing",
+      "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space in the modern inspected sources; each final component has measure at most 2^-m",
+      "relativization": "No oracle-relative variant is normalized in P1-S004. The record is ordinary fair-coin Demuth randomness.",
+      "aliases": [
+        "Demuth random",
+        "Demuth randomness",
+        "NWAP (later historical Demuth terminology reported by SRC-0016)",
+        "A_beta (1982 historical class notation as decoded by SRC-0016)"
+      ],
+      "formal_summary": "A Demuth test has final c.e. open components U_m=[W_{f(m)}]^≺ with μ(U_m)≤2^-m, where f is ω-c.e. and the number of changes in an approximation to f(m) is computably bounded as a function of m. Z passes in the Solovay sense: Z belongs to only finitely many final U_m. Z is Demuth random iff it passes every Demuth test.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0017",
+        "REL-0018",
+        "REL-0021"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0034",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "printed pp. 457-458; original constructive/arithmetic-real notation"
+        },
+        {
+          "source": "SRC-0016",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "§4.4, Definition 4.9 and historical decoding"
+        },
+        {
+          "source": "SRC-0035",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction, Definition 1.2"
+        }
+      ],
+      "cautions": [
+        "The 1982 original uses a restricted arithmetical-real domain and Demuth's own formal notation; the modern all-real Cantor-space wording is not attributed verbatim to SRC-0034.",
+        "Demuth passing is Solovay passing (membership in only finitely many final components), not merely escaping one component. Balanced and Oberwolfach randomness use the weak-Demuth/ordinary escape convention in the inspected sources.",
+        "Historical labels WAP/NWAP and A_alpha/A_beta are source-era terminology; do not use them as context-free modern synonyms."
+      ]
+    },
+    {
+      "id": "DEF-0027",
+      "name": "Difference randomness",
+      "object_domain": "real A in fair-coin Cantor space 2^ω",
+      "effective_resources": "recursive index functions for c.e. sets of strings; a d.r.e. test component is a difference D(U,V)=[U]\\[V], and the general n-r.e. component alternates finitely many such c.e.-open pieces as in SRC-0035",
+      "framework": "neighborhood-based d.r.e./n-r.e. effective null tests",
+      "measure_assumptions": "fair-coin/Lebesgue measure; each i-th test component has measure at most 2^-i",
+      "relativization": "No oracle-relative difference-randomness definition is promoted in P1-S004; only the ordinary fair-coin definition is recorded.",
+      "aliases": [
+        "difference random",
+        "difference randomness",
+        "d.r.e. random",
+        "2-r.e. random in the neighborhood-based hierarchy of SRC-0035"
+      ],
+      "formal_summary": "A d.r.e. test is a uniformly effectively indexed sequence of sets D(W_{g1(i)},W_{g2(i)})=[W_{g1(i)}]\\[W_{g2(i)}] with measure at most 2^-i. A real is difference random iff it escapes the intersection of every such test. SRC-0035 proves that the corresponding neighborhood-based n-r.e. randomness notions coincide for all n≥2.",
+      "equivalent_characterizations": [
+        "THM-0026",
+        "THM-0028"
+      ],
+      "relationships": [
+        "REL-0018",
+        "REL-0019",
+        "REL-0020",
+        "REL-0023",
+        "REL-0024"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0035",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2.3 and Theorem 2.8"
+        }
+      ],
+      "cautions": [
+        "SRC-0035 also defines a separate naive n-r.e. string-test notion and proves that for n≥2 it coincides with 2-randomness. That naive notion is not difference randomness.",
+        "The n-r.e. label is therefore source-sensitive: retain the neighborhood/difference semantics before translating the term."
+      ]
+    },
+    {
+      "id": "DEF-0028",
+      "name": "Balanced randomness",
+      "object_domain": "real Z in fair-coin Cantor space 2^ω",
+      "effective_resources": "c.e. open components G_m=[W_{f(m)}]^≺ with a computable approximation f(m)=lim_s g(m,s); the number of changes of g(m,·) is O(2^m), equivalently an exact 2^m change bound in the source's normal form",
+      "framework": "exponentially change-bounded weak-Demuth test",
+      "measure_assumptions": "fair-coin/Lebesgue measure; μ(G_m)≤2^-m",
+      "relativization": "No oracle-relative balanced-randomness definition is normalized in P1-S004.",
+      "aliases": [
+        "balanced random",
+        "balanced randomness",
+        "balanced test",
+        "2^m-change weak Demuth test (normal form)"
+      ],
+      "formal_summary": "A balanced test is a weak-Demuth-style moving-component test (G_m) with μ(G_m)≤2^-m whose m-th index changes O(2^m) times. A real passes by escaping at least one final component; it is balanced random iff it passes every balanced test. SRC-0036 shows the O(2^m) bound can be normalized to exactly 2^m changes without changing the notion.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0022",
+        "REL-0024"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0036",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 14 and Remarks 16-18"
+        }
+      ],
+      "cautions": [
+        "Balanced randomness is formulated as a restricted weak-Demuth notion: ordinary escape from a component is the passing condition. Do not replace it with Demuth's Solovay/finitely-many-components passing convention."
+      ]
+    },
+    {
+      "id": "DEF-0029",
+      "name": "Oberwolfach randomness",
+      "object_domain": "real / set Z in fair-coin Cantor space 2^ω",
+      "effective_resources": "weak Demuth test components U_n with computably bounded version changes, plus a coherence constraint linking changes at adjacent levels",
+      "framework": "coherent moving-component weak-Demuth test",
+      "measure_assumptions": "fair-coin/Lebesgue measure; μ(U_n)≤2^-n in the inspected source",
+      "relativization": "No oracle-relative Oberwolfach-randomness definition is normalized in P1-S004.",
+      "aliases": [
+        "Oberwolfach random",
+        "Oberwolfach randomness",
+        "Oberwolfach test",
+        "coherent randomness test"
+      ],
+      "formal_summary": "An Oberwolfach test is a weak Demuth test with coherent component changes: for every n and every interval of stages on which the n-th component remains unchanged, the (n+1)-st component changes at most once. A real is Oberwolfach random iff it passes every such test in the ordinary weak-Demuth sense.",
+      "equivalent_characterizations": [
+        "THM-0031"
+      ],
+      "relationships": [
+        "REL-0022",
+        "REL-0023"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0037",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 2.2-2.3"
+        }
+      ],
+      "cautions": [
+        "The coherence condition, not an O(2^n) numerical bound, is the defining extra constraint over weak Demuth tests.",
+        "P1-S004 records only the source's fair-coin Cantor-space form and does not transfer it to arbitrary computable measures or oracle relativizations."
       ]
     }
   ]

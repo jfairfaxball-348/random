@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S003",
+  "session": "P1-S004",
   "records": [
     {
       "id": "THM-0001",
@@ -608,6 +608,162 @@
         "DEF-0025"
       ],
       "relations": []
+    },
+    {
+      "id": "THM-0026",
+      "name": "Neighborhood-based n-r.e. randomness collapses to difference randomness for n≥2",
+      "statement": "For the n-r.e. tests of Definition 2.3 in SRC-0035, all randomness notions at levels n≥2 coincide; their common class is called difference randomness.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "n-r.e. test uses the neighborhood/difference semantics of DEF-0027, not the paper's separate naive string-test notion"
+      ],
+      "direction": "equivalence of all levels n≥2",
+      "source_support": [
+        {
+          "source": "SRC-0035",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2.3 and Theorem 2.8"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0027"
+      ],
+      "relations": [],
+      "cautions": [
+        "SRC-0035's naive n-r.e. tests of sets of strings instead yield 2-randomness for n≥2; the two uses of 'n-r.e.' must not be merged."
+      ]
+    },
+    {
+      "id": "THM-0027",
+      "name": "Strict placement of 2-random, Demuth, weak-2, difference and Martin-Löf randomness",
+      "statement": "In fair-coin Cantor space, 2-randomness strictly implies each of Demuth randomness and weak 2-randomness; Demuth randomness and weak 2-randomness are incomparable; each strictly implies difference randomness; and difference randomness strictly implies Martin-Löf randomness.",
+      "hypotheses": [
+        "2-randomness is the n=2 instance of DEF-0020, i.e. Martin-Löf randomness relative to ∅'",
+        "ordinary fair-coin definitions DEF-0026, DEF-0015, DEF-0027 and DEF-0002"
+      ],
+      "direction": "strict implications plus incomparability",
+      "source_support": [
+        {
+          "source": "SRC-0035",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction; Proposition 2.10, its proof, and Figure 1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0020",
+        "DEF-0026",
+        "DEF-0015",
+        "DEF-0027",
+        "DEF-0002"
+      ],
+      "relations": [
+        "REL-0017",
+        "REL-0018",
+        "REL-0019",
+        "REL-0020",
+        "REL-0021",
+        "REL-0025"
+      ],
+      "cautions": [
+        "The 2-random label is read through DEF-0020 only at n=2; no new general n-random hierarchy claim is inferred.",
+        "The proof supplies distinct witness properties for the Demuth/weak-2 incomparability: Δ^0_2 and GL_1 facts are recorded only as source-supplied separation evidence."
+      ]
+    },
+    {
+      "id": "THM-0028",
+      "name": "Difference randomness equals Martin-Löf randomness plus Turing incompleteness",
+      "statement": "A real is difference random iff it is Martin-Löf random and not Turing complete.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "difference randomness as DEF-0027"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0035",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 3.1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0027",
+        "DEF-0002"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0029",
+      "name": "Balanced randomness strictly implies difference randomness",
+      "statement": "Every balanced random real is difference random, and some difference random real is not balanced random.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "balanced randomness as DEF-0028",
+        "difference randomness as DEF-0027"
+      ],
+      "direction": "strict implication",
+      "source_support": [
+        {
+          "source": "SRC-0036",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Proposition 19; later explicit separation discussion following Corollary 25"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0028",
+        "DEF-0027"
+      ],
+      "relations": [
+        "REL-0024"
+      ]
+    },
+    {
+      "id": "THM-0030",
+      "name": "Balanced / Oberwolfach / difference strict chain",
+      "statement": "Every balanced random real is Oberwolfach random, but not conversely; every Oberwolfach random real is difference random, but not conversely.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "definitions DEF-0028, DEF-0029 and DEF-0027"
+      ],
+      "direction": "two strict implications",
+      "source_support": [
+        {
+          "source": "SRC-0037",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Propositions 2.4 and 2.5"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0028",
+        "DEF-0029",
+        "DEF-0027"
+      ],
+      "relations": [
+        "REL-0022",
+        "REL-0023"
+      ]
+    },
+    {
+      "id": "THM-0031",
+      "name": "Equivalent normal forms for Oberwolfach randomness",
+      "statement": "Oberwolfach randomness, interval-test randomness and left-c.e.-bounded randomness coincide in the source's fair-coin setting.",
+      "hypotheses": [
+        "test notions as defined in §2 of SRC-0037"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0037",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Proposition 2.15"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0029"
+      ],
+      "relations": [],
+      "cautions": [
+        "Only Oberwolfach randomness receives a DEF record in P1-S004; interval and left-c.e.-bounded formulations are retained as source-specific equivalent normal forms."
+      ]
     }
   ]
 }

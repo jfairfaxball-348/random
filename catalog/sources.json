@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S003",
+  "session": "P1-S004",
   "checked_on": "2026-10-03",
   "records": [
     {
@@ -851,38 +851,58 @@
       "doi": "10.1017/bsl.2015.24",
       "arxiv": "1404.4449",
       "stable_locator": "https://doi.org/10.1017/bsl.2015.24",
-      "access_level": "ABSTRACT_INSPECTED",
+      "access_level": "STATEMENT_INSPECTED",
       "topics": [
         "demuth-randomness",
         "effective-null-sets",
         "constructive-analysis",
         "history",
-        "weak-strong-randomness"
+        "weak-strong-randomness",
+        "demuth-tests",
+        "weak-demuth-randomness",
+        "historical-terminology",
+        "mind-change-bounds"
       ],
       "aliases_search_terms": [
         "Demuth randomness",
         "Demuth tests",
-        "constructive analysis randomness"
+        "constructive analysis randomness",
+        "omega-c.e. index",
+        "f <=wtt 0'",
+        "A_beta",
+        "NWAP",
+        "WAP"
       ],
-      "definitions": [],
+      "definitions": [
+        "DEF-0026"
+      ],
       "theorems": [],
       "questions": [],
-      "priority_relevance": "Historical/technical survey guiding retrieval of Demuth's original notions and sources.",
-      "notes": "Abstract inspected. P1-S001 does not elevate a Demuth-randomness definition from this source because the exact test definition was not inspected.",
+      "priority_relevance": "Statement-inspected historical/technical survey that decodes Demuth's original constructive notation and states the modern Demuth-test normal form with an ω-c.e. / weak-truth-table-0' index.",
+      "notes": "Full accessible text was inspected in P1-S004, especially §4.4. It gives the modern Demuth-test definition and decodes the original 1982 notation. It is used to translate the original arithmetical-real formulation without pretending that the later all-real Cantor-space wording appears verbatim in Demuth 1982.",
       "inspected_material": [
-        "abstract",
-        "metadata"
+        "full accessible paper text",
+        "§4.4 Demuth randomness",
+        "Definition 4.9 and surrounding discussion",
+        "historical decoding of Demuth 1982, pp. 457-458"
       ],
       "pointers": [
-        "Bulletin of Symbolic Logic 21(3) (2015), 270-305"
+        "Bulletin of Symbolic Logic 21(3) (2015), 270-305",
+        "§4.4, Definition 4.9",
+        "discussion of the 1982 source and later WAP/NWAP terminology"
       ],
       "cross_links": [
-        "SRC-0005"
+        "SRC-0005",
+        "SRC-0034",
+        "SRC-0035"
       ],
       "checked_on": "2026-10-03",
-      "exact_relevance": "Historical/technical survey guiding retrieval of Demuth's original notions and sources.",
+      "exact_relevance": "Modern statement-level Demuth-test convention, computably bounded mind-change normal form, Solovay-passing condition, and historical terminology needed to interpret SRC-0034.",
       "inspected_claims": [
-        "Abstract: Demuth introduced several effective-null-set notions, including what later became major algorithmic-randomness notions and Demuth randomness; exact definitions were not inspected."
+        "Definition 4.9: a Demuth test consists of c.e. open components S_m of measure at most 2^-m with S_m=[W_{f(m)}]^≺ for f≤wtt∅'; a real passes when it is outside S_m for almost every m.",
+        "The paper states that f≤wtt∅' is equivalent here to f being ω-c.e.: f(x)=lim_t g(x,t) for computable g with a computable bound, depending on x, on the number of changes.",
+        "The historical discussion identifies Demuth's original change-bound mechanism and measure control, and distinguishes the original arithmetical-real classes from the later all-real modern definition.",
+        "Later Demuth terminology reported by the survey includes WAP/NWAP and starred weak variants; these labels are preserved as historical search terms rather than silently treated as present-day aliases."
       ]
     },
     {
@@ -1904,6 +1924,286 @@
         "The section explicitly relativizes the universal-machine/test setup to an oracle y.",
         "Theorem 5.9 is an effective Fubini statement for a recursive sequential test in 2^ω×2^ω with product measure.",
         "Theorem 5.10 gives the symmetry/independence consequence in the paper's relative prefix-complexity/randomness notation; its proof reduces to x∈R^y and y∈R implying the pair <x,y> lies in the random-pair class R^2."
+      ]
+    },
+    {
+      "id": "SRC-0034",
+      "title": "О некоторых классах арифметических действительных чисел [On some classes of arithmetical real numbers]",
+      "authors": [
+        "Osvald Demuth"
+      ],
+      "author_ids": [
+        "AUT-0036"
+      ],
+      "year": 1982,
+      "source_type": "journal_article",
+      "doi": null,
+      "arxiv": null,
+      "stable_locator": "https://www.dml.cz/handle/10338.dmlcz/106167",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "demuth-randomness",
+        "effective-null-sets",
+        "constructive-analysis",
+        "arithmetical-reals",
+        "mind-change-bounds",
+        "history"
+      ],
+      "aliases_search_terms": [
+        "Demuth 1982 arithmetical real numbers",
+        "О некоторых классах арифметических действительных чисел",
+        "A_alpha",
+        "A_beta",
+        "Demuth original randomness"
+      ],
+      "definitions": [
+        "DEF-0026"
+      ],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Original 1982 Demuth paper recovered and visually inspected at the pages defining the moving-index/change-bound machinery later normalized as Demuth tests.",
+      "notes": "The source is in Russian and uses Demuth's constructive/arithmetic-real notation. Printed pp. 457-458 were visually inspected. P1-S004 does not claim an independent full translation; the modern all-real Cantor-space normalization in DEF-0026 is cross-checked against SRC-0016 and SRC-0035.",
+      "inspected_material": [
+        "DML-CZ scanned article",
+        "printed pp. 457-458",
+        "formal definitions around the limit-index and change-bound conditions"
+      ],
+      "pointers": [
+        "Commentationes Mathematicae Universitatis Carolinae 23(3) (1982), 453-465",
+        "printed pp. 457-458"
+      ],
+      "cross_links": [
+        "SRC-0016",
+        "SRC-0035"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Original-source evidence for bounded changes of test indices and 2^-k measure control, with the source's historical restriction to arithmetical reals preserved.",
+      "inspected_claims": [
+        "The original construction uses a limit-computed index for each test level together with a total recursive unary function that bounds the number of changes/mistakes in the approximation.",
+        "The inspected definition includes the 2^-k measure control used in the later Demuth-test normalization.",
+        "The source's classes are formulated for arithmetical real numbers; P1-S004 does not silently replace that historical domain by all of Cantor space when describing the original."
+      ]
+    },
+    {
+      "id": "SRC-0035",
+      "title": "Difference Randomness",
+      "authors": [
+        "Johanna N. Y. Franklin",
+        "Keng Meng Ng"
+      ],
+      "author_ids": [
+        "AUT-0033",
+        "AUT-0037"
+      ],
+      "year": 2011,
+      "source_type": "journal_article",
+      "doi": "10.1090/S0002-9939-2010-10513-0",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1090/S0002-9939-2010-10513-0",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "difference-randomness",
+        "demuth-randomness",
+        "weak-2-randomness",
+        "2-randomness",
+        "martin-lof-randomness",
+        "turing-incompleteness",
+        "n-r.e.-tests"
+      ],
+      "aliases_search_terms": [
+        "difference random",
+        "d.r.e. random",
+        "n-r.e. random",
+        "difference test",
+        "strict Demuth test"
+      ],
+      "definitions": [
+        "DEF-0026",
+        "DEF-0027"
+      ],
+      "theorems": [
+        "THM-0026",
+        "THM-0027",
+        "THM-0028"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary paper introducing difference randomness, defining the neighborhood-based n-r.e. tests, proving their collapse for n≥2, and locating difference randomness relative to Demuth, weak 2, 2-randomness and Martin-Löf randomness.",
+      "notes": "Proc. AMS metadata was matched to a coauthor-hosted full PDF, visually inspected at Definition 2.3, Proposition 2.10/Figure 1 and Theorem 3.1. The paper also states a modern Demuth-test definition. Its separate 'naive n-r.e.' string-test notion is deliberately not conflated with the neighborhood-based tests defining difference randomness.",
+      "inspected_material": [
+        "coauthor-hosted full paper PDF",
+        "Introduction and Definition 1.2",
+        "Definition 2.3 and Theorem 2.8",
+        "Proposition 2.10 and Figure 1",
+        "Theorem 3.1"
+      ],
+      "pointers": [
+        "Proc. Amer. Math. Soc. 139(1) (2011), 345-360",
+        "Definition 2.3",
+        "Theorem 2.8",
+        "Proposition 2.10 and Figure 1",
+        "Theorem 3.1"
+      ],
+      "cross_links": [
+        "SRC-0027",
+        "SRC-0030",
+        "SRC-0016",
+        "SRC-0034"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact difference-test syntax, the n-r.e. terminology collision, strict stronger-randomness placement, and the ML-plus-Turing-incomplete characterization.",
+      "inspected_claims": [
+        "Definition 2.3: an n-r.e. test has components D(W_{g1(i)},...,W_{gn(i)}) of measure at most 2^-i with recursive index functions; for n=2 the resulting notion is called d.r.e. randomness.",
+        "Theorem 2.8 identifies all levels n≥2 of this neighborhood-based hierarchy and names the common notion difference randomness.",
+        "Proposition 2.10 and Figure 1 state that both weak 2-randomness and Demuth randomness properly imply difference randomness, which properly implies Martin-Löf randomness; Demuth and weak 2-randomness are incomparable.",
+        "The paper states that 2-randomness is properly stronger than both Demuth randomness and weak 2-randomness.",
+        "Theorem 3.1: the difference-random reals are exactly the Martin-Löf random reals that are not Turing complete.",
+        "Earlier in §2 the paper shows that its separate naive n-r.e. string-test notion coincides with 2-randomness for n≥2; this is not the definition of difference randomness."
+      ]
+    },
+    {
+      "id": "SRC-0036",
+      "title": "Counting the Changes of Random Δ^0_2 Sets",
+      "authors": [
+        "Santiago Figueira",
+        "Denis R. Hirschfeldt",
+        "Joseph S. Miller",
+        "Keng Meng Ng",
+        "André Nies"
+      ],
+      "author_ids": [
+        "AUT-0038",
+        "AUT-0007",
+        "AUT-0032",
+        "AUT-0037",
+        "AUT-0005"
+      ],
+      "year": 2015,
+      "source_type": "journal_article",
+      "doi": "10.1093/logcom/exs083",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1093/logcom/exs083",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "balanced-randomness",
+        "weak-demuth-randomness",
+        "difference-randomness",
+        "mind-change-bounds",
+        "delta02-random-sets"
+      ],
+      "aliases_search_terms": [
+        "balanced random",
+        "balanced test",
+        "O(2^m) changes",
+        "2^m-change test",
+        "weak Demuth test"
+      ],
+      "definitions": [
+        "DEF-0028"
+      ],
+      "theorems": [
+        "THM-0029"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source introducing balanced randomness and fixing its exponential component-change bound.",
+      "notes": "The expanded journal-version text was statement-inspected at Definition 14, Remarks 16-18, Proposition 19 and the later separation discussion. It treats balanced tests as a restricted weak-Demuth form; its pass condition is ordinary test escape, not Demuth's Solovay/finitely-many-components pass condition.",
+      "inspected_material": [
+        "journal/preprint full text",
+        "Definition 14",
+        "Remarks 16-18",
+        "Proposition 19",
+        "separation text following Corollary 25"
+      ],
+      "pointers": [
+        "J. Logic Comput. 25(4) (2015), 1073-1089",
+        "Definition 14",
+        "Remarks 16-18",
+        "Proposition 19"
+      ],
+      "cross_links": [
+        "SRC-0035",
+        "SRC-0037"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact O(2^m) moving-component bound, equivalent exact-2^m normalization, ordinary passing convention, and strict implication to difference randomness.",
+      "inspected_claims": [
+        "Definition 14: a balanced test has c.e. open final components G_m of measure at most 2^-m, with G_m=[W_{f(m)}]^≺ and a computable approximation f(m)=lim_s g(m,s) whose number of changes is O(2^m).",
+        "A real passes a balanced test by escaping at least one component; balanced randomness means passing every balanced test.",
+        "Remark 18 states that O(2^m) can be replaced by exactly 2^m allowed changes without changing the randomness notion (and likewise by c2^m for fixed positive rational c).",
+        "Proposition 19 states that every balanced random real is difference random; later text supplies a difference-random real that is not balanced random."
+      ]
+    },
+    {
+      "id": "SRC-0037",
+      "title": "Coherent randomness tests and computing the K-trivial sets",
+      "authors": [
+        "Laurent Bienvenu",
+        "Noam Greenberg",
+        "Antonín Kučera",
+        "André Nies",
+        "Dan Turetsky"
+      ],
+      "author_ids": [
+        "AUT-0039",
+        "AUT-0040",
+        "AUT-0016",
+        "AUT-0005",
+        "AUT-0041"
+      ],
+      "year": 2016,
+      "source_type": "journal_article",
+      "doi": "10.4171/JEMS/602",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.4171/JEMS/602",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "oberwolfach-randomness",
+        "balanced-randomness",
+        "difference-randomness",
+        "weak-demuth-randomness",
+        "coherent-tests",
+        "k-triviality"
+      ],
+      "aliases_search_terms": [
+        "Oberwolfach random",
+        "Oberwolfach test",
+        "coherent randomness test",
+        "interval test",
+        "left-c.e. bounded test"
+      ],
+      "definitions": [
+        "DEF-0029"
+      ],
+      "theorems": [
+        "THM-0030",
+        "THM-0031"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary paper introducing Oberwolfach randomness via coherent moving-component tests and proving its strict placement between balanced and difference randomness.",
+      "notes": "The EMS full paper was visually statement-inspected at Definitions 2.2-2.3 and Propositions 2.4, 2.5 and 2.15. The definition is recorded in the paper's weak-Demuth moving-component framework, with coherence across adjacent levels; no generalized-measure or oracle version is inferred.",
+      "inspected_material": [
+        "EMS full PDF",
+        "Definitions 2.2-2.3",
+        "Propositions 2.4-2.5",
+        "Proposition 2.15"
+      ],
+      "pointers": [
+        "J. Eur. Math. Soc. 18(4) (2016), 773-812",
+        "Definitions 2.2-2.3, printed pp. 779-780",
+        "Propositions 2.4-2.5",
+        "Proposition 2.15"
+      ],
+      "cross_links": [
+        "SRC-0035",
+        "SRC-0036"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact coherent component-change rule, strict balanced/Oberwolfach/difference placement, and interval/left-c.e.-bounded equivalent test normal forms.",
+      "inspected_claims": [
+        "Definition 2.2 places the notion inside weak Demuth tests: each component has measure at most 2^-n and its index has a computable approximation with a computable bound on version changes.",
+        "Definition 2.3 adds coherence: over any interval of stages on which level n is unchanged, level n+1 changes at most once.",
+        "Proposition 2.4 states that every balanced random set is Oberwolfach random and that the notions do not coincide.",
+        "Proposition 2.5 states that every Oberwolfach random set is difference random and that the notions do not coincide.",
+        "Proposition 2.15 identifies Oberwolfach, interval-test and left-c.e.-bounded randomness."
       ]
     }
   ]

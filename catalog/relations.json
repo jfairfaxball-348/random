@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S003",
+  "session": "P1-S004",
   "records": [
     {
       "id": "REL-0001",
@@ -248,6 +248,141 @@
         }
       ],
       "caution": "A⊕B is even/odd interleaving in SRC-0032; no arbitrary-measure generalization is asserted."
+    },
+    {
+      "id": "REL-0017",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0020",
+      "to": "DEF-0026",
+      "statement": "For the n=2 instance of DEF-0020, 2-randomness strictly implies Demuth randomness.",
+      "support": [
+        {
+          "source": "SRC-0035",
+          "theorem": "THM-0027",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This relation is only the n=2 instance of DEF-0020; it is not a claim that arbitrary n-randomness has been compared separately with Demuth randomness."
+    },
+    {
+      "id": "REL-0018",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0026",
+      "to": "DEF-0027",
+      "statement": "Demuth randomness strictly implies difference randomness.",
+      "support": [
+        {
+          "source": "SRC-0035",
+          "theorem": "THM-0027",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0019",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0015",
+      "to": "DEF-0027",
+      "statement": "Weak 2-randomness strictly implies difference randomness.",
+      "support": [
+        {
+          "source": "SRC-0035",
+          "theorem": "THM-0027",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0020",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0027",
+      "to": "DEF-0002",
+      "statement": "Difference randomness strictly implies Martin-Löf randomness.",
+      "support": [
+        {
+          "source": "SRC-0035",
+          "theorem": "THM-0027",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0021",
+      "type": "INCOMPARABILITY",
+      "from": "DEF-0026",
+      "to": "DEF-0015",
+      "statement": "Demuth randomness and weak 2-randomness are incomparable.",
+      "support": [
+        {
+          "source": "SRC-0035",
+          "theorem": "THM-0027",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "SRC-0035 supplies separation properties in both directions; this is not inferred from the definitions."
+    },
+    {
+      "id": "REL-0022",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0028",
+      "to": "DEF-0029",
+      "statement": "Balanced randomness strictly implies Oberwolfach randomness.",
+      "support": [
+        {
+          "source": "SRC-0037",
+          "theorem": "THM-0030",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0023",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0029",
+      "to": "DEF-0027",
+      "statement": "Oberwolfach randomness strictly implies difference randomness.",
+      "support": [
+        {
+          "source": "SRC-0037",
+          "theorem": "THM-0030",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0024",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0028",
+      "to": "DEF-0027",
+      "statement": "Balanced randomness strictly implies difference randomness.",
+      "support": [
+        {
+          "source": "SRC-0036",
+          "theorem": "THM-0029",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "Recorded because SRC-0036 explicitly supplies it; not merely inferred by transitivity."
+    },
+    {
+      "id": "REL-0025",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0020",
+      "to": "DEF-0015",
+      "statement": "For the n=2 instance of DEF-0020, 2-randomness strictly implies weak 2-randomness.",
+      "support": [
+        {
+          "source": "SRC-0035",
+          "theorem": "THM-0027",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0027",
+          "theorem": "THM-0017",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "Specifically 2-randomness → weak 2-randomness; DEF-0020 remains the general jump-indexed family."
     }
   ]
 }

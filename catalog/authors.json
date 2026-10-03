@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S003",
+  "session": "P1-S004",
   "records": [
     {
       "id": "AUT-0001",
@@ -64,7 +64,10 @@
         "higher-randomness",
         "KL-randomness",
         "relative-randomness",
-        "n-randomness"
+        "n-randomness",
+        "demuth-randomness",
+        "balanced-randomness",
+        "oberwolfach-randomness"
       ],
       "source_ids": [
         "SRC-0005",
@@ -74,7 +77,9 @@
         "SRC-0018",
         "SRC-0027",
         "SRC-0028",
-        "SRC-0030"
+        "SRC-0030",
+        "SRC-0036",
+        "SRC-0037"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -108,13 +113,15 @@
         "computability",
         "bases-for-randomness",
         "relative-randomness",
-        "n-randomness"
+        "n-randomness",
+        "balanced-randomness"
       ],
       "source_ids": [
         "SRC-0006",
         "SRC-0007",
         "SRC-0010",
-        "SRC-0030"
+        "SRC-0030",
+        "SRC-0036"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -234,11 +241,13 @@
       "topics": [
         "lowness",
         "relative-randomness",
-        "demuth-randomness"
+        "demuth-randomness",
+        "oberwolfach-randomness"
       ],
       "source_ids": [
         "SRC-0016",
-        "SRC-0021"
+        "SRC-0021",
+        "SRC-0037"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -447,10 +456,12 @@
         "algorithmic-randomness",
         "relative-randomness",
         "n-randomness",
-        "halting-probability"
+        "halting-probability",
+        "balanced-randomness"
       ],
       "source_ids": [
-        "SRC-0030"
+        "SRC-0030",
+        "SRC-0036"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -461,10 +472,12 @@
         "relative-randomness",
         "schnorr-randomness",
         "kurtz-randomness",
-        "genericity"
+        "genericity",
+        "difference-randomness"
       ],
       "source_ids": [
-        "SRC-0031"
+        "SRC-0031",
+        "SRC-0035"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -493,6 +506,86 @@
       ],
       "source_ids": [
         "SRC-0032"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0036",
+      "name": "Osvald Demuth",
+      "topics": [
+        "demuth-randomness",
+        "constructive-analysis",
+        "effective-null-sets",
+        "arithmetical-reals"
+      ],
+      "source_ids": [
+        "SRC-0034"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0037",
+      "name": "Keng Meng Ng",
+      "topics": [
+        "difference-randomness",
+        "balanced-randomness",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0035",
+        "SRC-0036"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0038",
+      "name": "Santiago Figueira",
+      "topics": [
+        "balanced-randomness",
+        "delta02-random-sets",
+        "mind-change-bounds"
+      ],
+      "source_ids": [
+        "SRC-0036"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0039",
+      "name": "Laurent Bienvenu",
+      "topics": [
+        "oberwolfach-randomness",
+        "coherent-tests",
+        "k-triviality"
+      ],
+      "source_ids": [
+        "SRC-0037"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0040",
+      "name": "Noam Greenberg",
+      "topics": [
+        "oberwolfach-randomness",
+        "coherent-tests",
+        "k-triviality"
+      ],
+      "source_ids": [
+        "SRC-0037"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0041",
+      "name": "Dan Turetsky",
+      "topics": [
+        "oberwolfach-randomness",
+        "coherent-tests",
+        "k-triviality"
+      ],
+      "source_ids": [
+        "SRC-0037"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
