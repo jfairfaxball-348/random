@@ -196,3 +196,29 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S008`, a deliberately small primary-source boundary pass on COV-0016 (pseudorandomness, resource-bounded randomness and derandomization) sufficient to distinguish bounded-observer pseudorandomness/resource-bounded measure from unbounded individual algorithmic randomness without opening a general complexity-theory survey.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+## P1-S008 — Pseudorandomness / resource-bounded / derandomization boundary consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `c0be7714c9a1d424575dd026a47b02c7a78b6044`
+
+Scope completed: bounded statement-level consolidation of COV-0016. The session distinguished finite-string probability ensembles and computational indistinguishability; P-time stretching pseudorandom generators; individual infinite-sequence Δ-randomness and its polynomial-time `p=p1` specialization; Δ-computable martingale success; language/characteristic-sequence use in resource-bounded complexity; and derandomization as deterministic simulation of randomized algorithms rather than an unbounded individual-sequence randomness predicate.
+
+Catalogue at close: 51 sources; 49 definitions; 50 theorem/characterization records; 43 relationship records; 1 status-sensitive question; 58 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 15 partial, 2 started-core, 1 started-edge, 1 navigation-only, 0 not-started. COV-0016 is now `PARTIAL_P1_S008`.
+
+Validation: PASS at closeout planning; all modified catalogue/state JSON parses; stable IDs are syntactically valid and unique; catalogue count/ID-set agreement holds; cross-file stable-ID references resolve. Final remote-main verification is recorded by the outgoing hash after the close record commit.
+
+Close record: `phase1/P1-S008_CLOSE.md`
+
+Meaningful retrieval/convention/correction lessons: FL-015 records mixed publisher/author-hosted statement-access provenance; FL-016 preserves the distribution-ensemble versus resource-bounded-individual-sequence “pseudorandom” terminology collision; FL-017 repairs the stale START_HERE session pointer without changing phase authorization.
+
+Explicit exclusions respected: no general cryptography/derandomization survey; no resource-bounded-dimension survey; no candidate invention/selection; no Phase-2 research-target selection; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S009`, primary-source consolidation of COV-0011 higher randomness, because it remains the only navigation-only stratum and Gate 1 still explicitly lacks higher-randomness definitions/separations.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
