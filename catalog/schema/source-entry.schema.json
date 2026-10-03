@@ -2,25 +2,162 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Fairfax-Ball Randomness source entry",
   "type": "object",
-  "required": ["id", "title", "source_type", "access_level", "topics", "stable_locator", "notes"],
+  "required": [
+    "id",
+    "title",
+    "authors",
+    "year",
+    "source_type",
+    "access_level",
+    "topics",
+    "stable_locator",
+    "aliases_search_terms",
+    "priority_relevance",
+    "notes",
+    "inspected_material",
+    "pointers",
+    "checked_on"
+  ],
   "properties": {
-    "id": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
-    "title": {"type": "string"},
-    "authors": {"type": "array", "items": {"type": "string"}},
-    "year": {"type": ["integer", "null"]},
-    "source_type": {"type": "string", "enum": ["journal_article", "preprint", "book", "chapter", "thesis", "survey", "proceedings", "web", "other"]},
-    "doi": {"type": ["string", "null"]},
-    "arxiv": {"type": ["string", "null"]},
-    "stable_locator": {"type": "string"},
-    "access_level": {"type": "string", "enum": ["METADATA_ONLY", "ABSTRACT_INSPECTED", "STATEMENT_INSPECTED", "PROOF_INSPECTED", "SECONDARY_ONLY", "UNAVAILABLE"]},
-    "topics": {"type": "array", "items": {"type": "string"}},
-    "aliases_search_terms": {"type": "array", "items": {"type": "string"}},
-    "definitions": {"type": "array", "items": {"type": "string"}},
-    "theorems": {"type": "array", "items": {"type": "string"}},
-    "questions": {"type": "array", "items": {"type": "string"}},
-    "priority_relevance": {"type": "string"},
-    "notes": {"type": "string"},
-    "checked_on": {"type": ["string", "null"], "format": "date"}
+    "id": {
+      "type": "string",
+      "pattern": "^SRC-[0-9]{4,}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "author_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^AUT-[0-9]{4,}$"
+      }
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "journal_article",
+        "preprint",
+        "book",
+        "chapter",
+        "thesis",
+        "survey",
+        "proceedings",
+        "web",
+        "other"
+      ]
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "arxiv": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stable_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "access_level": {
+      "type": "string",
+      "enum": [
+        "METADATA_ONLY",
+        "ABSTRACT_INSPECTED",
+        "STATEMENT_INSPECTED",
+        "PROOF_INSPECTED",
+        "SECONDARY_ONLY",
+        "UNAVAILABLE"
+      ]
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "aliases_search_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "definitions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^DEF-[0-9]{4,}$"
+      }
+    },
+    "theorems": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^THM-[0-9]{4,}$"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^QST-[0-9]{4,}$"
+      }
+    },
+    "priority_relevance": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inspected_material": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "pointers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cross_links": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^SRC-[0-9]{4,}$"
+      }
+    },
+    "checked_on": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    }
   },
   "additionalProperties": true
 }
