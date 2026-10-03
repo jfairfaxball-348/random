@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S004",
+  "session": "P1-S005",
   "checked_on": "2026-10-03",
   "records": [
     {
@@ -592,20 +592,32 @@
       ],
       "definitions": [
         "DEF-0005",
-        "DEF-0006"
+        "DEF-0006",
+        "DEF-0030",
+        "DEF-0031",
+        "DEF-0032",
+        "DEF-0033",
+        "DEF-0035"
       ],
       "theorems": [
-        "THM-0005"
+        "THM-0005",
+        "THM-0032",
+        "THM-0033",
+        "THM-0035"
       ],
       "questions": [],
       "priority_relevance": "Primary source extending effective measure/randomness machinery beyond Cantor space.",
-      "notes": "Publisher abstract plus author/preprint definition statements inspected. The paper gives Cantor-space effective tests, uniform integral tests and a universal uniform test framework for computable metric spaces.",
+      "notes": "Full author/preprint statement inspection now covers the computable-metric-space representation, computable probability measures, uniform tests, binary representations and morphism/isomorphism preservation. The general Cantor reduction uses an appropriate computable measure and must not be read as a fair-coin reduction.",
       "inspected_material": [
-        "publisher abstract",
-        "full-text definition statements"
+        "publisher metadata/abstract",
+        "full author/preprint definition, proposition, theorem and corollary statements"
       ],
       "pointers": [
-        "Information and Computation 207(7) (2009), 830-847; preprint PDF pp. 18-19 for tests/random points"
+        "preprint Definitions 2.4.1-2.4.2 (computable metric space and canonical Cauchy representation)",
+        "Definition 4.1.2, Theorem 4.2.1 and Corollary 4.2.1 (computable measures)",
+        "Definition 5.1.1 and Theorem 5.1.1 (binary representations)",
+        "Definitions 6.1.1-6.1.2, Theorems 6.1.1-6.1.2 (randomness/uniform tests)",
+        "Proposition 6.2.1 and Corollaries 6.2.1-6.2.2 (morphisms, isomorphisms and binary representations on random points)"
       ],
       "cross_links": [
         "SRC-0012",
@@ -614,10 +626,12 @@
       "checked_on": "2026-10-03",
       "exact_relevance": "Primary source extending effective measure/randomness machinery beyond Cantor space.",
       "inspected_claims": [
-        "Preprint pp. 18-19: effective μ-null tests/random points on Cantor space.",
-        "Preprint pp. 18-19: uniform lower-semicomputable integral-test formulation.",
-        "Preprint pp. 18-19: universal uniform test statement.",
-        "Abstract: computable metric spaces with computable probability measure are computably/measure-theoretically isomorphic to Cantor space in the paper's sense."
+        "A computable metric space is a complete separable metric space with a numbered dense ideal set whose pairwise distances are uniformly computable; points use the canonical fast-Cauchy representation.",
+        "A probability measure is computable as a computable point of the Prokhorov-metric space of Borel probabilities; equivalently, its valuation on open sets is lower semicomputable, uniformly on finite unions of ideal balls.",
+        "On Cantor space, computability of a measure is equivalent to uniform computability of cylinder measures.",
+        "Every computable probability space has a binary representation by Cantor space equipped with an appropriate computable measure; the representation has a full-measure constructive domain of unique expansions, with the density qualification tied to support.",
+        "Uniform integral tests exist and are universal; fixed-measure tests extend to uniform tests in the source's sense.",
+        "Morphisms preserve Martin-Löf random points, and an isomorphism restricts to inverse computable bijections between the random-point sets."
       ]
     },
     {
@@ -638,7 +652,7 @@
       "doi": "10.1007/s00224-010-9263-x",
       "arxiv": "0902.1939",
       "stable_locator": "https://doi.org/10.1007/s00224-010-9263-x",
-      "access_level": "ABSTRACT_INSPECTED",
+      "access_level": "STATEMENT_INSPECTED",
       "topics": [
         "computable-probability-spaces",
         "schnorr-randomness",
@@ -651,20 +665,33 @@
         "typicality mixing computable dynamics",
         "Gacs Hoyrup Rojas"
       ],
-      "definitions": [],
+      "definitions": [
+        "DEF-0031",
+        "DEF-0032",
+        "DEF-0033",
+        "DEF-0034",
+        "DEF-0035"
+      ],
       "theorems": [
-        "THM-0006"
+        "THM-0006",
+        "THM-0033",
+        "THM-0034",
+        "THM-0036"
       ],
       "questions": [],
       "priority_relevance": "Primary bridge between computable probability spaces, Schnorr randomness and effective dynamics.",
-      "notes": "Journal/arXiv abstract inspected. A 2009 STACS conference version also exists (DOI 10.4230/LIPIcs.STACS.2009.1828); this catalogue record uses the 2011 journal version.",
+      "notes": "Full arXiv/journal-version statements inspected. The paper defines computable probability spaces, a.e.-computable measure-preserving morphisms/isomorphisms, Martin-Löf and Schnorr tests on such spaces, and proves Cantor representation, the atomless Lebesgue-space isomorphism, and Schnorr-randomness conservation.",
       "inspected_material": [
-        "journal metadata",
-        "abstract",
-        "arXiv abstract"
+        "journal/arXiv metadata and abstract",
+        "full arXiv definition/proposition/theorem statements"
       ],
       "pointers": [
-        "Theory of Computing Systems 48(3) (2011), 465-485"
+        "Definitions 3.2-3.6 (computable measure, computable probability space, constructive G_delta and a.e.-computable maps)",
+        "Definitions 3.8-3.9 and surrounding isomorphism definition (measure preservation and morphisms)",
+        "Proposition 3.12 (Cantor representation with an appropriate computable measure)",
+        "Definition 3.18 and Theorem 3.19 (computable Lebesgue spaces; atomless case)",
+        "Definitions 3.21 and 3.24 (Martin-Löf and Schnorr tests)",
+        "Proposition 3.27 (morphisms are defined on and preserve Schnorr-random points)"
       ],
       "cross_links": [
         "SRC-0011"
@@ -672,7 +699,12 @@
       "checked_on": "2026-10-03",
       "exact_relevance": "Primary bridge between computable probability spaces, Schnorr randomness and effective dynamics.",
       "inspected_claims": [
-        "Abstract: Schnorr random iff typical for every mixing computable dynamics in the developed computable-probability-space framework."
+        "A computable probability space is a computable metric space with a computable Borel probability measure.",
+        "A morphism is an a.e.-computable measure-preserving map; isomorphisms are pairs of such morphisms satisfying the inverse identities on the specified full-measure domains.",
+        "Every computable probability space is isomorphic to Cantor space with some computable probability measure.",
+        "Every atomless computable probability space is a computable Lebesgue space.",
+        "A Schnorr test is a Martin-Löf test whose component measures are uniformly computable.",
+        "Computable-probability-space morphisms preserve Schnorr randomness."
       ]
     },
     {
@@ -793,7 +825,7 @@
       "doi": "10.1016/j.tcs.2016.05.001",
       "arxiv": "1508.05082",
       "stable_locator": "https://doi.org/10.1016/j.tcs.2016.05.001",
-      "access_level": "ABSTRACT_INSPECTED",
+      "access_level": "STATEMENT_INSPECTED",
       "topics": [
         "randomness-conservation",
         "no-randomness-from-nothing",
@@ -808,20 +840,30 @@
         "randomness conservation",
         "no randomness ex nihilo"
       ],
-      "definitions": [],
+      "definitions": [
+        "DEF-0036"
+      ],
       "theorems": [
         "THM-0007",
-        "THM-0008"
+        "THM-0008",
+        "THM-0037",
+        "THM-0038",
+        "THM-0039"
       ],
       "questions": [],
       "priority_relevance": "Primary modern source clarifying conservation and no-randomness-from-nothing across major notions.",
-      "notes": "Publisher and arXiv abstracts inspected. The recorded theorems preserve the abstract's hypotheses about almost-everywhere computable measure-preserving transformations.",
+      "notes": "Full arXiv paper statement-inspected. P1-S005 records the exact computable-measure Cantor-space integral-test definitions, a.e.-computable map convention, computable-randomness no-randomness-from-nothing theorem, computable-randomness isomorphism theorem, Schnorr failure, and both all-computable-measure and fair-coin maximality statements.",
       "inspected_material": [
-        "publisher abstract",
-        "arXiv abstract"
+        "publisher/arXiv metadata and abstract",
+        "full arXiv definitions, theorem, lemma, corollary and maximality statements"
       ],
       "pointers": [
-        "Theoretical Computer Science 635 (2016), 35-50"
+        "Definition 2 and Lemma 4 (randomness notions for a computable Cantor-space measure)",
+        "Definition 6 (mu-a.e. computable partial map and computable pushforward)",
+        "Theorem 7 and Lemma 8 (computable-randomness NRFN and a.e.-computable isomorphisms)",
+        "Theorem 25 and Corollary 26 (failure of NRFN for Schnorr randomness)",
+        "Theorem 33 (all computable Cantor-space measures: maximality from conservation plus NRFN)",
+        "Theorem 36 (fair-coin self-map maximality)"
       ],
       "cross_links": [
         "SRC-0007"
@@ -829,8 +871,12 @@
       "checked_on": "2026-10-03",
       "exact_relevance": "Primary modern source clarifying conservation and no-randomness-from-nothing across major notions.",
       "inspected_claims": [
-        "Abstract: no-randomness-from-nothing holds for computable randomness and fails for Schnorr randomness for almost-everywhere computable measure-preserving maps.",
-        "Abstract: combined results characterize Martin-Löf randoms as the largest subset satisfying both no-randomness-from-nothing and randomness conservation in the stated setting."
+        "For a computable measure mu on Cantor space, the paper gives integral-test forms of mu-Martin-Löf, mu-computable and mu-Schnorr randomness.",
+        "A mu-a.e.-computable map is partial computable with domain of mu-measure one; its pushforward is computable.",
+        "Theorem 7 gives no-randomness-from-nothing for computable randomness for arbitrary computable source measures on Cantor space and the induced computable pushforward.",
+        "Lemma 8 gives computable-randomness conservation and inverse identities for a.e.-computable measure-preserving isomorphisms between computable Cantor-space measures.",
+        "Theorem 25/Corollary 26 gives failure of no-randomness-from-nothing for Schnorr randomness.",
+        "Theorem 33 characterizes mu-Martin-Löf randomness over all computable Cantor-space measures as the largest point-measure class closed under conservation and no-randomness-from-nothing; Theorem 36 gives the separate fair-coin self-map form."
       ]
     },
     {
@@ -2204,6 +2250,78 @@
         "Proposition 2.4 states that every balanced random set is Oberwolfach random and that the notions do not coincide.",
         "Proposition 2.5 states that every Oberwolfach random set is difference random and that the notions do not coincide.",
         "Proposition 2.15 identifies Oberwolfach, interval-test and left-c.e.-bounded randomness."
+      ]
+    },
+    {
+      "id": "SRC-0038",
+      "title": "Algorithmic tests and randomness with respect to a class of measures",
+      "authors": [
+        "Laurent Bienvenu",
+        "Peter Gács",
+        "Mathieu Hoyrup",
+        "Cristóbal Rojas",
+        "Alexander Shen"
+      ],
+      "author_ids": [
+        "AUT-0039",
+        "AUT-0012",
+        "AUT-0010",
+        "AUT-0011",
+        "AUT-0042"
+      ],
+      "year": 2011,
+      "source_type": "journal_article",
+      "doi": "10.1134/S0081543811060058",
+      "arxiv": "1103.1529",
+      "stable_locator": "https://doi.org/10.1134/S0081543811060058",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "computable-measures",
+        "martin-lof-randomness",
+        "uniform-tests",
+        "bernoulli-measures",
+        "classes-of-measures",
+        "cantor-space"
+      ],
+      "aliases_search_terms": [
+        "uniform randomness test measure parameter",
+        "Bernoulli randomness asymmetric coin",
+        "randomness class of measures",
+        "algorithmic tests class measures"
+      ],
+      "definitions": [
+        "DEF-0005",
+        "DEF-0006"
+      ],
+      "theorems": [
+        "THM-0040"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source for computable-measure Martin-Löf tests, arbitrary-measure uniform tests, and explicit Bernoulli/non-fair-coin test machinery.",
+      "notes": "Statement-inspected from the authors' 2011 preprint/publication version. The source explicitly separates fixed computable measures, arbitrary-measure uniform tests, and Bernoulli class tests; it permits noncomputable Bernoulli parameters in the class-test/uniform framework.",
+      "inspected_material": [
+        "full author-hosted/arXiv definition and theorem statements",
+        "published bibliographic metadata"
+      ],
+      "pointers": [
+        "Definitions 2.8-2.11 and Theorem 2.12 (computable Cantor-space measures and Martin-Löf tests)",
+        "Definition 4.1 (Bernoulli class test)",
+        "Definition 5.2 (uniform test over arbitrary measures)",
+        "Definition 5.11 and Theorem 5.12 (P-relative tests and uniformization)"
+      ],
+      "cross_links": [
+        "SRC-0011",
+        "SRC-0012",
+        "SRC-0015"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact primary support for computable and non-fair-coin measure conventions and uniformity in the measure parameter.",
+      "inspected_claims": [
+        "On Cantor space a measure P is computable when the cylinder-value function x↦P(x) is uniformly computable.",
+        "For computable P, Martin-Löf P-tests are uniformly effectively open components with P(U_k)≤2^-k.",
+        "A Bernoulli measure B_p is the independent non-symmetric-coin measure with parameter p; the paper does not require p to be computable for its Bernoulli class-test framework.",
+        "A uniform test t(omega,P) is jointly lower semicomputable and has integral at most one for every probability measure P.",
+        "Every P-test lower semicomputable relative to P can be dominated by a uniform test at P up to the stated constant, and every uniform test restricts to a P-test."
       ]
     }
   ]
