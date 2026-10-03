@@ -1,7 +1,7 @@
 # Phase-1 Catalogue Taxonomy
 
 Status: **ACTIVE / evolving**  
-Last refined: 2026-10-03 in `P1-S007`
+Last refined: 2026-10-04 in `P1-S008`
 
 This taxonomy is a retrieval vocabulary, not a claim that all listed areas are already covered. Use the controlled tag families below in structured records and add aliases/search terms where the literature uses competing terminology.
 
@@ -19,6 +19,9 @@ This taxonomy is a retrieval vocabulary, not a claim that all listed areas are a
 - `object:computable-probability-space`
 - `object:probability-measure-name`
 - `object:oracle`
+- `object:probability-ensemble` — indexed family of finite-string distributions; P1-S008
+- `object:pseudorandom-generator` — finite-seed deterministic function ensemble inducing an output distribution; P1-S008
+- `object:language-characteristic-sequence` — infinite binary sequence representation of a language in the resource-bounded setting; P1-S008
 
 The object tag matters: finite-string incompressibility is not itself an infinite-sequence randomness notion.
 
@@ -53,6 +56,10 @@ The object tag matters: finite-string incompressibility is not itself an infinit
 - `notion:balanced-randomness` — weak-Demuth-style tests with O(2^n), equivalently exact 2^n, component-index changes
 - `notion:oberwolfach-randomness` — coherent weak-Demuth moving-component tests
 - `notion:higher-randomness` — navigation only in P1-S001
+- `notion:computational-indistinguishability` — bounded-observer relation between probability ensembles; P1-S008
+- `notion:pseudorandom-generator` — stretching finite-seed distributional generator; P1-S008
+- `notion:resource-bounded-randomness` — individual-sequence Δ-randomness with the resource class retained; P1-S008
+- `notion:p-randomness` — polynomial-time specialization of Lutz's Δ-randomness with `p=p1`; P1-S008
 - `notion:chaitin-omega` — halting probability of a universal self-delimiting/prefix-free machine; P1-S007
 - `notion:random-left-c.e.-real` — conjunction of left-c.e. approximation and Martin-Löf randomness; exactly the Ω-numbers by THM-0048
 - `notion:1-genericity` — Σ^0_1/Cohen-style finite-extension genericity; category framework, not a randomness synonym
@@ -83,10 +90,13 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 - `framework:effective-meager-set` — American-spelling retrieval alias for the same category notion
 - `framework:dense-c.e.-open`
 - `framework:finite-extension-genericity`
+- `framework:polynomial-statistical-test` — Yao bounded-test source-ensemble framework
+- `framework:computational-indistinguishability` — bounded acceptance-probability comparison for ensembles
 
 ## 5. Betting / prediction / selection
 
 - `framework:martingale`
+- `framework:resource-bounded-martingale` — Δ-computable betting strategies; P1-S008
 - `framework:r.e.-martingale`
 - `framework:computable-martingale`
 - `framework:bounded-rate-martingale`
@@ -107,7 +117,7 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 - `complexity:algorithmic-information`
 - `complexity:self-delimiting-H` — Chaitin's historical notation in SRC-0045/SRC-0047; normalized to the prefix-free-complexity family with source notation retained
 
-Future additions should distinguish monotone, a priori, process and resource-bounded complexities rather than folding them into `K`.
+Future additions should distinguish monotone, a priori, process and resource-bounded complexities rather than folding them into `K`. P1-S008 inspected Lutz's time-bounded Kolmogorov-complexity context only as a boundary cross-link; no new resource-bounded complexity definition was promoted.
 
 ## 7. Dimension / graded randomness
 
@@ -115,7 +125,7 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `dimension:effective-hausdorff`
 - `dimension:supergale`
 - `dimension:finite-string`
-- `dimension:resource-bounded` — boundary coverage pending
+- `dimension:resource-bounded` — P1-S008 boundary distinguished, but no resource-bounded-dimension theorem or definition is promoted in this bounded pass
 
 ## 8. Computability resource / relativization
 
@@ -130,7 +140,10 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `resource:computably-bounded-mind-changes`
 - `resource:exponential-mind-change-bound`
 - `resource:higher-computability`
-- `resource:bounded-time` — boundary coverage pending
+- `resource:bounded-time` — P1-S008 boundary coverage
+- `resource:polynomial-time` — includes Lutz's `p=p1` transduction class and polynomial statistical tests where source-specific
+- `resource:bounded-distinguisher` — computational observer/test bound for probability ensembles
+- `resource:resource-bounded-transduction` — Lutz `p_i`/`p_i space` style resource classes
 
 ## 9. Oracle/lowness structure
 
@@ -194,8 +207,8 @@ Never infer strictness from differing definitions.
 - `interface:computability`
 - `interface:information-theory`
 - `interface:computable-analysis`
-- `interface:pseudorandomness` — boundary only
-- `interface:derandomization` — boundary only
+- `interface:pseudorandomness` — statement-level P1-S008 boundary: distinguish distribution-ensemble PRGs from individual-sequence resource-bounded randomness
+- `interface:derandomization` — statement-level P1-S008 boundary: deterministic simulation/replacement of random choices in algorithms, not an individual-sequence randomness predicate
 - `interface:genericity-category` — statement-level P1-S006 coverage; retain category/measure separation
 
 ## 14. Evidence / access
@@ -254,6 +267,11 @@ Important query aliases include:
 - `left-c.e. real` / `left computably enumerable real` / `recursively enumerable real` / `r.e. real` / `lower semicomputable real`
 - `Chaitin Ω` / `Chaitin Omega` / `Omega number` / `universal halting probability`
 - `prefix-free machine` / `self-delimiting machine`
+- `computational indistinguishability` / `polynomial statistical test` / `bounded distinguisher`
+- `pseudorandom generator` / `PRG` / `pseudorandom bit generator`
+- `p-random` / `Delta-random` / `resource-bounded random`
+- `pseudorandom sequence` — collision-prone: inspect whether the source means a distributional generator output or Lutz-style resource-bounded individual sequence
+- `hardness vs randomness` / `hardness versus randomness` / `derandomization`
 
 P1-S004 convention guard: Demuth randomness uses **Solovay passing** (membership in only finitely many final components), whereas the inspected balanced and Oberwolfach weak-Demuth tests use ordinary escape from a component. SRC-0035 also uses `n-r.e.` in two different test semantics: its naive string-test hierarchy yields 2-randomness for n≥2, while its neighborhood/difference hierarchy yields difference randomness for n≥2. Preserve the test semantics before normalizing terminology.
 
@@ -294,3 +312,17 @@ Finite binary strings, infinite binary sequences and real numbers are different 
 Binary representation is also a convention, not an identity without qualification. `DEF-0045` records Chaitin's canonical choice of the expansion with infinitely many 1s for reals in (0,1] and the later sources' uniqueness qualification for irrational reals. Ω-numbers are irrational because they are random, so their binary expansions are unambiguous. Preserve this distinction when moving between a real number and a point of Cantor space.
 
 No P1-S005 generalized-measure result, P1-S003 relative/oracle result, P1-S004 stronger-test result or P1-S006 category result is transferred to Ω/left-c.e. reals by analogy. `DEF-0020`'s jump convention is unchanged.
+
+## P1-S008 pseudorandomness / resource-bounded convention guard
+
+P1-S008 separates three questions that share the word “random” but have different objects and quantifiers.
+
+1. **Unbounded individual algorithmic randomness** in the existing catalogue (`DEF-0002`, `DEF-0003`, `DEF-0004`, etc.) assigns a property to one infinite binary sequence/real using the corresponding effective test or martingale resources.
+2. **Computational pseudorandomness** (`DEF-0046`, `DEF-0047`) compares indexed probability ensembles on finite strings. A pseudorandom generator is a deterministic P-time stretching function applied to a uniformly random finite seed; the induced output distribution is judged relative to bounded distinguishers/statistical tests. This does not assert that a fixed generator output is Martin-Löf, Schnorr or computably random.
+3. **Resource-bounded individual-sequence randomness** (`DEF-0048`, `DEF-0049`) again concerns one infinite binary sequence, but the measure/tests/martingales are explicitly restricted by a complexity resource. In SRC-0051, `p=p1` is the polynomial-time transduction class. Languages enter this framework through characteristic sequences. Never drop the resource parameter when transporting the definition.
+
+Yao's 1982 primary source explicitly distinguishes the single-sequence “what is random?” question from pseudorandom number generation. Lutz 1992 nevertheless uses “pseudorandom sequences” for his resource-bounded **individual-sequence** notion. That terminology collision is source historical vocabulary, not an equivalence between `DEF-0047` and `DEF-0048`.
+
+`THM-0050` gives only the inspected Δ-random ↔ no Δ-computable-martingale-success characterization. P1-S008 adds **no** implication from p-randomness/resource-bounded randomness to the unbounded Martin-Löf/Schnorr/computable-randomness hierarchy. Likewise, no P1-S005 generalized-measure, P1-S006 category/genericity, P1-S007 Ω/left-c.e., or P1-S003 oracle convention is transferred into the resource-bounded setting by analogy; `DEF-0020`'s jump convention is unchanged.
+
+The Nisan-Wigderson boundary source is used only to fix the meaning of **derandomization** here: constructing pseudorandom bits that fool a stated computational class can permit deterministic simulation of a randomized algorithm (e.g. by enumerating seeds under the stated hardness tradeoff). This is a different mathematical task from assigning an infinite sequence an effective-randomness property.
