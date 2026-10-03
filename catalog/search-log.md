@@ -212,3 +212,32 @@ Scope: primary-source consolidation of COV-0019, restricted to effective categor
 
 ### Bounded exclusions
 No Fairfax-Ball candidate was invented or selected; no Phase-2 research target or dedicated novelty audit was performed; no original mathematics or proof search beyond understanding published statements was performed; no Lean/Palomar work, manuscript/publication preparation or external outreach was performed.
+
+
+## P1-S007 — 2026-10-03
+
+Scope: primary-source consolidation of COV-0015, restricted to finite-string versus infinite-sequence incompressibility, left-c.e. (historical r.e.) reals, prefix-free/self-delimiting halting probabilities, Chaitin Ω-numbers, binary-real representation conventions, and exact links to already catalogued Martin-Löf randomness/prefix-free complexity. Search failure is not treated as nonexistence.
+
+### Primary sources inspected or added
+- SRC-0045: Chaitin, *A Theory of Program Size Formally Identical to Information Theory* (JACM 22(3), 1975, 329-340; DOI 10.1145/321892.321894). IBM/DOI metadata was cross-checked; statement inspection used the article reprinted in Chaitin's collected papers. Theorem 4.2 and the following definition/remark ground the finite-string versus infinite-string complexity distinction; the base-two-representation definition, halting-probability definition and Theorem 4.3 ground the original Ω construction used here.
+- SRC-0046: Calude–Hertling–Khoussainov–Wang, *Recursively Enumerable Reals and Chaitin Ω Numbers* (TCS 255, 2001, 125-149; DOI 10.1016/S0304-3975(99)00159-0). Publisher metadata plus a coauthor-hosted publisher-version PDF were statement-inspected. Theorem 4.1 gives exact one-sided rational-approximation/lower-cut/prefix-free-code characterizations; Theorem 3.4 gives randomness of universal-machine Ω; Theorems 6.5-6.6 and the published added note record the Ω-like/Ω and random-r.e./Ω conclusions.
+- SRC-0047: Kučera–Slaman, *Randomness and Recursive Enumerability* (SIAM J. Comput. 31(1), 2001, 199-211; DOI 10.1137/S0097539799357441). SIAM metadata plus the author-hosted full paper were statement-inspected. Definitions 1.1/1.4/1.6/1.8/1.10/1.12 and Theorems 1.9/1.11/1.15/2.1 provide the exact object, self-delimiting, Ω, r.e.-real and random-r.e.-real characterization chain.
+
+### Exact convention reconciliation
+1. `Σ*` / finite binary strings, `Σ^ω` / infinite binary sequences, and real numbers represented by binary expansions are kept as distinct domains. SRC-0047 explicitly calls its Martin-Löf tests “sequential” tests on infinite sequences to distinguish them from tests on finite strings.
+2. Prefix-free complexity `K(σ)` remains a finite-string quantity. The infinite-sequence incompressibility characterization is the quantified condition over every prefix `X↾n` in THM-0001. Chaitin's 1975 finite-string discussion is not promoted to a new infinite-sequence notion.
+3. “Recursively enumerable real” in the 2001 papers is normalized to the modern alias “left-c.e. real”: a computable nondecreasing rational approximation from below. Left-c.e. by itself is not randomness.
+4. Every left-c.e. real in (0,1] is the halting probability of some prefix-free/self-delimiting machine (THM-0047). The machine need not be universal.
+5. A Chaitin Ω-number is the halting probability of a universal self-delimiting/prefix-free machine. Every such Ω is left-c.e. and Martin-Löf random (THM-0046).
+6. The exact converse is preserved: Martin-Löf-random left-c.e. reals are exactly the Ω-numbers (THM-0048). No arbitrary left-c.e. real is identified with this subclass.
+7. Binary-expansion ambiguity is explicit. Chaitin 1975 selects the expansion with infinitely many 1s; the later sources note uniqueness for irrational reals. Since Ω is random, it is irrational, so Ω itself has no dyadic ambiguity.
+8. DEF-0020's jump convention is unchanged. P1-S007 does not reopen relative Ω, generalized measures, stronger tests or effective category.
+
+### Retrieval failures / provenance qualifications
+- Direct publisher routes did not provide all historical Chaitin statement text in this pass. SRC-0045 is therefore statement-inspected through Chaitin's collected-paper reprint after bibliographic cross-checking, and that provenance is recorded rather than silently treating a reprint route as the publisher copy.
+- FL-002 remains controlling for the Chaitin near-title collision: SRC-0004 is the 1966 JACM paper; the 1969 “Statistical Considerations” continuation is a distinct work. Neither is conflated with SRC-0045 (1975).
+- Solovay's unpublished draft, repeatedly cited by the 2001 primary papers, was not independently recovered at statement level. No exact theorem record is created from citation trails alone.
+- The historical term “r.e. real” is not silently rewritten in source quotations/provenance; catalogue records state the modern left-c.e. normalization explicitly.
+
+### Bounded exclusions
+No Fairfax-Ball candidate was invented or selected; no Phase-2 target selection or dedicated novelty audit was performed; no original mathematics or proof search beyond understanding published statements was performed; no Lean/Palomar work, manuscript/publication preparation or external outreach was performed.
