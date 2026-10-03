@@ -4,9 +4,9 @@ This repository is the authoritative research record for a five-phase programme 
 
 ## Current state
 
-**SCAFFOLD-ONLY. No research phase has begun.**
+**PHASE 1 — RESEARCH / CATALOGUE — IS OPEN AND IN PROGRESS.**
 
-All five phases are CLOSED. This bootstrap establishes governance, file structure, gate criteria, catalogue schemas, session rules and templates only. It does **not** perform literature research, identify gaps, assess novelty, attempt mathematics, formalise anything, register anything with Palomar, or prepare a publication.
+P1-S001 through P1-S003 are completed. Phase 1 remains incomplete and Gate 1 is CLOSED / NOT READY FOR REVIEW. Phases 2–5 remain CLOSED; no candidate selection, novelty gate, original mathematics, formalisation or publication work is authorized.
 
 Repository authority lives in the committed files. Start every future session with `authoritative/START_HERE.md`.
 
