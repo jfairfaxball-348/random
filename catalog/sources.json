@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S002",
+  "session": "P1-S003",
   "checked_on": "2026-10-03",
   "records": [
     {
@@ -517,7 +517,8 @@
         "relative-randomness",
         "k-triviality",
         "computable-randomness",
-        "turing-reducibility"
+        "turing-reducibility",
+        "low-for-randomness"
       ],
       "aliases_search_terms": [
         "basis for randomness",
@@ -525,20 +526,27 @@
         "random sets as oracles"
       ],
       "definitions": [
-        "DEF-0009"
+        "DEF-0009",
+        "DEF-0007",
+        "DEF-0021"
       ],
       "theorems": [
         "THM-0004"
       ],
       "questions": [],
       "priority_relevance": "Primary source introducing/using bases for randomness and characterizing bases for 1-randomness.",
-      "notes": "Abstract statement visually inspected in the author-hosted PDF and independently matched to journal metadata.",
+      "notes": "Full author-hosted paper text was statement-inspected in P1-S003 in addition to the previously inspected abstract. Definition 1.7 and the immediately following relativization paragraph give the exact A-computable-martingale formulation of computable randomness relative to A; the next paragraph gives the general low-for-R convention.",
       "inspected_material": [
-        "author-hosted PDF abstract",
+        "full author-hosted paper",
+        "Definition 1.7 and following relativization paragraph",
+        "low-for-R paragraph",
+        "preprint abstract",
         "journal metadata"
       ],
       "pointers": [
-        "Journal of the London Mathematical Society 75(3) (2007), 610-622; abstract on p. 1 of preprint"
+        "Journal of the London Mathematical Society 75(3) (2007), 610-622",
+        "preprint pp. 3-4, Definition 1.7 and following paragraphs",
+        "preprint abstract, p. 1"
       ],
       "cross_links": [
         "SRC-0009"
@@ -548,7 +556,9 @@
       "inspected_claims": [
         "Preprint abstract: definition of base for R-randomness.",
         "Preprint abstract: bases for 1-randomness are exactly K-trivial sets.",
-        "Preprint abstract: stated bounds/results for bases for computable randomness."
+        "Preprint abstract: stated bounds/results for bases for computable randomness.",
+        "Definition 1.7 and following paragraph: M is A-computable when the reals M(σ) are uniformly computable using A as oracle; B is computably random relative to A iff no A-computable martingale succeeds on B.",
+        "Following paragraph: for a relativizable randomness notion R, A is low for R if every R-random set is R-random relative to A."
       ]
     },
     {
@@ -1071,7 +1081,7 @@
       "theorems": [],
       "questions": [],
       "priority_relevance": "Primary research reassessment of selection-rule and statistical-test approaches.",
-      "notes": "Journal abstract inspected. The two theorems indicated in the abstract were not statement-inspected, so no THM records are created for them in P1-S001.",
+      "notes": "Journal abstract inspected in P1-S001. P1-S003 corrects a provenance ambiguity: this 1987 paper is not used as the statement-level source for the central oracle-relativization/van-Lambalgen theorem. The original paper statement-inspected for that purpose is SRC-0033 (1990, The Axiomatization of Randomness). This record is retained for its actual selection-rule/statistical-test scope.",
       "inspected_material": [
         "journal abstract",
         "metadata"
@@ -1080,10 +1090,11 @@
         "Journal of Symbolic Logic 52(3) (1987), 725-755"
       ],
       "cross_links": [
-        "SRC-0002"
+        "SRC-0002",
+        "SRC-0033"
       ],
       "checked_on": "2026-10-03",
-      "exact_relevance": "Primary research reassessment of selection-rule and statistical-test approaches.",
+      "exact_relevance": "Primary reassessment of selection-rule and statistical-test approaches; not the P1-S003 statement source for the central van-Lambalgen relativization theorem.",
       "inspected_claims": [
         "Abstract: paper studies the relationship between subsequence-selection definitions and statistical-test definitions; exact theorem statements not inspected."
       ]
@@ -1506,18 +1517,23 @@
         "schnorr-randomness",
         "kurtz-randomness",
         "turing-degrees",
-        "martingales"
+        "martingales",
+        "n-randomness",
+        "relative-randomness"
       ],
       "aliases_search_terms": [
         "recursive randomness",
         "recursively random",
         "high degree randomness separation",
-        "Kurtz hyperimmune degree"
+        "Kurtz hyperimmune degree",
+        "n-random",
+        "random relative to jump"
       ],
       "definitions": [
         "DEF-0002",
         "DEF-0003",
-        "DEF-0004"
+        "DEF-0004",
+        "DEF-0020"
       ],
       "theorems": [
         "THM-0014",
@@ -1548,7 +1564,8 @@
       "inspected_claims": [
         "Definition 1.1: Martin-Löf randomness uses absence of a succeeding r.e. martingale; recursive randomness uses absence of a succeeding recursive martingale; Schnorr randomness forbids a recursive martingale from beating a recursive nondecreasing unbounded rate infinitely often.",
         "Theorem 4.2: a degree is high iff it contains a recursively random non-Martin-Löf-random set, equivalently iff it contains a Schnorr-random non-recursively-random set; the same holds for left-r.e. sets.",
-        "Theorem 4.3: a degree contains a Kurtz-random non-Schnorr-random set iff it is hyperimmune; on hyperimmune-free degrees the considered notions coincide."
+        "Theorem 4.3: a degree contains a Kurtz-random non-Schnorr-random set iff it is hyperimmune; on hyperimmune-free degrees the considered notions coincide.",
+        "Opening convention: a set is n-random exactly when it is Martin-Löf random relative to ∅^(n−1)."
       ]
     },
     {
@@ -1615,6 +1632,278 @@
         "Definition 3.1.25 defines the sw-test using a recursive martingale and a recursive unbounded nondecreasing threshold; Theorem 3.1.27 identifies this and the other weak-randomness test forms with Kurtz randomness.",
         "Theorem 3.2.3: S-RAND is a proper subset of W-RAND; the proof cites a Kurtz-random sequence failing the law of large numbers while every Schnorr-random sequence satisfies it.",
         "Chapter 4 records strict n-level inclusions, including (n+1)-W-RAND properly contained in n-M-RAND."
+      ]
+    },
+    {
+      "id": "SRC-0030",
+      "title": "Relativizing Chaitin's Halting Probability",
+      "authors": [
+        "Rod Downey",
+        "Denis R. Hirschfeldt",
+        "Joseph S. Miller",
+        "André Nies"
+      ],
+      "author_ids": [
+        "AUT-0006",
+        "AUT-0007",
+        "AUT-0032",
+        "AUT-0005"
+      ],
+      "year": 2005,
+      "source_type": "journal_article",
+      "doi": "10.1142/S0219061305000468",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1142/S0219061305000468",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "relative-randomness",
+        "martin-lof-randomness",
+        "n-randomness",
+        "van-lambalgen",
+        "oracle-tests",
+        "halting-probability"
+      ],
+      "aliases_search_terms": [
+        "A-random",
+        "A-Martin-Löf test",
+        "n-random",
+        "van Lambalgen theorem",
+        "relative Martin-Löf randomness"
+      ],
+      "definitions": [
+        "DEF-0019",
+        "DEF-0020"
+      ],
+      "theorems": [
+        "THM-0021",
+        "THM-0022"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary statement-level source for oracle-relative Martin-Löf tests, the ∅^(n−1) convention for n-randomness, and a clean two-part van Lambalgen statement in fair-coin Cantor space.",
+      "notes": "Full paper text was statement-inspected. The introductory definitions specify fair-coin Cantor measure and A-Martin-Löf tests; the same section defines n-randomness via the (n−1)-st jump and states van Lambalgen's theorem in two parts.",
+      "inspected_material": [
+        "full paper text",
+        "introductory Martin-Löf/A-Martin-Löf definitions",
+        "n-randomness convention",
+        "van Lambalgen theorem statement"
+      ],
+      "pointers": [
+        "Journal of Mathematical Logic 5(2) (2005), 167-192",
+        "introductory definitions around printed p. 4",
+        "van Lambalgen theorem, same introductory section"
+      ],
+      "cross_links": [
+        "SRC-0010",
+        "SRC-0028",
+        "SRC-0032",
+        "SRC-0033"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact fair-coin oracle-test and jump-relativization conventions plus statement-level van Lambalgen hypotheses/directions.",
+      "inspected_claims": [
+        "An A-Martin-Löf test is a Martin-Löf test whose test components are uniformly c.e. relative to A; a real is A-random iff it passes every such test.",
+        "A real is n-random iff it is Martin-Löf random relative to ∅^(n−1).",
+        "For A,B∈2^ω: A⊕B is 1-random iff A is 1-random and B is A-random.",
+        "If A is 1-random and B is A-random, then A is B-random."
+      ]
+    },
+    {
+      "id": "SRC-0031",
+      "title": "Relativizations of randomness and genericity notions",
+      "authors": [
+        "Johanna N. Y. Franklin",
+        "Frank Stephan",
+        "Liang Yu"
+      ],
+      "author_ids": [
+        "AUT-0033",
+        "AUT-0009",
+        "AUT-0030"
+      ],
+      "year": 2011,
+      "source_type": "journal_article",
+      "doi": "10.1112/blms/bdr007",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1112/blms/bdr007",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "relative-randomness",
+        "schnorr-randomness",
+        "kurtz-randomness",
+        "martingales",
+        "lowness",
+        "bases-for-randomness"
+      ],
+      "aliases_search_terms": [
+        "Schnorr random relative to A",
+        "Kurtz random relative to A",
+        "relativizations randomness genericity"
+      ],
+      "definitions": [
+        "DEF-0022",
+        "DEF-0023"
+      ],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Primary statement-level source for explicit oracle-relativized Schnorr and Kurtz betting formulations.",
+      "notes": "Full manuscript text was statement-inspected. Property 1.1 presents the paper's A-recursive martingale/rate/bound formulations. P1-S003 preserves this source-specific formulation rather than silently translating it into a different test convention.",
+      "inspected_material": [
+        "full manuscript text",
+        "Property 1.1",
+        "publisher metadata"
+      ],
+      "pointers": [
+        "Bulletin of the London Mathematical Society 43(4) (2011), 721-733",
+        "Property 1.1, early introduction"
+      ],
+      "cross_links": [
+        "SRC-0010",
+        "SRC-0032"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Source-supported ordinary oracle relativizations for Schnorr and Kurtz randomness, with all effective resources relativized to A in the inspected martingale presentation.",
+      "inspected_claims": [
+        "Property 1.1 gives Schnorr randomness relative to A using an A-recursive rate r and excluding A-recursive martingale/bound witnesses that beat r infinitely often.",
+        "Property 1.1 gives Kurtz randomness relative to A by the analogous A-recursive martingale/bound condition with the inequality required for all n."
+      ]
+    },
+    {
+      "id": "SRC-0032",
+      "title": "Van Lambalgen's Theorem for uniformly relative Schnorr and computable randomness",
+      "authors": [
+        "Kenshi Miyabe",
+        "Jason Rute"
+      ],
+      "author_ids": [
+        "AUT-0034",
+        "AUT-0035"
+      ],
+      "year": 2013,
+      "source_type": "conference_article",
+      "doi": "10.1142/9789814449274_0014",
+      "arxiv": "1209.5478",
+      "stable_locator": "https://arxiv.org/abs/1209.5478",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "van-lambalgen",
+        "uniform-relativization",
+        "schnorr-randomness",
+        "computable-randomness",
+        "martingales",
+        "relative-randomness"
+      ],
+      "aliases_search_terms": [
+        "uniformly relative Schnorr randomness",
+        "truth-table Schnorr randomness",
+        "uniformly relative computable randomness",
+        "truth-table reducible randomness",
+        "van Lambalgen Schnorr"
+      ],
+      "definitions": [
+        "DEF-0024",
+        "DEF-0025"
+      ],
+      "theorems": [
+        "THM-0021",
+        "THM-0023",
+        "THM-0024",
+        "THM-0025"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source separating ordinary oracle relativization from uniform relativization and proving exact van-Lambalgen-type statements for Schnorr and computable randomness.",
+      "notes": "arXiv v2/full text was statement-inspected. The paper works in fair-coin Cantor space, defines uniform families by total computable maps, records the standard ML theorem, proves the uniform Schnorr theorem, proves a symmetric mutual-uniform computable-randomness theorem, and gives a strict ordinary-vs-uniform computable-relative separation. It also explicitly warns that the forward direction of the naive van Lambalgen analogue fails for ordinary Schnorr and computable randomness.",
+      "inspected_material": [
+        "arXiv v2 full text",
+        "Theorems 1.1-1.3",
+        "Definitions 4.1-4.2",
+        "Definitions 5.1-5.2",
+        "Theorem 5.3",
+        "Corollary 5.4",
+        "Section 5.1 join convention and relative-ML discussion"
+      ],
+      "pointers": [
+        "arXiv:1209.5478v2 (1 May 2013)",
+        "Theorem 1.1, pp. 1-2",
+        "Definitions 4.1-4.2, p. 8",
+        "Definitions 5.1-5.2, pp. 10-11",
+        "Theorem 5.3 and Corollary 5.4, pp. 11-12"
+      ],
+      "cross_links": [
+        "SRC-0030",
+        "SRC-0031",
+        "SRC-0033"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Exact ordinary/uniform convention split and exact join-based theorem forms needed to prevent invalid transfer of van Lambalgen across randomness notions.",
+      "inspected_claims": [
+        "Theorem 1.1: A⊕B is Martin-Löf random iff A is Martin-Löf random and B is Martin-Löf random relative to A.",
+        "Theorem 1.2: A⊕B is Schnorr random iff A is Schnorr random and B is Schnorr random uniformly relative to A.",
+        "Definitions 4.1-4.2 define uniform Schnorr tests by total computable maps Φ:2^ω→N^N and uniformly relative Schnorr randomness by the oracle instance.",
+        "Definitions 5.1-5.2 define uniform martingale tests and uniformly relative computable randomness.",
+        "Theorem 5.3: A⊕B is computably random iff A and B are each computably random uniformly relative to the other.",
+        "Corollary 5.4: there exist A,B such that A is computably random uniformly relative to B but not computably random relative to B.",
+        "For finite σ,τ the paper uses even/odd interleaving for σ⊕τ: even positions from σ and odd positions from τ.",
+        "Section 5.1 states uniformly relative Martin-Löf randomness is equivalent to ordinary relative Martin-Löf randomness."
+      ]
+    },
+    {
+      "id": "SRC-0033",
+      "title": "The Axiomatization of Randomness",
+      "authors": [
+        "Michiel van Lambalgen"
+      ],
+      "author_ids": [
+        "AUT-0023"
+      ],
+      "year": 1990,
+      "source_type": "journal_article",
+      "doi": "10.2307/2274480",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2307/2274480",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "relative-randomness",
+        "van-lambalgen",
+        "effective-fubini",
+        "martin-lof-randomness",
+        "independence"
+      ],
+      "aliases_search_terms": [
+        "van Lambalgen axiomatization randomness",
+        "effective Fubini random pairs",
+        "relative randomness van Lambalgen"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0022"
+      ],
+      "questions": [],
+      "priority_relevance": "Original statement-inspected source underlying van Lambalgen's relative-randomness/independence theorem, in its actual recursive-sequential-test and product-space formulation.",
+      "notes": "An open University of Amsterdam copy of the 1990 JSL paper was visually statement-inspected. Section 5 defines recursive sequential tests, explains oracle relativization, proves an effective Fubini theorem for product tests, and states Theorem 5.10 in relative-prefix-complexity/randomness notation. P1-S003 does not rewrite the paper as if it stated the later modern A⊕B theorem verbatim.",
+      "inspected_material": [
+        "University of Amsterdam PDF",
+        "Definition 5.3",
+        "Theorems 5.4′, 5.9 and 5.10",
+        "printed pp. 1163-1165"
+      ],
+      "pointers": [
+        "Journal of Symbolic Logic 55(3) (1990), 1143-1167",
+        "Definition 5.3, printed p. 1163",
+        "Theorem 5.9, printed p. 1164",
+        "Theorem 5.10, printed p. 1165"
+      ],
+      "cross_links": [
+        "SRC-0020",
+        "SRC-0030",
+        "SRC-0032"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Original primary provenance for the effective product/relative-randomness phenomenon, while preserving the source's actual notation and theorem form.",
+      "inspected_claims": [
+        "Definition 5.3 defines recursive sequential tests and Martin-Löf randomness via avoidance of all such tests.",
+        "The section explicitly relativizes the universal-machine/test setup to an oracle y.",
+        "Theorem 5.9 is an effective Fubini statement for a recursive sequential test in 2^ω×2^ω with product measure.",
+        "Theorem 5.10 gives the symmetry/independence consequence in the paper's relative prefix-complexity/randomness notation; its proof reduces to x∈R^y and y∈R implying the pair <x,y> lies in the random-pair class R^2."
       ]
     }
   ]
