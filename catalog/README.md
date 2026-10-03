@@ -4,8 +4,8 @@ Phase 1 is **OPEN** and the catalogue is **IN PROGRESS**. This directory is a st
 
 Use `catalogue.json` as the stable-ID entry point.
 
-## P1-S002 checkpoint
+## P1-S003 checkpoint
 
-P1-S002 consolidated the core weaker-randomness hierarchy at primary-source level. Schnorr and computable randomness now have inspected primary support; Kurtz, weak n-randomness and weak 2-randomness have normalized records; source-backed test/martingale distinctions and strictness edges were added. Original Schnorr/Kurtz statement-level retrieval remains an explicit access gap.
+P1-S003 consolidated relative/oracle randomness at statement level in the inspected fair-coin setting. The catalogue now distinguishes ordinary from uniform relativization for Schnorr/computable randomness, records exact relative ML/computable/Schnorr/Kurtz formulations, fixes the jump convention for n-randomness, and records original plus modern van-Lambalgen provenance without silently changing source conventions.
 
-Phase 1 is materially incomplete and Gate 1 is not ready for review.
+Phase 1 remains materially incomplete and Gate 1 is not ready for review.
