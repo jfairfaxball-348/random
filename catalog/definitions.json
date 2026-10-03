@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "session": "P1-S001",
+  "records": [
+    {
+      "id": "DEF-0001",
+      "name": "Church random sequence (Church's 1940 effective selection formulation)",
+      "object_domain": "infinite binary sequence with limiting digit frequency p",
+      "effective_resources": "effectively calculable selection rule whose choice at each stage depends on previously seen terms, in Church's formulation",
+      "framework": "selection-rule / subsequence-frequency",
+      "measure_assumptions": "frequency formulation rather than an explicit measure-test definition",
+      "relativization": "not treated in inspected source",
+      "aliases": [
+        "Church random sequence"
+      ],
+      "formal_summary": "A sequence is admitted as random only if its limiting frequency is p and every infinite subsequence selected by an effectively calculable admissible rule retains limiting frequency p.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0002",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "p. 134"
+        }
+      ],
+      "cautions": [
+        "Later literature uses related terms such as Church stochasticity; P1-S001 does not assert identity across all conventions without a dedicated terminology check."
+      ]
+    },
+    {
+      "id": "DEF-0002",
+      "name": "Martin-Löf randomness on fair-coin Cantor space",
+      "object_domain": "infinite binary sequence X in 2^ω",
+      "effective_resources": "uniformly computably enumerable sequence of effectively open sets",
+      "framework": "effective null tests",
+      "measure_assumptions": "uniform/fair-coin measure; test levels have measure at most 2^-n",
+      "relativization": "oracle variants exist but are not defined in P1-S001",
+      "aliases": [
+        "Martin-Löf random",
+        "Martin-Lof random",
+        "1-random (common computability-theory usage; terminology requires context)"
+      ],
+      "formal_summary": "A Martin-Löf test is a uniformly c.e. sequence of effectively open sets with μ(U_n) ≤ 2^-n. X is Martin-Löf random iff it is not in the intersection of any Martin-Löf test (equivalently, it passes every such test).",
+      "equivalent_characterizations": [
+        "THM-0001"
+      ],
+      "relationships": [
+        "REL-0001"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0007",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 3"
+        },
+        {
+          "source": "SRC-0001",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0003",
+      "name": "Schnorr randomness",
+      "object_domain": "infinite binary sequence",
+      "effective_resources": "Martin-Löf-style effective tests with computable level measures",
+      "framework": "effective null tests with stronger effectivity on measures",
+      "measure_assumptions": "fair-coin Cantor measure in inspected normalization; level measures uniformly computable (survey notes exact 2^-n normalization)",
+      "relativization": "not defined in P1-S001",
+      "aliases": [
+        "Schnorr random"
+      ],
+      "formal_summary": "In the inspected survey normalization, Schnorr randomness is obtained by restricting Martin-Löf tests to tests whose level measures are computable (equivalently normalized there to exact 2^-n levels).",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0002"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0007",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4"
+        },
+        {
+          "source": "SRC-0008",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ],
+      "cautions": [
+        "Primary original Schnorr source and exact cross-source convention comparison remain to be inspected."
+      ]
+    },
+    {
+      "id": "DEF-0004",
+      "name": "Computable randomness",
+      "object_domain": "infinite binary sequence",
+      "effective_resources": "computable martingales",
+      "framework": "betting / martingale",
+      "measure_assumptions": "fair-coin/fair-betting normalization in inspected survey",
+      "relativization": "not defined in P1-S001",
+      "aliases": [
+        "computably random",
+        "recursive randomness (historical/search term)"
+      ],
+      "formal_summary": "A sequence is computably random iff no computable martingale succeeds on it, where success means unbounded capital along its prefixes.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0001",
+        "REL-0002",
+        "REL-0007"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0007",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0005",
+      "name": "Martin-Löf test for a computable measure on Cantor space",
+      "object_domain": "Cantor space 2^ω equipped with computable probability measure μ",
+      "effective_resources": "uniformly r.e./effectively open sets",
+      "framework": "effective null tests",
+      "measure_assumptions": "μ(U_n) ≤ 2^-n",
+      "relativization": "uniform-in-measure version is DEF-0006",
+      "aliases": [
+        "μ-Martin-Löf test",
+        "μ-effective null test"
+      ],
+      "formal_summary": "A test is a uniformly effectively open sequence (U_n) with μ(U_n) ≤ 2^-n; the intersection is an effective μ-null set, and a point is μ-random when it avoids every such effective null set.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint PDF pp. 18-19"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0006",
+      "name": "Uniform randomness test over computable probability measures",
+      "object_domain": "pair (μ,x), with μ a computable probability measure and x a point in the represented/computable metric-space framework",
+      "effective_resources": "positive lower-semicomputable test function uniform in the measure parameter",
+      "framework": "integral/effective test",
+      "measure_assumptions": "test t satisfies an integral bound (≤1) with respect to μ in the inspected formulation",
+      "relativization": "uniformity is in the measure parameter; oracle relativization not treated here",
+      "aliases": [
+        "uniform Martin-Löf randomness test",
+        "uniform randomness test"
+      ],
+      "formal_summary": "Hoyrup and Rojas formulate tests uniformly in the probability measure using lower-semicomputable nonnegative functions with bounded μ-integral, and define a point as random when it has finite value for every such test.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint PDF pp. 18-19"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0006A",
+      "name": "Kolmogorov–Loveland randomness",
+      "object_domain": "infinite binary sequence",
+      "effective_resources": "computable non-monotonic betting strategies that may choose which bit to bet on next",
+      "framework": "non-monotonic betting",
+      "measure_assumptions": "binary fair-betting setting of inspected source abstract",
+      "relativization": "not treated in P1-S001",
+      "aliases": [
+        "KL-randomness",
+        "KLR",
+        "Kolmogorov-Loveland random"
+      ],
+      "formal_summary": "X is KL-random iff no computable non-monotonic betting strategy succeeds on X with unbounded gain while successively betting on bits of X.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0018",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ],
+      "cautions": [
+        "The coincidence question with Martin-Löf randomness is QST-0001, not an established equivalence."
+      ]
+    },
+    {
+      "id": "DEF-0007",
+      "name": "Low for Martin-Löf randomness",
+      "object_domain": "oracle/set A",
+      "effective_resources": "comparison of unrelativized and A-relative Martin-Löf randomness",
+      "framework": "lowness / relativization",
+      "measure_assumptions": "standard fair-coin setting in source abstract",
+      "relativization": "intrinsic: A is used as oracle",
+      "aliases": [
+        "low for randomness",
+        "low for ML-randomness"
+      ],
+      "formal_summary": "A is low for Martin-Löf randomness if every unrelativized Martin-Löf random set remains Martin-Löf random relative to A.",
+      "equivalent_characterizations": [
+        "THM-0003"
+      ],
+      "relationships": [
+        "REL-0003"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0009",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0008",
+      "name": "K-triviality",
+      "object_domain": "set/real A",
+      "effective_resources": "prefix-free Kolmogorov complexity K",
+      "framework": "initial-segment complexity",
+      "measure_assumptions": "none",
+      "relativization": "not part of the definition recorded here",
+      "aliases": [
+        "K-trivial"
+      ],
+      "formal_summary": "A is K-trivial if K(A↾n) ≤ K(n)+O(1) for all n.",
+      "equivalent_characterizations": [
+        "THM-0003",
+        "THM-0004"
+      ],
+      "relationships": [
+        "REL-0003",
+        "REL-0004"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0009",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0009",
+      "name": "Base for R-randomness",
+      "object_domain": "set B relative to a specified randomness notion R",
+      "effective_resources": "Turing reducibility plus relativized R-randomness",
+      "framework": "bases / oracle randomness",
+      "measure_assumptions": "inherited from R",
+      "relativization": "essential: Z is R-random relative to B",
+      "aliases": [
+        "basis for randomness",
+        "base for randomness"
+      ],
+      "formal_summary": "B is a base for R-randomness if there exists Z ≥_T B such that Z is R-random relative to B.",
+      "equivalent_characterizations": [
+        "THM-0004"
+      ],
+      "relationships": [
+        "REL-0004"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint abstract, p. 1"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0010",
+      "name": "Plain Kolmogorov complexity C",
+      "object_domain": "finite binary string σ",
+      "effective_resources": "fixed optimal description machine in the plain-machine model",
+      "framework": "description length / incompressibility",
+      "measure_assumptions": "none",
+      "relativization": "not treated in this record",
+      "aliases": [
+        "plain complexity",
+        "C-complexity"
+      ],
+      "formal_summary": "C(σ) is the length of a shortest description/program for σ on a fixed optimal plain description machine, up to the usual additive-machine constant.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0007",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint pp. 3-4"
+        }
+      ]
+    },
+    {
+      "id": "DEF-0011",
+      "name": "Prefix-free Kolmogorov complexity K",
+      "object_domain": "finite binary string σ",
+      "effective_resources": "fixed optimal prefix-free description machine",
+      "framework": "self-delimiting description length / incompressibility",
+      "measure_assumptions": "none",
+      "relativization": "not treated in this record",
+      "aliases": [
+        "prefix-free complexity",
+        "self-delimiting Kolmogorov complexity",
+        "K-complexity"
+      ],
+      "formal_summary": "K(σ) is the length of a shortest prefix-free description/program for σ on a fixed optimal prefix-free machine, up to an additive constant.",
+      "equivalent_characterizations": [
+        "THM-0001"
+      ],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0007",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4"
+        }
+      ]
+    }
+  ]
+}
