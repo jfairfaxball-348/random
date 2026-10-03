@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S006",
+  "session": "P1-S007",
   "records": [
     {
       "id": "AUT-0001",
@@ -47,10 +47,14 @@
       "topics": [
         "algorithmic-information",
         "program-size-complexity",
-        "finite-strings"
+        "finite-strings",
+        "self-delimiting-complexity",
+        "halting-probability",
+        "chaitin-omega"
       ],
       "source_ids": [
-        "SRC-0004"
+        "SRC-0004",
+        "SRC-0045"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -253,12 +257,16 @@
         "lowness",
         "relative-randomness",
         "demuth-randomness",
-        "oberwolfach-randomness"
+        "oberwolfach-randomness",
+        "left-c.e.-reals",
+        "halting-probability",
+        "chaitin-omega"
       ],
       "source_ids": [
         "SRC-0016",
         "SRC-0021",
-        "SRC-0037"
+        "SRC-0037",
+        "SRC-0047"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -455,10 +463,14 @@
         "kurtz-randomness",
         "schnorr-randomness",
         "n-randomness",
-        "martingales"
+        "martingales",
+        "left-c.e.-reals",
+        "halting-probability",
+        "chaitin-omega"
       ],
       "source_ids": [
-        "SRC-0029"
+        "SRC-0029",
+        "SRC-0046"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -687,6 +699,62 @@
       ],
       "source_ids": [
         "SRC-0044"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0048",
+      "name": "Theodore A. Slaman",
+      "topics": [
+        "algorithmic-randomness",
+        "left-c.e.-reals",
+        "solovay-domination",
+        "chaitin-omega"
+      ],
+      "source_ids": [
+        "SRC-0047"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0049",
+      "name": "Cristian S. Calude",
+      "topics": [
+        "algorithmic-information",
+        "left-c.e.-reals",
+        "chaitin-omega",
+        "self-delimiting-machines"
+      ],
+      "source_ids": [
+        "SRC-0046"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0050",
+      "name": "Peter H. Hertling",
+      "topics": [
+        "computable-analysis",
+        "left-c.e.-reals",
+        "chaitin-omega",
+        "solovay-domination"
+      ],
+      "source_ids": [
+        "SRC-0046"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0051",
+      "name": "Bakhadyr Khoussainov",
+      "topics": [
+        "computability",
+        "left-c.e.-reals",
+        "chaitin-omega",
+        "self-delimiting-machines"
+      ],
+      "source_ids": [
+        "SRC-0046"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
