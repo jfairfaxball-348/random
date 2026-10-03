@@ -148,3 +148,35 @@ Scope: primary-source consolidation of the stronger test-randomness stratum: Dem
 
 ### Bounded exclusions
 No Fairfax-Ball candidate was invented or selected; no Phase-2 target selection or novelty audit was performed; no original mathematics/proof search, Lean/Palomar work, manuscript work, publication preparation or external outreach was performed.
+
+
+## P1-S005 — 2026-10-03
+
+Scope: primary-source consolidation of computable measures, computable probability spaces, generalized-measure Martin-Löf/Schnorr randomness, and only the exact representation/invariance/conservation/no-randomness-from-nothing links needed to connect COV-0001, COV-0012 and COV-0013. Search failure is not treated as nonexistence.
+
+### Primary sources inspected or upgraded
+- SRC-0011 (Hoyrup–Rojas 2009) was re-inspected at statement level for computable metric spaces and canonical Cauchy representations; computable Borel probability measures and equivalent valuation criteria; binary representations of computable probability spaces; uniform integral tests; morphism conservation; and isomorphism invariance on Martin-Löf random points.
+- SRC-0012 (Gács–Hoyrup–Rojas 2011) was upgraded from abstract-only to STATEMENT_INSPECTED. Exact statements now support the computable-probability-space definition, a.e.-computable measure-preserving morphisms/isomorphisms, general Martin-Löf and Schnorr tests, Cantor representation with an appropriate computable measure, the atomless computable-Lebesgue-space theorem, and Schnorr conservation under morphisms.
+- SRC-0015 (Rute 2016) was upgraded from abstract-only to STATEMENT_INSPECTED. Definition 2/6, Theorem 7, Lemma 8, Theorem 25/Corollary 26 and Theorems 33/36 now ground exact computable-measure Cantor-space randomness, a.e.-computable map hypotheses, computable-randomness NRFN/isomorphism invariance, Schnorr NRFN failure, and distinct all-measure versus fair-coin maximality statements.
+- SRC-0038 (Bienvenu–Gács–Hoyrup–Rojas–Shen 2011) was added at STATEMENT_INSPECTED for computable Cantor-space measures, Martin-Löf P-tests, explicit Bernoulli/non-symmetric-coin class tests, arbitrary-measure uniform tests, and the fixed-P/uniform-test correspondence.
+
+### Exact convention reconciliation
+1. A computable metric space, a computable probability measure, and a computable probability space are separate records (DEF-0030/0031/0032). The inspected general-space theory is metric/Cauchy-representation based; no theorem for arbitrary represented spaces is inferred.
+2. Generalized Martin-Löf randomness (DEF-0033) uses uniformly effective open levels with μ(A_n)≤2^-n. Generalized Schnorr randomness (DEF-0034) adds uniform computability of the real level measures μ(A_n). The exact-equality fair-coin normal form from some P1-S002 sources is not silently transplanted.
+3. Uniformity has two distinct meanings in the repository: measure-parameter uniform tests (DEF-0006/SRC-0038) versus uniform oracle relativization (DEF-0024/DEF-0025). They are not aliases.
+4. Every computable probability space has a Cantor representation with an appropriate computable measure. This is not automatically fair coin. The stronger reduction to a fixed Lebesgue/nonatomic model requires atomlessness (THM-0034).
+5. Atoms are allowed in the basic computable-probability-space machinery. Non-full support is also allowed; source-specific support qualifications are retained for representation-domain density.
+
+### Conservation / no-randomness-from-nothing scope
+- ML randomness: SRC-0011 gives conservation under computable-probability-space morphisms and isomorphism invariance; SRC-0015 Theorem 33 gives the all-computable-Cantor-measure maximality of ML under conservation + NRFN, while Theorem 36 separately gives the fair-coin self-map form.
+- Schnorr randomness: SRC-0012 Proposition 3.27 gives conservation under computable-probability-space morphisms. SRC-0015 Theorem 25/Corollary 26 shows NRFN fails for the broader a.e.-computable Cantor-space map class. These are different properties and map formulations.
+- Computable randomness: SRC-0015 Theorem 7 gives NRFN for arbitrary computable Cantor-space source measures and their pushforwards; Lemma 8 gives invariance for a.e.-computable measure-preserving isomorphisms. The fair-coin martingale definition DEF-0004 is not used as a substitute for the μ-random definition DEF-0036.
+
+### Retrieval failures / qualifications
+- The historical standalone Shen antecedent for Martin-Löf no-randomness-from-nothing was not independently recovered as an original source in this bounded session. Exact modern primary statements are retained from inspected papers rather than reconstructing the folklore attribution.
+- No bounded primary source for a fully general arbitrary represented-space probability formalism was added. The repository therefore says “computable metric/probability space” where that is what the sources prove, rather than silently broadening to every represented space.
+- Rute's proposed fully uniform-relativized computable-randomness NRFN extension appears as Conjecture 21 in the inspected paper; it is not promoted to a theorem.
+- No generalized-measure version of Demuth, difference, balanced or Oberwolfach randomness was searched into the catalogue merely by analogy; their P1-S004 records remain fair-coin-only.
+
+### Bounded exclusions
+No Fairfax-Ball candidate was invented or selected; no Phase-2 target selection or dedicated novelty audit was performed; no original mathematics/proof search, Lean/Palomar work, manuscript/publication work or external outreach was performed.
