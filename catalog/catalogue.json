@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 33,
-    "definitions": 25,
-    "theorems": 25,
-    "relations": 16,
+    "sources": 37,
+    "definitions": 29,
+    "theorems": 31,
+    "relations": 25,
     "questions": 1,
-    "authors": 35,
+    "authors": 41,
     "coverage_records": 19
   },
   "sources": [
@@ -57,7 +57,11 @@
     "SRC-0030",
     "SRC-0031",
     "SRC-0032",
-    "SRC-0033"
+    "SRC-0033",
+    "SRC-0034",
+    "SRC-0035",
+    "SRC-0036",
+    "SRC-0037"
   ],
   "definitions": [
     "DEF-0001",
@@ -84,7 +88,11 @@
     "DEF-0022",
     "DEF-0023",
     "DEF-0024",
-    "DEF-0025"
+    "DEF-0025",
+    "DEF-0026",
+    "DEF-0027",
+    "DEF-0028",
+    "DEF-0029"
   ],
   "theorems": [
     "THM-0001",
@@ -111,7 +119,13 @@
     "THM-0022",
     "THM-0023",
     "THM-0024",
-    "THM-0025"
+    "THM-0025",
+    "THM-0026",
+    "THM-0027",
+    "THM-0028",
+    "THM-0029",
+    "THM-0030",
+    "THM-0031"
   ],
   "relations": [
     "REL-0001",
@@ -129,7 +143,16 @@
     "REL-0013",
     "REL-0014",
     "REL-0015",
-    "REL-0016"
+    "REL-0016",
+    "REL-0017",
+    "REL-0018",
+    "REL-0019",
+    "REL-0020",
+    "REL-0021",
+    "REL-0022",
+    "REL-0023",
+    "REL-0024",
+    "REL-0025"
   ],
   "questions": [
     "QST-0001"
@@ -169,7 +192,13 @@
     "AUT-0032",
     "AUT-0033",
     "AUT-0034",
-    "AUT-0035"
+    "AUT-0035",
+    "AUT-0036",
+    "AUT-0037",
+    "AUT-0038",
+    "AUT-0039",
+    "AUT-0040",
+    "AUT-0041"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -210,7 +239,16 @@
     "uniformly relative Schnorr randomness",
     "truth-table Schnorr randomness",
     "uniformly relative computable randomness",
-    "truth-table reducible randomness"
+    "truth-table reducible randomness",
+    "difference randomness",
+    "d.r.e. randomness",
+    "balanced randomness",
+    "Oberwolfach randomness",
+    "coherent randomness test",
+    "omega-c.e. Demuth test",
+    "Solovay-pass Demuth test",
+    "interval-test randomness",
+    "left-c.e. bounded randomness"
   ],
   "coverage_records": [
     "COV-0001",
@@ -233,7 +271,7 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "P1-S003 consolidated the relative/oracle-randomness stratum at statement level in fair-coin Cantor space: relative ML/computable/Schnorr/Kurtz definitions, jump-based n-randomness, original and modern van-Lambalgen provenance, and ordinary-versus-uniform relativization distinctions are now explicit. Phase 1 remains incomplete: stronger notions beyond weak-n, higher randomness, generalized-measure relativization, finite-string/random-real, category/genericity and pseudorandomness-boundary strata still require work.",
+  "coverage_summary": "P1-S004 consolidated the stronger test-randomness tranche at primary-source level: the original 1982 Demuth source was recovered and cross-normalized without erasing its historical domain/notation; difference, balanced and Oberwolfach randomness now have exact source-grounded definitions; and the strict/incomparability graph through 2-random, weak-2, Martin-Löf and the stronger moving-component notions is recorded only where inspected sources state it. Phase 1 remains incomplete, especially for generalized measures/spaces, higher randomness, finite-string/random-real, category/genericity and pseudorandomness-boundary coverage.",
   "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S003"
+  "last_completed_session": "P1-S004"
 }

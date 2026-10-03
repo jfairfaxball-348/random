@@ -4,8 +4,10 @@ Phase 1 is **OPEN** and the catalogue is **IN PROGRESS**. This directory is a st
 
 Use `catalogue.json` as the stable-ID entry point.
 
-## P1-S003 checkpoint
+## P1-S004 checkpoint
 
-P1-S003 consolidated relative/oracle randomness at statement level in the inspected fair-coin setting. The catalogue now distinguishes ordinary from uniform relativization for Schnorr/computable randomness, records exact relative ML/computable/Schnorr/Kurtz formulations, fixes the jump convention for n-randomness, and records original plus modern van-Lambalgen provenance without silently changing source conventions.
+P1-S004 consolidated the stronger test-randomness stratum at primary-source level. The catalogue now contains an inspected original Demuth source plus exact modern Demuth, difference, balanced and Oberwolfach definitions, preserves their distinct test-change/passing conventions, and records only source-stated strictness/incomparability edges through 2-randomness, weak 2-randomness and Martin-Löf randomness.
+
+The close counts are 37 sources, 29 definitions, 31 theorem/characterization records, 25 relation records, 1 status question, 41 author-navigation records and 19 coverage records. No coverage stratum is yet complete.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.

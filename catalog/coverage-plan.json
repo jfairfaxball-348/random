@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S003",
+  "session": "P1-S004",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-03",
   "status_vocabulary": [
@@ -13,7 +13,8 @@
     "STARTED_P1_S001",
     "STARTED_CORE_P1_S001",
     "PARTIAL_P1_S002",
-    "PARTIAL_P1_S003"
+    "PARTIAL_P1_S003",
+    "PARTIAL_P1_S004"
   ],
   "records": [
     {
@@ -386,7 +387,7 @@
         "COV-0008"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "PARTIAL_P1_S003",
+      "present_coverage_status": "PARTIAL_P1_S004",
       "covered_by": [
         "SRC-0016",
         "SRC-0005",
@@ -394,13 +395,21 @@
         "SRC-0027",
         "SRC-0029",
         "SRC-0030",
-        "SRC-0028"
+        "SRC-0028",
+        "SRC-0034",
+        "SRC-0035",
+        "SRC-0036",
+        "SRC-0037"
       ],
       "known_retrieval_access_limitations": [
-        "Weak-n/weak-2 and the exact n-random = ML-random relative to ∅^(n−1) convention are now primary-source grounded, but Demuth originals, difference randomness, Oberwolfach randomness and balanced randomness remain incomplete."
+        "P1-S004 now has statement-level primary definitions for Demuth, difference, balanced and Oberwolfach randomness, together with the existing weak-n and jump-based n-randomness records.",
+        "Demuth's 1982 original was recovered and inspected, but it is Russian and uses historical constructive notation restricted to arithmetical reals; the modern all-real normal form is cross-checked through SRC-0016/SRC-0035 rather than presented as a verbatim translation.",
+        "The source-specific distinction between Demuth's Solovay passing and the ordinary weak-Demuth passing used for balanced/Oberwolfach tests is now explicit.",
+        "Relations to arbitrary computable measures/spaces, broader weak/partial Demuth variants and higher-randomness analogues remain outside this bounded tranche."
       ],
       "next_actions": [
-        "Build the next stronger-notions primary-source tranche around Demuth, difference, balanced and Oberwolfach randomness, preserving exact test-change and implication/separation hypotheses."
+        "Retain this stratum as partial until broader stronger-test variants and any generalized-measure/higher cross-links needed for Gate 1 are inspected; do not infer missing arrows from the current definitions.",
+        "If historical priority details become decision-relevant, obtain an independent translation/secondary philological check for the 1982 Demuth notation rather than guessing from the scan."
       ]
     },
     {
@@ -660,7 +669,7 @@
         "ALL_NOTION_STRATA"
       ],
       "expected_depth_required": "DEEP_CROSS_CUTTING",
-      "present_coverage_status": "PARTIAL_P1_S003",
+      "present_coverage_status": "PARTIAL_P1_S004",
       "covered_by": [
         "SRC-0007",
         "SRC-0009",
@@ -674,13 +683,17 @@
         "SRC-0028",
         "SRC-0029",
         "SRC-0030",
-        "SRC-0032"
+        "SRC-0032",
+        "SRC-0035",
+        "SRC-0036",
+        "SRC-0037"
       ],
       "known_retrieval_access_limitations": [
-        "The fair-coin relative ML and uniform-relative Schnorr/computable van-Lambalgen edges are now statement-supported, but the global graph across stronger, higher, generalized-measure and category-adjacent notions remains incomplete."
+        "P1-S004 adds source-supported strict edges 2-random→Demuth, 2-random→weak-2, Demuth→difference, weak-2→difference, difference→ML, balanced→Oberwolfach→difference, plus the Demuth/weak-2 incomparability.",
+        "The global graph remains incomplete across higher randomness, generalized computable measures/spaces, category-adjacent notions and several characterization families; no uninspected transitive or definition-derived strictness edges are promoted."
       ],
       "next_actions": [
-        "Extend only with exact inspected hypotheses and source-supported strictness/separation witnesses; stronger notions are the next recommended tranche."
+        "Extend only with exact inspected hypotheses and source-supported strictness/separation witnesses; generalized computable measures/spaces are a high-value next tranche because many current edges are fair-coin-only."
       ]
     },
     {

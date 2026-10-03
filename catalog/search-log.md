@@ -111,3 +111,40 @@ The P1-S002 coverage note treated the already catalogued 1987 SRC-0020 as if it 
 - The original Merkle et al. counterexample paper behind failure of the naive forward van-Lambalgen direction for ordinary Schnorr/computable randomness was not separately statement-inspected; SRC-0032's explicit report is retained without manufacturing a new strictness record from definitions.
 - Arbitrary computable measures/spaces were outside this bounded fair-coin relativization pass.
 - Broader lowness/base/traceability families were intentionally not surveyed beyond exact cross-links needed here.
+
+
+## P1-S004 — 2026-10-03
+
+Scope: primary-source consolidation of the stronger test-randomness stratum: Demuth, difference, balanced and Oberwolfach randomness, with only exact cross-links to the already-normalized 2-/n-random, weak-2 and Martin-Löf records. Search failure is not treated as nonexistence.
+
+### Primary/strong sources inspected
+- SRC-0034: Osvald Demuth's 1982 original Russian paper was recovered from DML-CZ and visually inspected at printed pp. 457-458. The moving limit-index, computable change-bound and 2^-k measure machinery is present in the original historical arithmetic-real formulation.
+- SRC-0016 was upgraded to STATEMENT_INSPECTED. Its §4.4 gives the modern Demuth-test definition, identifies f≤wtt∅' with an ω-c.e. index having a computable bound on changes, and decodes the original 1982 notation and later WAP/NWAP terminology.
+- SRC-0035 (Franklin–Ng) was statement-inspected from a coauthor-hosted copy matched to Proc. AMS metadata. Definition 2.3, Theorem 2.8, Proposition 2.10/Figure 1 and Theorem 3.1 ground difference randomness and its strict placement.
+- SRC-0036 (Figueira–Hirschfeldt–Miller–Ng–Nies) was statement-inspected at Definition 14, Remarks 16-18 and Proposition 19 for balanced randomness and its O(2^m) / exact-2^m normal form.
+- SRC-0037 (Bienvenu–Greenberg–Kučera–Nies–Turetsky) was statement-inspected from the EMS paper at Definitions 2.2-2.3 and Propositions 2.4, 2.5 and 2.15 for Oberwolfach coherence, strict placement and equivalent test normal forms.
+
+### Definition and terminology reconciliation
+1. Demuth tests use moving c.e.-open components with an ω-c.e. (equivalently, in SRC-0016, weak-truth-table-∅') index whose mind changes are computably bounded by the level. The modern levels satisfy μ(U_m)≤2^-m.
+2. Demuth randomness uses Solovay passing: a real lies in only finitely many final test components. This is not the same pass condition as the weak-Demuth framework used for balanced/Oberwolfach randomness, where escaping a component suffices.
+3. Balanced tests impose an O(2^m) bound on changes of the m-th component index; SRC-0036 states that exact 2^m changes is an equivalent normal form.
+4. Oberwolfach tests are weak Demuth tests with coherence across levels: while level n stays fixed over an interval of stages, level n+1 changes at most once.
+5. SRC-0035 has a genuine n-r.e. terminology collision. Its naive n-r.e. tests of strings yield 2-randomness for n≥2; its neighborhood/difference n-r.e. tests collapse for n≥2 to difference randomness. The catalogue records only the latter as DEF-0027 and keeps the collision explicit.
+6. Where SRC-0035 says 2-randomness, P1-S004 reads it through DEF-0020's existing convention: Martin-Löf randomness relative to ∅'. No new oracle survey was opened.
+
+### Source-supported relationship additions
+- 2-randomness strictly implies both Demuth randomness and weak 2-randomness.
+- Demuth randomness and weak 2-randomness are incomparable.
+- Each of Demuth and weak 2-randomness strictly implies difference randomness, which strictly implies Martin-Löf randomness.
+- Balanced randomness strictly implies Oberwolfach randomness, which strictly implies difference randomness.
+- SRC-0036 independently supplies the direct strict balanced-to-difference edge.
+- Difference randomness is exactly Martin-Löf randomness plus Turing incompleteness.
+- Oberwolfach, interval-test and left-c.e.-bounded randomness coincide in SRC-0037's fair-coin setting.
+
+### Retrieval failures and access qualifications
+- The original Demuth paper is accessible but in Russian and in historical constructive notation. No independent complete English translation was located in this bounded pass; modern normalization is cross-checked with SRC-0016/SRC-0035 rather than supplied by guesswork.
+- A direct Franklin-hosted PDF route timed out during retrieval; the same primary paper was successfully obtained from coauthor Keng Meng Ng's site and matched against Proc. AMS metadata.
+- No generalized-measure, oracle-relative or higher analogues of the four stronger notions were inferred from the fair-coin sources.
+
+### Bounded exclusions
+No Fairfax-Ball candidate was invented or selected; no Phase-2 target selection or novelty audit was performed; no original mathematics/proof search, Lean/Palomar work, manuscript work, publication preparation or external outreach was performed.

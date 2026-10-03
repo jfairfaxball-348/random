@@ -1,7 +1,7 @@
 # Phase-1 Catalogue Taxonomy
 
 Status: **ACTIVE / evolving**  
-Last refined: 2026-10-03 in `P1-S003`
+Last refined: 2026-10-03 in `P1-S004`
 
 This taxonomy is a retrieval vocabulary, not a claim that all listed areas are already covered. Use the controlled tag families below in structured records and add aliases/search terms where the literature uses competing terminology.
 
@@ -41,7 +41,10 @@ The object tag matters: finite-string incompressibility is not itself an infinit
 - `notion:n-randomness` — Martin-Löf randomness relative to `∅^(n−1)` in P1-S003
 - `notion:kolmogorov-loveland`
 - `notion:church-selection`
-- `notion:demuth` — navigation only in P1-S001
+- `notion:demuth` — source-grounded in P1-S004; moving components with computably bounded index changes and Solovay passing
+- `notion:difference-randomness` — neighborhood-based d.r.e. tests; do not confuse with the source's naive n-r.e. string tests
+- `notion:balanced-randomness` — weak-Demuth-style tests with O(2^n), equivalently exact 2^n, component-index changes
+- `notion:oberwolfach-randomness` — coherent weak-Demuth moving-component tests
 - `notion:higher-randomness` — navigation only in P1-S001
 
 Do not use a tag as evidence that a definition/relationship has been verified.
@@ -54,6 +57,9 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 - `framework:total-solovay-test`
 - `framework:computably-graded-test`
 - `framework:generalized-martin-lof-test`
+- `framework:moving-component-test`
+- `framework:difference-test`
+- `framework:coherent-test`
 - `framework:measure-one-test`
 - `framework:uniform-test`
 - `framework:effective-open-set`
@@ -100,6 +106,9 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `resource:oracle-relative`
 - `resource:uniform-relativization` — uniform family selected by the oracle; distinct from ordinary oracle computation for Schnorr/computable randomness
 - `resource:arithmetical-level`
+- `resource:omega-c.e.-index`
+- `resource:computably-bounded-mind-changes`
+- `resource:exponential-mind-change-bound`
 - `resource:higher-computability`
 - `resource:bounded-time` — boundary coverage pending
 
@@ -208,5 +217,12 @@ Important query aliases include:
 - `n-random` / `∅^(n−1)-random`
 - `uniformly relative Schnorr randomness` / `truth-table Schnorr randomness`
 - `uniformly relative computable randomness` / `truth-table reducible randomness`
+- `difference random` / `d.r.e. random` — only after fixing the neighborhood/difference-test semantics of SRC-0035
+- `balanced random` / `2^n-change weak Demuth normal form`
+- `Oberwolfach random` / `coherent moving-component randomness`
+- `Oberwolfach randomness` / `interval-test randomness` / `left-c.e.-bounded randomness` — equivalent source-specific normal forms in SRC-0037
+- `NWAP` / `A_beta` — historical Demuth-era search terms, not context-free modern synonyms
+
+P1-S004 convention guard: Demuth randomness uses **Solovay passing** (membership in only finitely many final components), whereas the inspected balanced and Oberwolfach weak-Demuth tests use ordinary escape from a component. SRC-0035 also uses `n-r.e.` in two different test semantics: its naive string-test hierarchy yields 2-randomness for n≥2, while its neighborhood/difference hierarchy yields difference randomness for n≥2. Preserve the test semantics before normalizing terminology.
 
 Do **not** collapse `weak 2-random` into unqualified `Kurtz random`: P1-S002 source inspection identifies them as different levels of the weak-n hierarchy. Aliases are search vocabulary, not automatic mathematical equivalences.
