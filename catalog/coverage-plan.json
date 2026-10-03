@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S002",
+  "session": "P1-S003",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-03",
   "status_vocabulary": [
@@ -12,7 +12,8 @@
     "PARTIAL_P1_S001",
     "STARTED_P1_S001",
     "STARTED_CORE_P1_S001",
-    "PARTIAL_P1_S002"
+    "PARTIAL_P1_S002",
+    "PARTIAL_P1_S003"
   ],
   "records": [
     {
@@ -144,7 +145,7 @@
         "COV-0005"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "PARTIAL_P1_S002",
+      "present_coverage_status": "PARTIAL_P1_S003",
       "covered_by": [
         "SRC-0007",
         "SRC-0008",
@@ -156,16 +157,19 @@
         "SRC-0026",
         "SRC-0027",
         "SRC-0028",
-        "SRC-0029"
+        "SRC-0029",
+        "SRC-0010",
+        "SRC-0031",
+        "SRC-0032"
       ],
       "known_retrieval_access_limitations": [
-        "Schnorr's original 1971 book and unified article are bibliographically anchored but remain METADATA_ONLY at internal-statement level.",
-        "Kurtz's 1981 thesis is bibliographically anchored but remains METADATA_ONLY; a source-grounded Kurtz definition is established from inspected later primary literature.",
-        "Core fair-coin definitions and strictness witnesses are primary-source grounded; generalized measures and dedicated oracle-relative Schnorr/computable/Kurtz conventions remain for later Phase-1 work."
+        "Schnorr's original 1971 book and unified article remain METADATA_ONLY internally; Kurtz's 1981 thesis remains METADATA_ONLY.",
+        "P1-S003 now has statement-level ordinary oracle formulations for computable, Schnorr and Kurtz randomness plus uniform-relative Schnorr/computable formulations, but generalized-measure versions are not normalized here.",
+        "Ordinary and uniformly relative Schnorr/computable randomness are deliberately not collapsed; van-Lambalgen behavior depends on this distinction."
       ],
       "next_actions": [
-        "If accessible, close the original Schnorr/Kurtz internal-statement gap; otherwise preserve it rather than infer.",
-        "Later connect these notions to generalized measures and oracle-relativized forms without importing conventions by analogy."
+        "If accessible, close the original Schnorr/Kurtz internal-statement gap; otherwise preserve it.",
+        "Connect weaker notions to generalized computable measures/spaces in a later bounded session without importing fair-coin conventions by analogy."
       ]
     },
     {
@@ -300,18 +304,25 @@
         "COV-0006"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "STARTED_EDGE_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S003",
       "covered_by": [
         "SRC-0009",
         "SRC-0010",
-        "SRC-0021"
+        "SRC-0021",
+        "SRC-0030",
+        "SRC-0031",
+        "SRC-0032",
+        "SRC-0033"
       ],
       "known_retrieval_access_limitations": [
-        "No standalone formal DEF record for relative ML randomness yet.",
-        "Van Lambalgen 1987 was catalogued only at abstract level; its major theorem was not statement-inspected."
+        "Oracle-relative Martin-Löf, computable, Schnorr and Kurtz notions are now normalized at statement level for the inspected fair-coin Cantor/martingale-test conventions.",
+        "The original van Lambalgen 1990 paper is statement-inspected in its actual recursive-sequential-test/product-space notation; the clean modern A⊕B theorem is separately supported by SRC-0030/SRC-0032.",
+        "The incoming association of the central theorem with SRC-0020 (a different 1987 van Lambalgen paper) was corrected; see FL-005.",
+        "Uniform-versus-ordinary relativization is explicit for Schnorr/computable randomness. Arbitrary measures/spaces and a primary inspection of the original Merkle et al. counterexamples were not pursued in this bounded session."
       ],
       "next_actions": [
-        "Inspect exact relativized definitions and theorems, including van Lambalgen's theorem and oracle-level conventions."
+        "Later extend relativization beyond fair-coin Cantor space with exact measure/representation hypotheses.",
+        "If needed for the global relation graph, inspect the original counterexample paper behind failure of naive van-Lambalgen directions for ordinary Schnorr/computable randomness; do not infer it from definitions."
       ]
     },
     {
@@ -341,13 +352,14 @@
       "covered_by": [
         "SRC-0009",
         "SRC-0010",
-        "SRC-0021"
+        "SRC-0021",
+        "SRC-0030"
       ],
       "known_retrieval_access_limitations": [
-        "Only a small core equivalence set is indexed; Schnorr/computable lowness and traceability families remain to map."
+        "The ML lowness/base core is now cross-linked to an exact oracle-relative ML definition, but Schnorr/computable lowness, traceability and broader base classes remain only sparsely mapped."
       ],
       "next_actions": [
-        "Expand lowness/bases graph with exact primary statements and separations across randomness notions."
+        "Expand lowness/bases only in a dedicated primary-source tranche; preserve the P1-S003 ordinary/uniform relativization distinction where relevant."
       ]
     },
     {
@@ -374,19 +386,21 @@
         "COV-0008"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "PARTIAL_P1_S002",
+      "present_coverage_status": "PARTIAL_P1_S003",
       "covered_by": [
         "SRC-0016",
         "SRC-0005",
         "SRC-0007",
         "SRC-0027",
-        "SRC-0029"
+        "SRC-0029",
+        "SRC-0030",
+        "SRC-0028"
       ],
       "known_retrieval_access_limitations": [
-        "Weak-n and weak 2-randomness now have primary statement-level definitions/relations, but Demuth originals, difference randomness, Oberwolfach/balanced randomness and a standalone exact 2-random definition tranche remain incomplete."
+        "Weak-n/weak-2 and the exact n-random = ML-random relative to ∅^(n−1) convention are now primary-source grounded, but Demuth originals, difference randomness, Oberwolfach randomness and balanced randomness remain incomplete."
       ],
       "next_actions": [
-        "Build a dedicated stronger-notions primary-source tranche for 2-randomness, Demuth, difference, balanced and Oberwolfach randomness, keeping weak-2 terminology separate."
+        "Build the next stronger-notions primary-source tranche around Demuth, difference, balanced and Oberwolfach randomness, preserving exact test-change and implication/separation hypotheses."
       ]
     },
     {
@@ -646,7 +660,7 @@
         "ALL_NOTION_STRATA"
       ],
       "expected_depth_required": "DEEP_CROSS_CUTTING",
-      "present_coverage_status": "PARTIAL_P1_S002",
+      "present_coverage_status": "PARTIAL_P1_S003",
       "covered_by": [
         "SRC-0007",
         "SRC-0009",
@@ -658,13 +672,15 @@
         "SRC-0024",
         "SRC-0027",
         "SRC-0028",
-        "SRC-0029"
+        "SRC-0029",
+        "SRC-0030",
+        "SRC-0032"
       ],
       "known_retrieval_access_limitations": [
-        "The local hierarchy ML → computable → Schnorr → Kurtz and weak2 → ML now has primary-source strictness support, but the global implication/separation graph across stronger, relative, higher and category-adjacent notions remains incomplete."
+        "The fair-coin relative ML and uniform-relative Schnorr/computable van-Lambalgen edges are now statement-supported, but the global graph across stronger, higher, generalized-measure and category-adjacent notions remains incomplete."
       ],
       "next_actions": [
-        "Extend the graph only with exact inspected hypotheses/directions; prioritize relativization and stronger-notion edges in later bounded Phase-1 sessions."
+        "Extend only with exact inspected hypotheses and source-supported strictness/separation witnesses; stronger notions are the next recommended tranche."
       ]
     },
     {
