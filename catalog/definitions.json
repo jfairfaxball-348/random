@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S004",
+  "session": "P1-S005",
   "records": [
     {
       "id": "DEF-0001",
@@ -165,15 +165,15 @@
       "id": "DEF-0005",
       "name": "Martin-Löf test for a computable measure on Cantor space",
       "object_domain": "Cantor space 2^ω equipped with computable probability measure μ",
-      "effective_resources": "uniformly r.e./effectively open sets",
+      "effective_resources": "uniformly effectively open/c.e. test components; equivalently average-bounded lower-semicomputable integral tests in inspected primary sources",
       "framework": "effective null tests",
-      "measure_assumptions": "μ(U_n) ≤ 2^-n",
+      "measure_assumptions": "P is a computable Borel probability measure on Cantor space; cylinder values are uniformly computable; P(U_n)≤2^-n",
       "relativization": "uniform-in-measure version is DEF-0006",
       "aliases": [
         "μ-Martin-Löf test",
         "μ-effective null test"
       ],
-      "formal_summary": "A test is a uniformly effectively open sequence (U_n) with μ(U_n) ≤ 2^-n; the intersection is an effective μ-null set, and a point is μ-random when it avoids every such effective null set.",
+      "formal_summary": "For a computable probability measure P on 2^ω, a Martin-Löf P-test is a uniformly effectively open sequence (U_n) with P(U_n)≤2^-n; a real is P-Martin-Löf random iff it avoids every resulting effective P-null set. SRC-0038 also gives the equivalent average-bounded lower-semicomputable integral-test form.",
       "equivalent_characterizations": [],
       "relationships": [],
       "source_support": [
@@ -181,30 +181,48 @@
           "source": "SRC-0011",
           "evidence": "STATEMENT_INSPECTED",
           "pointer": "preprint PDF pp. 18-19"
+        },
+        {
+          "source": "SRC-0038",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 2.8-2.11 and Theorem 2.12"
         }
+      ],
+      "cautions": [
+        "This record is Cantor-space specific. The general computable-probability-space notion is DEF-0033.",
+        "Computability of P is substantive here; DEF-0006 separately records uniform tests that take an arbitrary measure as a parameter."
       ]
     },
     {
       "id": "DEF-0006",
-      "name": "Uniform randomness test over computable probability measures",
-      "object_domain": "pair (μ,x), with μ a computable probability measure and x a point in the represented/computable metric-space framework",
-      "effective_resources": "positive lower-semicomputable test function uniform in the measure parameter",
-      "framework": "integral/effective test",
-      "measure_assumptions": "test t satisfies an integral bound (≤1) with respect to μ in the inspected formulation",
-      "relativization": "uniformity is in the measure parameter; oracle relativization not treated here",
+      "name": "Uniform randomness test with the probability measure as a parameter",
+      "object_domain": "pair (P,x): in SRC-0038, x∈2^ω and P is an arbitrary Borel probability measure on Cantor space; SRC-0011 develops the corresponding uniform-test machinery on computable metric spaces",
+      "effective_resources": "a nonnegative test function lower semicomputable jointly in the point and a representation/name of the measure; fixed-P tests may use P as an oracle/parameter in the source-specific representation",
+      "framework": "uniform integral/effective test",
+      "measure_assumptions": "P need not be computable in the arbitrary-measure uniform framework; t satisfies ∫t(x,P)dP(x)≤1 for every P",
+      "relativization": "uniformity is in the measure parameter, not ordinary oracle relativization of the point-randomness notions from P1-S003",
       "aliases": [
         "uniform Martin-Löf randomness test",
         "uniform randomness test"
       ],
-      "formal_summary": "Hoyrup and Rojas formulate tests uniformly in the probability measure using lower-semicomputable nonnegative functions with bounded μ-integral, and define a point as random when it has finite value for every such test.",
+      "formal_summary": "A uniform test is jointly lower semicomputable in (x,P), nonnegative, and has P-integral at most 1 for every probability measure P. For a fixed P, restriction gives a P-test; conversely SRC-0038 Theorem 5.12 uniformizes a P-relative test at P up to a constant. SRC-0011 proves the analogous universal uniform-test machinery for computable metric spaces.",
       "equivalent_characterizations": [],
       "relationships": [],
       "source_support": [
         {
           "source": "SRC-0011",
           "evidence": "STATEMENT_INSPECTED",
-          "pointer": "preprint PDF pp. 18-19"
+          "pointer": "Theorems 6.1.1-6.1.2 and Definition 6.1.2"
+        },
+        {
+          "source": "SRC-0038",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 5.2, 5.11 and Theorem 5.12"
         }
+      ],
+      "cautions": [
+        "Do not identify 'uniform in the measure parameter' with Miyabe-Rute uniform oracle relativization from DEF-0024/DEF-0025.",
+        "The arbitrary-measure version permits noncomputable measures; fixed computable-measure Martin-Löf randomness is DEF-0005/DEF-0033 depending on the ambient space."
       ]
     },
     {
@@ -904,6 +922,229 @@
       "cautions": [
         "The coherence condition, not an O(2^n) numerical bound, is the defining extra constraint over weak Demuth tests.",
         "P1-S004 records only the source's fair-coin Cantor-space form and does not transfer it to arbitrary computable measures or oracle relativizations."
+      ]
+    },
+    {
+      "id": "DEF-0030",
+      "name": "Computable metric space (Hoyrup-Rojas randomness framework)",
+      "object_domain": "complete separable metric space (X,d) with a numbered countable dense set S={s_i}",
+      "effective_resources": "the real distances d(s_i,s_j) are uniformly computable; points are represented by fast Cauchy names of ideal points; basic opens are rational ideal balls",
+      "framework": "computable analysis / represented metric space",
+      "measure_assumptions": "none at this definition level",
+      "relativization": "not an oracle-randomness notion",
+      "aliases": [
+        "computable metric space",
+        "constructive metric space (related source terminology)"
+      ],
+      "formal_summary": "A computable metric space is a complete separable metric space with a dense numbered set of ideal points whose pairwise distances are uniformly computable. The canonical point representation uses rapidly convergent Cauchy sequences of ideal points; ideal balls form the effective basis.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 2.4.1-2.4.2"
+        }
+      ],
+      "cautions": [
+        "This is the specific computable-metric-space representation used by the inspected sources; P1-S005 does not promote a theorem for arbitrary represented spaces."
+      ]
+    },
+    {
+      "id": "DEF-0031",
+      "name": "Computable probability measure on a computable metric space",
+      "object_domain": "Borel probability measure μ on a computable metric space X",
+      "effective_resources": "μ is a computable point of the computable metric space of Borel probability measures under the Prokhorov metric with finite rational discrete ideal measures; equivalently open-set valuation is lower semicomputable",
+      "framework": "effective measure / computable analysis",
+      "measure_assumptions": "probability measure; no atomlessness or full-support assumption in the definition",
+      "relativization": "not applicable",
+      "aliases": [
+        "computable probability measure",
+        "computable Borel probability measure"
+      ],
+      "formal_summary": "μ is computable when it is a computable point of the represented metric space M(X) of Borel probability measures. Equivalently, μ(U) is lower semicomputable uniformly for open U, and it suffices uniformly for finite unions of ideal balls. On Cantor space this specializes to uniform computability of cylinder measures.",
+      "equivalent_characterizations": [
+        "THM-0032"
+      ],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 4.1.2, Theorem 4.2.1, Corollary 4.2.1"
+        },
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.2 and Lemma 3.3"
+        }
+      ],
+      "cautions": [
+        "Atomlessness is not part of computability of a measure. It appears only in stronger isomorphism results such as THM-0034.",
+        "Non-full support is allowed; density claims for representation domains must be read relative to the support qualification in SRC-0011."
+      ]
+    },
+    {
+      "id": "DEF-0032",
+      "name": "Computable probability space",
+      "object_domain": "pair (X,μ) with X a computable metric space and μ a Borel probability measure on X",
+      "effective_resources": "X carries the canonical computable-metric representation and μ is computable as DEF-0031",
+      "framework": "computable probability / computable analysis",
+      "measure_assumptions": "μ is computable; atoms and non-full support are allowed unless a theorem states otherwise",
+      "relativization": "not an oracle-randomness notion",
+      "aliases": [
+        "computable probability space"
+      ],
+      "formal_summary": "A computable probability space is a computable metric space X equipped with a computable Borel probability measure μ.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.4"
+        },
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Sections 4-5, computable metric/probability-space framework"
+        }
+      ],
+      "cautions": [
+        "This record follows the inspected computable-metric-space literature; it is not a blanket synonym for every represented probability-space formalism."
+      ]
+    },
+    {
+      "id": "DEF-0033",
+      "name": "Martin-Löf randomness on a computable probability space",
+      "object_domain": "point x in a computable probability space (X,μ)",
+      "effective_resources": "uniformly r.e./effectively open test components in the effective basis; equivalent lower-semicomputable integral-test formulation is available in SRC-0011",
+      "framework": "effective null tests / integral tests",
+      "measure_assumptions": "μ is computable; a test has μ(A_n)≤2^-n; no atomlessness or full-support assumption",
+      "relativization": "measure-parameter uniformity is treated separately by DEF-0006",
+      "aliases": [
+        "μ-Martin-Löf random point",
+        "Martin-Löf random point in a computable probability space"
+      ],
+      "formal_summary": "A Martin-Löf test on (X,μ) is a uniformly effectively open sequence (A_n) with μ(A_n)≤2^-n. A point is μ-Martin-Löf random iff it belongs to no intersection of such a test. SRC-0011 gives the equivalent lower-semicomputable integral-test/random-point formulation.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0026",
+        "REL-0031"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.21"
+        },
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 6.1.1 and Definition 6.1.2"
+        }
+      ],
+      "cautions": [
+        "DEF-0002 remains the fair-coin Cantor-space specialization; do not silently transfer fair-coin-only theorems to this record."
+      ]
+    },
+    {
+      "id": "DEF-0034",
+      "name": "Schnorr randomness on a computable probability space",
+      "object_domain": "point x in a computable probability space (X,μ)",
+      "effective_resources": "a Martin-Löf test (A_n) whose real component measures μ(A_n) are uniformly computable in n",
+      "framework": "effective null tests with computable level measures",
+      "measure_assumptions": "μ is computable; A_n are uniformly effectively open, μ(A_n)≤2^-n, and n↦μ(A_n) is computable; no atomlessness/full-support assumption",
+      "relativization": "ordinary/uniform oracle relativization from P1-S003 is a different axis and is not folded into this definition",
+      "aliases": [
+        "Schnorr random point",
+        "μ-Schnorr random"
+      ],
+      "formal_summary": "A Schnorr test on a computable probability space is a Martin-Löf test whose component measures form a uniformly computable sequence of reals. A point is Schnorr random iff it fails no such test.",
+      "equivalent_characterizations": [
+        "THM-0006"
+      ],
+      "relationships": [
+        "REL-0027",
+        "REL-0030"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.24"
+        }
+      ],
+      "cautions": [
+        "The exact-equality μ(A_n)=2^-n normal form used in some fair-coin sources is not inserted here; SRC-0012 states the computable-level-measure condition.",
+        "DEF-0003 remains the fair-coin Cantor-space record."
+      ]
+    },
+    {
+      "id": "DEF-0035",
+      "name": "Morphism and isomorphism of computable probability spaces",
+      "object_domain": "maps between computable probability spaces (X,μ) and (Y,ν)",
+      "effective_resources": "a morphism is μ-computable/a.e.-computable on a constructive G_delta domain of μ-measure one and measure-preserving; an isomorphism uses morphisms in both directions with the inverse identities on the prescribed full-measure domains",
+      "framework": "effective measure-preserving maps",
+      "measure_assumptions": "source and target are computable probability spaces; no atomlessness is required for the general morphism/isomorphism definitions",
+      "relativization": "not applicable",
+      "aliases": [
+        "computable probability-space morphism",
+        "computable measure-preserving morphism",
+        "computable probability-space isomorphism"
+      ],
+      "formal_summary": "A morphism is an effectively given almost-everywhere map that pushes μ forward to ν. An isomorphism is a pair of such morphisms satisfying inverse identities on the corresponding full-measure domain sets.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0026",
+        "REL-0027",
+        "REL-0029"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 3.5-3.9 and isomorphism definition"
+        },
+        {
+          "source": "SRC-0011",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 5 morphisms/isomorphisms and Proposition 6.2.1"
+        }
+      ],
+      "cautions": [
+        "A general isomorphism to Cantor space is with an appropriate computable measure, not necessarily fair coin; see THM-0033.",
+        "Atomlessness is required for the stronger computable-Lebesgue-space theorem THM-0034."
+      ]
+    },
+    {
+      "id": "DEF-0036",
+      "name": "Computable randomness for a computable measure on Cantor space (Rute integral-test form)",
+      "object_domain": "x∈2^ω with computable Borel measure μ on Cantor space",
+      "effective_resources": "lower-semicomputable t together with a computable probability measure ν satisfying ∫_[σ] t dμ≤ν(σ) for every cylinder [σ]; equivalently the source gives the computable-measure martingale-ratio form",
+      "framework": "integral test / μ-martingale",
+      "measure_assumptions": "μ is a computable probability measure on Cantor space; the equivalent ratio formulation additionally requires μ(x↾n)>0 along the tested real",
+      "relativization": "uniform relativization is outside this record; Rute separately labels a uniform-relativized extension as conjectural in the inspected paper",
+      "aliases": [
+        "μ-computable randomness",
+        "computable randomness with respect to μ"
+      ],
+      "formal_summary": "x is μ-computably random iff every Rute test pair (t,ν) satisfying the cylinderwise integral domination keeps t(x) finite. Equivalently, μ(x↾n)>0 for all n and for every computable measure ν the ratio ν(x↾n)/μ(x↾n) has finite liminf.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0028",
+        "REL-0029"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0015",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2(2) and Lemma 4"
+        }
+      ],
+      "cautions": [
+        "This is an arbitrary-computable-measure Cantor-space definition, not a claim that the fair-coin martingale equation in DEF-0004 transfers verbatim to every computable probability space.",
+        "The paper's proposed fully uniform-relativized NRFN extension is Conjecture 21, not promoted here as a theorem."
       ]
     }
   ]
