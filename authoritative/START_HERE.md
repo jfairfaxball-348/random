@@ -20,14 +20,16 @@ Then read only the records required by the currently open phase.
 
 ## Current authority
 
-**SCAFFOLD-ONLY. No research phase is open.**
+**Phase 1 — Research / Catalogue — is OPEN.**
 
-All five research phases are CLOSED. Agents may inspect and validate the scaffold but must not begin Phase 1 or any later phase until the owner explicitly authorizes Phase 1 and committed authority is updated.
+Explicit owner authorization was received on 2026-10-03 for P1-S001 and Phase-1 research/catalogue work. Phases 2–5 remain CLOSED. Mathematical investigation and publication work remain unauthorized.
 
-Bootstrap initialization commit:
-`e91ca4cf4d03c3b8dc8e408fb0cde48ba4473c37`
+Opening Phase 1 is an authorization transition only. The Phase 1 -> Phase 2 gate has **not** passed and remains CLOSED until the full Gate-1 evidence in `docs/GATE_POLICY.md` is satisfied and audited.
 
-The later scaffold commit cannot contain its own final hash. Verify live `main` before each session.
+Incoming Phase-1 predecessor checkpoint:
+`51ee5da396325eb3c898dcb475ad14e628ba4af4`
+
+Verify live `main` before each session.
 
 ## Conflict rule
 
