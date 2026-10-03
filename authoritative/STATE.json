@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "project": "Fairfax-Ball Randomness Research Programme",
+  "repository": "jfairfaxball-348/random",
+  "programme_status": "SCAFFOLDED",
+  "active_phase": 0,
+  "active_phase_name": "NONE",
+  "research_started": false,
+  "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
+  "phases": {
+    "1": {"name": "Research / Catalogue", "status": "CLOSED"},
+    "2": {"name": "Discovery", "status": "CLOSED"},
+    "3": {"name": "Novelty / Prior Art", "status": "CLOSED"},
+    "4": {"name": "Mathematics", "status": "CLOSED"},
+    "5": {"name": "Publication", "status": "CLOSED"}
+  },
+  "current_authorization": "Scaffolding validation only",
+  "next_transition": "Owner explicitly authorizes opening Phase 1",
+  "active_blocker": "Phase 1 not yet authorized",
+  "candidate_selected": false,
+  "fairfax_ball_randomness_defined": false,
+  "mathematical_investigation_authorized": false,
+  "publication_work_authorized": false
+}

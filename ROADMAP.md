@@ -1,0 +1,51 @@
+# Five-Phase Roadmap
+
+No phase is currently open. See `authoritative/STATE.json`.
+
+## Phase 1 — Research / Catalogue
+
+**Purpose:** build the durable knowledge infrastructure on which every later claim depends.
+
+Expected outputs include an extensive source catalogue; terminology/definition index; theorem and characterization index; relationship/implication map; author/topic index; historical/priority notes; open-question claims with source status; search logs; access limitations; and a coverage audit.
+
+Papers and articles are normally linked and catalogued rather than copied into the repository. Original derived notes and structured metadata belong in the repository.
+
+**Exit gate:** Phase-1 audit establishes that the planned domain map has been covered to a standard adequate for candidate discovery; consequential claims are traceable; important access/search gaps are explicit; the catalogue is usable by an agent through stable IDs and indexes; and unresolved uncertainty is honestly recorded. "Conclusive" means a documented, auditable research effort, not a claim of omniscience.
+
+## Phase 2 — Discovery
+
+**Purpose:** identify what appears genuinely open, structurally missing or mathematically worthwhile.
+
+Expected outputs include a bounded portfolio of candidate directions (normally several, not one prematurely selected target), each with exact proposed question/definition shape, motivation, relationship to known notions, plausible theorem package, falsifiers, dependencies and risk.
+
+**Exit gate:** a candidate portfolio has been compared on mathematical substance without asserting novelty that belongs to Phase 3, and one or more candidates are mature enough for dedicated prior-art attack.
+
+## Phase 3 — Novelty / Prior Art
+
+**Purpose:** try hard to kill the candidates before expensive mathematics.
+
+For each candidate ask: Has this definition/result appeared before? Is it equivalent to a known notion? Is the distinction substantive? Is the motivation natural? Who would use or care about it? What results would make it publishable? What nearby literature creates priority risk?
+
+**Exit gate:** at least one candidate has survived a documented primary-source prior-art audit and significance/usefulness assessment strongly enough to justify mathematics. A PASS does not prove global novelty; it records the best supported current conclusion and remaining risks.
+
+## Phase 4 — Mathematics
+
+**Purpose:** do the actual mathematical work.
+
+Activities may include exact definitions, theorem development, counterexamples, equivalence/separation results, characterizations, examples, computations where justified, Lean formalisation and Palomar registration.
+
+A candidate that collapses or becomes uninteresting is retired or returned to an earlier phase. Failures are preserved.
+
+**Exit gate:** a coherent contribution exists with checked proofs and an explicit claim boundary. Where appropriate, formalisation and independent verification are completed. A final novelty refresh is required before publication work opens.
+
+## Phase 5 — Publication
+
+**Purpose:** place the contribution in the public record and pursue genuine peer review.
+
+Expected outputs include manuscript, reproducible references/claims, arXiv package, appropriate classification, venue-policy checks, disclosure statement, reviewer/outreach records where authorized, submission package and revision history.
+
+**Endpoint:** arXiv dissemination plus a serious journal submission process, with the ultimate goal of peer-reviewed publication. Acceptance/publication is externally controlled and never presumed.
+
+## Backtracking
+
+Later evidence can reopen earlier gates. Prior art discovered in Phase 4 or 5 can return the programme to Phase 3 or retire the target. A mathematical failure can return it to Phase 2. Gate history must never be rewritten.
