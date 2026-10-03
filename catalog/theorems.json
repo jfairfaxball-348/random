@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S007",
+  "session": "P1-S008",
   "records": [
     {
       "id": "THM-0001",
@@ -1262,6 +1262,61 @@
         "This characterizes the random subclass of left-c.e. reals; it does not say that every left-c.e. real is random.",
         "The existence of some universal machine U is asserted. No uniform procedure from an arbitrary presentation of α to such a U is claimed.",
         "The inspected 2001 sources use 'recursively enumerable real'; P1-S007 normalizes this to 'left-c.e. real' while preserving the historical terminology in source notes."
+      ]
+    },
+    {
+      "id": "THM-0049",
+      "name": "Yao polynomial-test characterization of a perfect pseudorandom source ensemble",
+      "statement": "In Yao's 1982 source-ensemble formulation, a uniform source ensemble is perfect iff it passes every polynomial statistical test.",
+      "hypotheses": [
+        "the object is Yao's uniform source ensemble indexed by output length",
+        "tests are the polynomial statistical tests defined in the same source"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0048",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 3 following Definitions 10-14, printed p. 84"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0046",
+        "DEF-0047"
+      ],
+      "relations": [],
+      "cautions": [
+        "'Perfect' is Yao's source term in this statement; P1-S008 does not silently equate it with every later cryptographic security convention.",
+        "The theorem concerns an ensemble/source tested by polynomial-time procedures, not Martin-Löf-style tests of one infinite sequence."
+      ]
+    },
+    {
+      "id": "THM-0050",
+      "name": "Resource-bounded martingale characterization of Δ-randomness",
+      "statement": "For an infinite binary sequence x, x is Δ-random iff no Δ-computable martingale succeeds on x.",
+      "hypotheses": [
+        "x∈{0,1}^ω",
+        "Δ is one of SRC-0051's stated resource classes and the corresponding Δ-measure/randomness machinery is used",
+        "martingale success means unbounded limsup of capital along prefixes as in Definition 3.18"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0051",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 6.2, paper p. 35, using Definition 3.18 on p. 20"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0048",
+        "DEF-0049"
+      ],
+      "relations": [
+        "REL-0043"
+      ],
+      "cautions": [
+        "For p-randomness the resource class is p=p1, the polynomial-time class in SRC-0051; the resource bound must remain attached.",
+        "No comparison with Martin-Löf, Schnorr or computable randomness is asserted here."
       ]
     }
   ]
