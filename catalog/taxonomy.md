@@ -1,7 +1,7 @@
 # Phase-1 Catalogue Taxonomy
 
 Status: **ACTIVE / evolving**  
-Last refined: 2026-10-03 in `P1-S004`
+Last refined: 2026-10-03 in `P1-S005`
 
 This taxonomy is a retrieval vocabulary, not a claim that all listed areas are already covered. Use the controlled tag families below in structured records and add aliases/search terms where the literature uses competing terminology.
 
@@ -14,6 +14,7 @@ This taxonomy is a retrieval vocabulary, not a claim that all listed areas are a
 - `object:left-c.e.-real`
 - `object:point-computable-metric-space`
 - `object:computable-probability-space`
+- `object:probability-measure-name`
 - `object:oracle`
 
 The object tag matters: finite-string incompressibility is not itself an infinite-sequence randomness notion.
@@ -23,8 +24,11 @@ The object tag matters: finite-string incompressibility is not itself an infinit
 - `space:cantor`
 - `space:baire`
 - `space:computable-metric`
+- `space:computable-probability`
 - `measure:fair-coin`
 - `measure:computable`
+- `measure:computable-cantor`
+- `measure:measure-parameter`
 - `measure:biased`
 - `measure:arbitrary-probability`
 - `measure:effective-null`
@@ -62,6 +66,7 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 - `framework:coherent-test`
 - `framework:measure-one-test`
 - `framework:uniform-test`
+- `framework:measure-parameter-uniform-test`
 - `framework:effective-open-set`
 - `framework:lower-semicomputable-integral-test`
 - `framework:effective-category` — coverage pending
@@ -132,6 +137,9 @@ P1-S003 convention guard: ordinary oracle relativization and uniform relativizat
 - `principle:universal-test`
 - `principle:measure-preserving-map`
 - `principle:computable-isomorphism`
+- `principle:ae-computable-map`
+- `principle:binary-representation`
+- `principle:atomless-lebesgue-isomorphism`
 - `principle:ergodic-typicality`
 - `principle:van-lambalgen`
 
@@ -226,3 +234,13 @@ Important query aliases include:
 P1-S004 convention guard: Demuth randomness uses **Solovay passing** (membership in only finitely many final components), whereas the inspected balanced and Oberwolfach weak-Demuth tests use ordinary escape from a component. SRC-0035 also uses `n-r.e.` in two different test semantics: its naive string-test hierarchy yields 2-randomness for n≥2, while its neighborhood/difference hierarchy yields difference randomness for n≥2. Preserve the test semantics before normalizing terminology.
 
 Do **not** collapse `weak 2-random` into unqualified `Kurtz random`: P1-S002 source inspection identifies them as different levels of the weak-n hierarchy. Aliases are search vocabulary, not automatic mathematical equivalences.
+
+## P1-S005 generalized-measure convention guard
+
+The inspected generalized-space sources use **computable metric spaces** with a canonical fast-Cauchy representation of points and rational ideal balls as the effective basis. A **computable probability measure** is a computable point of the induced metric space of Borel probabilities; on Cantor space this specializes to uniform computability of cylinder measures. A **computable probability space** is the pair of such a space and such a measure. These terms are related but are not interchangeable.
+
+`framework:measure-parameter-uniform-test` is also distinct from P1-S003's `resource:uniform-relativization`. In SRC-0038/DEF-0006 the measure itself is a represented input to a jointly lower-semicomputable test; in DEF-0024/DEF-0025 an oracle selects a uniform family of tests or martingales. Do not normalize these as one notion of “uniform randomness.”
+
+Every inspected computable probability space has a Cantor-space representation with an **appropriate computable measure** (THM-0033). This is not a fair-coin reduction. The stronger fixed nonatomic/Lebesgue isomorphism in THM-0034 assumes **atomlessness**. Non-full support is permitted in the general machinery; support qualifications must be retained in density/representation statements.
+
+Generalized Martin-Löf and Schnorr randomness are DEF-0033 and DEF-0034. DEF-0002 and DEF-0003 remain fair-coin Cantor-space records. No Demuth/difference/balanced/Oberwolfach result from P1-S004 is transferred to arbitrary measures or spaces without a separately inspected primary statement.
