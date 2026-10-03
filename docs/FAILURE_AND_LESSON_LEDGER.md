@@ -144,3 +144,28 @@ The bounded retrieval pass verified Jockusch's 1980 *Degrees of Generic Sets* bi
 Resolution: exact definitions and hierarchy statements are grounded in later statement-inspected primary papers SRC-0042/SRC-0044, while SRC-0039/SRC-0040/SRC-0025 are used only for calibrated historical provenance.
 
 Lesson: an original-source citation trail is not statement inspection. Preserve access-level gaps and use later primary statements for exact quantifiers rather than reconstructing unavailable originals from summaries.
+
+
+## FL-013 — Chaitin Ω source-access and near-title provenance guard
+
+Session: `P1-S007`  
+Status: RESOLVED AT STATEMENT LEVEL WITH REPRINT-PROVENANCE QUALIFICATION / HISTORICAL TITLE GUARD RETAINED
+
+P1-S007 needed statement-level access to Chaitin's original self-delimiting Ω construction. Publisher/IBM metadata fixed the 1975 JACM article *A Theory of Program Size Formally Identical to Information Theory* (DOI `10.1145/321892.321894`), while full statement inspection was obtained from the article as reprinted in Chaitin's collected papers. The catalogue records both facts rather than presenting the reprint route as the publisher copy.
+
+The earlier FL-002 collision remains controlling: SRC-0004 is the 1966 *On the Length of Programs for Computing Finite Binary Sequences* (DOI `10.1145/321356.321363`), and the 1969 “Statistical Considerations” continuation is a different work. P1-S007 does not duplicate or merge either with the 1975 source.
+
+Lesson: for Chaitin's tightly related early titles, identify the work by year, journal coordinates and DOI before promoting internal statements; when statement inspection uses a reprint, record that provenance explicitly.
+
+## FL-014 — r.e.-real / left-c.e.-real and Ω universality convention hazard
+
+Session: `P1-S007`  
+Status: RESOLVED CONVENTION / SOLOVAY ORIGINAL ACCESS GAP PRESERVED
+
+The inspected 2001 primary sources use “recursively enumerable real” for a real approximable from below by a computable nondecreasing rational sequence. Modern literature commonly calls the same notion “left-c.e. real.” A second hazard is more serious: every left-c.e. real in (0,1] can be a halting probability of some prefix-free machine, but only the Martin-Löf-random left-c.e. reals are halting probabilities of universal prefix-free machines (Chaitin Ω-numbers).
+
+Resolution: DEF-0042 records the historical/modern terminology equivalence; DEF-0043 and DEF-0044 separate arbitrary prefix-free halting probability from universal-machine Ω; THM-0047 and THM-0048 record the two different equivalences. Binary-expansion conventions are recorded separately in DEF-0045.
+
+The Solovay manuscript cited by the primary papers was not independently statement-inspected in this bounded pass. Its detailed claims are not reconstructed from secondary citation trails.
+
+Lesson: never infer randomness from left-c.e.-ness alone, never drop universality from an Ω-randomness theorem, and never move between a real and a binary sequence without preserving the source's representation convention.
