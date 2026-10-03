@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S002",
+  "session": "P1-S003",
   "records": [
     {
       "id": "DEF-0001",
@@ -34,7 +34,7 @@
       "effective_resources": "uniformly computably enumerable sequence of effectively open sets",
       "framework": "effective null tests",
       "measure_assumptions": "uniform/fair-coin measure; test levels have measure at most 2^-n",
-      "relativization": "oracle variants exist but are not defined in P1-S001",
+      "relativization": "Standalone oracle-relative Martin-Löf randomness is DEF-0019; n-randomness as jump-relativized Martin-Löf randomness is DEF-0020.",
       "aliases": [
         "Martin-Löf random",
         "Martin-Lof random",
@@ -48,7 +48,8 @@
       "relationships": [
         "REL-0001",
         "REL-0009",
-        "REL-0011"
+        "REL-0011",
+        "REL-0016"
       ],
       "source_support": [
         {
@@ -70,7 +71,7 @@
       "effective_resources": "uniformly c.e. open test levels with an effectively controlled measure: in SRC-0008, μ(U_n)≤2^-n and n↦μ(U_n) is computable; SRC-0024/SRC-0028 use the equivalent exact-measure normalization μ(U_n)=2^-n",
       "framework": "effective null tests with computable level measures; equivalent bounded-rate computable-martingale and total-Solovay formulations are separately indexed",
       "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space in the inspected primary formulations",
-      "relativization": "not normalized for Schnorr randomness in P1-S002; no oracle convention is promoted here without a dedicated relativization pass",
+      "relativization": "Ordinary oracle-relative Schnorr randomness is DEF-0022. Uniformly relative Schnorr randomness is the distinct weaker convention DEF-0024 used in SRC-0032's van-Lambalgen theorem.",
       "aliases": [
         "Schnorr random"
       ],
@@ -108,7 +109,8 @@
       ],
       "cautions": [
         "P1-S001 provenance is preserved. P1-S002 corrects a convention ambiguity: computable level measures are the substantive Schnorr restriction; μ(U_n)=2^-n is an inspected normal-form convention, not the only baseline statement.",
-        "The original 1971 Schnorr book/article are catalogued as SRC-0022/SRC-0023 at METADATA_ONLY; their internal statements were not silently substituted."
+        "The original 1971 Schnorr book/article are catalogued as SRC-0022/SRC-0023 at METADATA_ONLY; their internal statements were not silently substituted.",
+        "P1-S003 distinguishes ordinary oracle relativization from uniformly relative/truth-table Schnorr randomness; they must not be silently identified."
       ]
     },
     {
@@ -118,7 +120,7 @@
       "effective_resources": "total computable (historically: recursive) martingales; rational-valued martingales suffice in the inspected primary formulations",
       "framework": "betting / martingale; equivalent computably graded effective tests are indexed separately",
       "measure_assumptions": "fair-coin Cantor-space/fair-betting martingale equation M(σ)=(M(σ0)+M(σ1))/2",
-      "relativization": "not normalized in P1-S002; later oracle variants require a dedicated source pass",
+      "relativization": "Ordinary oracle-relative computable randomness is DEF-0021. Uniformly relative computable randomness is DEF-0025; SRC-0032 gives a source-supported separation showing the uniform-relative notion can be weaker.",
       "aliases": [
         "computably random",
         "computable randomness",
@@ -154,7 +156,8 @@
         }
       ],
       "cautions": [
-        "'Recursive randomness' is recorded as a historical/source term for this computable-martingale notion, not as a blanket alias for every historical use of 'recursive random'."
+        "'Recursive randomness' is recorded as a historical/source term for this computable-martingale notion, not as a blanket alias for every historical use of 'recursive random'.",
+        "P1-S003 distinguishes ordinary A-computable-martingale relativization from uniform-family relativization."
       ]
     },
     {
@@ -237,7 +240,7 @@
       "effective_resources": "comparison of unrelativized and A-relative Martin-Löf randomness",
       "framework": "lowness / relativization",
       "measure_assumptions": "standard fair-coin setting in source abstract",
-      "relativization": "intrinsic: A is used as oracle",
+      "relativization": "Intrinsic: A is the oracle in DEF-0019; SRC-0010 states the general low-for-R convention.",
       "aliases": [
         "low for randomness",
         "low for ML-randomness"
@@ -254,6 +257,11 @@
           "source": "SRC-0009",
           "evidence": "ABSTRACT_INSPECTED",
           "pointer": "publisher abstract"
+        },
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4, low-for-R paragraph"
         }
       ]
     },
@@ -368,7 +376,7 @@
       "effective_resources": "computably enumerable (Σ^0_1) measure-one open classes in the weak-1 formulation",
       "framework": "measure-one effective typicality test; equivalent weak-test/martingale formulations are source-supported in SRC-0029",
       "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space; tested class has measure 1",
-      "relativization": "SRC-0027 supports the weak-n family and states relative randomness is obtained by adding an oracle to tests; no standalone oracle-Kurtz record is created here",
+      "relativization": "Ordinary oracle-relative Kurtz randomness is DEF-0023 in the martingale/rate convention inspected in SRC-0031; weak-n oracle tests remain source-supported separately by SRC-0027.",
       "aliases": [
         "Kurtz random",
         "weakly random",
@@ -414,7 +422,7 @@
       "effective_resources": "Σ^0_n definability of measure-one classes",
       "framework": "arithmetical-hierarchy measure-one typicality",
       "measure_assumptions": "fair-coin/Lebesgue measure; α must belong to every Σ^0_n class of measure 1",
-      "relativization": "SRC-0027 explicitly says relative randomness is obtained in the usual way by adding an oracle to tests; its comparison notion n-randomness is the relativized Martin-Löf level",
+      "relativization": "SRC-0027 says relative weak-n randomness is obtained by adding an oracle to the tests. The comparison notion n-randomness is now normalized separately as DEF-0020: Martin-Löf randomness relative to ∅^(n−1).",
       "aliases": [
         "weakly n-random",
         "w-n-random",
@@ -432,7 +440,8 @@
         }
       ],
       "cautions": [
-        "The adjective 'weak' is indexed by n; it must not be collapsed into unqualified Kurtz/weak randomness without the level."
+        "The adjective 'weak' is indexed by n; it must not be collapsed into unqualified Kurtz/weak randomness without the level.",
+        "Do not infer equivalence between weak-n indexing and jump-relativized n-randomness: SRC-0027 states only the strict sandwich captured in THM-0017."
       ]
     },
     {
@@ -538,6 +547,210 @@
           "evidence": "STATEMENT_INSPECTED",
           "pointer": "Definition 5, p. 618"
         }
+      ]
+    },
+    {
+      "id": "DEF-0019",
+      "name": "Martin-Löf randomness relative to an oracle A",
+      "object_domain": "oracle A∈2^ω and real X∈2^ω",
+      "effective_resources": "a uniformly A-c.e. sequence of string sets/open classes forming a Martin-Löf test",
+      "framework": "oracle-relative effective null tests",
+      "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space; each level has measure at most 2^-i in the inspected formulation",
+      "relativization": "Intrinsic: c.e. enumeration/effectivity of the test is computed relative to oracle A.",
+      "aliases": [
+        "A-random",
+        "A-Martin-Löf random",
+        "Martin-Löf random relative to A",
+        "1-random relative to A"
+      ],
+      "formal_summary": "An A-Martin-Löf test is a Martin-Löf test whose components are uniformly c.e. relative to A. X is Martin-Löf random relative to A (A-random) iff X passes every A-Martin-Löf test.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0015",
+        "REL-0016"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0030",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "introductory A-Martin-Löf-test definition, printed around p. 4"
+        }
+      ],
+      "cautions": [
+        "The P1-S003 normalized record is only for fair-coin Cantor space; it is not silently generalized to arbitrary measures/spaces.",
+        "SRC-0032 notes that uniform-relative ML randomness coincides with ordinary relative ML randomness, unlike the Schnorr/computable situation."
+      ]
+    },
+    {
+      "id": "DEF-0020",
+      "name": "n-randomness via oracle jumps",
+      "object_domain": "real X∈2^ω and integer n≥1",
+      "effective_resources": "Martin-Löf tests relative to the (n−1)-st Turing jump ∅^(n−1)",
+      "framework": "jump-relativized Martin-Löf randomness",
+      "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space in the inspected sources",
+      "relativization": "X is n-random exactly when X is Martin-Löf random relative to ∅^(n−1).",
+      "aliases": [
+        "n-random",
+        "n-Martin-Löf random",
+        "∅^(n−1)-random"
+      ],
+      "formal_summary": "For n≥1, X is n-random iff X is Martin-Löf random relative to the oracle ∅^(n−1). Thus n=1 recovers ordinary Martin-Löf randomness.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0015"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0030",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "introductory n-randomness convention"
+        },
+        {
+          "source": "SRC-0028",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "opening convention"
+        }
+      ],
+      "cautions": [
+        "This is the source-supported jump convention used to read THM-0017; weak n-randomness DEF-0014 is a different indexed hierarchy."
+      ]
+    },
+    {
+      "id": "DEF-0021",
+      "name": "Computable randomness relative to an oracle A",
+      "object_domain": "oracle A and infinite binary sequence B",
+      "effective_resources": "martingales M whose real values M(σ) are uniformly computable using A as an oracle",
+      "framework": "oracle-relative computable martingale betting",
+      "measure_assumptions": "fair-coin martingale setting",
+      "relativization": "Intrinsic: the martingale is A-computable.",
+      "aliases": [
+        "computably random relative to A",
+        "A-computably random",
+        "recursive randomness relative to A"
+      ],
+      "formal_summary": "B is computably random relative to A iff no A-computable martingale succeeds on B.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 1.7 and immediately following relativization paragraph"
+        }
+      ],
+      "cautions": [
+        "Do not identify this ordinary oracle relativization with uniformly relative computable randomness DEF-0025; SRC-0032 Corollary 5.4 separates them."
+      ]
+    },
+    {
+      "id": "DEF-0022",
+      "name": "Schnorr randomness relative to an oracle A (ordinary martingale relativization in SRC-0031)",
+      "object_domain": "oracle A and infinite binary sequence R",
+      "effective_resources": "A-recursive rate function r, A-recursive martingale mg and A-recursive bound function f in Property 1.1",
+      "framework": "oracle-relative bounded-rate martingale",
+      "measure_assumptions": "binary fair-betting/Cantor-space setting of the inspected paper",
+      "relativization": "Property 1.1 relativizes the rate, martingale and bound resources to A.",
+      "aliases": [
+        "Schnorr random relative to A",
+        "A-Schnorr random"
+      ],
+      "formal_summary": "In SRC-0031's inspected convention, R is Schnorr random relative to A if for some A-recursive rate r there are no A-recursive martingale mg and A-recursive bound f for which mg on the f(n)-length prefix of R exceeds r(n) for infinitely many n.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0031",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Property 1.1"
+        }
+      ],
+      "cautions": [
+        "This record preserves the source's martingale/rate wording rather than asserting an uninspected equivalence with every oracle-Schnorr test normalization.",
+        "Uniformly relative/truth-table Schnorr randomness DEF-0024 is a distinct weaker relativization in SRC-0032."
+      ]
+    },
+    {
+      "id": "DEF-0023",
+      "name": "Kurtz randomness relative to an oracle A (martingale relativization in SRC-0031)",
+      "object_domain": "oracle A and infinite binary sequence R",
+      "effective_resources": "A-recursive rate function r, A-recursive martingale mg and A-recursive bound function f in Property 1.1",
+      "framework": "oracle-relative weak/Kurtz martingale condition",
+      "measure_assumptions": "binary fair-betting/Cantor-space setting of the inspected paper",
+      "relativization": "Property 1.1 relativizes the rate, martingale and bound resources to A.",
+      "aliases": [
+        "Kurtz random relative to A",
+        "A-Kurtz random"
+      ],
+      "formal_summary": "In SRC-0031's inspected convention, R is Kurtz random relative to A if for some A-recursive rate r there are no A-recursive martingale mg and A-recursive bound f for which mg on the f(n)-length prefix of R exceeds r(n) for all n.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0031",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Property 1.1"
+        }
+      ],
+      "cautions": [
+        "This is a source-specific ordinary oracle martingale formulation; P1-S003 does not infer equivalence with uninspected alternative oracle-Kurtz normal forms."
+      ]
+    },
+    {
+      "id": "DEF-0024",
+      "name": "Uniformly relative Schnorr randomness",
+      "object_domain": "A,B∈2^ω",
+      "effective_resources": "a total computable map Φ:2^ω→N^N whose every oracle instance encodes a Schnorr test",
+      "framework": "uniform family of Schnorr tests",
+      "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space",
+      "relativization": "The oracle B selects an instance from a single total computable family rather than allowing arbitrary B-computable test code.",
+      "aliases": [
+        "Schnorr random uniformly relative to B",
+        "truth-table Schnorr randomness",
+        "truth-table Schnorr relative to B"
+      ],
+      "formal_summary": "A is Schnorr random uniformly relative to B iff no uniform Schnorr-test family has its B-instance cover A at every level.",
+      "equivalent_characterizations": [
+        "THM-0023"
+      ],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0032",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 4.1-4.2"
+        }
+      ],
+      "cautions": [
+        "SRC-0032 explicitly distinguishes this weaker uniform relativization from usual/ordinary relative Schnorr randomness DEF-0022."
+      ]
+    },
+    {
+      "id": "DEF-0025",
+      "name": "Uniformly relative computable randomness",
+      "object_domain": "A,B∈2^ω",
+      "effective_resources": "a total computable map Φ:2^ω→N^N whose every oracle instance encodes a martingale",
+      "framework": "uniform family of martingale tests",
+      "measure_assumptions": "fair-coin martingale setting on Cantor space",
+      "relativization": "The oracle B selects a martingale from one total computable family.",
+      "aliases": [
+        "computably random uniformly relative to B",
+        "truth-table reducible randomness"
+      ],
+      "formal_summary": "A is computably random uniformly relative to B iff no uniform martingale family has a B-instance that succeeds on A.",
+      "equivalent_characterizations": [
+        "THM-0024"
+      ],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0032",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 5.1-5.2"
+        }
+      ],
+      "cautions": [
+        "This is weaker than ordinary computable randomness relative to B in the sense witnessed by SRC-0032 Corollary 5.4 (THM-0025).",
+        "SRC-0032's computable-randomness van-Lambalgen theorem is symmetric: each half is uniformly random relative to the other; do not rewrite it as the asymmetric ML theorem."
       ]
     }
   ]
