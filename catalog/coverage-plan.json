@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S006",
+  "session": "P1-S007",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-03",
   "status_vocabulary": [
@@ -16,7 +16,8 @@
     "PARTIAL_P1_S003",
     "PARTIAL_P1_S004",
     "PARTIAL_P1_S005",
-    "PARTIAL_P1_S006"
+    "PARTIAL_P1_S006",
+    "PARTIAL_P1_S007"
   ],
   "records": [
     {
@@ -240,15 +241,18 @@
       ],
       "dependencies": [],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "PARTIAL_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S007",
       "covered_by": [
         "SRC-0003",
         "SRC-0004",
-        "SRC-0007"
+        "SRC-0007",
+        "SRC-0045",
+        "SRC-0047"
       ],
       "known_retrieval_access_limitations": [
         "Kolmogorov 1965 primary text only metadata-inspected.",
-        "Primary Levin/Schnorr sources for the prefix-free characterization have not yet been separately catalogued."
+        "Primary Levin/Schnorr sources for the prefix-free characterization have not yet been separately catalogued.",
+        "P1-S007 adds statement-level self-delimiting H/K evidence connecting finite-string complexity to the quantified initial-segment characterization of infinite-sequence Martin-Löf randomness; no broader complexity-family survey was opened."
       ],
       "next_actions": [
         "Inspect primary complexity definitions and original incompressibility-characterization sources; add conditional/monotone variants only where randomness-relevant."
@@ -581,16 +585,25 @@
         "COV-0006"
       ],
       "expected_depth_required": "MEDIUM_DEEP",
-      "present_coverage_status": "EARLY_NAVIGATION_ONLY_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S007",
       "covered_by": [
         "SRC-0004",
-        "SRC-0007"
+        "SRC-0007",
+        "SRC-0045",
+        "SRC-0046",
+        "SRC-0047"
       ],
       "known_retrieval_access_limitations": [
-        "No dedicated Ω/left-c.e. primary source record yet; finite-string randomness definitions not yet normalized."
+        "P1-S007 now has statement-level primary coverage for the finite-string/infinite-sequence self-delimiting-complexity distinction, left-c.e. (historical r.e.) reals, prefix-free halting probabilities, Chaitin Ω-numbers, and the exact random-left-c.e./Ω characterization.",
+        "SRC-0045 was statement-inspected through Chaitin's collected-paper reprint after bibliographic identity was cross-checked against IBM/DOI metadata. SRC-0004 remains ABSTRACT_INSPECTED; the 1966 source is not silently upgraded and the distinct 1969 continuation remains separate under the FL-002 title correction history.",
+        "The Solovay draft cited by the 2001 primary papers was not independently recovered at statement level in this bounded pass; no theorem detail is promoted from the inaccessible manuscript.",
+        "The 2001 primary sources use 'recursively enumerable real'; P1-S007 normalizes this to the modern alias 'left-c.e. real' while preserving the source vocabulary and one-sided approximation definition.",
+        "No arbitrary left-c.e. real is identified as random. Universality is kept explicit whenever Martin-Löf randomness of a halting probability is asserted.",
+        "No relative-Ω/oracle survey, generalized-measure transfer, stronger-test transfer or category analogy was opened."
       ],
       "next_actions": [
-        "Add left-c.e./Ω literature and separate finite-string criteria from infinite-sequence notions."
+        "If later Phase-1 completeness requires historical provenance beyond the present statement-level core, inspect the 1966/1969 Chaitin internals and the Solovay draft if accessible; otherwise preserve their access gaps explicitly.",
+        "Keep future Ω additions hypothesis-exact: distinguish arbitrary prefix-free halting probabilities from universal-machine Ω-numbers and preserve binary-representation conventions."
       ]
     },
     {
@@ -682,7 +695,7 @@
         "ALL_NOTION_STRATA"
       ],
       "expected_depth_required": "DEEP_CROSS_CUTTING",
-      "present_coverage_status": "PARTIAL_P1_S005",
+      "present_coverage_status": "PARTIAL_P1_S007",
       "covered_by": [
         "SRC-0007",
         "SRC-0009",
@@ -701,11 +714,15 @@
         "SRC-0036",
         "SRC-0037",
         "SRC-0011",
-        "SRC-0038"
+        "SRC-0038",
+        "SRC-0045",
+        "SRC-0046",
+        "SRC-0047"
       ],
       "known_retrieval_access_limitations": [
         "P1-S005 adds exact generalized-measure/space edges for Martin-Löf and Schnorr conservation, computable-randomness NRFN and isomorphism invariance, Schnorr NRFN failure, computable Cantor representations, the atomless Lebesgue reduction, and separate fair-coin versus all-computable-measure ML maximality.",
-        "The global graph remains incomplete across higher randomness, category-adjacent notions and several characterization families; no uninspected transitive, converse or fair-coin-to-general-measure edge is promoted."
+        "The global graph remains incomplete across higher randomness, category-adjacent notions and several characterization families; no uninspected transitive, converse or fair-coin-to-general-measure edge is promoted.",
+        "P1-S007 adds exact edges separating arbitrary prefix-free halting probabilities, left-c.e. reals, universal Ω-numbers and Martin-Löf-random left-c.e. reals; no converse or universality claim is inferred beyond THM-0047/THM-0048."
       ],
       "next_actions": [
         "Extend only with exact inspected hypotheses; remaining high-value work should now target uncovered strata rather than re-generalizing P1-S004 fair-coin stronger notions without primary evidence."
