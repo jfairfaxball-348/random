@@ -142,3 +142,30 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S006`, primary-source consolidation of effective category/genericity (COV-0019), including exact effective-meagreness/genericity definitions and only source-inspected comparison links to measure-based randomness, without turning the session into a general forcing/category survey.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+
+## P1-S006 — Effective category and genericity primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `6078ad22f18d214938ae6c0b4fd49cb605909c63`
+
+Scope completed: statement-level consolidation of effective meagreness/effective category, 1-genericity, weak 1-genericity, n-genericity and weak n-genericity; exact dense/open/c.e. conventions; Kurtz's interleaving genericity hierarchy as restated in inspected primary literature; and the bounded source-stated bridge from weak 1-genericity to already-catalogued Kurtz randomness.
+
+Catalogue at close: 44 sources; 41 definitions; 44 theorem/characterization records; 37 relationship records; 1 status-sensitive question; 47 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 13 partial, 2 started-core, 1 started-edge, 1 early-navigation-only, 1 navigation-only, 1 not-started. COV-0019 is now `PARTIAL_P1_S006`.
+
+Validation: PASS at closeout; all catalogue JSON parses; stable IDs are syntactically valid and unique; catalogue count/ID-set agreement holds; cross-file stable-ID scanning has zero unresolved references.
+
+Close record: `phase1/P1-S006_CLOSE.md`
+
+Meaningful retrieval/convention lessons: FL-011 preserves the category/null and weak-generic/weak-random distinctions; FL-012 preserves the statement-level access gaps for the foundational Jockusch/Kurtz genericity originals while grounding exact syntax in later primary sources.
+
+Explicit exclusions respected: no candidate invention/selection; no Phase-2 target selection; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S007`, primary-source consolidation of COV-0015 (finite strings, random reals, left-c.e. reals and Ω), prioritizing exact object/domain distinctions and source-backed Chaitin/Ω/left-c.e.-random equivalences without reopening generalized-measure, oracle or stronger-test surveys.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
