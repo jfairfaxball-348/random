@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S001",
+  "session": "P1-S002",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-03",
   "status_vocabulary": [
@@ -11,7 +11,8 @@
     "STARTED_EDGE_P1_S001",
     "PARTIAL_P1_S001",
     "STARTED_P1_S001",
-    "STARTED_CORE_P1_S001"
+    "STARTED_CORE_P1_S001",
+    "PARTIAL_P1_S002"
   ],
   "records": [
     {
@@ -143,19 +144,28 @@
         "COV-0005"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "PARTIAL_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S002",
       "covered_by": [
         "SRC-0007",
         "SRC-0008",
-        "SRC-0005"
+        "SRC-0005",
+        "SRC-0022",
+        "SRC-0023",
+        "SRC-0024",
+        "SRC-0025",
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0028",
+        "SRC-0029"
       ],
       "known_retrieval_access_limitations": [
-        "Exact original Schnorr source not yet statement-inspected.",
-        "Kurtz thesis/source metadata was located during searching but no primary definition statement was inspected.",
-        "Weak-2 was encountered in survey text but was not promoted to a formal DEF record in this session."
+        "Schnorr's original 1971 book and unified article are bibliographically anchored but remain METADATA_ONLY at internal-statement level.",
+        "Kurtz's 1981 thesis is bibliographically anchored but remains METADATA_ONLY; a source-grounded Kurtz definition is established from inspected later primary literature.",
+        "Core fair-coin definitions and strictness witnesses are primary-source grounded; generalized measures and dedicated oracle-relative Schnorr/computable/Kurtz conventions remain for later Phase-1 work."
       ],
       "next_actions": [
-        "Prioritize original/primary Schnorr and Kurtz sources; then add weak-n definitions and full strictness graph."
+        "If accessible, close the original Schnorr/Kurtz internal-statement gap; otherwise preserve it rather than infer.",
+        "Later connect these notions to generalized measures and oracle-relativized forms without importing conventions by analogy."
       ]
     },
     {
@@ -183,17 +193,20 @@
         "COV-0003"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "PARTIAL_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S002",
       "covered_by": [
         "SRC-0007",
         "SRC-0018",
-        "SRC-0019"
+        "SRC-0019",
+        "SRC-0024",
+        "SRC-0028",
+        "SRC-0029"
       ],
       "known_retrieval_access_limitations": [
-        "KL definition is currently abstract-inspected rather than proof-inspected; several historical martingale sources remain uncatalogued."
+        "P1-S002 now has primary statement-level computable-martingale, Schnorr bounded-rate martingale and Kurtz weak-martingale formulations, but several historical martingale sources and nonmonotone/KL machinery remain uninspected beyond existing records."
       ],
       "next_actions": [
-        "Acquire primary martingale characterization sources and inspect KL machinery beyond abstracts."
+        "Acquire remaining historical martingale characterization sources and deepen KL/nonmonotonic machinery; preserve exact success/rate conventions."
       ]
     },
     {
@@ -361,18 +374,19 @@
         "COV-0008"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "EARLY_NAVIGATION_ONLY_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S002",
       "covered_by": [
         "SRC-0016",
         "SRC-0005",
-        "SRC-0007"
+        "SRC-0007",
+        "SRC-0027",
+        "SRC-0029"
       ],
       "known_retrieval_access_limitations": [
-        "Demuth original sources not yet acquired/inspected.",
-        "Several modern stronger notions have not yet been searched in P1-S001."
+        "Weak-n and weak 2-randomness now have primary statement-level definitions/relations, but Demuth originals, difference randomness, Oberwolfach/balanced randomness and a standalone exact 2-random definition tranche remain incomplete."
       ],
       "next_actions": [
-        "Build a dedicated stronger-notions tranche with exact definitions, implication chains and separations."
+        "Build a dedicated stronger-notions primary-source tranche for 2-randomness, Demuth, difference, balanced and Oberwolfach randomness, keeping weak-2 terminology separate."
       ]
     },
     {
@@ -632,20 +646,25 @@
         "ALL_NOTION_STRATA"
       ],
       "expected_depth_required": "DEEP_CROSS_CUTTING",
-      "present_coverage_status": "STARTED_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S002",
       "covered_by": [
         "SRC-0007",
         "SRC-0009",
         "SRC-0010",
         "SRC-0012",
         "SRC-0013",
-        "SRC-0015"
+        "SRC-0015",
+        "SRC-0008",
+        "SRC-0024",
+        "SRC-0027",
+        "SRC-0028",
+        "SRC-0029"
       ],
       "known_retrieval_access_limitations": [
-        "Current relation map is intentionally sparse and source-backed; no inferred edges were added merely because definitions look stronger/weaker."
+        "The local hierarchy ML → computable → Schnorr → Kurtz and weak2 → ML now has primary-source strictness support, but the global implication/separation graph across stronger, relative, higher and category-adjacent notions remains incomplete."
       ],
       "next_actions": [
-        "Expand only with exact hypotheses/directions and create explicit incomparability/separation witnesses where source-supported."
+        "Extend the graph only with exact inspected hypotheses/directions; prioritize relativization and stronger-notion edges in later bounded Phase-1 sessions."
       ]
     },
     {

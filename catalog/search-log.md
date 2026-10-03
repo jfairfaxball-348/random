@@ -57,3 +57,30 @@ A title-only search for Chaitin's *On the Length of Programs for Computing Finit
 
 `Martin-Löf random`; `1-random`; `effective null test`; `Schnorr test`; `computably random`; `recursive random`; `Kurtz random`; `weak 2-random`; `Demuth random`; `Kolmogorov-Loveland`; `nonmonotonic betting`; `selection rule`; `Church stochastic`; `K-trivial`; `low for random`; `base for randomness`; `computable probability space`; `uniform randomness test`; `randomness conservation`; `no randomness from nothing`; `constructive dimension`; `effective Hausdorff dimension`; `higher randomness`; `Pi11 randomness`.
 
+## P1-S002 — 2026-10-03
+
+Scope: primary-source consolidation of Schnorr randomness, computable/recursive randomness, Kurtz randomness, weak n-randomness and weak 2-randomness. Search failure is not treated as nonexistence.
+
+### Primary/strong sources inspected
+- Schnorr originals were located bibliographically as SRC-0022/SRC-0023; internal statements remain uninspected.
+- SRC-0008 was upgraded to statement-inspected from its full 2002 paper.
+- SRC-0024 supplied primary computable-martingale and computably-graded-test statements.
+- Kurtz's 1981 thesis (SRC-0025) was bibliographically anchored but remains metadata-only internally.
+- SRC-0026 supplies the primary abstract-level Kurtz definition.
+- SRC-0027 supplies statement-level weak-n, weak-2 and generalized-ML-test definitions/relations.
+- SRC-0028 supplies statement-level martingale formulations and strictness witnesses.
+- SRC-0029 supplies statement-level Kurtz test/martingale formulations and the strict Schnorr→Kurtz edge.
+
+### Definition/convention reconciliation
+1. Schnorr: SRC-0008 uses `μ(U_n)≤2^-n` plus computable level measures; SRC-0024/SRC-0028 use exact `μ(U_n)=2^-n` normal forms.
+2. Computable randomness: primary sources confirm no computable/recursive martingale succeeds; SRC-0024 also gives the computably graded-test characterization.
+3. Unqualified Kurtz/weak randomness is weak-1; weak 2-randomness is a distinct higher weak-n level.
+4. Weak-2 generalized tests require measures tending to zero without a computable convergence rate.
+
+### Relationship evidence added
+Primary statements now support the local strict chain `weak 2 → Martin-Löf → computable/recursive → Schnorr → Kurtz`, plus total-Solovay, computably-graded and generalized-ML test characterizations.
+
+### Remaining access gaps
+- No statement-level copy of Schnorr's 1971 original book/article was reliably inspected.
+- No statement-level copy of Kurtz's 1981 thesis was obtained.
+- Demuth originals and other stronger notions were intentionally outside this bounded session.

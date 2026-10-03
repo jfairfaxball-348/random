@@ -2,7 +2,7 @@
   "schema_version": 1,
   "phase": 1,
   "status": "IN_PROGRESS",
-  "active_session": "P1-S001",
+  "active_session": null,
   "last_validated_on": "2026-10-03",
   "record_files": {
     "sources": "catalog/sources.json",
@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 21,
-    "definitions": 12,
-    "theorems": 11,
-    "relations": 8,
+    "sources": 29,
+    "definitions": 18,
+    "theorems": 20,
+    "relations": 14,
     "questions": 1,
-    "authors": 24,
+    "authors": 31,
     "coverage_records": 19
   },
   "sources": [
@@ -45,7 +45,15 @@
     "SRC-0018",
     "SRC-0019",
     "SRC-0020",
-    "SRC-0021"
+    "SRC-0021",
+    "SRC-0022",
+    "SRC-0023",
+    "SRC-0024",
+    "SRC-0025",
+    "SRC-0026",
+    "SRC-0027",
+    "SRC-0028",
+    "SRC-0029"
   ],
   "definitions": [
     "DEF-0001",
@@ -59,7 +67,13 @@
     "DEF-0009",
     "DEF-0010",
     "DEF-0011",
-    "DEF-0012"
+    "DEF-0012",
+    "DEF-0013",
+    "DEF-0014",
+    "DEF-0015",
+    "DEF-0016",
+    "DEF-0017",
+    "DEF-0018"
   ],
   "theorems": [
     "THM-0001",
@@ -72,7 +86,16 @@
     "THM-0008",
     "THM-0009",
     "THM-0010",
-    "THM-0011"
+    "THM-0011",
+    "THM-0012",
+    "THM-0013",
+    "THM-0014",
+    "THM-0015",
+    "THM-0016",
+    "THM-0017",
+    "THM-0018",
+    "THM-0019",
+    "THM-0020"
   ],
   "relations": [
     "REL-0001",
@@ -82,7 +105,13 @@
     "REL-0005",
     "REL-0006",
     "REL-0007",
-    "REL-0008"
+    "REL-0008",
+    "REL-0009",
+    "REL-0010",
+    "REL-0011",
+    "REL-0012",
+    "REL-0013",
+    "REL-0014"
   ],
   "questions": [
     "QST-0001"
@@ -111,7 +140,14 @@
     "AUT-0021",
     "AUT-0022",
     "AUT-0023",
-    "AUT-0024"
+    "AUT-0024",
+    "AUT-0025",
+    "AUT-0026",
+    "AUT-0027",
+    "AUT-0028",
+    "AUT-0029",
+    "AUT-0030",
+    "AUT-0031"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -137,7 +173,13 @@
     "constructive dimension",
     "effective Hausdorff dimension",
     "higher randomness",
-    "Pi11 randomness"
+    "Pi11 randomness",
+    "weakly n-random",
+    "w-n-random",
+    "Kurtz n-random",
+    "generalized Martin-Löf test",
+    "total Solovay test",
+    "computably graded test"
   ],
   "coverage_records": [
     "COV-0001",
@@ -160,6 +202,7 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "Foundational architecture and a source-grounded core are established. Phase 1 is materially incomplete: primary/original coverage, weaker/stronger/higher notions, relativization, category/genericity, finite-string/random-real theory, and pseudorandomness boundary work remain.",
-  "gate_1_status": "NOT_READY_FOR_REVIEW"
+  "coverage_summary": "P1-S002 primary-source consolidated the core weaker-randomness neighborhood: Schnorr and computable randomness now have statement-level primary support; Kurtz, weak-n and weak 2-randomness have normalized DEF records; and the local strictness/test graph is materially stronger. Phase 1 remains incomplete: original Schnorr/Kurtz internal statements are still an explicit access gap, and relative/oracle, stronger, higher, finite-string/random-real, category/genericity and pseudorandomness-boundary strata still require work.",
+  "gate_1_status": "NOT_READY_FOR_REVIEW",
+  "last_completed_session": "P1-S002"
 }

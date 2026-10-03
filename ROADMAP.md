@@ -1,6 +1,6 @@
 # Five-Phase Roadmap
 
-No phase is currently open. See `authoritative/STATE.json`.
+Phase 1 — Research / Catalogue — is currently OPEN. Phases 2–5 remain CLOSED. See `authoritative/STATE.json` for live authority.
 
 ## Phase 1 — Research / Catalogue
 

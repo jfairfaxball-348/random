@@ -1,7 +1,7 @@
 # Phase-1 Catalogue Taxonomy
 
 Status: **ACTIVE / evolving**  
-Last refined: 2026-10-03 in `P1-S001`
+Last refined: 2026-10-03 in `P1-S002`
 
 This taxonomy is a retrieval vocabulary, not a claim that all listed areas are already covered. Use the controlled tag families below in structured records and add aliases/search terms where the literature uses competing terminology.
 
@@ -35,8 +35,9 @@ The object tag matters: finite-string incompressibility is not itself an infinit
 - `notion:martin-lof`
 - `notion:schnorr`
 - `notion:computable-randomness`
-- `notion:kurtz` — coverage pending primary statement
-- `notion:weak-2` — encountered, formal record pending
+- `notion:kurtz` — source-grounded as unqualified weak/weak-1 randomness
+- `notion:weak-n` — weakly n-random / w-n-random / Kurtz n-random in SRC-0027
+- `notion:weak-2` — distinct higher weak-n level, not an alias of unqualified Kurtz randomness
 - `notion:kolmogorov-loveland`
 - `notion:church-selection`
 - `notion:demuth` — navigation only in P1-S001
@@ -49,6 +50,10 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 - `framework:effective-null-test`
 - `framework:martin-lof-test`
 - `framework:schnorr-test`
+- `framework:total-solovay-test`
+- `framework:computably-graded-test`
+- `framework:generalized-martin-lof-test`
+- `framework:measure-one-test`
 - `framework:uniform-test`
 - `framework:effective-open-set`
 - `framework:lower-semicomputable-integral-test`
@@ -57,7 +62,9 @@ Do not use a tag as evidence that a definition/relationship has been verified.
 ## 5. Betting / prediction / selection
 
 - `framework:martingale`
+- `framework:r.e.-martingale`
 - `framework:computable-martingale`
+- `framework:bounded-rate-martingale`
 - `framework:lower-semicomputable-martingale`
 - `framework:nonmonotonic-betting`
 - `framework:place-selection`
@@ -136,6 +143,7 @@ Never infer strictness from differing definitions.
 - `history:kolmogorov-complexity`
 - `history:martin-lof-tests`
 - `history:schnorr-effectivity`
+- `history:kurtz-weak-randomness`
 - `history:demuth`
 
 ## 13. Interface areas
@@ -187,5 +195,7 @@ Important query aliases include:
 - `constructive dimension` / `effective Hausdorff dimension`
 - `place selection` / `selection rule`
 - `collective` / `Kollektiv`
+- `Kurtz random` / `weakly random` / `weakly 1-random`
+- `weakly n-random` / `w-n-random` / `Kurtz n-random`
 
-Aliases are search vocabulary, not automatic mathematical equivalences.
+Do **not** collapse `weak 2-random` into unqualified `Kurtz random`: P1-S002 source inspection identifies them as different levels of the weak-n hierarchy. Aliases are search vocabulary, not automatic mathematical equivalences.

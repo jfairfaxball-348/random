@@ -1,17 +1,15 @@
 # Status
 
-Programme state: **SCAFFOLDED / RESEARCH NOT STARTED**
+Programme state: **PHASE 1 ACTIVE — CATALOGUE IN PROGRESS**
 
-Active phase: **NONE**
+Active phase: **Phase 1 — Research / Catalogue (OPEN)**
 
-- Phase 1 Research / Catalogue: CLOSED
+- Phase 1 Research / Catalogue: OPEN
 - Phase 2 Discovery: CLOSED
 - Phase 3 Novelty / Prior Art: CLOSED
 - Phase 4 Mathematics: CLOSED
 - Phase 5 Publication: CLOSED
 
-Current authorized work: scaffolding validation only.
+Last completed session: **P1-S002**.
 
-Next substantive action requires an explicit instruction to open Phase 1 and a corresponding update to `authoritative/STATE.json` and the gate ledger.
-
-No literature review, candidate discovery, novelty finding, mathematical result, formalisation, Palomar registration, manuscript or publication claim has been produced by the scaffold.
+Gate 1: **CLOSED / NOT READY FOR REVIEW**. No coverage stratum is complete.
