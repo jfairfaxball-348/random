@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S004",
+  "session": "P1-S005",
   "records": [
     {
       "id": "REL-0001",
@@ -102,12 +102,12 @@
       "type": "SEPARATION_BY_PROPERTY",
       "from": "DEF-0004",
       "to": "DEF-0003",
-      "statement": "No-randomness-from-nothing holds for computable randomness but fails for Schnorr randomness for the map class in SRC-0015.",
+      "statement": "In the fair-coin specialization, no-randomness-from-nothing holds for computable randomness but fails for Schnorr randomness for a.e. computable measure-preserving maps; SRC-0015 proves the positive theorem for arbitrary computable Cantor-space source measures and the negative result in Corollary 26.",
       "support": [
         {
           "source": "SRC-0015",
           "theorem": "THM-0007",
-          "evidence": "ABSTRACT_INSPECTED"
+          "evidence": "STATEMENT_INSPECTED"
         }
       ]
     },
@@ -116,12 +116,12 @@
       "type": "CHARACTERIZATION_BY_PROPERTIES",
       "from": "DEF-0002",
       "to": "property:conservation-plus-no-randomness-from-nothing",
-      "statement": "Within the setting summarized by SRC-0015, Martin-Löf randoms are the largest subset satisfying both conservation and no-randomness-from-nothing.",
+      "statement": "For fair-coin Cantor space and a.e. computable measure-preserving self-maps, Martin-Löf randoms are the largest subset closed under both randomness conservation and no-randomness-from-nothing.",
       "support": [
         {
           "source": "SRC-0015",
           "theorem": "THM-0008",
-          "evidence": "ABSTRACT_INSPECTED"
+          "evidence": "STATEMENT_INSPECTED"
         }
       ]
     },
@@ -383,6 +383,126 @@
         }
       ],
       "caution": "Specifically 2-randomness → weak 2-randomness; DEF-0020 remains the general jump-indexed family."
+    },
+    {
+      "id": "REL-0026",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0033",
+      "to": "property:randomness-conservation-under-computable-probability-space-morphisms",
+      "statement": "Martin-Löf randomness on computable probability spaces is conserved by morphisms; isomorphisms restrict to inverse computable bijections on the random-point sets.",
+      "support": [
+        {
+          "source": "SRC-0011",
+          "theorem": "THM-0035",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0027",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0034",
+      "to": "property:randomness-conservation-under-computable-probability-space-morphisms",
+      "statement": "Schnorr randomness on computable probability spaces is conserved by morphisms.",
+      "support": [
+        {
+          "source": "SRC-0012",
+          "theorem": "THM-0036",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0028",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0036",
+      "to": "property:no-randomness-from-nothing-under-ae-computable-cantor-maps",
+      "statement": "Computable randomness with respect to computable Cantor-space measures satisfies no-randomness-from-nothing for μ-a.e. computable maps to their pushforward measures.",
+      "support": [
+        {
+          "source": "SRC-0015",
+          "theorem": "THM-0037",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0029",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0036",
+      "to": "property:ae-computable-measure-isomorphism-invariance",
+      "statement": "Computable randomness is invariant under a.e.-computable measure-preserving isomorphisms between computable probability measures on Cantor space, with inverse identities holding on random points.",
+      "support": [
+        {
+          "source": "SRC-0015",
+          "theorem": "THM-0038",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0030",
+      "type": "PROPERTY_FAILS",
+      "from": "DEF-0034",
+      "to": "property:no-randomness-from-nothing-under-ae-computable-cantor-maps",
+      "statement": "Schnorr randomness fails no-randomness-from-nothing for the a.e.-computable measure-preserving Cantor-space map class of SRC-0015.",
+      "support": [
+        {
+          "source": "SRC-0015",
+          "theorem": "THM-0007",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0031",
+      "type": "CHARACTERIZATION_BY_PROPERTIES",
+      "from": "DEF-0005",
+      "to": "property:conservation-plus-no-randomness-from-nothing-all-computable-cantor-measures",
+      "statement": "Across all computable probability measures on Cantor space, the point/measure pairs that are Martin-Löf random form the largest class closed under both randomness conservation and no-randomness-from-nothing.",
+      "support": [
+        {
+          "source": "SRC-0015",
+          "theorem": "THM-0039",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0032",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0032",
+      "to": "property:computable-cantor-representation",
+      "statement": "Every computable probability space admits a binary representation/isomorphism-on-full-measure-domain by Cantor space with an appropriate computable probability measure.",
+      "support": [
+        {
+          "source": "SRC-0011",
+          "theorem": "THM-0033",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0012",
+          "theorem": "THM-0033",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0033",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0032",
+      "to": "property:atomless-computable-lebesgue-isomorphism",
+      "statement": "If the computable probability measure is atomless, the computable probability space is a computable Lebesgue space in the sense of SRC-0012.",
+      "support": [
+        {
+          "source": "SRC-0012",
+          "theorem": "THM-0034",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "hypotheses": [
+        "measure is atomless"
+      ]
     }
   ]
 }
