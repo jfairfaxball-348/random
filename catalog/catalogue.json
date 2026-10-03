@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 29,
-    "definitions": 18,
-    "theorems": 20,
-    "relations": 14,
+    "sources": 33,
+    "definitions": 25,
+    "theorems": 25,
+    "relations": 16,
     "questions": 1,
-    "authors": 31,
+    "authors": 35,
     "coverage_records": 19
   },
   "sources": [
@@ -53,7 +53,11 @@
     "SRC-0026",
     "SRC-0027",
     "SRC-0028",
-    "SRC-0029"
+    "SRC-0029",
+    "SRC-0030",
+    "SRC-0031",
+    "SRC-0032",
+    "SRC-0033"
   ],
   "definitions": [
     "DEF-0001",
@@ -73,7 +77,14 @@
     "DEF-0015",
     "DEF-0016",
     "DEF-0017",
-    "DEF-0018"
+    "DEF-0018",
+    "DEF-0019",
+    "DEF-0020",
+    "DEF-0021",
+    "DEF-0022",
+    "DEF-0023",
+    "DEF-0024",
+    "DEF-0025"
   ],
   "theorems": [
     "THM-0001",
@@ -95,7 +106,12 @@
     "THM-0017",
     "THM-0018",
     "THM-0019",
-    "THM-0020"
+    "THM-0020",
+    "THM-0021",
+    "THM-0022",
+    "THM-0023",
+    "THM-0024",
+    "THM-0025"
   ],
   "relations": [
     "REL-0001",
@@ -111,7 +127,9 @@
     "REL-0011",
     "REL-0012",
     "REL-0013",
-    "REL-0014"
+    "REL-0014",
+    "REL-0015",
+    "REL-0016"
   ],
   "questions": [
     "QST-0001"
@@ -147,7 +165,11 @@
     "AUT-0028",
     "AUT-0029",
     "AUT-0030",
-    "AUT-0031"
+    "AUT-0031",
+    "AUT-0032",
+    "AUT-0033",
+    "AUT-0034",
+    "AUT-0035"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -179,7 +201,16 @@
     "Kurtz n-random",
     "generalized Martin-Löf test",
     "total Solovay test",
-    "computably graded test"
+    "computably graded test",
+    "relative Martin-Löf randomness",
+    "A-random",
+    "random relative to A",
+    "van Lambalgen theorem",
+    "n-random",
+    "uniformly relative Schnorr randomness",
+    "truth-table Schnorr randomness",
+    "uniformly relative computable randomness",
+    "truth-table reducible randomness"
   ],
   "coverage_records": [
     "COV-0001",
@@ -202,7 +233,7 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "P1-S002 primary-source consolidated the core weaker-randomness neighborhood: Schnorr and computable randomness now have statement-level primary support; Kurtz, weak-n and weak 2-randomness have normalized DEF records; and the local strictness/test graph is materially stronger. Phase 1 remains incomplete: original Schnorr/Kurtz internal statements are still an explicit access gap, and relative/oracle, stronger, higher, finite-string/random-real, category/genericity and pseudorandomness-boundary strata still require work.",
+  "coverage_summary": "P1-S003 consolidated the relative/oracle-randomness stratum at statement level in fair-coin Cantor space: relative ML/computable/Schnorr/Kurtz definitions, jump-based n-randomness, original and modern van-Lambalgen provenance, and ordinary-versus-uniform relativization distinctions are now explicit. Phase 1 remains incomplete: stronger notions beyond weak-n, higher randomness, generalized-measure relativization, finite-string/random-real, category/genericity and pseudorandomness-boundary strata still require work.",
   "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S002"
+  "last_completed_session": "P1-S003"
 }
