@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S006",
+  "session": "P1-S007",
   "records": [
     {
       "id": "THM-0001",
@@ -16,13 +16,21 @@
           "source": "SRC-0007",
           "evidence": "STATEMENT_INSPECTED",
           "pointer": "preprint p. 4; survey attributes the result to Schnorr/Levin"
+        },
+        {
+          "source": "SRC-0047",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 1.8, preceding Martin-Löf⇒Chaitin statement, and Theorem 1.9, printed pp. 200-201"
         }
       ],
       "related_definitions": [
         "DEF-0002",
         "DEF-0011"
       ],
-      "relations": []
+      "relations": [],
+      "cautions": [
+        "P1-S007 preserves the object distinction: K is evaluated on finite initial segments X↾n, while the randomness predicate is on the infinite sequence X."
+      ]
     },
     {
       "id": "THM-0002",
@@ -1113,6 +1121,147 @@
       "relations": [],
       "cautions": [
         "The source also develops oracle/highness analogues; this record extracts only the unrelativized pointwise genericity characterization needed for COV-0019."
+      ]
+    },
+    {
+      "id": "THM-0045",
+      "name": "Chaitin finite-string versus infinite-sequence self-delimiting incompressibility distinction",
+      "statement": "In Chaitin's 1975 self-delimiting complexity H, max{H(s):|s|=n}=n+H(n)+O(1). The paper treats a finite string as more random the closer H(s) is to this maximum and explicitly says finite-string randomness is a matter of degree, while an infinite string α is random iff there is a constant c such that H(α↾n)>n-c for every n; the source notes equivalence of the infinite criterion with Martin-Löf's statistical definition.",
+      "hypotheses": [
+        "H is the self-delimiting program-size complexity for Chaitin's standard optimal universal computer",
+        "s is a finite binary string for the finite part",
+        "α is an infinite binary sequence for the infinite part"
+      ],
+      "direction": "object-domain distinction plus infinite-sequence characterization",
+      "source_support": [
+        {
+          "source": "SRC-0045",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 4.2, Definition of Randomness and following Remark, reprint printed pp. 215-216"
+        },
+        {
+          "source": "SRC-0047",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "sequential-test distinction, Definition 1.8 and Theorem 1.9, printed pp. 200-201"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0011",
+        "DEF-0002"
+      ],
+      "relations": [],
+      "cautions": [
+        "The historical phrase 'approximately equal' for finite strings is not normalized here into a new fixed-threshold randomness notion.",
+        "This record does not turn finite-string incompressibility into a standalone infinite-sequence randomness definition; the infinite statement quantifies uniformly over all initial segments."
+      ]
+    },
+    {
+      "id": "THM-0046",
+      "name": "Universal prefix-free halting probabilities are left-c.e. and Martin-Löf random",
+      "statement": "If U is a universal self-delimiting/prefix-free machine, then Ω_U=Σ_{U(p)↓}2^{-|p|} has a computable nondecreasing rational approximation and its binary expansion is Martin-Löf random.",
+      "hypotheses": [
+        "U is universal (Chaitin-universal / universal self-delimiting)",
+        "dom(U) is prefix-free/self-delimiting",
+        "Ω_U is interpreted as a binary sequence using an explicit expansion convention; for Ω uniqueness follows from irrationality"
+      ],
+      "direction": "property package for Ω",
+      "source_support": [
+        {
+          "source": "SRC-0045",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition of the Probability ω that U Halts and Theorem 4.3, reprint printed p. 216"
+        },
+        {
+          "source": "SRC-0046",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 3.4 and its increasing rational approximation, printed pp. 130-131"
+        },
+        {
+          "source": "SRC-0047",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 1.10/1.12, Theorem 1.11, and Theorem 1.9, printed pp. 200-201"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0042",
+        "DEF-0043",
+        "DEF-0044",
+        "DEF-0045",
+        "DEF-0002"
+      ],
+      "relations": [
+        "REL-0040",
+        "REL-0041"
+      ],
+      "cautions": [
+        "Universality is essential to the randomness conclusion. A nonuniversal prefix-free machine still has a left-c.e. halting probability but it need not be random.",
+        "No generalized-measure, oracle-relative or stronger-test analogue is asserted."
+      ]
+    },
+    {
+      "id": "THM-0047",
+      "name": "Left-c.e. reals are exactly prefix-free-machine halting probabilities",
+      "statement": "For α∈(0,1], α is left-c.e. (called r.e. in SRC-0046) iff α is the halting probability of some self-delimiting/prefix-free partial computable machine.",
+      "hypotheses": [
+        "α is a real in (0,1]",
+        "left-c.e. means computable nondecreasing rational approximation",
+        "the witnessing machine is prefix-free/self-delimiting but need not be universal"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0046",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 4.1(1)-(5), Kraft-Chaitin Theorem 3.2, and footnote 6, printed pp. 129 and 132"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0042",
+        "DEF-0043"
+      ],
+      "relations": [
+        "REL-0038"
+      ],
+      "cautions": [
+        "The theorem is deliberately about some prefix-free machine, not necessarily a universal one.",
+        "Randomness is not part of the equivalence; universality/randomness is added only in THM-0048."
+      ]
+    },
+    {
+      "id": "THM-0048",
+      "name": "Ω characterization of Martin-Löf-random left-c.e. reals",
+      "statement": "For α∈(0,1), α is left-c.e. and Martin-Löf random iff there is a universal self-delimiting/prefix-free machine U such that α=Ω_U.",
+      "hypotheses": [
+        "α is a real in the unit interval",
+        "left-c.e. is DEF-0042",
+        "random means Martin-Löf random in the fair-coin binary-expansion setting",
+        "U is universal and prefix-free/self-delimiting"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0047",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "abstract; Definitions 1.10/1.12, Theorems 1.15 and 2.1, printed pp. 199-202"
+        },
+        {
+          "source": "SRC-0046",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorems 3.4 and 6.5-6.6 plus the added note on printed p. 147"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0042",
+        "DEF-0044",
+        "DEF-0002"
+      ],
+      "relations": [
+        "REL-0039"
+      ],
+      "cautions": [
+        "This characterizes the random subclass of left-c.e. reals; it does not say that every left-c.e. real is random.",
+        "The existence of some universal machine U is asserted. No uniform procedure from an arbitrary presentation of α to such a U is claimed.",
+        "The inspected 2001 sources use 'recursively enumerable real'; P1-S007 normalizes this to 'left-c.e. real' while preserving the historical terminology in source notes."
       ]
     }
   ]
