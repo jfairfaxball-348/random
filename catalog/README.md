@@ -44,3 +44,13 @@ Chaitin's 1975 article was statement-inspected through its collected-paper repri
 The close counts are 47 sources, 45 definitions, 48 theorem/characterization records, 41 relation records, 1 status question, 51 author-navigation records and 19 coverage records. No coverage stratum is complete; COV-0015, COV-0006 and COV-0018 are updated through P1-S007.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.
+
+## P1-S008 checkpoint
+
+P1-S008 consolidated the COV-0016 boundary at statement-level primary-source depth without expanding into a general cryptography or complexity-theory survey. The catalogue now distinguishes (i) probability ensembles and finite-seed PRGs judged by bounded statistical distinguishers, (ii) individual infinite sequences judged by resource-bounded Δ-computable martingales/measure, including the exact polynomial-time `p=p1` specialization, and (iii) derandomization as deterministic simulation/replacement of random choices in algorithms.
+
+Yao's 1982 paper supplies the foundational explicit distinction between the single-sequence randomness question and pseudorandom generation; Håstad–Impagliazzo–Levin–Luby supplies exact later ensemble/PRG definitions; Lutz supplies exact Δ-randomness and martingale statements; Nisan–Wigderson supplies the minimal hardness-versus-randomness/derandomization vocabulary. No implication between p-randomness and the existing unbounded Martin-Löf/Schnorr/computable-randomness hierarchy was inferred.
+
+The close counts are 51 sources, 49 definitions, 50 theorem/characterization records, 43 relation records, 1 status question, 58 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0016 is `PARTIAL_P1_S008`; there are now no `NOT_STARTED` strata, but Gate 1 is still not ready for review.
+
+Phase 1 remains materially incomplete and Gate 1 is not ready for review.
