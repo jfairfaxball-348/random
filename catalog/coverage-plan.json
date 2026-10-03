@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S007",
+  "session": "P1-S008",
   "status": "IN_PROGRESS",
-  "checked_on": "2026-10-03",
+  "checked_on": "2026-10-04",
   "status_vocabulary": [
     "NOT_STARTED_P1_S001",
     "NAVIGATION_ONLY_P1_S001",
@@ -17,7 +17,8 @@
     "PARTIAL_P1_S004",
     "PARTIAL_P1_S005",
     "PARTIAL_P1_S006",
-    "PARTIAL_P1_S007"
+    "PARTIAL_P1_S007",
+    "PARTIAL_P1_S008"
   ],
   "records": [
     {
@@ -628,13 +629,22 @@
         "COV-0007"
       ],
       "expected_depth_required": "BOUNDARY_MEDIUM",
-      "present_coverage_status": "NOT_STARTED_P1_S001",
-      "covered_by": [],
+      "present_coverage_status": "PARTIAL_P1_S008",
+      "covered_by": [
+        "SRC-0048",
+        "SRC-0049",
+        "SRC-0050",
+        "SRC-0051"
+      ],
       "known_retrieval_access_limitations": [
-        "Deliberately deferred in this first foundational session."
+        "Yao 1982 statement inspection used an accessible scan matched to DOI/proceedings metadata rather than relying on the access-limited IEEE landing page.",
+        "HILL 1999 statement inspection used an author-hosted full journal paper matched to SIAM metadata.",
+        "Nisan-Wigderson statement inspection used the author-hosted 1988 FOCS extended abstract plus 1994 journal metadata/abstract; exact journal theorem numbering was not inferred.",
+        "The bounded pass deliberately does not survey cryptographic PRG variants, resource-bounded dimensions, or derandomization beyond the object/resource boundary needed by this catalogue."
       ],
       "next_actions": [
-        "Later acquire a small boundary corpus sufficient to state distinctions and vocabulary, not an exhaustive derandomization survey."
+        "Boundary objective satisfied for P1-S008 at partial depth: preserve the ensemble/individual-sequence/language-characteristic-sequence distinctions and the attached resource bounds.",
+        "Do not expand this stratum into a general cryptography or complexity-theory survey unless later Gate-1 review identifies a concrete catalogue gap."
       ]
     },
     {
