@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S001",
+  "session": "P1-S002",
   "checked_on": "2026-10-03",
   "records": [
     {
@@ -387,7 +387,7 @@
       "doi": "10.1016/S1571-0661(04)80376-1",
       "arxiv": null,
       "stable_locator": "https://doi.org/10.1016/S1571-0661(04)80376-1",
-      "access_level": "ABSTRACT_INSPECTED",
+      "access_level": "STATEMENT_INSPECTED",
       "topics": [
         "schnorr-randomness",
         "prefix-free-machines",
@@ -398,25 +398,43 @@
         "Schnorr randomness Downey Griffiths",
         "Schnorr random c.e. reals"
       ],
-      "definitions": [],
-      "theorems": [],
+      "definitions": [
+        "DEF-0003",
+        "DEF-0017"
+      ],
+      "theorems": [
+        "THM-0012",
+        "THM-0015"
+      ],
       "questions": [],
       "priority_relevance": "Primary research source on Schnorr randomness and machine characterizations.",
-      "notes": "Publisher abstract inspected. It establishes existence of c.e. Schnorr-random but non-Martin-Löf-random reals and reports a prefix-free-machine characterization; exact characterization statement not yet inspected.",
+      "notes": "P1-S002 upgraded this source from abstract-only to statement-inspected using the accessible full 2002 paper. Definition 1.4 gives Schnorr tests by uniformly c.e. open levels with μ(U_n)≤2^-n and computable n↦μ(U_n); Theorem 2.2 gives a c.e. Schnorr-random non-Martin-Löf-random real; Definition 2.4/Theorem 2.5 give total Solovay tests. This preserves the 2002 primary formulation rather than replacing it by the exact-measure normalization used in other primary papers.",
       "inspected_material": [
-        "publisher abstract"
+        "publisher abstract",
+        "full-text Definition 1.4",
+        "full-text Theorem 2.2",
+        "full-text Definition 2.4 and Theorem 2.5"
       ],
       "pointers": [
-        "Electronic Notes in Theoretical Computer Science 66(1) (2002), 25-35"
+        "Electronic Notes in Theoretical Computer Science 66(1) (2002), 25-35",
+        "Definition 1.4: Schnorr test and Schnorr randomness",
+        "Theorem 2.2: c.e. Schnorr-random but non-Martin-Löf-random real",
+        "Definition 2.4 and Theorem 2.5: total Solovay tests"
       ],
       "cross_links": [
-        "SRC-0007"
+        "SRC-0007",
+        "SRC-0022",
+        "SRC-0023",
+        "SRC-0024",
+        "SRC-0028"
       ],
       "checked_on": "2026-10-03",
       "exact_relevance": "Primary research source on Schnorr randomness and machine characterizations.",
       "inspected_claims": [
-        "Abstract: c.e. Schnorr-random non-Martin-Löf-random reals exist.",
-        "Abstract: a prefix-free-machine characterization of Schnorr randomness is proved (exact statement not yet inspected)."
+        "Definition 1.4: a Schnorr test is a computable collection of c.e. open sets U_n with μ(U_n)≤2^-n and computable n↦μ(U_n); a real is Schnorr random iff it withstands every such test.",
+        "Theorem 2.2: there exists a c.e. Schnorr-random real that is not Martin-Löf random.",
+        "Definition 2.4/Theorem 2.5: total Solovay tests have computable finite total measure, and Schnorr randomness is equivalent to passing every total Solovay test.",
+        "Theorem 1.5 gives the paper's computable-prefix-free-machine characterization of Schnorr randomness."
       ]
     },
     {
@@ -1118,6 +1136,485 @@
       "inspected_claims": [
         "Abstract: defines low for RAND by RAND = RAND^A in the paper's notation.",
         "Abstract: establishes existence of nonrecursive sets low for the class of random sets."
+      ]
+    },
+    {
+      "id": "SRC-0022",
+      "title": "Zufälligkeit und Wahrscheinlichkeit: Eine algorithmische Begründung der Wahrscheinlichkeitstheorie",
+      "authors": [
+        "Claus Peter Schnorr"
+      ],
+      "author_ids": [
+        "AUT-0025"
+      ],
+      "year": 1971,
+      "source_type": "book",
+      "doi": "10.1007/BFb0112458",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1007/BFb0112458",
+      "access_level": "METADATA_ONLY",
+      "topics": [
+        "schnorr-randomness",
+        "computable-randomness",
+        "martingales",
+        "effective-null-tests",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "Schnorr 1971 Zufälligkeit Wahrscheinlichkeit",
+        "Lecture Notes in Mathematics 218",
+        "Schnorr randomness original"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Original Schnorr monograph central to the foundational formulations later called computable/recursive randomness and Schnorr randomness.",
+      "notes": "Springer bibliographic metadata and table of contents were inspected in P1-S002. Relevant chapters on constructive null sets and excluded betting systems were located, but no exact internal definition/theorem statement was reliably extracted. It therefore remains metadata-only and is not used to support exact DEF/THM/REL claims.",
+      "inspected_material": [
+        "Springer bibliographic metadata",
+        "Springer table of contents"
+      ],
+      "pointers": [
+        "Lecture Notes in Mathematics 218, Springer, 1971, IV+212 pp.",
+        "TOC includes chapters on constructive null sets and the excluded-betting-system principle"
+      ],
+      "cross_links": [
+        "SRC-0023",
+        "SRC-0008",
+        "SRC-0024"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Foundational original Schnorr source; P1-S002 located it and its relevant sections but did not promote uninspected internal statements.",
+      "inspected_claims": []
+    },
+    {
+      "id": "SRC-0023",
+      "title": "A Unified Approach to the Definition of Random Sequences",
+      "authors": [
+        "Claus Peter Schnorr"
+      ],
+      "author_ids": [
+        "AUT-0025"
+      ],
+      "year": 1971,
+      "source_type": "journal_article",
+      "doi": "10.1007/BF01694181",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1007/BF01694181",
+      "access_level": "METADATA_ONLY",
+      "topics": [
+        "schnorr-randomness",
+        "random-sequences",
+        "martingales",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "Schnorr unified approach random sequences 1971",
+        "Mathematical Systems Theory 5 246 258"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Original 1971 Schnorr article closely tied to the foundational definition programme.",
+      "notes": "Bibliographic identity, journal coordinates and DOI were located in P1-S002. The internal mathematical statements were not statement-inspected, so this record does not settle the exact original convention.",
+      "inspected_material": [
+        "bibliographic metadata",
+        "journal-volume/index metadata"
+      ],
+      "pointers": [
+        "Mathematical Systems Theory 5(3) (1971), 246-258"
+      ],
+      "cross_links": [
+        "SRC-0022",
+        "SRC-0008",
+        "SRC-0024"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Original Schnorr paper located for priority/provenance navigation; exact statements remain an access gap.",
+      "inspected_claims": []
+    },
+    {
+      "id": "SRC-0024",
+      "title": "On Schnorr and computable randomness, martingales, and machines",
+      "authors": [
+        "Rod Downey",
+        "Evan Griffiths",
+        "Geoffrey LaForte"
+      ],
+      "author_ids": [
+        "AUT-0006",
+        "AUT-0008",
+        "AUT-0027"
+      ],
+      "year": 2004,
+      "source_type": "journal_article",
+      "doi": "10.1002/malq.200310121",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1002/malq.200310121",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "schnorr-randomness",
+        "computable-randomness",
+        "martingales",
+        "computably-graded-tests",
+        "prefix-free-machines"
+      ],
+      "aliases_search_terms": [
+        "computable randomness martingales machines",
+        "computably graded test",
+        "Downey Griffiths LaForte 2004"
+      ],
+      "definitions": [
+        "DEF-0003",
+        "DEF-0004",
+        "DEF-0018"
+      ],
+      "theorems": [
+        "THM-0013"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary research source giving exact martingale definitions and a test characterization of computable randomness.",
+      "notes": "Author-hosted published PDF was statement-inspected and matched to the journal DOI. Definition 4 gives computable randomness by computable martingales and uses the exact-measure Schnorr-test normalization; Definition 5 and Theorems 5-6 give computably graded tests and effective conversions to/from computable martingales.",
+      "inspected_material": [
+        "published author-hosted PDF",
+        "Definition 4",
+        "Definition 5",
+        "Theorems 5 and 6"
+      ],
+      "pointers": [
+        "Math. Log. Quart. 50(6) (2004), 613-627",
+        "p. 615 Definition 4",
+        "p. 618 Definition 5 and Theorems 5-6"
+      ],
+      "cross_links": [
+        "SRC-0008",
+        "SRC-0022",
+        "SRC-0028"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary statement-level source reconciling DEF-0003/DEF-0004 and making the martingale/test distinction explicit.",
+      "inspected_claims": [
+        "Definition 4(i): a real is computably random iff no computable rational-valued martingale succeeds.",
+        "Definition 4(ii): in this paper's normalized convention, a Schnorr test is a Martin-Löf test with μ(U_n)=2^-n.",
+        "Theorem 5: computable randomness is equivalent to withstanding all computably graded tests.",
+        "Theorem 6: effective conversions exist in both directions between computable martingales and computably graded tests."
+      ]
+    },
+    {
+      "id": "SRC-0025",
+      "title": "Randomness and Genericity in the Degrees of Unsolvability",
+      "authors": [
+        "Stuart Alan Kurtz"
+      ],
+      "author_ids": [
+        "AUT-0026"
+      ],
+      "year": 1981,
+      "source_type": "thesis",
+      "doi": null,
+      "arxiv": null,
+      "stable_locator": "https://math.illinois.edu/academics/graduate/doctoral-graduates",
+      "access_level": "METADATA_ONLY",
+      "topics": [
+        "kurtz-randomness",
+        "weak-randomness",
+        "genericity",
+        "turing-degrees",
+        "foundations-history"
+      ],
+      "aliases_search_terms": [
+        "Kurtz thesis randomness genericity 1981",
+        "Randomness and Genericity in the Degrees of Unsolvability"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Original doctoral thesis credited in later primary literature with the weak/Kurtz randomness hierarchy.",
+      "notes": "The University of Illinois doctoral-graduates record confirms the title, author, date and advisor; independent bibliographic references identify the 1981 PhD thesis and MR2631709. P1-S002 did not obtain a statement-inspectable full thesis, so no exact definition or theorem is attributed directly to it.",
+      "inspected_material": [
+        "official University of Illinois dissertation metadata",
+        "bibliographic cross-check"
+      ],
+      "pointers": [
+        "University of Illinois at Urbana-Champaign PhD, 1981; advisor Carl Jockusch",
+        "MR2631709"
+      ],
+      "cross_links": [
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0029"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Original Kurtz source located at metadata level; exact source-grounded definitions below are taken from inspected later primary papers, not inferred from this thesis.",
+      "inspected_claims": []
+    },
+    {
+      "id": "SRC-0026",
+      "title": "On Kurtz randomness",
+      "authors": [
+        "Rodney G. Downey",
+        "Evan J. Griffiths",
+        "Stephanie Reid"
+      ],
+      "author_ids": [
+        "AUT-0006",
+        "AUT-0008",
+        "AUT-0028"
+      ],
+      "year": 2004,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.tcs.2004.03.055",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/j.tcs.2004.03.055",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "kurtz-randomness",
+        "weak-randomness",
+        "computability",
+        "machine-characterizations",
+        "turing-degrees"
+      ],
+      "aliases_search_terms": [
+        "Kurtz random weakly random",
+        "On Kurtz randomness Downey Griffiths Reid"
+      ],
+      "definitions": [
+        "DEF-0013"
+      ],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Primary research paper devoted to Kurtz randomness; its abstract states the measure-one definition exactly enough to ground DEF-0013.",
+      "notes": "Publisher abstract inspected. It explicitly defines Kurtz/weak randomness by membership in every computably enumerable measure-one set and reports characterizations/degrees, but the internal theorem statements were not inspected; only the definition-level abstract claim is used.",
+      "inspected_material": [
+        "publisher metadata",
+        "publisher abstract"
+      ],
+      "pointers": [
+        "Theoretical Computer Science 321(2-3) (2004), 249-270",
+        "publisher abstract"
+      ],
+      "cross_links": [
+        "SRC-0025",
+        "SRC-0027",
+        "SRC-0029"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary source supplying a directly inspected source-grounded Kurtz definition before relation edges were added.",
+      "inspected_claims": [
+        "Abstract: a real is Kurtz random (or weakly random) iff it belongs to every computably enumerable set of Lebesgue measure 1."
+      ]
+    },
+    {
+      "id": "SRC-0027",
+      "title": "Lowness and Π^0_2 Nullsets",
+      "authors": [
+        "Rod Downey",
+        "André Nies",
+        "Rebecca Weber",
+        "Liang Yu"
+      ],
+      "author_ids": [
+        "AUT-0006",
+        "AUT-0005",
+        "AUT-0029",
+        "AUT-0030"
+      ],
+      "year": 2006,
+      "source_type": "journal_article",
+      "doi": null,
+      "arxiv": null,
+      "stable_locator": "https://sms.wgtn.ac.nz/foswiki/pub/Main/ResearchReportSeries/mscs06-05.pdf",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "weak-n-randomness",
+        "weak-2-randomness",
+        "kurtz-randomness",
+        "generalized-martin-lof-tests",
+        "relativization",
+        "lowness"
+      ],
+      "aliases_search_terms": [
+        "weakly n-random",
+        "w-n-random",
+        "Kurtz n-random",
+        "weak 2 randomness",
+        "Pi02 nullsets"
+      ],
+      "definitions": [
+        "DEF-0013",
+        "DEF-0014",
+        "DEF-0015",
+        "DEF-0016"
+      ],
+      "theorems": [
+        "THM-0017",
+        "THM-0018"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source giving a clean weak-n/Kurtz-n definition, the strict weak-n versus n-random hierarchy, and the generalized-test characterization of weak 2-randomness.",
+      "notes": "Author/research-report PDF matched to the JSL publication (71(3), 1044-1052) was visually statement-inspected. Definition 1.1, Definitions 2.1-2.2 and Theorem 2.3 were inspected. The paper explicitly warns that weak 2-randomness is a distinct level of the Kurtz hierarchy, not an alias of unqualified Kurtz randomness.",
+      "inspected_material": [
+        "author-hosted research-report PDF",
+        "Definition 1.1",
+        "Definitions 2.1-2.2",
+        "Theorem 2.3"
+      ],
+      "pointers": [
+        "J. Symbolic Logic 71(3) (2006), 1044-1052",
+        "p. 1 Definition 1.1",
+        "pp. 2-3 Definitions 2.1-2.2 and Theorem 2.3"
+      ],
+      "cross_links": [
+        "SRC-0025",
+        "SRC-0026",
+        "SRC-0029"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary statement-level source for weak-n terminology and the exact missing-effective-convergence distinction of weak 2-randomness.",
+      "inspected_claims": [
+        "Definition 1.1: α is weakly n-random (w-n-random, Kurtz n-random) iff α belongs to every Σ^0_n class of measure one.",
+        "The introduction states weak (n+1)-randomness implies n-randomness, n-randomness implies weak n-randomness, and neither converse holds.",
+        "Weak 2-randomness is equivalent to avoiding all Π^0_2 nullsets, whereas Martin-Löf randomness corresponds to Π^0_2 nullsets with effective convergence.",
+        "Definition 2.2: a generalized Martin-Löf test is a nested computable sequence of c.e. open sets with measures tending to zero, without a required speed of convergence.",
+        "Theorem 2.3: a real is weakly 2-random iff it passes all generalized Martin-Löf tests.",
+        "The paper states relative randomness is obtained by adding an oracle to the tests."
+      ]
+    },
+    {
+      "id": "SRC-0028",
+      "title": "Randomness, relativization and Turing degrees",
+      "authors": [
+        "André Nies",
+        "Frank Stephan",
+        "Sebastiaan A. Terwijn"
+      ],
+      "author_ids": [
+        "AUT-0005",
+        "AUT-0009",
+        "AUT-0024"
+      ],
+      "year": 2005,
+      "source_type": "journal_article",
+      "doi": "10.2178/jsl/1120224726",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2178/jsl/1120224726",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "martin-lof-randomness",
+        "computable-randomness",
+        "recursive-randomness",
+        "schnorr-randomness",
+        "kurtz-randomness",
+        "turing-degrees",
+        "martingales"
+      ],
+      "aliases_search_terms": [
+        "recursive randomness",
+        "recursively random",
+        "high degree randomness separation",
+        "Kurtz hyperimmune degree"
+      ],
+      "definitions": [
+        "DEF-0002",
+        "DEF-0003",
+        "DEF-0004"
+      ],
+      "theorems": [
+        "THM-0014",
+        "THM-0020"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source with exact martingale formulations and degree-theoretic separation witnesses for the ML/computable/Schnorr hierarchy.",
+      "notes": "Full author-uploaded text was statement-inspected and matched to JSL metadata. Definition 1.1 and Discussion 1.2 normalize the three martingale/test notions; Theorem 4.2 gives high-degree separation witnesses; Theorem 4.3 characterizes degrees containing Kurtz-random non-Schnorr sets.",
+      "inspected_material": [
+        "full author-uploaded paper",
+        "Definition 1.1 and Discussion 1.2",
+        "Theorems 4.2 and 4.3",
+        "publisher metadata"
+      ],
+      "pointers": [
+        "J. Symbolic Logic 70(2) (2005), 515-535",
+        "Definition 1.1 / Discussion 1.2",
+        "Theorem 4.2",
+        "Theorem 4.3"
+      ],
+      "cross_links": [
+        "SRC-0024",
+        "SRC-0026",
+        "SRC-0029"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary source replacing survey-only provenance for DEF-0004 and providing concrete source-supported strictness/separation witnesses.",
+      "inspected_claims": [
+        "Definition 1.1: Martin-Löf randomness uses absence of a succeeding r.e. martingale; recursive randomness uses absence of a succeeding recursive martingale; Schnorr randomness forbids a recursive martingale from beating a recursive nondecreasing unbounded rate infinitely often.",
+        "Theorem 4.2: a degree is high iff it contains a recursively random non-Martin-Löf-random set, equivalently iff it contains a Schnorr-random non-recursively-random set; the same holds for left-r.e. sets.",
+        "Theorem 4.3: a degree contains a Kurtz-random non-Schnorr-random set iff it is hyperimmune; on hyperimmune-free degrees the considered notions coincide."
+      ]
+    },
+    {
+      "id": "SRC-0029",
+      "title": "Randomness and Complexity",
+      "authors": [
+        "Yongge Wang"
+      ],
+      "author_ids": [
+        "AUT-0031"
+      ],
+      "year": 1996,
+      "source_type": "thesis",
+      "doi": null,
+      "arxiv": null,
+      "stable_locator": "https://webpages.charlotte.edu/yonwang/papers/thesis.pdf",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "kurtz-randomness",
+        "weak-randomness",
+        "schnorr-randomness",
+        "martingales",
+        "n-randomness",
+        "randomness-hierarchy"
+      ],
+      "aliases_search_terms": [
+        "Wang Randomness and Complexity 1996",
+        "W-RAND S-RAND",
+        "Kurtz test martingale characterization"
+      ],
+      "definitions": [
+        "DEF-0013"
+      ],
+      "theorems": [
+        "THM-0016",
+        "THM-0019"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary dissertation source containing exact weak/Kurtz test and martingale formulations and explicit strict hierarchy theorems.",
+      "notes": "Author-hosted thesis PDF was visually statement-inspected. Definition 3.1.23 defines Kurtz tests; Definitions 3.1.24-3.1.26 give alternative test/martingale forms; Theorem 3.1.27 proves their equivalence; Theorem 3.2.3 proves Schnorr randomness is a proper subset of Kurtz randomness. Chapter 4 records relativized n-level relations.",
+      "inspected_material": [
+        "author-hosted thesis PDF",
+        "Definition 3.1.23",
+        "Definitions 3.1.24-3.1.26",
+        "Theorems 3.1.27 and 3.2.3",
+        "Theorems 4.2.1, 4.2.2 and 4.2.6"
+      ],
+      "pointers": [
+        "PhD thesis, University of Heidelberg, 1996",
+        "pp. 25-26 Definitions 3.1.23-3.1.26 and Theorem 3.1.27",
+        "p. 34 Theorem 3.2.3",
+        "pp. 46-47 n-randomness relations"
+      ],
+      "cross_links": [
+        "SRC-0025",
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0028"
+      ],
+      "checked_on": "2026-10-03",
+      "exact_relevance": "Primary statement-level source for the strict Schnorr-to-Kurtz edge and a martingale characterization of Kurtz randomness.",
+      "inspected_claims": [
+        "Definition 3.1.23: a Kurtz test is an r.e. open set of measure 1; a sequence is Kurtz random iff it withstands every Kurtz test.",
+        "Definition 3.1.25 defines the sw-test using a recursive martingale and a recursive unbounded nondecreasing threshold; Theorem 3.1.27 identifies this and the other weak-randomness test forms with Kurtz randomness.",
+        "Theorem 3.2.3: S-RAND is a proper subset of W-RAND; the proof cites a Kurtz-random sequence failing the law of large numbers while every Schnorr-random sequence satisfies it.",
+        "Chapter 4 records strict n-level inclusions, including (n+1)-W-RAND properly contained in n-M-RAND."
       ]
     }
   ]

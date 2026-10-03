@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S001",
+  "session": "P1-S002",
   "records": [
     {
       "id": "AUT-0001",
@@ -69,7 +69,9 @@
         "SRC-0009",
         "SRC-0010",
         "SRC-0016",
-        "SRC-0018"
+        "SRC-0018",
+        "SRC-0027",
+        "SRC-0028"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -85,7 +87,10 @@
       "source_ids": [
         "SRC-0006",
         "SRC-0007",
-        "SRC-0008"
+        "SRC-0008",
+        "SRC-0024",
+        "SRC-0026",
+        "SRC-0027"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -111,7 +116,9 @@
         "schnorr-randomness"
       ],
       "source_ids": [
-        "SRC-0008"
+        "SRC-0008",
+        "SRC-0024",
+        "SRC-0026"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -125,7 +132,8 @@
       ],
       "source_ids": [
         "SRC-0010",
-        "SRC-0018"
+        "SRC-0018",
+        "SRC-0028"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -315,7 +323,102 @@
         "algorithmic-randomness"
       ],
       "source_ids": [
-        "SRC-0021"
+        "SRC-0021",
+        "SRC-0028"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0025",
+      "name": "Claus Peter Schnorr",
+      "topics": [
+        "schnorr-randomness",
+        "computable-randomness",
+        "martingales",
+        "foundations"
+      ],
+      "source_ids": [
+        "SRC-0022",
+        "SRC-0023"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0026",
+      "name": "Stuart Alan Kurtz",
+      "topics": [
+        "kurtz-randomness",
+        "weak-randomness",
+        "genericity",
+        "turing-degrees"
+      ],
+      "source_ids": [
+        "SRC-0025"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0027",
+      "name": "Geoffrey LaForte",
+      "topics": [
+        "computable-randomness",
+        "schnorr-randomness",
+        "martingales"
+      ],
+      "source_ids": [
+        "SRC-0024"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0028",
+      "name": "Stephanie Reid",
+      "topics": [
+        "kurtz-randomness",
+        "weak-randomness"
+      ],
+      "source_ids": [
+        "SRC-0026"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0029",
+      "name": "Rebecca Weber",
+      "topics": [
+        "weak-2-randomness",
+        "lowness",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0027"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0030",
+      "name": "Liang Yu",
+      "topics": [
+        "weak-2-randomness",
+        "lowness",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0027"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0031",
+      "name": "Yongge Wang",
+      "topics": [
+        "kurtz-randomness",
+        "schnorr-randomness",
+        "n-randomness",
+        "martingales"
+      ],
+      "source_ids": [
+        "SRC-0029"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }

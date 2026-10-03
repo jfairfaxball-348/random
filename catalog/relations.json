@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S001",
+  "session": "P1-S002",
   "records": [
     {
       "id": "REL-0001",
@@ -12,6 +12,11 @@
         {
           "source": "SRC-0007",
           "theorem": "THM-0002",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0028",
+          "theorem": "THM-0014",
           "evidence": "STATEMENT_INSPECTED"
         }
       ]
@@ -26,6 +31,11 @@
         {
           "source": "SRC-0007",
           "theorem": "THM-0002",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0028",
+          "theorem": "THM-0014",
           "evidence": "STATEMENT_INSPECTED"
         }
       ]
@@ -112,6 +122,92 @@
           "source": "SRC-0015",
           "theorem": "THM-0008",
           "evidence": "ABSTRACT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0009",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0002",
+      "to": "DEF-0013",
+      "statement": "Martin-Löf randomness strictly implies Kurtz randomness (weak 1-randomness).",
+      "support": [
+        {
+          "source": "SRC-0027",
+          "theorem": "THM-0017",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This is the n=1 instance of the source-stated n-random → weak n-random implication with non-converse."
+    },
+    {
+      "id": "REL-0010",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0003",
+      "to": "DEF-0013",
+      "statement": "Schnorr randomness strictly implies Kurtz randomness.",
+      "support": [
+        {
+          "source": "SRC-0029",
+          "theorem": "THM-0016",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0011",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0015",
+      "to": "DEF-0002",
+      "statement": "Weak 2-randomness strictly implies Martin-Löf randomness.",
+      "support": [
+        {
+          "source": "SRC-0027",
+          "theorem": "THM-0017",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This is the n=1 instance of weak (n+1)-random → n-random, with non-converse explicitly stated in the source."
+    },
+    {
+      "id": "REL-0012",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0015",
+      "to": "DEF-0016",
+      "statement": "Weak 2-randomness is exactly passing all generalized Martin-Löf tests.",
+      "support": [
+        {
+          "source": "SRC-0027",
+          "theorem": "THM-0018",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0013",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0003",
+      "to": "DEF-0017",
+      "statement": "Schnorr randomness is exactly passing all total Solovay tests.",
+      "support": [
+        {
+          "source": "SRC-0008",
+          "theorem": "THM-0012",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ]
+    },
+    {
+      "id": "REL-0014",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0004",
+      "to": "DEF-0018",
+      "statement": "Computable randomness is exactly passing all computably graded tests.",
+      "support": [
+        {
+          "source": "SRC-0024",
+          "theorem": "THM-0013",
+          "evidence": "STATEMENT_INSPECTED"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S001",
+  "session": "P1-S002",
   "records": [
     {
       "id": "THM-0001",
@@ -37,6 +37,11 @@
           "source": "SRC-0007",
           "evidence": "STATEMENT_INSPECTED",
           "pointer": "preprint p. 4"
+        },
+        {
+          "source": "SRC-0028",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 4.2 supplies high-degree witnesses for both non-reversals"
         }
       ],
       "related_definitions": [
@@ -249,6 +254,220 @@
       "related_definitions": [
         "DEF-0012",
         "DEF-0002"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0012",
+      "name": "Total-Solovay characterization of Schnorr randomness",
+      "statement": "A real y is Schnorr random iff y passes every total Solovay test, where a total Solovay test is a computable collection of c.e. open sets whose finite total measure sum is a computable real.",
+      "hypotheses": [
+        "fair-coin/Lebesgue setting of SRC-0008",
+        "total Solovay test as DEF-0017"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0008",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2.4 and Theorem 2.5"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0003",
+        "DEF-0017"
+      ],
+      "relations": [
+        "REL-0013"
+      ]
+    },
+    {
+      "id": "THM-0013",
+      "name": "Computably graded-test characterization of computable randomness",
+      "statement": "A real x is computably random iff it withstands every computably graded test; SRC-0024 also gives effective transformations from a computable martingale to such a test and conversely.",
+      "hypotheses": [
+        "x∈2^ω",
+        "computable martingales and computably graded tests are as in SRC-0024 Definitions 2 and 5"
+      ],
+      "direction": "equivalence with effective conversions",
+      "source_support": [
+        {
+          "source": "SRC-0024",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorems 5 and 6, p. 618"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0004",
+        "DEF-0018"
+      ],
+      "relations": [
+        "REL-0014"
+      ]
+    },
+    {
+      "id": "THM-0014",
+      "name": "High-degree witnesses separate Martin-Löf, recursive/computable and Schnorr randomness",
+      "statement": "For every set A, A is high iff its Turing degree contains a recursively random but non-Martin-Löf-random set, equivalently iff it contains a Schnorr-random but non-recursively-random set; the same equivalence holds when the witnesses are required to be left-r.e.",
+      "hypotheses": [
+        "standard fair-coin notions in SRC-0028",
+        "'recursively random' is the computable-martingale notion DEF-0004"
+      ],
+      "direction": "equivalence / separation witness",
+      "source_support": [
+        {
+          "source": "SRC-0028",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 4.2"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0003",
+        "DEF-0004"
+      ],
+      "relations": [
+        "REL-0001",
+        "REL-0002"
+      ]
+    },
+    {
+      "id": "THM-0015",
+      "name": "c.e. Schnorr-random non-Martin-Löf-random separation witness",
+      "statement": "There exists a computably enumerable real that is Schnorr random but not Martin-Löf random.",
+      "hypotheses": [
+        "real in the setting of SRC-0008"
+      ],
+      "direction": "existence / separation",
+      "source_support": [
+        {
+          "source": "SRC-0008",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 2.2"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0003"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0016",
+      "name": "Schnorr randomness strictly implies Kurtz randomness",
+      "statement": "In Wang's notation S-RAND is a proper subset of W-RAND: every Schnorr-random sequence is Kurtz random, and there is a Kurtz-random sequence that is not Schnorr random.",
+      "hypotheses": [
+        "fair-coin infinite-sequence notions in SRC-0029",
+        "S-RAND denotes Schnorr randomness; W-RAND denotes Kurtz randomness"
+      ],
+      "direction": "strict implication",
+      "source_support": [
+        {
+          "source": "SRC-0029",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 3.2.3, printed p. 34"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0003",
+        "DEF-0013"
+      ],
+      "relations": [
+        "REL-0010"
+      ]
+    },
+    {
+      "id": "THM-0017",
+      "name": "Strict weak-n / n-random sandwich",
+      "statement": "For every n≥1, weak (n+1)-randomness implies n-randomness, and n-randomness implies weak n-randomness; neither converse holds.",
+      "hypotheses": [
+        "weak n-randomness as DEF-0014",
+        "n-randomness means the usual n-th Martin-Löf-relative level in SRC-0027"
+      ],
+      "direction": "two strict implications for each n≥1",
+      "source_support": [
+        {
+          "source": "SRC-0027",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "discussion immediately after Definition 1.1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0013",
+        "DEF-0014",
+        "DEF-0015"
+      ],
+      "relations": [
+        "REL-0009",
+        "REL-0011"
+      ]
+    },
+    {
+      "id": "THM-0018",
+      "name": "Generalized Martin-Löf-test characterization of weak 2-randomness",
+      "statement": "A real is weakly 2-random iff it passes every generalized Martin-Löf test.",
+      "hypotheses": [
+        "generalized Martin-Löf test as DEF-0016",
+        "fair-coin Cantor-space setting"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0027",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 2.3"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0015",
+        "DEF-0016"
+      ],
+      "relations": [
+        "REL-0012"
+      ]
+    },
+    {
+      "id": "THM-0019",
+      "name": "Kurtz randomness has equivalent weak test and martingale formulations",
+      "statement": "Wang proves W-RAND = MW-RAND = SW-RAND = So-W-RAND. In particular, the weak/Kurtz class can be characterized by the sw-tests of Definition 3.1.25, which use a recursive martingale F and a recursive unbounded nondecreasing threshold h.",
+      "hypotheses": [
+        "definitions 3.1.23-3.1.26 of SRC-0029",
+        "fair-coin sequence space"
+      ],
+      "direction": "equivalence of four formulations",
+      "source_support": [
+        {
+          "source": "SRC-0029",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 3.1.23-3.1.26 and Theorem 3.1.27, printed pp. 25-26"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0013"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0020",
+      "name": "Martingale resource formulations distinguish Martin-Löf, computable and Schnorr randomness",
+      "statement": "In SRC-0028's martingale formulation: Martin-Löf randomness forbids success by any r.e. martingale; recursive/computable randomness forbids success by any recursive martingale; Schnorr randomness forbids a recursive martingale M together with a recursive nondecreasing unbounded rate r for which M(X↾n)>r(n) infinitely often.",
+      "hypotheses": [
+        "subset of N identified with its binary characteristic sequence",
+        "martingale success means unbounded limsup capital"
+      ],
+      "direction": "characterization / resource comparison",
+      "source_support": [
+        {
+          "source": "SRC-0028",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 1.1 and Discussion 1.2"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0003",
+        "DEF-0004"
       ],
       "relations": []
     }
