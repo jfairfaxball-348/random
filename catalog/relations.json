@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S002",
+  "session": "P1-S003",
   "records": [
     {
       "id": "REL-0001",
@@ -210,6 +210,44 @@
           "evidence": "STATEMENT_INSPECTED"
         }
       ]
+    },
+    {
+      "id": "REL-0015",
+      "type": "RELATIVIZATION",
+      "from": "DEF-0020",
+      "to": "DEF-0019",
+      "statement": "For every n≥1, n-randomness is Martin-Löf randomness relative to ∅^(n−1); this is the jump convention connecting the n-random side of THM-0017 to the oracle-relative framework.",
+      "support": [
+        {
+          "source": "SRC-0030",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0028",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This does not identify n-randomness with weak n-randomness DEF-0014."
+    },
+    {
+      "id": "REL-0016",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0002",
+      "to": "DEF-0019",
+      "statement": "In fair-coin Cantor space, A⊕B is Martin-Löf random exactly when A is Martin-Löf random and B is Martin-Löf random relative to A.",
+      "support": [
+        {
+          "source": "SRC-0030",
+          "theorem": "THM-0021",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0032",
+          "theorem": "THM-0021",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "A⊕B is even/odd interleaving in SRC-0032; no arbitrary-measure generalization is asserted."
     }
   ]
 }
