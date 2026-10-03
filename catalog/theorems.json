@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S005",
+  "session": "P1-S006",
   "records": [
     {
       "id": "THM-0001",
@@ -1009,6 +1009,110 @@
       "relations": [],
       "cautions": [
         "This measure-parameter uniformity is distinct from ordinary versus uniform oracle relativization in P1-S003."
+      ]
+    },
+    {
+      "id": "THM-0041",
+      "name": "Π^0_1-boundary characterization of 1-genericity",
+      "statement": "For x∈2^ω, x is 1-generic iff for every Π^0_1 class V⊆2^ω, x∉V\\Int(V).",
+      "hypotheses": [
+        "Cantor space 2^ω with its finite-information/product topology",
+        "Π^0_1 means effectively closed in the convention of SRC-0042"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0042",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Corollary 2.3"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0039"
+      ],
+      "relations": []
+    },
+    {
+      "id": "THM-0042",
+      "name": "Weak genericity strictly interleaves the genericity hierarchy",
+      "statement": "For every n≥1, every (n+1)-generic real is weakly (n+1)-generic and every weakly (n+1)-generic real is n-generic; the containments are proper. Equivalently, n-generic ⊋ weakly (n+1)-generic ⊋ (n+1)-generic.",
+      "hypotheses": [
+        "Cantor-space arithmetical genericity notions of DEF-0040 and DEF-0041"
+      ],
+      "direction": "two strict implications with an index shift",
+      "source_support": [
+        {
+          "source": "SRC-0044",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction, printed p. 1; statement attributed there to Kurtz"
+        },
+        {
+          "source": "SRC-0040",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher extract confirms the original paper proves the interleaving hierarchy"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0040",
+        "DEF-0041"
+      ],
+      "relations": [
+        "REL-0035",
+        "REL-0036"
+      ],
+      "cautions": [
+        "The theorem does not identify weakly n-generic with n-generic; it explicitly places distinct levels between adjacent genericity levels."
+      ]
+    },
+    {
+      "id": "THM-0043",
+      "name": "Weak 1-genericity strictly implies Kurtz randomness",
+      "statement": "Every weakly 1-generic real is Kurtz-random, and the converse fails.",
+      "hypotheses": [
+        "Cantor space with the dense Σ^0_1-class definition of weak 1-genericity",
+        "fair-coin measure with the measure-one Σ^0_1-class definition of Kurtz randomness"
+      ],
+      "direction": "strict implication",
+      "source_support": [
+        {
+          "source": "SRC-0041",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "paragraph immediately before Definition 6"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0038",
+        "DEF-0013"
+      ],
+      "relations": [
+        "REL-0037"
+      ],
+      "cautions": [
+        "This is a specific primary-source bridge from category to measure; it is not a license to transfer other genericity statements to randomness or vice versa."
+      ]
+    },
+    {
+      "id": "THM-0044",
+      "name": "Weak 1-genericity is avoidance of all effectively meagre sets",
+      "statement": "For f∈2^ω, being outside every effectively meagre set (in the effective-F_sigma sense of DEF-0037) is the weakly 1-generic property.",
+      "hypotheses": [
+        "Cantor-space effective meagreness as in SRC-0043 §3.1"
+      ],
+      "direction": "characterization",
+      "source_support": [
+        {
+          "source": "SRC-0043",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "§3.1.1, D(∈M), printed p. 9"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0037",
+        "DEF-0038"
+      ],
+      "relations": [],
+      "cautions": [
+        "The source also develops oracle/highness analogues; this record extracts only the unrelativized pointwise genericity characterization needed for COV-0019."
       ]
     }
   ]
