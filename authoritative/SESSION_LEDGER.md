@@ -169,3 +169,30 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S007`, primary-source consolidation of COV-0015 (finite strings, random reals, left-c.e. reals and Ω), prioritizing exact object/domain distinctions and source-backed Chaitin/Ω/left-c.e.-random equivalences without reopening generalized-measure, oracle or stronger-test surveys.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+
+## P1-S007 — Finite strings, left-c.e. reals and Ω primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `173af3fe90eb6dc1cbddf20eab9e17ee7c9cd713`
+
+Scope completed: statement-level consolidation of finite-string versus infinite-sequence self-delimiting incompressibility; historical r.e./modern left-c.e. real conventions; arbitrary prefix-free/self-delimiting halting probabilities; universal-machine Chaitin Ω; binary-expansion qualifications; Ω left-c.e./Martin-Löf-randomness; and the exact characterization of Martin-Löf-random left-c.e. reals as Ω-numbers.
+
+Catalogue at close: 47 sources; 45 definitions; 48 theorem/characterization records; 41 relationship records; 1 status-sensitive question; 51 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 14 partial, 2 started-core, 1 started-edge, 1 navigation-only, 1 not-started. COV-0015 is now `PARTIAL_P1_S007`; COV-0006 and COV-0018 are also refreshed through P1-S007.
+
+Validation: PASS at closeout; all catalogue JSON parses; stable IDs are syntactically valid and unique; catalogue count/ID-set agreement holds; cross-file stable-ID references have zero unresolved references.
+
+Close record: `phase1/P1-S007_CLOSE.md`
+
+Meaningful retrieval/convention lessons: FL-013 preserves Chaitin reprint provenance and the prior near-title guard; FL-014 separates historical r.e./modern left-c.e. terminology, arbitrary prefix-free halting probabilities and universal Ω, while preserving the uninspected Solovay-manuscript gap.
+
+Explicit exclusions respected: no candidate invention/selection; no Phase-2 research target selection; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S008`, a deliberately small primary-source boundary pass on COV-0016 (pseudorandomness, resource-bounded randomness and derandomization) sufficient to distinguish bounded-observer pseudorandomness/resource-bounded measure from unbounded individual algorithmic randomness without opening a general complexity-theory survey.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
