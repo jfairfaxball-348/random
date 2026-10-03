@@ -1,7 +1,7 @@
 # Phase-1 Catalogue Taxonomy
 
 Status: **ACTIVE / evolving**  
-Last refined: 2026-10-03 in `P1-S002`
+Last refined: 2026-10-03 in `P1-S003`
 
 This taxonomy is a retrieval vocabulary, not a claim that all listed areas are already covered. Use the controlled tag families below in structured records and add aliases/search terms where the literature uses competing terminology.
 
@@ -38,6 +38,7 @@ The object tag matters: finite-string incompressibility is not itself an infinit
 - `notion:kurtz` — source-grounded as unqualified weak/weak-1 randomness
 - `notion:weak-n` — weakly n-random / w-n-random / Kurtz n-random in SRC-0027
 - `notion:weak-2` — distinct higher weak-n level, not an alias of unqualified Kurtz randomness
+- `notion:n-randomness` — Martin-Löf randomness relative to `∅^(n−1)` in P1-S003
 - `notion:kolmogorov-loveland`
 - `notion:church-selection`
 - `notion:demuth` — navigation only in P1-S001
@@ -97,6 +98,7 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `resource:c.e.`
 - `resource:lower-semicomputable`
 - `resource:oracle-relative`
+- `resource:uniform-relativization` — uniform family selected by the oracle; distinct from ordinary oracle computation for Schnorr/computable randomness
 - `resource:arithmetical-level`
 - `resource:higher-computability`
 - `resource:bounded-time` — boundary coverage pending
@@ -109,6 +111,10 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `oracle:base-for-randomness`
 - `oracle:traceability`
 - `oracle:turing-reducibility`
+- `oracle:jump-relativization`
+- `oracle:uniform-relative-randomness`
+
+P1-S003 convention guard: ordinary oracle relativization and uniform relativization are not interchangeable for Schnorr/computable randomness. The inspected van-Lambalgen records are fair-coin Cantor-space statements. Where `A⊕B` occurs in SRC-0032, it is even/odd interleaving.
 
 ## 10. Structural principles
 
@@ -118,6 +124,7 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `principle:measure-preserving-map`
 - `principle:computable-isomorphism`
 - `principle:ergodic-typicality`
+- `principle:van-lambalgen`
 
 ## 11. Relation types
 
@@ -197,5 +204,9 @@ Important query aliases include:
 - `collective` / `Kollektiv`
 - `Kurtz random` / `weakly random` / `weakly 1-random`
 - `weakly n-random` / `w-n-random` / `Kurtz n-random`
+- `A-random` / `Martin-Löf random relative to A`
+- `n-random` / `∅^(n−1)-random`
+- `uniformly relative Schnorr randomness` / `truth-table Schnorr randomness`
+- `uniformly relative computable randomness` / `truth-table reducible randomness`
 
 Do **not** collapse `weak 2-random` into unqualified `Kurtz random`: P1-S002 source inspection identifies them as different levels of the weak-n hierarchy. Aliases are search vocabulary, not automatic mathematical equivalences.
