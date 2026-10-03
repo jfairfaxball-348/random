@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S004",
+  "session": "P1-S005",
   "records": [
     {
       "id": "AUT-0001",
@@ -162,11 +162,13 @@
       "topics": [
         "computable-probability-spaces",
         "effective-measure",
-        "ergodic-theory"
+        "ergodic-theory",
+        "uniform-randomness-tests"
       ],
       "source_ids": [
         "SRC-0011",
-        "SRC-0012"
+        "SRC-0012",
+        "SRC-0038"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -176,11 +178,13 @@
       "topics": [
         "computable-probability-spaces",
         "effective-measure",
-        "ergodic-theory"
+        "ergodic-theory",
+        "uniform-randomness-tests"
       ],
       "source_ids": [
         "SRC-0011",
-        "SRC-0012"
+        "SRC-0012",
+        "SRC-0038"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -190,10 +194,12 @@
       "topics": [
         "computable-probability-spaces",
         "ergodic-theory",
-        "schnorr-randomness"
+        "schnorr-randomness",
+        "classes-of-measures"
       ],
       "source_ids": [
-        "SRC-0012"
+        "SRC-0012",
+        "SRC-0038"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -228,7 +234,8 @@
       "topics": [
         "randomness-conservation",
         "no-randomness-from-nothing",
-        "computable-randomness"
+        "computable-randomness",
+        "computable-measures"
       ],
       "source_ids": [
         "SRC-0015"
@@ -556,10 +563,12 @@
       "topics": [
         "oberwolfach-randomness",
         "coherent-tests",
-        "k-triviality"
+        "k-triviality",
+        "classes-of-measures"
       ],
       "source_ids": [
-        "SRC-0037"
+        "SRC-0037",
+        "SRC-0038"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -586,6 +595,20 @@
       ],
       "source_ids": [
         "SRC-0037"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0042",
+      "name": "Alexander Shen",
+      "topics": [
+        "algorithmic-randomness",
+        "uniform-randomness-tests",
+        "classes-of-measures",
+        "bernoulli-randomness"
+      ],
+      "source_ids": [
+        "SRC-0038"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
