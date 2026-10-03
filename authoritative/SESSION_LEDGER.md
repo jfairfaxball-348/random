@@ -88,3 +88,30 @@ Validation: PASS. Close record: `phase1/P1-S003_CLOSE.md`. Meaningful correction
 Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
 
 Recommended next bounded session: `P1-S004`, stronger test-randomness primary-source consolidation.
+
+
+## P1-S004 — Stronger test-randomness primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `93390ebd21e06d26e3b9ba4d80fe5a87ddd9341a`
+
+Scope completed: recovered and inspected Demuth's 1982 original source; normalized the modern Demuth-test change bound and Solovay-passing convention; added exact primary definitions of difference, balanced and Oberwolfach randomness; recorded only inspected implication, strictness, incomparability and characterization statements linking them to 2-randomness, weak 2-randomness and Martin-Löf randomness.
+
+Catalogue at close: 37 sources; 29 definitions; 31 theorem/characterization records; 25 relationship records; 1 status-sensitive question; 41 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 4 started-core, 10 partial, 1 started-edge, 1 early-navigation-only, 1 navigation-only, 2 not-started. COV-0010 and COV-0018 remain PARTIAL, now updated through P1-S004.
+
+Validation: PASS at closeout; JSON parse, stable-ID syntax/uniqueness, catalogue counts and cross-file stable-ID references validated with zero unresolved errors.
+
+Close record: `phase1/P1-S004_CLOSE.md`
+
+Meaningful retrieval/convention lessons: FL-001 Demuth portion resolved at statement level; FL-006 preserves the original-source language/notation boundary; FL-007 preserves the n-r.e. semantics collision and the Demuth-versus-weak-Demuth passing distinction.
+
+Explicit exclusions respected: no candidate invention/selection; no Phase-2 target selection; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S005`, primary-source consolidation of computable measures/probability spaces and generalized-measure randomness, including exact invariance/conservation hypotheses needed to connect COV-0001/COV-0012/COV-0013 without importing fair-coin conventions.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.

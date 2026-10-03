@@ -6,7 +6,7 @@
   "active_phase": 1,
   "active_phase_name": "Research / Catalogue",
   "active_session": null,
-  "last_completed_session": "P1-S003",
+  "last_completed_session": "P1-S004",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -45,15 +45,15 @@
     "not_started": 2
   },
   "catalogue_counts": {
-    "sources": 33,
-    "definitions": 25,
-    "theorems": 25,
-    "relations": 16,
+    "sources": 37,
+    "definitions": 29,
+    "theorems": 31,
+    "relations": 25,
     "questions": 1,
-    "authors": 35
+    "authors": 41
   },
   "next_transition": "Complete Phase 1 coverage and pass the Phase 1 -> Phase 2 gate before any Discovery work.",
-  "recommended_next_session": "P1-S004",
+  "recommended_next_session": "P1-S005",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
