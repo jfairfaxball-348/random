@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S005",
+  "session": "P1-S006",
   "records": [
     {
       "id": "AUT-0001",
@@ -79,7 +79,8 @@
         "SRC-0028",
         "SRC-0030",
         "SRC-0036",
-        "SRC-0037"
+        "SRC-0037",
+        "SRC-0043"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -101,7 +102,8 @@
         "SRC-0024",
         "SRC-0026",
         "SRC-0027",
-        "SRC-0030"
+        "SRC-0030",
+        "SRC-0044"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -121,7 +123,8 @@
         "SRC-0007",
         "SRC-0010",
         "SRC-0030",
-        "SRC-0036"
+        "SRC-0036",
+        "SRC-0044"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -152,7 +155,8 @@
         "SRC-0010",
         "SRC-0018",
         "SRC-0028",
-        "SRC-0031"
+        "SRC-0031",
+        "SRC-0041"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -355,7 +359,8 @@
       ],
       "source_ids": [
         "SRC-0021",
-        "SRC-0028"
+        "SRC-0028",
+        "SRC-0042"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -438,7 +443,8 @@
       ],
       "source_ids": [
         "SRC-0027",
-        "SRC-0031"
+        "SRC-0031",
+        "SRC-0041"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -468,7 +474,8 @@
       ],
       "source_ids": [
         "SRC-0030",
-        "SRC-0036"
+        "SRC-0036",
+        "SRC-0044"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -540,7 +547,8 @@
       ],
       "source_ids": [
         "SRC-0035",
-        "SRC-0036"
+        "SRC-0036",
+        "SRC-0043"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -581,7 +589,8 @@
         "k-triviality"
       ],
       "source_ids": [
-        "SRC-0037"
+        "SRC-0037",
+        "SRC-0044"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -609,6 +618,75 @@
       ],
       "source_ids": [
         "SRC-0038"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0043",
+      "name": "Carl G. Jockusch Jr.",
+      "topics": [
+        "genericity",
+        "n-genericity",
+        "forcing",
+        "turing-degrees"
+      ],
+      "source_ids": [
+        "SRC-0039"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0044",
+      "name": "Rutger Kuyper",
+      "topics": [
+        "1-genericity",
+        "effective-category",
+        "computable-analysis"
+      ],
+      "source_ids": [
+        "SRC-0042"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0045",
+      "name": "Jörg Brendle",
+      "topics": [
+        "effective-category",
+        "effective-meagreness",
+        "highness",
+        "cardinal-characteristics"
+      ],
+      "source_ids": [
+        "SRC-0043"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0046",
+      "name": "Andrew D. Brooke-Taylor",
+      "topics": [
+        "effective-category",
+        "effective-meagreness",
+        "highness",
+        "cardinal-characteristics"
+      ],
+      "source_ids": [
+        "SRC-0043"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0047",
+      "name": "Barbara F. Csima",
+      "topics": [
+        "genericity",
+        "n-genericity",
+        "weak-n-genericity",
+        "turing-degrees"
+      ],
+      "source_ids": [
+        "SRC-0044"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
