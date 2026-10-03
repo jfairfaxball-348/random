@@ -62,7 +62,9 @@
         "lowness",
         "k-triviality",
         "higher-randomness",
-        "KL-randomness"
+        "KL-randomness",
+        "relative-randomness",
+        "n-randomness"
       ],
       "source_ids": [
         "SRC-0005",
@@ -71,7 +73,8 @@
         "SRC-0016",
         "SRC-0018",
         "SRC-0027",
-        "SRC-0028"
+        "SRC-0028",
+        "SRC-0030"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -82,7 +85,9 @@
         "algorithmic-randomness",
         "schnorr-randomness",
         "computability",
-        "complexity"
+        "complexity",
+        "relative-randomness",
+        "n-randomness"
       ],
       "source_ids": [
         "SRC-0006",
@@ -90,7 +95,8 @@
         "SRC-0008",
         "SRC-0024",
         "SRC-0026",
-        "SRC-0027"
+        "SRC-0027",
+        "SRC-0030"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -100,12 +106,15 @@
       "topics": [
         "algorithmic-randomness",
         "computability",
-        "bases-for-randomness"
+        "bases-for-randomness",
+        "relative-randomness",
+        "n-randomness"
       ],
       "source_ids": [
         "SRC-0006",
         "SRC-0007",
-        "SRC-0010"
+        "SRC-0010",
+        "SRC-0030"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -128,12 +137,15 @@
       "topics": [
         "bases-for-randomness",
         "KL-randomness",
-        "computability"
+        "computability",
+        "relative-randomness",
+        "schnorr-randomness"
       ],
       "source_ids": [
         "SRC-0010",
         "SRC-0018",
-        "SRC-0028"
+        "SRC-0028",
+        "SRC-0031"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -308,10 +320,13 @@
       "topics": [
         "von-mises",
         "selection-rules",
-        "relative-randomness"
+        "relative-randomness",
+        "van-lambalgen",
+        "effective-fubini"
       ],
       "source_ids": [
-        "SRC-0020"
+        "SRC-0020",
+        "SRC-0033"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -401,10 +416,13 @@
       "topics": [
         "weak-2-randomness",
         "lowness",
-        "algorithmic-randomness"
+        "algorithmic-randomness",
+        "relative-randomness",
+        "schnorr-randomness"
       ],
       "source_ids": [
-        "SRC-0027"
+        "SRC-0027",
+        "SRC-0031"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
