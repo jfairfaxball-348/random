@@ -115,3 +115,30 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S005`, primary-source consolidation of computable measures/probability spaces and generalized-measure randomness, including exact invariance/conservation hypotheses needed to connect COV-0001/COV-0012/COV-0013 without importing fair-coin conventions.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+
+## P1-S005 — Computable-measure / computable-probability-space consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `10b6dbc073a15dbd7387488798dd7e77cc8a1510`
+
+Scope completed: statement-level consolidation of computable measures on Cantor space, computable metric/probability spaces, generalized Martin-Löf and Schnorr randomness, measure-parameter uniform tests, effective measure-preserving morphisms/isomorphisms, binary representation, atomless Lebesgue reduction, and the exact conservation/no-randomness-from-nothing cross-links needed for COV-0001/COV-0012/COV-0013.
+
+Catalogue at close: 38 sources; 36 definitions; 40 theorem/characterization records; 33 relationship records; 1 status-sensitive question; 42 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 12 partial, 2 started-core, 1 started-edge, 1 early-navigation-only, 1 navigation-only, 2 not-started. COV-0001, COV-0012, COV-0013 and COV-0018 are updated through P1-S005.
+
+Validation: PASS at closeout; JSON parse, stable-ID syntax/uniqueness, catalogue count/list agreement and cross-file stable-ID references have zero unresolved errors.
+
+Close record: `phase1/P1-S005_CLOSE.md`
+
+Meaningful retrieval/convention lessons: FL-008 separates arbitrary computable-measure Cantor representation from the atomless fixed-Lebesgue result; FL-009 separates measure-parameter uniform tests from uniform oracle relativization; FL-010 preserves the earliest standalone Martin-Löf NRFN provenance gap while retaining exact modern primary statements.
+
+Explicit exclusions respected: no candidate invention/selection; no Phase-2 target selection; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S006`, primary-source consolidation of effective category/genericity (COV-0019), including exact effective-meagreness/genericity definitions and only source-inspected comparison links to measure-based randomness, without turning the session into a general forcing/category survey.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
