@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 3,
-  "last_updated_session": "P3-S003",
+  "last_updated_session": "P3-S004",
   "records": [
     {
       "id": "PA-0001",
@@ -67,7 +67,39 @@
       "novelty_guard": "No openness or novelty conclusion is inferred from search absence. The exact finite-fibre restriction remains unresolved under the evidence inspected.",
       "original_mathematics_performed": false,
       "final_candidate_selected": false,
-      "gate3_review_performed": false
+      "gate3_review_performed": false,
+      "significance_assessment": {
+        "session": "P3-S004",
+        "disposition": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3",
+        "appears_mathematically_substantive": "YES_AS_A_RESEARCH_AXIS_NOT_AS_A_PROVED_RANDOMNESS_BOUNDARY",
+        "appears_merely_technical": "NOT_SUPPORTED_BY_CURRENT_EVIDENCE",
+        "supporting_primary_sources": [
+          "SRC-0065",
+          "SRC-0066"
+        ],
+        "literature_judgment": "Adjacent primary literature treats finite multiplicity as structural in ergodic/symbolic dynamics and factor-code/channel questions. Those sources impose stronger hypotheses and therefore support significance vocabulary only, not transfer of a computable-randomness theorem.",
+        "usefulness_conditions": [
+          "A sharp preservation or failure theorem for computable randomness under the exact globally k-to-one total fair-coin-preserving class.",
+          "An explanatory mechanism or intrinsic characterization showing what bounded ambiguity changes for effective betting/tests, without silently adding effective inverse branches.",
+          "A sharp boundary result separating bare cardinal finite fibres from effective isomorphism/inverse information and from unrestricted total-map counterexamples.",
+          "If a proper robustness class R_fin emerges, an intrinsic characterization and nontrivial comparison with established randomness notions.",
+          "Quantitative information-loss or coding consequences only if proved under the exact effective hypotheses; no O(log k) or similar bound is presumed."
+        ],
+        "likely_interested_communities": [
+          "algorithmic randomness and computability",
+          "computable analysis / effective probability",
+          "ergodic theory / symbolic dynamics",
+          "information theory / algorithmic information"
+        ],
+        "future_theorem_package": [
+          "Main exact preservation theorem or a sharp counterexample at finite multiplicity.",
+          "Structural characterization or transfer principle explaining the role of bounded ambiguity.",
+          "Sharpness/boundary theorem against effective inverse/isomorphism hypotheses and unrestricted non-conservation.",
+          "Natural examples/subclasses linking the abstract Cantor formulation to recognizable dynamics; if R_fin is proper, characterize it intrinsically.",
+          "Optional quantitative information consequence only after the exact hypotheses support it."
+        ],
+        "guard": "Novelty classification remains unchanged. No mathematical implication from finite cardinal fibres to effective inverse information, entropy control, channel capacity or randomness preservation is asserted."
+      }
     },
     {
       "id": "PA-0002",
