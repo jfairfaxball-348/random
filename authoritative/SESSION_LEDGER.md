@@ -580,3 +580,28 @@ Recommended next bounded session: `P3-S003`, dedicated primary-source prior-art 
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
 
+
+
+## P3-S003 — CAND-03 primary-source prior-art attack
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `ac2ff8cdba4783b8c5f06ee84588766ed8c27a22`, matching live `main` exactly. Repository search found no committed P3-S003 record before work began, so the session identifier was unique.
+
+Scope completed: one bounded primary-source prior-art attack on CAND-03 only.
+
+Result: **EQUIVALENT_OR_REBRANDED at the definition level**. Kihara–Miyabe (SRC-0064 / DEF-0065) define the parameterized universal uniform-lowness class `Low^star(C,D)`. With C=D=computable randomness and the DEF-0025 / SRC-0032 globally total, all-oracle-valid uniform martingale convention, CAND-03 is exactly `Low^star(CR,CR)`. It is retired as a candidate for a new named notion.
+
+No inspected primary statement characterized the specific `Low^star(CR,CR)` instance intrinsically. That narrower characterization question remains unresolved under inspected evidence and is not declared open. Ordinary low-for-CR (THM-0075), pairwise THM-0024/THM-0025 and existential baseness remain distinct.
+
+Records: `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S003_CLOSE.md`, `phase3/P3-S003_VALIDATION.md`, and PA-0003 in `phase3/prior-art.json`. Durable decision: D-0017. Quantifier/terminology guard: FL-043.
+
+Catalogue additions: SRC-0064, DEF-0065, THM-0075 and AUT-0069. Catalogue counts are now 64 sources, 65 definitions, 75 theorem/characterization records, 63 relations, 1 status question and 69 authors.
+
+DEF-0020 is unchanged. CAND-01 and CAND-02 were not substantively investigated and retain their prior Phase-3 dispositions. No original proof work, witness construction, experiment, Lean/Palomar use, final candidate selection, Gate-3 review, Phase-4 work, publication work or outreach occurred.
+
+Gate 1 and Gate 2 remain PASS; Phases 1–2 remain completed for gate purposes; Phase 3 remains OPEN; Gate 3 is NOT REVIEWED; Phases 4–5 remain CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S004`, a significance/usefulness and likely-interested-community assessment on surviving CAND-01 only.
