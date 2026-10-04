@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 3,
-  "last_updated_session": "P3-S005",
+  "last_updated_session": "P3-S006",
   "records": [
     {
       "id": "PA-0001",
@@ -274,5 +274,35 @@
       "final_candidate_selected": false,
       "gate3_review_performed": false
     }
-  ]
+  ],
+  "selection_readiness_audit": {
+    "session": "P3-S006",
+    "date": "2026-10-04",
+    "result": "READY_FOR_SELECTION_DECISION",
+    "audit_record": "phase3/P3-S006_SELECTION_READINESS_AUDIT.md",
+    "candidates_audited": [
+      "CAND-01",
+      "CAND-02"
+    ],
+    "candidate_judgments": {
+      "CAND-01": {
+        "readiness": "READY_AS_SELECTION_OPTION",
+        "prior_art_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "significance_status": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3",
+        "principal_risk": "Finite cardinal multiplicity has no established computable-randomness consequence and may prove mathematically inessential or routine."
+      },
+      "CAND-02": {
+        "readiness": "READY_AS_SELECTION_OPTION_WITH_ELEVATED_TECHNICAL_SLICE_RISK",
+        "prior_art_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "significance_status": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3_ELEVATED_TECHNICAL_SLICE_RISK",
+        "principal_risk": "Everywhere-totality may be only a representation slice that excludes a.e./partial witness constructions without changing randomness content."
+      }
+    },
+    "missing_readiness_categories": [],
+    "targeted_phase3_work_required": false,
+    "selection_performed": false,
+    "gate3_review_performed": false,
+    "next_session": "P3-S007",
+    "next_task": "Separate documented candidate-selection/NO-GO decision over CAND-01 and CAND-02 only; do not combine with Gate-3 review."
+  }
 }
