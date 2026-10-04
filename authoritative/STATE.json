@@ -6,7 +6,7 @@
   "active_phase": 2,
   "active_phase_name": "Discovery",
   "active_session": null,
-  "last_completed_session": "P2-S002",
+  "last_completed_session": "P2-S003",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 66
   },
-  "next_transition": "Continue bounded Phase-2 formulation work: P2-S003 on CAND-01 only (E1 map/fibre/inverse scope alignment). Gate 2 has not been reviewed or passed; Phases 3-5 remain closed.",
-  "recommended_next_session": "P2-S003",
+  "next_transition": "Continue bounded Phase-2 formulation work: P2-S004 on CAND-03 only (E3 uniform-family/universal-lowness scope alignment). Gate 2 has not been reviewed or passed; Phases 3-5 remain closed.",
+  "recommended_next_session": "P2-S004",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
@@ -83,7 +83,7 @@
   },
   "phase2_gate_status": "CLOSED_NOT_REVIEWED",
   "phase2_discovery": {
-    "last_session": "P2-S002",
+    "last_session": "P2-S003",
     "discovery_record": "phase2/P2-S001_DISCOVERY.md",
     "candidate_index": "phase2/candidates.json",
     "close_record": "phase2/P2-S001_CLOSE.md",
@@ -103,11 +103,16 @@
     "original_proof_work_performed": false,
     "external_literature_retrieval_performed": false,
     "phase1_catalogue_unchanged": false,
-    "next_formulation_task": "E1: CAND-01 map/fibre/effective-inverse scope alignment only",
-    "latest_alignment_record": "phase2/P2-S002_FORMULATION_ALIGNMENT.md",
-    "latest_close_record": "phase2/P2-S002_CLOSE.md",
+    "next_formulation_task": "E3: CAND-03 uniform-family and universal-lowness scope alignment only",
+    "latest_alignment_record": "phase2/P2-S003_FORMULATION_ALIGNMENT.md",
+    "latest_close_record": "phase2/P2-S003_CLOSE.md",
     "cand02_formulation_disposition": "RETAIN_UNCHANGED_AFTER_ALIGNMENT",
-    "resolved_formulation_task": "E2",
-    "catalogue_change_scope": "Evidence-scope clarification only for already-catalogued SRC-0058 / THM-0063 / THM-0064 / REL-0052 / REL-0053; no new stable IDs, theorem claims, definitions or implications."
+    "resolved_formulation_task": "E1",
+    "catalogue_change_scope": "No catalogue records changed in P2-S003. E1 was resolved from existing statement-inspected SRC-0011/SRC-0015 and the recorded THM-0035/THM-0037/THM-0038/THM-0008/THM-0039 conventions; DEF-0020 and all Phase-1 guards remain untouched.",
+    "cand01_formulation_disposition": "RETAIN_UNCHANGED_AFTER_ALIGNMENT",
+    "resolved_formulation_tasks": [
+      "E2",
+      "E1"
+    ]
   }
 }

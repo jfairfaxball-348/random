@@ -16,7 +16,7 @@ Papers and articles are normally linked and catalogued rather than copied into t
 
 ## Phase 2 — Discovery
 
-**Status:** OPEN. P2-S001 completed the first bounded Discovery portfolio; P2-S002 resolved CAND-02 formulation task E2 and retained that candidate unchanged after clarifying SRC-0058's a.e.-defined transformation convention. Three directions remain provisional and three remain rejected. No final candidate is selected. Gate 2 has not been reviewed; next is P2-S003, CAND-01 formulation alignment only (E1). See `phase2/P2-S001_DISCOVERY.md`, `phase2/P2-S002_FORMULATION_ALIGNMENT.md` and `phase2/candidates.json`.
+**Status:** OPEN. P2-S001 completed the first bounded Discovery portfolio. P2-S002 resolved CAND-02/E2, and P2-S003 resolved CAND-01/E1 by matching its everywhere-total fair-coin-preserving finite-fibre maps against the catalogue's a.e.-map, inverse and preimage conventions; CAND-01 is retained unchanged. Three directions remain provisional and three remain rejected. No final candidate is selected. Gate 2 has not been reviewed; next is P2-S004, CAND-03 formulation alignment only (E3). See `phase2/P2-S001_DISCOVERY.md`, `phase2/P2-S003_FORMULATION_ALIGNMENT.md` and `phase2/candidates.json`.
 
 **Purpose:** identify what appears genuinely open, structurally missing or mathematically worthwhile.
 

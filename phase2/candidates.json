@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P2-S002",
+  "last_updated_session": "P2-S003",
   "status": "DISCOVERY_ONLY",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -53,9 +53,7 @@
         "Catalogue does not evaluate bounded-fibre total maps; absence is not novelty evidence",
         "Do not import an a.e.-map theorem into a total-map witness claim"
       ],
-      "formulation_tasks": [
-        "E1"
-      ],
+      "formulation_tasks": [],
       "source_ids": [
         "SRC-0015",
         "SRC-0011"
@@ -85,12 +83,25 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P2-S001",
-      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "last_reviewed_in": "P2-S003",
+      "record_path": "phase2/P2-S003_FORMULATION_ALIGNMENT.md",
       "novelty_status": "NOT_ASSESSED",
       "literature_status": "NOT_ASSESSED",
       "original_proof_work_performed": false,
-      "final_candidate_selected": false
+      "final_candidate_selected": false,
+      "resolved_formulation_tasks": [
+        "E1"
+      ],
+      "formulation_disposition": "RETAIN_UNCHANGED_AFTER_ALIGNMENT",
+      "formulation_alignment": {
+        "session": "P2-S003",
+        "map_scope": "CAND-01 keeps everywhere-total computable fair-coin-preserving Cantor self-maps. This is narrower in domain-totality than SRC-0015's a.e.-computable map convention, but no forward computable-randomness conservation theorem is inferred from that syntactic inclusion.",
+        "fibre_scope": "For each fixed k>=1 the candidate requires the global cardinal condition |F^{-1}(y)|<=k for every y. This is retained as a set-theoretic fibre restriction. The candidate assumes no effective enumeration, selector or inverse branches for those fibres.",
+        "inverse_and_preimage_scope": "THM-0038 assumes an a.e.-computable inverse pair with inverse identities almost everywhere; CAND-01 does not assume that data. THM-0037 instead concludes existence of at least one computably random preimage of a computably random output under an a.e.-computable map. That existential reverse-direction conclusion is not forward preservation of computable randomness.",
+        "maximality_guard": "THM-0008 and THM-0039 concern Martin-Löf randomness and closure under conservation plus no-randomness-from-nothing. They do not supply a finite-to-one computable-randomness preservation theorem for CAND-01.",
+        "evidence": "The committed catalogue was sufficient. SRC-0011/SRC-0015 are already STATEMENT_INSPECTED and the exact hypotheses are recorded in DEF-0035/DEF-0036 and THM-0035/THM-0037/THM-0038/THM-0008/THM-0039. No source passage was reopened and no access level changed.",
+        "conclusion": "The exact CAND-01 formulation is not disposed of by the recorded map/isomorphism/preimage theorems. Retain it provisionally with shape unchanged and mark E1 resolved. This is not evidence of novelty, openness, separation or nontriviality, and no finite-to-one preservation theorem is asserted."
+      }
     },
     {
       "id": "CAND-02",
@@ -408,6 +419,6 @@
       ]
     }
   ],
-  "recommended_next_session": "P2-S003",
-  "recommended_next_scope": "CAND-01 formulation alignment only (E1): match total maps, global finite fibres and effective-inverse assumptions against the exact recorded map framework; no theorem search, witness construction, novelty audit or Gate-2 review."
+  "recommended_next_session": "P2-S004",
+  "recommended_next_scope": "CAND-03 formulation alignment only (E3): align universal lowness quantifiers and globally-total uniform-family coding against the exact recorded uniform-relativization and lowness/base conventions; no novelty audit, proof search or Gate-2 review."
 }

@@ -435,3 +435,26 @@ Recommended next bounded session: `P2-S003`, CAND-01 formulation alignment only 
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
 
+
+
+## P2-S003 — CAND-01 formulation alignment (E1)
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `f15cbc0f08493c0ce8993096d0a67fda904fe610`, matching live main exactly. P2-S003 was unused as a session record; incoming mentions were forward recommendations only.
+
+Scope completed: one bounded formulation-alignment pass on CAND-01 only. The catalogue was sufficient; no external source passage was reopened. The candidate's everywhere-total computable fair-coin-preserving maps with a global finite cardinal fibre bound were compared against the recorded morphism/isomorphism, existential-preimage and maximality conventions around SRC-0015 / THM-0035 / THM-0037 / THM-0038 / THM-0008 / THM-0039.
+
+Result: CAND-01 remains **RETAIN_PROVISIONAL**, shape unchanged, E1 resolved. A finite cardinal fibre bound remains a recorded restriction on the candidate map class; it is not silently replaced by the explicit inverse-map hypotheses of the catalogue's isomorphism results. THM-0037's existential random-preimage conclusion is not treated as forward randomness conservation.
+
+Catalogue synchronization: none required. No source, definition, theorem or relation record changed; DEF-0020 and all Phase-1 evidence/convention guards remain unchanged.
+
+Discovery record: `phase2/P2-S003_FORMULATION_ALIGNMENT.md`. Close: `phase2/P2-S003_CLOSE.md`. Validation: `phase2/P2-S003_VALIDATION.md`. Durable decision: D-0011. Meaningful formulation guard: FL-037.
+
+No final candidate selected; Fairfax-Ball Randomness not defined; no finite-to-one theorem search, witness construction, converse/equivalence search, novelty/prior-art audit, novelty claim, original proof work, experiments, Lean/Palomar, publication preparation or outreach. CAND-02 and CAND-03 were not expanded. Gate 1 remains PASS; Phase 1 COMPLETED for gate purposes; Phase 2 OPEN; Gate 2 CLOSED / NOT REVIEWED; Phases 3–5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P2-S004`, CAND-03 formulation alignment only (E3).
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.

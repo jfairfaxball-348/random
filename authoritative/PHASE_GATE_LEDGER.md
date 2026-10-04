@@ -83,3 +83,12 @@ P2-S002 resolved CAND-02 formulation task E2. The candidate remains **RETAIN_PRO
 
 This checkpoint makes no novelty, literature-openness, equivalence or separation claim and performs no Gate-2 review. The retained/rejected portfolio counts are unchanged. Gate 1 remains PASS; Phase 1 remains completed for gate purposes; Phase 2 remains OPEN; Gate 2 remains CLOSED / NOT REVIEWED; Phases 3–5 remain CLOSED. No owner/external blocker exists. Next scheduling is P2-S003 on CAND-01/E1 only.
 
+
+
+## Discovery checkpoint — P2-S003 (not a gate review)
+
+P2-S003 resolved CAND-01 formulation task E1. The candidate remains **RETAIN_PROVISIONAL** with its everywhere-total computable fair-coin-preserving / globally finite-fibre predicate unchanged and with no effective inverse branches assumed.
+
+The catalogue was sufficient: THM-0037 supplies existential random preimages under a.e.-computable maps, THM-0038 supplies computable-randomness invariance only under an a.e.-computable inverse pair, and THM-0035 supplies the corresponding Martin-Löf morphism/isomorphism framework. THM-0008 and THM-0039 remain Martin-Löf maximality results. None was promoted into a finite-to-one computable-randomness preservation theorem.
+
+This checkpoint makes no novelty, literature-openness, equivalence, separation or finite-to-one preservation claim and performs no Gate-2 review. The retained/rejected portfolio counts are unchanged. Gate 1 remains PASS; Phase 1 remains completed for gate purposes; Phase 2 remains OPEN; Gate 2 remains CLOSED / NOT REVIEWED; Phases 3–5 remain CLOSED. No owner/external blocker exists. Next scheduling is P2-S004 on CAND-03/E3 only.

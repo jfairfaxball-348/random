@@ -414,3 +414,15 @@ Resolution: SRC-0058, THM-0063, THM-0064, REL-0052 and REL-0053 now state the a.
 
 Lesson: "computable transformation" is not a complete type signature. Before transferring an effective-ergodic characterization to a candidate, record whether the source map is total, partial/a.e.-defined or layerwise computable, and keep that axis separate from observable effectivity and ergodicity.
 
+
+
+## FL-037 — Cardinal finite fibres, effective inverse data and random-preimage existence are distinct hypotheses
+
+Session: `P2-S003`  
+Status: RESOLVED AS FORMULATION DISCIPLINE / NO NEW THEOREM CLAIMED
+
+CAND-01 uses a global set-theoretic fibre bound on an everywhere-total computable fair-coin-preserving map and explicitly assumes no effective inverse branches. The nearby catalogue records use different resources: THM-0037 gives existence of a computably random preimage under an a.e.-computable map, while THM-0038's computable-randomness invariance assumes a pair of a.e.-computable measure-preserving maps with inverse identities almost everywhere. THM-0035 similarly builds inverse data into the probability-space isomorphism notion for Martin-Löf randomness.
+
+Resolution: E1 preserves these as distinct recorded formulations. P2-S003 does not infer an effective inverse from a finite fibre bound, does not turn existential no-randomness-from-nothing into forward conservation, and does not search for a theorem connecting the two.
+
+Lesson: when comparing randomness under observations, track separately (i) total versus a.e.-defined maps, (ii) cardinal fibre bounds, (iii) effective inverse/branch information, and (iv) the direction of a conservation versus preimage-existence theorem.

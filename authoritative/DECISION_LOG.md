@@ -55,3 +55,12 @@ The decisive formulation clarification is that SRC-0058's computable-transformat
 
 Decision: **RETAIN_PROVISIONAL, SHAPE UNCHANGED; E2 RESOLVED.** This is not target selection, novelty assessment, literature-openness assessment or a Gate-2 decision. Record: `phase2/P2-S002_FORMULATION_ALIGNMENT.md`.
 
+
+
+## D-0011 — Retain CAND-01 unchanged after exact finite-fibre formulation alignment
+
+On 2026-10-04, P2-S003 resolved E1 for CAND-01 without changing its predicate. CAND-01 continues to quantify over **everywhere-total computable fair-coin-preserving Cantor self-maps** with a **global finite cardinal fibre bound**, while explicitly assuming no effective inverse branches.
+
+The catalogue comparison keeps three notions separate: THM-0037 is an existential no-randomness-from-nothing preimage theorem for a.e.-computable maps; THM-0038 gives computable-randomness invariance only for an a.e.-computable inverse pair; and THM-0035 is a Martin-Löf morphism/isomorphism result with explicit inverse data in the isomorphism case. THM-0008/THM-0039 are Martin-Löf maximality characterizations, not finite-to-one computable-randomness preservation theorems.
+
+Decision: **RETAIN_PROVISIONAL, SHAPE UNCHANGED; E1 RESOLVED.** No finite-to-one preservation theorem was searched for or asserted. This is not target selection, novelty assessment, literature-openness assessment or a Gate-2 decision. Record: `phase2/P2-S003_FORMULATION_ALIGNMENT.md`.
