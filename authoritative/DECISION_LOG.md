@@ -148,3 +148,17 @@ This is conditional significance evidence only. The adjacent sources impose stro
 Continued investment requires an explanatory future theorem package: exact preservation/failure, a mechanism or intrinsic characterization, sharp boundary against explicit inverse and unrestricted regimes, natural examples/subclasses, and any information/coding consequence only if proved under the exact effective hypotheses. A routine yes/no adaptation with no essential role for finite multiplicity remains a significance falsifier.
 
 Record: `phase3/P3-S004_SIGNIFICANCE.md`.
+
+## D-0019 — Retain CAND-02 for comparison, with elevated technical-slice risk
+
+On 2026-10-04, P3-S005 completed the bounded significance/usefulness and likely-interested-community assessment on CAND-02.
+
+Decision: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT WITH ELEVATED TECHNICAL-SLICE RISK.** The judgment is about significance only. PA-0002 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and no openness, novelty, equivalence, material-distinctness or theorem claim is added.
+
+The positive case is source-backed. SRC-0058 explicitly treats weak-Birkhoff convergence as the appropriate nonergodic semantics and separates computable from lower-semicomputable observables. SRC-0062 independently treats c.e.-described analytic objects and Birkhoff convergence as a meaningful effectiveness axis. SRC-0063 shows that total computable Cantor dynamics with lower-semicomputable/effective observations occur in an established effective-dynamics framework.
+
+The live significance risk is also explicit: no inspected evidence shows that CAND-02's everywhere-total restriction changes randomness content rather than excluding the a.e./possibly-partial witness representations used in the closest nonergodic sources. Continued investment therefore requires an exact characterization together with a structural totality result and an observable-boundary result. A routine totalization/collapse or a reduction that makes the effectively-open restriction inessential is a significance falsifier.
+
+CAND-02 remains `RETAIN_PROVISIONAL`; its exact formula and E2 alignment are unchanged. CAND-01 is not re-assessed, retired CAND-03 stays retired, no final candidate is selected, Gate 3 is not reviewed and Phase 4 remains closed.
+
+Record: `phase3/P3-S005_SIGNIFICANCE.md`.
