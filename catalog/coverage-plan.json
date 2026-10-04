@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S012",
-  "status": "IN_PROGRESS",
+  "session": "P1-S013",
+  "status": "AUDIT_COMPLETE_READY_FOR_GATE1_REVIEW",
   "checked_on": "2026-10-04",
   "status_vocabulary": [
     "NOT_STARTED_P1_S001",
@@ -19,7 +19,10 @@
     "PARTIAL_P1_S006",
     "PARTIAL_P1_S007",
     "PARTIAL_P1_S008",
-    "PARTIAL_P1_S009"
+    "PARTIAL_P1_S009",
+    "PARTIAL_P1_S010",
+    "PARTIAL_P1_S011",
+    "PARTIAL_P1_S012"
   ],
   "records": [
     {
@@ -56,7 +59,13 @@
       ],
       "next_actions": [
         "Later close remaining foundational gaps only where they affect randomness definitions or theorem hypotheses; do not expand into a general computable-analysis survey."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "DELIBERATELY_BOUNDED_OMISSION",
+        "gate_critical_remediation_required": false,
+        "rationale": "General computable metric/probability-space machinery and exact generalized ML/Schnorr resources are statement-grounded. Arbitrary represented-space probability formalisms are outside the depth required for discovery."
+      }
     },
     {
       "id": "COV-0002",
@@ -93,7 +102,13 @@
       ],
       "next_actions": [
         "Add primary Borel/von Mises records and source-supported relationships among normality, Church stochasticity and modern notions."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "NONBLOCKING_PROVENANCE_IMPROVEMENT",
+        "gate_critical_remediation_required": false,
+        "rationale": "Church's effective selection formulation is statement-inspected and the historical/statistical territory is navigable. Direct Borel/von Mises originals and a fuller terminology crosswalk would improve provenance but are not needed for Gate 1."
+      }
     },
     {
       "id": "COV-0003",
@@ -135,7 +150,13 @@
       "next_actions": [
         "If a reliable copy of the original Solovay draft or Schnorr 1973 internal statements becomes available, inspect it to close the remaining provenance gaps; otherwise preserve the present later-primary exact formulations.",
         "Do not broaden COV-0003 by analogy into generalized measures, relativization, stronger tests or resource-bounded betting; those remain in their existing dedicated records."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Martin-Löf 1966 is statement-inspected; exact Solovay-test and c.e.-martingale characterizations are grounded in later primary literature. The uninspected Solovay draft and Schnorr 1973 internals are historical/provenance gaps, not dependencies of current theorem syntax."
+      }
     },
     {
       "id": "COV-0004",
@@ -186,7 +207,13 @@
       "next_actions": [
         "If accessible, close the original Schnorr/Kurtz internal-statement gap; otherwise preserve it.",
         "Connect weaker notions to generalized computable measures/spaces in a later bounded session without importing fair-coin conventions by analogy."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Core weaker notions and strictness relations are statement-grounded in later primary papers. Original Schnorr/Kurtz internals remain useful historical retrieval targets but exact catalogue claims do not depend on them."
+      }
     },
     {
       "id": "COV-0005",
@@ -227,7 +254,13 @@
       ],
       "next_actions": [
         "Acquire remaining historical martingale characterization sources and deepen KL/nonmonotonic machinery; preserve exact success/rate conventions."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "NONBLOCKING_PROVENANCE_IMPROVEMENT",
+        "gate_critical_remediation_required": false,
+        "rationale": "Betting/selection paradigms are represented with statement-level computable/Schnorr/Kurtz martingale resources. KL randomness remains abstract-level and should be re-inspected before any future discovery claim turns on its exact non-monotonic strategy convention."
+      }
     },
     {
       "id": "COV-0006",
@@ -265,7 +298,13 @@
       ],
       "next_actions": [
         "Inspect primary complexity definitions and original incompressibility-characterization sources; add conditional/monotone variants only where randomness-relevant."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Plain/prefix-free complexity and the finite-string/infinite-sequence interface are source-grounded. Kolmogorov 1965 and selected early Chaitin/Levin/Schnorr originals remain provenance improvements rather than missing support for current definitions."
+      }
     },
     {
       "id": "COV-0007",
@@ -299,7 +338,13 @@
       ],
       "next_actions": [
         "Inspect primary definitions and distinguish constructive dimension, strong dimension and resource-bounded variants."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "NONBLOCKING_PROVENANCE_IMPROVEMENT",
+        "gate_critical_remediation_required": false,
+        "rationale": "Constructive/effective dimension is discoverable through stable sources and theorem records, but the exact supergale definition and complexity characterization are still only abstract-level. Any Phase-2 use that depends materially on dimension must first upgrade those statements."
+      }
     },
     {
       "id": "COV-0008",
@@ -342,7 +387,13 @@
       "next_actions": [
         "Later extend relativization beyond fair-coin Cantor space with exact measure/representation hypotheses.",
         "If needed for the global relation graph, inspect the original counterexample paper behind failure of naive van-Lambalgen directions for ordinary Schnorr/computable randomness; do not infer it from definitions."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "DELIBERATELY_BOUNDED_OMISSION",
+        "gate_critical_remediation_required": false,
+        "rationale": "Ordinary versus uniform oracle relativization and van Lambalgen-type results are statement-grounded. Uninspected counterexample originals and arbitrary-measure relativization are outside the required Phase-1 depth."
+      }
     },
     {
       "id": "COV-0009",
@@ -385,7 +436,13 @@
       "next_actions": [
         "Treat COV-0009 as structurally partial rather than complete. Revisit only if the Phase-1 completion audit identifies a specific gate-relevant provenance or terminology gap.",
         "Do not launch a general traceability/cost-function/degree survey merely because those notions occur near K-triviality."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Low for ML randomness, low for K, K-triviality and base for randomness are distinct definitions joined only by inspected theorem records. Kučera-Terwijn 1999 internals remain inaccessible but later primary sources fully support the current equivalence package."
+      }
     },
     {
       "id": "COV-0010",
@@ -434,7 +491,13 @@
       "next_actions": [
         "Retain this stratum as partial until broader stronger-test variants and any generalized-measure/higher cross-links needed for Gate 1 are inspected; do not infer missing arrows from the current definitions.",
         "If historical priority details become decision-relevant, obtain an independent translation/secondary philological check for the 1982 Demuth notation rather than guessing from the scan."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "NONBLOCKING_PROVENANCE_IMPROVEMENT",
+        "gate_critical_remediation_required": false,
+        "rationale": "The stronger-test hierarchy is statement-grounded with the Demuth original plus modern primary normalization. The Demuth translation qualification remains explicit and is not a gate blocker."
+      }
     },
     {
       "id": "COV-0011",
@@ -475,7 +538,13 @@
       "next_actions": [
         "Retain COV-0011 at PARTIAL rather than complete: only deepen higher lowness/stronger-test variants if a later Gate-1 coverage audit identifies a concrete need.",
         "Preserve DEF-0020 as the finite n-randomness convention and keep continuous higher relativization separate from ordinary oracle relativization."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Principal higher-randomness definitions and strict comparisons are statement-grounded in later primary literature. Earlier Martin-Löf/Sacks originals remain historical navigation gaps and are not used to reconstruct unavailable syntax."
+      }
     },
     {
       "id": "COV-0012",
@@ -512,7 +581,13 @@
       ],
       "next_actions": [
         "Only if needed for Gate-1 completeness, trace the earliest standalone Martin-Löf NRFN provenance and any remaining exact map-class variants without reopening a broad stronger-randomness survey."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Conservation/NRFN statements and notion-specific failures are statement-grounded. Earliest standalone Martin-Löf no-randomness-from-nothing provenance remains unresolved but does not affect exact modern claims."
+      }
     },
     {
       "id": "COV-0013",
@@ -550,7 +625,13 @@
       ],
       "next_actions": [
         "A later coverage audit should decide whether the current primary computable-metric-space stratum is sufficient for Gate 1 or whether one bounded represented-space source is still needed."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "DELIBERATELY_BOUNDED_OMISSION",
+        "gate_critical_remediation_required": false,
+        "rationale": "Computable metric/probability spaces, representations, morphisms and generalized tests are statement-grounded. More general represented-space formalisms are deliberately outside scope."
+      }
     },
     {
       "id": "COV-0014",
@@ -588,7 +669,13 @@
       "next_actions": [
         "Retain COV-0014 at PARTIAL unless a later Gate-1 coverage audit identifies a concrete remaining ergodic-interface gap; do not expand into a general dynamics survey.",
         "If the Franklin-Greenberg-Miller-Ng effectively-closed-set theorem becomes necessary for Gate-1 completeness, obtain full statement-level primary access before promotion."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "The principal effective-Birkhoff interfaces are statement-grounded with hypotheses preserved. Franklin-Greenberg-Miller-Ng remains abstract-level, but no promoted theorem depends on its uninspected internal statement."
+      }
     },
     {
       "id": "COV-0015",
@@ -632,7 +719,13 @@
       "next_actions": [
         "If later Phase-1 completeness requires historical provenance beyond the present statement-level core, inspect the 1966/1969 Chaitin internals and the Solovay draft if accessible; otherwise preserve their access gaps explicitly.",
         "Keep future Ω additions hypothesis-exact: distinguish arbitrary prefix-free halting probabilities from universal-machine Ω-numbers and preserve binary-representation conventions."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Finite-string versus infinite-sequence distinctions, left-c.e. reals and Ω are statement-grounded. Selected early Chaitin originals and the Solovay draft remain provenance/history improvements only."
+      }
     },
     {
       "id": "COV-0016",
@@ -672,7 +765,13 @@
       "next_actions": [
         "Boundary objective satisfied for P1-S008 at partial depth: preserve the ensemble/individual-sequence/language-characteristic-sequence distinctions and the attached resource bounds.",
         "Do not expand this stratum into a general cryptography or complexity-theory survey unless later Gate-1 review identifies a concrete catalogue gap."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "DELIBERATELY_BOUNDED_OMISSION",
+        "gate_critical_remediation_required": false,
+        "rationale": "The intended boundary is met: computational pseudorandomness, resource-bounded individual randomness and derandomization are separated. Resource-bounded dimension and broader cryptographic/complexity variants are deliberately omitted."
+      }
     },
     {
       "id": "COV-0017",
@@ -709,7 +808,13 @@
       ],
       "next_actions": [
         "Add only sources that resolve terminology/provenance or materially explain formal design choices."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "DELIBERATELY_BOUNDED_OMISSION",
+        "gate_critical_remediation_required": false,
+        "rationale": "The mathematical boundary among typicality, unpredictability and incompressibility is represented. A general philosophy-of-probability survey is intentionally outside Phase-1 discovery-library depth."
+      }
     },
     {
       "id": "COV-0018",
@@ -766,7 +871,13 @@
       ],
       "next_actions": [
         "During the Phase-1 completion audit, test the cross-cutting graph for consequential missing primary provenance or hypotheses before deepening any already-partial stratum."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "DELIBERATELY_BOUNDED_OMISSION",
+        "gate_critical_remediation_required": false,
+        "rationale": "The relationship map contains inspected implications/equivalences/separations and explicitly avoids inferred converses or transitive edges. Exhaustive closure of the global graph is not required for Gate 1."
+      }
     },
     {
       "id": "COV-0019",
@@ -809,7 +920,32 @@
       "next_actions": [
         "If accessible in a later Phase-1 retrieval pass, inspect the internal statements of Jockusch 1980, Kurtz 1981 and Kurtz 1983; otherwise preserve their present access levels.",
         "Do not broaden COV-0019 by analogy: add further category/randomness comparisons only when an exact primary statement is inspected."
-      ]
+      ],
+      "p1_s013_audit": {
+        "disposition": "SUFFICIENT_FOR_GATE1_REVIEW",
+        "residual_gap_class": "HISTORICAL_NAVIGATION_GAP_REPLACED",
+        "gate_critical_remediation_required": false,
+        "rationale": "Effective category/genericity definitions and the bounded bridge to Kurtz randomness are statement-grounded in later primary sources. Jockusch/Kurtz originals remain historical provenance gaps only."
+      }
     }
-  ]
+  ],
+  "audit_disposition_vocabulary": [
+    "SUFFICIENT_FOR_GATE1_REVIEW",
+    "GATE_RELEVANT_REMEDIATION_REQUIRED"
+  ],
+  "residual_gap_class_vocabulary": [
+    "GATE_CRITICAL",
+    "NONBLOCKING_PROVENANCE_IMPROVEMENT",
+    "DELIBERATELY_BOUNDED_OMISSION",
+    "HISTORICAL_NAVIGATION_GAP_REPLACED"
+  ],
+  "audit_summary": {
+    "session": "P1-S013",
+    "completed": true,
+    "sufficient_for_gate1_review": 19,
+    "gate_relevant_remediation_required": 0,
+    "gate_critical_gaps": 0,
+    "coverage_statuses_retained_as_depth_history": true,
+    "note": "All 19 strata remain PARTIAL depth tags. P1-S013 separately records that their present depth is sufficient for a formal Gate-1 review; this is not a Gate-1 PASS and does not assert exhaustive literature coverage."
+  }
 }
