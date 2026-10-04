@@ -605,3 +605,32 @@ Gate 1 and Gate 2 remain PASS; Phases 1–2 remain completed for gate purposes; 
 Owner/external blocker: **NONE**.
 
 Recommended next bounded session: `P3-S004`, a significance/usefulness and likely-interested-community assessment on surviving CAND-01 only.
+
+
+## P3-S004 — CAND-01 significance/usefulness assessment
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `1d5a9b63305f1b75700d55c709b3e10d66d18e88`, matching live `main` exactly. Repository search found no committed P3-S004 record before work began, so the session identifier was unique.
+
+Scope completed: one bounded Phase-3 significance/usefulness and likely-interested-community assessment on CAND-01 only.
+
+Result: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**. Internally, the fixed global finite-fibre restriction is the live structural axis between unrestricted total fair-coin-preserving non-conservation (SRC-0061 / THM-0072) and positive computable-randomness invariance under explicit effective inverse-pair data (SRC-0015 / THM-0038). Adjacent primary literature provides significance support: SRC-0065 treats uniformly finite-to-one endomorphisms through entropy/conjugacy structure, and SRC-0066 treats finite-to-one symbolic factor codes in a deterministic-channel/information-theory setting.
+
+The judgment is explicitly conditional. Those adjacent sources impose stronger dynamical/shift hypotheses and supply no computable-randomness theorem for CAND-01's bare cardinal bound. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; no openness, novelty, material-distinctness or publishability claim is made. CAND-01 remains `RETAIN_PROVISIONAL` and is not selected.
+
+Future investment requires more than an isolated yes/no answer: an exact preservation/failure result, explanatory structural mechanism or intrinsic characterization, sharpness against explicit-inverse and unrestricted regimes, natural examples/subclasses, and any quantitative information/coding consequence only if actually proved.
+
+Records: `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S004_CLOSE.md`, `phase3/P3-S004_VALIDATION.md`. Durable decision: D-0018. Transfer/significance guard: FL-044.
+
+Catalogue additions: SRC-0065, SRC-0066 and AUT-0070 through AUT-0074. Catalogue counts are now 66 sources, 65 definitions, 75 theorem/characterization records, 63 relations, 1 status question and 74 authors.
+
+DEF-0020 is unchanged. CAND-02 and retired CAND-03 were not substantively investigated. No original proof work, witness construction, experiment, Lean/Palomar use, final candidate selection, Gate-3 review, Phase-4 work, publication work or outreach occurred.
+
+Gate 1 and Gate 2 remain PASS; Phases 1–2 remain completed for gate purposes; Phase 3 remains OPEN; Gate 3 is NOT REVIEWED; Phases 4–5 remain CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S005`, a significance/usefulness and likely-interested-community assessment on surviving CAND-02 only.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
