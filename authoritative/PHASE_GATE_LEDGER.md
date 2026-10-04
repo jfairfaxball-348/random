@@ -169,3 +169,14 @@ The specific intrinsic characterization of `Low^star(CR,CR)` remains unresolved 
 CAND-01 and CAND-02 retain their prior dispositions. No final candidate is selected. Gate 3 is **NOT REVIEWED** and Phase 4 remains **CLOSED**. DEF-0020 and existing convention guards remain unchanged.
 
 Record: `phase3/P3-S003_PRIOR_ART.md`; structured finding: `PA-0003`.
+
+
+## Novelty / significance checkpoint — P3-S004 (not a gate review)
+
+P3-S004 assessed CAND-01's significance/usefulness and plausible interested communities only.
+
+Result: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**. The exact fixed global finite-fibre restriction remains the live structural axis between known unrestricted total-map non-conservation and explicit-effective-inverse invariance. Adjacent primary sources SRC-0065 and SRC-0066 show that finite multiplicity is structurally meaningful in ergodic/symbolic dynamics and channel-style factor-code questions, but their stronger hypotheses do not transfer a computable-randomness result to CAND-01.
+
+PA-0001's novelty disposition remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No candidate is selected, Gate 3 is **NOT REVIEWED**, Phase 4 remains **CLOSED**, and no original mathematics was performed. DEF-0020 and all existing convention/evidence guards remain unchanged.
+
+Record: `phase3/P3-S004_SIGNIFICANCE.md`.
