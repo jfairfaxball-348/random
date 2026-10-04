@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P3-S001",
+  "last_updated_session": "P3-S002",
   "status": "PHASE3_PRIOR_ART_IN_PROGRESS",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -157,7 +157,9 @@
         "SRC-0058",
         "SRC-0057",
         "SRC-0012",
-        "SRC-0027"
+        "SRC-0027",
+        "SRC-0062",
+        "SRC-0063"
       ],
       "definition_ids": [
         "DEF-0059",
@@ -172,24 +174,28 @@
         "THM-0059",
         "THM-0060",
         "THM-0018",
-        "THM-0006"
+        "THM-0006",
+        "THM-0073",
+        "THM-0074"
       ],
       "relation_ids": [
         "REL-0052",
         "REL-0053",
         "REL-0050",
         "REL-0012",
-        "REL-0006"
+        "REL-0006",
+        "REL-0062",
+        "REL-0063"
       ],
       "coverage_ids": [
         "COV-0004",
         "COV-0014"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P2-S002",
-      "record_path": "phase2/P2-S002_FORMULATION_ALIGNMENT.md",
-      "novelty_status": "NOT_ASSESSED",
-      "literature_status": "NOT_ASSESSED",
+      "last_reviewed_in": "P3-S002",
+      "record_path": "phase3/P3-S002_PRIOR_ART.md",
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S002_COMPLETE",
       "original_proof_work_performed": false,
       "final_candidate_selected": false,
       "resolved_formulation_tasks": [
@@ -203,6 +209,23 @@
         "nonergodic_guard": "CAND-02 requires convergence only. No equality with lambda(U) is required. THM-0059/THM-0060 identify the limit with the expectation only under ergodicity and are retained solely as that guard.",
         "evidence": "SRC-0058 was locally reinspected at the smallest blocking passages in the already-catalogued arXiv copy: Definition 1.4, Section 2 transformation representation, Section 4 converse construction, and Section 5 lower-semicomputable theorem. SRC-0057 did not require renewed external access because its exact ergodic hypotheses were already statement-inspected in the catalogue.",
         "conclusion": "The exact CAND-02 predicate is not disposed of by THM-0063 because the source converse witness is not established everywhere total. THM-0064 remains a sufficient-condition benchmark, not a characterization of the candidate predicate. No converse, separation, novelty or literature-openness claim is made."
+      },
+      "prior_art_ids": [
+        "PA-0002"
+      ],
+      "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "prior_art_summary": {
+        "session": "P3-S002",
+        "exact_shape_changed": false,
+        "closest_framework": "SRC-0058 / THM-0063 / THM-0064 nonergodic weak-Birkhoff framework under a.e.-defined transformations",
+        "additional_nonergodic_sufficiency": "SRC-0062 / THM-0073: Oberwolfach randomness suffices for lower-semicomputable observables, with T explicitly not assumed total",
+        "total_effectively_open_benchmark": "SRC-0063 / THM-0074: total computable Cantor actions and effectively-open indicators, but ergodic expectation-equality in an automorphism/Folner framework",
+        "live_discriminator": "everywhere-total arbitrary fair-coin-preserving self-maps plus effectively-open indicators with nonergodic convergence-only characterization semantics",
+        "already_known": "NOT_ESTABLISHED",
+        "equivalent_or_rebranded": "NOT_ESTABLISHED",
+        "materially_distinct": "NOT_ESTABLISHED",
+        "openness_claimed": false,
+        "conclusion": "Exact CAND-02 status remains unresolved under the inspected primary evidence."
       }
     },
     {
@@ -454,8 +477,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P3-S002",
-  "recommended_next_scope": "Phase-3 primary-source prior-art attack on CAND-02 only: search alternate terminology/equivalent formulations and closest known results for its everywhere-total fair-coin-preserving nonergodic dynamics with effectively-open indicator observables and convergence-only semantics; no original mathematics, final candidate selection, Gate-3 review or Phase-4 work.",
+  "recommended_next_session": "P3-S003",
+  "recommended_next_scope": "Phase-3 primary-source prior-art attack on CAND-03 only; no original mathematics, final candidate selection, Gate-3 review or Phase-4 work.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
@@ -506,7 +529,7 @@
     "phase3_opened": true
   },
   "phase3_prior_art": {
-    "last_session": "P3-S001",
+    "last_session": "P3-S002",
     "structured_record": "phase3/prior-art.json",
     "cand01": {
       "prior_art_id": "PA-0001",
@@ -515,7 +538,13 @@
       "exact_finite_fibre_match_located": false,
       "openness_claimed": false
     },
-    "cand02": "NOT_ASSESSED",
+    "cand02": {
+      "prior_art_id": "PA-0002",
+      "disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "framework_overlap": "SUBSTANTIAL_WITH_EFFECTIVE_NONERGODIC_BIRKHOFF_RESULTS",
+      "exact_total_nonergodic_effectively_open_characterization_located": false,
+      "openness_claimed": false
+    },
     "cand03": "NOT_ASSESSED",
     "candidate_selected": false,
     "gate3_review_performed": false
