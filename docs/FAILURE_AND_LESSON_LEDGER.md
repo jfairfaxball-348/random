@@ -331,3 +331,24 @@ Resolution: SRC-0021 remains `ABSTRACT_INSPECTED`. Exact low-for-random/K-trivia
 
 Lesson: an archive listing “full text” is not statement access if the actual payload cannot be inspected. Later primary restatements may support current theorem syntax, but they do not erase the original-source provenance gap.
 
+## FL-029 — Coverage depth labels are not Gate-1 outcomes
+
+Session: `P1-S013`  
+Status: RESOLVED AUDIT-DISCIPLINE CLARIFICATION
+
+At the P1-S012 checkpoint every coverage record was labelled `PARTIAL`, which correctly described literature depth but did not answer the Gate-1 question. `docs/GATE_POLICY.md` requires a completed coverage audit and a library fit to support discovery; it does not require every stratum to be declared exhaustive or `COMPLETE`.
+
+Resolution: P1-S013 leaves all 19 historical `PARTIAL_...` labels intact and adds a separate per-stratum audit disposition. All 19 are judged `SUFFICIENT_FOR_GATE1_REVIEW`; 0 require gate-critical remediation. Residual source-access and depth gaps remain explicit and do not disappear merely because the library is ready to be reviewed.
+
+Lesson: catalogue depth/provenance status and phase-gate readiness are separate dimensions. Never manufacture `COMPLETE` labels merely to satisfy a gate, and never treat `PARTIAL` as automatic gate failure when the gate policy asks for bounded discovery readiness rather than exhaustive literature closure.
+
+## FL-030 — Coverage-plan status vocabulary lagged live record values
+
+Session: `P1-S013`  
+Status: RESOLVED STRUCTURAL CONSISTENCY CORRECTION
+
+The P1-S013 structural audit found that `catalog/coverage-plan.json` contained live records with `PARTIAL_P1_S010`, `PARTIAL_P1_S011` and `PARTIAL_P1_S012`, but its declared `status_vocabulary` stopped at `PARTIAL_P1_S009`.
+
+Resolution: the missing already-used values were added to the declared vocabulary. No coverage record's substantive status was changed.
+
+Lesson: validate enumerated vocabularies against values actually used in records, not only JSON syntax and ID references. An aggregate schema can drift even when all individual records are internally coherent.
