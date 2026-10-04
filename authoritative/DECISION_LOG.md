@@ -27,3 +27,14 @@ Bootstrap creates only architecture. All research phases remain closed pending e
 ## D-0007 — Owner opens Phase 1
 
 On 2026-10-03 the owner explicitly authorized opening Phase 1 — Research / Catalogue — and P1-S001. Phase 1 may perform bounded literature mapping and catalogue construction. Phases 2–5 remain CLOSED. Candidate invention/selection, dedicated novelty audits, original mathematics, formalisation, publication work and external outreach remain unauthorized. This authorization does not constitute a PASS of the Phase 1 -> Phase 2 gate.
+
+
+## D-0008 — Gate 1 PASS opens Phase 2 Discovery
+
+On 2026-10-04, bounded review session `P1-S014` formally recorded **PASS** for Gate 1 — Research/Catalogue -> Discovery.
+
+The decision is based on the Gate-1 standard in `docs/GATE_POLICY.md`: the committed library is fit to support discovery, not that all literature has been found. The 19 historical coverage records remain partial-depth records; their P1-S013 audit dispositions remain 19/19 sufficient for review with 0 gate-critical remediation gaps.
+
+Residual provenance/access gaps remain live. In particular, abstract-level Kolmogorov-Loveland and constructive-dimension material must be upgraded before a Phase-2 claim materially relies on exact formulations, and the deliberately minimal COV-0016 boundary remains deliberate.
+
+Effect: Phase 1 is complete for gate purposes; Phase 2 — Discovery is OPEN; Phases 3–5 remain CLOSED. P1-S014 performed no Phase-2 discovery, selected no candidate and made no novelty claim.
