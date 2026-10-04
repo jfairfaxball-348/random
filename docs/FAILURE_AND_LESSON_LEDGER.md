@@ -509,3 +509,11 @@ Adjacent primary literature makes finite multiplicity mathematically substantive
 Resolution: P3-S004 records only a conditional significance judgment. CAND-01's novelty status remains unresolved, and no mathematical consequence is inferred from the adjacent literature. The future value test requires an exact theorem plus explanatory structure under CAND-01's own hypotheses.
 
 Lesson: use adjacent structural literature to justify why a parameter is worth investigating, but never use it to smuggle in stronger hypotheses or mathematical conclusions. Keep cardinal multiplicity, effective inverse information, dynamical uniformity and quantitative information bounds separate.
+
+## FL-045 — An unmatched conjunction of hypotheses is not yet a significance case
+
+Context: P3-S005 assessed CAND-02 after P3-S002 had already shown that no inspected theorem matched its exact conjunction of everywhere-total maps, effectively-open indicators and nonergodic convergence-only semantics.
+
+Lesson: a syntactically unmatched intersection can still be a technical slice. Significance requires independent mathematical motivation for the component axes **and** evidence or a future theorem showing that their interaction matters. In effective dynamics, total versus a.e./partial representation is especially dangerous: excluding a known witness class may create an apparent gap without creating a new randomness phenomenon.
+
+Operational guard: keep three questions separate in later work. (1) Are the component notions natural? (2) Does the exact interaction change the mathematics? (3) Is the resulting predicate novel? A positive answer to (1) does not settle (2), and neither settles (3). For CAND-02, totality remains the principal structural-risk item until a theorem or decisive source addresses it.
