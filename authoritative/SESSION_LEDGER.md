@@ -527,3 +527,29 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P3-S001`, dedicated primary-source prior-art attack on CAND-01 only. No Phase-4 mathematics or final candidate selection is authorized in that session.
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+## P3-S001 — CAND-01 primary-source prior-art attack
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `aa245847cb71116f9a8916277bab71a754e53414`, matching live `main` exactly. The incoming session ledger contained no P3-S001 entry and no committed P3-S001 record existed; forward scheduling mentions did not consume the session ID.
+
+Scope completed: one bounded primary-source prior-art attack on CAND-01 only.
+
+Result: **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. SRC-0060 / DEF-0064 identify the closest named framework as endomorphism randomness, under which unrestricted a.e.-computable measure-preserving endomorphisms do not preserve ordinary computable randomness (THM-0071). SRC-0061 / THM-0072 show that even an everywhere-total truth-table functional inducing fair-coin measure can destroy computable randomness. Neither inspected primary source states CAND-01's fixed global finite-cardinality fibre bound, so the exact restricted preservation question is not disposed of.
+
+CAND-01 is not declared open, novel, materially distinct, equivalent/rebranded or already known. Its exact formula and E1 alignment remain unchanged. CAND-02 and CAND-03 were not investigated and remain NOT_ASSESSED for Phase-3 prior-art purposes.
+
+Records: `phase3/P3-S001_PRIOR_ART.md`, `phase3/P3-S001_CLOSE.md`, `phase3/P3-S001_VALIDATION.md`, and PA-0001 in `phase3/prior-art.json`. Durable decision: D-0015. Hypothesis guard: FL-041.
+
+Catalogue additions: SRC-0060, SRC-0061, DEF-0064, THM-0071, THM-0072, REL-0060 and REL-0061. Catalogue counts are now 61 sources, 64 definitions, 72 theorem/characterization records, 61 relations, 1 status question and 66 authors.
+
+DEF-0020 is unchanged. No original proof work, witness construction, experiment, Lean/Palomar use, final candidate selection, Gate-3 review, Phase-4 work, publication work or outreach occurred.
+
+Gate 1 and Gate 2 remain PASS; Phases 1–2 remain completed for gate purposes; Phase 3 remains OPEN; Gate 3 is NOT REVIEWED; Phases 4–5 remain CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S002`, dedicated primary-source prior-art attack on CAND-02 only.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
