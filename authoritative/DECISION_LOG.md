@@ -135,3 +135,16 @@ Decision: **REJECT_PRIOR_ART_REBRANDING** for CAND-03 as a candidate for a new n
 This decision does **not** claim that the specific intrinsic characterization of `Low^star(CR,CR)` is known or open. No such characterization was located in the inspected statements, and no conclusion is inferred from absence. SRC-0009 / THM-0075 remains an ordinary-relativization contrast only; THM-0024/THM-0025 remain pairwise/existential; baseness remains existential.
 
 Record: `phase3/P3-S003_PRIOR_ART.md`; structured finding: `PA-0003`.
+
+
+## D-0018 — CAND-01 significance case provisionally survives, without novelty or selection
+
+On 2026-10-04, P3-S004 assessed CAND-01's significance/usefulness and plausible interested communities without performing mathematics or a Gate-3 review.
+
+Decision: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**. The fixed global finite-fibre restriction is not treated as a cosmetic parameter: within the programme it is the surviving axis between known unrestricted total fair-coin-preserving non-conservation and positive invariance with explicit effective inverse data; adjacent primary literature also treats finite multiplicity as structural in uniformly finite-to-one endomorphisms and finite-to-one symbolic factor codes (SRC-0065, SRC-0066).
+
+This is conditional significance evidence only. The adjacent sources impose stronger entropy, conditional-weight, shift or factor-code structure and do not transfer a computable-randomness theorem to CAND-01. PA-0001 therefore remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and CAND-01 remains `RETAIN_PROVISIONAL`, not selected.
+
+Continued investment requires an explanatory future theorem package: exact preservation/failure, a mechanism or intrinsic characterization, sharp boundary against explicit inverse and unrestricted regimes, natural examples/subclasses, and any information/coding consequence only if proved under the exact effective hypotheses. A routine yes/no adaptation with no essential role for finite multiplicity remains a significance falsifier.
+
+Record: `phase3/P3-S004_SIGNIFICANCE.md`.
