@@ -260,7 +260,8 @@
         "computable-measures"
       ],
       "source_ids": [
-        "SRC-0015"
+        "SRC-0015",
+        "SRC-0060"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -292,7 +293,8 @@
         "algorithmic-randomness-history"
       ],
       "source_ids": [
-        "SRC-0016"
+        "SRC-0016",
+        "SRC-0061"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -616,7 +618,8 @@
         "SRC-0037",
         "SRC-0038",
         "SRC-0054",
-        "SRC-0057"
+        "SRC-0057",
+        "SRC-0061"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
