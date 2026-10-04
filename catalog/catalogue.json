@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "status": "IN_PROGRESS",
+  "status": "PHASE1_AUDIT_COMPLETE_GATE1_REVIEW_PENDING",
   "active_session": null,
   "last_validated_on": "2026-10-04",
   "record_files": {
@@ -471,9 +471,9 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "P1-S012 consolidates COV-0009 at primary statement level without opening a general computability-theory survey. Nies 2005 is upgraded from abstract-only to statement-inspected support for exact K-triviality, low-for-Martin-Löf-randomness and low-for-prefix-free-K definitions and for the theorem chain showing that those three classes coincide. Hirschfeldt-Nies-Stephan 2007 supplies the exact existential base-for-R definition and statement-level support that bases for 1-randomness are exactly the K-trivial sets. Base, lowness and complexity notions remain separate definition nodes; ordinary oracle-relative Martin-Löf randomness is preserved; finite-string prefix-free K is not conflated with infinite-sequence randomness; and no degree closure, traceability, cost-function or Schnorr/computable-lowness survey is inferred. COV-0009 is PARTIAL_P1_S012. All 19 strata are now partial, but 0 are complete and Gate 1 remains NOT_READY_FOR_REVIEW pending a bounded completion/source-gap audit.",
-  "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S012",
+  "coverage_summary": "P1-S013 completed the catalogue-wide Gate-1 completion/source-gap audit. All 19 coverage strata retain their historical PARTIAL depth labels, but each is explicitly dispositioned as sufficient for formal Gate-1 review. No gate-critical literature remediation remains. Residual gaps are classified as nonblocking provenance improvements, deliberately bounded omissions, or historical/navigation gaps already replaced by statement-inspected later primary literature. The audit preserves all convention guards and identifies abstract-level constructive-dimension/KL material as a discovery-time caution rather than silently upgrading it. Gate 1 is READY_FOR_REVIEW but has not been reviewed or passed.",
+  "gate_1_status": "READY_FOR_REVIEW",
+  "last_completed_session": "P1-S013",
   "coverage": [
     "COV-0001",
     "COV-0002",
@@ -494,5 +494,13 @@
     "COV-0017",
     "COV-0018",
     "COV-0019"
-  ]
+  ],
+  "phase1_audit": {
+    "session": "P1-S013",
+    "result": "MINIMUM_PHASE1_EVIDENCE_ASSEMBLED",
+    "coverage_records_audited": 19,
+    "gate_critical_gaps": 0,
+    "formal_gate1_review_required": true,
+    "audit_record": "phase1/P1-S013_GATE1_AUDIT.md"
+  }
 }
