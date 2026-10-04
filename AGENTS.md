@@ -6,11 +6,13 @@ Read `authoritative/START_HERE.md` first. The committed repository is authoritat
 
 ## Current phase restriction
 
-Phase 1 — **Research / Catalogue** — is OPEN by explicit owner authorization recorded on 2026-10-03. Phases 2–5 remain CLOSED.
+Gate 1 — Research/Catalogue -> Discovery — **PASSED** in `P1-S014` on 2026-10-04. Phase 1 is complete for gate purposes. Phase 2 — **Discovery** — is OPEN. Phases 3–5 remain CLOSED.
 
-Phase-1 work may build the durable literature catalogue, coverage map, definitions, theorem/characterization records, relation records, author/topic indexes, status-question records and search logs. It must not perform candidate invention or selection, dedicated novelty/prior-art audits of hypothetical new notions, original mathematical investigation, Lean formalisation, Palomar registration, manuscript/publication work or external outreach.
+Phase-2 work may build a bounded portfolio of candidate directions/questions/definition shapes from the committed Phase-1 library, with motivation, relationships to known notions, plausible theorem packages, falsifiers, dependencies and risk. Discovery must keep “appears interesting” separate from “is novel.”
 
-Opening Phase 1 is not a PASS of the Phase 1 -> Phase 2 gate.
+Phase 2 must not conduct the dedicated primary-source novelty/prior-art attack reserved for Phase 3, assert novelty, begin original mathematical proof search, use Lean/Palomar for new mathematics, draft a manuscript, prepare publication, or conduct external outreach.
+
+Gate-1 PASS means the library is fit to support discovery; it does not mean the catalogue is exhaustive. Residual provenance/access gaps and weak-evidence cautions remain authoritative and must be upgraded before a Discovery claim relies on them decisively.
 
 ## Programme objective
 
