@@ -543,3 +543,15 @@ Scope: significance/usefulness and likely-interested-community assessment only. 
 4. Plausible communities are algorithmic randomness/computability and effective probability at core; ergodic/symbolic dynamics and information theory become plausible only if a future theorem builds an actual bridge.
 
 Disposition: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**, while PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** for novelty/prior art.
+
+## P3-S005 — bounded significance-source recheck for CAND-02 (2026-10-04)
+
+Purpose: significance/usefulness assessment only; not a renewed novelty search.
+
+Primary-source queries/rechecks:
+- Franklin–Towsner, *Randomness and Non-Ergodic Systems*, arXiv:1206.2682 — current arXiv primary page/full HTML rechecked for the weak-Birkhoff/nonergodic distinction, computable versus lower-semicomputable observable axis, and the source's a.e.-defined transformation construction.
+- Miyabe–Nies–Zhang, *Using almost-everywhere theorems from analysis to study randomness*, arXiv:1411.0732 — current primary page rechecked for the c.e.-described-object/effective-analysis motivation and Birkhoff-convergence scope already statement-inspected as SRC-0062.
+- Moriakov, *On Effective Birkhoff's Ergodic Theorem for Computable Actions of Amenable Groups*, arXiv:1701.06365 — current primary page rechecked as the established total-computable-Cantor-dynamics benchmark already recorded as SRC-0063.
+- Gács–Hoyrup–Rojas, *Randomness on Computable Probability Spaces — A Dynamical Point of View*, arXiv:0902.1939 — current primary page rechecked only as adjacent dynamical-typicality context already recorded as SRC-0012.
+
+Outcome: no new source ID or theorem record was required. The recheck supports significance vocabulary for the component axes but supplies no exact CAND-02 theorem and no novelty/open-status upgrade.
