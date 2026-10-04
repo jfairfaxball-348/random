@@ -122,3 +122,16 @@ This is not a finding that CAND-02 is open, novel, materially distinct or publis
 
 Record: `phase3/P3-S002_PRIOR_ART.md`; structured finding: `PA-0002`.
 
+
+
+## D-0017 — Retire CAND-03: its exact oracle class is the existing Low-star(CR,CR) instance
+
+On 2026-10-04, P3-S003 performed one bounded primary-source prior-art attack on CAND-03.
+
+Kihara–Miyabe's SRC-0064 explicitly defines `Low^star(C,D)` as the oracles A such that every C-random is D-random uniformly relative to A, with uniform tests supplied by a total computable procedure valid across all oracle instances. With C=D=computable randomness and the exact uniform martingale-family convention of SRC-0032 / DEF-0025, CAND-03's `L_u` is the `Low^star(CR,CR)` instance at the definition level.
+
+Decision: **REJECT_PRIOR_ART_REBRANDING** for CAND-03 as a candidate for a new named notion. Its formula and E3 alignment are unchanged; the literature classification changes from NOT_ASSESSED to **EQUIVALENT_OR_REBRANDED**.
+
+This decision does **not** claim that the specific intrinsic characterization of `Low^star(CR,CR)` is known or open. No such characterization was located in the inspected statements, and no conclusion is inferred from absence. SRC-0009 / THM-0075 remains an ordinary-relativization contrast only; THM-0024/THM-0025 remain pairwise/existential; baseness remains existential.
+
+Record: `phase3/P3-S003_PRIOR_ART.md`; structured finding: `PA-0003`.
