@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S009",
+  "session": "P1-S010",
   "records": [
     {
       "id": "AUT-0001",
@@ -180,7 +180,8 @@
       "source_ids": [
         "SRC-0011",
         "SRC-0012",
-        "SRC-0038"
+        "SRC-0038",
+        "SRC-0057"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -518,7 +519,8 @@
       ],
       "source_ids": [
         "SRC-0031",
-        "SRC-0035"
+        "SRC-0035",
+        "SRC-0058"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -607,7 +609,8 @@
       "source_ids": [
         "SRC-0037",
         "SRC-0038",
-        "SRC-0054"
+        "SRC-0054",
+        "SRC-0057"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -654,7 +657,8 @@
         "bernoulli-randomness"
       ],
       "source_ids": [
-        "SRC-0038"
+        "SRC-0038",
+        "SRC-0057"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -900,6 +904,60 @@
       ],
       "source_ids": [
         "SRC-0053"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0061",
+      "name": "Vladimir V. V'yugin",
+      "topics": [
+        "algorithmic-randomness",
+        "ergodic-theory",
+        "effective-birkhoff",
+        "computable-dynamics"
+      ],
+      "source_ids": [
+        "SRC-0056"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0062",
+      "name": "Adam Day",
+      "topics": [
+        "algorithmic-randomness",
+        "ergodic-theory",
+        "effective-birkhoff"
+      ],
+      "source_ids": [
+        "SRC-0057"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0063",
+      "name": "Ilya Mezhirov",
+      "topics": [
+        "algorithmic-randomness",
+        "ergodic-theory",
+        "effective-birkhoff"
+      ],
+      "source_ids": [
+        "SRC-0057"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0064",
+      "name": "Henry Towsner",
+      "topics": [
+        "algorithmic-randomness",
+        "ergodic-theory",
+        "non-ergodic-systems",
+        "effective-birkhoff"
+      ],
+      "source_ids": [
+        "SRC-0058"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }

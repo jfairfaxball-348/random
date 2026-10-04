@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S009",
+  "session": "P1-S010",
   "records": [
     {
       "id": "DEF-0001",
@@ -50,7 +50,8 @@
         "REL-0009",
         "REL-0011",
         "REL-0016",
-        "REL-0020"
+        "REL-0020",
+        "REL-0052"
       ],
       "source_support": [
         {
@@ -183,7 +184,9 @@
       ],
       "formal_summary": "For a computable probability measure P on 2^ω, a Martin-Löf P-test is a uniformly effectively open sequence (U_n) with P(U_n)≤2^-n; a real is P-Martin-Löf random iff it avoids every resulting effective P-null set. SRC-0038 also gives the equivalent average-bounded lower-semicomputable integral-test form.",
       "equivalent_characterizations": [],
-      "relationships": [],
+      "relationships": [
+        "REL-0050"
+      ],
       "source_support": [
         {
           "source": "SRC-0011",
@@ -501,7 +504,8 @@
         "REL-0012",
         "REL-0019",
         "REL-0021",
-        "REL-0025"
+        "REL-0025",
+        "REL-0053"
       ],
       "source_support": [
         {
@@ -1046,7 +1050,9 @@
       "equivalent_characterizations": [],
       "relationships": [
         "REL-0026",
-        "REL-0031"
+        "REL-0031",
+        "REL-0051",
+        "REL-0054"
       ],
       "source_support": [
         {
@@ -1082,7 +1088,8 @@
       ],
       "relationships": [
         "REL-0027",
-        "REL-0030"
+        "REL-0030",
+        "REL-0006"
       ],
       "source_support": [
         {
@@ -1868,6 +1875,131 @@
       "cautions": [
         "This record follows the inspected higher primary formulation and does not transfer the lower difference-test definition DEF-0027 by analogy.",
         "The characterization is stated for higher Martin-Löf-random X."
+      ]
+    },
+    {
+      "id": "DEF-0056",
+      "name": "T-typical point in the Gács-Hoyrup-Rojas dynamical framework",
+      "object_domain": "point x in a computable probability space (X,μ) equipped with a measure-preserving endomorphism T",
+      "effective_resources": "the surrounding system/endomorphism is computable in the paper's computable-probability-space sense; typicality itself quantifies over bounded continuous observables",
+      "framework": "Birkhoff typicality / computable dynamics",
+      "measure_assumptions": "μ is the invariant computable probability measure; the definition itself does not assume atomlessness, while THM-0006 does",
+      "relativization": "not an oracle-randomness notion",
+      "aliases": [
+        "T-typical point",
+        "typical point for T",
+        "Birkhoff typical point"
+      ],
+      "formal_summary": "x is T-typical when for every bounded continuous f:X→R, the averages n^{-1}Σ_{i<n} f(T^i x) converge to ∫f dμ. The source remarks that its main theorem also shows the definition is unchanged if 'continuous' is replaced by 'computable'.",
+      "equivalent_characterizations": [
+        "THM-0006"
+      ],
+      "relationships": [
+        "REL-0006"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.28 and Remark 3.29 / corresponding STACS numbering"
+        }
+      ],
+      "cautions": [
+        "This is equality-to-expectation typicality. It is stronger in wording than mere convergence ('weak Birkhoff') used in DEF-0059.",
+        "THM-0006's principal equivalence assumes the computable probability space has no atoms."
+      ]
+    },
+    {
+      "id": "DEF-0057",
+      "name": "Polynomially mixing and independent systems in the Gács-Hoyrup-Rojas framework",
+      "object_domain": "computable measure-preserving dynamical system (X,T,μ)",
+      "effective_resources": "an essential countable family E={E_i} of almost-decidable events; computable correlation-decay constants c_{i,j} and a polynomial exponent α>0",
+      "framework": "effective mixing / correlation decay",
+      "measure_assumptions": "μ is T-invariant; correlation C_n(A,B)=μ(T^{-n}A∩B)-μ(A)μ(B) on the designated event family",
+      "relativization": "not applicable",
+      "aliases": [
+        "mixing computable dynamics",
+        "polynomially mixing system",
+        "independent endomorphism"
+      ],
+      "formal_summary": "The system is polynomially mixing if some α>0 and essential family of almost-decidable events E satisfy |C_n(E_i,E_j)|≤c_{i,j}/n^α for all n≥1, with c_{i,j}>0 computable from i,j. It is independent when these correlations are eventually 0.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0006"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0012",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.30 / corresponding STACS definition"
+        }
+      ],
+      "cautions": [
+        "'Mixing' here is the paper's effective polynomial-correlation condition, not an unqualified import of every classical mixing notion.",
+        "THM-0006 separately requires the ambient computable probability space to be atomless."
+      ]
+    },
+    {
+      "id": "DEF-0058",
+      "name": "μ-layerwise computable function",
+      "object_domain": "function f:X→Y between computable metric spaces, with X carrying computable probability measure μ",
+      "effective_resources": "a universal μ-Martin-Löf test induces increasing random layers R_n^μ; f is computable on each R_n^μ uniformly in n",
+      "framework": "layerwise computability / effective probability",
+      "measure_assumptions": "(X,μ) is a computable probability space",
+      "relativization": "the layer index comes from a universal μ-Martin-Löf test, not ordinary oracle relativization",
+      "aliases": [
+        "layerwise computable",
+        "mu-layerwise computable"
+      ],
+      "formal_summary": "Let R^μ=⋃_n R_n^μ be the canonical Martin-Löf-random layers from a universal μ-test. A function is μ-layerwise computable when its restriction to every R_n^μ is computable uniformly in n.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0051",
+        "REL-0054"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0057",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 3.3, definition following the universal-test layer decomposition"
+        }
+      ],
+      "cautions": [
+        "Composition is not automatically layerwise computable; SRC-0057 adds a measure-preservation condition for the composition principle used in the ergodic arguments.",
+        "Layerwise computability is not the same resource as ordinary oracle relativization or the measure-parameter uniform tests of DEF-0006."
+      ]
+    },
+    {
+      "id": "DEF-0059",
+      "name": "Weak Birkhoff point and Birkhoff point relative to an observable class",
+      "object_domain": "point x in a probability space X with measure-preserving transformation T and a designated class F⊂L1",
+      "effective_resources": "resource depends on the chosen transformation/observable class in the theorem using the definition",
+      "framework": "pointwise ergodic convergence / typicality",
+      "measure_assumptions": "T is measure-preserving; observables are integrable",
+      "relativization": "not applicable",
+      "aliases": [
+        "weak Birkhoff point",
+        "Birkhoff point",
+        "weakly Birkhoff"
+      ],
+      "formal_summary": "x is weak Birkhoff for (T,F) when the Birkhoff average converges for every f∈F. It is Birkhoff for (T,F) when, additionally, each limit equals ∫f dμ.",
+      "equivalent_characterizations": [
+        "THM-0063"
+      ],
+      "relationships": [
+        "REL-0052",
+        "REL-0053"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0058",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 1.4"
+        }
+      ],
+      "cautions": [
+        "In nonergodic systems, convergence alone does not identify the limit with the space expectation.",
+        "The Franklin-Towsner characterization theorems recorded in P1-S010 are fair-coin Cantor-space results; this general definition does not by itself generalize them."
       ]
     }
   ]

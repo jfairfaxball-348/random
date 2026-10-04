@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 55,
-    "definitions": 55,
-    "theorems": 57,
-    "relations": 49,
+    "sources": 58,
+    "definitions": 59,
+    "theorems": 64,
+    "relations": 54,
     "questions": 1,
-    "authors": 60,
+    "authors": 64,
     "coverage_records": 19
   },
   "sources": [
@@ -79,7 +79,10 @@
     "SRC-0052",
     "SRC-0053",
     "SRC-0054",
-    "SRC-0055"
+    "SRC-0055",
+    "SRC-0056",
+    "SRC-0057",
+    "SRC-0058"
   ],
   "definitions": [
     "DEF-0001",
@@ -136,7 +139,11 @@
     "DEF-0052",
     "DEF-0053",
     "DEF-0054",
-    "DEF-0055"
+    "DEF-0055",
+    "DEF-0056",
+    "DEF-0057",
+    "DEF-0058",
+    "DEF-0059"
   ],
   "theorems": [
     "THM-0001",
@@ -195,7 +202,14 @@
     "THM-0054",
     "THM-0055",
     "THM-0056",
-    "THM-0057"
+    "THM-0057",
+    "THM-0058",
+    "THM-0059",
+    "THM-0060",
+    "THM-0061",
+    "THM-0062",
+    "THM-0063",
+    "THM-0064"
   ],
   "relations": [
     "REL-0001",
@@ -246,7 +260,12 @@
     "REL-0046",
     "REL-0047",
     "REL-0048",
-    "REL-0049"
+    "REL-0049",
+    "REL-0050",
+    "REL-0051",
+    "REL-0052",
+    "REL-0053",
+    "REL-0054"
   ],
   "questions": [
     "QST-0001"
@@ -311,7 +330,11 @@
     "AUT-0057",
     "AUT-0058",
     "AUT-0059",
-    "AUT-0060"
+    "AUT-0060",
+    "AUT-0061",
+    "AUT-0062",
+    "AUT-0063",
+    "AUT-0064"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -391,7 +414,14 @@
     "higher difference randomness",
     "continuous higher randomness",
     "higher Turing reducibility",
-    "omega_1^CK"
+    "omega_1^CK",
+    "effective Birkhoff theorem",
+    "Birkhoff typicality",
+    "computable measure-preserving transformation",
+    "layerwise computable",
+    "effective recurrence",
+    "non-ergodic Birkhoff",
+    "mixing computable dynamics"
   ],
   "coverage_records": [
     "COV-0001",
@@ -414,9 +444,9 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "P1-S009 consolidated COV-0011 at statement-level primary-source depth: Δ1^1-randomness and Δ1^1-Martin-Löf randomness are source-proved equivalent; Π1^1-Martin-Löf randomness and Π1^1-randomness remain distinct with a strict hierarchy; higher weak 2-randomness is placed strictly between Π1^1-randomness and Δ1^1-randomness; and the minimum continuous-higher difference-randomness characterization/hierarchy is recorded. Source-specific terminology, title/access provenance and the distinction between continuous higher resources and ordinary oracle relativization are explicit. DEF-0020 remains the unchanged finite jump convention. P1-S009 also corrected the stale P1-S007 aggregate session/coverage prose left in catalogue.json after P1-S008. Phase 1 remains incomplete, especially for the effective-ergodic interface, resource-bounded dimension depth, and remaining foundational-source access/provenance gaps.",
+  "coverage_summary": "P1-S010 consolidated COV-0014 at primary statement level. The catalogue now distinguishes Gács-Hoyrup-Rojas atomless computable-probability-space Schnorr characterization by their exact effective mixing/independence notions; V'yugin's computable-measure Cantor-space Martin-Löf Birkhoff convergence with the nonergodic/ergodic limit distinction; Bienvenu-Day-Hoyrup-Mezhirov-Shen effective recurrence and Birkhoff theorems including computable-probability-space μ-layerwise extensions; and Franklin-Towsner's fair-coin nonergodic Martin-Löf characterization plus weak-2/lower-semicomputable convergence. Generalized-measure, transformation, observable and randomness resources are kept separate. COV-0014 is PARTIAL_P1_S010, not complete; Phase 1 remains incomplete with COV-0003 and COV-0009 still STARTED_CORE and other partial/source-provenance gaps outstanding.",
   "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S009",
+  "last_completed_session": "P1-S010",
   "coverage": [
     "COV-0001",
     "COV-0002",

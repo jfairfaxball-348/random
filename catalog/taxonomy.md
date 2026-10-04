@@ -354,3 +354,15 @@ Additional retrieval aliases from P1-S009:
 - `higher weak 2-random` / `Π^ck_2-random`
 - `higher difference random`
 - `higher Turing reducibility` / `continuous higher computability`
+
+
+## P1-S010 effective-ergodic convention guard
+
+Effective-ergodic records must carry four resources explicitly: the ambient probability space/measure, the computability representation of the transformation, the observable class, and the randomness notion. “Effective Birkhoff theorem” is not a single theorem schema that permits these resources to be swapped by analogy.
+
+- Gács-Hoyrup-Rojas: the principal Schnorr characterization is on an **atomless computable probability space**. Their T-typicality is Birkhoff equality for bounded continuous observables (with a source remark permitting computable observables), and their “mixing” is a specific effective polynomial correlation-decay condition on an essential family of almost-decidable events.
+- V'yugin: Cantor space carries an **arbitrary computable probability measure** P. For computable P-preserving T and computable f, P-Martin-Löf randomness gives convergence; ergodicity is additionally needed to force the limit to E_P(f).
+- Bienvenu-Day-Hoyrup-Mezhirov-Shen: the Cantor-space results use computable μ, an a.e.-defined computable μ-preserving ergodic T, and effectively open/closed indicators or nonnegative lower semicomputable observables. Their general computable-probability-space extension weakens T to **μ-layerwise computable** while retaining measure preservation and ergodicity; layerwise computability is not ordinary oracle relativization.
+- Franklin-Towsner: the inspected converse and weak-2 results are **fair-coin Cantor-space** statements. Their weak Birkhoff property means convergence only; their Birkhoff property additionally fixes the integral as the limit.
+
+Accordingly, do not infer that a classical almost-everywhere ergodic theorem characterizes any effective randomness notion. Do not transfer the P1-S004 stronger-test hierarchy, P1-S006 genericity, P1-S007 Ω, P1-S008 pseudorandomness or P1-S009 higher randomness into the dynamical setting without an inspected theorem. Minimal shift/frequency specializations are permitted only under the exact stationary/computable-measure hypotheses of the supporting source.

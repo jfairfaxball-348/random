@@ -249,3 +249,30 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S010`, primary-source consolidation of COV-0014 (effective probability/ergodic-theory interfaces), because after P1-S009 it is the sole STARTED_EDGE stratum and the Gate-1 ledger still identifies the effective-ergodic interface as a material coverage gap.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+
+## P1-S010 — Probability and ergodic-theory interfaces primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `20c8bda3b5b1f4f3be7a6f531aaf1e29b58e3dd0`
+
+Scope completed: primary-source consolidation of COV-0014, bounded to exact effective Birkhoff/typicality interfaces. The session records Gács-Hoyrup-Rojas's atomless computable-probability-space Schnorr characterization with the source's exact effective mixing/independence resources; V'yugin's computable-measure Cantor-space Martin-Löf convergence theorem and its nonergodic/ergodic limit split; Bienvenu-Day-Hoyrup-Mezhirov-Shen recurrence and effective Birkhoff theorems with computable-probability-space/layerwise extensions; and Franklin-Towsner's fair-coin nonergodic Martin-Löf characterization and weak-2/lower-semicomputable convergence result.
+
+Catalogue at close: 58 sources; 59 definitions; 64 theorem/characterization records; 54 relationship records; 1 status-sensitive question; 64 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 17 partial, 2 started-core, 0 started-edge, 0 navigation-only, 0 not-started. COV-0014 is now `PARTIAL_P1_S010`.
+
+Validation: PASS at closeout; all modified catalogue/state JSON parses; stable IDs are syntactically valid and unique; catalogue count/ID-set agreement holds; cross-file stable-ID references resolve; COV-0014 is exactly `PARTIAL_P1_S010`; and `DEF-0020` is unchanged from the incoming checkpoint.
+
+Close record: `phase1/P1-S010_CLOSE.md`
+
+Meaningful retrieval/convention/correction lessons: FL-022 repairs the atomlessness/generalized-Schnorr scope of THM-0006/REL-0006; FL-023 preserves the distinction between nonergodic convergence and ergodic equality to expectation; FL-024 preserves inspected-copy versus publication identity and the Franklin-Greenberg-Miller-Ng access gap.
+
+Explicit exclusions respected: no general ergodic-theory/dynamical-systems/computable-analysis survey; no Fairfax-Ball candidate invention/selection; no Phase-2 target selection; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S011`, primary-source consolidation of COV-0003 (foundational Martin-Löf randomness), because after P1-S010 the only non-partial strata are COV-0003 and COV-0009 at STARTED_CORE, and the foundational Martin-Löf stratum is the higher-value dependency for the catalogue-wide theorem/characterization graph.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.

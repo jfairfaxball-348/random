@@ -315,3 +315,34 @@ Bounded objective: consolidate COV-0011 at primary-source statement level, restr
 No general admissible-set/descriptive-set-theory survey; no transfinite-recursion survey; no general higher-lowness programme; no broad higher-stronger-test hierarchy; no finite-level implication imported without an inspected higher theorem; no generalized-measure/category/Ω/resource-bounded transfer; no Fairfax-Ball candidate invention or selection; no Phase-2 target selection; no novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication preparation; no outreach.
 
 Result: COV-0011 becomes `PARTIAL_P1_S009`. It is no longer the catalogue's sole navigation-only stratum, but it is not marked complete and Gate 1 remains unchanged.
+
+
+## P1-S010 — 2026-10-04
+
+Scope: bounded primary-source consolidation of COV-0014, limited to effective/computable measure-preserving dynamics, exact effective Birkhoff/typicality theorems, direct randomness links, necessary recurrence, and minimal shift/frequency orientation. This was not a general ergodic-theory, dynamical-systems, computable-analysis or probability survey.
+
+### Primary sources inspected / re-inspected
+
+- SRC-0012 (Gács-Hoyrup-Rojas): re-inspected the full primary text around T-typicality, correlation functions, polynomial mixing/independence, Theorem 3.3.1 and the atomic remark. This corrected the previous catalogue's missing **no-atoms** hypothesis and its fair-coin relation node.
+- SRC-0056 (V. V. V'yugin): SIAM publication identity/DOI was cross-checked; a full author-uploaded English translation was inspected at Theorem 2 and the surrounding computable-measure/transformation setup. The theorem was recorded as convergence for general computable measure-preserving T, with equality to expectation only in the ergodic case.
+- SRC-0057 (Bienvenu-Day-Hoyrup-Mezhirov-Shen): publisher metadata plus arXiv v2/full primary text were inspected for effective recurrence, effective Birkhoff statements for effectively open/closed sets and lower semicomputable observables, μ-layerwise computability, and the explicit computable-probability-space extension.
+- SRC-0058 (Franklin-Towsner): MathNet/journal identity and DOI were cross-checked; the arXiv primary copy was inspected for Definition 1.4, the non-Martin-Löf-random converse construction, the positive computable-observable convergence theorem and the weak-2/lower-semicomputable convergence result.
+
+### Exact convention / hypothesis reconciliation
+
+1. The main Gács-Hoyrup-Rojas Schnorr/mixing theorem assumes the computable probability space is **atomless**. Atomic mixing/ergodic cases are separate source remarks.
+2. Generalized Schnorr randomness is DEF-0034, not fair-coin DEF-0003, in that theorem.
+3. V'yugin works on binary-sequence Cantor space with an arbitrary computable probability measure; fair coin is not assumed.
+4. In nonergodic systems, convergence of Birkhoff averages does not imply the limit equals the space expectation. Franklin-Towsner's weak-Birkhoff/Birkhoff distinction and V'yugin's ergodic clause are recorded separately.
+5. Bienvenu et al.'s general-space extension uses computable probability spaces and μ-layerwise computable, measure-preserving, ergodic maps. This is neither ordinary oracle relativization nor an arbitrary represented-space theorem.
+6. Franklin-Towsner's inspected nonergodic converse and weak-2 results remain fair-coin Cantor-space statements.
+
+### Retrieval failures / provenance qualifications
+
+- The final author-hosted Franklin-Towsner PDF timed out during retrieval. The publication identity is verified independently, but exact promoted statements/theorem pointers use the inspected arXiv copy; final theorem numbering is not asserted.
+- Franklin-Greenberg-Miller-Ng, _Martin-Löf random points satisfy Birkhoff's ergodic theorem for effectively closed sets_ (Proc. AMS 140(10), 2012; DOI 10.1090/S0002-9939-2012-11179-7), was located at publisher/JSTOR abstract level, but a full primary copy was not statement-inspected in this pass. Its detailed theorem is therefore not promoted into the stable theorem graph.
+- No unavailable statement was filled from a textbook, survey, abstract or citation summary.
+
+### Bounded exclusions
+
+No Fairfax-Ball candidate was invented or selected; no Phase-2 target was selected; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no general recurrence/mixing/dynamical-systems survey; no Lean/Palomar; no manuscript/publication work; no outreach.

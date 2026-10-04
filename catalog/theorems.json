@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S009",
+  "session": "P1-S010",
   "records": [
     {
       "id": "THM-0001",
@@ -132,28 +132,36 @@
     },
     {
       "id": "THM-0006",
-      "name": "Schnorr randomness characterized by typicality for mixing computable dynamics",
-      "statement": "In the computable-probability-space framework of Gács, Hoyrup and Rojas, Schnorr randomness is characterized by typicality for every mixing computable dynamical system in the precise effective sense developed there.",
+      "name": "Atomless computable-probability-space Schnorr characterization by mixing/independent typicality",
+      "statement": "Let (X,μ) be a computable probability space with no atoms. For x∈X, the following are equivalent: x is Schnorr random; x is T-typical for every mixing endomorphism T; and x is T-typical for every independent endomorphism T, with mixing/independence and T-typicality exactly as in DEF-0056/DEF-0057.",
       "hypotheses": [
-        "computable probability space and the authors' effective dynamical notions"
+        "(X,μ) is a computable probability space",
+        "μ has no atoms",
+        "endomorphisms are computable-probability-space endomorphisms in the source framework",
+        "T-typicality is Birkhoff equality for every bounded continuous observable; the source remarks computable observables yield the same definition",
+        "mixing means the source's effective polynomial correlation-decay condition on an essential family of almost-decidable events; independence means eventual zero correlation on that family"
       ],
       "direction": "equivalence",
       "source_support": [
         {
           "source": "SRC-0012",
           "evidence": "STATEMENT_INSPECTED",
-          "pointer": "full paper main theorem and Section 3 definitions"
+          "pointer": "Definitions 3.28-3.30, Theorem 3.3.1 and Remark 3.3.1 / corresponding STACS numbering"
         }
       ],
       "related_definitions": [
         "DEF-0032",
-        "DEF-0034"
+        "DEF-0034",
+        "DEF-0056",
+        "DEF-0057"
       ],
       "relations": [
         "REL-0006"
       ],
       "cautions": [
-        "This is a general computable-probability-space statement; DEF-0003 is only the fair-coin specialization."
+        "The atomlessness hypothesis is part of the main theorem and was missing from the pre-P1-S010 catalogue summary.",
+        "The source treats atomic spaces separately: a mixing endomorphism exists only for a Dirac measure; an ergodic endomorphism exists only for a uniform finite atomic measure, with a separate typicality/Schnorr statement.",
+        "Do not turn the atomless computable-probability-space theorem into a fair-coin-only statement, or conversely use the fair-coin specialization to erase the arbitrary atomless computable measure."
       ]
     },
     {
@@ -1520,6 +1528,216 @@
       ],
       "cautions": [
         "SRC-0054 factors the hierarchy through higher Oberwolfach randomness and separately supplies the separation; P1-S009 records only the resulting direct placement needed for COV-0011."
+      ]
+    },
+    {
+      "id": "THM-0058",
+      "name": "V'yugin effective Birkhoff convergence for Martin-Löf-random sequences",
+      "statement": "Let P be a computable probability measure on Cantor space, T a computable P-measure-preserving transformation, and f a computable real-valued function. Then the Birkhoff averages of f along T converge at every P-Martin-Löf-random sequence ω to an integrable T-invariant function \\bar f(ω) with E_P(\\bar f)=E_P(f). If T is ergodic, then \\bar f(ω)=E_P(f) at every such random ω.",
+      "hypotheses": [
+        "P is a computable Borel probability measure on infinite binary sequences",
+        "T is computable and preserves P",
+        "f is a computable real-valued observable",
+        "ω is Martin-Löf random with respect to P",
+        "ergodicity is required only for identifying the limit with E_P(f), not for convergence itself"
+      ],
+      "direction": "randomness implies pointwise Birkhoff convergence; ergodicity identifies the limit",
+      "source_support": [
+        {
+          "source": "SRC-0056",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 2 and surrounding computability definitions"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0005"
+      ],
+      "relations": [
+        "REL-0050"
+      ],
+      "cautions": [
+        "The measure is an arbitrary computable Cantor-space probability measure, not silently fair coin.",
+        "Without ergodicity the theorem gives convergence to an invariant limit, not equality with the space expectation."
+      ]
+    },
+    {
+      "id": "THM-0059",
+      "name": "Effective Birkhoff theorem for effectively open and closed sets",
+      "statement": "Let μ be a computable probability measure on Cantor space and T a computable a.e.-defined, μ-preserving, ergodic transformation. For every effectively open U and every μ-Martin-Löf-random ω, the averages n^{-1}Σ_{k<n} χ_U(T^kω) converge to μ(U); the same holds for effectively closed sets.",
+      "hypotheses": [
+        "μ computable on Cantor space",
+        "T computable a.e.-defined, μ-preserving and ergodic",
+        "U effectively open (or effectively closed)",
+        "ω μ-Martin-Löf random"
+      ],
+      "direction": "randomness implies ergodic typicality for effective-set indicators",
+      "source_support": [
+        {
+          "source": "SRC-0057",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 3.2, effective Birkhoff theorem for effectively open sets and accompanying closed-set statement"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0005"
+      ],
+      "relations": [
+        "REL-0050"
+      ],
+      "cautions": [
+        "The equality to μ(U) uses ergodicity.",
+        "THM-0062 records the separately stated computable-probability-space/layerwise extension."
+      ]
+    },
+    {
+      "id": "THM-0060",
+      "name": "Effective Birkhoff theorem for lower semicomputable observables",
+      "statement": "Under a computable probability measure μ on Cantor space and a computable a.e.-defined μ-preserving ergodic transformation T, if f:2^ω→[0,+∞] is lower semicomputable, then for every μ-Martin-Löf-random ω the Birkhoff average converges to ∫f dμ, with +∞ allowed.",
+      "hypotheses": [
+        "μ computable on Cantor space",
+        "T computable a.e.-defined, μ-preserving and ergodic",
+        "f:2^ω→[0,+∞] lower semicomputable",
+        "ω μ-Martin-Löf random"
+      ],
+      "direction": "randomness implies effective ergodic theorem for lower semicomputable observables",
+      "source_support": [
+        {
+          "source": "SRC-0057",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 3.2, lower-semicomputable-observable Birkhoff theorem"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0005"
+      ],
+      "relations": [
+        "REL-0050"
+      ],
+      "cautions": [
+        "Ergodicity is required for the integral value in this theorem.",
+        "The observable class is lower semicomputable and nonnegative as stated; do not replace it by an arbitrary L1 class by analogy."
+      ]
+    },
+    {
+      "id": "THM-0061",
+      "name": "Layerwise-computable effective recurrence on computable probability spaces",
+      "statement": "Let (X,μ) be a computable probability space, T:X→X a μ-layerwise computable, measure-preserving, ergodic transformation, and A an effectively open subset with μ(A)<1. For every μ-Martin-Löf-random x there exists n with T^n(x)∉A.",
+      "hypotheses": [
+        "(X,μ) computable probability space",
+        "T μ-layerwise computable, measure-preserving and ergodic",
+        "A effectively open with μ(A)<1",
+        "x μ-Martin-Löf random"
+      ],
+      "direction": "randomness implies effective recurrence/escape",
+      "source_support": [
+        {
+          "source": "SRC-0057",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 3.3, Theorem 3.5 in arXiv v2 HTML"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0033",
+        "DEF-0058"
+      ],
+      "relations": [
+        "REL-0054"
+      ],
+      "cautions": [
+        "This recurrence result is recorded only because it directly locates Martin-Löf randomness in the principal effective-ergodic proof interface.",
+        "It is not a converse characterization in the inspected source."
+      ]
+    },
+    {
+      "id": "THM-0062",
+      "name": "Computable-probability-space layerwise extension of the effective Birkhoff theorems",
+      "statement": "SRC-0057 explicitly states that its effective Birkhoff theorems for effectively open/closed sets and lower semicomputable observables extend to computable probability spaces when T is μ-layerwise computable, measure-preserving and ergodic; in the lower-semicomputable-observable theorem, f may be μ-layerwise lower semicomputable.",
+      "hypotheses": [
+        "(X,μ) computable probability space",
+        "T μ-layerwise computable, measure-preserving and ergodic",
+        "x μ-Martin-Löf random",
+        "observable/set belongs to the corresponding effective or μ-layerwise effective class stated in SRC-0057"
+      ],
+      "direction": "generalized effective Birkhoff theorem",
+      "source_support": [
+        {
+          "source": "SRC-0057",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 3.3, explicit extension paragraph immediately following Theorem 3.5"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0033",
+        "DEF-0058"
+      ],
+      "relations": [
+        "REL-0051"
+      ],
+      "cautions": [
+        "This uses the paper's computable-metric/probability-space framework and μ-layerwise representation; it is not a theorem about arbitrary represented probability spaces.",
+        "The transformation remains measure-preserving and ergodic; those hypotheses are not optional."
+      ]
+    },
+    {
+      "id": "THM-0063",
+      "name": "Fair-coin Martin-Löf randomness characterized by nonergodic computable Birkhoff convergence",
+      "statement": "On fair-coin Cantor space, a point x is Martin-Löf random exactly when it is weak Birkhoff for every computable measure-preserving transformation with respect to computable observables: the positive convergence direction is the effective nonergodic theorem, and SRC-0058 proves the converse by constructing, for every non-Martin-Löf-random x, a computable measure-preserving transformation and a computable set whose indicator averages fail to converge at x.",
+      "hypotheses": [
+        "ambient space is Cantor space with fair-coin/Lebesgue measure",
+        "transformations are computable and measure-preserving in SRC-0058's Cantor-space representation",
+        "observable class for the positive direction is computable; the converse witness is a computable set/indicator",
+        "no ergodicity assumption"
+      ],
+      "direction": "equivalence / characterization",
+      "source_support": [
+        {
+          "source": "SRC-0058",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 1.4; converse theorem in Section 4 of the inspected arXiv copy; positive computable-observable convergence theorem in Section 5"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0059"
+      ],
+      "relations": [
+        "REL-0052"
+      ],
+      "cautions": [
+        "This is a fair-coin Cantor-space theorem in the inspected source; no arbitrary computable-measure or computable-probability-space converse is inferred.",
+        "Because the transformations need not be ergodic, the characterized property is convergence (weak Birkhoff), not equality of the limit with the global expectation.",
+        "Published/journal identity and the inspected arXiv theorem numbering are recorded separately because the final author-hosted PDF timed out in P1-S010."
+      ]
+    },
+    {
+      "id": "THM-0064",
+      "name": "Weak 2-randomness yields nonergodic Birkhoff convergence for lower semicomputable observables",
+      "statement": "On fair-coin Cantor space, if x is weakly 2-random, then for every computable measure-preserving transformation T and every lower semicomputable observable f in SRC-0058's setting, the Birkhoff averages of f along the orbit of x converge.",
+      "hypotheses": [
+        "ambient measure is fair-coin/Lebesgue measure on Cantor space",
+        "x is weakly 2-random",
+        "T computable and measure-preserving",
+        "f lower semicomputable",
+        "no ergodicity assumption"
+      ],
+      "direction": "randomness implies nonergodic convergence",
+      "source_support": [
+        {
+          "source": "SRC-0058",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 5 weak-2/lower-semicomputable convergence theorem in the inspected arXiv copy"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0015",
+        "DEF-0059"
+      ],
+      "relations": [
+        "REL-0053"
+      ],
+      "cautions": [
+        "Without ergodicity the theorem asserts convergence only; it does not identify the limit with ∫f dμ.",
+        "Do not transfer this weak-2 result to arbitrary computable measures/spaces without a separately inspected theorem."
       ]
     }
   ]
