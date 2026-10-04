@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S011",
+  "session": "P1-S012",
   "records": [
     {
       "id": "REL-0001",
@@ -50,9 +50,15 @@
         {
           "source": "SRC-0009",
           "theorem": "THM-0003",
-          "evidence": "ABSTRACT_INSPECTED"
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0010",
+          "theorem": "THM-0003",
+          "evidence": "STATEMENT_INSPECTED"
         }
-      ]
+      ],
+      "caution": "The definitions remain distinct. The equivalence is source-inspected and uses ordinary oracle-relative Martin-Löf randomness plus prefix-free K-triviality."
     },
     {
       "id": "REL-0004",
@@ -66,7 +72,8 @@
           "theorem": "THM-0004",
           "evidence": "STATEMENT_INSPECTED"
         }
-      ]
+      ],
+      "caution": "Base is existential (some relative-random Z computes B) whereas lowness is universal preservation; only the inspected 1-random/K-trivial theorem is asserted."
     },
     {
       "id": "REL-0005",
@@ -919,6 +926,46 @@
         }
       ],
       "caution": "The martingale resource is c.e./lower semicomputable rather than computable, and the result is not generalized to arbitrary measures in P1-S011."
+    },
+    {
+      "id": "REL-0058",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0063",
+      "to": "DEF-0008",
+      "statement": "Low for prefix-free K is equivalent to K-triviality.",
+      "support": [
+        {
+          "source": "SRC-0009",
+          "theorem": "THM-0069",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0010",
+          "theorem": "THM-0069",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The finite-string oracle inequality and the initial-segment K-trivial inequality are separate definitions linked by theorem, not interchangeable syntax."
+    },
+    {
+      "id": "REL-0059",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0007",
+      "to": "DEF-0063",
+      "statement": "Low for Martin-Löf randomness is equivalent to low for prefix-free K.",
+      "support": [
+        {
+          "source": "SRC-0009",
+          "theorem": "THM-0070",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0010",
+          "theorem": "THM-0070",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The Martin-Löf side uses ordinary oracle-relative tests. No uniform-relative Schnorr/computable lowness edge is imported."
     }
   ]
 }

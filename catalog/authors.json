@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S011",
+  "session": "P1-S012",
   "records": [
     {
       "id": "AUT-0001",
@@ -73,7 +73,9 @@
         "balanced-randomness",
         "oberwolfach-randomness",
         "pi11-randomness",
-        "delta11-randomness"
+        "delta11-randomness",
+        "low-for-k",
+        "bases-for-randomness"
       ],
       "source_ids": [
         "SRC-0005",
@@ -124,7 +126,9 @@
         "bases-for-randomness",
         "relative-randomness",
         "n-randomness",
-        "balanced-randomness"
+        "balanced-randomness",
+        "k-triviality",
+        "low-for-k"
       ],
       "source_ids": [
         "SRC-0006",
@@ -157,7 +161,9 @@
         "KL-randomness",
         "computability",
         "relative-randomness",
-        "schnorr-randomness"
+        "schnorr-randomness",
+        "k-triviality",
+        "low-for-k"
       ],
       "source_ids": [
         "SRC-0010",

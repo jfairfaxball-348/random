@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S011",
+  "session": "P1-S012",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-04",
   "status_vocabulary": [
@@ -367,7 +367,7 @@
         "COV-0008"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "STARTED_CORE_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S012",
       "covered_by": [
         "SRC-0009",
         "SRC-0010",
@@ -375,10 +375,16 @@
         "SRC-0030"
       ],
       "known_retrieval_access_limitations": [
-        "The ML lowness/base core is now cross-linked to an exact oracle-relative ML definition, but Schnorr/computable lowness, traceability and broader base classes remain only sparsely mapped."
+        "P1-S012 upgrades SRC-0009 to statement-inspected primary support for exact K-triviality, low-for-Martin-Löf-randomness and low-for-K definitions, plus the source theorem chain proving that all three classes coincide.",
+        "SRC-0010 is re-inspected at Definition 1.2 and Theorem 2.1/related statements: base for 1-randomness is kept definitionally distinct from lowness, and bases for 1-randomness are exactly the K-trivial sets.",
+        "SRC-0021 (Kučera-Terwijn 1999) remains ABSTRACT_INSPECTED: Cambridge internal text was access-restricted and the ILLC archive full-text object was returned as an unsupported gzip payload. Its internal theorem syntax is not reconstructed from later papers.",
+        "Low for K is now an explicit finite-string prefix-free-complexity node; it is not conflated with K-triviality or low for randomness before theorem-level equivalences are applied.",
+        "Nies's exact theorem that every oracle low for computable randomness is computable was inspected as a bounded contrast, but P1-S012 does not open a Schnorr/computable-lowness survey.",
+        "Cost functions, traceability, jump-theoretic characterizations and degree closure were deliberately not expanded: they are not required to complete the principal low-ML/K-trivial/base equivalence package in this bounded pass."
       ],
       "next_actions": [
-        "Expand lowness/bases only in a dedicated primary-source tranche; preserve the P1-S003 ordinary/uniform relativization distinction where relevant."
+        "Treat COV-0009 as structurally partial rather than complete. Revisit only if the Phase-1 completion audit identifies a specific gate-relevant provenance or terminology gap.",
+        "Do not launch a general traceability/cost-function/degree survey merely because those notions occur near K-triviality."
       ]
     },
     {
@@ -726,7 +732,7 @@
         "ALL_NOTION_STRATA"
       ],
       "expected_depth_required": "DEEP_CROSS_CUTTING",
-      "present_coverage_status": "PARTIAL_P1_S011",
+      "present_coverage_status": "PARTIAL_P1_S012",
       "covered_by": [
         "SRC-0007",
         "SRC-0009",
@@ -755,10 +761,11 @@
         "P1-S005 adds exact generalized-measure/space edges for Martin-Löf and Schnorr conservation, computable-randomness NRFN and isomorphism invariance, Schnorr NRFN failure, computable Cantor representations, the atomless Lebesgue reduction, and separate fair-coin versus all-computable-measure ML maximality.",
         "The global graph remains incomplete across higher randomness, category-adjacent notions and several characterization families; no uninspected transitive, converse or fair-coin-to-general-measure edge is promoted.",
         "P1-S007 adds exact edges separating arbitrary prefix-free halting probabilities, left-c.e. reals, universal Ω-numbers and Martin-Löf-random left-c.e. reals; no converse or universality claim is inferred beyond THM-0047/THM-0048.",
-        "P1-S011 adds exact fair-coin formulation-equivalence, Solovay-test and c.e.-martingale characterization edges for Martin-Löf randomness. The ordinary finite-sum Solovay test is kept distinct from the Schnorr total-Solovay convention, and lower-semicomputable martingales are kept distinct from computable martingales."
+        "P1-S011 adds exact fair-coin formulation-equivalence, Solovay-test and c.e.-martingale characterization edges for Martin-Löf randomness. The ordinary finite-sum Solovay test is kept distinct from the Schnorr total-Solovay convention, and lower-semicomputable martingales are kept distinct from computable martingales.",
+        "P1-S012 adds the principal lowness/base equivalence triangle at statement level: low for Martin-Löf randomness ↔ low for K ↔ K-triviality, plus base for 1-randomness ↔ K-triviality. Definitions are kept separate and no closure/transitive edge outside the inspected theorem package is inferred."
       ],
       "next_actions": [
-        "Extend only with exact inspected hypotheses; remaining high-value work should now target uncovered strata rather than re-generalizing P1-S004 fair-coin stronger notions without primary evidence."
+        "During the Phase-1 completion audit, test the cross-cutting graph for consequential missing primary provenance or hypotheses before deepening any already-partial stratum."
       ]
     },
     {

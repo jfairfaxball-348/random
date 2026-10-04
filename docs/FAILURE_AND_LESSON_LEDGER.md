@@ -308,3 +308,26 @@ The Solovay 1975 manuscript cited throughout later primary literature remains un
 Schnorr's 1973 *Process Complexity and Effective Random Tests* was located at publisher/open-archive metadata level, but the direct full-text routes available in this bounded session did not provide reliable inspectable internal statements. P1-S011 therefore does not use it to settle historical process-complexity or Levin–Schnorr priority details. The prefix-free incompressibility characterization remains grounded in already statement-inspected primary Chaitin/Kučera-Slaman material, and the c.e.-martingale characterization is grounded in SRC-0059.
 
 Lesson: an original citation target that cannot be inspected is not interchangeable with a later exact restatement. Preserve the provenance gap, and never upgrade a stronger effectivity condition (such as computable total measure) into the ordinary Solovay condition by terminology alone.
+
+## FL-027 — Principal lowness equivalences require distinct definitions even when the classes coincide
+
+Session: `P1-S012`  
+Status: RESOLVED AT STATEMENT LEVEL / FORMULATION GUARDS PRESERVED
+
+Before P1-S012, SRC-0009 supported the slogan “low for Martin-Löf randomness iff K-trivial” only at publisher-abstract level. The full primary paper was recovered from the author's site and matched to the published Advances in Mathematics identity. Its internal statements distinguish three notions: K-triviality by `K(A↾n)≤K(n)+O(1)`; low for Martin-Löf randomness by `MLR^A=MLR`; and low for K by the finite-string oracle inequality `K(σ)≤K^A(σ)+O(1)`. Corollary 5.3 and Theorem 6.2, together with the explicit inclusions after Definition 2.6, establish the principal coincidence package. SRC-0010 independently restates the definitions and supplies the base-for-1-randomness theorem package.
+
+Resolution: DEF-0007, DEF-0008 and new DEF-0063 remain separate. THM-0003, THM-0069 and THM-0070 carry the exact equivalences. DEF-0009 remains an existential base definition, with THM-0004 linking bases for 1-randomness to K-triviality. No definition is rewritten as a synonym merely because the source proves class equality.
+
+Lesson: preserve the resource and quantifier structure of lowness, complexity and base notions. A theorem-level coincidence is a relation between definitions, not permission to collapse their syntax.
+
+## FL-028 — Kučera-Terwijn 1999 internal statements remain inaccessible in the available retrieval path
+
+Session: `P1-S012`  
+Status: ORIGINAL-PROVENANCE GAP PRESERVED / NOT A PROGRAMME BLOCKER
+
+The foundational Kučera-Terwijn paper SRC-0021 remains abstract-inspected. The Cambridge route exposed metadata/abstract but not usable full internal text. The ILLC technical-report index advertises a full-text object, but the available retrieval route returned it as an unsupported `application/x-gzip` payload, so no internal definition/theorem statement was inspected.
+
+Resolution: SRC-0021 remains `ABSTRACT_INSPECTED`. Exact low-for-random/K-trivial theorem syntax is grounded instead in statement-inspected primary SRC-0009 and SRC-0010. The catalogue records Kučera-Terwijn's abstract-level historical fact—existence of nonrecursive low-for-RAND sets—without reconstructing its internal proof or theorem numbering.
+
+Lesson: an archive listing “full text” is not statement access if the actual payload cannot be inspected. Later primary restatements may support current theorem syntax, but they do not erase the original-source provenance gap.
+

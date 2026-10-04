@@ -87,3 +87,14 @@ A later primary paper now grounds the exact ordinary Solovay-test and c.e.-marti
 The close counts are 59 sources, 62 definitions, 68 theorem/characterization records, 57 relation records, 1 status question, 66 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0003 is `PARTIAL_P1_S011`; 18 strata are partial and COV-0009 is now the sole STARTED_CORE stratum.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.
+
+## P1-S012 checkpoint
+
+P1-S012 consolidated COV-0009 at primary statement level. Nies 2005 now supplies exact statement-inspected definitions of K-triviality, low for Martin-Löf randomness and low for prefix-free K, together with the theorem chain proving that the three classes coincide. Hirschfeldt-Nies-Stephan 2007 supplies the exact existential base-for-R definition and the primary theorem package identifying bases for 1-randomness with K-triviality.
+
+The catalogue preserves four distinct definition nodes—low for Martin-Löf randomness, low for K, K-triviality, and base for randomness—and records only inspected equivalence edges. Ordinary oracle relativization remains distinct from P1-S003's uniform-relative Schnorr/computable conventions; finite-string prefix-free complexity remains distinct from infinite-sequence randomness; no degree closure is inferred.
+
+The close counts are 59 sources, 63 definitions, 70 theorem/characterization records, 59 relation records, 1 status question, 66 author-navigation records and 19 coverage records. All 19 strata are partial, but 0 are complete. COV-0009 is `PARTIAL_P1_S012`.
+
+Phase 1 remains materially incomplete and Gate 1 is not ready for review. The next task is a bounded Gate-1 completion/source-gap audit rather than automatic deepening of a partial stratum.
+

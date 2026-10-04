@@ -3,20 +3,22 @@
 | Gate | Status | Meaning |
 |---|---|---|
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
-| Phase 1 -> Phase 2 | CLOSED | Phase 1 is OPEN. P1-S011 recovered Martin-Löf's 1966 original at statement level, indexed its universal sequential-test/maximal-constructive-null formulation, and added exact ordinary Solovay-test and c.e.-martingale characterizations, but 0/19 strata are complete and Gate 1 is NOT READY FOR REVIEW. |
+| Phase 1 -> Phase 2 | CLOSED | Phase 1 is OPEN. P1-S012 statement-inspected the principal low-for-Martin-Löf / low-for-K / K-trivial equivalence package and the base-for-1-randomness characterization, so all 19 coverage strata are now PARTIAL; however 0/19 are complete and Gate 1 is NOT READY FOR REVIEW pending a completion/source-gap audit. |
 | Phase 2 -> Phase 3 | CLOSED | Phase 2 is not authorized. |
 | Phase 3 -> Phase 4 | CLOSED | Phase 3 is not authorized. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
 
-## Gate-1 evidence status after P1-S011
+## Gate-1 evidence status after P1-S012
 
-Present but incomplete: coverage plan; stable-ID catalogue; definition/theorem/relation/question/author indexes; search/access-gap register; primary-source consolidation for Schnorr/computable/Kurtz/weak-n; statement-level relative and higher-randomness conventions; stronger-test records; computable metric/probability-space machinery and generalized-measure invariance/conservation; effective category/genericity; finite-string/left-c.e./Ω distinctions; pseudorandomness/resource-bounded boundaries; effective-ergodic interfaces; and now the foundational COV-0003 Martin-Löf layer at statement level, including the 1966 universal sequential test, finite-critical-level definition, maximal constructive-null-set formulation, ordinary Solovay tests, c.e. martingales and the guarded prefix-free incompressibility link.
+Present but incomplete: coverage plan; stable-ID catalogue; definition/theorem/relation/question/author indexes; search/access-gap register; primary-source consolidation across all 19 coverage strata; exact ordinary and relative Martin-Löf conventions; weaker/stronger tests; computable measures/spaces; effective category; finite-string/left-c.e./Ω distinctions; resource-bounded boundaries; higher randomness; effective ergodic interfaces; and now the principal lowness/base package. COV-0009 has statement-inspected definitions of low for Martin-Löf randomness, K-triviality and low for K, theorem-level equivalences between them, and the exact base-for-randomness definition with the bases-for-1-randomness/K-trivial characterization.
 
-Still unsatisfied: completed coverage audit (0/19 complete); adequate primary coverage across all major strata; COV-0009 (lowness/bases), now the sole STARTED_CORE stratum; resource-bounded dimension beyond the deliberately minimal COV-0016 boundary; and disposition of remaining source-access/provenance gaps including original Schnorr/Kurtz internals, Jockusch/Kurtz genericity internals, the Demuth translation qualification, the earliest standalone Martin-Löf NRFN provenance, Chaitin 1966/1969 internals where useful, the uninspected Solovay draft, Schnorr 1973 internal statements, historical higher-randomness originals where only later primary normalization has been inspected, and the uninspected full Franklin-Greenberg-Miller-Ng effective-ergodic paper.
+Still unsatisfied: the required **completed coverage audit** has not yet been performed; 0/19 strata are marked complete; and source-access/provenance gaps remain distributed across the catalogue. High-value residual gaps include original Schnorr/Kurtz internals, Jockusch/Kurtz genericity internals, the Demuth translation qualification, earliest standalone Martin-Löf NRFN provenance, selected Chaitin originals, the uninspected Solovay draft, Schnorr 1973 internal statements, historical higher-randomness originals where later primary normalization is used, Franklin-Greenberg-Miller-Ng effective-ergodic internals, and Kučera-Terwijn 1999 internals. The deliberately minimal COV-0016 resource-bounded-dimension boundary also requires explicit audit disposition rather than automatic expansion.
 
-COV-0003 is `PARTIAL_P1_S011`, not complete. SRC-0001 is now STATEMENT_INSPECTED from a full non-publisher scan with publication identity independently verified; the uninspected Solovay draft remains an explicit provenance gap. Ordinary Solovay tests are not conflated with total Solovay/Schnorr tests, c.e. martingales are not conflated with computable martingales, and DEF-0020 remains unchanged.
+COV-0009 is `PARTIAL_P1_S012`, not complete. SRC-0009 is now STATEMENT_INSPECTED from an author-hosted full article with publication identity independently verified; SRC-0021 remains ABSTRACT_INSPECTED because the accessible archive route did not yield inspectable internal text. Low for randomness, low for K, K-triviality and base for randomness remain distinct definition nodes joined only by inspected theorem records. DEF-0020 and P1-S003's ordinary/uniform relativization distinction remain unchanged.
 
-Current generic coverage counts: 18 partial, 1 started-core, 0 started-edge, 0 navigation-only, 0 not-started; 0 complete.
+Current generic coverage counts: 19 partial, 0 started-core, 0 started-edge, 0 navigation-only, 0 not-started; 0 complete.
+
+The next Phase-1 task is therefore a bounded completion/source-gap audit against Gate-1 criteria, not automatic deepening of an already-partial stratum.
 
 Therefore Gate 1 remains **CLOSED**, not `UNDER_REVIEW` and not `PASS`.

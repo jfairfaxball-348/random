@@ -149,6 +149,7 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 
 - `oracle:relative-randomness`
 - `oracle:low-for-randomness`
+- `oracle:low-for-K` — finite-string prefix-free-complexity lowness; distinct from randomness lowness until theorem-linked
 - `oracle:k-trivial`
 - `oracle:base-for-randomness`
 - `oracle:traceability`
@@ -157,6 +158,8 @@ Future additions should distinguish monotone, a priori, process and resource-bou
 - `oracle:uniform-relative-randomness`
 
 P1-S003 convention guard: ordinary oracle relativization and uniform relativization are not interchangeable for Schnorr/computable randomness. The inspected van-Lambalgen records are fair-coin Cantor-space statements. Where `A⊕B` occurs in SRC-0032, it is even/odd interleaving.
+
+P1-S012 convention guard: `low for Martin-Löf randomness`, `low for K`, `K-triviality`, and `base for randomness` are four distinct definition-level concepts. Statement-inspected primary theorems identify the first three classes and identify bases for 1-randomness with K-triviality, but the catalogue does not collapse their quantifiers/resources or generalize the equivalences to other randomness notions.
 
 ## 10. Structural principles
 
@@ -243,6 +246,7 @@ Important query aliases include:
 - `recursive randomness` / `computable randomness`
 - `KL-random` / `Kolmogorov-Loveland random`
 - `base for randomness` / `basis for randomness`
+- `low for K` / `K-low`
 - `randomness preservation` / `randomness conservation`
 - `no randomness from nothing` / `no randomness ex nihilo`
 - `constructive dimension` / `effective Hausdorff dimension`

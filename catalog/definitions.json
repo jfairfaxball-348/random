@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S011",
+  "session": "P1-S012",
   "records": [
     {
       "id": "DEF-0001",
@@ -277,30 +277,37 @@
       "object_domain": "oracle/set A",
       "effective_resources": "comparison of unrelativized and A-relative Martin-Löf randomness",
       "framework": "lowness / relativization",
-      "measure_assumptions": "standard fair-coin setting in source abstract",
-      "relativization": "Intrinsic: A is the oracle in DEF-0019; SRC-0010 states the general low-for-R convention.",
+      "measure_assumptions": "standard fair-coin Martin-Löf randomness setting",
+      "relativization": "Intrinsic ordinary oracle relativization: A is the oracle in DEF-0019. This is not the uniform-relative Schnorr/computable convention distinguished in P1-S003.",
       "aliases": [
         "low for randomness",
         "low for ML-randomness"
       ],
-      "formal_summary": "A is low for Martin-Löf randomness if every unrelativized Martin-Löf random set remains Martin-Löf random relative to A.",
+      "formal_summary": "A is low for Martin-Löf randomness iff every unrelativized Martin-Löf-random real X remains Martin-Löf random relative to A; equivalently, in SRC-0009 notation, MLR^A = MLR.",
       "equivalent_characterizations": [
-        "THM-0003"
+        "THM-0003",
+        "THM-0070"
       ],
       "relationships": [
-        "REL-0003"
+        "REL-0003",
+        "REL-0059"
       ],
       "source_support": [
         {
           "source": "SRC-0009",
-          "evidence": "ABSTRACT_INSPECTED",
-          "pointer": "publisher abstract"
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2.5, printed p. 280; Corollary 5.3"
         },
         {
           "source": "SRC-0010",
           "evidence": "STATEMENT_INSPECTED",
-          "pointer": "preprint p. 4, low-for-R paragraph"
+          "pointer": "preprint pp. 3-4, low-for-R paragraph and principal coincidence discussion"
         }
+      ],
+      "cautions": [
+        "The quantification is over unrelativized Martin-Löf random reals: every such real must remain Martin-Löf random under ordinary oracle-A tests.",
+        "Low for Martin-Löf randomness is a definition distinct from K-triviality (DEF-0008), low for K (DEF-0063) and base for randomness (DEF-0009); equivalence is recorded only through inspected theorem records.",
+        "Do not substitute uniformly relative Schnorr/computable randomness for DEF-0019."
       ]
     },
     {
@@ -314,21 +321,33 @@
       "aliases": [
         "K-trivial"
       ],
-      "formal_summary": "A is K-trivial if K(A↾n) ≤ K(n)+O(1) for all n.",
+      "formal_summary": "A is K-trivial iff there is a constant b such that for every n, K(A↾n) ≤ K(n)+b, where K is prefix-free/self-delimiting Kolmogorov complexity and K(n) is the prefix-free complexity of n under the source convention.",
       "equivalent_characterizations": [
         "THM-0003",
-        "THM-0004"
+        "THM-0004",
+        "THM-0069"
       ],
       "relationships": [
         "REL-0003",
-        "REL-0004"
+        "REL-0004",
+        "REL-0058"
       ],
       "source_support": [
         {
           "source": "SRC-0009",
-          "evidence": "ABSTRACT_INSPECTED",
-          "pointer": "publisher abstract"
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2.1, printed p. 279"
+        },
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 1.8, preprint p. 4"
         }
+      ],
+      "cautions": [
+        "The inequality quantifies over all initial-segment lengths n with one additive constant independent of n.",
+        "K is prefix-free complexity; do not replace it by Martin-Löf 1966's conditional plain-complexity quantity or by an infinite-sequence randomness predicate.",
+        "K-triviality is not defined as lowness or baseness; the coincidence with DEF-0007, DEF-0063 and DEF-0009 is theorem-level."
       ]
     },
     {
@@ -343,7 +362,7 @@
         "basis for randomness",
         "base for randomness"
       ],
-      "formal_summary": "B is a base for R-randomness if there exists Z ≥_T B such that Z is R-random relative to B.",
+      "formal_summary": "For a relativizable randomness notion R, B is a base for R-randomness iff there exists a real Z with B≤_T Z such that Z is R-random relative to B.",
       "equivalent_characterizations": [
         "THM-0004"
       ],
@@ -354,8 +373,12 @@
         {
           "source": "SRC-0010",
           "evidence": "STATEMENT_INSPECTED",
-          "pointer": "preprint abstract, p. 1"
+          "pointer": "Definition 1.2, preprint p. 2; Theorem 2.1 and surrounding section for R = 1-randomness"
         }
+      ],
+      "cautions": [
+        "Being a base is an existential property involving some Z above B in Turing reducibility; it is not the universal preservation condition defining low for randomness.",
+        "For 1-randomness, the inspected theorem package identifies bases with K-trivial sets (THM-0004); no analogous equivalence for an arbitrary R is inferred."
       ]
     },
     {
@@ -2106,6 +2129,46 @@
         "The resource is lower semicomputability/c.e., not computability. Do not replace it by the computable-martingale resource used for computable randomness.",
         "The success convention in the inspected source is actual divergence of capital to +∞, not merely an unqualified limsup statement.",
         "No arbitrary-measure or supermartingale generalization is asserted in this record."
+      ]
+    },
+    {
+      "id": "DEF-0063",
+      "name": "Low for prefix-free Kolmogorov complexity K",
+      "object_domain": "oracle/set A",
+      "effective_resources": "prefix-free Kolmogorov complexity K and oracle prefix-free complexity K^A on finite strings",
+      "framework": "lowness / algorithmic information",
+      "measure_assumptions": "none",
+      "relativization": "A is used as an oracle by the prefix-free machines defining K^A; this is complexity relativization, not itself a randomness-test definition.",
+      "aliases": [
+        "low for K",
+        "K-low",
+        "low for prefix-free complexity"
+      ],
+      "formal_summary": "A is low for K iff there is a constant c such that for every finite binary string σ, K^A(σ) ≥ K(σ)-c (equivalently K(σ) ≤ K^A(σ)+O(1)).",
+      "equivalent_characterizations": [
+        "THM-0069",
+        "THM-0070"
+      ],
+      "relationships": [
+        "REL-0058",
+        "REL-0059"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0009",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2.6, printed p. 280"
+        },
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4, low-for-K paragraph"
+        }
+      ],
+      "cautions": [
+        "This is a finite-string oracle-complexity notion. It must not be rewritten as an infinite-sequence randomness predicate.",
+        "Low for K, K-triviality and low for Martin-Löf randomness are kept as separate definitions and connected only by THM-0069/THM-0070/THM-0003.",
+        "The direction K^A(σ)≤K(σ)+O(1) is automatic because an oracle machine can ignore its oracle; lowness requires the reverse inequality up to a constant."
       ]
     }
   ]

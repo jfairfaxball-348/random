@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S011",
+  "session": "P1-S012",
   "checked_on": "2026-10-04",
   "records": [
     {
@@ -467,7 +467,7 @@
       "doi": "10.1016/j.aim.2004.10.006",
       "arxiv": null,
       "stable_locator": "https://doi.org/10.1016/j.aim.2004.10.006",
-      "access_level": "ABSTRACT_INSPECTED",
+      "access_level": "STATEMENT_INSPECTED",
       "topics": [
         "lowness",
         "martin-lof-randomness",
@@ -482,31 +482,49 @@
       ],
       "definitions": [
         "DEF-0007",
-        "DEF-0008"
+        "DEF-0008",
+        "DEF-0063"
       ],
       "theorems": [
-        "THM-0003"
+        "THM-0003",
+        "THM-0069",
+        "THM-0070"
       ],
       "questions": [],
       "priority_relevance": "Primary source for the equivalence between lowness for Martin-Löf randomness and K-triviality.",
-      "notes": "Publisher abstract inspected; it states the definitions used and the coincidence theorem. Proof not inspected.",
+      "notes": "Publication identity/DOI and journal pagination were cross-checked against the publisher record. P1-S012 statement inspection used André Nies's full author-hosted copy matched to the published Advances in Mathematics article. Exact promoted syntax comes from that inspected copy, not from the abstract: Definition 2.1 (K-triviality), Definitions 2.5-2.6 (low for Martin-Löf randomness and low for K), Corollary 5.3 and the inclusion stated after Definition 2.6 (low for Martin-Löf randomness iff low for K), and Theorem 6.2 together with the converse inclusion stated after Definition 2.6 (K-triviality iff low for K). Theorem 5.7, that every set low for computable randomness is computable, was also inspected as bounded contrast but is not expanded into a separate lowness survey.",
       "inspected_material": [
-        "publisher abstract"
+        "publisher journal/DOI metadata and abstract",
+        "full author-hosted article matched to the published paper",
+        "Definition 2.1",
+        "Definitions 2.5 and 2.6",
+        "Theorem 5.2 and Corollary 5.3",
+        "Theorem 5.7",
+        "Theorem 6.2"
       ],
       "pointers": [
-        "Advances in Mathematics 197(1) (2005), 274-305"
+        "Advances in Mathematics 197(1) (2005), 274-305",
+        "printed p. 279, Definition 2.1 (K-triviality)",
+        "printed p. 280, Definitions 2.5-2.6 (low for randomness; low for K)",
+        "printed pp. 284-285, Theorem 5.2 and Corollary 5.3",
+        "printed p. 285, Theorem 5.7",
+        "printed p. 291, Theorem 6.2"
       ],
       "cross_links": [
         "SRC-0010",
-        "SRC-0021"
+        "SRC-0021",
+        "SRC-0030"
       ],
-      "checked_on": "2026-10-03",
-      "exact_relevance": "Primary source for the equivalence between lowness for Martin-Löf randomness and K-triviality.",
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Primary statement-level source for the principal coincidence of low for Martin-Löf randomness, low for prefix-free K and K-triviality, with exact finite-string/oracle-complexity conventions.",
       "inspected_claims": [
-        "Abstract: definition of low for Martin-Löf randomness.",
-        "Abstract: definition of K-triviality via K(A↾n) ≤ K(n)+O(1).",
-        "Abstract: low for Martin-Löf randomness iff K-trivial.",
-        "Abstract: every set low for computable randomness is computable."
+        "Definition 2.1: A is K-trivial iff there is a constant b such that for every n, K(A↾n) ≤ K(n)+b.",
+        "Definition 2.5: A is low for random iff MLR^A = MLR; since MLR^A⊆MLR, this says every unrelativized Martin-Löf random remains random relative to A.",
+        "Definition 2.6: A is low for K iff K(y) ≤ K^A(y)+O(1) for all finite strings y.",
+        "After Definition 2.6: every low-for-K set is low for Martin-Löf randomness and K-trivial.",
+        "Corollary 5.3: every set low for Martin-Löf randomness is low for K.",
+        "Theorem 6.2: every K-trivial set is low for K.",
+        "Theorem 5.7: every set low for computable randomness is computable; retained only as a bounded contrast in P1-S012."
       ]
     },
     {
@@ -544,37 +562,47 @@
       "definitions": [
         "DEF-0009",
         "DEF-0007",
-        "DEF-0021"
+        "DEF-0021",
+        "DEF-0008",
+        "DEF-0063"
       ],
       "theorems": [
-        "THM-0004"
+        "THM-0004",
+        "THM-0003",
+        "THM-0069",
+        "THM-0070"
       ],
       "questions": [],
       "priority_relevance": "Primary source introducing/using bases for randomness and characterizing bases for 1-randomness.",
-      "notes": "Full author-hosted paper text was statement-inspected in P1-S003 in addition to the previously inspected abstract. Definition 1.7 and the immediately following relativization paragraph give the exact A-computable-martingale formulation of computable randomness relative to A; the next paragraph gives the general low-for-R convention.",
+      "notes": "Full author-hosted paper text was statement-inspected, with journal identity separately cross-checked. P1-S012 re-inspected Definition 1.2 (base for R-randomness), Definition 1.8 (K-triviality), the immediately preceding low-for-R/low-for-K discussion, and Theorem 2.1/Corollary 3.1. The paper explicitly keeps 'base for randomness' distinct from 'low for randomness'; for 1-randomness it proves the base/K-trivial direction and records the converse package, while its introduction records the coincidence of low-for-1-randomness, low-for-K and K-triviality.",
       "inspected_material": [
+        "journal metadata",
         "full author-hosted paper",
-        "Definition 1.7 and following relativization paragraph",
-        "low-for-R paragraph",
-        "preprint abstract",
-        "journal metadata"
+        "Definition 1.2",
+        "Definitions 1.7-1.8 and surrounding lowness discussion",
+        "Theorem 2.1",
+        "Corollary 3.1",
+        "abstract and introduction"
       ],
       "pointers": [
         "Journal of the London Mathematical Society 75(3) (2007), 610-622",
-        "preprint pp. 3-4, Definition 1.7 and following paragraphs",
-        "preprint abstract, p. 1"
+        "preprint p. 2, Definition 1.2 (base for R-randomness)",
+        "preprint pp. 3-4, Definitions 1.7-1.8 and low-for-R/low-for-K discussion",
+        "preprint p. 6, Theorem 2.1",
+        "preprint p. 9, Corollary 3.1"
       ],
       "cross_links": [
         "SRC-0009"
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-04",
       "exact_relevance": "Primary source introducing/using bases for randomness and characterizing bases for 1-randomness.",
       "inspected_claims": [
-        "Preprint abstract: definition of base for R-randomness.",
-        "Preprint abstract: bases for 1-randomness are exactly K-trivial sets.",
-        "Preprint abstract: stated bounds/results for bases for computable randomness.",
-        "Definition 1.7 and following paragraph: M is A-computable when the reals M(σ) are uniformly computable using A as oracle; B is computably random relative to A iff no A-computable martingale succeeds on B.",
-        "Following paragraph: for a relativizable randomness notion R, A is low for R if every R-random set is R-random relative to A."
+        "Definition 1.2: B is a base for R-randomness iff some Z≥_T B is R-random relative to B.",
+        "Definition 1.8: A is K-trivial iff K(A↾n)≤K(n)+d for all n, for some constant d.",
+        "The surrounding low-for-R paragraph: A is low for R iff every R-random set is R-random relative to A.",
+        "The surrounding low-for-K paragraph uses K^A(σ)≥K(σ)-c for all finite strings σ and states the principal 1-random/K coincidence package.",
+        "Theorem 2.1: every base for 1-randomness is K-trivial; the section introduction records the converse direction, so bases for 1-randomness are exactly the K-trivial sets.",
+        "Corollary 3.1: every set low for 1-randomness is K-trivial."
       ]
     },
     {
@@ -1220,10 +1248,11 @@
       "theorems": [],
       "questions": [],
       "priority_relevance": "Early primary source showing existence of nonrecursive sets low for the class of random sets.",
-      "notes": "Journal abstract inspected. Later equivalence with K-triviality is recorded from SRC-0009, not retroactively attributed to this 1999 paper.",
+      "notes": "Journal abstract inspected; it defines low for RAND by RAND = RAND^A and states existence of nonrecursive low-for-RAND sets. P1-S012 attempted to upgrade this foundational source: the Cambridge full-text route remained access-restricted, while the ILLC report archive's advertised full-text object was served as an unsupported application/x-gzip payload in the available retrieval environment. Internal definitions/theorems therefore remain uninspected. Later equivalence syntax is grounded in statement-inspected SRC-0009/SRC-0010, not reconstructed from this abstract.",
       "inspected_material": [
         "journal abstract",
-        "metadata"
+        "metadata",
+        "P1-S012 failed full-text retrieval attempts via Cambridge/ILLC archive"
       ],
       "pointers": [
         "Journal of Symbolic Logic 64(4) (1999), 1396-1402"
@@ -1231,7 +1260,7 @@
       "cross_links": [
         "SRC-0009"
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-04",
       "exact_relevance": "Early primary source showing existence of nonrecursive sets low for the class of random sets.",
       "inspected_claims": [
         "Abstract: defines low for RAND by RAND = RAND^A in the paper's notation.",

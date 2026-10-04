@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S011",
+  "session": "P1-S012",
   "records": [
     {
       "id": "THM-0001",
@@ -72,16 +72,22 @@
     {
       "id": "THM-0003",
       "name": "Low for Martin-Löf randomness iff K-trivial",
-      "statement": "A set A is low for Martin-Löf randomness iff A is K-trivial.",
+      "statement": "For a set/oracle A in the standard fair-coin computability-theoretic setting, A is low for Martin-Löf randomness iff A is K-trivial.",
       "hypotheses": [
-        "A is a set/real in the standard computability-theoretic setting"
+        "low for Martin-Löf randomness is DEF-0007 using ordinary oracle relativization DEF-0019",
+        "K-triviality is DEF-0008 using prefix-free K and all initial-segment lengths"
       ],
       "direction": "equivalence",
       "source_support": [
         {
           "source": "SRC-0009",
-          "evidence": "ABSTRACT_INSPECTED",
-          "pointer": "publisher abstract"
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definitions 2.1, 2.5-2.6; Corollary 5.3; Theorem 6.2"
+        },
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 1.8, low-for-R/low-for-K discussion and Corollary 3.1"
         }
       ],
       "related_definitions": [
@@ -90,22 +96,27 @@
       ],
       "relations": [
         "REL-0003"
+      ],
+      "cautions": [
+        "The source proof package factors through low for K; the catalogue preserves all three notions as separate definition nodes rather than treating the names as synonyms.",
+        "This statement uses ordinary oracle-relative Martin-Löf randomness, not a uniform-relative Schnorr/computable convention."
       ]
     },
     {
       "id": "THM-0004",
       "name": "Bases for 1-randomness are exactly K-trivial sets",
-      "statement": "A set B is a base for 1-randomness iff B is K-trivial.",
+      "statement": "A set B is a base for 1-randomness (Martin-Löf randomness) iff B is K-trivial.",
       "hypotheses": [
-        "base is in the sense of DEF-0009",
-        "1-randomness denotes Martin-Löf randomness in the source's context"
+        "base is in the existential Turing-reducibility/relative-randomness sense of DEF-0009",
+        "1-randomness denotes ordinary fair-coin Martin-Löf randomness in SRC-0010",
+        "K-triviality is DEF-0008"
       ],
       "direction": "equivalence",
       "source_support": [
         {
           "source": "SRC-0010",
           "evidence": "STATEMENT_INSPECTED",
-          "pointer": "preprint abstract, p. 1"
+          "pointer": "Definition 1.2; Section 2 opening; Theorem 2.1, preprint p. 6"
         }
       ],
       "related_definitions": [
@@ -114,6 +125,10 @@
       ],
       "relations": [
         "REL-0004"
+      ],
+      "cautions": [
+        "Base for randomness is not low for randomness by definition. The equivalence here is established for 1-randomness through the inspected primary theorem package.",
+        "No base characterization for Schnorr/computable/other randomness notions is inferred from this theorem."
       ]
     },
     {
@@ -1859,6 +1874,73 @@
       "cautions": [
         "This is not the computable-martingale characterization of computable randomness: the effective resource is lower semicomputability.",
         "No arbitrary computable measure, supermartingale normal form or oracle-relativized version is inferred in P1-S011."
+      ]
+    },
+    {
+      "id": "THM-0069",
+      "name": "K-triviality iff low for prefix-free K",
+      "statement": "For every set/oracle A, A is K-trivial iff A is low for prefix-free Kolmogorov complexity K.",
+      "hypotheses": [
+        "K-triviality is DEF-0008",
+        "low for K is DEF-0063",
+        "K and K^A are prefix-free complexities on finite strings in the source's fixed optimal-machine convention"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0009",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "after Definition 2.6: low for K implies K-trivial; Theorem 6.2, printed p. 291: K-trivial implies low for K"
+        },
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint p. 4, low-for-K/K-trivial discussion"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0008",
+        "DEF-0063"
+      ],
+      "relations": [
+        "REL-0058"
+      ],
+      "cautions": [
+        "This theorem connects two distinct definitions; it does not license replacing initial-segment K-triviality syntax with the finite-string oracle inequality in source quotations.",
+        "No closure in Turing degrees is inferred here."
+      ]
+    },
+    {
+      "id": "THM-0070",
+      "name": "Low for Martin-Löf randomness iff low for prefix-free K",
+      "statement": "For every set/oracle A in the standard fair-coin setting, A is low for Martin-Löf randomness iff A is low for prefix-free K.",
+      "hypotheses": [
+        "low for Martin-Löf randomness is DEF-0007 using ordinary oracle-relative Martin-Löf tests",
+        "low for K is DEF-0063"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0009",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "after Definition 2.6: low for K implies low for MLR; Corollary 5.3, printed p. 285: low for MLR implies low for K"
+        },
+        {
+          "source": "SRC-0010",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "preprint pp. 3-4, principal low-for-1-random/low-for-K/K-trivial coincidence discussion"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0007",
+        "DEF-0063"
+      ],
+      "relations": [
+        "REL-0059"
+      ],
+      "cautions": [
+        "The randomness side uses ordinary oracle relativization DEF-0019; P1-S003's uniform-relative distinctions for Schnorr/computable randomness are untouched.",
+        "This theorem does not identify the definition of a base for randomness with lowness."
       ]
     }
   ]

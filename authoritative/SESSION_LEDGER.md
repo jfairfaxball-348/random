@@ -303,3 +303,30 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S012`, primary-source consolidation of COV-0009 (lowness notions and bases for randomness), because it is now the sole STARTED_CORE stratum and is the highest-value remaining structural dependency before a broader Phase-1 completion audit.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+## P1-S012 — Lowness notions and bases for randomness primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `f008ba90648b31d99eb7476dea984562fc849d0b`
+
+Scope completed: bounded primary-source consolidation of COV-0009. Nies 2005 was upgraded from abstract-only to statement-inspected primary support for exact K-triviality, low-for-Martin-Löf-randomness and low-for-K definitions and the theorem chain identifying those classes. Hirschfeldt-Nies-Stephan 2007 was re-inspected for the exact base-for-R definition and the theorem package identifying bases for 1-randomness with K-triviality. The pass preserves base, lowness and complexity notions as distinct objects and does not open a general traceability, cost-function, jump, degree, Schnorr-lowness or computable-lowness survey.
+
+Catalogue at close: 59 sources; 63 definitions; 70 theorem/characterization records; 59 relationship records; 1 status-sensitive question; 66 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 19 partial, 0 started-core, 0 started-edge, 0 navigation-only, 0 not-started. COV-0009 is now `PARTIAL_P1_S012`. All strata being partial does not constitute Phase-1 completion or Gate-1 readiness.
+
+Validation: PASS at closeout; all modified catalogue/state JSON parses; stable-ID syntax/uniqueness and catalogue count/ID-set agreement pass; structured stable-ID references resolve; `DEF-0020` is unchanged from the incoming checkpoint; protected generalized-measure and P1-S011 convention records are unchanged; Phase 1 remains OPEN and Phases 2–5 remain CLOSED.
+
+Close record: `phase1/P1-S012_CLOSE.md`
+
+Meaningful retrieval/convention lessons: FL-027 records the upgrade from abstract slogans to exact statement-level Nies/Hirschfeldt-Nies-Stephan formulations while preserving distinct definition nodes; FL-028 preserves the unresolved Kučera-Terwijn 1999 internal-source access gap.
+
+Explicit exclusions respected: no candidate invention/selection; no Phase-2 target selection; no dedicated novelty audit; no general computability/degree/traceability/cost-function survey; no original mathematics; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S013`, a Phase-1 completion/source-gap audit driven by Gate-1 requirements and committed provenance/access gaps, rather than automatic deepening of any already-partial stratum.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+

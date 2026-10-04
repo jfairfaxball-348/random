@@ -378,3 +378,36 @@ Scope: bounded primary-source consolidation of COV-0003 only — Martin-Löf's o
 ### Bounded exclusions
 
 No Schnorr/computable/Kurtz tranche was reopened; no ordinary/uniform oracle relativization; no stronger-test hierarchy; no generalized-measure rewrite; no category, Ω/left-c.e., pseudorandomness, higher-randomness or effective-ergodic expansion beyond direct cross-links already present. No Fairfax-Ball candidate invention/selection, no Phase-2 target selection, no novelty audit, no original mathematics/proof search, no Lean/Palomar, no manuscript/publication work, and no outreach.
+
+## P1-S012 — Lowness notions and bases for randomness
+
+Date: 2026-10-04
+
+Scope: bounded primary-source consolidation of COV-0009, restricted to the principal low-for-Martin-Löf / K-trivial / low-for-K coincidence and the base-for-1-randomness characterization. No general traceability, cost-function, degree, jump or oracle-randomness survey was opened.
+
+### Primary sources inspected / re-inspected
+
+- **SRC-0009 — Nies (2005), _Lowness properties and randomness_.** Publisher/DOI metadata fixed the publication identity; statement inspection used the full author-hosted article matched to the published paper. Definition 2.1 gives K-triviality as `K(A↾n)≤K(n)+b` for all n. Definition 2.5 gives low for random as `MLR^A=MLR`. Definition 2.6 gives low for K by `K(y)≤K^A(y)+O(1)` for every finite string y. The paper immediately records low-for-K ⇒ low-for-MLR and low-for-K ⇒ K-trivial; Corollary 5.3 gives low-for-MLR ⇒ low-for-K; Theorem 6.2 gives K-trivial ⇒ low-for-K. Theorem 5.7 (low for computable randomness implies computable) was inspected only as a bounded contrast and was not used to open a separate lowness hierarchy.
+- **SRC-0010 — Hirschfeldt, Nies, Stephan (2007), _Using random sets as oracles_.** The author-hosted full paper was re-inspected against journal metadata. Definition 1.2 gives the exact base-for-R definition: B is a base if some Z≥_T B is R-random relative to B. Definition 1.8 gives K-triviality. The surrounding text fixes low-for-R and low-for-K. Section 2/Theorem 2.1 supplies base-for-1-random ⇒ K-trivial, with the section/introduction recording the converse package; Corollary 3.1 gives low-for-1-random ⇒ K-trivial.
+- **SRC-0021 — Kučera, Terwijn (1999), _Lowness for the class of random sets_.** Upgrade attempt failed. Cambridge exposed abstract/metadata only in the available route. The ILLC report index advertised full text, but the linked object was returned as unsupported `application/x-gzip`; internal statements were therefore not promoted.
+
+### Exact formulation reconciliation
+
+1. Low for Martin-Löf randomness quantifies over **all unrelativized Martin-Löf random reals** and requires each to remain random relative to oracle A; in SRC-0009 this is `MLR^A=MLR`, using the ordinary oracle-relative notion DEF-0019.
+2. K-triviality quantifies over **all initial-segment lengths n** and compares prefix-free complexity of A's initial segment with prefix-free complexity of n using one additive constant.
+3. Low for K quantifies over **all finite strings σ** and compares `K^A(σ)` with `K(σ)` up to one additive constant. This is a finite-string oracle-complexity resource, not an infinite-sequence randomness predicate.
+4. Base for R-randomness is existential: **some** R-random-relative-to-B real Z computes B. It is not the universal preservation condition defining low for R.
+5. The equivalences low-MLR ↔ low-K ↔ K-trivial and base-for-1-random ↔ K-trivial are promoted only because inspected primary statements support them.
+6. P1-S003's ordinary/uniform relativization distinction is unchanged; no Schnorr/computable uniform-relative convention is imported.
+7. No downward/upward Turing-degree closure is inferred. Nies contains degree/traceability consequences, but they are outside this bounded structural pass.
+
+### Retrieval/provenance and scope hazards
+
+- Publication identity and inspected copy are recorded separately for SRC-0009/SRC-0010.
+- SRC-0021 remains abstract-only despite an archive full-text listing because its payload could not be inspected.
+- Cost functions, traceability and jump characterizations were not promoted merely because they are adjacent to K-triviality in the literature.
+- No status-sensitive question arose.
+- No Phase-2 candidate, novelty audit or original mathematics was introduced.
+
+Result: `COV-0009` becomes `PARTIAL_P1_S012`. All 19 coverage strata are now partial, but none is complete and Gate 1 remains not ready for review. The next recommended session is a bounded Phase-1 completion/source-gap audit.
+
