@@ -352,3 +352,15 @@ The P1-S013 structural audit found that `catalog/coverage-plan.json` contained l
 Resolution: the missing already-used values were added to the declared vocabulary. No coverage record's substantive status was changed.
 
 Lesson: validate enumerated vocabularies against values actually used in records, not only JSON syntax and ID references. An aggregate schema can drift even when all individual records are internally coherent.
+
+
+## FL-031 — Gate-1 PASS does not promote weak-access records or erase provenance gaps
+
+Session: `P1-S014`  
+Status: FORMAL REVIEW DISCIPLINE / GATE PASSED WITH RESIDUALS PRESERVED
+
+The formal Gate-1 review confirmed that discovery readiness and source exhaustiveness are different standards. A bounded research library can pass Gate 1 while retaining explicit original-source gaps and deliberately bounded omissions, provided consequential discovery-enabling claims are adequately grounded and uncertainty is visible.
+
+The review specifically rechecked the weak-access dependency graph. `DEF-0012` and `THM-0011` (Kolmogorov-Loveland material), `THM-0009`/`THM-0010` and `REL-0005` (constructive dimension) remain abstract-level; no exact supergale definition is present. These records are suitable navigation for Discovery but must be upgraded before any Phase-2 comparison materially relies on their exact formulation. Original Schnorr/Kurtz, Jockusch/Kurtz, Solovay/Schnorr historical, Kučera-Terwijn and other named provenance gaps likewise remain recorded rather than being relabelled by the PASS.
+
+Lesson: a phase-gate PASS changes authorization, not evidence granularity. Never upgrade `METADATA_ONLY`/`ABSTRACT_INSPECTED` material, close a provenance gap, infer novelty, or manufacture exhaustive coverage merely because the containing phase has passed.
