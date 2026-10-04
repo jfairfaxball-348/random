@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "phase": 3,
+  "last_updated_session": "P3-S001",
+  "records": [
+    {
+      "id": "PA-0001",
+      "candidate_id": "CAND-01",
+      "title": "Finite-fibre computable-randomness preservation versus endomorphism prior art",
+      "session": "P3-S001",
+      "date": "2026-10-04",
+      "disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "exact_target": "For each fixed k>=1, everywhere-total computable fair-coin-preserving Cantor self-maps F with |F^{-1}(y)|<=k for every y; ask whether every computably random x has F(x) computably random, with no effective inverse branches, selectors or fibre enumerations assumed.",
+      "classification": {
+        "already_known": "NOT_ESTABLISHED",
+        "equivalent_or_rebranded": "NOT_ESTABLISHED",
+        "materially_distinct": "NOT_ESTABLISHED",
+        "unresolved": "YES",
+        "framework_overlap": "SUBSTANTIAL_WITH_ENDOMORPHISM_RANDOMNESS"
+      },
+      "closest_primary_sources": [
+        "SRC-0060",
+        "SRC-0061",
+        "SRC-0015",
+        "SRC-0011"
+      ],
+      "closest_results": [
+        "DEF-0064",
+        "THM-0071",
+        "THM-0072",
+        "THM-0037",
+        "THM-0038"
+      ],
+      "findings": [
+        "SRC-0060 supplies a named unrestricted preservation framework, endomorphism randomness, over a.e.-computable measure-preserving self-maps; ordinary computable randomness is not preserved by that full class.",
+        "SRC-0061 shows everywhere-totality plus fair-coin preservation is also insufficient in general: a total truth-table functional inducing fair-coin measure can destroy computable randomness.",
+        "Neither inspected source states a finite/global bounded cardinal fibre hypothesis or an equivalent bounded-multiplicity condition.",
+        "THM-0038 preserves computable randomness only with explicit a.e.-computable inverse-pair data, which CAND-01 does not assume.",
+        "THM-0037 is reverse-direction no-randomness-from-nothing and does not imply forward conservation."
+      ],
+      "hypothesis_axes": {
+        "totality": "CAND-01 is everywhere total. SRC-0061 reaches everywhere-total maps; SRC-0060/SRC-0015 use a.e.-computable maps.",
+        "fibre": "CAND-01 requires a fixed global |F^{-1}(y)|<=k for every y. No inspected primary result matched this axis.",
+        "inverse_information": "CAND-01 assumes none. THM-0038 assumes an explicit a.e.-computable inverse pair; no conversion from finite cardinal fibres is inferred.",
+        "implication_direction": "CAND-01 asks forward conservation. THM-0037 is reverse existential preimage existence; THM-0071/THM-0072 are forward non-conservation results for broader map classes."
+      },
+      "search_terms": [
+        "endomorphism randomness",
+        "endomorphism random",
+        "stable computable randomness",
+        "truth-table functional computable randomness preservation",
+        "total Turing functional computable randomness",
+        "finite-to-one computable randomness",
+        "finite fibre computable randomness",
+        "bounded-to-one computable randomness",
+        "k-to-one computable randomness",
+        "n-to-one computable randomness",
+        "finite-to-one endomorphism algorithmic randomness",
+        "uniformly p-to-one endomorphism",
+        "finite-to-one factor computable randomness"
+      ],
+      "adjacent_terminology": [
+        "truth-table functional = total Turing functional in SRC-0061",
+        "endomorphism = a.e.-computable measure-preserving self-morphism in SRC-0060",
+        "uniformly p-to-one endomorphism / finite-to-one factor / bounded-to-one are established classical dynamics terms but no exact computable-randomness theorem was located in this bounded attack"
+      ],
+      "novelty_guard": "No openness or novelty conclusion is inferred from search absence. The exact finite-fibre restriction remains unresolved under the evidence inspected.",
+      "original_mathematics_performed": false,
+      "final_candidate_selected": false,
+      "gate3_review_performed": false
+    }
+  ]
+}
