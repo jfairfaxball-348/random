@@ -28,6 +28,8 @@ Expected outputs include a bounded portfolio of candidate directions (normally s
 
 **Status:** OPEN after Gate-2 PASS in P2-S006. P3-S001 and P3-S002 completed bounded primary-source attacks on CAND-01 and CAND-02 respectively; both exact predicates remain UNRESOLVED_UNDER_INSPECTED_EVIDENCE. CAND-02's closest prior art splits its target axes: nonergodic convergence-only sources use a.e./non-total operators, while total/effectively-open benchmarks located in the attack retain ergodicity and stronger structure/conclusions. CAND-03 was assessed in P3-S003 and is retired as an exact definition-level rebranding of Low^star(CR,CR); the specific intrinsic characterization of that prior-art class remains unresolved under inspected evidence. Gate 3 has not been reviewed.
 
+P3-S004 completed CAND-01's significance/usefulness assessment. The finite-fibre restriction is provisionally substantive as a research axis because it lies between known unrestricted non-conservation and explicit-effective-inverse invariance, and adjacent primary literature treats finite multiplicity as structural in ergodic/symbolic dynamics and factor-code/channel questions. This is not a novelty or theorem finding: no inspected source shows that the bare global cardinal fibre bound has a computable-randomness consequence. CAND-01 remains provisional and CAND-02 has not yet received its significance assessment.
+
 **Purpose:** try hard to kill the candidates before expensive mathematics.
 
 For each candidate ask: Has this definition/result appeared before? Is it equivalent to a known notion? Is the distinction substantive? Is the motivation natural? Who would use or care about it? What results would make it publishable? What nearby literature creates priority risk?
