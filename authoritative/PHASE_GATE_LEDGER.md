@@ -3,22 +3,49 @@
 | Gate | Status | Meaning |
 |---|---|---|
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
-| Phase 1 -> Phase 2 | CLOSED | Phase 1 is OPEN. P1-S012 statement-inspected the principal low-for-Martin-Löf / low-for-K / K-trivial equivalence package and the base-for-1-randomness characterization, so all 19 coverage strata are now PARTIAL; however 0/19 are complete and Gate 1 is NOT READY FOR REVIEW pending a completion/source-gap audit. |
+| Phase 1 -> Phase 2 | CLOSED | P1-S013 completed the Phase-1 coverage/source-gap audit and found the minimum catalogue evidence assembled for formal Gate-1 review. Gate 1 has **not** been reviewed or passed; Phase 2 remains CLOSED. |
 | Phase 2 -> Phase 3 | CLOSED | Phase 2 is not authorized. |
 | Phase 3 -> Phase 4 | CLOSED | Phase 3 is not authorized. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
 
-## Gate-1 evidence status after P1-S012
+## Gate-1 evidence status after P1-S013
 
-Present but incomplete: coverage plan; stable-ID catalogue; definition/theorem/relation/question/author indexes; search/access-gap register; primary-source consolidation across all 19 coverage strata; exact ordinary and relative Martin-Löf conventions; weaker/stronger tests; computable measures/spaces; effective category; finite-string/left-c.e./Ω distinctions; resource-bounded boundaries; higher randomness; effective ergodic interfaces; and now the principal lowness/base package. COV-0009 has statement-inspected definitions of low for Martin-Löf randomness, K-triviality and low for K, theorem-level equivalences between them, and the exact base-for-randomness definition with the bases-for-1-randomness/K-trivial characterization.
+P1-S013 completed the coverage audit required by `docs/GATE_POLICY.md`. The result is **READY FOR FORMAL REVIEW**, not PASS.
 
-Still unsatisfied: the required **completed coverage audit** has not yet been performed; 0/19 strata are marked complete; and source-access/provenance gaps remain distributed across the catalogue. High-value residual gaps include original Schnorr/Kurtz internals, Jockusch/Kurtz genericity internals, the Demuth translation qualification, earliest standalone Martin-Löf NRFN provenance, selected Chaitin originals, the uninspected Solovay draft, Schnorr 1973 internal statements, historical higher-randomness originals where later primary normalization is used, Franklin-Greenberg-Miller-Ng effective-ergodic internals, and Kučera-Terwijn 1999 internals. The deliberately minimal COV-0016 resource-bounded-dimension boundary also requires explicit audit disposition rather than automatic expansion.
+Minimum evidence now assembled:
 
-COV-0009 is `PARTIAL_P1_S012`, not complete. SRC-0009 is now STATEMENT_INSPECTED from an author-hosted full article with publication identity independently verified; SRC-0021 remains ABSTRACT_INSPECTED because the accessible archive route did not yield inspectable internal text. Low for randomness, low for K, K-triviality and base for randomness remain distinct definition nodes joined only by inspected theorem records. DEF-0020 and P1-S003's ordinary/uniform relativization distinction remain unchanged.
+- documented 19-stratum coverage plan plus a completed per-stratum audit;
+- stable-ID searchable source catalogue;
+- definition/terminology index;
+- theorem/characterization index;
+- implication/equivalence/separation relationship map;
+- status-question record with explicit provenance and later-status evidence;
+- author/topic navigation;
+- search/retrieval log;
+- explicit source-access/uncertainty register in source records, coverage limitations, search log and failure/lesson ledger;
+- no identified consequential unsourced claim in the authoritative research summary.
 
-Current generic coverage counts: 19 partial, 0 started-core, 0 started-edge, 0 navigation-only, 0 not-started; 0 complete.
+### Audit disposition
 
-The next Phase-1 task is therefore a bounded completion/source-gap audit against Gate-1 criteria, not automatic deepening of an already-partial stratum.
+All 19 strata remain historically labelled `PARTIAL_...` because those labels record depth and provenance history, not gate outcomes. P1-S013 separately marks all 19 as `SUFFICIENT_FOR_GATE1_REVIEW`. There are **0 gate-critical remediation gaps**.
 
-Therefore Gate 1 remains **CLOSED**, not `UNDER_REVIEW` and not `PASS`.
+Residual gaps accepted for Gate-1 review include:
+
+- original Schnorr/Kurtz internal statements where later statement-inspected primary literature supports the exact current definitions/relations;
+- Jockusch/Kurtz genericity originals where later primary literature supplies exact syntax;
+- the Demuth translation qualification, with the Russian original and modern primary normalization kept distinct;
+- earliest standalone Martin-Löf no-randomness-from-nothing provenance;
+- selected early Chaitin/Kolmogorov/Levin/Schnorr provenance;
+- the uninspected Solovay draft and Schnorr 1973 internals;
+- historical higher-randomness originals where later primary normalization is statement-inspected;
+- Franklin-Greenberg-Miller-Ng internal statements, because no promoted theorem depends on the uninspected abstract;
+- Kučera-Terwijn 1999 internals, because the current lowness/base equivalence package is statement-grounded elsewhere;
+- abstract-level constructive-dimension and KL material, which must be upgraded before a future discovery claim materially relies on their exact formulations;
+- the deliberately minimal COV-0016 resource-bounded-dimension/cryptography boundary.
+
+P1-S013 found and corrected one catalogue-wide structural inconsistency: `coverage-plan.json` used `PARTIAL_P1_S010`, `PARTIAL_P1_S011` and `PARTIAL_P1_S012` in live records but omitted those values from its declared status vocabulary.
+
+Current generic coverage counts remain: 19 partial, 0 started-core, 0 started-edge, 0 navigation-only, 0 not-started; 0 complete. These counts do not block review because Gate 1 requires a completed coverage audit and a discovery-ready library, not a claim that every literature stratum is exhaustive.
+
+Therefore Gate 1 remains **CLOSED**, not `UNDER_REVIEW` and not `PASS`, but the next bounded task is a separate formal Gate-1 review session that may record PASS / FAIL / BACKTRACK. No Phase-2 discovery may be performed in that same review session.
