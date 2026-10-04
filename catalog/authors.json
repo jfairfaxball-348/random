@@ -543,11 +543,15 @@
         "computable-randomness",
         "van-lambalgen",
         "effective-birkhoff",
-        "oberwolfach-randomness"
+        "oberwolfach-randomness",
+        "lowness",
+        "uniform-relativization",
+        "traceability"
       ],
       "source_ids": [
         "SRC-0032",
-        "SRC-0062"
+        "SRC-0062",
+        "SRC-0064"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -1032,6 +1036,21 @@
       ],
       "source_ids": [
         "SRC-0063"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0069",
+      "name": "Takayuki Kihara",
+      "topics": [
+        "algorithmic-randomness",
+        "lowness",
+        "uniform-relativization",
+        "traceability",
+        "kolmogorov-complexity"
+      ],
+      "source_ids": [
+        "SRC-0064"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
