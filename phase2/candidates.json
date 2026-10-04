@@ -241,8 +241,8 @@
         "COV-0014"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P3-S002",
-      "record_path": "phase3/P3-S002_PRIOR_ART.md",
+      "last_reviewed_in": "P3-S005",
+      "record_path": "phase3/P3-S005_SIGNIFICANCE.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S002_COMPLETE",
       "original_proof_work_performed": false,
@@ -275,6 +275,23 @@
         "materially_distinct": "NOT_ESTABLISHED",
         "openness_claimed": false,
         "conclusion": "Exact CAND-02 status remains unresolved under the inspected primary evidence."
+      },
+      "significance_status": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3_ELEVATED_TECHNICAL_SLICE_RISK",
+      "significance_assessment": {
+        "session": "P3-S005",
+        "novelty_status_unchanged": true,
+        "exact_shape_changed": false,
+        "disposition": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3_ELEVATED_TECHNICAL_SLICE_RISK",
+        "positive_case": "Weak-Birkhoff nonergodic convergence and c.e./lower-semicomputable observable complexity are independently substantive primary-literature axes, and total computable Cantor dynamics are a legitimate effective regime.",
+        "principal_risk": "No inspected evidence shows that requiring everywhere-total self-maps changes randomness content rather than excluding a.e./partial witness representations; the exact conjunction may still be a technical slice.",
+        "continuation_condition": "Require an exact characterization plus structural totality and observable-boundary results before Phase-4 investment.",
+        "likely_interested_communities": [
+          "algorithmic randomness and computability",
+          "effective ergodic theory / computable dynamical systems",
+          "computable analysis / effective probability",
+          "classical ergodic theory conditionally"
+        ],
+        "significance_record": "phase3/P3-S005_SIGNIFICANCE.md"
       }
     },
     {
