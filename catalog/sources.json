@@ -3998,6 +3998,71 @@
         "For an effectively open U in a computable ergodic Cantor Gamma-system, every Martin-Löf-random point has the specified Folner averages of 1_U converging to mu(U).",
         "The effective-open theorem assumes ergodicity and identifies the limit with the expectation; its group-action/Folner averages are not the unrestricted one-sided iterates quantified by CAND-02."
       ]
+    },
+    {
+      "id": "SRC-0064",
+      "title": "Unified characterizations of lowness properties via Kolmogorov complexity",
+      "authors": [
+        "Takayuki Kihara",
+        "Kenshi Miyabe"
+      ],
+      "author_ids": [
+        "AUT-0069",
+        "AUT-0034"
+      ],
+      "year": 2015,
+      "source_type": "journal_article",
+      "doi": "10.1007/s00153-014-0413-8",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1007/s00153-014-0413-8",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "lowness",
+        "uniform-relativization",
+        "algorithmic-randomness",
+        "traceability",
+        "kolmogorov-complexity",
+        "computable-randomness"
+      ],
+      "aliases_search_terms": [
+        "Low star",
+        "Low^star(C,D)",
+        "uniform lowness",
+        "uniformly relative randomness",
+        "uniform test lowness"
+      ],
+      "definitions": [
+        "DEF-0065"
+      ],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Primary source explicitly introducing the parameterized uniform-lowness class Low^star(C,D); its defining universal quantifier and total uniform-test convention subsume CAND-03 at C=D=computable randomness when the computable-randomness uniform tests are instantiated by SRC-0032 / DEF-0025.",
+      "notes": "The author-hosted paper and authors' publication material were statement-inspected. The abstract defines a uniform C-test as a total computable procedure producing a valid C-test for every oracle, then defines Low^star(C,D) as the oracles X such that every C-random is uniformly D-random relative to X. This is an exact definition-level prior-art match for CAND-03's universal-lowness syntax once D=CR uses the Miyabe-Rute uniformly relative computable-randomness convention. The paper's displayed characterization results concern other pairs, notably Low^star(MLR,SR) and Low^star(SR,WR); no characterization of Low^star(CR,CR) is inferred here.",
+      "inspected_material": [
+        "author-hosted full-paper search extract / abstract",
+        "authors' publication page abstract and bibliographic record",
+        "definition of uniform test",
+        "definition of Low^star(C,D)",
+        "displayed main characterization pairs in the abstract"
+      ],
+      "pointers": [
+        "Archive for Mathematical Logic 54(3-4) (2015), 329-358",
+        "abstract: total uniform C-test and Low^star(C,D) definition",
+        "DOI 10.1007/s00153-014-0413-8"
+      ],
+      "cross_links": [
+        "SRC-0032",
+        "SRC-0009",
+        "SRC-0010"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Exact parameterized universal-lowness schema with total all-oracle uniform tests. CAND-03's L_u is the Low^star(CR,CR) instance at the definition level under DEF-0025.",
+      "inspected_claims": [
+        "A uniform C-test is a total computable procedure which, for every oracle X, produces a C-test relative to X.",
+        "Y is C-random uniformly relative to X iff Y passes every uniform C-test relative to X.",
+        "Low^star(C,D) is the class of oracles X such that every C-random is uniformly D-random relative to X.",
+        "The paper's stated principal characterization results in the inspected abstract are for Low^star(MLR,SR) and Low^star(SR,WR), not Low^star(CR,CR)."
+      ]
     }
   ]
 }
