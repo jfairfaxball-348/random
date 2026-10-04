@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S009",
+  "session": "P1-S010",
   "records": [
     {
       "id": "REL-0001",
@@ -86,16 +86,20 @@
     {
       "id": "REL-0006",
       "type": "EQUIVALENCE",
-      "from": "DEF-0003",
-      "to": "property:typical-for-every-mixing-computable-dynamics",
-      "statement": "In the Gács-Hoyrup-Rojas computable-probability-space framework, Schnorr randomness is equivalent to typicality for every mixing computable dynamics.",
+      "from": "DEF-0034",
+      "to": "property:typical-for-every-mixing-or-independent-endomorphism",
+      "statement": "On an atomless computable probability space, Schnorr randomness is equivalent to T-typicality for every mixing endomorphism, and equivalently for every independent endomorphism, with typicality and effective mixing exactly as in DEF-0056/DEF-0057.",
       "support": [
         {
           "source": "SRC-0012",
           "theorem": "THM-0006",
-          "evidence": "ABSTRACT_INSPECTED"
+          "evidence": "STATEMENT_INSPECTED"
         }
-      ]
+      ],
+      "hypotheses": [
+        "ambient computable probability measure has no atoms"
+      ],
+      "caution": "The pre-P1-S010 relation was too broad and used the fair-coin DEF-0003 as its source node; the corrected relation is the generalized-space Schnorr notion DEF-0034 and retains atomlessness."
     },
     {
       "id": "REL-0007",
@@ -774,6 +778,93 @@
         }
       ],
       "caution": "The source factors the implication through higher Oberwolfach randomness and supplies a separation; no lower stronger-test edge is imported."
+    },
+    {
+      "id": "REL-0050",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0005",
+      "to": "property:effective-birkhoff-convergence-under-computable-cantor-dynamics",
+      "statement": "Martin-Löf randomness with respect to a computable Cantor-space measure yields Birkhoff convergence for computable measure-preserving transformations and computable observables; under ergodicity the limit is the expectation, with stronger ergodic effective-set/lower-semicomputable-observable forms in SRC-0057.",
+      "support": [
+        {
+          "source": "SRC-0056",
+          "theorem": "THM-0058",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0057",
+          "theorem": "THM-0059",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0057",
+          "theorem": "THM-0060",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "Keep the nonergodic convergence conclusion separate from the ergodic equality-to-expectation conclusion."
+    },
+    {
+      "id": "REL-0051",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0033",
+      "to": "property:effective-birkhoff-under-layerwise-computable-ergodic-dynamics",
+      "statement": "Martin-Löf random points in a computable probability space satisfy the source-stated effective Birkhoff conclusions for μ-layerwise computable, measure-preserving, ergodic transformations and the corresponding effective/layerwise-effective observables.",
+      "support": [
+        {
+          "source": "SRC-0057",
+          "theorem": "THM-0062",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "hypotheses": [
+        "T is μ-layerwise computable, measure-preserving and ergodic"
+      ]
+    },
+    {
+      "id": "REL-0052",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0002",
+      "to": "property:weak-birkhoff-for-all-computable-measure-preserving-fair-coin-dynamics",
+      "statement": "In fair-coin Cantor space, Martin-Löf randomness is exactly the property of having convergent Birkhoff averages for every computable measure-preserving transformation and every computable observable in the Franklin-Towsner setting.",
+      "support": [
+        {
+          "source": "SRC-0058",
+          "theorem": "THM-0063",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This characterization is fair-coin Cantor-space and nonergodic; it is not generalized to arbitrary computable probability spaces in P1-S010."
+    },
+    {
+      "id": "REL-0053",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0015",
+      "to": "property:weak-birkhoff-lower-semicomputable-observables-under-computable-fair-coin-dynamics",
+      "statement": "Weak 2-randomness in fair-coin Cantor space implies convergence of Birkhoff averages for every computable measure-preserving transformation and every lower semicomputable observable in SRC-0058's setting.",
+      "support": [
+        {
+          "source": "SRC-0058",
+          "theorem": "THM-0064",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "No equality-to-expectation is asserted without ergodicity, and no generalized-measure version is inferred."
+    },
+    {
+      "id": "REL-0054",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0033",
+      "to": "property:effective-recurrence-for-layerwise-computable-ergodic-dynamics",
+      "statement": "A Martin-Löf random point in a computable probability space cannot remain forever inside an effectively open set of measure less than one under a μ-layerwise computable, measure-preserving, ergodic transformation.",
+      "support": [
+        {
+          "source": "SRC-0057",
+          "theorem": "THM-0061",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "Recorded as the recurrence interface used by the principal effective-ergodic theorem, not as a converse characterization."
     }
   ]
 }
