@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S009",
+  "session": "P1-S010",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-04",
   "status_vocabulary": [
@@ -560,15 +560,21 @@
         "COV-0013"
       ],
       "expected_depth_required": "MEDIUM_DEEP",
-      "present_coverage_status": "STARTED_EDGE_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S010",
       "covered_by": [
-        "SRC-0012"
+        "SRC-0012",
+        "SRC-0056",
+        "SRC-0057",
+        "SRC-0058"
       ],
       "known_retrieval_access_limitations": [
-        "Only one core Schnorr/typicality result is indexed; Martin-Löf and other effective-ergodic characterizations remain untouched."
+        "The final author-hosted Franklin-Towsner PDF timed out in P1-S010; exact theorem statements promoted here come from the inspected arXiv copy, while journal/DOI metadata establish the publication identity. Theorem numbering is therefore copy-qualified.",
+        "Franklin-Greenberg-Miller-Ng (2012) was located bibliographically and at abstract level, but a full primary copy was not statement-inspected in this bounded pass; no theorem record is reconstructed from its abstract.",
+        "COV-0014 remains PARTIAL: the principal Martin-Löf/Schnorr/weak-2 effective-Birkhoff interfaces are now statement-grounded, but this was not a general ergodic-theory, recurrence, or computable-analysis survey."
       ],
       "next_actions": [
-        "Acquire primary effective Birkhoff/ergodic characterization literature."
+        "Retain COV-0014 at PARTIAL unless a later Gate-1 coverage audit identifies a concrete remaining ergodic-interface gap; do not expand into a general dynamics survey.",
+        "If the Franklin-Greenberg-Miller-Ng effectively-closed-set theorem becomes necessary for Gate-1 completeness, obtain full statement-level primary access before promotion."
       ]
     },
     {
