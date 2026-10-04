@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P2-S002",
+  "session": "P3-S004",
   "checked_on": "2026-10-04",
   "records": [
     {
@@ -4062,6 +4062,124 @@
         "Y is C-random uniformly relative to X iff Y passes every uniform C-test relative to X.",
         "Low^star(C,D) is the class of oracles X such that every C-random is uniformly D-random relative to X.",
         "The paper's stated principal characterization results in the inspected abstract are for Low^star(MLR,SR) and Low^star(SR,WR), not Low^star(CR,CR)."
+      ]
+    },
+    {
+      "id": "SRC-0065",
+      "title": "Uniform endomorphisms which are isomorphic to a Bernoulli shift",
+      "authors": [
+        "Christopher Hoffman",
+        "Daniel Rudolph"
+      ],
+      "author_ids": [
+        "AUT-0070",
+        "AUT-0071"
+      ],
+      "year": 2002,
+      "source_type": "journal_article",
+      "doi": "10.2307/3597184",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2307/3597184",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "ergodic-theory",
+        "measure-preserving-endomorphisms",
+        "finite-to-one-endomorphisms",
+        "bernoulli-shifts",
+        "entropy",
+        "conjugacy"
+      ],
+      "aliases_search_terms": [
+        "uniformly p-to-one endomorphism",
+        "uniformly finite-to-one endomorphism",
+        "p-to-one endomorphism",
+        "one-sided p-shift"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Adjacent primary significance evidence for CAND-01: finite multiplicity is a structural axis in ergodic theory, but the uniformly p-to-one framework adds entropy and conditional-weight hypotheses absent from CAND-01.",
+      "notes": "P3-S004 inspected the Annals of Mathematics publication abstract. A uniformly p-to-one endomorphism is described there as measure-preserving, entropy log p, almost everywhere p-to-one, with conditional weight 1/p on each preimage; the paper characterizes a class conjugate to the standard one-sided p-shift. This is significance/navigation evidence only, not an exact computable-randomness prior-art match and not evidence that a bare global cardinal fibre bound implies effective inverse structure.",
+      "inspected_material": [
+        "Annals of Mathematics publication metadata and abstract"
+      ],
+      "pointers": [
+        "Annals of Mathematics 156(1) (2002), 79-101",
+        "publication abstract"
+      ],
+      "cross_links": [
+        "SRC-0060"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Shows that controlled finite multiplicity supports nontrivial entropy/conjugacy structure in adjacent ergodic theory; CAND-01 omits the source's entropy, a.e.-uniform multiplicity and equal conditional-preimage-weight assumptions.",
+      "inspected_claims": [
+        "The source defines a uniformly p-to-one endomorphism using measure preservation, entropy log p, almost-everywhere p-to-one multiplicity and conditional preimage weights 1/p.",
+        "The standard example is a one-sided p-shift with uniform i.i.d. Bernoulli measure.",
+        "The paper gives a characterization of uniformly finite-to-one endomorphisms conjugate to that standard example.",
+        "These stronger dynamical hypotheses are not part of CAND-01 and no computable-randomness preservation consequence is transferred."
+      ]
+    },
+    {
+      "id": "SRC-0066",
+      "title": "Markov capacity for factor codes with an unambiguous symbol",
+      "authors": [
+        "Guangyue Han",
+        "Brian Marcus",
+        "Chengyu Wu"
+      ],
+      "author_ids": [
+        "AUT-0072",
+        "AUT-0073",
+        "AUT-0074"
+      ],
+      "year": 2024,
+      "source_type": "journal_article",
+      "doi": "10.1017/etds.2023.103",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1017/etds.2023.103",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "symbolic-dynamics",
+        "factor-codes",
+        "finite-to-one-codes",
+        "information-theory",
+        "channel-capacity",
+        "markov-chains"
+      ],
+      "aliases_search_terms": [
+        "finite-to-one factor code",
+        "bounded-to-one factor code",
+        "factor code as channel",
+        "Markov capacity finite-to-one"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Adjacent primary significance evidence for CAND-01: finite-to-one factor structure is treated as a meaningful encoding/channel constraint linking symbolic dynamics and information theory.",
+      "notes": "P3-S004 inspected the open Cambridge article at the abstract, introduction, finite-to-one definition and factor-code/channel discussion. The paper studies when structured symbolic factor codes admit one-to-one or finite-to-one onto restrictions and relates a finite-to-one condition to a channel-capacity question; one highlighted equivalence with stationary Markov capacity is explicitly conjectural. These maps are shift-commuting symbolic factor codes with substantially more structure than arbitrary CAND-01 maps.",
+      "inspected_material": [
+        "Cambridge open full-text abstract and introduction",
+        "finite-to-one factor-code definition",
+        "information-theory/channel discussion",
+        "Theorem 8.1 statement"
+      ],
+      "pointers": [
+        "Ergodic Theory and Dynamical Systems 44(8) (2024), 2199-2228",
+        "Sections 1-4 and 8",
+        "DOI 10.1017/etds.2023.103"
+      ],
+      "cross_links": [
+        "SRC-0065",
+        "SRC-0060"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Shows finite-to-one multiplicity and degree are substantive in structured symbolic observation maps and connect to deterministic-channel questions; it does not imply significance or preservation for arbitrary total computable fair-coin Cantor maps.",
+      "inspected_claims": [
+        "A sliding block code is finite-to-one when one global integer M bounds every output fibre.",
+        "The paper treats factor codes as deterministic channels and studies one-to-one and finite-to-one onto restrictions of symbolic factor codes.",
+        "For a specified subclass it characterizes when a finite-to-one onto restriction exists.",
+        "The article conjectures, rather than proves in full generality, an equivalence between a finite-to-one onto property and stationary Markov capacity attainment for a specified class.",
+        "Its shift-commuting symbolic hypotheses are additional structure absent from CAND-01."
       ]
     }
   ]
