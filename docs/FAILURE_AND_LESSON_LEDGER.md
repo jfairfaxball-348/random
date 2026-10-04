@@ -473,3 +473,15 @@ The first CAND-01 prior-art attack located two nearby but nonidentical negative 
 Resolution: do not treat "total", "finite-to-one", "bounded-to-one", "invertible" and "effectively invertible" as interchangeable. Likewise, do not turn THM-0037's reverse existential random-preimage statement into forward conservation. CAND-01's exact finite-cardinality fibre restriction remains unresolved under the inspected evidence.
 
 Lesson: when attacking observation-map randomness claims, maintain a four-axis matrix: domain totality, cardinal fibre size, effective inverse information and implication direction. A source matching three axes does not settle the fourth, and failure to locate the fourth is not an openness proof.
+
+## FL-042 — Effective-Birkhoff prior art requires independent totality, observable, ergodicity and conclusion axes
+
+Session: `P3-S002`  
+Status: PRIOR-ART HYPOTHESIS-DISCIPLINE GUARD
+
+The CAND-02 prior-art attack found several sources that are very close while differing on a single decisive axis. Franklin–Towsner and Miyabe–Nies–Zhang provide nonergodic convergence-only results but allow a.e./non-total operators. Bienvenu et al. directly cover effectively-open indicators but require ergodicity and identify the limit with the expectation. Moriakov reaches total computable Cantor maps and effectively-open indicators but only within an ergodic automorphism group action with Følner averaging.
+
+Resolution: do not treat `computable transformation` as a uniform totality convention across sources; do not replace an effectively-open indicator class by a broader lower-semicomputable class in a converse without evidence; do not drop ergodicity from equality-to-expectation results; and do not identify arbitrary one-sided self-map iterates with group-action Følner averages.
+
+Lesson: effective-Birkhoff prior-art comparisons should track at least map totality/structure, observable effectivity, ergodicity and exact conclusion strength, with averaging scheme added when the source changes it. Matching several axes does not settle the remaining one, and failure to find an exact match is not an openness proof.
+
