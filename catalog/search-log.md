@@ -524,3 +524,22 @@ The decisive terminology bridge is **Low-star(C,D)**. Pairwise uniform computabl
 **EQUIVALENT_OR_REBRANDED at the definition level.** CAND-03's universal-lowness / globally-total uniform-family predicate is already the `Low^star(CR,CR)` instance of SRC-0064's parameterized framework. It is therefore retired as a candidate for a new named notion.
 
 No inspected primary statement in this bounded attack supplied an intrinsic characterization of the specific `Low^star(CR,CR)` instance. That narrower characterization question remains unresolved under inspected evidence; no openness is inferred from search absence.
+
+
+## P3-S004 — 2026-10-04 — CAND-01 significance/usefulness literature check
+
+Scope: significance/usefulness and likely-interested-community assessment only. The exact CAND-01 formula and PA-0001 novelty classification were held fixed.
+
+### Primary sources inspected
+
+- **SRC-0065 — Hoffman and Rudolph, _Uniform endomorphisms which are isomorphic to a Bernoulli shift_ (2002).** The Annals publication abstract defines uniformly p-to-one endomorphisms using measure preservation, entropy log p, a.e. p-to-one multiplicity and equal conditional preimage weights, and describes a conjugacy characterization for a uniformly finite-to-one class. Significance use only: this shows finite multiplicity is structural in adjacent ergodic theory, but the extra dynamical hypotheses prevent transfer to CAND-01.
+- **SRC-0066 — Han, Marcus and Wu, _Markov capacity for factor codes with an unambiguous symbol_ (2024).** The open primary article was inspected at its abstract/introduction, finite-to-one definition, channel discussion and finite-to-one characterization section. It treats finite-to-one symbolic factor codes as encoding/channel structure and connects a specified finite-to-one condition to a Markov-capacity question, with one highlighted equivalence explicitly conjectural. Its shift-commuting symbolic framework is substantially stronger than CAND-01.
+
+### Significance synthesis
+
+1. The finite-fibre parameter is **not obviously cosmetic**: both adjacent literatures attach genuine structural content to controlled multiplicity.
+2. The literature does **not** show that the bare cardinal bound has an algorithmic-randomness consequence. No effective selector, inverse branch, entropy formula, capacity statement or deficiency bound is imported.
+3. CAND-01's strongest usefulness case would require an explanatory theorem package, not an isolated yes/no answer.
+4. Plausible communities are algorithmic randomness/computability and effective probability at core; ergodic/symbolic dynamics and information theory become plausible only if a future theorem builds an actual bridge.
+
+Disposition: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**, while PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** for novelty/prior art.
