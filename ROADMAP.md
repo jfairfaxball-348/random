@@ -26,7 +26,7 @@ Expected outputs include a bounded portfolio of candidate directions (normally s
 
 ## Phase 3 — Novelty / Prior Art
 
-**Status:** OPEN after Gate-2 PASS in P2-S006. No Phase-3 substantive work was performed in P2-S006. The first bounded task is P3-S001, a dedicated prior-art attack on CAND-01 only.
+**Status:** OPEN after Gate-2 PASS in P2-S006. P3-S001 completed the first bounded primary-source attack on CAND-01 and left its exact globally finite-fibre preservation status UNRESOLVED_UNDER_INSPECTED_EVIDENCE, while locating substantial overlap with endomorphism randomness and a total fair-coin-preserving non-conservation theorem. CAND-02 and CAND-03 remain unassessed in Phase 3; Gate 3 has not been reviewed.
 
 **Purpose:** try hard to kill the candidates before expensive mathematics.
 
