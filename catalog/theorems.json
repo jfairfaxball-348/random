@@ -1945,6 +1945,63 @@
         "The randomness side uses ordinary oracle relativization DEF-0019; P1-S003's uniform-relative distinctions for Schnorr/computable randomness are untouched.",
         "This theorem does not identify the definition of a base for randomness with lowness."
       ]
+    },
+    {
+      "id": "THM-0071",
+      "name": "Computable randomness is not conserved by unrestricted endomorphisms",
+      "statement": "On fair-coin Cantor space, computable randomness is not preserved by all a.e.-computable measure-preserving endomorphisms: there is a computably random x and an endomorphism T such that T(x) is not computably random.",
+      "hypotheses": [
+        "fair-coin Cantor space (2^omega,lambda)",
+        "T is a morphism/endomorphism in SRC-0060: a.e.-computable and measure-preserving"
+      ],
+      "direction": "failure of forward conservation",
+      "source_support": [
+        {
+          "source": "SRC-0060",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Corollary 10.7; Definition 10.1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0004",
+        "DEF-0064"
+      ],
+      "relations": [
+        "REL-0060"
+      ],
+      "cautions": [
+        "No finite-fibre bound is asserted for the witnessing endomorphism.",
+        "This result does not settle preservation for CAND-01's everywhere-total globally k-to-one subclass."
+      ]
+    },
+    {
+      "id": "THM-0072",
+      "name": "Total fair-coin-preserving truth-table functional can destroy computable randomness",
+      "statement": "There exists a truth-table functional Phi, hence an everywhere-total Cantor functional in the source convention, and a computably random x such that Phi(x) is not computably random; the example can be chosen so that the measure induced by Phi is fair-coin/Lebesgue measure.",
+      "hypotheses": [
+        "Cantor space",
+        "Phi is a truth-table functional, defined in SRC-0061 Definition 2.4 as total",
+        "the displayed strengthening has lambda_Phi=lambda"
+      ],
+      "direction": "failure of forward conservation",
+      "source_support": [
+        {
+          "source": "SRC-0061",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 2.4 and Theorem 4.2"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0004"
+      ],
+      "relations": [
+        "REL-0061"
+      ],
+      "cautions": [
+        "The theorem does not state that Phi has finite or uniformly bounded fibres.",
+        "No effective inverse branches are supplied.",
+        "Do not infer that its witness belongs to any CAND-01 F_k."
+      ]
     }
   ]
 }
