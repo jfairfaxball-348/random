@@ -16,10 +16,10 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 59,
-    "definitions": 63,
-    "theorems": 70,
-    "relations": 59,
+    "sources": 61,
+    "definitions": 64,
+    "theorems": 72,
+    "relations": 61,
     "questions": 1,
     "authors": 66,
     "coverage_records": 19
@@ -83,7 +83,9 @@
     "SRC-0056",
     "SRC-0057",
     "SRC-0058",
-    "SRC-0059"
+    "SRC-0059",
+    "SRC-0060",
+    "SRC-0061"
   ],
   "definitions": [
     "DEF-0001",
@@ -148,7 +150,8 @@
     "DEF-0060",
     "DEF-0061",
     "DEF-0062",
-    "DEF-0063"
+    "DEF-0063",
+    "DEF-0064"
   ],
   "theorems": [
     "THM-0001",
@@ -220,7 +223,9 @@
     "THM-0067",
     "THM-0068",
     "THM-0069",
-    "THM-0070"
+    "THM-0070",
+    "THM-0071",
+    "THM-0072"
   ],
   "relations": [
     "REL-0001",
@@ -281,7 +286,9 @@
     "REL-0056",
     "REL-0057",
     "REL-0058",
-    "REL-0059"
+    "REL-0059",
+    "REL-0060",
+    "REL-0061"
   ],
   "questions": [
     "QST-0001"
@@ -448,7 +455,13 @@
     "low for K",
     "K-low",
     "MLR^A = MLR",
-    "base for 1-randomness"
+    "base for 1-randomness",
+    "endomorphism randomness",
+    "endomorphism random",
+    "truth-table functional computable randomness preservation",
+    "finite-to-one endomorphism randomness",
+    "bounded-to-one endomorphism randomness",
+    "uniformly p-to-one endomorphism"
   ],
   "coverage_records": [
     "COV-0001",
