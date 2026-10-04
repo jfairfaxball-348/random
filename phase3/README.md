@@ -10,6 +10,6 @@ Neither disposition is an openness or novelty finding. CAND-03 remains unassesse
 
 Structured prior-art findings are in `prior-art.json`. Session records include `P3-S001_PRIOR_ART.md` and `P3-S002_PRIOR_ART.md`.
 
-Validation and close records are maintained per numbered session.
+Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`, `P3-S002_VALIDATION.md`, `P3-S002_CLOSE.md`.
 
 Next recommended session: **P3-S003**, a dedicated primary-source prior-art attack on CAND-03 only. No CAND-01/CAND-02 follow-on mathematics, candidate selection, Gate-3 review or Phase-4 work is authorized by that recommendation.
