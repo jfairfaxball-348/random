@@ -247,3 +247,37 @@ At the incoming P1-S008 checkpoint, the underlying catalogue files, authoritativ
 Resolution: P1-S009 treats the detailed committed records and authoritative state as controlling and synchronizes the aggregate catalogue metadata while adding the higher-randomness records. Authorization was unaffected.
 
 Lesson: aggregate index prose can lag its underlying stable-ID files. Validate aggregate session pointers and coverage summaries as part of every catalogue closeout.
+
+
+## FL-022 — The Schnorr/mixing slogan hid an atomlessness hypothesis and a generalized-space node
+
+Session: `P1-S010`  
+Status: RESOLVED CORRECTION / HYPOTHESES PRESERVED
+
+The pre-P1-S010 THM-0006/REL-0006 summarized Gács-Hoyrup-Rojas as “Schnorr randomness iff typical for every mixing computable dynamics” without carrying the main theorem's assumption that the computable probability space has no atoms. REL-0006 also used the fair-coin Schnorr definition DEF-0003 even though the theorem is formulated for Schnorr randomness on a computable probability space.
+
+Resolution: THM-0006 now states atomlessness, the exact T-typical and polynomial-mixing/independence resources, and the paper's separate atomic remarks. REL-0006 now starts from DEF-0034, the generalized computable-probability-space Schnorr notion.
+
+Lesson: an abstract-level theorem slogan can suppress a structural measure hypothesis. For generalized effective dynamics, always inspect the theorem statement and attach the relation to the correct measure-space notion rather than a fair-coin specialization.
+
+## FL-023 — Birkhoff convergence and equality to the space expectation separate in nonergodic systems
+
+Session: `P1-S010`  
+Status: RESOLVED AS THEOREM-SCOPE DISCIPLINE
+
+V'yugin's theorem gives convergence at Martin-Löf-random points for computable measure-preserving transformations without assuming ergodicity, but only identifies the limit with E(f) when the transformation is ergodic. Franklin-Towsner explicitly distinguish weak Birkhoff points (convergence) from Birkhoff points (convergence to the integral) and use the weak notion for their nonergodic characterization.
+
+Resolution: THM-0058, THM-0063 and THM-0064 preserve the convergence/equality split. The catalogue does not infer a global expectation value in the nonergodic setting.
+
+Lesson: “satisfies Birkhoff's theorem” is not a sufficiently precise catalogue statement when ergodicity is absent. Record whether the conclusion is existence of a point-dependent limit or equality with the integral.
+
+## FL-024 — Effective-ergodic publication identity and inspected-copy access diverged
+
+Session: `P1-S010`  
+Status: STATEMENTS RECOVERED WITH COPY QUALIFICATION / RESIDUAL ACCESS GAP PRESERVED / NOT A PROGRAMME BLOCKER
+
+Franklin-Towsner's final journal identity is bibliographically clear, but its author-hosted final PDF timed out during the bounded pass. Exact promoted theorem statements therefore come from the inspected arXiv copy, whose numbering is not assumed to match the final PDF. Separately, Franklin-Greenberg-Miller-Ng (2012) was located and its abstract inspected, but a full primary copy was not obtained at statement level in this pass.
+
+Resolution: SRC-0058 records the journal DOI separately from the inspected arXiv artefact and uses content/section pointers rather than pretending final theorem numbering was checked. No theorem record is promoted from the Franklin-Greenberg-Miller-Ng abstract.
+
+Lesson: bibliographic publication identity, the exact copy inspected and theorem numbering are separate provenance facts. An abstract can guide retrieval but cannot fill a statement gap.
