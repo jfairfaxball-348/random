@@ -75,7 +75,8 @@
         "pi11-randomness",
         "delta11-randomness",
         "low-for-k",
-        "bases-for-randomness"
+        "bases-for-randomness",
+        "effective-birkhoff"
       ],
       "source_ids": [
         "SRC-0005",
@@ -90,7 +91,8 @@
         "SRC-0037",
         "SRC-0043",
         "SRC-0052",
-        "SRC-0053"
+        "SRC-0053",
+        "SRC-0062"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -539,10 +541,13 @@
         "relative-randomness",
         "schnorr-randomness",
         "computable-randomness",
-        "van-lambalgen"
+        "van-lambalgen",
+        "effective-birkhoff",
+        "oberwolfach-randomness"
       ],
       "source_ids": [
-        "SRC-0032"
+        "SRC-0032",
+        "SRC-0062"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -999,6 +1004,34 @@
       ],
       "source_ids": [
         "SRC-0059"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0067",
+      "name": "Jing Zhang",
+      "topics": [
+        "algorithmic-randomness",
+        "effective-birkhoff",
+        "oberwolfach-randomness",
+        "non-ergodic-systems"
+      ],
+      "source_ids": [
+        "SRC-0062"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0068",
+      "name": "Nikita Moriakov",
+      "topics": [
+        "effective-birkhoff",
+        "ergodic-theory",
+        "computable-actions",
+        "amenable-groups"
+      ],
+      "source_ids": [
+        "SRC-0063"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
