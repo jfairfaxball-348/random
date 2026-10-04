@@ -8,8 +8,10 @@ P3-S002 completed a bounded primary-source attack on CAND-02. Franklin–Towsner
 
 Neither CAND-01 nor CAND-02 disposition is an openness or novelty finding. P3-S003 classifies CAND-03 as **EQUIVALENT_OR_REBRANDED at the definition level**: its exact oracle class is the Low^star(CR,CR) instance of Kihara–Miyabe's parameterized uniform-lowness framework, with DEF-0025 supplying the computable-randomness uniform-family convention. CAND-03 is retired as a candidate for a new named notion. The specific intrinsic characterization of Low^star(CR,CR) remains unresolved under inspected evidence; no openness claim is made. No final candidate is selected and Fairfax-Ball Randomness is not defined.
 
-Structured prior-art findings are in `prior-art.json`. Session records include `P3-S001_PRIOR_ART.md`, `P3-S002_PRIOR_ART.md` and `P3-S003_PRIOR_ART.md`.
+P3-S004 assessed CAND-01's significance/usefulness as **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**. The finite-fibre restriction is a recognized structural axis in adjacent finite-to-one dynamics/factor-code literature, but no computable-randomness consequence of the bare cardinal bound is established. The assessment is recorded in `P3-S004_SIGNIFICANCE.md` and does not alter PA-0001's unresolved novelty status.
 
-Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`, `P3-S002_VALIDATION.md`, `P3-S002_CLOSE.md`, `P3-S003_VALIDATION.md`, `P3-S003_CLOSE.md`.
+Structured prior-art findings are in `prior-art.json`. Session records include `P3-S001_PRIOR_ART.md`, `P3-S002_PRIOR_ART.md`, `P3-S003_PRIOR_ART.md` and `P3-S004_SIGNIFICANCE.md`.
 
-Next recommended session: **P3-S004**, a bounded significance/usefulness and likely-interested-community assessment on surviving CAND-01 only. No CAND-02 work, retired-CAND-03 follow-on mathematics, candidate selection, Gate-3 review or Phase-4 work is authorized by that recommendation.
+Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`, `P3-S002_VALIDATION.md`, `P3-S002_CLOSE.md`, `P3-S003_VALIDATION.md`, `P3-S003_CLOSE.md`, `P3-S004_VALIDATION.md`, `P3-S004_CLOSE.md`.
+
+Next recommended session: **P3-S005**, a bounded significance/usefulness and likely-interested-community assessment on surviving CAND-02 only. No CAND-01 mathematics, retired-CAND-03 follow-on work, candidate selection, Gate-3 review or Phase-4 work is authorized by that recommendation.
