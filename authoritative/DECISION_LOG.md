@@ -109,3 +109,16 @@ Decision: CAND-01 remains **RETAIN_PROVISIONAL** with prior-art disposition **UN
 This is not a finding that the candidate is open, novel, materially distinct or publishable. It is also not classified as already known or equivalent/rebranded. The documented search establishes substantial framework overlap with endomorphism randomness and rules out totality plus fair-coin preservation alone as the distinguishing feature.
 
 Record: `phase3/P3-S001_PRIOR_ART.md`; structured finding: `PA-0001`.
+
+## D-0016 — CAND-02 exact total-map effective-open prior-art status remains unresolved after primary attack
+
+On 2026-10-04, P3-S002 performed one dedicated primary-source prior-art attack on CAND-02.
+
+Franklin–Towsner (SRC-0058 / THM-0063 / THM-0064) remain the closest nonergodic weak-Birkhoff framework, but use an a.e.-defined computable-transformation convention. Miyabe–Nies–Zhang (SRC-0062 / THM-0073) strengthen nonergodic convergence for lower-semicomputable observables to Oberwolfach-random points while explicitly not assuming the operator is total. Bienvenu et al. (SRC-0057 / THM-0059 / THM-0060) directly treat effectively-open indicators but require ergodicity and equality to expectation. Moriakov (SRC-0063 / THM-0074) supplies total computable Cantor maps and effectively-open indicators, but within ergodic automorphism actions with Følner averaging and expectation equality.
+
+Decision: CAND-02 remains **RETAIN_PROVISIONAL** with prior-art disposition **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Its exact formula and E2 alignment are unchanged. No inspected primary theorem matched the combined everywhere-total arbitrary self-map, effectively-open indicator, nonergodic convergence-only predicate.
+
+This is not a finding that CAND-02 is open, novel, materially distinct or publishable, and it is not classified as already known or equivalent/rebranded. The documented attack records substantial overlap while preserving the unmatched hypothesis combination.
+
+Record: `phase3/P3-S002_PRIOR_ART.md`; structured finding: `PA-0002`.
+
