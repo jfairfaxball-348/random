@@ -553,3 +553,30 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P3-S002`, dedicated primary-source prior-art attack on CAND-02 only.
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+## P3-S002 — CAND-02 primary-source prior-art attack
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `f930afb534948833feb7e3fdcda840e5922af3cf`, matching live `main` exactly. The incoming session ledger contained no P3-S002 entry and no committed P3-S002 session record existed; forward scheduling mentions did not consume the session ID.
+
+Scope completed: one bounded primary-source prior-art attack on CAND-02 only.
+
+Result: **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Franklin–Towsner (SRC-0058 / THM-0063 / THM-0064) remain the closest nonergodic convergence framework but use a.e.-defined transformations. Miyabe–Nies–Zhang (SRC-0062 / THM-0073) add nonergodic convergence for lower-semicomputable observables while explicitly not assuming totality. Bienvenu et al. (SRC-0057 / THM-0059 / THM-0060) directly cover effectively-open indicators but require ergodicity and expectation equality. Moriakov (SRC-0063 / THM-0074) supplies total computable Cantor maps and effectively-open indicators only inside an ergodic automorphism group action with Følner averaging and equality to measure.
+
+No inspected primary theorem matched CAND-02's exact everywhere-total arbitrary fair-coin-preserving self-map / effectively-open indicator / nonergodic convergence-only predicate. CAND-02 is not declared open, novel, materially distinct, equivalent/rebranded or already known. Its exact formula and E2 alignment remain unchanged.
+
+Records: `phase3/P3-S002_PRIOR_ART.md`, `phase3/P3-S002_CLOSE.md`, `phase3/P3-S002_VALIDATION.md`, and PA-0002 in `phase3/prior-art.json`. Durable decision: D-0016. Hypothesis guard: FL-042.
+
+Catalogue additions: SRC-0062, SRC-0063, THM-0073, THM-0074, REL-0062, REL-0063, AUT-0067 and AUT-0068. Catalogue counts are now 63 sources, 64 definitions, 74 theorem/characterization records, 63 relations, 1 status question and 68 authors.
+
+DEF-0020 is unchanged. CAND-01's P3-S001 disposition is unchanged. CAND-03 was not substantively investigated and remains NOT_ASSESSED for Phase-3 prior-art purposes. No original proof work, witness construction, experiment, Lean/Palomar use, final candidate selection, Gate-3 review, Phase-4 work, publication work or outreach occurred.
+
+Gate 1 and Gate 2 remain PASS; Phases 1–2 remain completed for gate purposes; Phase 3 remains OPEN; Gate 3 is NOT REVIEWED; Phases 4–5 remain CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S003`, dedicated primary-source prior-art attack on CAND-03 only.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
