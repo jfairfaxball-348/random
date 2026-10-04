@@ -97,3 +97,15 @@ Decision: **GATE 2 PASS**. Phase 2 is complete for gate purposes and Phase 3 —
 This PASS is a readiness decision only. It does not establish that any retained candidate is novel, open, distinct, nontrivial or publishable; it does not select a final candidate; and it does not define Fairfax-Ball Randomness. Candidate novelty/literature status remains NOT_ASSESSED until Phase-3 evidence is recorded. No Phase-3 substantive work was performed in P2-S006.
 
 Record: `phase2/P2-S006_GATE2_REVIEW.md`.
+
+## D-0015 — CAND-01 exact finite-fibre prior-art status remains unresolved after first primary attack
+
+On 2026-10-04, P3-S001 performed the first dedicated primary-source prior-art attack on CAND-01.
+
+Rute's SRC-0060 introduces **endomorphism randomness**, requiring computable-randomness preservation under every a.e.-computable measure-preserving endomorphism, and THM-0071 records that ordinary computable randomness is not preserved by that unrestricted class. Bienvenu–Porter's SRC-0061 / THM-0072 shows more sharply that an everywhere-total truth-table functional can induce fair-coin measure yet destroy computable randomness.
+
+Decision: CAND-01 remains **RETAIN_PROVISIONAL** with prior-art disposition **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Its exact formula and E1 alignment are unchanged. The fixed global finite-cardinality fibre bound with no assumed effective inverse branches remains the live unmatched hypothesis in the inspected evidence.
+
+This is not a finding that the candidate is open, novel, materially distinct or publishable. It is also not classified as already known or equivalent/rebranded. The documented search establishes substantial framework overlap with endomorphism randomness and rules out totality plus fair-coin preservation alone as the distinguishing feature.
+
+Record: `phase3/P3-S001_PRIOR_ART.md`; structured finding: `PA-0001`.
