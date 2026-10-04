@@ -180,3 +180,12 @@ Result: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**. The exact
 PA-0001's novelty disposition remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No candidate is selected, Gate 3 is **NOT REVIEWED**, Phase 4 remains **CLOSED**, and no original mathematics was performed. DEF-0020 and all existing convention/evidence guards remain unchanged.
 
 Record: `phase3/P3-S004_SIGNIFICANCE.md`.
+
+## Phase-3 candidate-selection readiness — P3-S006 (not a gate review)
+
+P3-S006 recorded **READY_FOR_SELECTION_DECISION** for the surviving CAND-01/CAND-02 portfolio. This means the committed prior-art/significance evidence is sufficient for a separate documented selection/NO-GO decision; it is not a candidate selection and not a Gate-3 PASS.
+
+CAND-01 retains its unresolved finite-multiplicity payoff risk. CAND-02 retains elevated totality/representation-artifact risk. Both remain `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`; CAND-03 remains retired.
+
+Authorization is unchanged: Phase 3 remains **OPEN**, Gate 3 remains **NOT REVIEWED / CLOSED**, Phase 4 remains **CLOSED**, and no candidate is selected. The next bounded session is P3-S007, selection/NO-GO only.
+
