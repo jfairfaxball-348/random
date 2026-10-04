@@ -6,7 +6,7 @@
   "active_phase": 2,
   "active_phase_name": "Discovery",
   "active_session": null,
-  "last_completed_session": "P1-S014",
+  "last_completed_session": "P2-S001",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 66
   },
-  "next_transition": "Run bounded Phase-2 Discovery sessions to build the candidate portfolio required for Gate 2. Do not perform Phase-3 novelty/prior-art work until Gate 2 passes.",
-  "recommended_next_session": "P2-S001",
+  "next_transition": "Continue bounded Phase-2 formulation work: P2-S002 on CAND-02 only. Gate 2 has not been reviewed or passed; Phases 3-5 remain closed.",
+  "recommended_next_session": "P2-S002",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
@@ -80,5 +80,29 @@
     "residual_provenance_gaps_preserved": true,
     "phase2_opened": true,
     "phase2_work_performed_in_review_session": false
+  },
+  "phase2_gate_status": "CLOSED_NOT_REVIEWED",
+  "phase2_discovery": {
+    "last_session": "P2-S001",
+    "discovery_record": "phase2/P2-S001_DISCOVERY.md",
+    "candidate_index": "phase2/candidates.json",
+    "close_record": "phase2/P2-S001_CLOSE.md",
+    "seriously_considered": 6,
+    "retained_provisionally": [
+      "CAND-01",
+      "CAND-02",
+      "CAND-03"
+    ],
+    "rejected": [
+      "CAND-04",
+      "CAND-05",
+      "CAND-06"
+    ],
+    "final_selection": null,
+    "novelty_assessment_performed": false,
+    "original_proof_work_performed": false,
+    "external_literature_retrieval_performed": false,
+    "phase1_catalogue_unchanged": true,
+    "next_formulation_task": "E2: CAND-02 transformation/observable scope alignment only"
   }
 }

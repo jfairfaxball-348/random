@@ -392,3 +392,25 @@ Blocker requiring owner/external action: **NONE**.
 Recommended next bounded session: `P2-S001`, the first bounded Discovery session. It must build a limited candidate-direction portfolio from the committed catalogue without conducting a dedicated novelty/prior-art audit, making novelty claims, or beginning Phase-3 work.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+## P2-S001 — First bounded Discovery portfolio
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `f82b0162efd486783bfd921f1a9d1d0a8447e358`, matching live main exactly. P2-S001 was unused; incoming references were forward recommendations only.
+
+Scope completed: first catalogue-led Discovery pass. Six directions were considered seriously and recorded with exact provisional shapes, motivation, stable-ID anchors, structural comparison, prospective theorem packages, collapse risks, falsifiers, dependencies, difficulty and evidence weaknesses. Three remain provisional: CAND-01 (finite-ambiguity observations), CAND-02 (nonergodic enumerable-event convergence), and CAND-03 (uniform-computable-lowness, auxiliary). Three were rejected by already catalogued results: CAND-04 (THM-0008), CAND-05 (THM-0026), CAND-06 (THM-0024). KL and dimension navigation was deferred before formulation; balanced-test constant variation was screened out as cosmetic.
+
+No final candidate selected; Fairfax-Ball Randomness not defined; no novelty or literature-openness claim; no dedicated prior-art audit, external literature retrieval, original proof work, experiments, Lean/Palomar, manuscript/publication work or outreach. P1-S014's gate-only history is unchanged.
+
+Discovery record: `phase2/P2-S001_DISCOVERY.md`. Machine-readable index: `phase2/candidates.json`. Close record: `phase2/P2-S001_CLOSE.md`. Validation: `phase2/P2-S001_VALIDATION.md`.
+
+The entire Phase-1 catalogue is unchanged, including DEF-0020, source access levels and residual provenance gaps. Counts remain 59 sources, 63 definitions, 70 theorems, 59 relations, 1 question, 66 authors and 19 coverage records. Stale README/status/scaffold/handover surfaces were reconciled against the later committed Gate-1 authority and synchronized.
+
+Durable programme decision: D-0009. Meaningful failures/corrections: FL-032 through FL-035.
+
+Gate impact: NONE. Gate 1 remains PASS; Phase 1 COMPLETED for gate purposes; Phase 2 OPEN; Gate 2 CLOSED / NOT REVIEWED; Phases 3–5 CLOSED. No owner/external blocker.
+
+Next bounded task: P2-S002, CAND-02 formulation alignment only (E2), under `authoritative/P2-S002_FORMULATION_BRIEF.md`. This task order is not target selection. P2-S002 was not begun.
+
+Validation and exact outgoing remote-main hash are finalized after closeout writes. The publication commit is identifiable as the commit introducing `phase2/P2-S001_CLOSE.md`; its full hash is reported in the closeout response rather than self-embedded.

@@ -364,3 +364,41 @@ The formal Gate-1 review confirmed that discovery readiness and source exhaustiv
 The review specifically rechecked the weak-access dependency graph. `DEF-0012` and `THM-0011` (Kolmogorov-Loveland material), `THM-0009`/`THM-0010` and `REL-0005` (constructive dimension) remain abstract-level; no exact supergale definition is present. These records are suitable navigation for Discovery but must be upgraded before any Phase-2 comparison materially relies on their exact formulation. Original Schnorr/Kurtz, Jockusch/Kurtz, Solovay/Schnorr historical, Kučera-Terwijn and other named provenance gaps likewise remain recorded rather than being relabelled by the PASS.
 
 Lesson: a phase-gate PASS changes authorization, not evidence granularity. Never upgrade `METADATA_ONLY`/`ABSTRACT_INSPECTED` material, close a provenance gap, infer novelty, or manufacture exhaustive coverage merely because the containing phase has passed.
+
+## FL-032 — Scaffold status surfaces lagged Gate-1 PASS
+
+Session: `P2-S001`
+Status: RESOLVED AUTHORITY-SYNCHRONIZATION CORRECTION
+
+At the exact expected incoming checkpoint, README.md, STATUS.md and phase-1-research/README.md still described P1-S003-era Phase-1 work; authoritative/NEXT_SESSION_PROMPT.md still asked for P1-S004; phase-2-discovery/README.md said CLOSED. The later committed STATE, D-0008, gate/session ledgers, START_HERE, ROADMAP and P1-S014 review agreed on Gate-1 PASS and Phase-2 OPEN.
+
+Resolution: the specific later gate decision controlled. P2-S001 synchronized those live navigation surfaces and linked the old Phase-2 scaffold to phase2/. Historical session and catalogue records are unchanged. This is reconciliation of stale prose, not another authorization decision.
+
+Lesson: validate all live entry/status/handover surfaces at close, while preserving historical statements in dated records.
+
+## FL-033 — Unrestricted structural axioms already have a maximal-class answer
+
+Session: `P2-S001`
+Status: CAND-04 REJECTED BY CATALOGUED CHARACTERIZATION
+
+The largest fair-coin class closed under conservation and no-randomness-from-nothing for all a.e.-computable measure-preserving self-maps is already MLR by THM-0008 / REL-0008 (SRC-0015). The proposed axiomatic shape cannot justify a separate definition. The theorem is a largest-class statement, not a claim that every smaller class satisfying the axioms equals MLR.
+
+Lesson: before retaining an intrinsic-looking definition, check the exact quantified characterization already in the map. Restricting the map class is a different question, not a rescue of the unrestricted shape. See CAND-01 and CAND-04 in phase2/P2-S001_DISCOVERY.md.
+
+## FL-034 — More syntax did not produce more randomness classes
+
+Session: `P2-S001`
+Status: CAND-05 AND CAND-06 REJECTED BY CATALOGUED RESULTS
+
+The neighbourhood-based n-r.e. test levels for n≥2 already collapse to difference randomness (THM-0026, SRC-0035); mutual uniformly relative computable randomness of the interleaved halves already characterizes CR (THM-0024, SRC-0032). Those exact shapes were rejected. A brief additional screen rejected merely varying the fixed constant in balanced-test change bounds, already normalized in DEF-0028 / SRC-0036 Remark 18.
+
+Lesson: preserve these negative Discovery findings. Different syntax, more finite alternations or two-sided phrasing is not evidence of a different class. Never switch neighbourhood/string-test semantics or remove symmetry to conceal the known result.
+
+## FL-035 — A missing catalogue arrow and a pairwise witness do not settle candidate status
+
+Session: `P2-S001`
+Status: FORMULATION RISKS PRESERVED; NO NEW THEOREM CLAIMED
+
+CAND-02's proposed total-map/indicator quantifiers are not silently identified with every source use of computable dynamics or lower-semicomputable observables. Its next task E2 is exact formulation alignment, not a search for the missing converse. For CAND-03, THM-0025 gives an existential ordinary/uniform separation pair; it does not establish a noncomputable oracle preserving every CR sequence uniformly.
+
+Lesson: distinguish library omissions from unresolved literature questions, and existential separation from universal lowness. Future theorem packages remain questions until authorized mathematics; novelty remains a separate Phase-3 question.

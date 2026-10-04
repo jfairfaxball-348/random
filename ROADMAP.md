@@ -16,7 +16,7 @@ Papers and articles are normally linked and catalogued rather than copied into t
 
 ## Phase 2 — Discovery
 
-**Status:** OPEN. No candidate was selected and no Discovery work was performed in the P1-S014 gate-review session.
+**Status:** OPEN. P2-S001 completed the first bounded Discovery pass, retaining three provisional directions and rejecting three catalogued duplicates/collapses. No final candidate is selected. P1-S014 itself performed no Discovery. Gate 2 has not been reviewed; next is P2-S002, CAND-02 formulation alignment only. See `phase2/P2-S001_DISCOVERY.md` and `phase2/candidates.json`.
 
 **Purpose:** identify what appears genuinely open, structurally missing or mathematically worthwhile.
 

@@ -38,3 +38,11 @@ The decision is based on the Gate-1 standard in `docs/GATE_POLICY.md`: the commi
 Residual provenance/access gaps remain live. In particular, abstract-level Kolmogorov-Loveland and constructive-dimension material must be upgraded before a Phase-2 claim materially relies on exact formulations, and the deliberately minimal COV-0016 boundary remains deliberate.
 
 Effect: Phase 1 is complete for gate purposes; Phase 2 — Discovery is OPEN; Phases 3–5 remain CLOSED. P1-S014 performed no Phase-2 discovery, selected no candidate and made no novelty claim.
+
+## D-0009 — Preserve a provisional portfolio and retire three redundant shapes
+
+On 2026-10-04, P2-S001 retained CAND-01 (finite-ambiguity observations), CAND-02 (nonergodic convergence for enumerable events) and CAND-03 (uniform-computable-lowness, as an auxiliary direction) for further bounded formulation work. None is selected as the programme target or asserted novel, open in the literature, or mathematically distinct.
+
+CAND-04, CAND-05 and CAND-06 are rejected in their exact recorded shapes because THM-0008, THM-0026 and THM-0024 respectively already supply the desired characterization or collapse. Their stable records remain addressable; reformulating a rejected shape would require an explicit changed question, not erasure of the rejection.
+
+Decision record: `phase2/P2-S001_DISCOVERY.md`; machine index: `phase2/candidates.json`. No gate is passed. Next scheduling is P2-S002, CAND-02 formulation alignment only, to resolve a concrete map/observable convention dependency. The Phase-1 catalogue remains unchanged; Phases 3–5 remain CLOSED.

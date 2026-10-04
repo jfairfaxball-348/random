@@ -4,7 +4,7 @@
 |---|---|---|
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
 | Phase 1 -> Phase 2 | PASS | P1-S014 formally reviewed Gate 1 and passed it. Phase 1 is complete for gate purposes and Phase 2 — Discovery is OPEN. The catalogue remains bounded/non-exhaustive and residual provenance gaps remain recorded. |
-| Phase 2 -> Phase 3 | CLOSED | Phase 2 is authorized/open, but Gate 2 has not been reviewed or passed. Phase 3 remains CLOSED. |
+| Phase 2 -> Phase 3 | CLOSED | P2-S001 records a provisional portfolio, with formulation tasks remaining. Gate 2 has not been reviewed or passed. Phase 3 remains CLOSED. |
 | Phase 3 -> Phase 4 | CLOSED | Phase 3 is not authorized. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
@@ -70,3 +70,9 @@ Authorization after P1-S014:
 - Phase-2 substantive work performed in P1-S014: **NO**
 
 Formal review record: `phase1/P1-S014_GATE1_REVIEW.md`
+
+## Discovery checkpoint — P2-S001 (not a gate review)
+
+The first bounded Discovery pass retains CAND-01, CAND-02 and CAND-03 provisionally and rejects CAND-04, CAND-05 and CAND-06 by exact already-catalogued characterizations/collapse. Records: `phase2/P2-S001_DISCOVERY.md` and `phase2/candidates.json`.
+
+No candidate is selected and no Fairfax-Ball definition is established. Formulation tasks E1–E3 remain; next is P2-S002 on E2/CAND-02 only. No novelty assessment or original proof work was performed. The portfolio is not a Gate-2 PASS or readiness finding. Gate 1 and every later phase status remain unchanged. No owner/external blocker exists.

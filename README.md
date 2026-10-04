@@ -4,9 +4,11 @@ This repository is the authoritative research record for a five-phase programme 
 
 ## Current state
 
-**PHASE 1 — RESEARCH / CATALOGUE — IS OPEN AND IN PROGRESS.**
+**PHASE 2 — DISCOVERY — IS OPEN.**
 
-P1-S001 through P1-S003 are completed. Phase 1 remains incomplete and Gate 1 is CLOSED / NOT READY FOR REVIEW. Phases 2–5 remain CLOSED; no candidate selection, novelty gate, original mathematics, formalisation or publication work is authorized.
+Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 completed the first Discovery pass: three provisional directions retained and three catalogued duplicates/collapses rejected. No final candidate is selected and Fairfax-Ball Randomness is not defined. Gate 2 has not been reviewed; Phases 3–5 remain CLOSED.
+
+Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [candidate index](phase2/candidates.json) and [session close](phase2/P2-S001_CLOSE.md). The next bounded task is P2-S002, CAND-02 formulation alignment only; no novelty audit or original mathematics is authorized.
 
 Repository authority lives in the committed files. Start every future session with `authoritative/START_HERE.md`.
 

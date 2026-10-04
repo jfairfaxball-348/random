@@ -1,8 +1,8 @@
 # Phase 1 — Research / Catalogue
 
-Status: **OPEN / IN PROGRESS**
+Status: **COMPLETED FOR GATE PURPOSES**
 
-Phase 1 is authorized and active under `authoritative/STATE.json`. P1-S001 through P1-S003 are completed. Gate 1 remains CLOSED / NOT READY FOR REVIEW; Phases 2–5 remain CLOSED.
+P1-S001 through P1-S014 are completed. Gate 1 passed in P1-S014; Phase 2 Discovery is OPEN and Phases 3–5 remain CLOSED. The catalogue is bounded and non-exhaustive, with residual provenance/access gaps preserved.
 
 Purpose: conduct the extensive literature/status research and construct the durable agent-searchable catalogue described by the roadmap and Gate 1 criteria.
 

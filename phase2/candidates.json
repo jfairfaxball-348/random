@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "phase": 2,
+  "last_updated_session": "P2-S001",
+  "status": "DISCOVERY_ONLY",
+  "status_vocabulary": [
+    "RETAIN_PROVISIONAL",
+    "REJECT_CATALOGUED_CHARACTERIZATION",
+    "REJECT_CATALOGUED_COLLAPSE"
+  ],
+  "counts": {
+    "considered_seriously": 6,
+    "retained_provisionally": 3,
+    "rejected": 3
+  },
+  "retained_ids": [
+    "CAND-01",
+    "CAND-02",
+    "CAND-03"
+  ],
+  "rejected_ids": [
+    "CAND-04",
+    "CAND-05",
+    "CAND-06"
+  ],
+  "candidate_selected": false,
+  "fairfax_ball_randomness_defined": false,
+  "gate2_review_performed": false,
+  "record_authority": "Exact formulas, quantifier guards and full dispositions are in phase2/P2-S001_DISCOVERY.md. These are programme questions, not additions to the source-derived Phase-1 catalogue.",
+  "records": [
+    {
+      "id": "CAND-01",
+      "title": "Computable randomness under finite-ambiguity observations",
+      "status": "RETAIN_PROVISIONAL",
+      "object": "individual sequence; restricted observation maps",
+      "provisional_shape": "For every k>=1 let F_k be all total computable fair-coin-preserving Cantor self-maps with at most k preimages of each point. R_fin(x) means x is computably random and F(x) is computably random for every k and F in F_k. Ask whether R_fin equals CR and, if not, for a natural characterization. No effective inverse branches are assumed.",
+      "motivation": "Does bounded ambiguity of an observation explain stability beyond effective isomorphisms?",
+      "structural_difference": "Restricts map fibres while keeping the ordinary computable-martingale observer; no distinct class is asserted.",
+      "prospective_value": "Preservation or exact failure criterion, with a test characterization if a substantive class arises.",
+      "collapse_risk": "HIGH: may preserve CR outright or be covered by established map theory.",
+      "falsifiers": [
+        "Already a routine instance of a recorded/source theorem",
+        "A known preservation class with no additional explanatory theorem",
+        "No substantive role for the finite-ambiguity restriction"
+      ],
+      "dependencies": [
+        "Total computable measure-preserving maps",
+        "Effective inverse information versus cardinal fibre bounds",
+        "Computable martingale characterization"
+      ],
+      "expected_difficulty": "HIGH",
+      "source_evidence_weaknesses": [
+        "Catalogue does not evaluate bounded-fibre total maps; absence is not novelty evidence",
+        "Do not import an a.e.-map theorem into a total-map witness claim"
+      ],
+      "formulation_tasks": [
+        "E1"
+      ],
+      "source_ids": [
+        "SRC-0015",
+        "SRC-0011"
+      ],
+      "definition_ids": [
+        "DEF-0004",
+        "DEF-0035",
+        "DEF-0036"
+      ],
+      "theorem_ids": [
+        "THM-0035",
+        "THM-0037",
+        "THM-0038",
+        "THM-0008",
+        "THM-0039"
+      ],
+      "relation_ids": [
+        "REL-0026",
+        "REL-0028",
+        "REL-0029",
+        "REL-0008",
+        "REL-0031"
+      ],
+      "coverage_ids": [
+        "COV-0005",
+        "COV-0012",
+        "COV-0013"
+      ],
+      "introduced_in": "P2-S001",
+      "last_reviewed_in": "P2-S001",
+      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "novelty_status": "NOT_ASSESSED",
+      "literature_status": "NOT_ASSESSED",
+      "original_proof_work_performed": false,
+      "final_candidate_selected": false
+    },
+    {
+      "id": "CAND-02",
+      "title": "Nonergodic convergence for enumerable events",
+      "status": "RETAIN_PROVISIONAL",
+      "object": "individual sequence; dynamics and effectively open events",
+      "provisional_shape": "B_open(x) means that for every total computable fair-coin-preserving Cantor self-map T and every effectively open U, the averages (1/N) sum_{i<N} 1_U(T^i x) converge. No ergodicity, expectation equality, computable event measure or convergence modulus is required. Ask for its exact randomness characterization.",
+      "motivation": "Identify the randomness needed for convergent frequencies of positively recognizable binary events in nonergodic dynamics.",
+      "structural_difference": "Changes the observable from computable to enumerable-event indicators; boundedness isolates recognition from integrability-tail issues.",
+      "prospective_value": "Exact test characterization or substantive obstruction; explain the relation to the larger lower-semicomputable observable class.",
+      "collapse_risk": "HIGH: familiar endpoint, existing characterization, or a transformation-convention artifact.",
+      "falsifiers": [
+        "Exact source already characterizes this same map/observable class",
+        "Apparent gap is solely total versus a.e. maps or convergence versus expectation",
+        "No substantive characterization beyond existing endpoints"
+      ],
+      "dependencies": [
+        "Effectively open sets",
+        "Computable measure-preserving dynamics",
+        "Weak Birkhoff versus Birkhoff conventions"
+      ],
+      "expected_difficulty": "HIGH",
+      "source_evidence_weaknesses": [
+        "SRC-0058 total versus a.e. transformation convention requires local alignment before applying its converse",
+        "SRC-0058 statements are arXiv-copy qualified",
+        "The absent indicator converse in this bounded catalogue is not an open-problem claim"
+      ],
+      "formulation_tasks": [
+        "E2"
+      ],
+      "source_ids": [
+        "SRC-0058",
+        "SRC-0057",
+        "SRC-0012",
+        "SRC-0027"
+      ],
+      "definition_ids": [
+        "DEF-0059",
+        "DEF-0015",
+        "DEF-0016",
+        "DEF-0056",
+        "DEF-0057"
+      ],
+      "theorem_ids": [
+        "THM-0063",
+        "THM-0064",
+        "THM-0059",
+        "THM-0060",
+        "THM-0018",
+        "THM-0006"
+      ],
+      "relation_ids": [
+        "REL-0052",
+        "REL-0053",
+        "REL-0050",
+        "REL-0012",
+        "REL-0006"
+      ],
+      "coverage_ids": [
+        "COV-0004",
+        "COV-0014"
+      ],
+      "introduced_in": "P2-S001",
+      "last_reviewed_in": "P2-S001",
+      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "novelty_status": "NOT_ASSESSED",
+      "literature_status": "NOT_ASSESSED",
+      "original_proof_work_performed": false,
+      "final_candidate_selected": false
+    },
+    {
+      "id": "CAND-03",
+      "title": "Oracle lowness for uniform computable randomness",
+      "status": "RETAIN_PROVISIONAL",
+      "role": "AUXILIARY_STRUCTURAL_DIRECTION",
+      "object": "oracle class, not a sampled-sequence randomness class",
+      "provisional_shape": "L_u consists of those A such that every computably random X is computably random uniformly relative to A in DEF-0025. Uniform families must be total and valid on every oracle instance. Ask for an intrinsic characterization and comparison with computable oracles and K-triviality, without asserting any answer.",
+      "motivation": "Determine whether the known pairwise ordinary/uniform relativization distinction survives universal preservation over random inputs.",
+      "structural_difference": "Universal lowness with globally total uniform families; neither ordinary lowness nor existential baseness by definition.",
+      "prospective_value": "Independent oracle characterization with a concrete randomness or product-information consequence.",
+      "collapse_risk": "HIGH: universal quantification may erase the distinction; a standard lowness class may already characterize it.",
+      "falsifiers": [
+        "Established lowness class with its existing characterization",
+        "Routine reduction to ordinary computable lowness",
+        "No meaningful consequence for randomness beyond renaming an oracle property"
+      ],
+      "dependencies": [
+        "DEF-0025 uniform family coding",
+        "Ordinary computable and ML lowness",
+        "Universal versus pairwise quantifier discipline"
+      ],
+      "expected_difficulty": "HIGH_WITH_ADDITIONAL_SIGNIFICANCE_RISK",
+      "source_evidence_weaknesses": [
+        "Broader uniform-lowness and traceability literature was deliberately not catalogued",
+        "THM-0025 supplies an existential pair only, not a noncomputable member of L_u",
+        "SRC-0009 Theorem 5.7 is a statement-inspected source-record contrast, not a separate THM node"
+      ],
+      "formulation_tasks": [
+        "E3"
+      ],
+      "source_ids": [
+        "SRC-0032",
+        "SRC-0009",
+        "SRC-0010"
+      ],
+      "definition_ids": [
+        "DEF-0004",
+        "DEF-0021",
+        "DEF-0025",
+        "DEF-0007",
+        "DEF-0008",
+        "DEF-0063",
+        "DEF-0009"
+      ],
+      "theorem_ids": [
+        "THM-0024",
+        "THM-0025",
+        "THM-0003",
+        "THM-0069",
+        "THM-0070",
+        "THM-0004"
+      ],
+      "relation_ids": [
+        "REL-0003",
+        "REL-0058",
+        "REL-0059",
+        "REL-0004"
+      ],
+      "coverage_ids": [
+        "COV-0008",
+        "COV-0009"
+      ],
+      "introduced_in": "P2-S001",
+      "last_reviewed_in": "P2-S001",
+      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "novelty_status": "NOT_ASSESSED",
+      "literature_status": "NOT_ASSESSED",
+      "original_proof_work_performed": false,
+      "final_candidate_selected": false
+    },
+    {
+      "id": "CAND-04",
+      "title": "Largest class with unrestricted conservation and random preimages",
+      "status": "REJECT_CATALOGUED_CHARACTERIZATION",
+      "object": "largest class of fair-coin Cantor points",
+      "provisional_shape": "Largest R such that every a.e.-computable fair-coin-preserving self-map F is defined on R, sends R into R, and every y in R has a preimage in R.",
+      "motivation": "Axiomatize randomness by information-processing and preimage principles.",
+      "structural_difference": "None at this exact maximality level: THM-0008 already identifies MLR.",
+      "prospective_value": "The desired characterization is already catalogued.",
+      "collapse_risk": "REALIZED",
+      "falsifiers": [
+        "THM-0008 exactly disposes of the proposed maximal class; it does not classify all smaller closed classes"
+      ],
+      "dependencies": [
+        "Exact largest-class and a.e.-map hypotheses"
+      ],
+      "expected_difficulty": "NO_FURTHER_WORK_WARRANTED",
+      "source_evidence_weaknesses": [
+        "Earliest standalone ML-NRFN provenance remains unresolved but is not needed for this modern theorem"
+      ],
+      "formulation_tasks": [],
+      "source_ids": [
+        "SRC-0015"
+      ],
+      "definition_ids": [
+        "DEF-0002"
+      ],
+      "theorem_ids": [
+        "THM-0008",
+        "THM-0039"
+      ],
+      "relation_ids": [
+        "REL-0008",
+        "REL-0031"
+      ],
+      "coverage_ids": [
+        "COV-0012"
+      ],
+      "introduced_in": "P2-S001",
+      "last_reviewed_in": "P2-S001",
+      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "novelty_status": "NOT_ASSESSED",
+      "literature_status": "NOT_ASSESSED",
+      "original_proof_work_performed": false,
+      "final_candidate_selected": false
+    },
+    {
+      "id": "CAND-05",
+      "title": "Hierarchy from additional finite differences",
+      "status": "REJECT_CATALOGUED_COLLAPSE",
+      "object": "individual sequence; fixed finite test difference depth",
+      "provisional_shape": "For a fixed n>=3, pass every neighbourhood-based n-r.e. test of SRC-0035 Definition 2.3 with recursive indices and level measure <=2^-i, and ask if n>2 creates distinct classes.",
+      "motivation": "Test whether additional finite alternations increase observational power.",
+      "structural_difference": "THM-0026 already collapses all these n>=2 levels to difference randomness.",
+      "prospective_value": "The hoped-for hierarchy is already ruled out in the catalogue.",
+      "collapse_risk": "REALIZED",
+      "falsifiers": [
+        "THM-0026; switching to naive string tests changes the convention and does not rescue this shape"
+      ],
+      "dependencies": [
+        "Exact neighbourhood versus string-test semantics"
+      ],
+      "expected_difficulty": "NO_FURTHER_WORK_WARRANTED",
+      "source_evidence_weaknesses": [
+        "No central weak-access dependency; rejection uses statement-inspected SRC-0035"
+      ],
+      "formulation_tasks": [],
+      "source_ids": [
+        "SRC-0035"
+      ],
+      "definition_ids": [
+        "DEF-0027",
+        "DEF-0020"
+      ],
+      "theorem_ids": [
+        "THM-0026",
+        "THM-0028"
+      ],
+      "relation_ids": [
+        "REL-0020"
+      ],
+      "coverage_ids": [
+        "COV-0010"
+      ],
+      "introduced_in": "P2-S001",
+      "last_reviewed_in": "P2-S001",
+      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "novelty_status": "NOT_ASSESSED",
+      "literature_status": "NOT_ASSESSED",
+      "original_proof_work_performed": false,
+      "final_candidate_selected": false
+    },
+    {
+      "id": "CAND-06",
+      "title": "Mutual uniform randomness of the two halves",
+      "status": "REJECT_CATALOGUED_CHARACTERIZATION",
+      "object": "individual interleaved sequence",
+      "provisional_shape": "X=A interleaved with B, with A uniformly computably random relative to B and B uniformly computably random relative to A.",
+      "motivation": "Express symmetric resistance to prediction from the other component.",
+      "structural_difference": "THM-0024 already identifies exactly computable randomness of the interleaving.",
+      "prospective_value": "The desired two-sided characterization is already catalogued.",
+      "collapse_risk": "REALIZED",
+      "falsifiers": [
+        "THM-0024; dropping one side is a changed question, not a restatement of the source"
+      ],
+      "dependencies": [
+        "Even/odd interleaving",
+        "Uniform versus ordinary relative computable randomness"
+      ],
+      "expected_difficulty": "NO_FURTHER_WORK_WARRANTED",
+      "source_evidence_weaknesses": [
+        "No central weak-access dependency; rejection uses statement-inspected SRC-0032"
+      ],
+      "formulation_tasks": [],
+      "source_ids": [
+        "SRC-0032"
+      ],
+      "definition_ids": [
+        "DEF-0004",
+        "DEF-0025"
+      ],
+      "theorem_ids": [
+        "THM-0024",
+        "THM-0025",
+        "THM-0023"
+      ],
+      "relation_ids": [
+        "REL-0016"
+      ],
+      "coverage_ids": [
+        "COV-0008"
+      ],
+      "introduced_in": "P2-S001",
+      "last_reviewed_in": "P2-S001",
+      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "novelty_status": "NOT_ASSESSED",
+      "literature_status": "NOT_ASSESSED",
+      "original_proof_work_performed": false,
+      "final_candidate_selected": false
+    }
+  ],
+  "deferred_navigation": [
+    {
+      "topic": "Kolmogorov-Loveland access-order directions",
+      "status": "DEFERRED_BEFORE_FORMULATION",
+      "reason": "Abstract-level strategy and dense-subsequence evidence is not decisive exact evidence.",
+      "references": [
+        "DEF-0012",
+        "THM-0011",
+        "SRC-0018",
+        "SRC-0019",
+        "QST-0001"
+      ]
+    },
+    {
+      "topic": "Constructive dimension / graded information",
+      "status": "DEFERRED_BEFORE_FORMULATION",
+      "reason": "Abstract-level statements and absent exact supergale definition; no decisive reliance permitted.",
+      "references": [
+        "SRC-0013",
+        "SRC-0014",
+        "THM-0009",
+        "THM-0010",
+        "REL-0005"
+      ]
+    }
+  ],
+  "recommended_next_session": "P2-S002",
+  "recommended_next_scope": "CAND-02 formulation alignment only (E2); no novelty audit, proof search or Gate-2 review."
+}
