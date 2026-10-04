@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 64,
+    "sources": 66,
     "definitions": 65,
     "theorems": 75,
     "relations": 63,
     "questions": 1,
-    "authors": 69,
+    "authors": 74,
     "coverage_records": 19
   },
   "sources": [
@@ -88,7 +88,9 @@
     "SRC-0061",
     "SRC-0062",
     "SRC-0063",
-    "SRC-0064"
+    "SRC-0064",
+    "SRC-0065",
+    "SRC-0066"
   ],
   "definitions": [
     "DEF-0001",
@@ -371,7 +373,12 @@
     "AUT-0066",
     "AUT-0067",
     "AUT-0068",
-    "AUT-0069"
+    "AUT-0069",
+    "AUT-0070",
+    "AUT-0071",
+    "AUT-0072",
+    "AUT-0073",
+    "AUT-0074"
   ],
   "search_terms": [
     "Martin-Löf random",
