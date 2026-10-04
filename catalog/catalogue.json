@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 61,
+    "sources": 63,
     "definitions": 64,
-    "theorems": 72,
-    "relations": 61,
+    "theorems": 74,
+    "relations": 63,
     "questions": 1,
-    "authors": 66,
+    "authors": 68,
     "coverage_records": 19
   },
   "sources": [
@@ -85,7 +85,9 @@
     "SRC-0058",
     "SRC-0059",
     "SRC-0060",
-    "SRC-0061"
+    "SRC-0061",
+    "SRC-0062",
+    "SRC-0063"
   ],
   "definitions": [
     "DEF-0001",
@@ -225,7 +227,9 @@
     "THM-0069",
     "THM-0070",
     "THM-0071",
-    "THM-0072"
+    "THM-0072",
+    "THM-0073",
+    "THM-0074"
   ],
   "relations": [
     "REL-0001",
@@ -288,7 +292,9 @@
     "REL-0058",
     "REL-0059",
     "REL-0060",
-    "REL-0061"
+    "REL-0061",
+    "REL-0062",
+    "REL-0063"
   ],
   "questions": [
     "QST-0001"
@@ -359,7 +365,9 @@
     "AUT-0063",
     "AUT-0064",
     "AUT-0065",
-    "AUT-0066"
+    "AUT-0066",
+    "AUT-0067",
+    "AUT-0068"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -461,7 +469,12 @@
     "truth-table functional computable randomness preservation",
     "finite-to-one endomorphism randomness",
     "bounded-to-one endomorphism randomness",
-    "uniformly p-to-one endomorphism"
+    "uniformly p-to-one endomorphism",
+    "weak Birkhoff effectively open",
+    "nonergodic lower semicomputable Birkhoff convergence",
+    "Oberwolfach random Birkhoff",
+    "total computable transformation effectively open Birkhoff",
+    "computable ergodic Cantor action"
   ],
   "coverage_records": [
     "COV-0001",
