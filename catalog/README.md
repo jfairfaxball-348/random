@@ -65,3 +65,14 @@ The pass also adds only the minimum higher hierarchy material needed for orienta
 The close counts are 55 sources, 55 definitions, 57 theorem/characterization records, 49 relation records, 1 status question, 60 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0011 is `PARTIAL_P1_S009`; there are now no navigation-only or not-started strata, but Gate 1 is still not ready for review.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.
+
+
+## P1-S010 checkpoint
+
+P1-S010 consolidated COV-0014 at primary statement level while preserving the generalized-measure discipline. The catalogue now separates four effective-ergodic regimes: the atomless computable-probability-space Schnorr/mixing characterization of Gács-Hoyrup-Rojas; V'yugin's arbitrary-computable-measure Cantor-space Martin-Löf Birkhoff convergence; Bienvenu-Day-Hoyrup-Mezhirov-Shen's ergodic effective-set/lower-semicomputable results and μ-layerwise computable-probability-space extension; and Franklin-Towsner's fair-coin nonergodic converse/weak-2 results.
+
+The pass also corrects THM-0006/REL-0006 so the atomlessness hypothesis and generalized Schnorr node are explicit. Nonergodic convergence is not conflated with equality to the expectation, and fair coin is not substituted for an arbitrary computable measure.
+
+The close counts are 58 sources, 59 definitions, 64 theorem/characterization records, 54 relation records, 1 status question, 64 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0014 is `PARTIAL_P1_S010`; 17 strata are partial and the remaining two, COV-0003 and COV-0009, are STARTED_CORE.
+
+Phase 1 remains materially incomplete and Gate 1 is not ready for review.
