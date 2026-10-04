@@ -6,7 +6,7 @@
   "active_phase": 3,
   "active_phase_name": "Novelty / Prior Art",
   "active_session": null,
-  "last_completed_session": "P2-S006",
+  "last_completed_session": "P3-S001",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -45,15 +45,15 @@
     "not_started": 0
   },
   "catalogue_counts": {
-    "sources": 59,
-    "definitions": 63,
-    "theorems": 70,
-    "relations": 59,
+    "sources": 61,
+    "definitions": 64,
+    "theorems": 72,
+    "relations": 61,
     "questions": 1,
     "authors": 66
   },
-  "next_transition": "Run P3-S001: bounded primary-source prior-art audit on CAND-01 only; no original mathematics, final candidate selection or Phase-4 work.",
-  "recommended_next_session": "P3-S001",
+  "next_transition": "Run P3-S002: bounded primary-source prior-art attack on CAND-02 only; no original mathematics, final candidate selection, Gate-3 review or Phase-4 work.",
+  "recommended_next_session": "P3-S002",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
@@ -165,5 +165,34 @@
     "phase3_work_performed_in_review_session": false,
     "novelty_assessment_performed": false,
     "candidate_selected": false
+  },
+  "phase3_gate_status": "NOT_REVIEWED",
+  "phase3_prior_art": {
+    "last_session": "P3-S001",
+    "prior_art_index": "phase3/prior-art.json",
+    "latest_record": "phase3/P3-S001_PRIOR_ART.md",
+    "candidates": {
+      "CAND-01": {
+        "status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "prior_art_id": "PA-0001",
+        "exact_shape_changed": false,
+        "closest_primary_sources": [
+          "SRC-0060",
+          "SRC-0061"
+        ],
+        "finite_fibre_match_located": false,
+        "openness_claimed": false
+      },
+      "CAND-02": {
+        "status": "NOT_ASSESSED"
+      },
+      "CAND-03": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "candidate_selected": false,
+    "gate3_review_performed": false,
+    "original_proof_work_performed": false,
+    "phase4_opened": false
   }
 }
