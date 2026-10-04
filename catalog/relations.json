@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S012",
+  "session": "P2-S002",
   "records": [
     {
       "id": "REL-0001",
@@ -841,7 +841,7 @@
           "evidence": "STATEMENT_INSPECTED"
         }
       ],
-      "caution": "This characterization is fair-coin Cantor-space and nonergodic; it is not generalized to arbitrary computable probability spaces in P1-S010."
+      "caution": "This characterization is fair-coin Cantor-space and nonergodic; it is not generalized to arbitrary computable probability spaces in P1-S010. SRC-0058's computable transformations are guaranteed defined/infinite outside a computable G_delta null set rather than everywhere total, so the converse witness does not by itself settle an everywhere-total-map predicate."
     },
     {
       "id": "REL-0053",
@@ -856,7 +856,7 @@
           "evidence": "STATEMENT_INSPECTED"
         }
       ],
-      "caution": "No equality-to-expectation is asserted without ergodicity, and no generalized-measure version is inferred."
+      "caution": "No equality-to-expectation is asserted without ergodicity, and no generalized-measure version is inferred. SRC-0058 uses an a.e.-defined computable-transformation convention; bounded effectively-open indicators are a special lower-semicomputable observable case, but no converse characterization is supplied."
     },
     {
       "id": "REL-0054",

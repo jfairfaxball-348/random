@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P2-S001",
+  "last_updated_session": "P2-S002",
   "status": "DISCOVERY_ONLY",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -118,9 +118,7 @@
         "SRC-0058 statements are arXiv-copy qualified",
         "The absent indicator converse in this bounded catalogue is not an open-problem claim"
       ],
-      "formulation_tasks": [
-        "E2"
-      ],
+      "formulation_tasks": [],
       "source_ids": [
         "SRC-0058",
         "SRC-0057",
@@ -154,12 +152,24 @@
         "COV-0014"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P2-S001",
-      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "last_reviewed_in": "P2-S002",
+      "record_path": "phase2/P2-S002_FORMULATION_ALIGNMENT.md",
       "novelty_status": "NOT_ASSESSED",
       "literature_status": "NOT_ASSESSED",
       "original_proof_work_performed": false,
-      "final_candidate_selected": false
+      "final_candidate_selected": false,
+      "resolved_formulation_tasks": [
+        "E2"
+      ],
+      "formulation_disposition": "RETAIN_UNCHANGED_AFTER_ALIGNMENT",
+      "formulation_alignment": {
+        "session": "P2-S002",
+        "transformation_scope": "CAND-02 keeps everywhere-total computable fair-coin-preserving Cantor self-maps. SRC-0058's computable-transformation representation guarantees the induced transformation is defined and infinite outside a computable G_delta null set; its Section 4 converse construction explicitly ensures definition almost everywhere, not everywhere totality.",
+        "observable_scope": "CAND-02 keeps indicators of effectively open sets. These are bounded lower-semicomputable observables, so they sit inside the lower-semicomputable observable convention used for THM-0064 without importing unbounded/integrability-tail issues. THM-0063's converse witness uses a computable set/indicator, but its transformation is only source-a.e.-defined.",
+        "nonergodic_guard": "CAND-02 requires convergence only. No equality with lambda(U) is required. THM-0059/THM-0060 identify the limit with the expectation only under ergodicity and are retained solely as that guard.",
+        "evidence": "SRC-0058 was locally reinspected at the smallest blocking passages in the already-catalogued arXiv copy: Definition 1.4, Section 2 transformation representation, Section 4 converse construction, and Section 5 lower-semicomputable theorem. SRC-0057 did not require renewed external access because its exact ergodic hypotheses were already statement-inspected in the catalogue.",
+        "conclusion": "The exact CAND-02 predicate is not disposed of by THM-0063 because the source converse witness is not established everywhere total. THM-0064 remains a sufficient-condition benchmark, not a characterization of the candidate predicate. No converse, separation, novelty or literature-openness claim is made."
+      }
     },
     {
       "id": "CAND-03",
@@ -398,6 +408,6 @@
       ]
     }
   ],
-  "recommended_next_session": "P2-S002",
-  "recommended_next_scope": "CAND-02 formulation alignment only (E2); no novelty audit, proof search or Gate-2 review."
+  "recommended_next_session": "P2-S003",
+  "recommended_next_scope": "CAND-01 formulation alignment only (E1): match total maps, global finite fibres and effective-inverse assumptions against the exact recorded map framework; no theorem search, witness construction, novelty audit or Gate-2 review."
 }

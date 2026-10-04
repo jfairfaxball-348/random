@@ -76,3 +76,10 @@ Formal review record: `phase1/P1-S014_GATE1_REVIEW.md`
 The first bounded Discovery pass retains CAND-01, CAND-02 and CAND-03 provisionally and rejects CAND-04, CAND-05 and CAND-06 by exact already-catalogued characterizations/collapse. Records: `phase2/P2-S001_DISCOVERY.md` and `phase2/candidates.json`.
 
 No candidate is selected and no Fairfax-Ball definition is established. Formulation tasks E1–E3 remain; next is P2-S002 on E2/CAND-02 only. No novelty assessment or original proof work was performed. The portfolio is not a Gate-2 PASS or readiness finding. Gate 1 and every later phase status remain unchanged. No owner/external blocker exists.
+
+## Discovery checkpoint — P2-S002 (not a gate review)
+
+P2-S002 resolved CAND-02 formulation task E2. The candidate remains **RETAIN_PROVISIONAL** with its everywhere-total map / effectively-open-indicator predicate unchanged. Local reinspection of already-catalogued SRC-0058 clarified that THM-0063/THM-0064 use a computable-transformation representation guaranteed defined/infinite outside a computable G_delta null set; the converse construction is explicitly ensured defined almost everywhere, not everywhere total. The source characterization therefore does not silently dispose of CAND-02's narrower total-map formulation.
+
+This checkpoint makes no novelty, literature-openness, equivalence or separation claim and performs no Gate-2 review. The retained/rejected portfolio counts are unchanged. Gate 1 remains PASS; Phase 1 remains completed for gate purposes; Phase 2 remains OPEN; Gate 2 remains CLOSED / NOT REVIEWED; Phases 3–5 remain CLOSED. No owner/external blocker exists. Next scheduling is P2-S003 on CAND-01/E1 only.
+

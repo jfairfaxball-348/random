@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S012",
+  "session": "P2-S002",
   "records": [
     {
       "id": "THM-0001",
@@ -1703,10 +1703,10 @@
     {
       "id": "THM-0063",
       "name": "Fair-coin Martin-Löf randomness characterized by nonergodic computable Birkhoff convergence",
-      "statement": "On fair-coin Cantor space, a point x is Martin-Löf random exactly when it is weak Birkhoff for every computable measure-preserving transformation with respect to computable observables: the positive convergence direction is the effective nonergodic theorem, and SRC-0058 proves the converse by constructing, for every non-Martin-Löf-random x, a computable measure-preserving transformation and a computable set whose indicator averages fail to converge at x.",
+      "statement": "On fair-coin Cantor space, a point x is Martin-Löf random exactly when it is weak Birkhoff for every computable measure-preserving transformation with respect to computable observables, using SRC-0058's transformation representation: the induced transformation is required to be defined and infinite outside a computable G_delta null set, not everywhere total. The positive convergence direction is the effective nonergodic theorem, and SRC-0058 proves the converse by constructing, for every non-Martin-Löf-random x, a computable measure-preserving transformation and a computable set whose indicator averages fail to converge at x.",
       "hypotheses": [
         "ambient space is Cantor space with fair-coin/Lebesgue measure",
-        "transformations are computable and measure-preserving in SRC-0058's Cantor-space representation",
+        "transformations are computable and measure-preserving in SRC-0058's Cantor-space representation; the induced map is guaranteed defined/infinite outside a computable G_delta null set rather than on every input",
         "observable class for the positive direction is computable; the converse witness is a computable set/indicator",
         "no ergodicity assumption"
       ],
@@ -1728,18 +1728,19 @@
       "cautions": [
         "This is a fair-coin Cantor-space theorem in the inspected source; no arbitrary computable-measure or computable-probability-space converse is inferred.",
         "Because the transformations need not be ergodic, the characterized property is convergence (weak Birkhoff), not equality of the limit with the global expectation.",
+        "SRC-0058's computable-transformation convention is an a.e.-defined convention. Its Section 4 converse construction explicitly ensures definition almost everywhere; it must not be cited as an everywhere-total witness without separate evidence.",
         "Published/journal identity and the inspected arXiv theorem numbering are recorded separately because the final author-hosted PDF timed out in P1-S010."
       ]
     },
     {
       "id": "THM-0064",
       "name": "Weak 2-randomness yields nonergodic Birkhoff convergence for lower semicomputable observables",
-      "statement": "On fair-coin Cantor space, if x is weakly 2-random, then for every computable measure-preserving transformation T and every lower semicomputable observable f in SRC-0058's setting, the Birkhoff averages of f along the orbit of x converge.",
+      "statement": "On fair-coin Cantor space, if x is weakly 2-random, then for every computable measure-preserving transformation T in SRC-0058's a.e.-defined Cantor-space representation and every lower semicomputable observable f in the source's setting, the Birkhoff averages of f along the orbit of x converge.",
       "hypotheses": [
         "ambient measure is fair-coin/Lebesgue measure on Cantor space",
         "x is weakly 2-random",
-        "T computable and measure-preserving",
-        "f lower semicomputable",
+        "T is computable and measure-preserving in SRC-0058's representation, which guarantees definition/infinite output outside a computable G_delta null set rather than everywhere totality",
+        "f is lower semicomputable in the source's Section 5 sense; the source develops the Birkhoff framework for integrable observables, and bounded event indicators avoid any integrability-tail ambiguity",
         "no ergodicity assumption"
       ],
       "direction": "randomness implies nonergodic convergence",
@@ -1758,8 +1759,10 @@
         "REL-0053"
       ],
       "cautions": [
-        "Without ergodicity the theorem asserts convergence only; it does not identify the limit with ∫f dμ.",
-        "Do not transfer this weak-2 result to arbitrary computable measures/spaces without a separately inspected theorem."
+        "Without ergodicity the theorem asserts convergence only; it does not identify the limit with the integral.",
+        "Do not transfer this weak-2 result to arbitrary computable measures/spaces without a separately inspected theorem.",
+        "An effectively open event indicator is a bounded lower-semicomputable observable, but this specialization does not supply a converse or characterize CAND-02.",
+        "The source transformation class is not an everywhere-total convention; preserve that distinction in Discovery."
       ]
     },
     {

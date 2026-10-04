@@ -6,9 +6,9 @@ This repository is the authoritative research record for a five-phase programme 
 
 **PHASE 2 — DISCOVERY — IS OPEN.**
 
-Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 completed the first Discovery pass: three provisional directions retained and three catalogued duplicates/collapses rejected. No final candidate is selected and Fairfax-Ball Randomness is not defined. Gate 2 has not been reviewed; Phases 3–5 remain CLOSED.
+Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 built the provisional portfolio, and P2-S002 resolved CAND-02 formulation task E2 while retaining its exact shape unchanged. The portfolio remains three provisional directions and three rejected shapes. No final candidate is selected and Fairfax-Ball Randomness is not defined. Gate 2 has not been reviewed; Phases 3–5 remain CLOSED.
 
-Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [candidate index](phase2/candidates.json) and [session close](phase2/P2-S001_CLOSE.md). The next bounded task is P2-S002, CAND-02 formulation alignment only; no novelty audit or original mathematics is authorized.
+Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [P2-S002 formulation alignment](phase2/P2-S002_FORMULATION_ALIGNMENT.md), [candidate index](phase2/candidates.json) and [latest close](phase2/P2-S002_CLOSE.md). The next bounded task is P2-S003, CAND-01 formulation alignment only; no novelty audit or original mathematics is authorized.
 
 Repository authority lives in the committed files. Start every future session with `authoritative/START_HERE.md`.
 

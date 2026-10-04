@@ -6,4 +6,4 @@ Purpose: use the completed Phase-1 knowledge base to identify a bounded portfoli
 
 Do not preselect "Fairfax-Ball Randomness" by forcing a definition. Candidate discovery must be driven by the mapped mathematics.
 
-Current session records and the stable candidate index live in [phase2/](../phase2/README.md). P2-S001 retained three provisional directions and rejected three catalogued duplicates/collapses. No final candidate is selected and Fairfax-Ball Randomness is not defined.
+Current session records and the stable candidate index live in [phase2/](../phase2/README.md). P2-S001 retained three provisional directions and rejected three catalogued duplicates/collapses; P2-S002 resolved CAND-02 formulation task E2 and retained its exact shape unchanged. No final candidate is selected and Fairfax-Ball Randomness is not defined.

@@ -402,3 +402,15 @@ Status: FORMULATION RISKS PRESERVED; NO NEW THEOREM CLAIMED
 CAND-02's proposed total-map/indicator quantifiers are not silently identified with every source use of computable dynamics or lower-semicomputable observables. Its next task E2 is exact formulation alignment, not a search for the missing converse. For CAND-03, THM-0025 gives an existential ordinary/uniform separation pair; it does not establish a noncomputable oracle preserving every CR sequence uniformly.
 
 Lesson: distinguish library omissions from unresolved literature questions, and existential separation from universal lowness. Future theorem packages remain questions until authorized mathematics; novelty remains a separate Phase-3 question.
+
+## FL-036 — Franklin–Towsner computable dynamics are not an everywhere-total map convention
+
+Session: `P2-S002`  
+Status: RESOLVED FORMULATION CORRECTION / CANDIDATE RETAINED PROVISIONALLY
+
+The P2-S001 catalogue summary of THM-0063/THM-0064 used the phrase "computable measure-preserving transformation" without recording the exact domain convention needed by CAND-02. Local reinspection of the already-catalogued SRC-0058 shows that its finite-string representation requires the induced transformation to be defined and infinite outside a computable G_delta null set. The Section 4 converse construction explicitly ensures definition almost everywhere. This is weaker than CAND-02's deliberate requirement that T be total on every Cantor input.
+
+Resolution: SRC-0058, THM-0063, THM-0064, REL-0052 and REL-0053 now state the a.e.-defined convention explicitly. CAND-02 is retained unchanged because the source converse witness is not established everywhere total. The lower-semicomputable theorem remains a sufficient benchmark only, and the ergodic equality-to-expectation results remain separately scoped.
+
+Lesson: "computable transformation" is not a complete type signature. Before transferring an effective-ergodic characterization to a candidate, record whether the source map is total, partial/a.e.-defined or layerwise computable, and keep that axis separate from observable effectivity and ergodicity.
+

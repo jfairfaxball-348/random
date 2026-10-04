@@ -46,3 +46,12 @@ On 2026-10-04, P2-S001 retained CAND-01 (finite-ambiguity observations), CAND-02
 CAND-04, CAND-05 and CAND-06 are rejected in their exact recorded shapes because THM-0008, THM-0026 and THM-0024 respectively already supply the desired characterization or collapse. Their stable records remain addressable; reformulating a rejected shape would require an explicit changed question, not erasure of the rejection.
 
 Decision record: `phase2/P2-S001_DISCOVERY.md`; machine index: `phase2/candidates.json`. No gate is passed. Next scheduling is P2-S002, CAND-02 formulation alignment only, to resolve a concrete map/observable convention dependency. The Phase-1 catalogue remains unchanged; Phases 3–5 remain CLOSED.
+
+## D-0010 — Retain CAND-02 unchanged after exact formulation alignment
+
+On 2026-10-04, P2-S002 resolved E2 for CAND-02 without changing its predicate. CAND-02 continues to quantify over **everywhere-total** computable fair-coin-preserving Cantor self-maps and effectively open event indicators, asking only for convergence.
+
+The decisive formulation clarification is that SRC-0058's computable-transformation representation is a.e.-defined: the induced transformation is guaranteed defined/infinite outside a computable G_delta null set, and the Section 4 converse construction explicitly ensures definition almost everywhere. THM-0063 therefore does not provide the everywhere-total converse witness needed to dispose of the recorded CAND-02 shape. THM-0064 remains a one-way lower-semicomputable-observable benchmark; THM-0059/THM-0060 retain ergodicity for equality to expectation.
+
+Decision: **RETAIN_PROVISIONAL, SHAPE UNCHANGED; E2 RESOLVED.** This is not target selection, novelty assessment, literature-openness assessment or a Gate-2 decision. Record: `phase2/P2-S002_FORMULATION_ALIGNMENT.md`.
+

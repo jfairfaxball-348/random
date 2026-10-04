@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S012",
+  "session": "P2-S002",
   "checked_on": "2026-10-04",
   "records": [
     {
@@ -3652,15 +3652,17 @@
       ],
       "questions": [],
       "priority_relevance": "Primary converse/characterization source for non-ergodic Birkhoff convergence on fair-coin Cantor space and a stronger weak-2/lower-semicomputable convergence result.",
-      "notes": "Published in Moscow Mathematical Journal 14(4) (2014), 711-744. Internal statement inspection used the arXiv copy; the final author-hosted PDF currently timed out during P1-S010, so published identity and inspected-copy theorem numbering are kept distinct. The paper's theorem development is restricted to fair-coin Cantor space; no arbitrary computable-probability-space generalization is inferred.",
+      "notes": "Published in Moscow Mathematical Journal 14(4) (2014), 711-744. Internal statement inspection used the arXiv copy; the final author-hosted PDF currently timed out during P1-S010, so published identity and inspected-copy theorem numbering are kept distinct. The paper's theorem development is restricted to fair-coin Cantor space; no arbitrary computable-probability-space generalization is inferred. P2-S002 locally reinspected only the already-catalogued arXiv passages needed for CAND-02 formulation alignment. This resolved the transformation convention as a.e.-defined rather than everywhere total; the prior final-PDF access limitation remains unchanged.",
       "inspected_material": [
         "journal/MathNet bibliographic metadata and abstract",
-        "arXiv full definitions and theorem statements"
+        "arXiv full definitions and theorem statements",
+        "P2-S002 local reinspection of the already-catalogued arXiv HTML v1 for the transformation representation and Section 4/5 formulation details"
       ],
       "pointers": [
         "Definition 1.4 (weak Birkhoff versus Birkhoff point relative to an observable class)",
         "arXiv theorem constructing, for every non-Martin-Löf-random x, a computable measure-preserving transformation and computable set witnessing failure",
-        "arXiv Section 5 positive Martin-Löf/computable-observable convergence and weak-2/lower-semicomputable convergence theorem"
+        "arXiv Section 5 positive Martin-Löf/computable-observable convergence and weak-2/lower-semicomputable convergence theorem",
+        "Section 2 computable-transformation representation: the induced map is defined and infinite outside a computable G_delta null set; Section 4 converse construction explicitly ensures definition almost everywhere"
       ],
       "cross_links": [
         "SRC-0056",
@@ -3672,7 +3674,9 @@
         "The paper distinguishes weak Birkhoff points (averages merely converge) from Birkhoff points (the limit also equals the integral).",
         "Within fair-coin Cantor space, every non-Martin-Löf-random x has a computable measure-preserving transformation and computable set for which x fails the relevant Birkhoff convergence, giving the converse to the positive computable-observable theorem.",
         "Every weakly 2-random x in fair-coin Cantor space has convergent Birkhoff averages for every computable measure-preserving transformation and every lower semicomputable observable in the paper's setting.",
-        "The nonergodic conclusions are convergence statements; without ergodicity the limit is not silently identified with the space expectation."
+        "The nonergodic conclusions are convergence statements; without ergodicity the limit is not silently identified with the space expectation.",
+        "The paper's computable-transformation representation is not an everywhere-total convention: the induced map is required to be defined/infinite outside a computable G_delta null set, and the Section 4 converse construction explicitly ensures definition almost everywhere.",
+        "Section 5 represents a lower semicomputable observable by a uniformly computable increasing approximation; bounded effectively-open event indicators fit this observable direction without introducing unbounded-tail issues."
       ]
     },
     {

@@ -414,3 +414,24 @@ Gate impact: NONE. Gate 1 remains PASS; Phase 1 COMPLETED for gate purposes; Pha
 Next bounded task: P2-S002, CAND-02 formulation alignment only (E2), under `authoritative/P2-S002_FORMULATION_BRIEF.md`. This task order is not target selection. P2-S002 was not begun.
 
 Validation and exact outgoing remote-main hash are finalized after closeout writes. The publication commit is identifiable as the commit introducing `phase2/P2-S001_CLOSE.md`; its full hash is reported in the closeout response rather than self-embedded.
+
+## P2-S002 — CAND-02 formulation alignment (E2)
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `f3fa72d57498dff34640c77400d8aa39cfc48968`, matching live main exactly. P2-S002 was unused as a session record; incoming mentions were forward recommendations or the formulation brief.
+
+Scope completed: one bounded formulation-alignment pass on CAND-02 only. The catalogue was used first. The only blocking detail was SRC-0058's transformation-domain convention, so only the smallest relevant passages of the already-catalogued arXiv copy were reinspected. They establish an a.e.-defined computable-transformation convention rather than an everywhere-total one; the converse construction explicitly ensures definition almost everywhere. CAND-02's total-map/effectively-open-indicator shape is therefore retained unchanged and E2 is resolved.
+
+Catalogue synchronization: SRC-0058, THM-0063, THM-0064, REL-0052 and REL-0053 now make the a.e.-defined convention explicit. No stable IDs, source access levels, theorem claims, definitions or relation edges were added. DEF-0020 and all unrelated Phase-1 convention records remain unchanged.
+
+Discovery record: `phase2/P2-S002_FORMULATION_ALIGNMENT.md`. Close: `phase2/P2-S002_CLOSE.md`. Validation: `phase2/P2-S002_VALIDATION.md`. Durable decision: D-0010. Meaningful correction: FL-036.
+
+No final candidate selected; Fairfax-Ball Randomness not defined; no novelty/prior-art audit, novelty claim, original proof work, witness construction, experiments, Lean/Palomar, manuscript/publication preparation or outreach. CAND-01 and CAND-03 were not expanded. Gate 1 remains PASS; Phase 1 COMPLETED for gate purposes; Phase 2 OPEN; Gate 2 CLOSED / NOT REVIEWED; Phases 3–5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P2-S003`, CAND-01 formulation alignment only (E1), without theorem searching, witness construction, novelty work or Gate-2 review.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+

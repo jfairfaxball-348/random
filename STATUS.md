@@ -10,10 +10,10 @@ Active phase: **Phase 2 — Discovery (OPEN)**
 - Phase 4 Mathematics: CLOSED
 - Phase 5 Publication: CLOSED
 
-Last completed session: **P2-S001**.
+Last completed session: **P2-S002**.
 
 Gate 1: **PASS** in P1-S014. The library is discovery-ready, bounded and non-exhaustive. The 19 partial-depth coverage labels and residual provenance/access gaps remain authoritative.
 
-Gate 2: **CLOSED / NOT REVIEWED**. Three directions retained provisionally (CAND-01, CAND-02, CAND-03); three rejected (CAND-04, CAND-05, CAND-06). No final candidate selected; Fairfax-Ball Randomness not defined; no novelty claims.
+Gate 2: **CLOSED / NOT REVIEWED**. Three directions remain retained provisionally (CAND-01, CAND-02, CAND-03); three remain rejected (CAND-04, CAND-05, CAND-06). CAND-02 E2 is resolved and its total-map/effectively-open-indicator shape is unchanged. No final candidate selected; Fairfax-Ball Randomness not defined; no novelty claims.
 
-Next: **P2-S002 — CAND-02 formulation alignment only**. No owner/external blocker. See [the Discovery record](phase2/P2-S001_DISCOVERY.md) and [the authoritative next prompt](authoritative/NEXT_SESSION_PROMPT.md).
+Next: **P2-S003 — CAND-01 formulation alignment only (E1)**. No owner/external blocker. See [the P2-S002 alignment](phase2/P2-S002_FORMULATION_ALIGNMENT.md) and [the authoritative next prompt](authoritative/NEXT_SESSION_PROMPT.md).
