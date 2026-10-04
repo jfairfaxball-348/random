@@ -1,27 +1,28 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P3-S002",
+  "last_updated_session": "P3-S003",
   "status": "PHASE3_PRIOR_ART_IN_PROGRESS",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
     "REJECT_CATALOGUED_CHARACTERIZATION",
-    "REJECT_CATALOGUED_COLLAPSE"
+    "REJECT_CATALOGUED_COLLAPSE",
+    "REJECT_PRIOR_ART_REBRANDING"
   ],
   "counts": {
     "considered_seriously": 6,
-    "retained_provisionally": 3,
-    "rejected": 3
+    "retained_provisionally": 2,
+    "rejected": 4
   },
   "retained_ids": [
     "CAND-01",
-    "CAND-02",
-    "CAND-03"
+    "CAND-02"
   ],
   "rejected_ids": [
     "CAND-04",
     "CAND-05",
-    "CAND-06"
+    "CAND-06",
+    "CAND-03"
   ],
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
@@ -231,7 +232,7 @@
     {
       "id": "CAND-03",
       "title": "Oracle lowness for uniform computable randomness",
-      "status": "RETAIN_PROVISIONAL",
+      "status": "REJECT_PRIOR_ART_REBRANDING",
       "role": "AUXILIARY_STRUCTURAL_DIRECTION",
       "object": "oracle class, not a sampled-sequence randomness class",
       "provisional_shape": "L_u consists of those A such that every computably random X is computably random uniformly relative to A in DEF-0025. Uniform families must be total and valid on every oracle instance. Ask for an intrinsic characterization and comparison with computable oracles and K-triviality, without asserting any answer.",
@@ -259,7 +260,8 @@
       "source_ids": [
         "SRC-0032",
         "SRC-0009",
-        "SRC-0010"
+        "SRC-0010",
+        "SRC-0064"
       ],
       "definition_ids": [
         "DEF-0004",
@@ -268,7 +270,8 @@
         "DEF-0007",
         "DEF-0008",
         "DEF-0063",
-        "DEF-0009"
+        "DEF-0009",
+        "DEF-0065"
       ],
       "theorem_ids": [
         "THM-0024",
@@ -276,7 +279,8 @@
         "THM-0003",
         "THM-0069",
         "THM-0070",
-        "THM-0004"
+        "THM-0004",
+        "THM-0075"
       ],
       "relation_ids": [
         "REL-0003",
@@ -289,10 +293,10 @@
         "COV-0009"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P2-S004",
-      "record_path": "phase2/P2-S004_FORMULATION_ALIGNMENT.md",
-      "novelty_status": "NOT_ASSESSED",
-      "literature_status": "NOT_ASSESSED",
+      "last_reviewed_in": "P3-S003",
+      "record_path": "phase3/P3-S003_PRIOR_ART.md",
+      "novelty_status": "EQUIVALENT_OR_REBRANDED",
+      "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S003_COMPLETE",
       "original_proof_work_performed": false,
       "final_candidate_selected": false,
       "resolved_formulation_tasks": [
@@ -308,6 +312,23 @@
         "independent_value_criterion": "Future promotion requires an intrinsic computability-theoretic characterization of L_u that is independent of merely restating the universal preservation clause, together with a concrete consequence for randomness or product/information behaviour. Mere renaming of an established lowness class, a routine reduction to ordinary computable lowness, or no meaningful randomness consequence is a falsifier.",
         "evidence": "The committed catalogue was sufficient. DEF-0025/SRC-0032/THM-0024/THM-0025 and the recorded lowness/base definitions and theorems are already STATEMENT_INSPECTED at the relevant scope. No source passage was reopened and no access level or catalogue record changed.",
         "conclusion": "The recorded anchors do not dispose of the exact CAND-03 formulation. Retain it provisionally as an auxiliary direction with shape unchanged and mark E3 resolved. This is not evidence of novelty, openness, a noncomputable low oracle, equivalence to K-triviality, collapse to computable oracles or mathematical nontriviality."
+      },
+      "prior_art_ids": [
+        "PA-0003"
+      ],
+      "prior_art_disposition": "EQUIVALENT_OR_REBRANDED",
+      "prior_art_summary": {
+        "session": "P3-S003",
+        "exact_shape_changed": false,
+        "closest_framework": "SRC-0064 / DEF-0065: parameterized uniform-lowness class Low^star(C,D)",
+        "exact_definition_level_match": "CAND-03 L_u is Low^star(CR,CR) when uniformly relative computable randomness is DEF-0025 / SRC-0032.",
+        "ordinary_relativization_guard": "SRC-0009 / THM-0075 characterizes ordinary low-for-computable-randomness only and is not transferred to the uniform-family class.",
+        "unresolved_remainder": "No inspected primary statement characterized the specific Low^star(CR,CR) instance intrinsically; that characterization question remains unresolved under inspected evidence.",
+        "already_known": "YES_AS_PARAMETERIZED_LOW_STAR_INSTANCE",
+        "equivalent_or_rebranded": "YES_AT_DEFINITION_LEVEL",
+        "materially_distinct": "NO_AT_DEFINITION_LEVEL_UNDER_INSPECTED_EVIDENCE",
+        "openness_claimed": false,
+        "conclusion": "CAND-03 is retired as a candidate for a new named notion because its exact oracle-class definition is existing Low^star(CR,CR) prior art. The specific characterization of that instance is not settled here."
       }
     },
     {
@@ -477,8 +498,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P3-S003",
-  "recommended_next_scope": "Phase-3 primary-source prior-art attack on CAND-03 only; no original mathematics, final candidate selection, Gate-3 review or Phase-4 work.",
+  "recommended_next_session": "P3-S004",
+  "recommended_next_scope": "Phase-3 significance/usefulness and interested-community assessment on surviving CAND-01 only; no original mathematics, candidate selection, Gate-3 review or Phase-4 work.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
@@ -545,7 +566,13 @@
       "exact_total_nonergodic_effectively_open_characterization_located": false,
       "openness_claimed": false
     },
-    "cand03": "NOT_ASSESSED",
+    "cand03": {
+      "prior_art_id": "PA-0003",
+      "disposition": "EQUIVALENT_OR_REBRANDED",
+      "framework_overlap": "EXACT_WITH_LOW_STAR_CR_CR_AT_DEFINITION_LEVEL",
+      "specific_intrinsic_characterization_located": false,
+      "openness_claimed": false
+    },
     "candidate_selected": false,
     "gate3_review_performed": false
   }
