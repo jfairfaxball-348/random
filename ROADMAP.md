@@ -1,6 +1,6 @@
 # Five-Phase Roadmap
 
-Gate 1 passed in P1-S014. Phase 1 — Research / Catalogue — is complete for gate purposes; Phase 2 — Discovery — is OPEN. Phases 3–5 remain CLOSED. See `authoritative/STATE.json` for live authority.
+Gate 1 passed in P1-S014 and Gate 2 passed in P2-S006. Phases 1–2 are complete for gate purposes; Phase 3 — Novelty / Prior Art — is OPEN. Phases 4–5 remain CLOSED. See `authoritative/STATE.json` for live authority.
 
 ## Phase 1 — Research / Catalogue
 
@@ -16,15 +16,17 @@ Papers and articles are normally linked and catalogued rather than copied into t
 
 ## Phase 2 — Discovery
 
-**Status:** OPEN. P2-S001 completed the bounded six-candidate Discovery portfolio; P2-S002 through P2-S004 resolved E2, E1 and E3 without changing the three retained shapes. P2-S005 audited CAND-01, CAND-02 and CAND-03 against every Gate-2 minimum-evidence field and recorded **READY_FOR_FORMAL_GATE2_REVIEW**. CAND-04, CAND-05 and CAND-06 remain rejected exactly as recorded. This is not Gate-2 PASS: Gate 2 has not been formally reviewed, Phase 3 remains CLOSED, no final candidate is selected and Fairfax-Ball Randomness is not defined. Next is P2-S006, a separate formal Gate-2 review only. See `phase2/P2-S005_GATE2_READINESS_AUDIT.md`, `phase2/P2-S005_CLOSE.md` and `phase2/candidates.json`.
+**Status:** COMPLETED FOR GATE PURPOSES after formal Gate-2 PASS in P2-S006. P2-S001 built the bounded six-candidate portfolio; P2-S002 through P2-S004 resolved E2, E1 and E3; P2-S005 assembled the minimum evidence; and P2-S006 independently reviewed the portfolio and passed Gate 2. CAND-01, CAND-02 and CAND-03 remain provisional directions for Phase-3 attack. CAND-04, CAND-05 and CAND-06 remain rejected in their recorded shapes. No candidate is selected and Fairfax-Ball Randomness is not defined.
 
 **Purpose:** identify what appears genuinely open, structurally missing or mathematically worthwhile.
 
 Expected outputs include a bounded portfolio of candidate directions (normally several, not one prematurely selected target), each with exact proposed question/definition shape, motivation, relationship to known notions, plausible theorem package, falsifiers, dependencies and risk.
 
-**Exit gate:** a candidate portfolio has been compared on mathematical substance without asserting novelty that belongs to Phase 3, and one or more candidates are mature enough for dedicated prior-art attack.
+**Exit gate:** PASSED in P2-S006. The portfolio is mature enough for dedicated prior-art attack; this is not a novelty finding.
 
 ## Phase 3 — Novelty / Prior Art
+
+**Status:** OPEN after Gate-2 PASS in P2-S006. No Phase-3 substantive work was performed in P2-S006. The first bounded task is P3-S001, a dedicated prior-art attack on CAND-01 only.
 
 **Purpose:** try hard to kill the candidates before expensive mathematics.
 

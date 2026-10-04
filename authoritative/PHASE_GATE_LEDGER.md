@@ -4,7 +4,7 @@
 |---|---|---|
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
 | Phase 1 -> Phase 2 | PASS | P1-S014 formally reviewed Gate 1 and passed it. Phase 1 is complete for gate purposes and Phase 2 — Discovery is OPEN. The catalogue remains bounded/non-exhaustive and residual provenance gaps remain recorded. |
-| Phase 2 -> Phase 3 | CLOSED — READY FOR REVIEW | P2-S005 records READY_FOR_FORMAL_GATE2_REVIEW after auditing the existing portfolio. This is not PASS; Gate 2 has not been formally reviewed and Phase 3 remains CLOSED. |
+| Phase 2 -> Phase 3 | PASS | P2-S006 formally reviewed Gate 2 and passed it. Phase 2 is complete for gate purposes and Phase 3 — Novelty / Prior Art is OPEN. The PASS authorizes dedicated prior-art attack; it does not establish novelty or select a candidate. |
 | Phase 3 -> Phase 4 | CLOSED | Phase 3 is not authorized. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
@@ -112,3 +112,26 @@ The existing portfolio remains six stable candidates: CAND-01, CAND-02 and CAND-
 Novelty and literature status remain **NOT_ASSESSED**. No prior-art search, equivalent-definition search, proof work, witness construction, experiment, candidate selection or later-phase work was performed. DEF-0020 and all Phase-1 evidence/convention guards remain unchanged.
 
 Gate 2 remains **CLOSED / NOT FORMALLY REVIEWED** and Phase 3 remains CLOSED. The next bounded session is P2-S006, a separate formal Gate-2 review that may record PASS, FAIL or BACKTRACK without performing Phase-3 work in the same session.
+
+
+## Gate-2 formal review — P2-S006
+
+Formal outcome: **PASS**.
+
+P2-S006 independently reviewed the committed six-candidate Discovery portfolio against every Gate-2 minimum-evidence requirement in `docs/GATE_POLICY.md`. The portfolio is bounded; CAND-01, CAND-02 and CAND-03 each have a search-ready formulation, mathematical motivation/potential value, relationships to known concepts, a plausible theorem/characterization target, falsifiers, dependencies/expected difficulty and explicit separation between apparent interest and novelty. E1–E3 remain resolved.
+
+CAND-04, CAND-05 and CAND-06 remain rejected exactly in their recorded P2-S001 shapes by THM-0008, THM-0026 and THM-0024 respectively. DEF-0020 and all Phase-1 evidence/convention guards are unchanged.
+
+Residual risks are deliberately carried forward: all three retained candidates have high collapse/redundancy risk; CAND-02 retains its SRC-0058 copy qualification; CAND-03 retains the deliberately uncatalogued broader uniform-lowness/traceability exposure. These are Phase-3 attack targets, not missing Discovery fields.
+
+Authorization after P2-S006:
+
+- Phase 1: **COMPLETED**
+- Phase 2 — Discovery: **COMPLETED**
+- Phase 3 — Novelty / Prior Art: **OPEN**
+- Phases 4–5: **CLOSED**
+- candidate selected: **NO**
+- Fairfax-Ball Randomness defined: **NO**
+- Phase-3 substantive work performed in P2-S006: **NO**
+
+Formal review record: `phase2/P2-S006_GATE2_REVIEW.md`.

@@ -6,13 +6,13 @@ Read `authoritative/START_HERE.md` first. The committed repository is authoritat
 
 ## Current phase restriction
 
-Gate 1 — Research/Catalogue -> Discovery — **PASSED** in `P1-S014` on 2026-10-04. Phase 1 is complete for gate purposes. Phase 2 — **Discovery** — is OPEN. Phases 3–5 remain CLOSED.
+Gate 1 — Research/Catalogue -> Discovery — **PASSED** in `P1-S014` on 2026-10-04. Gate 2 — Discovery -> Novelty/Prior Art — **PASSED** in `P2-S006` on 2026-10-04. Phase 1 and Phase 2 are complete for gate purposes. Phase 3 — **Novelty / Prior Art** — is OPEN. Phases 4–5 remain CLOSED.
 
-Phase-2 work may build a bounded portfolio of candidate directions/questions/definition shapes from the committed Phase-1 library, with motivation, relationships to known notions, plausible theorem packages, falsifiers, dependencies and risk. Discovery must keep “appears interesting” separate from “is novel.”
+Phase-3 work may conduct the dedicated primary-source prior-art attacks reserved by the programme: search alternate terminology and equivalent formulations, identify closest known work, assess equivalence/rebranding risk, examine significance/usefulness and likely interested communities, and record remaining novelty uncertainty. It must keep literature findings separate from mathematical proof claims.
 
-Phase 2 must not conduct the dedicated primary-source novelty/prior-art attack reserved for Phase 3, assert novelty, begin original mathematical proof search, use Lean/Palomar for new mathematics, draft a manuscript, prepare publication, or conduct external outreach.
+Phase 3 must not begin original mathematical proof search, construct new witnesses as mathematics, use Lean/Palomar for new mathematics, draft a manuscript, prepare publication, or assert novelty more strongly than the documented evidence supports. Candidate selection belongs to a documented Phase-3 decision and Gate-3 review, not to the Gate-2 PASS itself.
 
-Gate-1 PASS means the library is fit to support discovery; it does not mean the catalogue is exhaustive. Residual provenance/access gaps and weak-evidence cautions remain authoritative and must be upgraded before a Discovery claim relies on them decisively.
+Gate-1 PASS still means the Phase-1 library is bounded and non-exhaustive. Residual provenance/access gaps and weak-evidence cautions remain authoritative and must be upgraded before a Phase-3 conclusion relies on them decisively. Gate-2 PASS means the Discovery portfolio is mature enough for dedicated prior-art attack; it does not mean any candidate is novel, open, distinct, nontrivial or selected.
 
 ## Programme objective
 
