@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 3,
-  "last_updated_session": "P3-S002",
+  "last_updated_session": "P3-S003",
   "records": [
     {
       "id": "PA-0001",
@@ -136,6 +136,73 @@
         "computable Cantor group action in SRC-0063 supplies total maps but adds automorphism/action and Folner structure"
       ],
       "novelty_guard": "No openness or novelty conclusion is inferred from search absence. The exact everywhere-total/nonergodic/effectively-open characterization remains unresolved under the evidence inspected.",
+      "original_mathematics_performed": false,
+      "final_candidate_selected": false,
+      "gate3_review_performed": false
+    },
+    {
+      "id": "PA-0003",
+      "candidate_id": "CAND-03",
+      "title": "Universal lowness for uniform computable randomness versus Low^star(C,D) prior art",
+      "session": "P3-S003",
+      "date": "2026-10-04",
+      "disposition": "EQUIVALENT_OR_REBRANDED",
+      "exact_target": "L_u = { A : for every unrelativized computably random X, X is computably random uniformly relative to A }, where uniform relative computable randomness uses DEF-0025: one total computable uniform martingale family over all oracle instances, every instance a valid martingale.",
+      "classification": {
+        "already_known": "YES_AS_PARAMETERIZED_LOW_STAR_INSTANCE",
+        "equivalent_or_rebranded": "YES_AT_DEFINITION_LEVEL",
+        "materially_distinct": "NO_AT_DEFINITION_LEVEL_UNDER_INSPECTED_EVIDENCE",
+        "unresolved": "SPECIFIC_INTRINSIC_CHARACTERIZATION_ONLY",
+        "framework_overlap": "EXACT_WITH_LOW_STAR_CR_CR_AT_DEFINITION_LEVEL"
+      },
+      "closest_primary_sources": [
+        "SRC-0064",
+        "SRC-0032",
+        "SRC-0009",
+        "SRC-0010"
+      ],
+      "closest_results": [
+        "DEF-0065",
+        "DEF-0025",
+        "THM-0024",
+        "THM-0025",
+        "THM-0075",
+        "DEF-0007",
+        "DEF-0009",
+        "THM-0004"
+      ],
+      "findings": [
+        "SRC-0064 explicitly defines Low^star(C,D) as the oracles A for which every C-random is D-random uniformly relative to A, after defining a uniform test as one total computable procedure producing a valid relative test at every oracle.",
+        "With C=D=computable randomness and the uniform-computable-randomness component interpreted by SRC-0032 / DEF-0025, CAND-03's L_u is exactly the Low^star(CR,CR) instance at the definition level.",
+        "SRC-0032 supplies the exact global martingale-family convention required by CAND-03: total over the whole oracle space and valid at every oracle instance. THM-0024 and THM-0025 remain pairwise/existential and do not characterize the universal low class.",
+        "SRC-0009 / THM-0075 shows ordinary lowness for computable randomness collapses to computable oracles under ordinary A-computable martingales. No transfer to uniform Low^star(CR,CR) is licensed.",
+        "The inspected SRC-0064 statement gives characterization results for other Low^star pairs but no inspected theorem characterizing Low^star(CR,CR). The specific intrinsic characterization problem therefore remains unresolved under inspected evidence; no openness claim is made."
+      ],
+      "hypothesis_axes": {
+        "universal_input_quantifier": "Exact match: both CAND-03 and Low^star(CR,CR) fix A and quantify over every unrelativized computably random input.",
+        "uniform_family_totality": "Exact at the intended uniform-relativization level: SRC-0064 requires a total uniform test procedure valid for every oracle, while DEF-0025 / SRC-0032 gives the computable-randomness martingale realization.",
+        "ordinary_vs_uniform": "Ordinary Low(CR,CR) / THM-0075 uses A-computable martingales and is distinct. CAND-03 uses uniform all-oracle families and is classified through Low^star.",
+        "pairwise_vs_lowness": "THM-0024 is pairwise and THM-0025 existential; Low^star(CR,CR) has the universal lowness quantifier.",
+        "lowness_vs_baseness": "DEF-0009 / THM-0004 is existential baseness for Martin-Lof randomness and does not replace the universal Low^star predicate."
+      },
+      "search_terms": [
+        "low for uniformly computable randomness",
+        "uniform lowness computable randomness",
+        "Low star computable randomness",
+        "Low^star(C,D)",
+        "truth-table reducible randomness lowness",
+        "truth-table computable randomness low",
+        "uniform relativization lowness",
+        "uniform test lowness",
+        "computable randomness low oracle uniform martingale"
+      ],
+      "adjacent_terminology": [
+        "uniformly relative computable randomness / uniformly computable randomness: SRC-0032 terminology",
+        "truth-table reducible randomness: earlier terminology for the same pairwise uniform-computable relativization",
+        "Low^star(C,D): parameterized universal uniform-lowness notation in SRC-0064",
+        "ordinary Low(CR,CR): different ordinary-relativization resource class; THM-0075 guard"
+      ],
+      "novelty_guard": "The definition-level rebranding conclusion is based on an inspected positive prior-art match, not search absence. No claim is made that the specific Low^star(CR,CR) characterization problem is open, solved, novel or publishable.",
       "original_mathematics_performed": false,
       "final_candidate_selected": false,
       "gate3_review_performed": false
