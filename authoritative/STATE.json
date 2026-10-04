@@ -6,7 +6,7 @@
   "active_phase": 1,
   "active_phase_name": "Research / Catalogue",
   "active_session": null,
-  "last_completed_session": "P1-S012",
+  "last_completed_session": "P1-S013",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -32,7 +32,7 @@
     }
   },
   "current_authorization": "Phase 1 Research / Catalogue only. Phases 2-5 remain closed.",
-  "phase1_gate_status": "CLOSED_NOT_READY_FOR_REVIEW",
+  "phase1_gate_status": "CLOSED_READY_FOR_REVIEW",
   "phase1_coverage": {
     "coverage_records": 19,
     "complete": 0,
@@ -52,11 +52,21 @@
     "questions": 1,
     "authors": 66
   },
-  "next_transition": "Complete Phase 1 coverage and pass the Phase 1 -> Phase 2 gate before any Discovery work.",
-  "recommended_next_session": "P1-S013",
+  "next_transition": "Run a separate formal Gate 1 review. Only an explicit Gate 1 PASS may open Phase 2, and no Phase-2 discovery should be performed in the same review session.",
+  "recommended_next_session": "P1-S014",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
   "mathematical_investigation_authorized": false,
-  "publication_work_authorized": false
+  "publication_work_authorized": false,
+  "phase1_audit": {
+    "session": "P1-S013",
+    "coverage_audit_complete": true,
+    "coverage_records_audited": 19,
+    "gate_critical_gaps": 0,
+    "sufficient_for_formal_gate1_review": 19,
+    "result": "MINIMUM_PHASE1_EVIDENCE_ASSEMBLED",
+    "formal_gate1_review_required": true,
+    "audit_record": "phase1/P1-S013_GATE1_AUDIT.md"
+  }
 }
