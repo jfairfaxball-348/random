@@ -634,3 +634,25 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P3-S005`, a significance/usefulness and likely-interested-community assessment on surviving CAND-02 only.
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+## P3-S005 — CAND-02 significance/usefulness assessment
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `af2c2986b1528ac65b18c381ebbeac870533f078`, matching live `main` exactly. The incoming session ledger contained zero P3-S005 headings and no committed P3-S005 significance record existed; the sole mention was forward scheduling, so the session identifier was unique.
+
+Scope completed: one bounded Phase-3 significance/usefulness and likely-interested-community assessment on CAND-02 only.
+
+Result: **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT WITH ELEVATED TECHNICAL-SLICE RISK**. SRC-0058 makes weak-Birkhoff convergence the appropriate nonergodic semantics and treats observable complexity as a separate axis. SRC-0062 independently treats c.e.-described analytic objects, including lower-semicomputable observables and Birkhoff convergence, as a meaningful effectiveness axis. SRC-0063 supplies an established total-computable-Cantor-dynamics benchmark.
+
+The risk is explicit: no inspected evidence shows that everywhere-totality changes CAND-02's randomness content rather than merely excluding a.e./possibly-partial witness representations. Continued investment requires an exact characterization, a structural totality theorem and an observable-boundary theorem; routine totalization/collapse would weaken the significance case.
+
+PA-0002 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. CAND-02 remains `RETAIN_PROVISIONAL`; its exact formula and E2 alignment are unchanged. CAND-01 was not re-assessed and CAND-03 remains retired. DEF-0020 and all existing convention/evidence guards remain unchanged. No original mathematics, witness construction, experiment, Lean/Palomar work, candidate selection, Gate-3 review, Phase-4 work, publication work or outreach occurred.
+
+Records: `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S005_CLOSE.md`, `phase3/P3-S005_VALIDATION.md`. Durable decision: D-0019. Significance/technical-slice guard: FL-045.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S006`, a comparative Phase-3 candidate-selection readiness audit over surviving CAND-01 and CAND-02 only. It must not select a candidate or review Gate 3.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
