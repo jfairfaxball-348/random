@@ -468,3 +468,35 @@ Classical ergodic/symbolic-dynamics literature uses terms such as **uniformly p-
 **UNRESOLVED_UNDER_INSPECTED_EVIDENCE.** CAND-01 is not shown already known, equivalent/rebranded, or materially distinct by this bounded search. It has substantial framework overlap with known endomorphism randomness, and total fair-coin-preserving maps are already known not to conserve computable randomness in general. The exact globally bounded finite-fibre restriction remains the live point not matched by the inspected primary sources.
 
 This is not an openness claim and not novelty evidence from absence. No theorem about finite-to-one preservation or failure is inferred or proved.
+
+## P3-S002 — 2026-10-04 — CAND-02 primary-source prior-art attack
+
+Scope: one bounded Phase-3 prior-art attack on CAND-02 only. Exact target: for every everywhere-total computable fair-coin-preserving Cantor self-map T and every effectively open U, require convergence of the one-sided averages N^{-1} sum_{i<N} 1_U(T^i(x)). No ergodicity, equality-to-expectation, computability of lambda(U), convergence modulus or rate is required.
+
+### Primary sources located / inspected
+
+- **SRC-0058 — Franklin and Towsner, _Randomness and Non-Ergodic Systems_ (2014).** Retained as the closest characterization framework. It distinguishes weak Birkhoff (convergence only) from Birkhoff (convergence plus integral), characterizes Martin-Löf randomness using nonergodic computable measure-preserving transformations and computable observables, and proves weak-2 sufficiency for lower-semicomputable observables. Its transformation representation is a.e.-defined, not everywhere total.
+- **SRC-0062 — Miyabe, Nies and Zhang, _Using almost-everywhere theorems from analysis to study randomness_ (2016).** Statement-inspected at Section 6 / Theorem 6.1. For computable measures, Oberwolfach randomness suffices for nonergodic convergence for nonnegative integrable lower-semicomputable observables. The source explicitly says the computable measure-preserving operator is not assumed total.
+- **SRC-0057 — Bienvenu, Day, Hoyrup, Mezhirov and Shen (2012).** Retained as the exact effectively-open/lower-semicomputable observable benchmark under computable a.e.-defined measure-preserving **ergodic** transformations, with equality to expectation.
+- **SRC-0063 — Moriakov (2018).** Statement-inspected at the computable-map/action conventions and Lemma 3.1. The source's Cantor mappings are total and its effective-open indicator theorem gives equality to measure, but only for computable **ergodic** group actions by automorphisms and Folner averages, not arbitrary one-sided self-map iterates.
+
+### Alternate terminology / formulation queries
+
+Search vocabulary included: `weak Birkhoff`, `weakly Birkhoff`, `Birkhoff point`, `effectively open Birkhoff`, `c.e. open Birkhoff`, `Sigma^0_1 Birkhoff`, `enumerable event ergodic average`, `lower semicomputable observable`, `computable measure-preserving operator`, `computable measure-preserving transformation`, `total computable transformation`, `nonergodic Birkhoff convergence`, `Oberwolfach random Birkhoff`, and `weak 2 random Birkhoff`.
+
+A terminology hazard was confirmed: some primary sources use "computable transformation/operator" for maps defined only on a conull effective domain, whereas other sources explicitly reserve "computable transformation" for an everywhere-total map and separately define a.e.-computable transformations. The candidate's "everywhere total" clause therefore remains an explicit semantic axis, not a terminological assumption.
+
+### Hypothesis reconciliation
+
+1. **Totality.** CAND-02 quantifies only over everywhere-total maps. SRC-0058 and SRC-0062 allow a.e./non-total computable measure-preserving operators. SRC-0063 reaches total computable Cantor maps, but in an invertible group-action framework.
+2. **Observable effectivity.** CAND-02 uses indicators of effectively open events. THM-0064 and THM-0073 are stronger on the observable side (lower semicomputable functions), while THM-0059 and THM-0074 directly cover effectively-open indicators.
+3. **Ergodicity.** CAND-02 assumes none. THM-0063, THM-0064 and THM-0073 are nonergodic; THM-0059 and THM-0074 require ergodicity.
+4. **Conclusion strength.** CAND-02 asks only that the one-sided averages converge. The nonergodic sources use convergence-only semantics; the ergodic sources identify the limit with the expectation. No rate or modulus is imported.
+5. **Characterization versus sufficiency.** THM-0063 gives a characterization only for the source's a.e.-defined transformation convention and computable-observable class. THM-0064 and THM-0073 are one-way sufficient conditions for broader lower-semicomputable observables. None of the inspected sources states the exact CAND-02 total-map/effectively-open characterization.
+
+### P3-S002 disposition
+
+**UNRESOLVED_UNDER_INSPECTED_EVIDENCE.** CAND-02 is not established as already known, equivalent/rebranded or materially distinct by this bounded search. The literature contains very close nonergodic convergence frameworks and exact total/effectively-open ergodic benchmarks, but no inspected primary theorem combines CAND-02's everywhere-total arbitrary self-map class with effectively-open indicators and nonergodic convergence-only characterization semantics.
+
+This is a bounded search-status conclusion, not an assertion that the question is open, novel or publishable. No theorem, implication or witness was derived as original mathematics.
+
