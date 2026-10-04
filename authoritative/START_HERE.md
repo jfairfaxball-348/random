@@ -17,8 +17,10 @@ Repository: https://github.com/jfairfaxball-348/random
 
 ## Current authority
 
-**Phase 1 — Research / Catalogue — is OPEN.** P1-S001 through P1-S013 are completed. Phases 2–5 remain CLOSED. Gate 1 has not passed. P1-S013 completed the catalogue-wide coverage/source-gap audit and found the minimum Phase-1 evidence assembled for a separate formal Gate-1 review.
+**Gate 1 PASSED in P1-S014. Phase 1 — Research / Catalogue — is COMPLETED for gate purposes. Phase 2 — Discovery — is OPEN. Phases 3–5 remain CLOSED.**
 
-Latest completed bounded session: `P1-S013`.
+The Phase-1 catalogue remains bounded and non-exhaustive; recorded provenance/access gaps remain live. Gate-1 PASS does not promote weak-access records, establish novelty, define Fairfax-Ball Randomness or select a candidate.
+
+P1-S014 was a gate-review session only and performed no Phase-2 discovery. Latest completed bounded session: `P1-S014`. Recommended next bounded session: `P2-S001`.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
