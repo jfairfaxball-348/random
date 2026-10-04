@@ -2184,12 +2184,8 @@
         "endomorphism randomness"
       ],
       "formal_summary": "x is endomorphism random iff T(x) is computably random for every a.e.-computable measure-preserving endomorphism T of the ambient computable probability space.",
-      "equivalent_characterizations": [
-        "THM-0071"
-      ],
-      "relationships": [
-        "REL-0060"
-      ],
+      "equivalent_characterizations": [],
+      "relationships": [],
       "source_support": [
         {
           "source": "SRC-0060",
