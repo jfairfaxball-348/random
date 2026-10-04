@@ -98,3 +98,14 @@ The close counts are 59 sources, 63 definitions, 70 theorem/characterization rec
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review. The next task is a bounded Gate-1 completion/source-gap audit rather than automatic deepening of a partial stratum.
 
+## P1-S013 checkpoint
+
+P1-S013 completed the Phase-1 catalogue-wide completion/source-gap audit against Gate 1. The 19 historical coverage records remain `PARTIAL` as depth/provenance labels, but every stratum now has an explicit P1-S013 audit disposition. All 19 are `SUFFICIENT_FOR_GATE1_REVIEW`; no gate-critical remediation remains.
+
+The audit accepts documented residual gaps only where they are nonblocking provenance improvements, deliberately bounded omissions, or historical/navigation gaps already replaced by statement-inspected later primary literature. In particular, original Schnorr/Kurtz and Jockusch/Kurtz internals, the Demuth translation qualification, earliest standalone Martin-Löf NRFN provenance, selected Chaitin originals, the uninspected Solovay draft, Schnorr 1973 internals, historical higher-randomness originals, Franklin-Greenberg-Miller-Ng internals and Kučera-Terwijn 1999 internals do not support unguarded claims in the current catalogue. Constructive-dimension and KL records that remain abstract-level are explicit discovery-time cautions, not silently promoted evidence.
+
+The structural audit also corrected the coverage-plan status vocabulary, which had omitted the already-used P1-S010 through P1-S012 partial-status values.
+
+Catalogue counts remain 59 sources, 63 definitions, 70 theorem/characterization records, 59 relation records, 1 status question, 66 author-navigation records and 19 coverage records.
+
+Phase 1 remains OPEN. Gate 1 is **READY FOR FORMAL REVIEW but not PASS**. Phases 2–5 remain CLOSED.
