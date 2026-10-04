@@ -12,8 +12,10 @@ P3-S004 assessed CAND-01's significance/usefulness as **PROVISIONALLY SUBSTANTIV
 
 P3-S005 assessed CAND-02's significance/usefulness as **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT WITH ELEVATED TECHNICAL-SLICE RISK**. Weak-Birkhoff nonergodic convergence and c.e./lower-semicomputable observation complexity are established primary-literature axes, and total computable Cantor dynamics are legitimate. The unresolved risk is whether everywhere-totality changes the randomness content or merely excludes a.e./partial witness representations. The assessment is recorded in `P3-S005_SIGNIFICANCE.md` and does not alter PA-0002's unresolved novelty status.
 
-Structured prior-art findings are in `prior-art.json`. Session records include `P3-S001_PRIOR_ART.md`, `P3-S002_PRIOR_ART.md`, `P3-S003_PRIOR_ART.md`, `P3-S004_SIGNIFICANCE.md` and `P3-S005_SIGNIFICANCE.md`.
+P3-S006 completed the comparative candidate-selection readiness audit with **READY_FOR_SELECTION_DECISION**. Both CAND-01 and CAND-02 are sufficiently documented for a separate selection/NO-GO decision under explicit uncertainty. CAND-01 retains its no-established-randomness-consequence risk; CAND-02 retains elevated totality/representation-artifact risk. No candidate was selected and Gate 3 was not reviewed.
 
-Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`, `P3-S002_VALIDATION.md`, `P3-S002_CLOSE.md`, `P3-S003_VALIDATION.md`, `P3-S003_CLOSE.md`, `P3-S004_VALIDATION.md`, `P3-S004_CLOSE.md`, `P3-S005_VALIDATION.md`, `P3-S005_CLOSE.md`.
+Structured prior-art findings are in `prior-art.json`. Session records include `P3-S001_PRIOR_ART.md`, `P3-S002_PRIOR_ART.md`, `P3-S003_PRIOR_ART.md`, `P3-S004_SIGNIFICANCE.md`, `P3-S005_SIGNIFICANCE.md` and `P3-S006_SELECTION_READINESS_AUDIT.md`.
 
-Next recommended session: **P3-S006**, a bounded comparative candidate-selection readiness audit over surviving CAND-01 and CAND-02 only. It must not select a candidate, review Gate 3 or begin Phase 4.
+Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`, `P3-S002_VALIDATION.md`, `P3-S002_CLOSE.md`, `P3-S003_VALIDATION.md`, `P3-S003_CLOSE.md`, `P3-S004_VALIDATION.md`, `P3-S004_CLOSE.md`, `P3-S005_VALIDATION.md`, `P3-S005_CLOSE.md`, `P3-S006_VALIDATION.md`, `P3-S006_CLOSE.md`.
+
+Next recommended session: **P3-S007**, a separate documented candidate-selection/NO-GO decision over surviving CAND-01 and CAND-02 only. It must not combine selection with Gate-3 review or begin Phase 4.
