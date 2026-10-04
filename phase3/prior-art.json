@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 3,
-  "last_updated_session": "P3-S004",
+  "last_updated_session": "P3-S005",
   "records": [
     {
       "id": "PA-0001",
@@ -170,7 +170,42 @@
       "novelty_guard": "No openness or novelty conclusion is inferred from search absence. The exact everywhere-total/nonergodic/effectively-open characterization remains unresolved under the evidence inspected.",
       "original_mathematics_performed": false,
       "final_candidate_selected": false,
-      "gate3_review_performed": false
+      "gate3_review_performed": false,
+      "significance_assessment": {
+        "session": "P3-S005",
+        "disposition": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3_ELEVATED_TECHNICAL_SLICE_RISK",
+        "appears_mathematically_substantive": "YES_AS_AN_EFFECTIVE_OBSERVATION_DYNAMICS_AXIS_NOT_AS_AN_ESTABLISHED_DISTINCT_RANDOMNESS_BOUNDARY",
+        "appears_merely_technical": "NOT_ESTABLISHED; EVERYWHERE_TOTALITY_REMAINS_A_LIVE_REPRESENTATION_ARTIFACT_RISK",
+        "supporting_primary_sources": [
+          "SRC-0058",
+          "SRC-0062",
+          "SRC-0063",
+          "SRC-0057",
+          "SRC-0012"
+        ],
+        "literature_judgment": "Primary literature independently treats nonergodic convergence-only semantics, c.e./lower-semicomputable observable complexity, and total computable Cantor dynamics as meaningful regimes. No inspected source shows that the exact everywhere-total/effectively-open/nonergodic intersection changes the randomness class rather than slicing existing frameworks by representation and observable hypotheses.",
+        "usefulness_conditions": [
+          "An exact two-sided characterization of B_open under the unchanged everywhere-total/effectively-open/nonergodic convergence-only semantics.",
+          "A structural theorem explaining whether everywhere-totality changes the randomness requirement relative to a.e./possibly partial computable measure-preserving transformations.",
+          "An observable-boundary theorem comparing effectively-open indicators with computable and bounded/lower-semicomputable observables under matched total-map hypotheses.",
+          "Sharp supported placement against established randomness notions, without presuming equivalence or separation.",
+          "Natural total nonergodic examples or system classes giving the characterization dynamical content beyond a coding artifact."
+        ],
+        "likely_interested_communities": [
+          "algorithmic randomness and computability",
+          "effective ergodic theory / computable dynamical systems",
+          "computable analysis / effective probability",
+          "classical ergodic theory if a structural totality mechanism or natural total systems emerge"
+        ],
+        "future_theorem_package": [
+          "Main exact characterization theorem for B_open or a decisive collapse/retirement theorem.",
+          "Totality mechanism theorem relative to the a.e./partial transformation literature.",
+          "Observable-boundary theorem for effectively-open versus computable and lower-semicomputable observables under matched map hypotheses.",
+          "Sharp placement/equivalence/separation against established randomness notions.",
+          "Natural total nonergodic examples or system classes; optional intrinsic test/robustness or quantitative consequences only if naturally produced."
+        ],
+        "guard": "Novelty classification remains unchanged. No implication from totality to a new randomness class, no completeness of effectively-open indicators for lower-semicomputable observables, and no equivalence/separation from Martin-Lof, Schnorr, weak-2 or Oberwolfach randomness is asserted."
+      }
     },
     {
       "id": "PA-0003",
