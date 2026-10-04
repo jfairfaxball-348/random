@@ -2,21 +2,21 @@
   "schema_version": 1,
   "project": "Fairfax-Ball Randomness Research Programme",
   "repository": "jfairfaxball-348/random",
-  "programme_status": "PHASE_1_ACTIVE",
-  "active_phase": 1,
-  "active_phase_name": "Research / Catalogue",
+  "programme_status": "PHASE_2_ACTIVE",
+  "active_phase": 2,
+  "active_phase_name": "Discovery",
   "active_session": null,
-  "last_completed_session": "P1-S013",
+  "last_completed_session": "P1-S014",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
     "1": {
       "name": "Research / Catalogue",
-      "status": "OPEN"
+      "status": "COMPLETED"
     },
     "2": {
       "name": "Discovery",
-      "status": "CLOSED"
+      "status": "OPEN"
     },
     "3": {
       "name": "Novelty / Prior Art",
@@ -31,8 +31,8 @@
       "status": "CLOSED"
     }
   },
-  "current_authorization": "Phase 1 Research / Catalogue only. Phases 2-5 remain closed.",
-  "phase1_gate_status": "CLOSED_READY_FOR_REVIEW",
+  "current_authorization": "Phase 2 Discovery only. Gate 1 passed in P1-S014. Phases 3-5 remain closed.",
+  "phase1_gate_status": "PASS",
   "phase1_coverage": {
     "coverage_records": 19,
     "complete": 0,
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 66
   },
-  "next_transition": "Run a separate formal Gate 1 review. Only an explicit Gate 1 PASS may open Phase 2, and no Phase-2 discovery should be performed in the same review session.",
-  "recommended_next_session": "P1-S014",
+  "next_transition": "Run bounded Phase-2 Discovery sessions to build the candidate portfolio required for Gate 2. Do not perform Phase-3 novelty/prior-art work until Gate 2 passes.",
+  "recommended_next_session": "P2-S001",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
@@ -66,7 +66,19 @@
     "gate_critical_gaps": 0,
     "sufficient_for_formal_gate1_review": 19,
     "result": "MINIMUM_PHASE1_EVIDENCE_ASSEMBLED",
-    "formal_gate1_review_required": true,
-    "audit_record": "phase1/P1-S013_GATE1_AUDIT.md"
+    "formal_gate1_review_required": false,
+    "audit_record": "phase1/P1-S013_GATE1_AUDIT.md",
+    "formal_gate1_review_completed_in": "P1-S014"
+  },
+  "phase1_gate_review": {
+    "session": "P1-S014",
+    "outcome": "PASS",
+    "reviewed_on": "2026-10-04",
+    "review_record": "phase1/P1-S014_GATE1_REVIEW.md",
+    "library_fit_for_discovery": true,
+    "catalogue_exhaustive": false,
+    "residual_provenance_gaps_preserved": true,
+    "phase2_opened": true,
+    "phase2_work_performed_in_review_session": false
   }
 }
