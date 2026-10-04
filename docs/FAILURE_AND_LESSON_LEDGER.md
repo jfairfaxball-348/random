@@ -497,3 +497,15 @@ CAND-03 survived formulation alignment because the committed pairwise anchors di
 Resolution: retire CAND-03 as a candidate for a new named notion, while keeping the specific characterization of `Low^star(CR,CR)` unresolved under the inspected evidence. Keep ordinary `Low(CR,CR)`, pairwise uniform relativity and existential baseness separate.
 
 Lesson: when a candidate is a universal lowness predicate, search not only its object-level randomness terminology but also **parameterized lowness schemas** such as `Low(C,D)` and `Low^star(C,D)`. Pairwise sources can fail to dispose of a candidate even though a higher-level universal schema already names it.
+
+
+## FL-044 — Finite multiplicity is a significance signal, not a preservation theorem
+
+Session: `P3-S004`  
+Status: SIGNIFICANCE / TRANSFER-DISCIPLINE GUARD
+
+Adjacent primary literature makes finite multiplicity mathematically substantive: uniformly finite-to-one endomorphisms support entropy/conjugacy structure (SRC-0065), and finite-to-one symbolic factor codes support degree/encoding and channel questions (SRC-0066). It would nevertheless be an invalid transfer to conclude that CAND-01's bare global cardinal fibre bound preserves computable randomness, supplies effective inverse branches, controls randomness deficiency, or inherits an entropy/channel theorem.
+
+Resolution: P3-S004 records only a conditional significance judgment. CAND-01's novelty status remains unresolved, and no mathematical consequence is inferred from the adjacent literature. The future value test requires an exact theorem plus explanatory structure under CAND-01's own hypotheses.
+
+Lesson: use adjacent structural literature to justify why a parameter is worth investigating, but never use it to smuggle in stronger hypotheses or mathematical conclusions. Keep cardinal multiplicity, effective inverse information, dynamical uniformity and quantitative information bounds separate.
