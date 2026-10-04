@@ -6,9 +6,9 @@ This repository is the authoritative research record for a five-phase programme 
 
 **PHASE 2 — DISCOVERY — IS OPEN.**
 
-Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 built the provisional portfolio; P2-S002 resolved CAND-02 formulation task E2; P2-S003 has now resolved CAND-01 formulation task E1 while retaining its exact finite-fibre shape unchanged. The portfolio remains three provisional directions and three rejected shapes. No final candidate is selected and Fairfax-Ball Randomness is not defined. Gate 2 has not been reviewed; Phases 3–5 remain CLOSED.
+Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 built the provisional portfolio; P2-S002 resolved CAND-02/E2; P2-S003 resolved CAND-01/E1; and P2-S004 has now resolved CAND-03/E3 while retaining its universal-lowness/global-uniform-family shape unchanged. The portfolio remains three provisional directions and three rejected shapes. No final candidate is selected and Fairfax-Ball Randomness is not defined. Gate 2 has not been reviewed; Phases 3–5 remain CLOSED.
 
-Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [P2-S003 formulation alignment](phase2/P2-S003_FORMULATION_ALIGNMENT.md), [candidate index](phase2/candidates.json) and [latest close](phase2/P2-S003_CLOSE.md). The next bounded task is P2-S004, CAND-03 formulation alignment only (E3); no novelty audit or original mathematics is authorized.
+Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [P2-S004 formulation alignment](phase2/P2-S004_FORMULATION_ALIGNMENT.md), [candidate index](phase2/candidates.json) and [latest close](phase2/P2-S004_CLOSE.md). The next bounded task is P2-S005, a Gate-2 readiness audit only; no Gate-2 decision, novelty audit or original mathematics is authorized.
 
 Repository authority lives in the committed files. Start every future session with `authoritative/START_HERE.md`.
 

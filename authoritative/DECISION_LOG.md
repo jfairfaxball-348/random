@@ -64,3 +64,15 @@ On 2026-10-04, P2-S003 resolved E1 for CAND-01 without changing its predicate. C
 The catalogue comparison keeps three notions separate: THM-0037 is an existential no-randomness-from-nothing preimage theorem for a.e.-computable maps; THM-0038 gives computable-randomness invariance only for an a.e.-computable inverse pair; and THM-0035 is a Martin-Löf morphism/isomorphism result with explicit inverse data in the isomorphism case. THM-0008/THM-0039 are Martin-Löf maximality characterizations, not finite-to-one computable-randomness preservation theorems.
 
 Decision: **RETAIN_PROVISIONAL, SHAPE UNCHANGED; E1 RESOLVED.** No finite-to-one preservation theorem was searched for or asserted. This is not target selection, novelty assessment, literature-openness assessment or a Gate-2 decision. Record: `phase2/P2-S003_FORMULATION_ALIGNMENT.md`.
+
+## D-0012 — Retain CAND-03 unchanged after universal-lowness / global-family alignment
+
+On 2026-10-04, P2-S004 resolved E3 for CAND-03 without changing its predicate. CAND-03 continues to define an **oracle class**
+
+`L_u = {A : for every X in CR, X is computably random uniformly relative to A}`,
+
+using DEF-0025's globally total uniform-family convention: one total computable family is defined on every oracle input and every oracle instance is a valid martingale. A procedure that is only total/valid at the chosen oracle A is outside this formulation.
+
+THM-0024 remains a pairwise symmetric join characterization and THM-0025 remains an existential pairwise separation between uniform and ordinary relative computable randomness. Neither supplies the universal quantifier over all unrelativized computably random X required by L_u, nor a noncomputable member of L_u. The recorded Martin-Löf lowness/K-trivial/low-K equivalences and the base-for-randomness theorem retain their own universal-versus-existential quantifiers and cannot be transferred by relabelling. SRC-0009 Theorem 5.7 remains a contrast about ordinary computable-randomness lowness only.
+
+Decision: **RETAIN_PROVISIONAL AS AUXILIARY, SHAPE UNCHANGED; E3 RESOLVED.** Future promotion requires an intrinsic oracle characterization independent of the defining preservation clause plus a concrete randomness/product-information consequence; mere renaming of a known lowness property is a falsifier. No noncomputable low oracle, novelty, openness, equivalence or separation is asserted. Record: `phase2/P2-S004_FORMULATION_ALIGNMENT.md`.

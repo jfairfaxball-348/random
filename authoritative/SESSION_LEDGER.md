@@ -458,3 +458,27 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P2-S004`, CAND-03 formulation alignment only (E3).
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+## P2-S004 — CAND-03 formulation alignment (E3)
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `6b5bcc046cd1bd74dda33569565d593db9ba567d`, matching live main exactly. Repository search found no P2-S004 session record; incoming mentions were forward recommendations only.
+
+Scope completed: one bounded formulation-alignment pass on CAND-03 only. The catalogue was sufficient; no external source passage was reopened. The candidate's universal lowness quantifier was aligned against DEF-0025 / SRC-0032's globally total uniform-family convention, THM-0024/THM-0025's pairwise quantifiers, and the recorded Martin-Löf lowness/K-trivial/low-K and base-for-randomness records.
+
+Result: CAND-03 remains **RETAIN_PROVISIONAL** as an auxiliary direction, shape unchanged, E3 resolved. The fixed-oracle class L_u retains the requirement that every unrelativized computably random X remain uniformly computably random relative to A. A uniform family must be total and valid on every oracle instance; A-only totality is excluded. Pairwise separation does not supply universal lowness or a noncomputable low oracle.
+
+Independent value criterion: future promotion requires an intrinsic characterization of L_u independent of its defining universal preservation clause and a concrete consequence for randomness or product information. An established lowness class with no additional explanatory consequence, a routine reduction to ordinary computable lowness, or mere renaming remains a falsifier.
+
+Catalogue synchronization: none required. No source, definition, theorem or relation record changed; DEF-0020 and all Phase-1 evidence/convention guards remain unchanged.
+
+Discovery record: `phase2/P2-S004_FORMULATION_ALIGNMENT.md`. Close: `phase2/P2-S004_CLOSE.md`. Validation: `phase2/P2-S004_VALIDATION.md`. Durable decision: D-0012. Meaningful formulation guard: FL-038.
+
+No final candidate selected; Fairfax-Ball Randomness not defined; no lowness/traceability prior-art survey, equivalent-definition search, witness construction, new implication proof, novelty/prior-art audit, novelty claim, original proof work, experiments, Lean/Palomar, publication preparation or outreach. CAND-01 and CAND-02 were not expanded. Gate 1 remains PASS; Phase 1 COMPLETED for gate purposes; Phase 2 OPEN; Gate 2 CLOSED / NOT REVIEWED; Phases 3–5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P2-S005`, Gate-2 readiness audit only (not a Gate-2 review).
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P2-S003",
+  "last_updated_session": "P2-S004",
   "status": "DISCOVERY_ONLY",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -209,9 +209,7 @@
         "THM-0025 supplies an existential pair only, not a noncomputable member of L_u",
         "SRC-0009 Theorem 5.7 is a statement-inspected source-record contrast, not a separate THM node"
       ],
-      "formulation_tasks": [
-        "E3"
-      ],
+      "formulation_tasks": [],
       "source_ids": [
         "SRC-0032",
         "SRC-0009",
@@ -245,12 +243,26 @@
         "COV-0009"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P2-S001",
-      "record_path": "phase2/P2-S001_DISCOVERY.md",
+      "last_reviewed_in": "P2-S004",
+      "record_path": "phase2/P2-S004_FORMULATION_ALIGNMENT.md",
       "novelty_status": "NOT_ASSESSED",
       "literature_status": "NOT_ASSESSED",
       "original_proof_work_performed": false,
-      "final_candidate_selected": false
+      "final_candidate_selected": false,
+      "resolved_formulation_tasks": [
+        "E3"
+      ],
+      "formulation_disposition": "RETAIN_UNCHANGED_AFTER_ALIGNMENT",
+      "formulation_alignment": {
+        "session": "P2-S004",
+        "universal_lowness_scope": "CAND-03 keeps L_u = {A : for every unrelativized computably random X, X is computably random uniformly relative to A}. This is a universal preservation condition over all X in CR for a fixed oracle A; a single pairwise ordinary/uniform separation does not witness membership in L_u.",
+        "uniform_family_scope": "DEF-0025 / SRC-0032 use a total computable map coding a uniform family whose every oracle instance is a valid martingale. The candidate keeps that global all-oracle totality/validity convention. A procedure total or valid only at the chosen A is excluded.",
+        "pairwise_guard": "THM-0024 is a symmetric pairwise join characterization and THM-0025 is an existential pairwise separation. Neither theorem has the universal lowness quantifier over every unrelativized computably random X, and neither supplies a noncomputable member of L_u.",
+        "lowness_base_guard": "DEF-0007 is universal lowness for ordinary oracle-relative Martin-Löf randomness; DEF-0009 is existential baseness. THM-0003/THM-0069/THM-0070 and THM-0004 connect those ML/K notions under their recorded hypotheses only. SRC-0009 Theorem 5.7 is retained as a contrast about ordinary computable-randomness lowness, not transferred to the DEF-0025 uniform-family setting.",
+        "independent_value_criterion": "Future promotion requires an intrinsic computability-theoretic characterization of L_u that is independent of merely restating the universal preservation clause, together with a concrete consequence for randomness or product/information behaviour. Mere renaming of an established lowness class, a routine reduction to ordinary computable lowness, or no meaningful randomness consequence is a falsifier.",
+        "evidence": "The committed catalogue was sufficient. DEF-0025/SRC-0032/THM-0024/THM-0025 and the recorded lowness/base definitions and theorems are already STATEMENT_INSPECTED at the relevant scope. No source passage was reopened and no access level or catalogue record changed.",
+        "conclusion": "The recorded anchors do not dispose of the exact CAND-03 formulation. Retain it provisionally as an auxiliary direction with shape unchanged and mark E3 resolved. This is not evidence of novelty, openness, a noncomputable low oracle, equivalence to K-triviality, collapse to computable oracles or mathematical nontriviality."
+      }
     },
     {
       "id": "CAND-04",
@@ -419,6 +431,6 @@
       ]
     }
   ],
-  "recommended_next_session": "P2-S004",
-  "recommended_next_scope": "CAND-03 formulation alignment only (E3): align universal lowness quantifiers and globally-total uniform-family coding against the exact recorded uniform-relativization and lowness/base conventions; no novelty audit, proof search or Gate-2 review."
+  "recommended_next_session": "P2-S005",
+  "recommended_next_scope": "Gate-2 readiness audit only: check the existing six-candidate Discovery record, especially the three retained candidates with E1-E3 resolved, against the Gate-2 minimum-evidence fields; do not conduct the Gate-2 review, novelty/prior-art work, proof search or candidate selection."
 }

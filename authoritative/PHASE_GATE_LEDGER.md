@@ -92,3 +92,11 @@ P2-S003 resolved CAND-01 formulation task E1. The candidate remains **RETAIN_PRO
 The catalogue was sufficient: THM-0037 supplies existential random preimages under a.e.-computable maps, THM-0038 supplies computable-randomness invariance only under an a.e.-computable inverse pair, and THM-0035 supplies the corresponding Martin-Löf morphism/isomorphism framework. THM-0008 and THM-0039 remain Martin-Löf maximality results. None was promoted into a finite-to-one computable-randomness preservation theorem.
 
 This checkpoint makes no novelty, literature-openness, equivalence, separation or finite-to-one preservation claim and performs no Gate-2 review. The retained/rejected portfolio counts are unchanged. Gate 1 remains PASS; Phase 1 remains completed for gate purposes; Phase 2 remains OPEN; Gate 2 remains CLOSED / NOT REVIEWED; Phases 3–5 remain CLOSED. No owner/external blocker exists. Next scheduling is P2-S004 on CAND-03/E3 only.
+
+## Discovery checkpoint — P2-S004 (not a gate review)
+
+P2-S004 resolved CAND-03 formulation task E3. The candidate remains **RETAIN_PROVISIONAL** as an auxiliary structural direction, with its universal oracle-lowness predicate and globally total/valid uniform-family convention unchanged.
+
+The catalogue was sufficient. DEF-0025 / SRC-0032 require uniform martingale families to arise from a total computable map defined for every oracle instance, with every instance a valid martingale. THM-0024 is a pairwise symmetric join characterization and THM-0025 is an existential pairwise ordinary-vs-uniform separation; neither is a universal lowness theorem. DEF-0007/DEF-0009 and THM-0003/THM-0004/THM-0069/THM-0070 preserve the universal-lowness versus existential-base distinction, while SRC-0009 Theorem 5.7 remains an ordinary-computable-randomness lowness contrast.
+
+This checkpoint makes no novelty, literature-openness, equivalence, separation or noncomputable-member claim and performs no Gate-2 review. The retained/rejected portfolio counts are unchanged. Gate 1 remains PASS; Phase 1 remains completed for gate purposes; Phase 2 remains OPEN; Gate 2 remains CLOSED / NOT REVIEWED; Phases 3–5 remain CLOSED. No owner/external blocker exists. Next scheduling is P2-S005, a bounded Gate-2 readiness audit only.
