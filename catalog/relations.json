@@ -966,6 +966,36 @@
         }
       ],
       "caution": "The Martin-Löf side uses ordinary oracle-relative tests. No uniform-relative Schnorr/computable lowness edge is imported."
+    },
+    {
+      "id": "REL-0060",
+      "type": "PROPERTY_FAILS",
+      "from": "DEF-0004",
+      "to": "property:conservation-under-all-ae-computable-measure-preserving-endomorphisms",
+      "statement": "Computable randomness is not preserved under the full class of a.e.-computable measure-preserving endomorphisms of fair-coin Cantor space.",
+      "support": [
+        {
+          "source": "SRC-0060",
+          "theorem": "THM-0071",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This failure does not transfer automatically to the narrower everywhere-total globally finite-fibre class in CAND-01."
+    },
+    {
+      "id": "REL-0061",
+      "type": "PROPERTY_FAILS",
+      "from": "DEF-0004",
+      "to": "property:conservation-under-total-fair-coin-preserving-truth-table-functionals",
+      "statement": "Computable randomness is not preserved by all everywhere-total Cantor truth-table functionals that induce fair-coin measure.",
+      "support": [
+        {
+          "source": "SRC-0061",
+          "theorem": "THM-0072",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The source counterexample carries no finite/global bounded fibre hypothesis, so CAND-01's live discriminator remains unaddressed."
     }
   ]
 }
