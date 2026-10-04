@@ -26,7 +26,7 @@ Expected outputs include a bounded portfolio of candidate directions (normally s
 
 ## Phase 3 — Novelty / Prior Art
 
-**Status:** OPEN after Gate-2 PASS in P2-S006. P3-S001 and P3-S002 completed bounded primary-source attacks on CAND-01 and CAND-02 respectively; both exact predicates remain UNRESOLVED_UNDER_INSPECTED_EVIDENCE. CAND-02's closest prior art splits its target axes: nonergodic convergence-only sources use a.e./non-total operators, while total/effectively-open benchmarks located in the attack retain ergodicity and stronger structure/conclusions. CAND-03 remains unassessed in Phase 3; Gate 3 has not been reviewed.
+**Status:** OPEN after Gate-2 PASS in P2-S006. P3-S001 and P3-S002 completed bounded primary-source attacks on CAND-01 and CAND-02 respectively; both exact predicates remain UNRESOLVED_UNDER_INSPECTED_EVIDENCE. CAND-02's closest prior art splits its target axes: nonergodic convergence-only sources use a.e./non-total operators, while total/effectively-open benchmarks located in the attack retain ergodicity and stronger structure/conclusions. CAND-03 was assessed in P3-S003 and is retired as an exact definition-level rebranding of Low^star(CR,CR); the specific intrinsic characterization of that prior-art class remains unresolved under inspected evidence. Gate 3 has not been reviewed.
 
 **Purpose:** try hard to kill the candidates before expensive mathematics.
 
