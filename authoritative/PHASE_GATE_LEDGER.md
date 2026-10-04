@@ -5,7 +5,7 @@
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
 | Phase 1 -> Phase 2 | PASS | P1-S014 formally reviewed Gate 1 and passed it. Phase 1 is complete for gate purposes and Phase 2 — Discovery is OPEN. The catalogue remains bounded/non-exhaustive and residual provenance gaps remain recorded. |
 | Phase 2 -> Phase 3 | PASS | P2-S006 formally reviewed Gate 2 and passed it. Phase 2 is complete for gate purposes and Phase 3 — Novelty / Prior Art is OPEN. The PASS authorizes dedicated prior-art attack; it does not establish novelty or select a candidate. |
-| Phase 3 -> Phase 4 | CLOSED | Phase 3 is not authorized. |
+| Phase 3 -> Phase 4 | CLOSED | Phase 3 is OPEN; Gate 3 has not been reviewed and Phase 4 is not authorized. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
 
@@ -135,3 +135,13 @@ Authorization after P2-S006:
 - Phase-3 substantive work performed in P2-S006: **NO**
 
 Formal review record: `phase2/P2-S006_GATE2_REVIEW.md`.
+
+## Novelty / prior-art checkpoint — P3-S001 (not a gate review)
+
+P3-S001 performed one bounded primary-source prior-art attack on CAND-01 only. It located Rute's endomorphism-randomness framework (SRC-0060 / DEF-0064 / THM-0071) and Bienvenu-Porter's total truth-table non-conservation theorem (SRC-0061 / THM-0072).
+
+Result: **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** for the exact CAND-01 restriction. Everywhere-totality plus fair-coin preservation is already known insufficient for computable-randomness conservation, while unrestricted endomorphism preservation is already a named framework. No inspected primary source matched CAND-01's fixed global finite cardinal fibre bound with no assumed effective inverse branches.
+
+This is not an openness or novelty finding. CAND-01 remains provisional with its exact formulation unchanged; CAND-02 and CAND-03 remain unassessed in Phase 3. No final candidate is selected. Gate 3 is **NOT REVIEWED** and Phase 4 remains **CLOSED**. DEF-0020 and existing convention guards remain unchanged.
+
+Record: `phase3/P3-S001_PRIOR_ART.md`; structured finding: `PA-0001` in `phase3/prior-art.json`.
