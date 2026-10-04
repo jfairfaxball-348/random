@@ -656,3 +656,30 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P3-S006`, a comparative Phase-3 candidate-selection readiness audit over surviving CAND-01 and CAND-02 only. It must not select a candidate or review Gate 3.
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+## P3-S006 — Candidate-selection readiness audit
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `d8e017893870fac451c8d555105b9295df86d05e`, matching live `main` exactly. The incoming session ledger contained no P3-S006 heading and repository commit search found only the prior forward-scheduling mention, so P3-S006 was unique.
+
+Scope completed: one bounded comparative Phase-3 candidate-selection readiness audit over surviving CAND-01 and CAND-02 only, using committed evidence. No new external literature was required.
+
+Outcome: **READY_FOR_SELECTION_DECISION**. Both survivors have the required prior-art, alternate-terminology/equivalent-formulation, closest-known-work, rebranding-risk, significance/usefulness, community, novelty-uncertainty and future-theorem-package evidence for a separate selection/NO-GO decision.
+
+The risk asymmetry remains authoritative. CAND-01 is provisionally substantive but has no established computable-randomness consequence of bare finite multiplicity. CAND-02 is provisionally substantive with **elevated technical-slice / representation-artifact risk** because everywhere-totality may merely exclude a.e./partial witnesses.
+
+No candidate is selected. CAND-01 and CAND-02 remain `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`; CAND-03 remains retired. Gate 3 is NOT REVIEWED and Phase 4 remains CLOSED. DEF-0020 and all evidence/convention guards remain unchanged.
+
+Records: `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, `phase3/P3-S006_CLOSE.md`, `phase3/P3-S006_VALIDATION.md`. Durable decision: D-0020. Readiness/decision-separation guard: FL-046.
+
+A stale top-level metadata recommendation in `phase2/candidates.json` was reconciled to the already-committed P3-S005/P3-S006 state; no candidate formula or substantive judgment changed.
+
+No proof search, witness construction, experiment, Lean/Palomar use, broad literature survey, final candidate selection, Gate-3 review, Phase-4 work, publication work or outreach occurred.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S007`, a separate documented selection/NO-GO decision over CAND-01 and CAND-02 only. It must not combine selection with Gate-3 review.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
