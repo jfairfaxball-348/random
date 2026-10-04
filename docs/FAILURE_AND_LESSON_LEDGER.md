@@ -485,3 +485,15 @@ Resolution: do not treat `computable transformation` as a uniform totality conve
 
 Lesson: effective-Birkhoff prior-art comparisons should track at least map totality/structure, observable effectivity, ergodicity and exact conclusion strength, with averaging scheme added when the source changes it. Matching several axes does not settle the remaining one, and failure to find an exact match is not an openness proof.
 
+
+
+## FL-043 — Search parameterized Low-star lowness before treating a universal uniform-relative class as new
+
+Session: `P3-S003`  
+Status: PRIOR-ART TERMINOLOGY / QUANTIFIER GUARD
+
+CAND-03 survived formulation alignment because the committed pairwise anchors did not state its universal low-oracle class. A dedicated prior-art search located a broader parameterized framework that does: SRC-0064 defines `Low^star(C,D)` using the same universal preservation pattern and a total uniform-test procedure across all oracle instances. Instantiating C=D=computable randomness, with DEF-0025 providing the exact martingale-family realization, reproduces CAND-03 at the definition level.
+
+Resolution: retire CAND-03 as a candidate for a new named notion, while keeping the specific characterization of `Low^star(CR,CR)` unresolved under the inspected evidence. Keep ordinary `Low(CR,CR)`, pairwise uniform relativity and existential baseness separate.
+
+Lesson: when a candidate is a universal lowness predicate, search not only its object-level randomness terminology but also **parameterized lowness schemas** such as `Low(C,D)` and `Low^star(C,D)`. Pairwise sources can fail to dispose of a candidate even though a higher-level universal schema already names it.
