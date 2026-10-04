@@ -7,3 +7,7 @@ P3-S001 completed the first bounded primary-source prior-art attack, on CAND-01 
 This is not an openness or novelty finding. No candidate is selected and Fairfax-Ball Randomness is not defined.
 
 Structured prior-art findings are in `prior-art.json`. Session records begin with `P3-S001_PRIOR_ART.md`.
+
+Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`.
+
+Next recommended session: **P3-S002**, a dedicated primary-source prior-art attack on CAND-02 only. No CAND-01 follow-on mathematics, candidate selection, Gate-3 review or Phase-4 work is authorized by that recommendation.
