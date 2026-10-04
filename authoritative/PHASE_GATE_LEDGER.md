@@ -156,3 +156,16 @@ This is not an openness or novelty finding. CAND-02 remains provisional with its
 
 Record: `phase3/P3-S002_PRIOR_ART.md`; structured finding: `PA-0002` in `phase3/prior-art.json`.
 
+
+
+## Novelty / prior-art checkpoint — P3-S003 (not a gate review)
+
+P3-S003 performed one bounded primary-source prior-art attack on CAND-03 only. It located Kihara–Miyabe's parameterized uniform-lowness framework (SRC-0064 / DEF-0065), which defines `Low^star(C,D)` by universal preservation of C-randoms under uniform D-relativization using total all-oracle test procedures.
+
+Result: **EQUIVALENT_OR_REBRANDED at the definition level**. With C=D=computable randomness and SRC-0032 / DEF-0025 providing the exact globally total valid uniform-martingale convention, CAND-03 is the `Low^star(CR,CR)` instance. CAND-03 is therefore retired as a candidate for a new named notion.
+
+The specific intrinsic characterization of `Low^star(CR,CR)` remains unresolved under the inspected evidence; no openness is inferred. Ordinary low-for-computable-randomness (SRC-0009 / THM-0075), pairwise uniform relativity and existential baseness remain separate.
+
+CAND-01 and CAND-02 retain their prior dispositions. No final candidate is selected. Gate 3 is **NOT REVIEWED** and Phase 4 remains **CLOSED**. DEF-0020 and existing convention guards remain unchanged.
+
+Record: `phase3/P3-S003_PRIOR_ART.md`; structured finding: `PA-0003`.
