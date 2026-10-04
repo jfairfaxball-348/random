@@ -3746,6 +3746,132 @@
         "The source's success convention is lim_n f(X↾n)=∞, and it explicitly states that X is Martin-Löf random iff no c.e. martingale succeeds on X.",
         "The ordinary Solovay-test condition here requires only a finite/bounded Kraft sum; it does not require the total sum to be a computable real."
       ]
+    },
+    {
+      "id": "SRC-0060",
+      "title": "Computable randomness and betting for computable probability spaces",
+      "authors": [
+        "Jason Rute"
+      ],
+      "author_ids": [
+        "AUT-0015"
+      ],
+      "year": 2016,
+      "source_type": "journal_article",
+      "doi": "10.1002/malq.201200089",
+      "arxiv": "1203.5535",
+      "stable_locator": "https://doi.org/10.1002/malq.201200089",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "computable-randomness",
+        "computable-probability-spaces",
+        "endomorphism-randomness",
+        "measure-preserving-maps",
+        "randomness-conservation"
+      ],
+      "aliases_search_terms": [
+        "endomorphism randomness",
+        "endomorphism random",
+        "computable randomness morphism",
+        "computable randomness endomorphism",
+        "randomness preserved endomorphism"
+      ],
+      "definitions": [
+        "DEF-0064"
+      ],
+      "theorems": [
+        "THM-0071"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source introducing endomorphism randomness and explicitly showing that computable randomness is not preserved by unrestricted a.e.-computable measure-preserving endomorphisms.",
+      "notes": "Published as Mathematical Logic Quarterly 62(4-5) (2016), 335-366. P3-S001 statement-inspected arXiv:1203.5535v4 at the morphism definition, Definition 10.1, Proposition 10.2, Theorem 10.4 and Corollary 10.7. This source supplies the closest named preservation framework found for CAND-01, but its morphisms are a.e.-computable and no finite-fibre bound is imposed. It does not settle the exact everywhere-total globally k-to-one candidate.",
+      "inspected_material": [
+        "Wiley publication metadata/abstract",
+        "arXiv:1203.5535v4 full HTML statements",
+        "morphism definition in Section 7",
+        "Definition 10.1 and Proposition 10.2",
+        "Theorem 10.4 and Corollary 10.7"
+      ],
+      "pointers": [
+        "Section 7 morphism definition: a.e.-computable and measure-preserving",
+        "Definition 10.1: endomorphism randomness",
+        "Proposition 10.2: atomless-space morphism characterization",
+        "Corollary 10.7: computable randomness is not preserved by endomorphisms"
+      ],
+      "cross_links": [
+        "SRC-0011",
+        "SRC-0015",
+        "SRC-0061"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Primary prior art for the unrestricted endomorphism-preservation formulation surrounding CAND-01.",
+      "inspected_claims": [
+        "A morphism is an a.e.-computable measure-preserving map; an endomorphism is a morphism from a computable probability space to itself.",
+        "Endomorphism randomness requires T(x) to be computably random for every endomorphism T.",
+        "On atomless computable probability spaces, endomorphism randomness can equivalently be phrased using all morphisms into fair-coin Cantor space.",
+        "Computable randomness is not preserved by unrestricted endomorphisms.",
+        "No global finite-cardinality fibre bound or effective inverse-branch requirement appears in the inspected endomorphism-randomness definition."
+      ]
+    },
+    {
+      "id": "SRC-0061",
+      "title": "Strong reductions in effective randomness",
+      "authors": [
+        "Laurent Bienvenu",
+        "Christopher P. Porter"
+      ],
+      "author_ids": [
+        "AUT-0039",
+        "AUT-0017"
+      ],
+      "year": 2012,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.tcs.2012.06.031",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1016/j.tcs.2012.06.031",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "computable-randomness",
+        "truth-table-reductions",
+        "computable-measures",
+        "randomness-conservation",
+        "cantor-space"
+      ],
+      "aliases_search_terms": [
+        "truth-table functional computable randomness preservation",
+        "total Turing functional computable randomness",
+        "strong reductions effective randomness",
+        "tt reduction randomness conservation"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0072"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source giving an exact everywhere-total Cantor-functional counterexample to computable-randomness conservation while preserving fair-coin measure.",
+      "notes": "Published in Theoretical Computer Science 459 (2012), 55-68. P3-S001 statement-inspected the author-hosted full paper. Definition 2.4 identifies truth-table functionals with total Turing functionals. Theorem 4.2 gives a tt-functional that fails computable-randomness preservation and can be chosen to induce Lebesgue/fair-coin measure. The theorem does not state any finite or bounded fibre property.",
+      "inspected_material": [
+        "ScienceDirect publication metadata/abstract",
+        "author-hosted full paper",
+        "Definition 2.4",
+        "Theorem 4.2 and surrounding proof discussion"
+      ],
+      "pointers": [
+        "Definition 2.4: truth-table functional iff total",
+        "Theorem 4.2: total tt-reduction failing computable-randomness preservation, with an example inducing Lebesgue measure"
+      ],
+      "cross_links": [
+        "SRC-0060",
+        "SRC-0015"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Primary prior art eliminating everywhere-totality plus fair-coin preservation alone as sufficient for CAND-01 while leaving its bounded-fibre restriction unresolved.",
+      "inspected_claims": [
+        "In the paper's Cantor-space convention, a truth-table functional is a total Turing functional.",
+        "There exists a truth-table functional Phi and a computably random x such that Phi(x) is not computably random for the induced measure.",
+        "The counterexample can be chosen so that Phi induces the Lebesgue/fair-coin measure.",
+        "The theorem supplies no global finite-cardinality fibre bound and assumes no effective inverse branches."
+      ]
     }
   ]
 }
