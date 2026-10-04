@@ -996,6 +996,36 @@
         }
       ],
       "caution": "The source counterexample carries no finite/global bounded fibre hypothesis, so CAND-01's live discriminator remains unaddressed."
+    },
+    {
+      "id": "REL-0062",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0029",
+      "to": "property:nonergodic-birkhoff-convergence-lower-semicomputable-observables",
+      "statement": "In the fair-coin specialization of SRC-0062, Oberwolfach randomness suffices for convergence of Birkhoff averages for nonnegative integrable lower-semicomputable observables under computable measure-preserving operators.",
+      "support": [
+        {
+          "source": "SRC-0062",
+          "theorem": "THM-0073",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The operator is explicitly not assumed total and the theorem is one-way; it does not characterize CAND-02."
+    },
+    {
+      "id": "REL-0063",
+      "type": "PROPERTY_HOLDS",
+      "from": "DEF-0005",
+      "to": "property:effective-open-birkhoff-equality-under-computable-ergodic-group-actions",
+      "statement": "Martin-Löf randomness yields equality of effectively-open indicator averages with their measure for computable ergodic Cantor actions in SRC-0063's amenable-group/Folner framework.",
+      "support": [
+        {
+          "source": "SRC-0063",
+          "theorem": "THM-0074",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The result assumes ergodicity, action by automorphisms and a Folner averaging scheme; it is not CAND-02's nonergodic convergence-only arbitrary-self-map predicate."
     }
   ]
 }
