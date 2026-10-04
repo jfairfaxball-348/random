@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S012",
+  "session": "P3-S004",
   "records": [
     {
       "id": "AUT-0001",
@@ -1051,6 +1051,76 @@
       ],
       "source_ids": [
         "SRC-0064"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0070",
+      "name": "Christopher Hoffman",
+      "topics": [
+        "ergodic-theory",
+        "measure-preserving-endomorphisms",
+        "finite-to-one-endomorphisms",
+        "bernoulli-shifts"
+      ],
+      "source_ids": [
+        "SRC-0065"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0071",
+      "name": "Daniel Rudolph",
+      "topics": [
+        "ergodic-theory",
+        "measure-preserving-endomorphisms",
+        "finite-to-one-endomorphisms",
+        "bernoulli-shifts"
+      ],
+      "source_ids": [
+        "SRC-0065"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0072",
+      "name": "Guangyue Han",
+      "topics": [
+        "symbolic-dynamics",
+        "factor-codes",
+        "information-theory",
+        "channel-capacity"
+      ],
+      "source_ids": [
+        "SRC-0066"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0073",
+      "name": "Brian Marcus",
+      "topics": [
+        "symbolic-dynamics",
+        "factor-codes",
+        "information-theory",
+        "channel-capacity"
+      ],
+      "source_ids": [
+        "SRC-0066"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0074",
+      "name": "Chengyu Wu",
+      "topics": [
+        "symbolic-dynamics",
+        "factor-codes",
+        "information-theory",
+        "channel-capacity"
+      ],
+      "source_ids": [
+        "SRC-0066"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }
