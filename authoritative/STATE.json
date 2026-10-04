@@ -2,11 +2,11 @@
   "schema_version": 1,
   "project": "Fairfax-Ball Randomness Research Programme",
   "repository": "jfairfaxball-348/random",
-  "programme_status": "PHASE_2_ACTIVE",
-  "active_phase": 2,
-  "active_phase_name": "Discovery",
+  "programme_status": "PHASE_3_ACTIVE",
+  "active_phase": 3,
+  "active_phase_name": "Novelty / Prior Art",
   "active_session": null,
-  "last_completed_session": "P2-S005",
+  "last_completed_session": "P2-S006",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -16,11 +16,11 @@
     },
     "2": {
       "name": "Discovery",
-      "status": "OPEN"
+      "status": "COMPLETED"
     },
     "3": {
       "name": "Novelty / Prior Art",
-      "status": "CLOSED"
+      "status": "OPEN"
     },
     "4": {
       "name": "Mathematics",
@@ -31,7 +31,7 @@
       "status": "CLOSED"
     }
   },
-  "current_authorization": "Phase 2 Discovery only. Gate 1 passed in P1-S014. Phases 3-5 remain closed.",
+  "current_authorization": "Phase 3 Novelty / Prior Art only. Gate 2 passed in P2-S006. Phases 4-5 remain closed.",
   "phase1_gate_status": "PASS",
   "phase1_coverage": {
     "coverage_records": 19,
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 66
   },
-  "next_transition": "Run separate formal Gate-2 review P2-S006. P2-S005 recorded READY_FOR_FORMAL_GATE2_REVIEW only; Gate 2 has not been reviewed or passed and Phase 3 remains closed.",
-  "recommended_next_session": "P2-S006",
+  "next_transition": "Run P3-S001: bounded primary-source prior-art audit on CAND-01 only; no original mathematics, final candidate selection or Phase-4 work.",
+  "recommended_next_session": "P3-S001",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
@@ -81,12 +81,12 @@
     "phase2_opened": true,
     "phase2_work_performed_in_review_session": false
   },
-  "phase2_gate_status": "CLOSED_READY_FOR_REVIEW",
+  "phase2_gate_status": "PASS",
   "phase2_discovery": {
-    "last_session": "P2-S005",
+    "last_session": "P2-S006",
     "discovery_record": "phase2/P2-S001_DISCOVERY.md",
     "candidate_index": "phase2/candidates.json",
-    "close_record": "phase2/P2-S005_CLOSE.md",
+    "close_record": "phase2/P2-S006_CLOSE.md",
     "seriously_considered": 6,
     "retained_provisionally": [
       "CAND-01",
@@ -105,7 +105,7 @@
     "phase1_catalogue_unchanged": false,
     "next_formulation_task": null,
     "latest_alignment_record": "phase2/P2-S004_FORMULATION_ALIGNMENT.md",
-    "latest_close_record": "phase2/P2-S005_CLOSE.md",
+    "latest_close_record": "phase2/P2-S006_CLOSE.md",
     "cand02_formulation_disposition": "RETAIN_UNCHANGED_AFTER_ALIGNMENT",
     "resolved_formulation_task": "E3",
     "catalogue_change_scope": "No catalogue records changed in P2-S004. E3 was resolved from existing statement-inspected DEF-0025/SRC-0032/THM-0024/THM-0025 and the recorded lowness/base package; DEF-0020 and all Phase-1 guards remain untouched.",
@@ -115,7 +115,7 @@
       "E1",
       "E3"
     ],
-    "next_discovery_task": "P2-S006: formal Gate-2 review only; no Phase-3 novelty/prior-art work in the review session",
+    "next_discovery_task": null,
     "cand03_formulation_disposition": "RETAIN_UNCHANGED_AFTER_ALIGNMENT_AUXILIARY",
     "all_formulation_tasks_resolved": true,
     "gate2_readiness_audit": {
@@ -123,8 +123,8 @@
       "result": "READY_FOR_FORMAL_GATE2_REVIEW",
       "audit_record": "phase2/P2-S005_GATE2_READINESS_AUDIT.md",
       "validation_record": "phase2/P2-S005_VALIDATION.md",
-      "formal_gate2_review_required": true,
-      "gate2_review_performed": false,
+      "formal_gate2_review_required": false,
+      "gate2_review_performed": true,
       "retained_candidates_audited": [
         "CAND-01",
         "CAND-02",
@@ -138,7 +138,32 @@
       "all_formulation_tasks_resolved": true,
       "novelty_assessment_performed": false,
       "original_proof_work_performed": false,
-      "external_literature_retrieval_performed": false
+      "external_literature_retrieval_performed": false,
+      "formal_gate2_review_completed_in": "P2-S006"
     }
+  },
+  "phase2_gate_review": {
+    "session": "P2-S006",
+    "outcome": "PASS",
+    "reviewed_on": "2026-10-04",
+    "review_record": "phase2/P2-S006_GATE2_REVIEW.md",
+    "close_record": "phase2/P2-S006_CLOSE.md",
+    "validation_record": "phase2/P2-S006_VALIDATION.md",
+    "bounded_portfolio_confirmed": true,
+    "candidates_mature_for_prior_art_attack": [
+      "CAND-01",
+      "CAND-02",
+      "CAND-03"
+    ],
+    "rejected_shapes_preserved": [
+      "CAND-04",
+      "CAND-05",
+      "CAND-06"
+    ],
+    "all_formulation_tasks_resolved": true,
+    "phase3_opened": true,
+    "phase3_work_performed_in_review_session": false,
+    "novelty_assessment_performed": false,
+    "candidate_selected": false
   }
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P2-S005",
-  "status": "DISCOVERY_ONLY",
+  "last_updated_session": "P2-S006",
+  "status": "DISCOVERY_COMPLETE_GATE2_PASS",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
     "REJECT_CATALOGUED_CHARACTERIZATION",
@@ -25,7 +25,7 @@
   ],
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
-  "gate2_review_performed": false,
+  "gate2_review_performed": true,
   "record_authority": "Exact formulas, quantifier guards and full dispositions are in phase2/P2-S001_DISCOVERY.md. These are programme questions, not additions to the source-derived Phase-1 catalogue.",
   "records": [
     {
@@ -431,8 +431,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P2-S006",
-  "recommended_next_scope": "Formal Gate-2 review only: independently review the committed Discovery portfolio against docs/GATE_POLICY.md and record PASS, FAIL or BACKTRACK; do not perform Phase-3 novelty/prior-art work, candidate selection or original mathematics in the same session.",
+  "recommended_next_session": "P3-S001",
+  "recommended_next_scope": "Phase-3 primary-source prior-art attack on CAND-01 only: search alternate terminology/equivalent formulations and closest known results for its exact total-map/global-finite-fibre computable-randomness preservation shape; no original mathematics, final candidate selection or Phase-4 work.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
@@ -454,6 +454,32 @@
     ],
     "novelty_assessment_performed": false,
     "literature_prior_art_search_performed": false,
-    "formal_gate2_review_required": true
+    "formal_gate2_review_required": false,
+    "formal_gate2_review_completed_in": "P2-S006"
+  },
+  "gate2_review": {
+    "session": "P2-S006",
+    "outcome": "PASS",
+    "review_record": "phase2/P2-S006_GATE2_REVIEW.md",
+    "close_record": "phase2/P2-S006_CLOSE.md",
+    "candidates_mature_for_prior_art_attack": [
+      "CAND-01",
+      "CAND-02",
+      "CAND-03"
+    ],
+    "rejected_shapes_preserved": [
+      "CAND-04",
+      "CAND-05",
+      "CAND-06"
+    ],
+    "resolved_formulation_tasks": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "novelty_assessment_performed": false,
+    "literature_prior_art_search_performed": false,
+    "final_candidate_selected": false,
+    "phase3_opened": true
   }
 }

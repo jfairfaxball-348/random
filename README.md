@@ -4,11 +4,13 @@ This repository is the authoritative research record for a five-phase programme 
 
 ## Current state
 
-**PHASE 2 — DISCOVERY — IS OPEN.**
+**PHASE 3 — NOVELTY / PRIOR ART — IS OPEN.**
 
-Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 built the six-candidate portfolio; P2-S002 through P2-S004 resolved E2, E1 and E3 while retaining CAND-01, CAND-02 and CAND-03 provisionally in their recorded shapes. P2-S005 has now completed a bounded Gate-2 readiness audit and recorded **READY_FOR_FORMAL_GATE2_REVIEW**. This is not Gate-2 PASS: Gate 2 has not been formally reviewed, Phase 3 remains CLOSED, no final candidate is selected and Fairfax-Ball Randomness is not defined.
+Gate 1 passed in P1-S014 and Gate 2 passed in P2-S006. Phase 1 and Phase 2 are complete for gate purposes. The Phase-1 catalogue remains bounded/non-exhaustive with all recorded provenance and access cautions preserved.
 
-Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [P2-S005 readiness audit](phase2/P2-S005_GATE2_READINESS_AUDIT.md), [candidate index](phase2/candidates.json) and [latest close](phase2/P2-S005_CLOSE.md). The next bounded task is P2-S006, a separate formal Gate-2 review only; no Phase-3 novelty/prior-art work or original mathematics is authorized in that review session.
+The committed Discovery portfolio remains six stable candidates: CAND-01, CAND-02 and CAND-03 are retained provisionally and are now authorized for dedicated prior-art attack; CAND-04, CAND-05 and CAND-06 remain rejected in their recorded shapes. E1–E3 remain resolved. Gate-2 PASS does **not** establish novelty, openness, separation, nontriviality, a final candidate or Fairfax-Ball Randomness.
+
+Read the [formal Gate-2 review](phase2/P2-S006_GATE2_REVIEW.md), [candidate index](phase2/candidates.json) and [P2-S006 close](phase2/P2-S006_CLOSE.md). The next bounded task is P3-S001, a primary-source prior-art attack on CAND-01 only. No Phase-4 original mathematics, Lean/Palomar work, final candidate selection or publication work is authorized.
 
 Repository authority lives in the committed files. Start every future session with `authoritative/START_HERE.md`.
 
