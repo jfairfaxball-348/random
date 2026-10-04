@@ -26,7 +26,7 @@ Expected outputs include a bounded portfolio of candidate directions (normally s
 
 ## Phase 3 — Novelty / Prior Art
 
-**Status:** OPEN after Gate-2 PASS in P2-S006. P3-S001 completed the first bounded primary-source attack on CAND-01 and left its exact globally finite-fibre preservation status UNRESOLVED_UNDER_INSPECTED_EVIDENCE, while locating substantial overlap with endomorphism randomness and a total fair-coin-preserving non-conservation theorem. CAND-02 and CAND-03 remain unassessed in Phase 3; Gate 3 has not been reviewed.
+**Status:** OPEN after Gate-2 PASS in P2-S006. P3-S001 and P3-S002 completed bounded primary-source attacks on CAND-01 and CAND-02 respectively; both exact predicates remain UNRESOLVED_UNDER_INSPECTED_EVIDENCE. CAND-02's closest prior art splits its target axes: nonergodic convergence-only sources use a.e./non-total operators, while total/effectively-open benchmarks located in the attack retain ergodicity and stronger structure/conclusions. CAND-03 remains unassessed in Phase 3; Gate 3 has not been reviewed.
 
 **Purpose:** try hard to kill the candidates before expensive mathematics.
 
