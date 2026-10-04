@@ -162,3 +162,20 @@ The live significance risk is also explicit: no inspected evidence shows that CA
 CAND-02 remains `RETAIN_PROVISIONAL`; its exact formula and E2 alignment are unchanged. CAND-01 is not re-assessed, retired CAND-03 stays retired, no final candidate is selected, Gate 3 is not reviewed and Phase 4 remains closed.
 
 Record: `phase3/P3-S005_SIGNIFICANCE.md`.
+
+## D-0020 — Phase-3 evidence is ready for a separate candidate-selection decision
+
+On 2026-10-04, P3-S006 audited the committed Phase-3 evidence for surviving CAND-01 and CAND-02 against the preconditions needed for a later documented selection/NO-GO decision and eventual Gate-3 review.
+
+Decision: **READY_FOR_SELECTION_DECISION**.
+
+Both survivors have a dedicated primary-source prior-art attack, alternate-terminology/equivalent-formulation coverage, an explicit closest-known-work account, calibrated equivalence/rebranding risk, a significance/usefulness assessment, plausible interested communities, explicit remaining novelty uncertainty and a concrete future theorem package. No targeted Phase-3 evidence category is missing before selection.
+
+The asymmetry is preserved rather than averaged away. CAND-01's finite-multiplicity axis is provisionally substantive but has no established computable-randomness consequence. CAND-02's effective-observation/nonergodic axis is provisionally substantive but carries **elevated technical-slice risk** because everywhere-totality may only exclude a.e./partial witness representations.
+
+This readiness decision is **not** a candidate selection, a novelty finding or a Gate-3 PASS. CAND-01 and CAND-02 remain `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`; CAND-03 remains retired. Gate 3 remains unreviewed and Phase 4 remains closed.
+
+Next action: P3-S007 must make a separate documented choice among selecting CAND-01, selecting CAND-02, or NO-GO for both survivors. It must not combine selection with the formal Gate-3 review.
+
+Record: `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`.
+
