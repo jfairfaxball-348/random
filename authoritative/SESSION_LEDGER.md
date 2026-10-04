@@ -363,3 +363,32 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains CLOSED but is R
 Recommended next bounded session: `P1-S014`, a formal Phase-1/Gate-1 review that may record PASS / FAIL / BACKTRACK under `docs/GATE_POLICY.md` but must not perform Phase-2 discovery in the same session.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+
+## P1-S014 — Formal Gate-1 Research/Catalogue -> Discovery review
+
+Status: COMPLETED
+
+Incoming checkpoint: `d643a658297841c25bbea5f0b652a203723adb87`
+
+Scope completed: formal Gate-1 review only. The committed Phase-1 library was independently checked against every minimum-evidence item in `docs/GATE_POLICY.md`; the P1-S013 readiness disposition was critically reviewed rather than mechanically accepted. No Phase-2 discovery or other later-phase substantive work was performed.
+
+Formal Gate-1 outcome: **PASS**.
+
+Review finding: the catalogue is fit to support bounded Discovery while remaining explicitly non-exhaustive. Residual original-source/provenance gaps remain recorded and nonblocking. Abstract-level KL and constructive-dimension records remain discovery-time cautions that require source upgrades before exact Phase-2 reliance. COV-0016 remains deliberately bounded.
+
+Validation at review/close: all catalogue JSON parses; 59 sources, 63 definitions, 70 theorems, 59 relations, 1 question, 66 authors and 19 coverage records; stable-ID syntax/uniqueness and count/list agreement pass; zero unresolved stable-ID references; all 19 P1-S013 audit dispositions remain present and coherent; `DEF-0020` and convention-sensitive catalogue records remain unchanged.
+
+Review record: `phase1/P1-S014_GATE1_REVIEW.md`
+
+Close record: `phase1/P1-S014_CLOSE.md`
+
+Authority after close: Phase 1 **COMPLETED**; Phase 2 — Discovery **OPEN**; Phases 3–5 **CLOSED**. No candidate has been selected and no Fairfax-Ball definition has been created.
+
+Meaningful review lesson: FL-031.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: `P2-S001`, the first bounded Discovery session. It must build a limited candidate-direction portfolio from the committed catalogue without conducting a dedicated novelty/prior-art audit, making novelty claims, or beginning Phase-3 work.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
