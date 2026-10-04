@@ -2198,6 +2198,35 @@
         "No finite-to-one or uniformly bounded fibre hypothesis is part of the definition.",
         "Do not identify this notion with CAND-01's restricted R_fin predicate."
       ]
+    },
+    {
+      "id": "DEF-0065",
+      "name": "Uniform lowness class Low^star(C,D)",
+      "object_domain": "oracle/set A, parameterized by randomness notions C and D",
+      "effective_resources": "unrelativized C-random inputs and total uniform D-tests relative to the oracle",
+      "framework": "lowness / uniform relativization",
+      "measure_assumptions": "as fixed by the underlying randomness notions; the CAND-03 instance is fair-coin Cantor-space computable randomness",
+      "relativization": "Uniform. A uniform D-test is supplied by one total computable procedure over the full oracle space, producing a valid D-test at every oracle instance. For D=computable randomness, CAND-03 uses the exact martingale-family convention DEF-0025.",
+      "aliases": [
+        "Low-star(C,D)",
+        "Low^star(C,D)",
+        "uniform lowness"
+      ],
+      "formal_summary": "An oracle A is in Low^star(C,D) iff every unrelativized C-random real is D-random uniformly relative to A. Consequently, with C=D=computable randomness and uniform computable randomness interpreted by DEF-0025, CAND-03's L_u is exactly the Low^star(CR,CR) instance.",
+      "equivalent_characterizations": [],
+      "relationships": [],
+      "source_support": [
+        {
+          "source": "SRC-0064",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "abstract: definition of uniform C-test and Low^star(C,D)"
+        }
+      ],
+      "cautions": [
+        "This is a parameterized schema, not a characterization of every instance.",
+        "The identification of CAND-03 with Low^star(CR,CR) is definition-level. No intrinsic characterization of that specific instance is asserted by SRC-0064 in the passages inspected.",
+        "Do not replace uniform relativization by ordinary oracle-relative computable randomness; ordinary Low(CR,CR) has a different resource convention."
+      ]
     }
   ]
 }
