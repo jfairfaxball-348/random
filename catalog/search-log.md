@@ -500,3 +500,27 @@ A terminology hazard was confirmed: some primary sources use "computable transfo
 
 This is a bounded search-status conclusion, not an assertion that the question is open, novel or publishable. No theorem, implication or witness was derived as original mathematics.
 
+
+
+## P3-S003 — 2026-10-04 — CAND-03 primary-source prior-art attack
+
+Scope: one bounded Phase-3 prior-art attack on CAND-03 only. Exact target: `L_u = {A : for every X in CR, X is UCR^A}`, where DEF-0025 requires one total computable uniform martingale family valid at every oracle instance.
+
+### Primary sources located / inspected
+
+- **SRC-0064 — Kihara and Miyabe, _Unified characterizations of lowness properties via Kolmogorov complexity_ (2015).** The primary author-hosted paper and authors' publication material define a uniform C-test as a total computable procedure producing a valid C-test for each oracle, then define `Low^star(C,D)` as the oracles A such that every C-random is uniformly D-random relative to A. This gives an exact definition-level schema match for CAND-03 at C=D=CR, with DEF-0025 supplying the computable-randomness uniform-test realization.
+- **SRC-0032 — Miyabe and Rute (2013).** Retained as the exact all-oracle totality/validity anchor for uniform martingale families and the source of the pairwise ordinary/uniform distinction.
+- **SRC-0009 — Nies (2005).** The already inspected Theorem 5.7 is promoted as THM-0075 solely to guard ordinary low-for-CR from the Low-star uniform class.
+- **SRC-0010 — Hirschfeldt, Nies and Stephan (2007).** Retained only for universal-lowness versus existential-baseness discipline.
+
+### Alternate terminology / formulation queries
+
+Search vocabulary included: `low for uniformly computable randomness`, `uniform lowness computable randomness`, `Low star computable randomness`, `Low^star(C,D)`, `truth-table reducible randomness lowness`, `truth-table computable randomness low`, `uniform relativization lowness`, `uniform test lowness`, and `computable randomness low oracle uniform martingale`.
+
+The decisive terminology bridge is **Low-star(C,D)**. Pairwise uniform computable randomness also appears under **truth-table reducible randomness**, but that terminology by itself does not expose the universal lowness class.
+
+### P3-S003 disposition
+
+**EQUIVALENT_OR_REBRANDED at the definition level.** CAND-03's universal-lowness / globally-total uniform-family predicate is already the `Low^star(CR,CR)` instance of SRC-0064's parameterized framework. It is therefore retired as a candidate for a new named notion.
+
+No inspected primary statement in this bounded attack supplied an intrinsic characterization of the specific `Low^star(CR,CR)` instance. That narrower characterization question remains unresolved under inspected evidence; no openness is inferred from search absence.
