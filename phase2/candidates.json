@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P2-S006",
-  "status": "DISCOVERY_COMPLETE_GATE2_PASS",
+  "last_updated_session": "P3-S001",
+  "status": "PHASE3_PRIOR_ART_IN_PROGRESS",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
     "REJECT_CATALOGUED_CHARACTERIZATION",
@@ -56,26 +56,33 @@
       "formulation_tasks": [],
       "source_ids": [
         "SRC-0015",
-        "SRC-0011"
+        "SRC-0011",
+        "SRC-0060",
+        "SRC-0061"
       ],
       "definition_ids": [
         "DEF-0004",
         "DEF-0035",
-        "DEF-0036"
+        "DEF-0036",
+        "DEF-0064"
       ],
       "theorem_ids": [
         "THM-0035",
         "THM-0037",
         "THM-0038",
         "THM-0008",
-        "THM-0039"
+        "THM-0039",
+        "THM-0071",
+        "THM-0072"
       ],
       "relation_ids": [
         "REL-0026",
         "REL-0028",
         "REL-0029",
         "REL-0008",
-        "REL-0031"
+        "REL-0031",
+        "REL-0060",
+        "REL-0061"
       ],
       "coverage_ids": [
         "COV-0005",
@@ -83,10 +90,10 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P2-S003",
-      "record_path": "phase2/P2-S003_FORMULATION_ALIGNMENT.md",
-      "novelty_status": "NOT_ASSESSED",
-      "literature_status": "NOT_ASSESSED",
+      "last_reviewed_in": "P3-S001",
+      "record_path": "phase3/P3-S001_PRIOR_ART.md",
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": false,
       "final_candidate_selected": false,
       "resolved_formulation_tasks": [
@@ -101,6 +108,22 @@
         "maximality_guard": "THM-0008 and THM-0039 concern Martin-Löf randomness and closure under conservation plus no-randomness-from-nothing. They do not supply a finite-to-one computable-randomness preservation theorem for CAND-01.",
         "evidence": "The committed catalogue was sufficient. SRC-0011/SRC-0015 are already STATEMENT_INSPECTED and the exact hypotheses are recorded in DEF-0035/DEF-0036 and THM-0035/THM-0037/THM-0038/THM-0008/THM-0039. No source passage was reopened and no access level changed.",
         "conclusion": "The exact CAND-01 formulation is not disposed of by the recorded map/isomorphism/preimage theorems. Retain it provisionally with shape unchanged and mark E1 resolved. This is not evidence of novelty, openness, separation or nontriviality, and no finite-to-one preservation theorem is asserted."
+      },
+      "prior_art_ids": [
+        "PA-0001"
+      ],
+      "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "prior_art_summary": {
+        "session": "P3-S001",
+        "exact_shape_changed": false,
+        "closest_framework": "SRC-0060 / DEF-0064 endomorphism randomness",
+        "total_map_counterexample": "SRC-0061 / THM-0072: total truth-table fair-coin-preserving maps can destroy computable randomness without any recorded finite-fibre bound",
+        "live_discriminator": "fixed global finite cardinal fibre bound with no effective inverse branches",
+        "already_known": "NOT_ESTABLISHED",
+        "equivalent_or_rebranded": "NOT_ESTABLISHED",
+        "materially_distinct": "NOT_ESTABLISHED",
+        "openness_claimed": false,
+        "conclusion": "Exact CAND-01 status remains unresolved under the inspected primary evidence."
       }
     },
     {
@@ -431,8 +454,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P3-S001",
-  "recommended_next_scope": "Phase-3 primary-source prior-art attack on CAND-01 only: search alternate terminology/equivalent formulations and closest known results for its exact total-map/global-finite-fibre computable-randomness preservation shape; no original mathematics, final candidate selection or Phase-4 work.",
+  "recommended_next_session": "P3-S002",
+  "recommended_next_scope": "Phase-3 primary-source prior-art attack on CAND-02 only: search alternate terminology/equivalent formulations and closest known results for its everywhere-total fair-coin-preserving nonergodic dynamics with effectively-open indicator observables and convergence-only semantics; no original mathematics, final candidate selection, Gate-3 review or Phase-4 work.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
@@ -481,5 +504,20 @@
     "literature_prior_art_search_performed": false,
     "final_candidate_selected": false,
     "phase3_opened": true
+  },
+  "phase3_prior_art": {
+    "last_session": "P3-S001",
+    "structured_record": "phase3/prior-art.json",
+    "cand01": {
+      "prior_art_id": "PA-0001",
+      "disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "framework_overlap": "SUBSTANTIAL_WITH_ENDOMORPHISM_RANDOMNESS",
+      "exact_finite_fibre_match_located": false,
+      "openness_claimed": false
+    },
+    "cand02": "NOT_ASSESSED",
+    "cand03": "NOT_ASSESSED",
+    "candidate_selected": false,
+    "gate3_review_performed": false
   }
 }
