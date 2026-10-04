@@ -438,3 +438,33 @@ No external primary-source retrieval was performed in P1-S013 because the audit 
 ### Structural validation finding
 
 `coverage-plan.json` used `PARTIAL_P1_S010`, `PARTIAL_P1_S011` and `PARTIAL_P1_S012` in records while omitting them from `status_vocabulary`. P1-S013 corrected this declared-vocabulary drift without changing substantive coverage statuses.
+
+## P3-S001 — 2026-10-04 — CAND-01 primary-source prior-art attack
+
+Scope: one bounded Phase-3 prior-art attack on CAND-01 only. Exact target: forward preservation of fair-coin computable randomness under everywhere-total computable fair-coin-preserving Cantor self-maps with a fixed global cardinal bound |F^{-1}(y)|<=k for every y, with no effective inverse branches, selectors or fibre enumerations assumed.
+
+### Primary sources located / inspected
+
+- **SRC-0060 — Rute, _Computable randomness and betting for computable probability spaces_ (2016).** Statement-inspected at the a.e.-computable morphism definition, Definition 10.1, Proposition 10.2, Theorem 10.4 and Corollary 10.7. This introduces **endomorphism randomness**: preservation of computable randomness under every a.e.-computable measure-preserving self-morphism. Computable randomness is not preserved by that unrestricted endomorphism class.
+- **SRC-0061 — Bienvenu and Porter, _Strong reductions in effective randomness_ (2012).** Statement-inspected at Definition 2.4 and Theorem 4.2. A truth-table functional is total in the paper's convention; Theorem 4.2 gives a total functional that can induce fair-coin measure yet destroy computable randomness. The theorem states no finite or bounded fibre property.
+- Existing **SRC-0015 / THM-0037 / THM-0038** were retained as direction/inverse guards: THM-0037 is reverse-direction existence of a computably random preimage; THM-0038 gives forward invariance only with an explicit a.e.-computable inverse pair.
+
+### Alternate terminology / formulation queries
+
+Search vocabulary included: `endomorphism randomness`, `endomorphism random`, `stable computable randomness`, `truth-table functional computable randomness`, `total Turing functional computable randomness`, `finite-to-one computable randomness`, `finite fibre computable randomness`, `bounded-to-one computable randomness`, `k-to-one computable randomness`, `n-to-one computable randomness`, `finite-to-one endomorphism algorithmic randomness`, `uniformly p-to-one endomorphism`, and `finite-to-one factor computable randomness`.
+
+Classical ergodic/symbolic-dynamics literature uses terms such as **uniformly p-to-one endomorphism**, **finite-to-one factor** and **bounded-to-one**. The located examples concern measure-theoretic conjugacy, entropy or factor structure, not preservation of computable randomness. They are navigation vocabulary, not an exact prior-art match.
+
+### Hypothesis reconciliation
+
+1. **Everywhere totality is not the live novelty discriminator by itself.** SRC-0061 already gives a total truth-table functional inducing fair-coin measure that can destroy computable randomness.
+2. **Unrestricted endomorphism preservation is already a named prior-art framework.** SRC-0060's endomorphism randomness is structurally broader than CAND-01 because it quantifies over a.e.-computable measure-preserving endomorphisms without a finite-fibre restriction.
+3. **The global cardinal fibre bound remains unmatched in the inspected primary evidence.** Neither SRC-0060 nor SRC-0061 states `|F^{-1}(y)|<=k` or supplies an equivalent bounded-multiplicity hypothesis.
+4. **Cardinal fibres are not effective inverse data.** No selector, fibre enumeration or inverse branch is imported. THM-0038 remains stronger on inverse information.
+5. **Direction matters.** THM-0037 is no-randomness-from-nothing (random output -> existence of a random preimage), not the forward conservation required by CAND-01.
+
+### P3-S001 disposition
+
+**UNRESOLVED_UNDER_INSPECTED_EVIDENCE.** CAND-01 is not shown already known, equivalent/rebranded, or materially distinct by this bounded search. It has substantial framework overlap with known endomorphism randomness, and total fair-coin-preserving maps are already known not to conserve computable randomness in general. The exact globally bounded finite-fibre restriction remains the live point not matched by the inspected primary sources.
+
+This is not an openness claim and not novelty evidence from absence. No theorem about finite-to-one preservation or failure is inferred or proved.
