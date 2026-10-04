@@ -450,3 +450,15 @@ A candidate can be precise, motivated, related to known notions, equipped with a
 Resolution: P2-S005 records **READY_FOR_FORMAL_GATE2_REVIEW** only. Candidate-level novelty/literature fields remain NOT_ASSESSED, CAND-04–CAND-06 remain rejected exactly as recorded, and no final candidate is selected. Gate 2 remains unreviewed until a separate formal review.
 
 Lesson: keep three claims distinct in durable records: (i) a direction appears mathematically interesting enough to examine, (ii) its Discovery evidence is sufficient for gate review, and (iii) it is novel after prior-art attack. Only the first two are in scope before Phase 3, and neither entails the third.
+
+
+## FL-040 — Gate-2 PASS authorizes prior-art attack, not novelty language
+
+Session: `P2-S006`  
+Status: FORMAL REVIEW DISCIPLINE / GATE PASSED WITH NOVELTY UNASSESSED
+
+Gate 2 asks whether Discovery has produced a bounded, precise and motivated portfolio that is mature enough for a dedicated prior-art attack. It does not ask Phase 2 to settle the very novelty questions reserved for Phase 3.
+
+Resolution: P2-S006 records **PASS** because the committed portfolio satisfies every Gate-2 minimum-evidence field and at least three retained directions are search-ready. The same review preserves their high collapse/redundancy risks, CAND-02's source-copy qualification and CAND-03's broader lowness/traceability exposure. Candidate-level novelty/literature fields remain NOT_ASSESSED; no candidate is selected.
+
+Lesson: a Gate-2 PASS changes authorization, not epistemic status. Opening Phase 3 is permission to try to kill candidates with prior art, not evidence that they survived that attack.

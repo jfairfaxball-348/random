@@ -504,3 +504,26 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P2-S006`, formal Gate-2 review only.
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+
+## P2-S006 — Formal Gate-2 review
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `8590d713f145ecddb1aba0dfddfc120664cf5171`, matching live main exactly. The incoming `phase2/` directory contained records only through P2-S005 and the incoming session ledger had no P2-S006 session entry, so P2-S006 was unique.
+
+Scope completed: one formal Gate-2 review only, using committed records. No novelty/prior-art search, equivalent-definition search, proof, witness construction, experiment, original mathematics, Lean/Palomar work, candidate selection or Phase-3 substantive work was performed.
+
+Formal outcome: **PASS**. The six-candidate portfolio is bounded. CAND-01, CAND-02 and CAND-03 independently satisfy every Gate-2 minimum-evidence field; E1–E3 remain resolved. CAND-04, CAND-05 and CAND-06 remain rejected in their recorded shapes.
+
+Gate 1 remains PASS; Phase 1 and Phase 2 are COMPLETED for gate purposes; Gate 2 is PASS; Phase 3 — Novelty / Prior Art — is OPEN; Phases 4–5 remain CLOSED. Candidate-level novelty/literature status remains NOT_ASSESSED. No final candidate is selected and Fairfax-Ball Randomness is not defined.
+
+Review: `phase2/P2-S006_GATE2_REVIEW.md`. Close: `phase2/P2-S006_CLOSE.md`. Validation: `phase2/P2-S006_VALIDATION.md`. Durable decision: D-0014. Gate/novelty guard: FL-040.
+
+DEF-0020 and all Phase-1 evidence/convention guards remain unchanged. No catalogue file changed in P2-S006.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S001`, dedicated primary-source prior-art attack on CAND-01 only. No Phase-4 mathematics or final candidate selection is authorized in that session.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
