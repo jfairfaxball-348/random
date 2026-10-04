@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P2-S004",
+  "last_updated_session": "P2-S005",
   "status": "DISCOVERY_ONLY",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -431,6 +431,29 @@
       ]
     }
   ],
-  "recommended_next_session": "P2-S005",
-  "recommended_next_scope": "Gate-2 readiness audit only: check the existing six-candidate Discovery record, especially the three retained candidates with E1-E3 resolved, against the Gate-2 minimum-evidence fields; do not conduct the Gate-2 review, novelty/prior-art work, proof search or candidate selection."
+  "recommended_next_session": "P2-S006",
+  "recommended_next_scope": "Formal Gate-2 review only: independently review the committed Discovery portfolio against docs/GATE_POLICY.md and record PASS, FAIL or BACKTRACK; do not perform Phase-3 novelty/prior-art work, candidate selection or original mathematics in the same session.",
+  "gate2_readiness": {
+    "session": "P2-S005",
+    "result": "READY_FOR_FORMAL_GATE2_REVIEW",
+    "audit_record": "phase2/P2-S005_GATE2_READINESS_AUDIT.md",
+    "retained_candidate_field_audit": {
+      "CAND-01": "SATISFIED_FOR_FORMAL_REVIEW",
+      "CAND-02": "SATISFIED_FOR_FORMAL_REVIEW",
+      "CAND-03": "SATISFIED_FOR_FORMAL_REVIEW"
+    },
+    "resolved_formulation_tasks": [
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "rejected_shapes_preserved": [
+      "CAND-04",
+      "CAND-05",
+      "CAND-06"
+    ],
+    "novelty_assessment_performed": false,
+    "literature_prior_art_search_performed": false,
+    "formal_gate2_review_required": true
+  }
 }

@@ -4,7 +4,7 @@
 |---|---|---|
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
 | Phase 1 -> Phase 2 | PASS | P1-S014 formally reviewed Gate 1 and passed it. Phase 1 is complete for gate purposes and Phase 2 — Discovery is OPEN. The catalogue remains bounded/non-exhaustive and residual provenance gaps remain recorded. |
-| Phase 2 -> Phase 3 | CLOSED | P2-S001 records a provisional portfolio, with formulation tasks remaining. Gate 2 has not been reviewed or passed. Phase 3 remains CLOSED. |
+| Phase 2 -> Phase 3 | CLOSED — READY FOR REVIEW | P2-S005 records READY_FOR_FORMAL_GATE2_REVIEW after auditing the existing portfolio. This is not PASS; Gate 2 has not been formally reviewed and Phase 3 remains CLOSED. |
 | Phase 3 -> Phase 4 | CLOSED | Phase 3 is not authorized. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
@@ -100,3 +100,15 @@ P2-S004 resolved CAND-03 formulation task E3. The candidate remains **RETAIN_PRO
 The catalogue was sufficient. DEF-0025 / SRC-0032 require uniform martingale families to arise from a total computable map defined for every oracle instance, with every instance a valid martingale. THM-0024 is a pairwise symmetric join characterization and THM-0025 is an existential pairwise ordinary-vs-uniform separation; neither is a universal lowness theorem. DEF-0007/DEF-0009 and THM-0003/THM-0004/THM-0069/THM-0070 preserve the universal-lowness versus existential-base distinction, while SRC-0009 Theorem 5.7 remains an ordinary-computable-randomness lowness contrast.
 
 This checkpoint makes no novelty, literature-openness, equivalence, separation or noncomputable-member claim and performs no Gate-2 review. The retained/rejected portfolio counts are unchanged. Gate 1 remains PASS; Phase 1 remains completed for gate purposes; Phase 2 remains OPEN; Gate 2 remains CLOSED / NOT REVIEWED; Phases 3–5 remain CLOSED. No owner/external blocker exists. Next scheduling is P2-S005, a bounded Gate-2 readiness audit only.
+
+## Pre-review Gate-2 readiness status after P2-S005
+
+P2-S005 completed a bounded readiness audit against the Gate-2 minimum evidence in `docs/GATE_POLICY.md`.
+
+Result: **READY_FOR_FORMAL_GATE2_REVIEW — NO GATE DECISION**.
+
+The existing portfolio remains six stable candidates: CAND-01, CAND-02 and CAND-03 provisionally retained; CAND-04, CAND-05 and CAND-06 rejected in their recorded shapes. E1–E3 are resolved. For each retained candidate the committed record now supports review of: a precise/search-ready formulation; motivation and potential value; relationship to known concepts; a prospective theorem/characterization package; falsifiers/failure conditions; dependencies and expected difficulty; and explicit separation of “appears interesting” from “is novel”.
+
+Novelty and literature status remain **NOT_ASSESSED**. No prior-art search, equivalent-definition search, proof work, witness construction, experiment, candidate selection or later-phase work was performed. DEF-0020 and all Phase-1 evidence/convention guards remain unchanged.
+
+Gate 2 remains **CLOSED / NOT FORMALLY REVIEWED** and Phase 3 remains CLOSED. The next bounded session is P2-S006, a separate formal Gate-2 review that may record PASS, FAIL or BACKTRACK without performing Phase-3 work in the same session.

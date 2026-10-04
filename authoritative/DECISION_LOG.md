@@ -76,3 +76,11 @@ using DEF-0025's globally total uniform-family convention: one total computable 
 THM-0024 remains a pairwise symmetric join characterization and THM-0025 remains an existential pairwise separation between uniform and ordinary relative computable randomness. Neither supplies the universal quantifier over all unrelativized computably random X required by L_u, nor a noncomputable member of L_u. The recorded Martin-Löf lowness/K-trivial/low-K equivalences and the base-for-randomness theorem retain their own universal-versus-existential quantifiers and cannot be transferred by relabelling. SRC-0009 Theorem 5.7 remains a contrast about ordinary computable-randomness lowness only.
 
 Decision: **RETAIN_PROVISIONAL AS AUXILIARY, SHAPE UNCHANGED; E3 RESOLVED.** Future promotion requires an intrinsic oracle characterization independent of the defining preservation clause plus a concrete randomness/product-information consequence; mere renaming of a known lowness property is a falsifier. No noncomputable low oracle, novelty, openness, equivalence or separation is asserted. Record: `phase2/P2-S004_FORMULATION_ALIGNMENT.md`.
+
+## D-0013 — Gate-2 minimum evidence is assembled for separate formal review
+
+On 2026-10-04, P2-S005 audited the existing six-candidate Discovery portfolio against every Gate-2 minimum-evidence field in `docs/GATE_POLICY.md`.
+
+CAND-01, CAND-02 and CAND-03 each have an exact search-ready formulation, mathematical motivation/potential value, explicit relationship to known notions, a prospective theorem/characterization package, falsifiers, dependencies/expected difficulty, and an explicit guard separating apparent interest from novelty. E1–E3 are resolved. CAND-04, CAND-05 and CAND-06 remain rejected exactly as recorded.
+
+Decision: record **READY_FOR_FORMAL_GATE2_REVIEW** only. This is not Gate-2 PASS, does not open Phase 3, does not select a final candidate and does not establish novelty, openness or any new mathematical result. A separate formal Gate-2 review is required in P2-S006.

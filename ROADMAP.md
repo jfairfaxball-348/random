@@ -16,7 +16,7 @@ Papers and articles are normally linked and catalogued rather than copied into t
 
 ## Phase 2 — Discovery
 
-**Status:** OPEN. P2-S001 completed the first bounded Discovery portfolio. P2-S002, P2-S003 and P2-S004 have now resolved formulation tasks E2, E1 and E3 respectively, with CAND-01, CAND-02 and CAND-03 all retained provisionally in their recorded shapes. CAND-03 remains explicitly auxiliary: its universal lowness quantifier is kept separate from pairwise uniform-relative results, and DEF-0025's uniform families remain globally total/valid across oracle instances. Three directions remain provisional and three rejected; no final candidate is selected. Gate 2 has not been reviewed. Next is P2-S005, a bounded Gate-2 readiness audit only (not the Gate-2 review). See `phase2/P2-S001_DISCOVERY.md`, `phase2/P2-S004_FORMULATION_ALIGNMENT.md` and `phase2/candidates.json`.
+**Status:** OPEN. P2-S001 completed the bounded six-candidate Discovery portfolio; P2-S002 through P2-S004 resolved E2, E1 and E3 without changing the three retained shapes. P2-S005 audited CAND-01, CAND-02 and CAND-03 against every Gate-2 minimum-evidence field and recorded **READY_FOR_FORMAL_GATE2_REVIEW**. CAND-04, CAND-05 and CAND-06 remain rejected exactly as recorded. This is not Gate-2 PASS: Gate 2 has not been formally reviewed, Phase 3 remains CLOSED, no final candidate is selected and Fairfax-Ball Randomness is not defined. Next is P2-S006, a separate formal Gate-2 review only. See `phase2/P2-S005_GATE2_READINESS_AUDIT.md`, `phase2/P2-S005_CLOSE.md` and `phase2/candidates.json`.
 
 **Purpose:** identify what appears genuinely open, structurally missing or mathematically worthwhile.
 

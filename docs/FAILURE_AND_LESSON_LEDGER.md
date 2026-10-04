@@ -439,3 +439,14 @@ The nearby recorded theorems have different quantifiers. THM-0024 is a pairwise 
 Resolution: E3 keeps CAND-03's predicate unchanged and treats SRC-0009 Theorem 5.7 only as a contrast for ordinary computable-randomness lowness. No conclusion about membership, noncomputable members, equivalence to K-triviality or collapse to computable oracles is inferred.
 
 Lesson: in oracle-randomness comparisons, track separately (i) totality/validity of the whole family across all oracle parameters, (ii) the fixed oracle parameter, (iii) universal versus existential quantification over random inputs, and (iv) whether a theorem is pairwise, lowness-level or baseness-level before transferring a characterization.
+
+## FL-039 — Discovery readiness is not novelty evidence or a gate decision
+
+Session: `P2-S005`  
+Status: READINESS/GATE-SEPARATION GUARD
+
+A candidate can be precise, motivated, related to known notions, equipped with a plausible future theorem package, falsifiers and difficulty estimates, yet still have completely unassessed novelty and literature status. Gate-2 readiness asks whether the Discovery record is mature enough for a formal gate decision and subsequent dedicated prior-art attack; it does not itself establish that any candidate is new, open, nontrivial or worth naming.
+
+Resolution: P2-S005 records **READY_FOR_FORMAL_GATE2_REVIEW** only. Candidate-level novelty/literature fields remain NOT_ASSESSED, CAND-04–CAND-06 remain rejected exactly as recorded, and no final candidate is selected. Gate 2 remains unreviewed until a separate formal review.
+
+Lesson: keep three claims distinct in durable records: (i) a direction appears mathematically interesting enough to examine, (ii) its Discovery evidence is sufficient for gate review, and (iii) it is novel after prior-art attack. Only the first two are in scope before Phase 3, and neither entails the third.

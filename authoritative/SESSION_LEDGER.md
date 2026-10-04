@@ -482,3 +482,25 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P2-S005`, Gate-2 readiness audit only (not a Gate-2 review).
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+## P2-S005 — Gate-2 readiness audit
+
+Status: COMPLETED
+
+Date: 2026-10-04. Incoming checkpoint: `8406dbb09b81f6207dd869792b06c99d21102f6d`, matching live main exactly. The incoming session ledger contained no P2-S005 session entry; prior P2-S005 mentions were forward scheduling only, so the session identifier was unique.
+
+Scope completed: one bounded Gate-2 readiness audit over the existing Phase-2 portfolio. No Gate-2 decision was made.
+
+Result: **READY_FOR_FORMAL_GATE2_REVIEW**. CAND-01, CAND-02 and CAND-03 satisfy the committed readiness check for search-ready formulation, motivation/potential value, relationship to known notions, prospective theorem/characterization package, falsifiers, dependencies/expected difficulty, and explicit separation of “appears interesting” from “is novel”. E1–E3 remain resolved. CAND-04, CAND-05 and CAND-06 remain rejected in their recorded shapes.
+
+No novelty/prior-art search, equivalent-definition search, proof, witness construction, experiment, original mathematics, Lean/Palomar work, candidate selection, Gate-2 review or later-phase work was performed. No external literature retrieval occurred. DEF-0020 and all Phase-1 evidence/convention guards remain unchanged.
+
+Discovery record: `phase2/P2-S005_GATE2_READINESS_AUDIT.md`. Close: `phase2/P2-S005_CLOSE.md`. Validation: `phase2/P2-S005_VALIDATION.md`. Durable readiness decision: D-0013. Readiness/novelty guard: FL-039.
+
+Gate 1 remains PASS; Phase 1 COMPLETED for gate purposes; Phase 2 OPEN; Gate 2 CLOSED / READY FOR FORMAL REVIEW but NOT REVIEWED/PASSED; Phases 3–5 CLOSED. No candidate is selected and Fairfax-Ball Randomness is not defined.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P2-S006`, formal Gate-2 review only.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.

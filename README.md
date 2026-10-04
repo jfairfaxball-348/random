@@ -6,9 +6,9 @@ This repository is the authoritative research record for a five-phase programme 
 
 **PHASE 2 — DISCOVERY — IS OPEN.**
 
-Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 built the provisional portfolio; P2-S002 resolved CAND-02/E2; P2-S003 resolved CAND-01/E1; and P2-S004 has now resolved CAND-03/E3 while retaining its universal-lowness/global-uniform-family shape unchanged. The portfolio remains three provisional directions and three rejected shapes. No final candidate is selected and Fairfax-Ball Randomness is not defined. Gate 2 has not been reviewed; Phases 3–5 remain CLOSED.
+Gate 1 passed in P1-S014. Phase 1 is complete for gate purposes; its catalogue remains bounded and non-exhaustive, with residual provenance/access gaps preserved. P2-S001 built the six-candidate portfolio; P2-S002 through P2-S004 resolved E2, E1 and E3 while retaining CAND-01, CAND-02 and CAND-03 provisionally in their recorded shapes. P2-S005 has now completed a bounded Gate-2 readiness audit and recorded **READY_FOR_FORMAL_GATE2_REVIEW**. This is not Gate-2 PASS: Gate 2 has not been formally reviewed, Phase 3 remains CLOSED, no final candidate is selected and Fairfax-Ball Randomness is not defined.
 
-Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [P2-S004 formulation alignment](phase2/P2-S004_FORMULATION_ALIGNMENT.md), [candidate index](phase2/candidates.json) and [latest close](phase2/P2-S004_CLOSE.md). The next bounded task is P2-S005, a Gate-2 readiness audit only; no Gate-2 decision, novelty audit or original mathematics is authorized.
+Read the [Discovery report](phase2/P2-S001_DISCOVERY.md), [P2-S005 readiness audit](phase2/P2-S005_GATE2_READINESS_AUDIT.md), [candidate index](phase2/candidates.json) and [latest close](phase2/P2-S005_CLOSE.md). The next bounded task is P2-S006, a separate formal Gate-2 review only; no Phase-3 novelty/prior-art work or original mathematics is authorized in that review session.
 
 Repository authority lives in the committed files. Start every future session with `authoritative/START_HERE.md`.
 
