@@ -1,8 +1,10 @@
 # Five-Phase Roadmap
 
-Phase 1 — Research / Catalogue — is currently OPEN. Phases 2–5 remain CLOSED. See `authoritative/STATE.json` for live authority.
+Gate 1 passed in P1-S014. Phase 1 — Research / Catalogue — is complete for gate purposes; Phase 2 — Discovery — is OPEN. Phases 3–5 remain CLOSED. See `authoritative/STATE.json` for live authority.
 
 ## Phase 1 — Research / Catalogue
+
+**Status:** COMPLETED FOR GATE PURPOSES after Gate-1 PASS in P1-S014. The catalogue remains bounded/non-exhaustive and may receive evidence upgrades later when a live claim requires them.
 
 **Purpose:** build the durable knowledge infrastructure on which every later claim depends.
 
@@ -13,6 +15,8 @@ Papers and articles are normally linked and catalogued rather than copied into t
 **Exit gate:** Phase-1 audit establishes that the planned domain map has been covered to a standard adequate for candidate discovery; consequential claims are traceable; important access/search gaps are explicit; the catalogue is usable by an agent through stable IDs and indexes; and unresolved uncertainty is honestly recorded. "Conclusive" means a documented, auditable research effort, not a claim of omniscience.
 
 ## Phase 2 — Discovery
+
+**Status:** OPEN. No candidate was selected and no Discovery work was performed in the P1-S014 gate-review session.
 
 **Purpose:** identify what appears genuinely open, structurally missing or mathematically worthwhile.
 
