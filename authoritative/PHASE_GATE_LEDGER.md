@@ -145,3 +145,14 @@ Result: **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** for the exact CAND-01 restrictio
 This is not an openness or novelty finding. CAND-01 remains provisional with its exact formulation unchanged; CAND-02 and CAND-03 remain unassessed in Phase 3. No final candidate is selected. Gate 3 is **NOT REVIEWED** and Phase 4 remains **CLOSED**. DEF-0020 and existing convention guards remain unchanged.
 
 Record: `phase3/P3-S001_PRIOR_ART.md`; structured finding: `PA-0001` in `phase3/prior-art.json`.
+
+## Novelty / prior-art checkpoint — P3-S002 (not a gate review)
+
+P3-S002 performed one bounded primary-source prior-art attack on CAND-02 only. It retained Franklin–Towsner's nonergodic weak-Birkhoff framework (SRC-0058 / THM-0063 / THM-0064) and added two decision-relevant primary benchmarks: Miyabe–Nies–Zhang (SRC-0062 / THM-0073), where nonergodic lower-semicomputable convergence is proved without assuming totality, and Moriakov (SRC-0063 / THM-0074), where total computable Cantor maps and effectively-open indicators occur under ergodicity, automorphism group-action structure, Følner averaging and expectation equality.
+
+Result: **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** for the exact CAND-02 predicate. No inspected primary theorem matched everywhere-total arbitrary fair-coin-preserving self-maps together with effectively-open indicators and nonergodic convergence-only semantics.
+
+This is not an openness or novelty finding. CAND-02 remains provisional with its exact formulation and E2 alignment unchanged. CAND-01's P3-S001 disposition is unchanged; CAND-03 remains unassessed in Phase 3. No final candidate is selected. Gate 3 is **NOT REVIEWED** and Phase 4 remains **CLOSED**. DEF-0020 and existing convention guards remain unchanged.
+
+Record: `phase3/P3-S002_PRIOR_ART.md`; structured finding: `PA-0002` in `phase3/prior-art.json`.
+
