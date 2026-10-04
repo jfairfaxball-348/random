@@ -330,3 +330,36 @@ Recommended next bounded session: `P1-S013`, a Phase-1 completion/source-gap aud
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
 
+## P1-S013 — Phase-1 completion and source-gap audit against Gate 1
+
+Status: COMPLETED
+
+Incoming checkpoint: `315fe58653474b86e69d677976dc23c68a62db69`
+
+Scope completed: catalogue-wide Phase-1 completion/source-gap audit against the Gate-1 minimum evidence in `docs/GATE_POLICY.md`. All 19 coverage strata were assessed individually for discovery-library sufficiency, gate-relevant remediation and acceptable residual gaps. The audit did not automatically deepen any partial stratum and performed no Phase-2 work.
+
+Audit result: **minimum Phase-1 evidence assembled; formal Gate-1 review is ready to run.** All 19 strata are `SUFFICIENT_FOR_GATE1_REVIEW`; 0 gate-critical remediation gaps remain. The historical `PARTIAL_...` coverage labels are retained as depth/provenance history and are not redefined as gate outcomes.
+
+Residual gaps accepted for review are explicitly classified as nonblocking provenance improvements, deliberately bounded omissions, or historical/navigation gaps already replaced by statement-inspected later primary literature. Abstract-level constructive-dimension and KL records remain visible cautions: a future discovery claim that materially depends on their exact formulations must first upgrade the source evidence.
+
+Catalogue at close: 59 sources; 63 definitions; 70 theorem/characterization records; 59 relationship records; 1 status-sensitive question; 66 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 19 partial, 0 started-core, 0 started-edge, 0 navigation-only, 0 not-started. Separate audit disposition: 19/19 sufficient for formal Gate-1 review; 0 remediation-required.
+
+Structural correction: the coverage-plan status vocabulary was synchronized with the already-used `PARTIAL_P1_S010`, `PARTIAL_P1_S011` and `PARTIAL_P1_S012` values.
+
+Validation: stable-ID syntax/uniqueness, catalogue count/ID-set agreement and structured stable-ID references pass; no unresolved references were found; `DEF-0020` and convention-sensitive definition/theorem/relation records were not edited; Phase 1 remains OPEN and Phases 2–5 remain CLOSED.
+
+Audit record: `phase1/P1-S013_GATE1_AUDIT.md`
+
+Close record: `phase1/P1-S013_CLOSE.md`
+
+Meaningful audit lessons: FL-029 separates coverage-depth labels from gate-readiness decisions; FL-030 records and repairs the status-vocabulary drift. No new external retrieval was required because no residual source-access gap was gate-critical.
+
+Explicit exclusions respected: no candidate invention/selection; no Phase-2 research-target selection; no dedicated novelty/prior-art audit; no original mathematics/proof search; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains CLOSED but is READY FOR FORMAL REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S014`, a formal Phase-1/Gate-1 review that may record PASS / FAIL / BACKTRACK under `docs/GATE_POLICY.md` but must not perform Phase-2 discovery in the same session.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
