@@ -277,3 +277,41 @@ Bounded objective: consolidate COV-0016 only deeply enough to prevent conflation
 No cryptographic primitive survey beyond the PRG definition; no one-way-function catalogue expansion; no resource-bounded dimension survey; no hardness-amplification survey; no extractor/sampler survey; no BPP landscape audit; no transfer from generalized measure, genericity, Ω/left-c.e. or oracle randomness; no Fairfax-Ball candidate definition/selection; no novelty audit; no original mathematics; no formalization/manuscript/outreach work.
 
 Result: `COV-0016` becomes `PARTIAL_P1_S008`. Boundary depth is sufficient for this bounded session, but the stratum is not marked complete and Gate 1 is unchanged.
+
+
+## P1-S009 — Higher randomness and higher computability
+
+Date: 2026-10-04
+
+Bounded objective: consolidate COV-0011 at primary-source statement level, restricted to the principal Δ1^1/Π1^1 notions, their exact test/definability resources, the minimum higher weak-2/difference hierarchy needed to locate them, and higher-computability distinctions necessary to prevent false ordinary-relativization analogies.
+
+### Primary sources inspected or added
+
+- **SRC-0052 — Chong, Nies, Yu (2008), _Lowness of Higher Randomness Notions_.** Journal/DOI metadata were cross-checked against the authors' full preprint, whose title is _Higher Randomness Notions and Their Lowness Properties_. Section 3 was statement-inspected. Definition 3.1 separates Γ-randomness from Γ-Martin-Löf randomness; Lemma 3.2/Theorem 3.3 give Δ1^1-random = Δ1^1-ML-random; Theorem 3.4 gives a largest null Π1^1 set; Theorem 3.12 supplies the strict Π1^1-random → Π1^1-ML-random → Δ1^1-random = Δ1^1-ML-random subchain used here. The theorem's stronger Δ1^1(O)-random leading edge was deliberately not promoted because P1-S009 does not reopen a general oracle-higher-randomness survey.
+- **SRC-0053 — Hjorth–Nies (2007), _Randomness via effective descriptive set theory_.** Publisher metadata were matched to the author-hosted full paper. Section 3.4 was inspected for the Π1^1 version of Martin-Löf tests; Theorem 5.2 and Definition 5.3 were inspected for the largest null Π1^1 class and Π1^1-randomness. The source-local unqualified “ML-random” label and its note that Sacks used “Σ1^1-random” for the null-Π1^1-class notion are recorded as terminology provenance rather than normalized away.
+- **SRC-0054 — Bienvenu–Greenberg–Monin (2017), _Continuous higher randomness_.** DOI/arXiv metadata and the authors' full journal-version PDF were inspected. Definitions 1.1/1.3 fix continuous higher Turing/enumeration resources; Theorem 1.7 gives the higher-difference/Kleene-O characterization; Section 5 defines higher weak 2-tests and separates Π1^1-randomness from higher weak 2-randomness; the later hierarchy discussion locates higher weak 2 above higher difference randomness.
+- **SRC-0055 — Greenberg–Monin (2017), _Higher randomness and genericity_.** Cambridge's open journal PDF was inspected only for its higher-randomness material. Theorem 2.1 supplies the Π1^1-random = Δ1^1-random + Church-Kleene-ordinal-preservation characterization; Section 5 identifies higher weak 2-randomness with Π^ck_2-randomness and places it strictly between Δ1^1-randomness and Π1^1-randomness.
+
+### Exact convention reconciliation
+
+1. The object domain in the promoted records remains an individual real / infinite binary sequence in Cantor space. No finite-string PRG or resource-bounded object from P1-S008 is imported.
+2. Δ1^1-randomness is null-Δ1^1-class avoidance; Δ1^1-Martin-Löf randomness is test-based. They are identified only because the inspected theorem proves equivalence.
+3. Π1^1-Martin-Löf randomness and Π1^1-randomness are distinct. The inspected chain is strict: Π1^1-random → Π1^1-ML-random → Δ1^1-random = Δ1^1-ML-random.
+4. Hjorth–Nies's source-local “ML-random” means the higher Π1^1-ML notion in that section, not ordinary Martin-Löf randomness. Their note on Sacks's “Σ1^1-random” names the null-Π1^1-class notion now catalogued as Π1^1-randomness.
+5. Higher weak 2-randomness is a higher Π^ck_2/null-higher-Π^0_2 notion and is not ordinary weak 2-randomness DEF-0015. The source-stated placement Π1^1-random > higher weak 2 > Δ1^1-random is recorded without extrapolating the finite weak-n hierarchy.
+6. Higher difference randomness is recorded only from SRC-0054's continuous-higher test/reducibility formulation. No lower difference-randomness definition or implication from P1-S004 is transferred by analogy.
+7. DEF-0020 is unchanged: repository n-randomness remains finite jump-relativized Martin-Löf randomness relative to ∅^(n−1).
+8. SRC-0054 explicitly shows why ordinary-looking oracle constructions can fail higher up, including failure of a uniform universal higher oracle test. Continuous higher relativization is therefore treated as a separate resource, not a synonym for ordinary Turing-oracle relativization.
+
+### Retrieval failures / provenance qualifications
+
+- SRC-0017 (Monin's 2020 Cambridge chapter) remains ABSTRACT_INSPECTED/navigation-only as a source record because full statement-level chapter text was not obtained in this session. No definition or theorem was promoted from it.
+- SRC-0052 has a publication-title/preprint-title variation. The journal identity was fixed by DOI/volume/pages before statement inspection of the author-hosted preprint; the two titles are recorded as one source, not duplicated.
+- SRC-0053 statement inspection used an author-hosted full paper after publisher metadata cross-checking. The catalogue does not imply that publisher full text was directly inspected.
+- The earliest Martin-Löf/Sacks higher formulations were not independently recovered at statement level. Their historical labels are recorded only where the later inspected primary sources explicitly report them; unavailable wording is not reconstructed from secondary summaries.
+
+### Bounded exclusions
+
+No general admissible-set/descriptive-set-theory survey; no transfinite-recursion survey; no general higher-lowness programme; no broad higher-stronger-test hierarchy; no finite-level implication imported without an inspected higher theorem; no generalized-measure/category/Ω/resource-bounded transfer; no Fairfax-Ball candidate invention or selection; no Phase-2 target selection; no novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication preparation; no outreach.
+
+Result: COV-0011 becomes `PARTIAL_P1_S009`. It is no longer the catalogue's sole navigation-only stratum, but it is not marked complete and Gate 1 remains unchanged.

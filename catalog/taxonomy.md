@@ -326,3 +326,31 @@ Yao's 1982 primary source explicitly distinguishes the single-sequence “what i
 `THM-0050` gives only the inspected Δ-random ↔ no Δ-computable-martingale-success characterization. P1-S008 adds **no** implication from p-randomness/resource-bounded randomness to the unbounded Martin-Löf/Schnorr/computable-randomness hierarchy. Likewise, no P1-S005 generalized-measure, P1-S006 category/genericity, P1-S007 Ω/left-c.e., or P1-S003 oracle convention is transferred into the resource-bounded setting by analogy; `DEF-0020`'s jump convention is unchanged.
 
 The Nisan-Wigderson boundary source is used only to fix the meaning of **derandomization** here: constructing pseudorandom bits that fool a stated computational class can permit deterministic simulation of a randomized algorithm (e.g. by enumerating seeds under the stated hardness tradeoff). This is a different mathematical task from assigning an infinite sequence an effective-randomness property.
+
+
+## P1-S009 higher-randomness / higher-computability convention guard
+
+Higher randomness is a distinct source-defined effectivity regime, not a transfinite continuation of the repository's finite jump-indexed `DEF-0020`. In this catalogue, `DEF-0020` remains exactly: for finite integer `n≥1`, `n`-random means Martin-Löf random relative to `∅^(n−1)`.
+
+For individual reals `X∈2^ω`, the statement-inspected higher sources separate the following notions:
+
+- `DEF-0050` **Δ1^1-randomness / hyperarithmetic randomness**: avoidance of every null lightface Δ1^1 set.
+- `DEF-0051` **Δ1^1-Martin-Löf randomness**: passing every Δ1^1-coded Martin-Löf test. `THM-0051` records the source-proved equivalence with Δ1^1-randomness.
+- `DEF-0052` **Π1^1-Martin-Löf randomness / higher ML-randomness**: passing Π1^1/higher-c.e.-open Martin-Löf tests.
+- `DEF-0053` **Π1^1-randomness**: avoidance of every null Π1^1 class. This is strictly stronger than Π1^1-Martin-Löf randomness; the labels must not be merged.
+- `DEF-0054` **higher weak 2-randomness**: avoidance of higher weak-2 tests, i.e. uniformly Π1^1 open components with null intersection (nested without loss in the inspected source); `SRC-0055` identifies this with the Π^ck_2 randomness level.
+- `DEF-0055` **higher difference randomness**: recorded only in the continuous-higher formulation inspected in `SRC-0054`, including its Kleene-`O` characterization for higher ML-random reals.
+
+Terminology is source-sensitive. Hjorth–Nies locally use unqualified “ML-random” for their Π1^1 version of Martin-Löf randomness; this repository writes **Π1^1-Martin-Löf random** to avoid collision with ordinary `DEF-0002`. Hjorth–Nies also report that Sacks called the null-Π1^1-class notion **Σ1^1-random**; that historical label is retained only as provenance for `DEF-0053`.
+
+Continuous higher relativization is also substantive. `SRC-0054` defines higher Turing reducibility through Π1^1 functionals and higher oracle-c.e. sets through Π1^1 enumeration functionals, and explicitly explains that the classical uniform universal-oracle-test construction can fail in the higher setting. Therefore ordinary oracle relativization from P1-S003 is not silently substituted.
+
+Do not transfer P1-S004 stronger-test implications, P1-S005 generalized-measure results, P1-S006 category/genericity results, P1-S007 Ω/left-c.e. results or P1-S008 resource-bounded/computational pseudorandomness into the higher setting without a separately inspected higher primary theorem.
+
+Additional retrieval aliases from P1-S009:
+- `Δ1^1-random` / `Delta11-random` / `hyperarithmetic random`
+- `Π1^1-ML-random` / `Pi11 Martin-Lof random` / `higher ML-random`
+- `Π1^1-random` / `Pi11-random` / historical Sacks `Σ1^1-random`
+- `higher weak 2-random` / `Π^ck_2-random`
+- `higher difference random`
+- `higher Turing reducibility` / `continuous higher computability`

@@ -54,3 +54,14 @@ Yao's 1982 paper supplies the foundational explicit distinction between the sing
 The close counts are 51 sources, 49 definitions, 50 theorem/characterization records, 43 relation records, 1 status question, 58 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0016 is `PARTIAL_P1_S008`; there are now no `NOT_STARTED` strata, but Gate 1 is still not ready for review.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.
+
+
+## P1-S009 checkpoint
+
+P1-S009 consolidated COV-0011 at statement-level primary-source depth. The catalogue now distinguishes Δ1^1-randomness from its test presentation (proved equivalent), Π1^1-Martin-Löf randomness from the strictly stronger Π1^1-random null-class notion, and records the source-specific terminology/provenance hazards around “higher ML-random” and Sacks's historical “Σ1^1-random”.
+
+The pass also adds only the minimum higher hierarchy material needed for orientation: higher weak 2-randomness is placed strictly between Π1^1-randomness and Δ1^1-randomness, and higher weak 2-randomness strictly implies higher difference randomness in the inspected continuous-higher framework. Continuous higher reducibility/test resources are kept separate from ordinary oracle relativization, and finite `DEF-0020` is unchanged.
+
+The close counts are 55 sources, 55 definitions, 57 theorem/characterization records, 49 relation records, 1 status question, 60 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0011 is `PARTIAL_P1_S009`; there are now no navigation-only or not-started strata, but Gate 1 is still not ready for review.
+
+Phase 1 remains materially incomplete and Gate 1 is not ready for review.

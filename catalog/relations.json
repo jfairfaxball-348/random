@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S008",
+  "session": "P1-S009",
   "records": [
     {
       "id": "REL-0001",
@@ -679,6 +679,101 @@
         }
       ],
       "caution": "The resource parameter Δ, including the polynomial-time specialization p=p1, is essential. No unbounded-randomness hierarchy edge is inferred."
+    },
+    {
+      "id": "REL-0044",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0050",
+      "to": "DEF-0051",
+      "statement": "Δ1^1-randomness is equivalent to Δ1^1-Martin-Löf randomness.",
+      "support": [
+        {
+          "source": "SRC-0052",
+          "theorem": "THM-0051",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This equivalence is specific to the inspected Δ1^1 setting and does not collapse the Π1^1 notions."
+    },
+    {
+      "id": "REL-0045",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0053",
+      "to": "DEF-0052",
+      "statement": "Π1^1-randomness strictly implies Π1^1-Martin-Löf randomness.",
+      "support": [
+        {
+          "source": "SRC-0052",
+          "theorem": "THM-0052",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The two Π1^1 labels are not synonyms."
+    },
+    {
+      "id": "REL-0046",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0052",
+      "to": "DEF-0050",
+      "statement": "Π1^1-Martin-Löf randomness strictly implies Δ1^1-randomness.",
+      "support": [
+        {
+          "source": "SRC-0052",
+          "theorem": "THM-0052",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "DEF-0050 is also equivalent to Δ1^1-Martin-Löf randomness DEF-0051, but not to Π1^1-Martin-Löf randomness."
+    },
+    {
+      "id": "REL-0047",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0053",
+      "to": "DEF-0054",
+      "statement": "Π1^1-randomness strictly implies higher weak 2-randomness.",
+      "support": [
+        {
+          "source": "SRC-0055",
+          "theorem": "THM-0055",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0054",
+          "theorem": "THM-0055",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "Higher weak 2-randomness is the higher Π^ck_2 level, not ordinary weak 2-randomness DEF-0015."
+    },
+    {
+      "id": "REL-0048",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0054",
+      "to": "DEF-0050",
+      "statement": "Higher weak 2-randomness strictly implies Δ1^1-randomness.",
+      "support": [
+        {
+          "source": "SRC-0055",
+          "theorem": "THM-0055",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "This is a source-stated higher-hierarchy edge, not an extrapolation from finite weak-n randomness."
+    },
+    {
+      "id": "REL-0049",
+      "type": "STRICT_IMPLICATION",
+      "from": "DEF-0054",
+      "to": "DEF-0055",
+      "statement": "Higher weak 2-randomness strictly implies higher difference randomness.",
+      "support": [
+        {
+          "source": "SRC-0054",
+          "theorem": "THM-0057",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The source factors the implication through higher Oberwolfach randomness and supplies a separation; no lower stronger-test edge is imported."
     }
   ]
 }

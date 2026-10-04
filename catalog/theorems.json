@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S008",
+  "session": "P1-S009",
   "records": [
     {
       "id": "THM-0001",
@@ -1317,6 +1317,209 @@
       "cautions": [
         "For p-randomness the resource class is p=p1, the polynomial-time class in SRC-0051; the resource bound must remain attached.",
         "No comparison with Martin-Löf, Schnorr or computable randomness is asserted here."
+      ]
+    },
+    {
+      "id": "THM-0051",
+      "name": "Δ1^1-randomness equals Δ1^1-Martin-Löf randomness",
+      "statement": "For X∈2^ω, X is Δ1^1-random iff X is Δ1^1-Martin-Löf random.",
+      "hypotheses": [
+        "fair-coin Cantor-space setting",
+        "Δ1^1-randomness as DEF-0050",
+        "Δ1^1-Martin-Löf tests as DEF-0051"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Lemma 3.2 and Theorem 3.3"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0050",
+        "DEF-0051"
+      ],
+      "relations": [
+        "REL-0044"
+      ],
+      "cautions": [
+        "This equivalence is source-proved and must not be used to identify the corresponding Π1^1 notions, which are distinct."
+      ]
+    },
+    {
+      "id": "THM-0052",
+      "name": "Strict principal Π1^1/Δ1^1 randomness chain",
+      "statement": "Π1^1-randomness strictly implies Π1^1-Martin-Löf randomness, which strictly implies Δ1^1-randomness; Δ1^1-randomness is equivalent to Δ1^1-Martin-Löf randomness.",
+      "hypotheses": [
+        "fair-coin Cantor-space definitions DEF-0050 through DEF-0053",
+        "only the bounded subchain of the source's Theorem 3.12 is recorded"
+      ],
+      "direction": "strict implications plus terminal equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 3.12, with Theorems 3.8/3.10 supplying separations in the surrounding section"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0050",
+        "DEF-0051",
+        "DEF-0052",
+        "DEF-0053"
+      ],
+      "relations": [
+        "REL-0044",
+        "REL-0045",
+        "REL-0046"
+      ],
+      "cautions": [
+        "SRC-0052's Theorem 3.12 has an additional stronger leading Δ1^1(O)-randomness level. P1-S009 deliberately does not open a broader oracle-higher-randomness survey and does not promote that edge."
+      ]
+    },
+    {
+      "id": "THM-0053",
+      "name": "Largest null Π1^1 class",
+      "statement": "There exists a largest null lightface Π1^1 class of reals; consequently Π1^1-randomness is equivalently avoidance of that largest null Π1^1 class.",
+      "hypotheses": [
+        "Cantor-space fair-coin measure"
+      ],
+      "direction": "existence plus characterization",
+      "source_support": [
+        {
+          "source": "SRC-0053",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 5.2 and Definition 5.3"
+        },
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 3.4"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0053"
+      ],
+      "relations": [],
+      "cautions": [
+        "The theorem concerns the null Π1^1-class notion DEF-0053, not the Π1^1-Martin-Löf-test notion DEF-0052."
+      ]
+    },
+    {
+      "id": "THM-0054",
+      "name": "Π1^1-randomness as Δ1^1-randomness plus preservation of ω1^CK",
+      "statement": "A real X is Π1^1-random iff X is Δ1^1-random and ω1^X = ω1^CK.",
+      "hypotheses": [
+        "X∈2^ω",
+        "ω1^CK is the Church-Kleene ordinal and ω1^X is the least X-noncomputable ordinal in the source convention"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0055",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 2.1"
+        },
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Corollary 3.5 together with Proposition 3.7"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0050",
+        "DEF-0053"
+      ],
+      "relations": [],
+      "cautions": [
+        "The ordinal-preservation condition is a higher-computability resource and is not a finite-jump parameter from DEF-0020."
+      ]
+    },
+    {
+      "id": "THM-0055",
+      "name": "Higher weak-2 placement between Δ1^1 and Π1^1 randomness",
+      "statement": "Π1^1-randomness strictly implies higher weak 2-randomness, which strictly implies Δ1^1-randomness.",
+      "hypotheses": [
+        "higher weak 2-randomness as DEF-0054",
+        "fair-coin Cantor-space pointclass-randomness setting"
+      ],
+      "direction": "two strict implications",
+      "source_support": [
+        {
+          "source": "SRC-0055",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 5 classification: exactly four notions linearly ordered by strength"
+        },
+        {
+          "source": "SRC-0054",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 5.4 constructs a higher weak 2-random real that is not Π1^1-random"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0050",
+        "DEF-0053",
+        "DEF-0054"
+      ],
+      "relations": [
+        "REL-0047",
+        "REL-0048"
+      ],
+      "cautions": [
+        "The omitted lowest member of SRC-0055's four-level classification is higher Kurtz randomness; P1-S009 records only the minimum material needed to locate the principal requested notions."
+      ]
+    },
+    {
+      "id": "THM-0056",
+      "name": "Higher difference-randomness / Kleene-O characterization",
+      "statement": "For a higher Martin-Löf-random X, higher difference randomness is equivalent to Kleene's O not being continuously higher-Turing reducible to X; equivalently X avoids the nested higher difference tests stated in DEF-0055.",
+      "hypotheses": [
+        "X is higher Martin-Löf random (Π1^1-Martin-Löf random)",
+        "continuous higher Turing reducibility and higher-open/closed resources are those of SRC-0054"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0054",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 1.7"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0052",
+        "DEF-0055"
+      ],
+      "relations": [],
+      "cautions": [
+        "This theorem is not a relativized copy of a lower result; the continuous higher reducibility and test resources are part of the statement."
+      ]
+    },
+    {
+      "id": "THM-0057",
+      "name": "Higher weak-2 randomness strictly implies higher difference randomness",
+      "statement": "Every higher weak 2-random real is higher difference random, and the implication is strict.",
+      "hypotheses": [
+        "higher weak 2-randomness as DEF-0054",
+        "higher difference randomness as DEF-0055 in the source's higher framework"
+      ],
+      "direction": "strict implication",
+      "source_support": [
+        {
+          "source": "SRC-0054",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 8 hierarchy discussion, together with the Section 1/5 separation discussion"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0054",
+        "DEF-0055"
+      ],
+      "relations": [
+        "REL-0049"
+      ],
+      "cautions": [
+        "SRC-0054 factors the hierarchy through higher Oberwolfach randomness and separately supplies the separation; P1-S009 records only the resulting direct placement needed for COV-0011."
       ]
     }
   ]

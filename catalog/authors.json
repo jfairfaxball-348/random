@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S008",
+  "session": "P1-S009",
   "records": [
     {
       "id": "AUT-0001",
@@ -71,7 +71,9 @@
         "n-randomness",
         "demuth-randomness",
         "balanced-randomness",
-        "oberwolfach-randomness"
+        "oberwolfach-randomness",
+        "pi11-randomness",
+        "delta11-randomness"
       ],
       "source_ids": [
         "SRC-0005",
@@ -84,7 +86,9 @@
         "SRC-0030",
         "SRC-0036",
         "SRC-0037",
-        "SRC-0043"
+        "SRC-0043",
+        "SRC-0052",
+        "SRC-0053"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -290,10 +294,14 @@
       "name": "Benoit Monin",
       "topics": [
         "higher-randomness",
-        "higher-computability"
+        "higher-computability",
+        "higher-weak-2-randomness",
+        "higher-difference-randomness"
       ],
       "source_ids": [
-        "SRC-0017"
+        "SRC-0017",
+        "SRC-0054",
+        "SRC-0055"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -450,12 +458,16 @@
         "lowness",
         "algorithmic-randomness",
         "relative-randomness",
-        "schnorr-randomness"
+        "schnorr-randomness",
+        "higher-randomness",
+        "delta11-randomness",
+        "pi11-randomness"
       ],
       "source_ids": [
         "SRC-0027",
         "SRC-0031",
-        "SRC-0041"
+        "SRC-0041",
+        "SRC-0052"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -587,11 +599,15 @@
         "oberwolfach-randomness",
         "coherent-tests",
         "k-triviality",
-        "classes-of-measures"
+        "classes-of-measures",
+        "higher-randomness",
+        "higher-weak-2-randomness",
+        "higher-difference-randomness"
       ],
       "source_ids": [
         "SRC-0037",
-        "SRC-0038"
+        "SRC-0038",
+        "SRC-0054"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -601,11 +617,17 @@
       "topics": [
         "oberwolfach-randomness",
         "coherent-tests",
-        "k-triviality"
+        "k-triviality",
+        "higher-randomness",
+        "higher-computability",
+        "higher-weak-2-randomness",
+        "higher-difference-randomness"
       ],
       "source_ids": [
         "SRC-0037",
-        "SRC-0044"
+        "SRC-0044",
+        "SRC-0054",
+        "SRC-0055"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -849,6 +871,35 @@
       ],
       "source_ids": [
         "SRC-0050"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0059",
+      "name": "C. T. Chong",
+      "topics": [
+        "higher-randomness",
+        "higher-computability",
+        "delta11-randomness",
+        "pi11-randomness",
+        "lowness"
+      ],
+      "source_ids": [
+        "SRC-0052"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0060",
+      "name": "Greg Hjorth",
+      "topics": [
+        "higher-randomness",
+        "effective-descriptive-set-theory",
+        "pi11-martin-lof-randomness",
+        "pi11-randomness"
+      ],
+      "source_ids": [
+        "SRC-0053"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }

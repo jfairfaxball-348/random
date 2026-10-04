@@ -202,3 +202,48 @@ At the incoming checkpoint, `authoritative/STATE.json` and `authoritative/SESSIO
 Resolution: P1-S008 treated the more specific committed state/ledger plus the verified incoming hash as controlling, did not widen authorization, and synchronized `START_HERE.md` during closeout. Phase 1 remained OPEN and Phases 2–5 remained CLOSED throughout.
 
 Lesson: entry-point prose can lag machine-readable/session-ledger state even within an otherwise consistent checkpoint. Pin `main`, reconcile the specific mismatch, and correct the entry point rather than using stale prose to roll back completed work.
+
+
+## FL-018 — Higher-randomness terminology does not have one stable label
+
+Session: `P1-S009`  
+Status: RESOLVED AS CATALOGUE TERMINOLOGY DISCIPLINE
+
+The primary higher-randomness sources use labels that collide across eras and levels. Hjorth–Nies locally call their Π1^1 version of Martin-Löf randomness simply “ML-random”, while the same paper reports that Sacks used “Σ1^1-random” for what Hjorth–Nies define as avoidance of null Π1^1 classes. Chong–Nies–Yu separately distinguish Π1^1-Martin-Löf randomness from Π1^1-randomness and prove a strict separation.
+
+Resolution: `DEF-0052` is explicitly named Π1^1-Martin-Löf randomness / higher ML-randomness; `DEF-0053` is Π1^1-randomness. Sacks's “Σ1^1-random” is retained only as historical provenance. Ordinary Martin-Löf randomness remains `DEF-0002`.
+
+Lesson: in higher randomness, pointclass symbols and the words “ML-random” or “random” are not interchangeable labels. Preserve the source's test/null-class resource before normalizing terminology.
+
+## FL-019 — Higher computability is not ordinary oracle relativization carried to a transfinite index
+
+Session: `P1-S009`  
+Status: RESOLVED AS RESOURCE/RELATIVIZATION DISCIPLINE
+
+The incoming finite convention `DEF-0020` defines n-randomness for finite n≥1 by Martin-Löf randomness relative to `∅^(n−1)`. The inspected higher sources instead use lightface Δ1^1/Π1^1 definability and, for continuous higher relativization, Π1^1 functionals and enumeration functionals. Bienvenu–Greenberg–Monin explicitly explain that a classical uniform universal oracle-test construction fails in the higher setting.
+
+Resolution: `DEF-0020` is unchanged. New higher records `DEF-0050`–`DEF-0055` state their own resources, and `SRC-0054` is cited wherever continuous higher relativization matters.
+
+Lesson: a visual analogy between the finite arithmetical hierarchy and the higher/projective notation is not a definition or theorem. Do not manufacture a transfinite n-random hierarchy or replace continuous higher reducibility by ordinary Turing-oracle relativization.
+
+## FL-020 — Higher primary-source access required explicit copy/title provenance
+
+Session: `P1-S009`  
+Status: STATEMENTS RECOVERED WITH PROVENANCE QUALIFICATIONS / NOT A PROGRAMME BLOCKER
+
+The existing Monin 2020 chapter `SRC-0017` remained inaccessible at statement level and therefore stayed ABSTRACT_INSPECTED. Chong–Nies–Yu's journal publication and accessible author preprint have different titles; Hjorth–Nies statement inspection used an author-hosted copy after publisher metadata cross-checking.
+
+Resolution: exact definitions/theorems are grounded in `SRC-0052`–`SRC-0055`, with the actually inspected copy and title variation recorded. `SRC-0017` is retained only as the navigation anchor it was before P1-S009.
+
+Lesson: publication metadata, the copy actually inspected, and historical provenance are separate evidence fields. Do not upgrade an inaccessible navigation source because a later paper discusses the same notion.
+
+## FL-021 — Aggregate catalogue summary lagged P1-S008 records
+
+Session: `P1-S009`  
+Status: RESOLVED MAINTENANCE CORRECTION
+
+At the incoming P1-S008 checkpoint, the underlying catalogue files, authoritative state and session ledger had P1-S008 counts and COV-0016=`PARTIAL_P1_S008`, but `catalog/catalogue.json` still had `last_completed_session: P1-S007` and a P1-S007-era coverage summary calling the pseudorandomness/resource-bounded boundary not started.
+
+Resolution: P1-S009 treats the detailed committed records and authoritative state as controlling and synchronizes the aggregate catalogue metadata while adding the higher-randomness records. Authorization was unaffected.
+
+Lesson: aggregate index prose can lag its underlying stable-ID files. Validate aggregate session pointers and coverage summaries as part of every catalogue closeout.

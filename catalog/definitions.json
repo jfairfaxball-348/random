@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S008",
+  "session": "P1-S009",
   "records": [
     {
       "id": "DEF-0001",
@@ -1644,6 +1644,230 @@
       "cautions": [
         "The Δ-computability restriction is essential; this record must not be silently replaced by unrestricted or merely computable martingales.",
         "This is the minimal P1-S008 bridge to the already catalogued martingale viewpoint; no hierarchy implication is inferred."
+      ]
+    },
+    {
+      "id": "DEF-0050",
+      "name": "Δ1^1-randomness (hyperarithmetic randomness)",
+      "object_domain": "individual real / infinite binary sequence X in Cantor space 2^ω",
+      "effective_resources": "lightface Δ1^1 (hyperarithmetic) definability of null sets of reals",
+      "framework": "higher randomness by effective-descriptive-set-theoretic null-class avoidance",
+      "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space in the inspected sources",
+      "relativization": "This is a higher-computability pointclass notion, not the finite jump-relativized n-randomness convention of DEF-0020.",
+      "aliases": [
+        "Δ1^1-random",
+        "Delta11-random",
+        "hyperarithmetic random",
+        "hyperarithmetic randomness"
+      ],
+      "formal_summary": "X is Δ1^1-random iff X belongs to no null lightface Δ1^1 set of reals.",
+      "equivalent_characterizations": [
+        "THM-0051"
+      ],
+      "relationships": [
+        "REL-0044",
+        "REL-0046",
+        "REL-0048"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.1 and Theorem 3.3"
+        },
+        {
+          "source": "SRC-0055",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 5 pointclass-randomness convention"
+        }
+      ],
+      "cautions": [
+        "Do not obtain this notion by extending DEF-0020 to a transfinite n. The pointclass/effectivity resource is stated independently in the higher-randomness sources.",
+        "Δ1^1-Martin-Löf randomness is separately recorded as DEF-0051 and is equivalent only by the inspected theorem THM-0051."
+      ]
+    },
+    {
+      "id": "DEF-0051",
+      "name": "Δ1^1-Martin-Löf randomness",
+      "object_domain": "individual real / infinite binary sequence X in Cantor space 2^ω",
+      "effective_resources": "a Martin-Löf test (U_n) whose basic-cylinder code relation is lightface Δ1^1",
+      "framework": "higher Martin-Löf tests at the Δ1^1 pointclass",
+      "measure_assumptions": "each open test component U_n has μ(U_n) ≤ 2^-n under fair-coin/Lebesgue measure",
+      "relativization": "Higher pointclass formulation; not an extension of the finite jump convention DEF-0020.",
+      "aliases": [
+        "Δ1^1-ML-random",
+        "Delta11 Martin-Lof random"
+      ],
+      "formal_summary": "A Δ1^1-Martin-Löf test is an ω-sequence of open sets with μ(U_n)≤2^-n whose basic-cylinder coding relation is Δ1^1. X is Δ1^1-ML-random iff X is outside the intersection of every such test.",
+      "equivalent_characterizations": [
+        "THM-0051"
+      ],
+      "relationships": [
+        "REL-0044"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.1, Lemma 3.2 and Theorem 3.3"
+        }
+      ],
+      "cautions": [
+        "The equivalence with DEF-0050 is theorem-supported; it is not used as a definitional shortcut."
+      ]
+    },
+    {
+      "id": "DEF-0052",
+      "name": "Π1^1-Martin-Löf randomness (higher Martin-Löf randomness)",
+      "object_domain": "individual real / infinite binary sequence X in Cantor space 2^ω",
+      "effective_resources": "Π1^1-coded / higher-c.e. open test components; Hjorth-Nies equivalently use uniformly Σ1-definable-over-L_{ω1^CK} open sets",
+      "framework": "higher Martin-Löf tests",
+      "measure_assumptions": "test components have μ(U_n) ≤ 2^-n under fair-coin/Lebesgue measure",
+      "relativization": "Continuous higher relativization is separately defined through Π1^1 enumeration functionals in SRC-0054; ordinary oracle relativization must not be substituted automatically.",
+      "aliases": [
+        "Π1^1-ML-random",
+        "Pi11 Martin-Lof random",
+        "higher ML-random",
+        "higher Martin-Löf random"
+      ],
+      "formal_summary": "X is Π1^1-Martin-Löf random iff it passes every Martin-Löf test whose open components are uniformly available at the Π1^1/higher-c.e. level specified by the source.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0045",
+        "REL-0046"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.1 and Theorem 3.12"
+        },
+        {
+          "source": "SRC-0053",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 3.4"
+        },
+        {
+          "source": "SRC-0054",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Introduction and Definition 1.3 discussion"
+        }
+      ],
+      "cautions": [
+        "Hjorth-Nies locally use the unqualified phrase 'ML-random' for this Π1^1 version; the catalogue qualifies it to avoid collision with ordinary Martin-Löf randomness DEF-0002.",
+        "Π1^1-Martin-Löf randomness is strictly weaker than Π1^1-randomness DEF-0053 by THM-0052."
+      ]
+    },
+    {
+      "id": "DEF-0053",
+      "name": "Π1^1-randomness",
+      "object_domain": "individual real / infinite binary sequence X in Cantor space 2^ω",
+      "effective_resources": "lightface Π1^1 definability of null sets of reals",
+      "framework": "higher randomness by Π1^1 null-class avoidance",
+      "measure_assumptions": "fair-coin/Lebesgue measure on Cantor space",
+      "relativization": "Not identified with finite jump-relativized n-randomness; P1-S009 records only the unrelativized higher notion.",
+      "aliases": [
+        "Π1^1-random",
+        "Pi11-random",
+        "Σ1^1-random (Sacks historical terminology, as reported by Hjorth-Nies)"
+      ],
+      "formal_summary": "X is Π1^1-random iff X avoids every null lightface Π1^1 set of reals; equivalently, X lies outside the largest null Π1^1 class whose existence is recorded in THM-0053.",
+      "equivalent_characterizations": [
+        "THM-0053",
+        "THM-0054"
+      ],
+      "relationships": [
+        "REL-0045",
+        "REL-0047"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0053",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 5.2 and Definition 5.3"
+        },
+        {
+          "source": "SRC-0052",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 3.1, Theorem 3.4 and Theorem 3.12"
+        },
+        {
+          "source": "SRC-0055",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 2.1 and Section 5"
+        }
+      ],
+      "cautions": [
+        "Do not use 'Π1^1-randomness' and 'Π1^1-Martin-Löf randomness' as synonyms; the inspected sources separate them strictly.",
+        "Hjorth-Nies report the historical Sacks label 'Σ1^1-random' for this null-Π1^1-class notion. That historical name is preserved as provenance, not generalized as a pointclass-duality rule."
+      ]
+    },
+    {
+      "id": "DEF-0054",
+      "name": "Higher weak 2-randomness",
+      "object_domain": "individual real / infinite binary sequence X in Cantor space 2^ω",
+      "effective_resources": "uniformly Π1^1 (higher-c.e.) open sets forming a higher weak-2 test; equivalently the Π^ck_2 higher-arithmetic-hierarchy level in SRC-0055",
+      "framework": "generalized higher Martin-Löf tests / higher arithmetic hierarchy",
+      "measure_assumptions": "a higher weak 2-test has null intersection; the components may be taken nested",
+      "relativization": "P1-S009 records the unrelativized higher notion only.",
+      "aliases": [
+        "higher weakly 2-random",
+        "higher weak 2-random",
+        "Π^ck_2-random"
+      ],
+      "formal_summary": "A higher weak 2-test is an ω-sequence of uniformly Π1^1 open (higher-c.e. open) sets whose intersection is null; it may be assumed nested. X is higher weak 2-random iff it avoids every such test.",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "REL-0047",
+        "REL-0048",
+        "REL-0049"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0054",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 5, opening definition"
+        },
+        {
+          "source": "SRC-0055",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 5, Π^ck_2-randomness classification"
+        }
+      ],
+      "cautions": [
+        "This is not ordinary weak 2-randomness DEF-0015 and is not obtained by inserting a transfinite index into DEF-0020.",
+        "The hierarchy links recorded here are only the inspected higher-source links."
+      ]
+    },
+    {
+      "id": "DEF-0055",
+      "name": "Higher difference randomness (continuous-higher formulation)",
+      "object_domain": "a higher Martin-Löf-random individual real / infinite binary sequence X in Cantor space 2^ω",
+      "effective_resources": "continuous higher computability: uniformly higher effectively open U_n, a higher effectively closed class P, or equivalently version-disjoint tests with a higher ω-computably approximable index function",
+      "framework": "higher difference tests / continuous higher Turing reducibility",
+      "measure_assumptions": "nested tests have μ(U_n ∩ P) ≤ 2^-n in the closed-class formulation",
+      "relativization": "Uses SRC-0054's continuous higher-computability machinery; ordinary oracle relativization is not substituted.",
+      "aliases": [
+        "higher difference random",
+        "continuous higher difference randomness"
+      ],
+      "formal_summary": "For higher ML-random X, SRC-0054 characterizes higher difference randomness by avoidance of all nested tests U_n∩P with U_n uniformly higher effectively open, P higher effectively closed, and μ(U_n∩P)≤2^-n; equivalently Kleene's O is not continuously higher-Turing reducible to X.",
+      "equivalent_characterizations": [
+        "THM-0056"
+      ],
+      "relationships": [
+        "REL-0049"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0054",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 1.7"
+        }
+      ],
+      "cautions": [
+        "This record follows the inspected higher primary formulation and does not transfer the lower difference-test definition DEF-0027 by analogy.",
+        "The characterization is stated for higher Martin-Löf-random X."
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S008",
+  "session": "P1-S009",
   "checked_on": "2026-10-04",
   "records": [
     {
@@ -3146,6 +3146,290 @@
         "Definition 6.1 defines a Δ-test as a set of infinite binary sequences of Δ-measure one and Δ-randomness as passing every such test.",
         "Theorem 6.2 states that x is Δ-random iff no Δ-computable martingale succeeds on x.",
         "The paper explicitly treats time- or space-bounded Δ-randomness as pseudorandomness and keeps it in an individual infinite-sequence/resource-bounded-measure setting."
+      ]
+    },
+    {
+      "id": "SRC-0052",
+      "title": "Lowness of Higher Randomness Notions",
+      "authors": [
+        "C. T. Chong",
+        "André Nies",
+        "Liang Yu"
+      ],
+      "author_ids": [
+        "AUT-0059",
+        "AUT-0005",
+        "AUT-0030"
+      ],
+      "year": 2008,
+      "source_type": "journal_article",
+      "doi": "10.1007/s11856-008-1019-9",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1007/s11856-008-1019-9",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "higher-randomness",
+        "higher-computability",
+        "delta11-randomness",
+        "delta11-martin-lof-randomness",
+        "pi11-martin-lof-randomness",
+        "pi11-randomness",
+        "church-kleene-ordinal",
+        "lowness"
+      ],
+      "aliases_search_terms": [
+        "Chong Nies Yu higher randomness",
+        "Higher Randomness Notions and Their Lowness Properties",
+        "Delta11 randomness",
+        "Pi11 ML randomness",
+        "Pi11 randomness"
+      ],
+      "definitions": [
+        "DEF-0050",
+        "DEF-0051",
+        "DEF-0052",
+        "DEF-0053"
+      ],
+      "theorems": [
+        "THM-0051",
+        "THM-0052",
+        "THM-0053"
+      ],
+      "questions": [],
+      "priority_relevance": "Foundational primary comparison source giving exact Δ1^1/Π1^1 test notions, their equivalence/separation structure, and the largest-null-Π1^1-class result.",
+      "notes": "The published journal title is 'Lowness of Higher Randomness Notions'. Statement inspection used the authors' full preprint, whose title is 'Higher Randomness Notions and Their Lowness Properties', after journal/DOI identity cross-checking. The catalogue preserves that title variation instead of treating the files as distinct papers.",
+      "inspected_material": [
+        "journal/DOI metadata",
+        "author-hosted full preprint",
+        "Section 3 definitions and Theorems 3.3, 3.4, 3.8, 3.10, 3.12"
+      ],
+      "pointers": [
+        "Israel Journal of Mathematics 166 (2008), 39-60",
+        "Section 3, Definition 3.1",
+        "Lemma 3.2 and Theorems 3.3-3.4",
+        "Theorem 3.12"
+      ],
+      "cross_links": [
+        "SRC-0017",
+        "SRC-0053",
+        "SRC-0055"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Exact primary formulations distinguishing Δ1^1-randomness, Δ1^1-ML-randomness, Π1^1-ML-randomness and Π1^1-randomness, including strict comparison statements.",
+      "inspected_claims": [
+        "Definition 3.1 defines Γ-randomness by avoidance of null Γ sets and Γ-Martin-Löf randomness via Γ-coded Martin-Löf tests.",
+        "Lemma 3.2 and Theorem 3.3 yield Δ1^1-randomness iff Δ1^1-Martin-Löf randomness.",
+        "Theorem 3.4 establishes a largest null Π1^1 set.",
+        "Theorem 3.12 gives the strict chain Π1^1-random => Π1^1-ML-random => Δ1^1-random = Δ1^1-ML-random, as the bounded subchain used here; its stronger leading Δ1^1(O)-random edge is not promoted in P1-S009."
+      ]
+    },
+    {
+      "id": "SRC-0053",
+      "title": "Randomness via effective descriptive set theory",
+      "authors": [
+        "Greg Hjorth",
+        "André Nies"
+      ],
+      "author_ids": [
+        "AUT-0060",
+        "AUT-0005"
+      ],
+      "year": 2007,
+      "source_type": "journal_article",
+      "doi": "10.1112/jlms/jdm022",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1112/jlms/jdm022",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "higher-randomness",
+        "effective-descriptive-set-theory",
+        "pi11-martin-lof-randomness",
+        "pi11-randomness",
+        "largest-null-class",
+        "terminology-history"
+      ],
+      "aliases_search_terms": [
+        "Hjorth Nies randomness effective descriptive set theory",
+        "Pi11 version of Martin-Lof randomness",
+        "Sigma11-random Sacks"
+      ],
+      "definitions": [
+        "DEF-0052",
+        "DEF-0053"
+      ],
+      "theorems": [
+        "THM-0053"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source introducing/normalizing the Π1^1 version of Martin-Löf tests and separately defining Π1^1-randomness via null Π1^1 classes.",
+      "notes": "Publisher metadata were cross-checked against the author-hosted full paper used for statement inspection. In Section 3.4 the paper locally says 'ML-random' for its Π1^1 version of Martin-Löf randomness; P1-S009 normalizes that notion to Π1^1-Martin-Löf randomness to avoid collision with ordinary DEF-0002. After Definition 5.3 it notes that Sacks used the name Σ1^1-random for the null-Π1^1-class notion now recorded here as Π1^1-randomness.",
+      "inspected_material": [
+        "publisher metadata",
+        "author-hosted full paper",
+        "Section 3.4",
+        "Theorem 5.2 and Definition 5.3"
+      ],
+      "pointers": [
+        "Journal of the London Mathematical Society 75(2) (2007), 495-508",
+        "Section 3.4, printed p. 7",
+        "Theorem 5.2 and Definition 5.3"
+      ],
+      "cross_links": [
+        "SRC-0052",
+        "SRC-0054",
+        "SRC-0017"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Exact primary source for the source-specific Π1^1-ML-test formulation and the distinct Π1^1-random null-class notion, including terminology provenance.",
+      "inspected_claims": [
+        "Section 3.4 defines the Π1^1 version of Martin-Löf randomness using uniformly Σ1 over L_{ω1^CK} open test components of measure at most 2^-m.",
+        "Theorem 5.2 gives a largest null Π1^1 class.",
+        "Definition 5.3 defines Π1^1-randomness by avoidance of every null Π1^1 class.",
+        "The note after Definition 5.3 says Sacks called this notion Σ1^1-random."
+      ]
+    },
+    {
+      "id": "SRC-0054",
+      "title": "Continuous higher randomness",
+      "authors": [
+        "Laurent Bienvenu",
+        "Noam Greenberg",
+        "Benoit Monin"
+      ],
+      "author_ids": [
+        "AUT-0039",
+        "AUT-0040",
+        "AUT-0018"
+      ],
+      "year": 2017,
+      "source_type": "journal_article",
+      "doi": "10.1142/S0219061317500040",
+      "arxiv": "1503.04884",
+      "stable_locator": "https://doi.org/10.1142/S0219061317500040",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "higher-randomness",
+        "continuous-higher-computability",
+        "higher-turing-reducibility",
+        "higher-martin-lof-randomness",
+        "higher-weak-2-randomness",
+        "higher-difference-randomness",
+        "higher-relativization",
+        "kleene-o"
+      ],
+      "aliases_search_terms": [
+        "continuous higher randomness",
+        "higher Turing reducibility",
+        "higher weak 2 test",
+        "higher difference randomness",
+        "Kleene O higher randomness"
+      ],
+      "definitions": [
+        "DEF-0052",
+        "DEF-0054",
+        "DEF-0055"
+      ],
+      "theorems": [
+        "THM-0055",
+        "THM-0056",
+        "THM-0057"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary source fixing continuous higher-computability resources, higher weak-2 tests, the higher-difference characterization, and separations needed to locate the principal higher notions.",
+      "notes": "Statement inspection used the authors' full journal-version PDF with DOI/arXiv metadata cross-checking. The paper explicitly warns that ordinary relativization phenomena need not transfer: a uniform universal oracle higher-ML-test construction fails, motivating continuous higher relativization.",
+      "inspected_material": [
+        "journal/arXiv metadata",
+        "author-hosted full paper",
+        "Definitions 1.1 and 1.3",
+        "Theorem 1.7",
+        "Section 5 higher weak 2-randomness",
+        "Section 8 hierarchy discussion"
+      ],
+      "pointers": [
+        "Journal of Mathematical Logic 17(1) (2017), 1750004",
+        "Introduction and Definitions 1.1, 1.3",
+        "Theorem 1.7",
+        "Section 5, printed pp. 23-27",
+        "Section 8, printed p. 41"
+      ],
+      "cross_links": [
+        "SRC-0052",
+        "SRC-0053",
+        "SRC-0055"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Exact higher-computability/test resources for higher ML, weak-2 and difference randomness, with a direct warning against treating higher relativization as ordinary oracle relativization.",
+      "inspected_claims": [
+        "Higher Turing reducibility is defined via Π1^1 functionals, and higher X-c.e. sets via Π1^1 enumeration functionals.",
+        "The paper identifies Π1^1-Martin-Löf randomness with higher empty-oracle Martin-Löf randomness and calls it higher ML-randomness.",
+        "Theorem 1.7 characterizes higher difference randomness, for higher ML-random X, by Kleene O not being continuously higher-Turing reducible to X and by avoidance of the stated nested higher difference tests.",
+        "Section 5 defines a higher weak 2-test as uniformly Π1^1 open sets with null intersection and defines higher weak 2-randomness by avoidance of all such tests.",
+        "The Section 8 hierarchy discussion states higher weak 2-randomness implies higher Oberwolfach randomness implies higher difference randomness, with both displayed implications strict."
+      ]
+    },
+    {
+      "id": "SRC-0055",
+      "title": "Higher randomness and genericity",
+      "authors": [
+        "Noam Greenberg",
+        "Benoit Monin"
+      ],
+      "author_ids": [
+        "AUT-0040",
+        "AUT-0018"
+      ],
+      "year": 2017,
+      "source_type": "journal_article",
+      "doi": "10.1017/fms.2017.27",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.1017/fms.2017.27",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "higher-randomness",
+        "higher-arithmetic-hierarchy",
+        "delta11-randomness",
+        "higher-weak-2-randomness",
+        "pi11-randomness",
+        "higher-computability"
+      ],
+      "aliases_search_terms": [
+        "higher randomness and genericity",
+        "higher arithmetic hierarchy randomness",
+        "Pi ck 2 randomness",
+        "higher weak 2 randomness"
+      ],
+      "definitions": [
+        "DEF-0054"
+      ],
+      "theorems": [
+        "THM-0054",
+        "THM-0055"
+      ],
+      "questions": [],
+      "priority_relevance": "Primary later classification source locating Δ1^1-randomness, higher weak-2 randomness and Π1^1-randomness in the higher arithmetic hierarchy.",
+      "notes": "Cambridge's open-access full journal PDF was statement-inspected. P1-S009 uses only the minimum randomness-classification material needed for COV-0011 and does not reopen the paper's genericity programme.",
+      "inspected_material": [
+        "Cambridge full journal PDF",
+        "introductory higher-computability discussion",
+        "Theorem 2.1",
+        "Section 5 higher arithmetic hierarchy"
+      ],
+      "pointers": [
+        "Forum of Mathematics, Sigma 5 (2017), e31",
+        "Theorem 2.1",
+        "Section 5, printed pp. 20-21"
+      ],
+      "cross_links": [
+        "SRC-0052",
+        "SRC-0054"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Source-stated classification of the main higher-randomness levels, including higher weak 2 as Π^ck_2-randomness and its placement between Δ1^1 and Π1^1 randomness.",
+      "inspected_claims": [
+        "For a lightface pointclass Γ the paper defines Γ-randomness by avoiding all null Γ sets.",
+        "Section 5 states that the resulting higher arithmetic-hierarchy randomness notions collapse to exactly four classes linearly ordered by strength, including Δ1^1-randomness < higher weak 2-randomness < Π1^1-randomness.",
+        "Higher weak 2-randomness is identified there with Π^ck_2-randomness.",
+        "Theorem 2.1 gives Π1^1-randomness as Δ1^1-randomness together with preservation of the Church-Kleene ordinal."
       ]
     }
   ]

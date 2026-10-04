@@ -222,3 +222,30 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S009`, primary-source consolidation of COV-0011 higher randomness, because it remains the only navigation-only stratum and Gate 1 still explicitly lacks higher-randomness definitions/separations.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+
+## P1-S009 — Higher randomness and higher computability primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `b858dade0c4c0000228860c943ca0921ddf11945`
+
+Scope completed: statement-level consolidation of COV-0011, restricted to exact Δ1^1-randomness/Δ1^1-Martin-Löf resources and equivalence; Π1^1-Martin-Löf versus Π1^1-randomness and their strict separation; higher weak-2 placement; the minimum higher-difference characterization/hierarchy needed for orientation; and continuous-higher-computability guards preventing false identification with ordinary oracle relativization.
+
+Catalogue at close: 55 sources; 55 definitions; 57 theorem/characterization records; 49 relationship records; 1 status-sensitive question; 60 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 16 partial, 2 started-core, 1 started-edge, 0 navigation-only, 0 not-started. COV-0011 is now `PARTIAL_P1_S009`.
+
+Validation: PASS at closeout; all modified catalogue/state JSON parses; stable IDs are syntactically valid and unique; catalogue count/ID-set agreement holds; cross-file stable-ID references resolve; COV-0011 is exactly `PARTIAL_P1_S009`; and `DEF-0020` is unchanged from the incoming checkpoint.
+
+Close record: `phase1/P1-S009_CLOSE.md`
+
+Meaningful retrieval/convention/correction lessons: FL-018 preserves the Π1^1-ML / Π1^1-random and historical-label terminology collisions; FL-019 preserves the continuous-higher versus ordinary-oracle resource boundary; FL-020 records statement-copy/title/access provenance; FL-021 corrects the stale P1-S007 aggregate metadata that remained in `catalog/catalogue.json` after P1-S008.
+
+Explicit exclusions respected: no general higher-computability/admissible-set/descriptive-set-theory survey; no Fairfax-Ball candidate invention/selection; no Phase-2 research-target selection; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S010`, primary-source consolidation of COV-0014 (effective probability/ergodic-theory interfaces), because after P1-S009 it is the sole STARTED_EDGE stratum and the Gate-1 ledger still identifies the effective-ergodic interface as a material coverage gap.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.

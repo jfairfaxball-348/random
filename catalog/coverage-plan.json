@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S008",
+  "session": "P1-S009",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-04",
   "status_vocabulary": [
@@ -18,7 +18,8 @@
     "PARTIAL_P1_S005",
     "PARTIAL_P1_S006",
     "PARTIAL_P1_S007",
-    "PARTIAL_P1_S008"
+    "PARTIAL_P1_S008",
+    "PARTIAL_P1_S009"
   ],
   "records": [
     {
@@ -444,16 +445,23 @@
         "COV-0010"
       ],
       "expected_depth_required": "MEDIUM_DEEP",
-      "present_coverage_status": "NAVIGATION_ONLY_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S009",
       "covered_by": [
         "SRC-0017",
-        "SRC-0005"
+        "SRC-0005",
+        "SRC-0052",
+        "SRC-0053",
+        "SRC-0054",
+        "SRC-0055"
       ],
       "known_retrieval_access_limitations": [
-        "Cambridge chapter full text access restricted; no higher-randomness definition is yet promoted to DEF."
+        "SRC-0017 remains ABSTRACT_INSPECTED because the Cambridge chapter full text was not obtained; no exact definition is promoted from it.",
+        "Exact higher definitions/comparisons are instead grounded in statement-inspected primary SRC-0052 through SRC-0055.",
+        "Early historical Martin-Löf/Sacks formulations are not independently statement-inspected in P1-S009; later primary sources are used to normalize the terminology with provenance explicitly retained."
       ],
       "next_actions": [
-        "Retrieve accessible primary papers and index exact higher definitions/separations."
+        "Retain COV-0011 at PARTIAL rather than complete: only deepen higher lowness/stronger-test variants if a later Gate-1 coverage audit identifies a concrete need.",
+        "Preserve DEF-0020 as the finite n-randomness convention and keep continuous higher relativization separate from ordinary oracle relativization."
       ]
     },
     {

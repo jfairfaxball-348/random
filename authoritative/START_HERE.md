@@ -17,8 +17,8 @@ Repository: https://github.com/jfairfaxball-348/random
 
 ## Current authority
 
-**Phase 1 — Research / Catalogue — is OPEN.** P1-S001 through P1-S008 are completed. Phases 2–5 remain CLOSED. Gate 1 has not passed.
+**Phase 1 — Research / Catalogue — is OPEN.** P1-S001 through P1-S009 are completed. Phases 2–5 remain CLOSED. Gate 1 has not passed.
 
-Latest completed bounded session: `P1-S008`.
+Latest completed bounded session: `P1-S009`.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.

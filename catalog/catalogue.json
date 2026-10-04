@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 51,
-    "definitions": 49,
-    "theorems": 50,
-    "relations": 43,
+    "sources": 55,
+    "definitions": 55,
+    "theorems": 57,
+    "relations": 49,
     "questions": 1,
-    "authors": 58,
+    "authors": 60,
     "coverage_records": 19
   },
   "sources": [
@@ -75,7 +75,11 @@
     "SRC-0048",
     "SRC-0049",
     "SRC-0050",
-    "SRC-0051"
+    "SRC-0051",
+    "SRC-0052",
+    "SRC-0053",
+    "SRC-0054",
+    "SRC-0055"
   ],
   "definitions": [
     "DEF-0001",
@@ -126,7 +130,13 @@
     "DEF-0046",
     "DEF-0047",
     "DEF-0048",
-    "DEF-0049"
+    "DEF-0049",
+    "DEF-0050",
+    "DEF-0051",
+    "DEF-0052",
+    "DEF-0053",
+    "DEF-0054",
+    "DEF-0055"
   ],
   "theorems": [
     "THM-0001",
@@ -178,7 +188,14 @@
     "THM-0047",
     "THM-0048",
     "THM-0049",
-    "THM-0050"
+    "THM-0050",
+    "THM-0051",
+    "THM-0052",
+    "THM-0053",
+    "THM-0054",
+    "THM-0055",
+    "THM-0056",
+    "THM-0057"
   ],
   "relations": [
     "REL-0001",
@@ -223,7 +240,13 @@
     "REL-0040",
     "REL-0041",
     "REL-0042",
-    "REL-0043"
+    "REL-0043",
+    "REL-0044",
+    "REL-0045",
+    "REL-0046",
+    "REL-0047",
+    "REL-0048",
+    "REL-0049"
   ],
   "questions": [
     "QST-0001"
@@ -286,7 +309,9 @@
     "AUT-0055",
     "AUT-0056",
     "AUT-0057",
-    "AUT-0058"
+    "AUT-0058",
+    "AUT-0059",
+    "AUT-0060"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -357,7 +382,16 @@
     "universal prefix-free machine",
     "self-delimiting machine",
     "random left-c.e. real",
-    "finite-string incompressibility"
+    "finite-string incompressibility",
+    "Delta11 randomness",
+    "hyperarithmetic randomness",
+    "Pi11 Martin-Lof randomness",
+    "higher Martin-Lof randomness",
+    "higher weak 2-randomness",
+    "higher difference randomness",
+    "continuous higher randomness",
+    "higher Turing reducibility",
+    "omega_1^CK"
   ],
   "coverage_records": [
     "COV-0001",
@@ -380,9 +414,9 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "P1-S007 consolidated COV-0015 at primary-source level: finite-string self-delimiting incompressibility is kept distinct from infinite-sequence randomness; left-c.e. reals are normalized from the historical r.e.-real terminology; arbitrary prefix-free halting probabilities are separated from universal-machine Ω-numbers; Ω is source-grounded as left-c.e. and Martin-Löf random; and Martin-Löf-random left-c.e. reals are exactly the Ω-numbers. Chaitin source/title provenance and binary-expansion qualifications remain explicit. Phase 1 is still incomplete, especially for the not-started pseudorandomness/resource-bounded boundary, higher randomness, effective ergodic interfaces, and remaining foundational-source access gaps.",
+  "coverage_summary": "P1-S009 consolidated COV-0011 at statement-level primary-source depth: Δ1^1-randomness and Δ1^1-Martin-Löf randomness are source-proved equivalent; Π1^1-Martin-Löf randomness and Π1^1-randomness remain distinct with a strict hierarchy; higher weak 2-randomness is placed strictly between Π1^1-randomness and Δ1^1-randomness; and the minimum continuous-higher difference-randomness characterization/hierarchy is recorded. Source-specific terminology, title/access provenance and the distinction between continuous higher resources and ordinary oracle relativization are explicit. DEF-0020 remains the unchanged finite jump convention. P1-S009 also corrected the stale P1-S007 aggregate session/coverage prose left in catalogue.json after P1-S008. Phase 1 remains incomplete, especially for the effective-ergodic interface, resource-bounded dimension depth, and remaining foundational-source access/provenance gaps.",
   "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S007",
+  "last_completed_session": "P1-S009",
   "coverage": [
     "COV-0001",
     "COV-0002",
