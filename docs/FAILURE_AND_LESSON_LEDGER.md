@@ -462,3 +462,14 @@ Gate 2 asks whether Discovery has produced a bounded, precise and motivated port
 Resolution: P2-S006 records **PASS** because the committed portfolio satisfies every Gate-2 minimum-evidence field and at least three retained directions are search-ready. The same review preserves their high collapse/redundancy risks, CAND-02's source-copy qualification and CAND-03's broader lowness/traceability exposure. Candidate-level novelty/literature fields remain NOT_ASSESSED; no candidate is selected.
 
 Lesson: a Gate-2 PASS changes authorization, not epistemic status. Opening Phase 3 is permission to try to kill candidates with prior art, not evidence that they survived that attack.
+
+## FL-041 — Totality, bounded fibres and effective inverse information remain separate prior-art axes
+
+Session: `P3-S001`  
+Status: PRIOR-ART HYPOTHESIS-DISCIPLINE GUARD
+
+The first CAND-01 prior-art attack located two nearby but nonidentical negative preservation results. Rute's endomorphism framework permits a.e.-computable measure-preserving self-maps with no fibre bound. Bienvenu–Porter reaches everywhere-total truth-table functionals and can preserve fair-coin measure, but the inspected theorem states no finite or bounded fibre property. By contrast, the known positive invariance result THM-0038 assumes explicit effective inverse-pair data.
+
+Resolution: do not treat "total", "finite-to-one", "bounded-to-one", "invertible" and "effectively invertible" as interchangeable. Likewise, do not turn THM-0037's reverse existential random-preimage statement into forward conservation. CAND-01's exact finite-cardinality fibre restriction remains unresolved under the inspected evidence.
+
+Lesson: when attacking observation-map randomness claims, maintain a four-axis matrix: domain totality, cardinal fibre size, effective inverse information and implication direction. A source matching three axes does not settle the fourth, and failure to locate the fourth is not an openness proof.
