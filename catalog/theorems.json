@@ -2002,6 +2002,72 @@
         "No effective inverse branches are supplied.",
         "Do not infer that its witness belongs to any CAND-01 F_k."
       ]
+    },
+    {
+      "id": "THM-0073",
+      "name": "Oberwolfach randomness yields nonergodic Birkhoff convergence for lower-semicomputable observables",
+      "statement": "Let mu be a computable probability measure on Cantor space, T a computable measure-preserving operator in SRC-0062's possibly partial convention, and f a nonnegative integrable lower semicomputable function. For every mu-Oberwolfach-random point z, the Birkhoff averages n^{-1} sum_{i<n} f(T^i(z)) converge.",
+      "hypotheses": [
+        "mu is a computable probability measure on Cantor space",
+        "T is a computable measure-preserving operator and is explicitly not assumed total",
+        "f is nonnegative, integrable and lower semicomputable",
+        "z is mu-Oberwolfach random",
+        "no ergodicity assumption"
+      ],
+      "direction": "randomness implies nonergodic convergence",
+      "source_support": [
+        {
+          "source": "SRC-0062",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 6, Theorem 6.1 and the following note on non-totality"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0029",
+        "DEF-0059"
+      ],
+      "relations": [
+        "REL-0062"
+      ],
+      "cautions": [
+        "The source uses a measure-relative Oberwolfach-random definition; DEF-0029 is the catalogued fair-coin form.",
+        "The operator is not assumed everywhere total, so this theorem does not settle CAND-02's total-map restriction.",
+        "The result is one-way sufficiency, not a converse characterization.",
+        "For fair coin, bounded effectively-open indicators lie inside the stated observable class, but that specialization alone does not identify the exact CAND-02 class."
+      ]
+    },
+    {
+      "id": "THM-0074",
+      "name": "Effective Birkhoff equality for effectively open indicators under computable ergodic amenable-group actions",
+      "statement": "Let Gamma be a computable amenable group with a canonically computable tempered two-sided Folner sequence, and let (2^N,mu,Gamma) be a computable ergodic Cantor Gamma-system. For every effectively open U and every mu-Martin-Löf-random omega, the Folner averages of 1_U along the Gamma-action converge to mu(U).",
+      "hypotheses": [
+        "mu is a computable probability measure on Cantor space",
+        "Gamma acts computably by measure-preserving automorphisms; the source's computable Cantor maps are total",
+        "the Gamma-system is ergodic",
+        "U is effectively open",
+        "omega is mu-Martin-Löf random",
+        "averages are along the source's computable tempered two-sided Folner sequence"
+      ],
+      "direction": "randomness implies effective ergodic equality",
+      "source_support": [
+        {
+          "source": "SRC-0063",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 2.3-2.5 conventions and Section 3.2, Lemma 3.1"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0005"
+      ],
+      "relations": [
+        "REL-0063"
+      ],
+      "cautions": [
+        "Ergodicity is required and the limit is identified with mu(U).",
+        "The action is by automorphisms, which is stronger structural data than an arbitrary measure-preserving self-map.",
+        "The averaging scheme is an amenable-group Folner average rather than CAND-02's unrestricted one-sided iterates, so no equivalence is inferred.",
+        "This result is retained as a total-map/effectively-open benchmark, not an exact CAND-02 theorem."
+      ]
     }
   ]
 }
