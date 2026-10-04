@@ -15,7 +15,7 @@ Repository: https://github.com/jfairfaxball-348/random
 10. `authoritative/DECISION_LOG.md`
 11. `docs/FAILURE_AND_LESSON_LEDGER.md`
 12. `authoritative/SESSION_LEDGER.md`
-13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` and `phase3/P3-S002_PRIOR_ART.md`; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
+13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, and `phase3/P3-S004_SIGNIFICANCE.md`; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
 
 ## Current authority
 
@@ -31,8 +31,8 @@ P3-S002 completed one bounded primary-source prior-art attack on CAND-02. Frankl
 
 P3-S003 completed one bounded primary-source prior-art attack on CAND-03. Kihara–Miyabe (SRC-0064 / DEF-0065) define the parameterized uniform-lowness class Low^star(C,D); with C=D=computable randomness and SRC-0032 / DEF-0025 fixing the globally total all-oracle-valid uniform martingale convention, CAND-03 is exactly the Low^star(CR,CR) instance at the definition level. CAND-03 is therefore retired as a candidate for a new named notion. No inspected statement characterized the specific Low^star(CR,CR) instance intrinsically, and no openness is inferred.
 
-CAND-01 and CAND-02 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**: neither is established already known, equivalent/rebranded, materially distinct, open or novel. Their exact formulas and E1/E2 alignments are unchanged. CAND-03 is **EQUIVALENT_OR_REBRANDED at the definition level** and rejected for programme novelty purposes. No final candidate is selected; Gate 3 is not reviewed; Phase 4 remains CLOSED.
+CAND-01 and CAND-02 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**: neither is established already known, equivalent/rebranded, materially distinct, open or novel. Their exact formulas and E1/E2 alignments are unchanged. CAND-03 is **EQUIVALENT_OR_REBRANDED at the definition level** and rejected for programme novelty purposes. P3-S004 additionally assessed CAND-01's significance as **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT**: finite multiplicity is a recognized structural axis in adjacent dynamics/information-theory literature, but no inspected evidence shows that the bare global cardinal bound has a computable-randomness consequence. No final candidate is selected; Gate 3 is not reviewed; Phase 4 remains CLOSED.
 
-Recommended next bounded session: `P3-S004`, a significance/usefulness and likely-interested-community assessment on surviving CAND-01 only. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
+Recommended next bounded session: `P3-S005`, a significance/usefulness and likely-interested-community assessment on surviving CAND-02 only. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
