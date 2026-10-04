@@ -517,3 +517,15 @@ Context: P3-S005 assessed CAND-02 after P3-S002 had already shown that no inspec
 Lesson: a syntactically unmatched intersection can still be a technical slice. Significance requires independent mathematical motivation for the component axes **and** evidence or a future theorem showing that their interaction matters. In effective dynamics, total versus a.e./partial representation is especially dangerous: excluding a known witness class may create an apparent gap without creating a new randomness phenomenon.
 
 Operational guard: keep three questions separate in later work. (1) Are the component notions natural? (2) Does the exact interaction change the mathematics? (3) Is the resulting predicate novel? A positive answer to (1) does not settle (2), and neither settles (3). For CAND-02, totality remains the principal structural-risk item until a theorem or decisive source addresses it.
+
+## FL-046 — Selection readiness does not require eliminating the research risk
+
+Session: `P3-S006`  
+Status: PHASE-3 READINESS / DECISION-SEPARATION GUARD
+
+A candidate can be ready for a selection/NO-GO decision while still carrying the central uncertainty that later mathematics would have to resolve. Demanding that Phase 3 first prove that CAND-01's finite-fibre restriction changes computable-randomness behaviour, or that CAND-02's totality restriction is not a representation artifact, would turn a readiness audit into unauthorized proof work.
+
+Resolution: P3-S006 records **READY_FOR_SELECTION_DECISION** because the missing items are not undocumented evidence categories; they are explicit comparative research risks. CAND-01 remains provisionally substantive with no established finite-fibre randomness consequence. CAND-02 remains provisionally substantive with elevated totality/technical-slice risk. A later selection session must weigh those risks rather than pretending they are resolved.
+
+Lesson: distinguish an **evidence gap that prevents an informed programme decision** from an **open mathematical risk that is the reason to fund or reject the next phase**. Readiness requires the former to be closed or explicit enough to decide; it does not require the latter to be mathematically settled.
+
