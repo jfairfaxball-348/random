@@ -2068,6 +2068,32 @@
         "The averaging scheme is an amenable-group Folner average rather than CAND-02's unrestricted one-sided iterates, so no equivalence is inferred.",
         "This result is retained as a total-map/effectively-open benchmark, not an exact CAND-02 theorem."
       ]
+    },
+    {
+      "id": "THM-0075",
+      "name": "Ordinary lowness for computable randomness collapses to computable oracles",
+      "statement": "If an oracle A is low for computable randomness under ordinary oracle-relative computable martingales, then A is computable; conversely every computable oracle is trivially low, so ordinary low-for-computable-randomness oracles are exactly the computable oracles.",
+      "hypotheses": [
+        "computable randomness is DEF-0004",
+        "relative computable randomness uses the ordinary A-computable-martingale convention DEF-0021, not uniform martingale families DEF-0025"
+      ],
+      "direction": "characterization",
+      "source_support": [
+        {
+          "source": "SRC-0009",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 5.7, printed p. 285; converse for computable A is immediate from the definition"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0004",
+        "DEF-0021"
+      ],
+      "relations": [],
+      "cautions": [
+        "The nontrivial source theorem is the direction low for ordinary computable randomness implies computable.",
+        "This theorem does not characterize Low^star(CR,CR) and must not be transferred from ordinary oracle martingales to DEF-0025 uniform all-oracle families."
+      ]
     }
   ]
 }
