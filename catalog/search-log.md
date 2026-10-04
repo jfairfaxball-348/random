@@ -411,3 +411,30 @@ Scope: bounded primary-source consolidation of COV-0009, restricted to the princ
 
 Result: `COV-0009` becomes `PARTIAL_P1_S012`. All 19 coverage strata are now partial, but none is complete and Gate 1 remains not ready for review. The next recommended session is a bounded Phase-1 completion/source-gap audit.
 
+## P1-S013 — 2026-10-04 — Gate-1 completion/source-gap audit
+
+Scope: repository-wide Phase-1 audit against the Gate-1 minimum evidence. This session did not run another broad subject survey and did not treat a missing original source as automatically blocking.
+
+### Audit method
+
+- Compared all 19 committed coverage records with their required depth, dependencies, source-access limitations and the gate policy.
+- Checked source-access levels catalogue-wide: 42 `STATEMENT_INSPECTED`, 11 `ABSTRACT_INSPECTED`, 6 `METADATA_ONLY`.
+- Checked whether definition/theorem records relied only on weak access. The remaining notable weak-evidence records are explicit: `DEF-0012` (KL randomness) is abstract-inspected; `THM-0009` and `THM-0010` (constructive dimension) are abstract-inspected; `THM-0011` (KL dense-subsequence result) is abstract-inspected.
+- Verified that these weak-evidence records do not silently settle a Gate-1 transition, an equivalence, a converse, priority, or openness claim beyond their documented source granularity.
+- Reassessed the named residual provenance gaps from P1-S012 against whether exact current catalogue claims depend on them.
+
+### Residual-gap disposition
+
+No gate-critical source gap remains. Original Schnorr/Kurtz internals, Jockusch/Kurtz originals, the Demuth translation qualification, earliest standalone ML-NRFN provenance, selected Chaitin originals, the Solovay draft, Schnorr 1973, historical higher-randomness originals, Franklin-Greenberg-Miller-Ng and Kučera-Terwijn 1999 are retained as nonblocking provenance/history gaps because current exact theorem/definition syntax is either supported elsewhere or no theorem is promoted from the inaccessible source.
+
+COV-0016's omitted resource-bounded dimension material is accepted as a deliberately bounded omission: P1-S008's purpose was to establish the object/resource boundary, not to survey complexity theory.
+
+Constructive dimension and KL material remain explicit weak-evidence cautions. If Phase 2 develops a candidate or comparison that materially turns on exact supergale, dimension, or KL strategy syntax, those records must be upgraded before being used as decisive mathematical evidence.
+
+### Retrieval decision
+
+No external primary-source retrieval was performed in P1-S013 because the audit found no gate-critical gap that a small retrieval would need to settle. Launching source searches merely to reduce every provenance gap would have violated the bounded audit objective.
+
+### Structural validation finding
+
+`coverage-plan.json` used `PARTIAL_P1_S010`, `PARTIAL_P1_S011` and `PARTIAL_P1_S012` in records while omitting them from `status_vocabulary`. P1-S013 corrected this declared-vocabulary drift without changing substantive coverage statuses.
