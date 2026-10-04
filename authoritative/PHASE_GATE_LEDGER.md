@@ -3,13 +3,13 @@
 | Gate | Status | Meaning |
 |---|---|---|
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
-| Phase 1 -> Phase 2 | CLOSED | P1-S013 completed the Phase-1 coverage/source-gap audit and found the minimum catalogue evidence assembled for formal Gate-1 review. Gate 1 has **not** been reviewed or passed; Phase 2 remains CLOSED. |
-| Phase 2 -> Phase 3 | CLOSED | Phase 2 is not authorized. |
+| Phase 1 -> Phase 2 | PASS | P1-S014 formally reviewed Gate 1 and passed it. Phase 1 is complete for gate purposes and Phase 2 — Discovery is OPEN. The catalogue remains bounded/non-exhaustive and residual provenance gaps remain recorded. |
+| Phase 2 -> Phase 3 | CLOSED | Phase 2 is authorized/open, but Gate 2 has not been reviewed or passed. Phase 3 remains CLOSED. |
 | Phase 3 -> Phase 4 | CLOSED | Phase 3 is not authorized. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
 
-## Gate-1 evidence status after P1-S013
+## Pre-review Gate-1 evidence status after P1-S013 (historical)
 
 P1-S013 completed the coverage audit required by `docs/GATE_POLICY.md`. The result is **READY FOR FORMAL REVIEW**, not PASS.
 
@@ -48,4 +48,25 @@ P1-S013 found and corrected one catalogue-wide structural inconsistency: `covera
 
 Current generic coverage counts remain: 19 partial, 0 started-core, 0 started-edge, 0 navigation-only, 0 not-started; 0 complete. These counts do not block review because Gate 1 requires a completed coverage audit and a discovery-ready library, not a claim that every literature stratum is exhaustive.
 
-Therefore Gate 1 remains **CLOSED**, not `UNDER_REVIEW` and not `PASS`, but the next bounded task is a separate formal Gate-1 review session that may record PASS / FAIL / BACKTRACK. No Phase-2 discovery may be performed in that same review session.
+At the end of P1-S013 Gate 1 remained **CLOSED** and ready for separate formal review. That historical posture was superseded by the P1-S014 formal review below; no Phase-2 discovery was performed in the review session.
+
+
+## Gate-1 formal review — P1-S014
+
+Formal outcome: **PASS**.
+
+P1-S014 independently reviewed the committed Phase-1 library against every Gate-1 minimum-evidence requirement in `docs/GATE_POLICY.md`. It confirmed the structured catalogue, completed 19-stratum audit, stable-ID indexes, relationship map, status provenance, search/retrieval record and explicit uncertainty register are fit to support bounded Discovery.
+
+The PASS does not erase residual gaps. Original Schnorr/Kurtz and Jockusch/Kurtz internals, Demuth translation qualification, earliest standalone ML-NRFN provenance, selected early Chaitin/Kolmogorov/Levin/Schnorr provenance, the Solovay draft, Schnorr 1973, historical higher-randomness originals, Franklin-Greenberg-Miller-Ng and Kučera-Terwijn 1999 remain recorded as provenance/access gaps. Abstract-level KL and constructive-dimension records remain cautioned and must be upgraded before a future Discovery claim relies on their exact formulations. COV-0016 remains deliberately bounded.
+
+Gate-1 PASS means **discovery-ready, not exhaustive**. It does not select a candidate, establish novelty or authorize Phase 3.
+
+Authorization after P1-S014:
+
+- Phase 1: **COMPLETED**
+- Phase 2 — Discovery: **OPEN**
+- Phases 3–5: **CLOSED**
+- candidate selected: **NO**
+- Phase-2 substantive work performed in P1-S014: **NO**
+
+Formal review record: `phase1/P1-S014_GATE1_REVIEW.md`
