@@ -1,9 +1,9 @@
 # Phase 2 — Discovery
 
-Status: **OPEN** after Gate-1 PASS in P1-S014. Gate 2 has not been reviewed; Phases 3–5 remain CLOSED.
+Status: **COMPLETED FOR GATE PURPOSES** after formal Gate-2 PASS in P2-S006. Phase 3 — Novelty / Prior Art — is OPEN.
 
-Purpose: use the completed Phase-1 knowledge base to identify a bounded portfolio of mathematically precise questions or candidate notions. This phase does not certify novelty or establish literature openness.
+Purpose: build a bounded portfolio of mathematically precise questions or candidate notions without certifying novelty. That purpose is complete for gate purposes.
 
-Do not preselect "Fairfax-Ball Randomness" by forcing a definition. Candidate discovery must be driven by the mapped mathematics.
+Current Discovery records and the stable candidate index live in [phase2/](../phase2/README.md). The final Phase-2 portfolio retains CAND-01, CAND-02 and CAND-03 provisionally, with E1–E3 resolved, and preserves CAND-04, CAND-05 and CAND-06 as rejected shapes. No final candidate is selected and Fairfax-Ball Randomness is not defined.
 
-Current session records and the stable candidate index live in [phase2/](../phase2/README.md). P2-S001 retained three provisional directions and rejected three catalogued duplicates/collapses; P2-S002 resolved CAND-02 formulation task E2 and retained its exact shape unchanged. No final candidate is selected and Fairfax-Ball Randomness is not defined.
+Gate-2 PASS authorizes Phase-3 prior-art work; it does not itself establish novelty or openness.
