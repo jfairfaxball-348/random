@@ -2170,6 +2170,38 @@
         "Low for K, K-triviality and low for Martin-Löf randomness are kept as separate definitions and connected only by THM-0069/THM-0070/THM-0003.",
         "The direction K^A(σ)≤K(σ)+O(1) is automatic because an oracle machine can ignore its oracle; lowness requires the reverse inequality up to a constant."
       ]
+    },
+    {
+      "id": "DEF-0064",
+      "name": "Endomorphism randomness",
+      "object_domain": "point x in a computable probability space (X,mu)",
+      "effective_resources": "all a.e.-computable measure-preserving endomorphisms T:(X,mu)->(X,mu)",
+      "framework": "preservation of computable randomness under all endomorphisms",
+      "measure_assumptions": "general computable probability space; the Cantor fair-coin specialization is atomless",
+      "relativization": "not applicable",
+      "aliases": [
+        "endomorphism random",
+        "endomorphism randomness"
+      ],
+      "formal_summary": "x is endomorphism random iff T(x) is computably random for every a.e.-computable measure-preserving endomorphism T of the ambient computable probability space.",
+      "equivalent_characterizations": [
+        "THM-0071"
+      ],
+      "relationships": [
+        "REL-0060"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0060",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition 10.1; morphism definition in Section 7"
+        }
+      ],
+      "cautions": [
+        "The source endomorphism class is a.e.-computable, not everywhere-total.",
+        "No finite-to-one or uniformly bounded fibre hypothesis is part of the definition.",
+        "Do not identify this notion with CAND-01's restricted R_fin predicate."
+      ]
     }
   ]
 }
