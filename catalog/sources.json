@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S010",
+  "session": "P1-S011",
   "checked_on": "2026-10-04",
   "records": [
     {
@@ -17,7 +17,7 @@
       "doi": "10.1016/S0019-9958(66)80018-9",
       "arxiv": null,
       "stable_locator": "https://doi.org/10.1016/S0019-9958(66)80018-9",
-      "access_level": "ABSTRACT_INSPECTED",
+      "access_level": "STATEMENT_INSPECTED",
       "topics": [
         "algorithmic-randomness",
         "martin-lof-randomness",
@@ -32,27 +32,43 @@
         "constructive null set"
       ],
       "definitions": [
-        "DEF-0002"
+        "DEF-0002",
+        "DEF-0060"
       ],
-      "theorems": [],
+      "theorems": [
+        "THM-0065",
+        "THM-0066"
+      ],
       "questions": [],
       "priority_relevance": "Seminal primary source for Martin-Löf's effective-test approach to individual infinite sequences.",
-      "notes": "Publisher abstract inspected. It states that the infinite-sequence definition yields nonrandom sequences forming a maximal constructive null set and is equivalent to withstanding a universal stochasticity test. Exact internal theorem numbering and proof details remain uninspected in P1-S001.",
+      "notes": "Publication identity and DOI were cross-checked against the ScienceDirect record. P1-S011 statement inspection used a full article scan hosted by the University of California, Irvine, not the publisher copy. Section III gives the fair-coin sequential-test formulation, universal test, finite-critical-level definition and maximal constructive null set; Section IV separately treats arbitrary computable sequential probability distributions and uses a strict level inequality because strict comparison of computable reals is semidecidable whereas non-strict comparison need not be. The finite-string complexity comparison in Section II uses Martin-Löf's conditional plain program-length K(x|l(x)); it must not be read as the later prefix-free initial-segment characterization THM-0001.",
       "inspected_material": [
-        "publisher metadata",
-        "publisher abstract"
+        "publisher metadata and abstract",
+        "full article scan hosted by University of California, Irvine",
+        "Section III, printed pp. 609-612: fair-coin sequential tests, universal sequential test, infinite-sequence definition and constructive-null-set reformulation",
+        "Section IV, printed pp. 612-614: arbitrary computable sequential probability distributions and universal tests"
       ],
       "pointers": [
-        "Information and Control 9(6) (1966), 602-619"
+        "Information and Control 9(6) (1966), 602-619",
+        "printed p. 610: r.e. nested extension-closed sequential tests and universal-shift theorem",
+        "printed p. 611: finite universal critical level defines random infinite binary sequences; nonrandom set is the universal nested effective null set",
+        "printed p. 612: maximal constructive null-set reformulation",
+        "printed pp. 613-614: arbitrary computable sequential distributions; strict level inequality and universal test"
       ],
       "cross_links": [
         "SRC-0007",
-        "SRC-0011"
+        "SRC-0011",
+        "SRC-0059"
       ],
-      "checked_on": "2026-10-03",
-      "exact_relevance": "Seminal primary source for Martin-Löf's effective-test approach to individual infinite sequences.",
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Original statement-level source for the fair-coin universal sequential-test definition of infinite randomness, its maximal constructive-null-set reformulation, and the paper's separately formulated extension to arbitrary computable sequential probability distributions.",
       "inspected_claims": [
-        "Publisher abstract: Kolmogorov-style random elements withstand a universal stochasticity test; for infinite binary sequences the nonrandom sequences form a maximal constructive null set."
+        "For fair coin, a sequential test is represented by an r.e. U⊆N×2^{<ω} whose levels are nested in significance, extension-closed, and satisfy the exact counting bound corresponding to measure at most 2^-m.",
+        "There exists a universal sequential test U such that for every sequential test V there is a constant c with V_{m+c}⊆U_m for every m≥1.",
+        "An infinite binary sequence is random exactly when its critical level with respect to a universal sequential test is finite; the definition is independent of the chosen universal test.",
+        "The nonrandom sequences are exactly the intersection of the universal test's nested constructively open levels and form a maximal constructive null set containing every constructive null set.",
+        "For an arbitrary computable sequential distribution p, the paper requires p(x)=p(x0)+p(x1), defines p-computability via computable real values, and uses a strict <2^-m level bound because < is effectively recognizable for computable reals whereas ≤ need not be.",
+        "The paper's finite-string universal-test comparison is |l(x)-K(x|l(x))-m(x)|<O(1) for its conditional plain program-size K; this is not the later prefix-free K initial-segment theorem."
       ]
     },
     {
@@ -3628,6 +3644,74 @@
         "Within fair-coin Cantor space, every non-Martin-Löf-random x has a computable measure-preserving transformation and computable set for which x fails the relevant Birkhoff convergence, giving the converse to the positive computable-observable theorem.",
         "Every weakly 2-random x in fair-coin Cantor space has convergent Birkhoff averages for every computable measure-preserving transformation and every lower semicomputable observable in the paper's setting.",
         "The nonergodic conclusions are convergence statements; without ergodicity the limit is not silently identified with the space expectation."
+      ]
+    },
+    {
+      "id": "SRC-0059",
+      "title": "Computing halting probabilities from other halting probabilities",
+      "authors": [
+        "George Barmpalias",
+        "Andrew Lewis-Pye"
+      ],
+      "author_ids": [
+        "AUT-0065",
+        "AUT-0066"
+      ],
+      "year": 2017,
+      "source_type": "journal_article",
+      "doi": "10.1016/j.tcs.2016.11.013",
+      "arxiv": "1602.06395",
+      "stable_locator": "https://doi.org/10.1016/j.tcs.2016.11.013",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "algorithmic-randomness",
+        "martin-lof-randomness",
+        "solovay-tests",
+        "martingales",
+        "halting-probability",
+        "chaitin-omega"
+      ],
+      "aliases_search_terms": [
+        "Solovay test Martin-Löf randomness",
+        "c.e. martingale Martin-Löf randomness",
+        "lower semicomputable martingale",
+        "Barmpalias Lewis-Pye halting probabilities"
+      ],
+      "definitions": [
+        "DEF-0061",
+        "DEF-0062"
+      ],
+      "theorems": [
+        "THM-0067",
+        "THM-0068"
+      ],
+      "questions": [],
+      "priority_relevance": "Later primary research source explicitly stating exact Solovay-test and c.e.-martingale characterizations of Martin-Löf randomness with the effectivity and passing conventions needed for COV-0003.",
+      "notes": "Published identity was verified as Theoretical Computer Science 660 (2017), 16-22, DOI 10.1016/j.tcs.2016.11.013. Statement inspection used arXiv:1602.06395v2, especially §2 pp. 3-4. The Solovay and c.e.-martingale characterizations are explicit preliminary statements rather than numbered main theorems of this paper. The source attributes the Solovay characterization to Solovay [Sol75]; the underlying Solovay draft itself remains uninspected, so this record is not used to claim direct original-source priority.",
+      "inspected_material": [
+        "ScienceDirect publication metadata/abstract",
+        "arXiv:1602.06395v2 full text",
+        "§2 preliminaries, printed pp. 3-4"
+      ],
+      "pointers": [
+        "Theoretical Computer Science 660 (2017), 16-22",
+        "arXiv v2 p. 3: Solovay-test definition, finite-hit passing convention, and ML-randomness equivalence",
+        "arXiv v2 pp. 3-4: c.e. martingale definition, lower approximation convention, divergence success and ML-randomness equivalence"
+      ],
+      "cross_links": [
+        "SRC-0001",
+        "SRC-0045",
+        "SRC-0047",
+        "SRC-0008"
+      ],
+      "checked_on": "2026-10-04",
+      "exact_relevance": "Exact fair-coin later-primary formulations of ordinary Solovay tests and lower-semicomputable/c.e. martingales that characterize Martin-Löf randomness.",
+      "inspected_claims": [
+        "A Solovay test is a computable sequence of finite strings (σ_i) with Σ_i 2^{-|σ_i|} bounded; a real avoids the test iff only finitely many σ_i are prefixes of its binary expansion.",
+        "The paper explicitly states that a real is Martin-Löf random iff it avoids every such Solovay test.",
+        "A martingale is f:2^{<ω}→R_{≥0} with f(σ0)+f(σ1)=2f(σ); it is c.e. when its values are uniformly computably approximable from below by nondecreasing rational approximations.",
+        "The source's success convention is lim_n f(X↾n)=∞, and it explicitly states that X is Martin-Löf random iff no c.e. martingale succeeds on X.",
+        "The ordinary Solovay-test condition here requires only a finite/bounded Kraft sum; it does not require the total sum to be a computable real."
       ]
     }
   ]

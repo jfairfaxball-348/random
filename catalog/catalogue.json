@@ -16,12 +16,12 @@
     "taxonomy": "catalog/taxonomy.md"
   },
   "counts": {
-    "sources": 58,
-    "definitions": 59,
-    "theorems": 64,
-    "relations": 54,
+    "sources": 59,
+    "definitions": 62,
+    "theorems": 68,
+    "relations": 57,
     "questions": 1,
-    "authors": 64,
+    "authors": 66,
     "coverage_records": 19
   },
   "sources": [
@@ -82,7 +82,8 @@
     "SRC-0055",
     "SRC-0056",
     "SRC-0057",
-    "SRC-0058"
+    "SRC-0058",
+    "SRC-0059"
   ],
   "definitions": [
     "DEF-0001",
@@ -143,7 +144,10 @@
     "DEF-0056",
     "DEF-0057",
     "DEF-0058",
-    "DEF-0059"
+    "DEF-0059",
+    "DEF-0060",
+    "DEF-0061",
+    "DEF-0062"
   ],
   "theorems": [
     "THM-0001",
@@ -209,7 +213,11 @@
     "THM-0061",
     "THM-0062",
     "THM-0063",
-    "THM-0064"
+    "THM-0064",
+    "THM-0065",
+    "THM-0066",
+    "THM-0067",
+    "THM-0068"
   ],
   "relations": [
     "REL-0001",
@@ -265,7 +273,10 @@
     "REL-0051",
     "REL-0052",
     "REL-0053",
-    "REL-0054"
+    "REL-0054",
+    "REL-0055",
+    "REL-0056",
+    "REL-0057"
   ],
   "questions": [
     "QST-0001"
@@ -334,7 +345,9 @@
     "AUT-0061",
     "AUT-0062",
     "AUT-0063",
-    "AUT-0064"
+    "AUT-0064",
+    "AUT-0065",
+    "AUT-0066"
   ],
   "search_terms": [
     "Martin-Löf random",
@@ -421,7 +434,12 @@
     "layerwise computable",
     "effective recurrence",
     "non-ergodic Birkhoff",
-    "mixing computable dynamics"
+    "mixing computable dynamics",
+    "universal sequential test",
+    "constructive null set",
+    "Solovay test",
+    "c.e. martingale",
+    "lower semicomputable martingale"
   ],
   "coverage_records": [
     "COV-0001",
@@ -444,9 +462,9 @@
     "COV-0018",
     "COV-0019"
   ],
-  "coverage_summary": "P1-S010 consolidated COV-0014 at primary statement level. The catalogue now distinguishes Gács-Hoyrup-Rojas atomless computable-probability-space Schnorr characterization by their exact effective mixing/independence notions; V'yugin's computable-measure Cantor-space Martin-Löf Birkhoff convergence with the nonergodic/ergodic limit distinction; Bienvenu-Day-Hoyrup-Mezhirov-Shen effective recurrence and Birkhoff theorems including computable-probability-space μ-layerwise extensions; and Franklin-Towsner's fair-coin nonergodic Martin-Löf characterization plus weak-2/lower-semicomputable convergence. Generalized-measure, transformation, observable and randomness resources are kept separate. COV-0014 is PARTIAL_P1_S010, not complete; Phase 1 remains incomplete with COV-0003 and COV-0009 still STARTED_CORE and other partial/source-provenance gaps outstanding.",
+  "coverage_summary": "P1-S011 consolidates COV-0003 at primary statement level. Martin-Löf's 1966 original is now internally indexed from a full inspected scan: fair-coin sequential tests are r.e., nested and extension-closed; a universal test dominates every other test after a test-dependent significance-level shift; random infinite sequences have finite universal critical level; and nonrandoms form the maximal constructive null set. The original paper's separate arbitrary-computable-distribution extension and its strict-inequality computable-real convention are preserved without overwriting the modern generalized-measure records. Later primary SRC-0059 supplies exact ordinary Solovay-test and c.e.-martingale characterizations, with the finite-sum/finite-hit and lower-semicomputable/divergence conventions kept distinct from Schnorr/computable-randomness resources. The prefix-free incompressibility characterization remains source-grounded and explicitly separated from Martin-Löf's historical conditional plain-complexity quantity. COV-0003 is PARTIAL_P1_S011, not complete; 18 strata are now partial and COV-0009 is the sole remaining STARTED_CORE stratum.",
   "gate_1_status": "NOT_READY_FOR_REVIEW",
-  "last_completed_session": "P1-S010",
+  "last_completed_session": "P1-S011",
   "coverage": [
     "COV-0001",
     "COV-0002",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S010",
+  "session": "P1-S011",
   "records": [
     {
       "id": "DEF-0001",
@@ -43,7 +43,10 @@
       "formal_summary": "A Martin-Löf test is a uniformly c.e. sequence of effectively open sets with μ(U_n) ≤ 2^-n. X is Martin-Löf random iff it is not in the intersection of any Martin-Löf test (equivalently, it passes every such test).",
       "equivalent_characterizations": [
         "THM-0001",
-        "THM-0020"
+        "THM-0020",
+        "THM-0066",
+        "THM-0067",
+        "THM-0068"
       ],
       "relationships": [
         "REL-0001",
@@ -51,7 +54,10 @@
         "REL-0011",
         "REL-0016",
         "REL-0020",
-        "REL-0052"
+        "REL-0052",
+        "REL-0055",
+        "REL-0056",
+        "REL-0057"
       ],
       "source_support": [
         {
@@ -61,8 +67,8 @@
         },
         {
           "source": "SRC-0001",
-          "evidence": "ABSTRACT_INSPECTED",
-          "pointer": "publisher abstract"
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section III, printed pp. 609-612"
         },
         {
           "source": "SRC-0047",
@@ -71,7 +77,9 @@
         }
       ],
       "cautions": [
-        "P1-S007 object guard: SRC-0047 explicitly applies these Martin-Löf tests to infinite binary sequences and distinguishes them from tests applied to finite strings."
+        "P1-S007 object guard: SRC-0047 explicitly applies these Martin-Löf tests to infinite binary sequences and distinguishes them from tests applied to finite strings.",
+        "P1-S011 historical guard: SRC-0001's original fair-coin syntax uses r.e. nested, extension-closed sequential critical regions and finite critical level under a universal test; DEF-0002 is the modern uniformly effectively open normal form, not a verbatim quotation of the 1966 syntax.",
+        "SRC-0001 Section IV separately handles arbitrary computable sequential distributions. Do not use that historical extension to overwrite the modern generalized-measure records DEF-0005 or DEF-0033."
       ]
     },
     {
@@ -2000,6 +2008,104 @@
       "cautions": [
         "In nonergodic systems, convergence alone does not identify the limit with the space expectation.",
         "The Franklin-Towsner characterization theorems recorded in P1-S010 are fair-coin Cantor-space results; this general definition does not by itself generalize them."
+      ]
+    },
+    {
+      "id": "DEF-0060",
+      "name": "Martin-Löf 1966 randomness via a universal sequential test (fair-coin historical form)",
+      "object_domain": "infinite binary sequence X in 2^ω, represented through its finite prefixes",
+      "effective_resources": "an r.e. set U⊆N×2^{<ω} of critical regions; levels are nested with significance, extension-closed, and effectively enumerable",
+      "framework": "historical sequential stochasticity tests / constructive null sets",
+      "measure_assumptions": "fair-coin measure; for each level m and string length n the level contains at most 2^{n-m} strings of length n, equivalently the induced open level has measure at most 2^-m",
+      "relativization": "none in this historical record; ordinary oracle relativization remains DEF-0019",
+      "aliases": [
+        "Martin-Löf's original sequential randomness definition",
+        "universal sequential test randomness",
+        "finite critical-level randomness"
+      ],
+      "formal_summary": "In SRC-0001 Section III, a sequential test is an r.e. family U of nested, extension-closed critical regions satisfying the fair-coin level bound. A universal sequential test exists. For an infinite binary sequence X, the critical level m_U(X) is the limit/supremum of the critical levels of its prefixes; X is random iff this value is finite for a fixed universal sequential test.",
+      "equivalent_characterizations": [
+        "THM-0065",
+        "THM-0066"
+      ],
+      "relationships": [
+        "REL-0055"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0001",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section III, printed pp. 609-612"
+        }
+      ],
+      "cautions": [
+        "This record preserves the original 1966 syntax. The modern fair-coin uniformly effectively open formulation is DEF-0002.",
+        "The level parameter in the source starts at m=1 and the test is nested/extension-closed by definition; these are historical normal-form choices, not extra modern randomness strength.",
+        "Section IV of SRC-0001 treats arbitrary computable sequential distributions separately; no generalized computable-probability-space theorem is imported into this record."
+      ]
+    },
+    {
+      "id": "DEF-0061",
+      "name": "Solovay test for Martin-Löf randomness (ordinary fair-coin form)",
+      "object_domain": "computable sequence (σ_i) of finite binary strings, identified with basic cylinders in fair-coin Cantor space",
+      "effective_resources": "the string sequence is computable; the Kraft sum Σ_i 2^{-|σ_i|} is finite/bounded, with no requirement that its value be computable",
+      "framework": "Solovay / limsup effective null test",
+      "measure_assumptions": "fair-coin measure on Cantor space",
+      "relativization": "not treated in the inspected source record",
+      "aliases": [
+        "Solovay test",
+        "ordinary Solovay test",
+        "ML Solovay test"
+      ],
+      "formal_summary": "A Solovay test is a computable sequence of finite strings (σ_i) with bounded Σ_i2^{-|σ_i|}. A real passes/avoids the test iff only finitely many σ_i are prefixes of it.",
+      "equivalent_characterizations": [
+        "THM-0067"
+      ],
+      "relationships": [
+        "REL-0056"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0059",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "arXiv v2 p. 3, §2"
+        }
+      ],
+      "cautions": [
+        "Do not conflate this with DEF-0017, the Schnorr total-Solovay form, which additionally requires the finite total measure sum to be a computable real.",
+        "The inspected later primary source attributes this characterization to Solovay [Sol75], but that original draft remains uninspected in the catalogue."
+      ]
+    },
+    {
+      "id": "DEF-0062",
+      "name": "c.e. martingale used in the Martin-Löf-randomness characterization",
+      "object_domain": "nonnegative real-valued function f on finite binary strings",
+      "effective_resources": "f(σ) is uniformly computably approximable from below by a nondecreasing computable rational sequence",
+      "framework": "fair-coin betting strategy / lower-semicomputable martingale",
+      "measure_assumptions": "fair-coin martingale equality f(σ0)+f(σ1)=2f(σ)",
+      "relativization": "not treated in the inspected source record",
+      "aliases": [
+        "c.e. martingale",
+        "lower semicomputable martingale"
+      ],
+      "formal_summary": "A c.e. martingale is f:2^{<ω}→R_{≥0} satisfying f(σ0)+f(σ1)=2f(σ), with all values uniformly approximable from below. It succeeds on X in SRC-0059 when lim_n f(X↾n)=∞.",
+      "equivalent_characterizations": [
+        "THM-0068"
+      ],
+      "relationships": [
+        "REL-0057"
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0059",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "arXiv v2 pp. 3-4, §2"
+        }
+      ],
+      "cautions": [
+        "The resource is lower semicomputability/c.e., not computability. Do not replace it by the computable-martingale resource used for computable randomness.",
+        "The success convention in the inspected source is actual divergence of capital to +∞, not merely an unqualified limsup statement.",
+        "No arbitrary-measure or supermartingale generalization is asserted in this record."
       ]
     }
   ]

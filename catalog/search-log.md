@@ -346,3 +346,35 @@ Scope: bounded primary-source consolidation of COV-0014, limited to effective/co
 ### Bounded exclusions
 
 No Fairfax-Ball candidate was invented or selected; no Phase-2 target was selected; no dedicated novelty audit; no original mathematics or proof search beyond understanding published statements; no general recurrence/mixing/dynamical-systems survey; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+
+## P1-S011 — 2026-10-04
+
+Scope: bounded primary-source consolidation of COV-0003 only — Martin-Löf's original effective-test formulation, universal tests, exact ordinary Solovay and c.e.-martingale characterizations, and the minimum incompressibility cross-check needed to keep the foundational record coherent. This was not a general algorithmic-information, martingale, computability or historical survey.
+
+### Primary sources inspected / re-inspected
+
+- **SRC-0001 — Martin-Löf 1966, _The Definition of Random Sequences_.** ScienceDirect metadata/DOI fixed the publication identity; statement inspection used a full UCI-hosted scan. Section III, printed pp. 609-612, was inspected for the fair-coin sequential-test definition, effective enumeration of all tests, universal-test theorem, finite critical-level randomness definition, constructively open levels and maximal constructive-null-set reformulation. Section IV, printed pp. 612-614, was inspected for arbitrary computable sequential probability distributions and the strict level inequality.
+- **SRC-0059 — Barmpalias and Lewis-Pye, _Computing halting probabilities from other halting probabilities_.** Published identity was cross-checked as Theoretical Computer Science 660 (2017), 16-22, DOI `10.1016/j.tcs.2016.11.013`; exact statements were inspected in arXiv:`1602.06395v2`, §2 pp. 3-4. The source explicitly states the ordinary Solovay-test characterization and the c.e.-martingale characterization with the needed effectivity and passing/success conventions.
+- **SRC-0045 / SRC-0047** remain the already statement-inspected primary anchors for the self-delimiting/prefix-free incompressibility characterization and its finite/infinite object guard. They were used only to reconcile the COV-0003 complexity edge; no broader Ω tranche was reopened.
+
+### Exact formulation reconciliation
+
+1. Martin-Löf's original fair-coin sequential tests are not written in the modern one-line open-set syntax. The source uses an r.e. `U⊆N×2^{<ω}`, significance-level nesting, extension closure, and the counting bound corresponding to fair-coin measure `≤2^-m`.
+2. The universal-test theorem is a level-shift domination theorem: for every sequential test `V`, `V_{m+c}⊆U_m` for all `m≥1`, with `c` depending on the test.
+3. Original infinite randomness is finite critical level for a universal sequential test. The paper itself converts the universal levels to nested constructively open sets and proves that the nonrandom class is maximal among constructive null sets.
+4. In the original arbitrary-computable-distribution section, the level bound is strict `<2^-m`. The source explicitly explains this by the semidecidability of strict comparison for computable reals. This historical convention was not imported into P1-S005's modern generalized-measure records.
+5. Ordinary Solovay tests in SRC-0059 require a computable string sequence with a finite/bounded Kraft sum and are passed by finitely many prefix hits. **No computability of the total sum is required.** That condition is therefore not the total-Solovay/Schnorr convention DEF-0017.
+6. The martingale characterization uses c.e./uniformly lower-semicomputable martingale values and success by capital tending to infinity. It is not the computable-martingale resource used for computable randomness.
+7. The existing prefix-free `K(X↾n)≥n-O(1)` characterization remains distinct from Martin-Löf 1966's conditional plain-complexity finite-string formula. No plain/prefix-free notation collapse was made.
+
+### Retrieval failures / provenance qualifications
+
+- **Solovay 1975 draft:** still not independently statement-inspected. SRC-0059 explicitly attributes the ordinary Solovay characterization to Solovay, but P1-S011 does not reconstruct original theorem wording, numbering or priority from that citation.
+- **Schnorr 1973, _Process Complexity and Effective Random Tests_:** publisher/open-archive metadata and abstract were located, but available direct full-text retrieval was not reliable enough for statement promotion in this bounded pass. No internal theorem was filled from the abstract or an aggregator.
+- The original Martin-Löf publication identity and the copy actually inspected are different provenance facts: the DOI/publisher record establishes the article; the UCI-hosted scan supplied internal statements. The catalogue records both.
+- No unavailable statement was filled from a textbook, survey, secondary summary or abstract.
+
+### Bounded exclusions
+
+No Schnorr/computable/Kurtz tranche was reopened; no ordinary/uniform oracle relativization; no stronger-test hierarchy; no generalized-measure rewrite; no category, Ω/left-c.e., pseudorandomness, higher-randomness or effective-ergodic expansion beyond direct cross-links already present. No Fairfax-Ball candidate invention/selection, no Phase-2 target selection, no novelty audit, no original mathematics/proof search, no Lean/Palomar, no manuscript/publication work, and no outreach.

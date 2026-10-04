@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S010",
+  "session": "P1-S011",
   "records": [
     {
       "id": "THM-0001",
@@ -21,6 +21,11 @@
           "source": "SRC-0047",
           "evidence": "STATEMENT_INSPECTED",
           "pointer": "Definition 1.8, preceding Martin-Löf⇒Chaitin statement, and Theorem 1.9, printed pp. 200-201"
+        },
+        {
+          "source": "SRC-0045",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Definition of Randomness and following Remark, article reprint printed p. 215"
         }
       ],
       "related_definitions": [
@@ -29,7 +34,9 @@
       ],
       "relations": [],
       "cautions": [
-        "P1-S007 preserves the object distinction: K is evaluated on finite initial segments X↾n, while the randomness predicate is on the infinite sequence X."
+        "P1-S007 preserves the object distinction: K is evaluated on finite initial segments X↾n, while the randomness predicate is on the infinite sequence X.",
+        "SRC-0045 states the self-delimiting H version with a strict > n-c inequality; this is the same additive-constant form after renaming the constant, but it is not plain complexity.",
+        "SRC-0001's 1966 finite-string relation uses conditional plain K(x|l(x)) and critical level. P1-S011 does not identify that historical quantity with the later prefix-free K characterization or adjudicate earliest Levin/Schnorr priority from an uninspected original."
       ]
     },
     {
@@ -1738,6 +1745,120 @@
       "cautions": [
         "Without ergodicity the theorem asserts convergence only; it does not identify the limit with ∫f dμ.",
         "Do not transfer this weak-2 result to arbitrary computable measures/spaces without a separately inspected theorem."
+      ]
+    },
+    {
+      "id": "THM-0065",
+      "name": "Universal sequential test in Martin-Löf's 1966 fair-coin formulation",
+      "statement": "For the fair-coin sequential tests of SRC-0001 there exists a universal sequential test U such that, for every sequential test V, there is a constant c (depending on U and V) with V_{m+c}⊆U_m for every m=1,2,….",
+      "hypotheses": [
+        "sequential tests are r.e. families U⊆N×2^{<ω} in the historical sense of DEF-0060",
+        "levels are nested/extension-closed and satisfy the fair-coin counting bound"
+      ],
+      "direction": "existence / universal domination up to a constant significance-level shift",
+      "source_support": [
+        {
+          "source": "SRC-0001",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section III, printed p. 610"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0060",
+        "DEF-0002"
+      ],
+      "relations": [
+        "REL-0055"
+      ],
+      "cautions": [
+        "This is the exact source's nested sequential-test form, not a claim that every later modern test is literally presented with the same syntax.",
+        "The constant is test-dependent; the theorem does not give one uniform shift working for all V."
+      ]
+    },
+    {
+      "id": "THM-0066",
+      "name": "Maximal constructive null-set characterization of Martin-Löf nonrandomness",
+      "statement": "In the fair-coin setting of SRC-0001, the sequences nonrandom for a universal sequential test are exactly the intersection of its nested constructively open levels, and this nonrandom class is a maximal constructive null set: every constructive null set is contained in it.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "constructively open and constructive-null-set notions are those of SRC-0001 Section III",
+        "the sequential test is universal as in THM-0065"
+      ],
+      "direction": "characterization / maximality",
+      "source_support": [
+        {
+          "source": "SRC-0001",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section III, printed pp. 611-612"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0060",
+        "DEF-0002"
+      ],
+      "relations": [
+        "REL-0055"
+      ],
+      "cautions": [
+        "SRC-0001 defines constructive nullness via a constructive sequence of constructively open covers whose measures tend to zero constructively fast; the paper then normalizes the covers to nested levels with measure at most 2^-m.",
+        "This theorem is fair-coin. The separate Section IV computable-distribution extension is not silently substituted for the generalized modern records."
+      ]
+    },
+    {
+      "id": "THM-0067",
+      "name": "Solovay-test characterization of Martin-Löf randomness",
+      "statement": "In fair-coin Cantor space, an infinite binary real X is Martin-Löf random iff it avoids every Solovay test, where a Solovay test is a computable sequence (σ_i) of finite strings with bounded Σ_i2^{-|σ_i|}, and avoidance means that only finitely many σ_i are prefixes of X.",
+      "hypotheses": [
+        "fair-coin Cantor space / binary expansion setting of SRC-0059",
+        "Solovay test as DEF-0061"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0059",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "§2, arXiv v2 p. 3"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0061"
+      ],
+      "relations": [
+        "REL-0056"
+      ],
+      "cautions": [
+        "The finite sum need not be a computable real. Adding computability of the total moves to the total-Solovay/Schnorr convention DEF-0017.",
+        "The inspected source explicitly attributes the result to Solovay, but the underlying Solovay draft remains uninspected; direct original-source priority is therefore not claimed here."
+      ]
+    },
+    {
+      "id": "THM-0068",
+      "name": "c.e.-martingale characterization of Martin-Löf randomness",
+      "statement": "In the fair-coin Cantor-space setting of SRC-0059, an infinite binary real X is Martin-Löf random iff no c.e. martingale f succeeds on X, where c.e. means uniformly approximable from below and success means lim_n f(X↾n)=∞.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "f is a nonnegative martingale satisfying f(σ0)+f(σ1)=2f(σ)",
+        "f is c.e./uniformly lower semicomputable as in DEF-0062"
+      ],
+      "direction": "equivalence",
+      "source_support": [
+        {
+          "source": "SRC-0059",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "§2, arXiv v2 pp. 3-4"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0062"
+      ],
+      "relations": [
+        "REL-0057"
+      ],
+      "cautions": [
+        "This is not the computable-martingale characterization of computable randomness: the effective resource is lower semicomputability.",
+        "No arbitrary computable measure, supermartingale normal form or oracle-relativized version is inferred in P1-S011."
       ]
     }
   ]

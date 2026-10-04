@@ -276,3 +276,30 @@ Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR R
 Recommended next bounded session: `P1-S011`, primary-source consolidation of COV-0003 (foundational Martin-Löf randomness), because after P1-S010 the only non-partial strata are COV-0003 and COV-0009 at STARTED_CORE, and the foundational Martin-Löf stratum is the higher-value dependency for the catalogue-wide theorem/characterization graph.
 
 The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.
+
+
+## P1-S011 — Foundational Martin-Löf randomness primary-source consolidation
+
+Status: COMPLETED
+
+Incoming checkpoint: `5af1bf425a4f85d5029d964d850a2d1218d1e93d`
+
+Scope completed: bounded primary-source consolidation of COV-0003. The session recovered and statement-inspected Martin-Löf's 1966 original, preserving its exact fair-coin sequential-test syntax, universal significance-level shift, finite universal critical-level definition, maximal constructive-null-set reformulation, and separate arbitrary-computable-distribution convention. It added exact later-primary ordinary Solovay-test and c.e.-martingale characterizations, while retaining the existing guarded prefix-free incompressibility theorem and explicitly separating it from Martin-Löf's historical conditional plain-complexity quantity.
+
+Catalogue at close: 59 sources; 62 definitions; 68 theorem/characterization records; 57 relationship records; 1 status-sensitive question; 66 author-navigation records; 19 coverage records.
+
+Coverage at close: 0/19 complete — 18 partial, 1 started-core, 0 started-edge, 0 navigation-only, 0 not-started. COV-0003 is now `PARTIAL_P1_S011`; COV-0009 is the sole remaining STARTED_CORE stratum.
+
+Validation: PASS at closeout; all modified catalogue/state JSON parses; stable-ID syntax/uniqueness and catalogue count/ID-set agreement pass; cross-file stable-ID references resolve; COV-0003 is exactly `PARTIAL_P1_S011`; `DEF-0020` is unchanged from the incoming checkpoint; Phase 1 remains OPEN and Phases 2–5 remain CLOSED.
+
+Close record: `phase1/P1-S011_CLOSE.md`
+
+Meaningful retrieval/convention lessons: FL-025 records recovery of the 1966 original together with its historical syntax/generalized-distribution hazards; FL-026 preserves the uninspected Solovay draft and unreliably retrieved Schnorr 1973 internals while grounding exact current characterizations in later statement-inspected primary literature.
+
+Explicit exclusions respected: no candidate invention/selection; no Phase-2 target selection; no dedicated novelty audit; no general algorithmic-information, martingale, complexity or historical survey; no original mathematics or proof search beyond understanding published statements; no Lean/Palomar; no manuscript/publication work; no outreach.
+
+Phase 1 remains OPEN. Phases 2–5 remain CLOSED. Gate 1 remains NOT READY FOR REVIEW. No owner/external blocker exists.
+
+Recommended next bounded session: `P1-S012`, primary-source consolidation of COV-0009 (lowness notions and bases for randomness), because it is now the sole STARTED_CORE stratum and is the highest-value remaining structural dependency before a broader Phase-1 completion audit.
+
+The exact outgoing `main` hash is verified after all closeout writes because a committed file cannot contain the hash of the commit that contains itself.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 1,
-  "session": "P1-S010",
+  "session": "P1-S011",
   "status": "IN_PROGRESS",
   "checked_on": "2026-10-04",
   "status_vocabulary": [
@@ -117,17 +117,24 @@
         "COV-0001"
       ],
       "expected_depth_required": "DEEP",
-      "present_coverage_status": "STARTED_CORE_P1_S001",
+      "present_coverage_status": "PARTIAL_P1_S011",
       "covered_by": [
         "SRC-0001",
         "SRC-0007",
-        "SRC-0011"
+        "SRC-0011",
+        "SRC-0045",
+        "SRC-0047",
+        "SRC-0059"
       ],
       "known_retrieval_access_limitations": [
-        "Original 1966 paper abstract inspected but its internal theorem statements/proofs were not yet fully indexed."
+        "P1-S011 recovered and statement-inspected the original 1966 Martin-Löf article through a UCI-hosted full scan, with publication identity/DOI independently verified. The catalogue now preserves its exact nested/extension-closed sequential-test syntax, universal significance-level shift, finite-critical-level definition, maximal constructive-null-set reformulation, and separate arbitrary-computable-distribution extension.",
+        "Solovay's 1975 manuscript remains uninspected. Exact ordinary Solovay-test and c.e.-martingale characterizations are therefore grounded in later statement-inspected primary SRC-0059; direct original Solovay priority/detail is not reconstructed from citation trails.",
+        "Schnorr's 1973 Process Complexity and Effective Random Tests was located bibliographically/open-archive at publisher level during P1-S011, but direct full-statement retrieval through the available route was not reliable enough for promotion. The existing prefix-free incompressibility theorem is instead grounded in statement-inspected primary SRC-0045/SRC-0047 plus the established survey cross-check; earliest Levin/Schnorr priority is not re-adjudicated here.",
+        "The martingale characterization added in P1-S011 is the fair-coin c.e./lower-semicomputable martingale form explicitly stated in SRC-0059. No arbitrary-measure, oracle-relative or supermartingale generalization is inferred."
       ],
       "next_actions": [
-        "Inspect original statements and add Solovay-test, martingale and further complexity characterizations with primary sources."
+        "If a reliable copy of the original Solovay draft or Schnorr 1973 internal statements becomes available, inspect it to close the remaining provenance gaps; otherwise preserve the present later-primary exact formulations.",
+        "Do not broaden COV-0003 by analogy into generalized measures, relativization, stronger tests or resource-bounded betting; those remain in their existing dedicated records."
       ]
     },
     {
@@ -719,7 +726,7 @@
         "ALL_NOTION_STRATA"
       ],
       "expected_depth_required": "DEEP_CROSS_CUTTING",
-      "present_coverage_status": "PARTIAL_P1_S007",
+      "present_coverage_status": "PARTIAL_P1_S011",
       "covered_by": [
         "SRC-0007",
         "SRC-0009",
@@ -741,12 +748,14 @@
         "SRC-0038",
         "SRC-0045",
         "SRC-0046",
-        "SRC-0047"
+        "SRC-0047",
+        "SRC-0059"
       ],
       "known_retrieval_access_limitations": [
         "P1-S005 adds exact generalized-measure/space edges for Martin-Löf and Schnorr conservation, computable-randomness NRFN and isomorphism invariance, Schnorr NRFN failure, computable Cantor representations, the atomless Lebesgue reduction, and separate fair-coin versus all-computable-measure ML maximality.",
         "The global graph remains incomplete across higher randomness, category-adjacent notions and several characterization families; no uninspected transitive, converse or fair-coin-to-general-measure edge is promoted.",
-        "P1-S007 adds exact edges separating arbitrary prefix-free halting probabilities, left-c.e. reals, universal Ω-numbers and Martin-Löf-random left-c.e. reals; no converse or universality claim is inferred beyond THM-0047/THM-0048."
+        "P1-S007 adds exact edges separating arbitrary prefix-free halting probabilities, left-c.e. reals, universal Ω-numbers and Martin-Löf-random left-c.e. reals; no converse or universality claim is inferred beyond THM-0047/THM-0048.",
+        "P1-S011 adds exact fair-coin formulation-equivalence, Solovay-test and c.e.-martingale characterization edges for Martin-Löf randomness. The ordinary finite-sum Solovay test is kept distinct from the Schnorr total-Solovay convention, and lower-semicomputable martingales are kept distinct from computable martingales."
       ],
       "next_actions": [
         "Extend only with exact inspected hypotheses; remaining high-value work should now target uncovered strata rather than re-generalizing P1-S004 fair-coin stronger notions without primary evidence."

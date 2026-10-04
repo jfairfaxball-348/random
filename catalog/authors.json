@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S010",
+  "session": "P1-S011",
   "records": [
     {
       "id": "AUT-0001",
@@ -958,6 +958,38 @@
       ],
       "source_ids": [
         "SRC-0058"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0065",
+      "name": "George Barmpalias",
+      "topics": [
+        "algorithmic-randomness",
+        "martin-lof-randomness",
+        "solovay-tests",
+        "martingales",
+        "halting-probability",
+        "chaitin-omega"
+      ],
+      "source_ids": [
+        "SRC-0059"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0066",
+      "name": "Andrew Lewis-Pye",
+      "topics": [
+        "algorithmic-randomness",
+        "martin-lof-randomness",
+        "solovay-tests",
+        "martingales",
+        "halting-probability",
+        "chaitin-omega"
+      ],
+      "source_ids": [
+        "SRC-0059"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }

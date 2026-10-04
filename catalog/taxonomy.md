@@ -366,3 +366,18 @@ Effective-ergodic records must carry four resources explicitly: the ambient prob
 - Franklin-Towsner: the inspected converse and weak-2 results are **fair-coin Cantor-space** statements. Their weak Birkhoff property means convergence only; their Birkhoff property additionally fixes the integral as the limit.
 
 Accordingly, do not infer that a classical almost-everywhere ergodic theorem characterizes any effective randomness notion. Do not transfer the P1-S004 stronger-test hierarchy, P1-S006 genericity, P1-S007 Ω, P1-S008 pseudorandomness or P1-S009 higher randomness into the dynamical setting without an inspected theorem. Minimal shift/frequency specializations are permitted only under the exact stationary/computable-measure hypotheses of the supporting source.
+
+
+## P1-S011 foundational Martin-Löf convention guard
+
+The foundational fair-coin record now has two deliberately separate syntax layers. `DEF-0060` preserves Martin-Löf's **1966 historical sequential-test form**: an r.e. family of finite-string critical regions indexed by significance level, nested as the significance becomes stricter, closed under extension of a rejected prefix, and satisfying the exact fair-coin counting bound. A universal sequential test absorbs each other test after a test-dependent additive shift of the level index, and an infinite binary sequence is random when its universal critical level is finite. The same source turns the universal levels into nested constructively open sets of measure at most `2^-m` and identifies the nonrandoms as the maximal constructive null set.
+
+`DEF-0002` remains the modern fair-coin normalization by uniformly effectively open levels of measure at most `2^-n`. `REL-0055` records equivalence of the selected random sequences, not literal syntactic identity of the test presentations. Do not retrofit the 1966 wording into later generalized-measure or oracle records.
+
+Martin-Löf's Section IV arbitrary-computable-distribution extension is historically important but has its own convention: the source uses a **strict** weighted level inequality because `a<b` for computable reals can be effectively recognized while `a≤b` cannot in general. This does not replace `DEF-0005` or `DEF-0033`, whose modern represented-measure/computable-probability-space resources remain exactly as established in P1-S005.
+
+Ordinary Solovay tests for Martin-Löf randomness are `DEF-0061`: a computable sequence of finite strings with **finite/bounded** `Σ_i 2^{-|σ_i|}`, passed when only finitely many listed strings are prefixes of the real. The value of the sum need not be computable. This is materially weaker as a test-effectivity requirement than the **total Solovay test** `DEF-0017` used for Schnorr randomness, where the finite total measure sum is a computable real. Never normalize “Solovay test” across those two records without the adjective/resource.
+
+The fair-coin betting characterization `DEF-0062` uses a **c.e./lower-semicomputable martingale**: values are uniformly approximable from below and success in the inspected source means `lim_n f(X↾n)=∞`. This resource is not the computable-martingale resource of computable randomness, and P1-S011 does not import a supermartingale, oracle or arbitrary-measure normal form by analogy.
+
+Finally, complexity notation is convention-sensitive. `THM-0001` is the later prefix-free/self-delimiting initial-segment characterization `K(X↾n)≥n-O(1)`. Martin-Löf's 1966 finite-string comparison instead uses conditional **plain** program-size `K(x|l(x))` against finite critical level. P1-S011 records that historical fact in SRC-0001 notes but does not identify the two complexities or turn a finite-string statement into an infinite-sequence characterization.

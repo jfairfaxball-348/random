@@ -76,3 +76,14 @@ The pass also corrects THM-0006/REL-0006 so the atomlessness hypothesis and gene
 The close counts are 58 sources, 59 definitions, 64 theorem/characterization records, 54 relation records, 1 status question, 64 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0014 is `PARTIAL_P1_S010`; 17 strata are partial and the remaining two, COV-0003 and COV-0009, are STARTED_CORE.
 
 Phase 1 remains materially incomplete and Gate 1 is not ready for review.
+
+
+## P1-S011 checkpoint
+
+P1-S011 consolidated the foundational COV-0003 Martin-Löf stratum at primary statement level. The original 1966 paper is now internally indexed from a full inspected scan: its fair-coin sequential tests are r.e., nested and extension-closed; its universal test absorbs any other sequential test after a test-dependent significance-level shift; infinite randomness is finite universal critical level; and the nonrandom class is the maximal constructive null set. The paper's separate arbitrary-computable-distribution construction, including its strict-inequality computable-real convention, is preserved without overwriting the modern generalized-measure machinery from P1-S005.
+
+A later primary paper now grounds the exact ordinary Solovay-test and c.e.-martingale characterizations. The catalogue explicitly separates finite/bounded Solovay sum from Schnorr's computable-total-sum convention and lower-semicomputable martingales from computable martingales. The prefix-free initial-segment incompressibility theorem remains distinct from Martin-Löf's historical conditional plain-complexity finite-string formula.
+
+The close counts are 59 sources, 62 definitions, 68 theorem/characterization records, 57 relation records, 1 status question, 66 author-navigation records and 19 coverage records. No coverage stratum is complete. COV-0003 is `PARTIAL_P1_S011`; 18 strata are partial and COV-0009 is now the sole STARTED_CORE stratum.
+
+Phase 1 remains materially incomplete and Gate 1 is not ready for review.

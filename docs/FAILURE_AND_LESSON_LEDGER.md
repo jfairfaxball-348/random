@@ -281,3 +281,30 @@ Franklin-Towsner's final journal identity is bibliographically clear, but its au
 Resolution: SRC-0058 records the journal DOI separately from the inspected arXiv artefact and uses content/section pointers rather than pretending final theorem numbering was checked. No theorem record is promoted from the Franklin-Greenberg-Miller-Ng abstract.
 
 Lesson: bibliographic publication identity, the exact copy inspected and theorem numbering are separate provenance facts. An abstract can guide retrieval but cannot fill a statement gap.
+
+
+## FL-025 — Martin-Löf 1966 original recovered, but historical test syntax is not the modern shorthand
+
+Session: `P1-S011`  
+Status: ORIGINAL SOURCE RESOLVED AT STATEMENT LEVEL / FORMULATION HAZARDS PRESERVED
+
+P1-S011 recovered a full scan of Martin-Löf's 1966 *The Definition of Random Sequences* and inspected the relevant internal statements. Publication identity and DOI were verified separately from the inspected UCI-hosted scan. The source does not literally present the now-standard one-line definition “uniformly effectively open U_n with μ(U_n)≤2^-n”: its fair-coin sequential tests are r.e. families of finite-string critical regions that are nested in significance and extension-closed, with an exact counting bound. Randomness is then finite critical level under a universal sequential test. The paper itself converts this to nested constructively open sets and proves that the nonrandoms form a maximal constructive null set.
+
+Section IV creates a second hazard. Martin-Löf treats arbitrary computable sequential probability distributions, but his level bound uses a **strict** inequality because strict comparison of computable reals is semidecidable whereas non-strict comparison need not be. This historical construction is not silently identified with the later computable-measure/computable-probability-space machinery already recorded in DEF-0005/DEF-0033.
+
+A third hazard is complexity notation: the 1966 finite-string critical-level theorem uses conditional plain program-size `K(x|l(x))`, not the later prefix-free/self-delimiting `K` of THM-0001.
+
+Resolution: SRC-0001 is upgraded only to the material actually inspected; DEF-0060 and THM-0065/THM-0066 preserve the historical formulation; REL-0055 records formulation equivalence to the modern fair-coin notion with an explicit non-verbatim-syntax caution. Existing generalized-measure and prefix-free-complexity records are not overwritten.
+
+Lesson: when normalizing a foundational definition, preserve the original representation, nesting/extension conditions, comparison effectivity and complexity convention. Mathematical equivalence does not make historical syntax interchangeable.
+
+## FL-026 — Solovay and Schnorr original characterization provenance remains incomplete
+
+Session: `P1-S011`  
+Status: LATER PRIMARY STATEMENTS RECOVERED / ORIGINAL-PROVENANCE GAPS PRESERVED / NOT A PROGRAMME BLOCKER
+
+The Solovay 1975 manuscript cited throughout later primary literature remains uninspected in the repository. P1-S011 therefore does not reconstruct its exact original theorem or priority details from citation trails. Instead, statement-inspected primary SRC-0059 explicitly gives the ordinary Solovay-test characterization needed here: a computable sequence of finite strings with finite/bounded Kraft sum, passed by only finitely many prefix hits. This condition is deliberately kept distinct from the computable-total-sum Schnorr convention in DEF-0017.
+
+Schnorr's 1973 *Process Complexity and Effective Random Tests* was located at publisher/open-archive metadata level, but the direct full-text routes available in this bounded session did not provide reliable inspectable internal statements. P1-S011 therefore does not use it to settle historical process-complexity or Levin–Schnorr priority details. The prefix-free incompressibility characterization remains grounded in already statement-inspected primary Chaitin/Kučera-Slaman material, and the c.e.-martingale characterization is grounded in SRC-0059.
+
+Lesson: an original citation target that cannot be inspected is not interchangeable with a later exact restatement. Preserve the provenance gap, and never upgrade a stronger effectivity condition (such as computable total measure) into the ordinary Solovay condition by terminology alone.

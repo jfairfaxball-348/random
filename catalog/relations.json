@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S010",
+  "session": "P1-S011",
   "records": [
     {
       "id": "REL-0001",
@@ -865,6 +865,60 @@
         }
       ],
       "caution": "Recorded as the recurrence interface used by the principal effective-ergodic theorem, not as a converse characterization."
+    },
+    {
+      "id": "REL-0055",
+      "type": "EQUIVALENCE",
+      "from": "DEF-0060",
+      "to": "DEF-0002",
+      "statement": "On fair-coin Cantor space, Martin-Löf's 1966 finite-universal-critical-level formulation and the modern fair-coin Martin-Löf test formulation pick out the same random infinite binary sequences; the original paper's universal sequential test yields a maximal constructive null set and the modern uniformly effectively open test syntax is a normalization of this effective-null mechanism.",
+      "support": [
+        {
+          "source": "SRC-0001",
+          "theorem": "THM-0065",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0001",
+          "theorem": "THM-0066",
+          "evidence": "STATEMENT_INSPECTED"
+        },
+        {
+          "source": "SRC-0047",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "Formulation equivalence is not verbatim syntactic identity: the 1966 source builds nesting and extension closure into sequential tests and defines randomness via finite universal critical level. This relation is fair-coin only and does not replace DEF-0005/DEF-0033."
+    },
+    {
+      "id": "REL-0056",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0002",
+      "to": "DEF-0061",
+      "statement": "A fair-coin infinite binary real is Martin-Löf random exactly when it avoids every ordinary Solovay test, with finite Kraft sum and finite-hit passing.",
+      "support": [
+        {
+          "source": "SRC-0059",
+          "theorem": "THM-0067",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "Ordinary Solovay tests here do not require the total sum to be computable; do not conflate REL-0056 with the Schnorr total-Solovay characterization REL-0013."
+    },
+    {
+      "id": "REL-0057",
+      "type": "CHARACTERIZATION",
+      "from": "DEF-0002",
+      "to": "DEF-0062",
+      "statement": "A fair-coin infinite binary real is Martin-Löf random exactly when no c.e./lower-semicomputable martingale succeeds on it by capital tending to infinity.",
+      "support": [
+        {
+          "source": "SRC-0059",
+          "theorem": "THM-0068",
+          "evidence": "STATEMENT_INSPECTED"
+        }
+      ],
+      "caution": "The martingale resource is c.e./lower semicomputable rather than computable, and the result is not generalized to arbitrary measures in P1-S011."
     }
   ]
 }
