@@ -1,6 +1,6 @@
 # Phase-1 Catalogue
 
-Phase 1 is **OPEN** and the catalogue is **IN PROGRESS**. This directory is a structured research library, not a claim of field completeness.
+Phase 1 is **COMPLETED FOR GATE PURPOSES** after Gate-1 PASS in P1-S014. This directory remains a structured, bounded research library, not a claim of field completeness. Later phases may upgrade weak-access records when a live claim materially depends on them.
 
 Use `catalogue.json` as the stable-ID entry point.
 
@@ -109,3 +109,14 @@ The structural audit also corrected the coverage-plan status vocabulary, which h
 Catalogue counts remain 59 sources, 63 definitions, 70 theorem/characterization records, 59 relation records, 1 status question, 66 author-navigation records and 19 coverage records.
 
 Phase 1 remains OPEN. Gate 1 is **READY FOR FORMAL REVIEW but not PASS**. Phases 2–5 remain CLOSED.
+
+
+## P1-S014 Gate-1 checkpoint
+
+P1-S014 performed the separate formal Gate-1 review required by `docs/GATE_POLICY.md` and recorded **PASS**. The decision confirms that the library is fit to support bounded Discovery; it does not claim exhaustive literature coverage.
+
+The 19 historical coverage records remain partial-depth records and all P1-S013 audit dispositions remain intact. Residual original-source/provenance gaps remain recorded. In particular, abstract-level Kolmogorov-Loveland and constructive-dimension material is navigation-only for decisive Discovery purposes until upgraded, and the absence of an exact supergale DEF record remains explicit. COV-0016 remains deliberately minimal.
+
+Catalogue counts are unchanged: 59 sources, 63 definitions, 70 theorem/characterization records, 59 relations, 1 status-sensitive question, 66 author-navigation records and 19 coverage records.
+
+Phase 2 — Discovery is now OPEN. P1-S014 itself performed no Phase-2 discovery, selected no candidate and made no novelty claim.
