@@ -6,7 +6,7 @@
   "active_phase": 3,
   "active_phase_name": "Novelty / Prior Art",
   "active_session": null,
-  "last_completed_session": "P3-S004",
+  "last_completed_session": "P3-S005",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 74
   },
-  "next_transition": "Run P3-S005: bounded Phase-3 significance/usefulness and interested-community assessment on surviving CAND-02 only; no original mathematics, final candidate selection, Gate-3 review or Phase-4 work.",
-  "recommended_next_session": "P3-S005",
+  "next_transition": "Run P3-S006: bounded comparative Phase-3 candidate-selection readiness audit over surviving CAND-01 and CAND-02 only; do not select a candidate, review Gate 3 or begin Phase 4.",
+  "recommended_next_session": "P3-S006",
   "active_blocker": null,
   "candidate_selected": false,
   "fairfax_ball_randomness_defined": false,
@@ -168,9 +168,9 @@
   },
   "phase3_gate_status": "NOT_REVIEWED",
   "phase3_prior_art": {
-    "last_session": "P3-S004",
+    "last_session": "P3-S005",
     "prior_art_index": "phase3/prior-art.json",
-    "latest_record": "phase3/P3-S004_SIGNIFICANCE.md",
+    "latest_record": "phase3/P3-S005_SIGNIFICANCE.md",
     "candidates": {
       "CAND-01": {
         "status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
@@ -200,7 +200,17 @@
           "SRC-0063"
         ],
         "exact_total_nonergodic_effectively_open_characterization_located": false,
-        "openness_claimed": false
+        "openness_claimed": false,
+        "significance_disposition": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3_ELEVATED_TECHNICAL_SLICE_RISK",
+        "significance_record": "phase3/P3-S005_SIGNIFICANCE.md",
+        "significance_sources": [
+          "SRC-0058",
+          "SRC-0062",
+          "SRC-0063",
+          "SRC-0057",
+          "SRC-0012"
+        ],
+        "technical_slice_risk": "ELEVATED_TOTALITY_REPRESENTATION_ARTIFACT_RISK"
       },
       "CAND-03": {
         "status": "EQUIVALENT_OR_REBRANDED",
