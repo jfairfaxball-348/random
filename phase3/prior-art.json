@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 3,
-  "last_updated_session": "P3-S001",
+  "last_updated_session": "P3-S002",
   "records": [
     {
       "id": "PA-0001",
@@ -65,6 +65,77 @@
         "uniformly p-to-one endomorphism / finite-to-one factor / bounded-to-one are established classical dynamics terms but no exact computable-randomness theorem was located in this bounded attack"
       ],
       "novelty_guard": "No openness or novelty conclusion is inferred from search absence. The exact finite-fibre restriction remains unresolved under the evidence inspected.",
+      "original_mathematics_performed": false,
+      "final_candidate_selected": false,
+      "gate3_review_performed": false
+    },
+    {
+      "id": "PA-0002",
+      "candidate_id": "CAND-02",
+      "title": "Everywhere-total nonergodic effective-open Birkhoff convergence versus existing effective ergodic theory",
+      "session": "P3-S002",
+      "date": "2026-10-04",
+      "disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "exact_target": "On fair-coin Cantor space, for every everywhere-total computable fair-coin-preserving self-map T and every effectively open U, require the one-sided averages N^{-1} sum_{i<N} 1_U(T^i(x)) to converge. No ergodicity, equality to lambda(U), computability of lambda(U), convergence modulus or rate is required.",
+      "classification": {
+        "already_known": "NOT_ESTABLISHED",
+        "equivalent_or_rebranded": "NOT_ESTABLISHED",
+        "materially_distinct": "NOT_ESTABLISHED",
+        "unresolved": "YES",
+        "framework_overlap": "SUBSTANTIAL_WITH_EFFECTIVE_NONERGODIC_BIRKHOFF_RESULTS"
+      },
+      "closest_primary_sources": [
+        "SRC-0058",
+        "SRC-0062",
+        "SRC-0057",
+        "SRC-0063",
+        "SRC-0012"
+      ],
+      "closest_results": [
+        "DEF-0059",
+        "THM-0063",
+        "THM-0064",
+        "THM-0073",
+        "THM-0059",
+        "THM-0060",
+        "THM-0074",
+        "THM-0006"
+      ],
+      "findings": [
+        "SRC-0058 is the closest characterization framework: nonergodic convergence-only is exact, but its computable measure-preserving transformations are a.e.-defined rather than everywhere total; its Martin-Löf converse uses computable observables/sets, while its lower-semicomputable extension is one-way weak-2 sufficiency.",
+        "SRC-0062 strengthens the nonergodic lower-semicomputable sufficiency side to Oberwolfach randomness for computable measures, while explicitly stating that T is not assumed total.",
+        "SRC-0057 directly treats effectively-open indicators and lower-semicomputable observables, but assumes ergodicity and concludes equality with the expectation.",
+        "SRC-0063 supplies total computable Cantor maps and effectively-open indicator equality, but only inside computable ergodic group actions by automorphisms with Folner averaging, not arbitrary one-sided self-map iterates.",
+        "No inspected primary theorem states the exact CAND-02 combination of everywhere-total arbitrary fair-coin-preserving self-maps, effectively-open indicators, no ergodicity and convergence-only characterization semantics."
+      ],
+      "hypothesis_axes": {
+        "totality": "CAND-02 is everywhere total. SRC-0058 and SRC-0062 use a.e./non-total operators. SRC-0063 uses total Cantor maps but only as an automorphism group action.",
+        "observable_effectivity": "CAND-02 uses effectively-open indicators. THM-0059 and THM-0074 directly use effectively open events; THM-0064 and THM-0073 use the broader lower-semicomputable observable class.",
+        "ergodicity": "CAND-02 has no ergodicity hypothesis. THM-0063, THM-0064 and THM-0073 are nonergodic; THM-0059, THM-0060 and THM-0074 require ergodicity.",
+        "conclusion_strength": "CAND-02 asks for existence of the one-sided Birkhoff limit only, with no equality-to-expectation and no modulus. The nonergodic sources preserve convergence-only semantics; the ergodic sources state the stronger equality conclusion.",
+        "averaging_scheme": "CAND-02 uses one-sided iterates of an arbitrary self-map. SRC-0063 uses amenable-group Folner averages, so its total/effectively-open match does not erase this structural mismatch."
+      },
+      "search_terms": [
+        "weak Birkhoff",
+        "weakly Birkhoff",
+        "Birkhoff point effectively open",
+        "c.e. open Birkhoff",
+        "Sigma^0_1 Birkhoff",
+        "enumerable event ergodic average",
+        "lower semicomputable observable Birkhoff",
+        "computable measure-preserving operator nonergodic",
+        "total computable transformation Birkhoff",
+        "nonergodic Birkhoff convergence",
+        "Oberwolfach random Birkhoff",
+        "weak 2 random Birkhoff"
+      ],
+      "adjacent_terminology": [
+        "weak Birkhoff = convergence-only terminology in SRC-0058",
+        "lower semicomputable observable subsumes bounded effectively-open indicators on the observable axis",
+        "computable transformation/operator is not uniform terminology for totality across the inspected sources",
+        "computable Cantor group action in SRC-0063 supplies total maps but adds automorphism/action and Folner structure"
+      ],
+      "novelty_guard": "No openness or novelty conclusion is inferred from search absence. The exact everywhere-total/nonergodic/effectively-open characterization remains unresolved under the evidence inspected.",
       "original_mathematics_performed": false,
       "final_candidate_selected": false,
       "gate3_review_performed": false
