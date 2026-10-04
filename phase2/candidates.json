@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P3-S004",
-  "status": "PHASE3_PRIOR_ART_IN_PROGRESS",
+  "last_updated_session": "P3-S006",
+  "status": "PHASE3_SELECTION_READY",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
     "REJECT_CATALOGUED_CHARACTERIZATION",
@@ -93,7 +93,7 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P3-S004",
+      "last_reviewed_in": "P3-S006",
       "record_path": "phase3/P3-S001_PRIOR_ART.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
@@ -173,6 +173,12 @@
         ],
         "continuation_falsifier": "If the eventual result is a routine adaptation with no explanatory characterization, or the finite-fibre condition plays no essential role, the significance case collapses even if the yes/no question has a technically correct answer.",
         "novelty_guard": "This is a significance/usefulness judgment only. CAND-01 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE for novelty/prior art; no theorem, openness, distinctness or publishability claim is made."
+      },
+      "selection_readiness": {
+        "session": "P3-S006",
+        "result": "READY_AS_SELECTION_OPTION",
+        "audit_record": "phase3/P3-S006_SELECTION_READINESS_AUDIT.md",
+        "principal_risk": "Finite cardinal multiplicity is provisionally substantive but has no established computable-randomness consequence."
       }
     },
     {
@@ -241,7 +247,7 @@
         "COV-0014"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P3-S005",
+      "last_reviewed_in": "P3-S006",
       "record_path": "phase3/P3-S005_SIGNIFICANCE.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S002_COMPLETE",
@@ -292,6 +298,12 @@
           "classical ergodic theory conditionally"
         ],
         "significance_record": "phase3/P3-S005_SIGNIFICANCE.md"
+      },
+      "selection_readiness": {
+        "session": "P3-S006",
+        "result": "READY_AS_SELECTION_OPTION_WITH_ELEVATED_TECHNICAL_SLICE_RISK",
+        "audit_record": "phase3/P3-S006_SELECTION_READINESS_AUDIT.md",
+        "principal_risk": "Everywhere-totality may be only a representation slice rather than a distinct randomness boundary."
       }
     },
     {
@@ -563,8 +575,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P3-S005",
-  "recommended_next_scope": "Phase-3 significance/usefulness and interested-community assessment on surviving CAND-02 only; no original mathematics, candidate selection, Gate-3 review or Phase-4 work.",
+  "recommended_next_session": "P3-S007",
+  "recommended_next_scope": "Separate Phase-3 candidate-selection/NO-GO decision over surviving CAND-01 and CAND-02 only; no Gate-3 review, proof search or Phase-4 work.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
@@ -615,7 +627,7 @@
     "phase3_opened": true
   },
   "phase3_prior_art": {
-    "last_session": "P3-S003",
+    "last_session": "P3-S006",
     "structured_record": "phase3/prior-art.json",
     "cand01": {
       "prior_art_id": "PA-0001",
@@ -642,6 +654,16 @@
     },
     "candidate_selected": false,
     "gate3_review_performed": false,
-    "significance_last_session": "P3-S004"
+    "significance_last_session": "P3-S005",
+    "selection_readiness": {
+      "result": "READY_FOR_SELECTION_DECISION",
+      "audit_record": "phase3/P3-S006_SELECTION_READINESS_AUDIT.md",
+      "candidates": [
+        "CAND-01",
+        "CAND-02"
+      ],
+      "selection_performed": false,
+      "gate3_review_performed": false
+    }
   }
 }
