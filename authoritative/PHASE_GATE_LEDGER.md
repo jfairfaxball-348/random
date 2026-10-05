@@ -244,3 +244,16 @@ The counterexample mechanism concerns global inverse information, not randomness
 This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard and exact P4-S001 result are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S002_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S003 (not a gate review)
+
+P4-S003 completed one bounded k=2 weighted-sheet / martingale-transfer investigation for selected CAND-01.
+
+Result: k=2 forces a computable two-prefix inverse list at every requested input precision. Computable conditional sheet weights are bounded fair martingales. An explicitly supplied computable clopen split into two injective sheets suffices for forward computable-randomness preservation, but a concrete marker-and-delete k=2 map shows that no global continuous/clopen sheet colouring is forced.
+
+The general k=2 preservation/failure question remains unresolved. The attempted SRC-0061 scan completion does not produce a valid destroyer because filler queries may pre-reveal later betting positions.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001, P4-S002 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S003_MATHEMATICS.md.
+

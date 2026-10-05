@@ -1,17 +1,19 @@
-# Next Session Prompt — P4-S003
+# Next Session Prompt — P4-S004
 
 Continue the Fairfax-Ball Randomness Research Programme in:
 
 https://github.com/jfairfaxball-348/random
 
-Run only Phase 4 — Mathematics session P4-S003.
+Run only Phase 4 — Mathematics session P4-S004.
 
-Treat committed repository state as authoritative. Pin live main at the exact P4-S002 outgoing checkpoint reported by the preceding session, reconcile any mismatch before consuming authority, and confirm P4-S003 is unique.
+Treat committed repository state as authoritative. Pin live main at the exact P4-S003 outgoing checkpoint reported by the preceding session, reconcile any mismatch before consuming authority, and confirm P4-S004 is unique.
 
-Read AGENTS.md, authoritative/START_HERE.md and required authority; the P4-S001 and P4-S002 mathematics/close/validation records; phase3/P3-S008_GATE3_REVIEW.md; phase3/P3-S001_PRIOR_ART.md; phase3/prior-art.json; phase2/candidates.json; and the committed CAND-01 formulation anchors.
+Read the P4-S001 through P4-S003 mathematics/close/validation records and required CAND-01 authority. Stay strictly at k=2.
 
-Perform one bounded Phase-4 mathematical investigation on selected CAND-01, still restricted to k=2. Starting from P4-S002's forced descending computable-clopen fibre presentation and its two positive boundary examples, determine whether every everywhere-total computable fair-coin-preserving Cantor self-map with fibres of size at most two admits weaker effective inverse information sufficient for forward computable-randomness preservation: for example an a.e.-effective/weighted two-sheet decomposition or a direct computable-martingale transfer. If no such theorem can be proved in the bounded session, pursue the sharp alternative: an exact k=2 mechanism capable of destroying computable randomness, with all hypotheses checked.
+Focus only on P4-S003's conditional-weight obstruction. For finite input sigma use w_sigma(tau)=2^{|tau|} lambda([sigma]∩F^{-1}([tau])). Determine whether, when x is computably random and y=F(x), the k=2 hypotheses force enough effective stabilization or positive persistent-sheet weight along y to transfer any computable martingale succeeding on y back to a computable martingale succeeding on x. Use the uniform two-prefix inverse lists from P4-S003, but do not assume coherent total branches.
 
-Do not broaden to k>2 except for a directly forced, clearly marked observation. Do not assume total inverse branches: P4-S002 proves they are not forced. Preserve P4-S001 exactly. Preserve PA-0001 as UNRESOLVED_UNDER_INSPECTED_EVIDENCE, the pre-Phase-4 Gate-3 guard, DEF-0020 and all source/convention guards. Make no novelty/open-status, Gate-4, publication or outreach claim.
+If that transfer cannot be proved, pursue the exact alternative: construct a k=2 total computable fair-coin-preserving map and computably random x for which the relevant two-sheet conditional weights fail in a way that makes F(x) non-computably-random, checking every hypothesis. The SRC-0061 scan-completion route may be used only if the filler/pre-revealed-bet obstruction is actually resolved.
 
-Record successful and failed transfer mechanisms and exact proof dependencies. Validate and synchronize authority, create the P4-S003 work/close/validation records, commit useful work, verify remote main, report the exact outgoing hash, and provide the smallest runnable next prompt if no blocker exists.
+Do not broaden to k>2 or make novelty/open-status, Gate-4, publication or outreach claims. Preserve PA-0001 as UNRESOLVED_UNDER_INSPECTED_EVIDENCE, the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S003 exactly, and DEF-0020.
+
+Record successful and failed mechanisms and exact proof dependencies, validate and synchronize authority, create the P4-S004 work/close/validation records, commit useful work, verify remote main, report the exact outgoing hash, and provide the smallest runnable next prompt if no blocker exists.

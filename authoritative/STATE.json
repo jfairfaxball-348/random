@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S002",
+  "last_completed_session": "P4-S003",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 74
   },
-  "next_transition": "Run P4-S003: remain at k=2 and test whether the forced finite-fibre approximation yields an a.e./weighted inverse decomposition or direct martingale-transfer theorem, versus a genuine k=2 non-conservation construction.",
-  "recommended_next_session": "P4-S003",
+  "next_transition": "Run P4-S004: remain at k=2 and resolve the conditional-weight stabilization/transfer obstruction, or construct an exact k=2 computable-randomness-destroying map.",
+  "recommended_next_session": "P4-S004",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S002",
-    "next_session": "P4-S003",
+    "last_session": "P4-S003",
+    "next_session": "P4-S004",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S002_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S002_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S002_VALIDATION.md",
+    "latest_record": "phase4/P4-S003_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S003_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S003_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -324,6 +324,19 @@
       "explicit_branch_collision_example_preserves_computable_randomness_via": "SRC-0015 / THM-0038",
       "shift_example_preserves_computable_randomness_by_direct_martingale_lift": true,
       "general_k2_forward_computable_randomness_resolved": false,
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_transfer_result": {
+      "session": "P4-S003",
+      "result": "K2_FORCES_UNIFORM_TWO_PREFIX_LISTS_WEIGHTED_SHEETS_SUFFICE_WHEN_EFFECTIVE_GLOBAL_COLOURING_NOT_FORCED",
+      "uniform_two_prefix_lists_forced": true,
+      "computable_conditional_weight_martingales": true,
+      "clopen_two_sheet_split_sufficient_for_forward_cr": true,
+      "global_continuous_two_sheet_colouring_forced": false,
+      "exact_k2_cr_destroyer_constructed": false,
+      "general_k2_forward_computable_randomness_resolved": false,
+      "next_obstruction": "effective stabilization/control of conditional sheet weights versus exact k=2 destruction",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }

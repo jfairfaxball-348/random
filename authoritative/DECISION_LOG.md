@@ -237,3 +237,18 @@ This obstruction does not decide computable-randomness preservation. The witness
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S002_MATHEMATICS.md.
+
+## D-0025 — k=2 has forced finite two-prefix inverse lists, but the effective sheet-weight step remains unresolved
+
+On 2026-10-05, P4-S003 continued selected CAND-01 strictly at k=2.
+
+Decision/result: the bare k=2 hypotheses force, for every input precision, a computable list of at most two candidate input prefixes from sufficiently much output. They also force uniformly computable bounded conditional-weight martingales. If a computable clopen two-sheet injectivity split is supplied, those weighted components are enough to prove forward computable-randomness preservation via SRC-0015 / THM-0038 and DEF-0036.
+
+The cardinal hypothesis itself does not force that global split. The marker-and-delete witness is total computable, fair-coin preserving and two-to-one off one singleton, yet no continuous two-colouring separates every double fibre. It still preserves computable randomness, so this is a sheet-structure boundary rather than a non-conservation witness.
+
+General k=2 preservation/failure remains unresolved. The next mathematical target is effective control of conditional sheet weights along a computably random source, or an exact k=2 destruction construction exploiting failure of such control.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S003_MATHEMATICS.md.
+

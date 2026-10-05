@@ -579,3 +579,19 @@ Resolution: never replace the bare cardinal condition |F^{-1}(y)|<=2 by global e
 A second guard is equally important: failure of total branch selection is not itself failure of computable-randomness conservation. The branch-collision witness has an a.e.-computable measure-preserving inverse and therefore falls under THM-0038. Conversely, the exactly two-to-one shift preserves computable randomness by a direct martingale lift even though no single selector gives an a.e. inverse identity.
 
 Lesson: the remaining k=2 problem is not “are total branches computable?” but whether the forced finite-fibre information always supports some weaker a.e./weighted decomposition or direct betting transfer, or whether a genuine bounded-fibre non-conservation construction exists.
+
+## FL-051 — Bounded inverse lists are not yet effective weighted sheets
+
+Session: P4-S003
+Status: PHASE-4 k=2 WEIGHTED-TRANSFER / COUNTEREXAMPLE GUARD
+
+The global fibre bound |F^{-1}(y)|<=2 has a stronger effective consequence than P4-S002 recorded: for every requested input precision, sufficiently much output gives a computable list of at most two candidate input prefixes. What remains missing is coherent branch identity and branch weight.
+
+For each input cylinder [sigma], the quantities w_sigma(tau)=2^{|tau|}lambda([sigma]∩F^{-1}([tau])) form a uniformly computable bounded fair martingale. On a genuine double-fibre split these values encode the relative conditional mass of a sheet. A supplied computable clopen partition into two injective sheets makes those weights manageable and yields computable-randomness preservation, but k=2 alone does not force such a global partition: shrinking two-point fibres can defeat every continuous two-colouring.
+
+The obvious attempt to turn SRC-0061's nonmonotonic-scan counterexample into a k=2 map also has a precise failure. Filling unqueried coordinates can reveal a coordinate before the original nonmonotonic strategy later bets on it; an ordinary output martingale cannot retroactively make that bet. Filler schedules triggered only by observed success do not satisfy the global fibre bound on all inputs.
+
+Resolution: do not equate “at most two candidate prefixes at each precision” with “two computable persistent sheets,” and do not claim a k=2 counterexample from a scan completion until the pre-revealed-bet problem is solved globally.
+
+Lesson: the next k=2 target is conditional weight, not cardinality. Either source computable randomness forces enough effective stabilization/positive weight for martingale transfer, or a genuine counterexample must exploit the failure while keeping every fibre globally of size at most two.
+

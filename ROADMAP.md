@@ -42,7 +42,7 @@ For each candidate ask: Has this definition/result appeared before? Is it equiva
 
 ## Phase 4 — Mathematics
 
-**Status:** OPEN after Gate-3 PASS in P3-S008 for selected CAND-01. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; this authorization is not a novelty finding. P4-S001 settles the k=1 injective boundary by forcing a computable measure-preserving inverse and computable-randomness invariance. P4-S002 shows that k=2 forces effective descending clopen fibre approximations but not total computable selectors/two-branch enumeration; the general k=2 computable-randomness preservation/failure question remains unresolved.
+**Status:** OPEN after Gate-3 PASS in P3-S008 for selected CAND-01. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; this authorization is not a novelty finding. P4-S001 settles k=1. P4-S002 establishes the first k=2 inverse-branch boundary. P4-S003 strengthens k=2 to uniform two-prefix inverse lists, proves preservation under an explicit effective weighted two-sheet split, and shows that a global continuous/clopen sheet colouring is not forced. General k=2 computable-randomness preservation/failure remains unresolved.
 
 **Purpose:** do the actual mathematical work.
 

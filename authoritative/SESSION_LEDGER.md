@@ -779,3 +779,26 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: `P4-S003`, still restricted to k=2, testing whether an a.e./weighted two-sheet decomposition or direct martingale transfer is forced, versus a genuine k=2 non-conservation construction.
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
+
+## P4-S003 — k=2 weighted-sheet and martingale-transfer boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `4ccf7a1f9993a38ed15d8ba59207bde2ee1ecdee`, matching live `main` exactly. The incoming phase4 directory contained no P4-S003 record and repository code search returned no P4-S003 result, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2.
+
+Result: the hypotheses force uniform two-prefix inverse lists at every finite input precision and computable bounded conditional-weight martingales. A computable clopen two-sheet injectivity split is sufficient for forward computable-randomness preservation, but a concrete marker-and-delete map shows that no global continuous/clopen two-sheet colouring is forced.
+
+The marker-and-delete witness itself preserves computable randomness. The alternative SRC-0061 scan-completion route was tested and failed at a precise point: unconditional filler queries can pre-reveal future betting positions, while conditioning fillers on success loses the global k=2 bound. No exact k=2 destruction witness is claimed.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001, P4-S002 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S003_MATHEMATICS.md`, `phase4/P4-S003_CLOSE.md`, `phase4/P4-S003_VALIDATION.md`. Durable decision: D-0025. Lesson: FL-051.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S004`, still restricted to k=2, resolving the conditional-weight stabilization/transfer obstruction versus an exact k=2 non-conservation construction.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
+

@@ -38,4 +38,19 @@ Records:
 - phase4/P4-S002_CLOSE.md
 - phase4/P4-S002_VALIDATION.md
 
-Next recommended session: **P4-S003**, still bounded to k=2, on a.e./weighted inverse decomposition or direct martingale transfer versus genuine k=2 non-conservation.
+Historical next step after P4-S002: **P4-S003**, now completed below.
+
+## P4-S003 — k=2 weighted-sheet and martingale-transfer boundary
+
+P4-S003 strengthens the forced inverse information to a uniform two-prefix list at every requested input precision. It proves that an explicit computable clopen two-sheet decomposition into injective restrictions is sufficient for forward computable-randomness preservation, using conditional component measures, SRC-0015 / THM-0038 and DEF-0036.
+
+The bare k=2 hypothesis does not force that global sheet structure: an explicit marker-and-delete map is fair-coin preserving, exactly two-to-one off one singleton, and has no continuous/clopen two-colouring separating all double fibres. It still preserves computable randomness and has an a.e. sheet description.
+
+The general k=2 preservation/failure question remains unresolved. The remaining weighted obstruction is encoded by the computable bounded martingales w_sigma(tau)=2^{|tau|}lambda([sigma]∩F^{-1}([tau])). The attempted SRC-0061 scan completion fails because filler queries may pre-reveal later betting positions.
+
+Records:
+- phase4/P4-S003_MATHEMATICS.md
+- phase4/P4-S003_CLOSE.md
+- phase4/P4-S003_VALIDATION.md
+
+Next recommended session: **P4-S004**, still bounded to k=2, on the conditional-weight stabilization/transfer obstruction versus an exact k=2 non-conservation witness.

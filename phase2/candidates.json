@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S002",
+  "last_updated_session": "P4-S003",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S002",
-      "record_path": "phase4/P4-S002_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S003",
+      "record_path": "phase4/P4-S003_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -224,6 +224,23 @@
         "counterexample_boundary": "A prefix-replacement map with exactly one double fibre has no continuous global selector/listing, yet has an a.e.-computable measure-preserving inverse and therefore preserves computable randomness by SRC-0015 / THM-0038.",
         "second_positive_boundary": "The exactly two-to-one left shift preserves computable randomness by direct martingale lift.",
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S002",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_transfer_mathematics": {
+        "session": "P4-S003",
+        "scope": "k=2 weighted-sheet and martingale-transfer boundary only",
+        "result": "K2_FORCES_UNIFORM_TWO_PREFIX_LISTS_WEIGHTED_SHEETS_SUFFICE_WHEN_EFFECTIVE_GLOBAL_COLOURING_NOT_FORCED",
+        "forced_information": [
+          "For every input precision n, a computable output precision yields at most two candidate n-prefixes for each fibre.",
+          "For every input cylinder [sigma], the relative masses w_sigma(tau)=2^{|tau|} lambda([sigma]∩F^{-1}([tau])) form a uniformly computable bounded fair martingale."
+        ],
+        "sufficient_positive_mechanism": "A computable clopen partition into two injective sheets yields component effective isomorphisms; SRC-0015 / THM-0038 plus DEF-0036 gives forward fair-coin computable-randomness preservation.",
+        "nonforced_information": "A global continuous/computable clopen two-sheet colouring; the marker-and-delete k=2 map refutes this.",
+        "failed_counterexample_route": "Completing SRC-0061's nonmonotonic scan with filler queries can pre-reveal later betting positions; no winning ordinary output martingale was preserved while maintaining the global k=2 fibre bound.",
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S003",
+        "exact_k2_destroyer_constructed": false,
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
