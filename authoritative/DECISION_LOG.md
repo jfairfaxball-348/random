@@ -325,3 +325,17 @@ This does not yet prove scan preservation. On a singleton path every fixed senti
 General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S008_MATHEMATICS.md.
+
+## D-0031 — bounded moving-hole turnovers hedge exactly; only branchwise-avoidable sentinels remain hard
+
+On 2026-10-05, P4-S009 continued selected CAND-01 strictly at k=2 and analyzed only the singleton moving-hole scan case isolated by P4-S008.
+
+Decision/result: for a finite scan transcript tau and fresh coordinate j, the continuations on which T avoids j form a computable binary tree. If every continuation eventually queries j, compactness makes this tree finite and a uniform finite query deadline is computably searchable. If no such deadline exists, there is an infinite sibling continuation omitting j; global k=2 then forces that sibling to query every other coordinate.
+
+A deferred sentinel wager with a verified finite deadline can be hedged exactly. Query the sentinel first, run the scan until its bounded consumption, and take the finite conditional expectation of d's post-consumption capital. The resulting completion-stream process is a computable fair martingale and reaches exactly the logical d-capital at turnover. Hence factor-two losses and savings are not intrinsic to bounded turnovers.
+
+The unresolved case is therefore branchwise avoidable: the singleton target consumes the moving hole, but another continuation can keep it forever. Finite-horizon capital splits have tails tending to zero, so no rate-free infinite-turnover lower bound follows from unbounded output capital alone. A simple global k=2 singleton-spine comb has the right query-set geometry but its naive computable-control spine is not computably random.
+
+No exact k=2 destroyer and no full scan-preservation theorem is obtained. SRC-0061 is not reused. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S009_MATHEMATICS.md.
