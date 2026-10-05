@@ -1,21 +1,23 @@
 # Status
 
-Programme state: **PHASE 3 ACTIVE — NOVELTY / PRIOR ART**
+Programme state: **PHASE 4 ACTIVE — MATHEMATICS**
 
-Active phase: **Phase 3 — Novelty / Prior Art (OPEN)**
+Active phase: **Phase 4 — Mathematics (OPEN for selected CAND-01)**
 
 - Phase 1 Research / Catalogue: COMPLETED for gate purposes
 - Phase 2 Discovery: COMPLETED for gate purposes
-- Phase 3 Novelty / Prior Art: OPEN
-- Phase 4 Mathematics: CLOSED
+- Phase 3 Novelty / Prior Art: COMPLETED for gate purposes
+- Phase 4 Mathematics: OPEN
 - Phase 5 Publication: CLOSED
 
-Last completed session: **P2-S006**.
+Last completed session: **P3-S008**.
 
-Gate 1: **PASS** in P1-S014. The Phase-1 library remains bounded and non-exhaustive; its residual provenance/access gaps and convention guards remain authoritative.
+Gate 1: **PASS** in P1-S014.
+Gate 2: **PASS** in P2-S006.
+Gate 3: **PASS** in P3-S008.
 
-Gate 2: **PASS** in P2-S006. The six-candidate Discovery portfolio satisfies every Gate-2 minimum-evidence requirement. CAND-01, CAND-02 and CAND-03 remain provisionally retained with E1–E3 resolved and are mature enough for dedicated prior-art attack. CAND-04, CAND-05 and CAND-06 remain rejected in their recorded shapes.
+CAND-01 is the selected Phase-4 target. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Gate-3 PASS does not establish novelty or openness. Finite multiplicity is provisionally substantive, but no computable-randomness consequence of the bare global finite cardinal fibre bound was established before Phase 4.
 
-Gate-2 PASS does not establish novelty, openness, separation or nontriviality. Candidate-level novelty/literature status remains **NOT_ASSESSED**; no final candidate is selected and Fairfax-Ball Randomness is not defined. Gate 3 has not been reviewed. Phases 4–5 remain CLOSED.
+Fairfax-Ball Randomness is not defined. Publication work remains unauthorized.
 
-Next: **P3-S001 — dedicated primary-source prior-art attack on CAND-01 only**. No owner/external blocker. See [the formal Gate-2 review](phase2/P2-S006_GATE2_REVIEW.md) and [the authoritative next prompt](authoritative/NEXT_SESSION_PROMPT.md).
+Next: **P4-S001 — bounded k=1 injective-base-case mathematics for CAND-01**. No owner/external blocker. See phase3/P3-S008_GATE3_REVIEW.md and authoritative/NEXT_SESSION_PROMPT.md.
