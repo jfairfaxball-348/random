@@ -45,7 +45,7 @@ On strings with positive `mu_sigma`-mass define
 q_\sigma(\tau)=\frac{\lambda([\tau])}{\mu_\sigma([\tau])}
                =\frac{2^{-s}}{w_\sigma(\tau)}.
 ]
-Then `q_sigma` is a nonnegative `mu_sigma`-martingale with initial value 1.
+Then `q_sigma` is a nonnegative `mu_sigma`-supermartingale with initial value 1. It is a martingale on nodes whose two children both have positive `mu_sigma`-mass; zero-mass children can only lower the conditional expectation, which is all that Ville's inequality requires.
 
 For rational epsilon>0 let
 [
@@ -63,7 +63,7 @@ Consequently, if x is Martin-Löf random and sigma is a prefix of x, then `inf_m
 
 This does **not** settle the requested computably-random source case. The catalogue records the strict implication Martin-Löf randomness -> computable randomness in REL-0001. Thus an ML-test bound cannot by itself be discharged from the weaker hypothesis that x is computably random. Computable randomness does imply Schnorr randomness (REL-0002), so one exact positive route would be to prove that the measures of the crossing sets above are uniformly computable, or otherwise upgrade them to a computable-randomness test. P4-S004 does not obtain that effectivization from the two-prefix lists.
 
-The crossing measure is a hitting probability for a computable likelihood-ratio martingale. The set is c.e. open and its measure is lower semicomputable, but the established k=2 data provide no computable stopping probability or convergence modulus.
+The crossing measure is a hitting probability for a computable likelihood-ratio supermartingale. The set is c.e. open and its measure is lower semicomputable, but the established k=2 data provide no computable stopping probability or convergence modulus.
 
 ## Lemma 2 — every fixed output betting stage lifts exactly
 

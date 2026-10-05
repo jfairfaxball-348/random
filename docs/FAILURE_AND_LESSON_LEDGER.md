@@ -600,7 +600,7 @@ Lesson: the next k=2 target is conditional weight, not cardinality. Either sourc
 Session: P4-S004
 Status: PHASE-4 k=2 CONDITIONAL-WEIGHT / STOPPING GUARD
 
-For a source cylinder [sigma], conditioning fair coin on [sigma] and pushing it through F turns 2^{-|sigma|}/w_sigma into the likelihood-ratio martingale of fair coin against the conditioned pushforward. Therefore the source points whose sheet weight ever drops below epsilon form a uniformly c.e.-open set of fair-coin measure at most epsilon.
+For a source cylinder [sigma], conditioning fair coin on [sigma] and pushing it through F turns 2^{-|sigma|}/w_sigma into the likelihood-ratio supermartingale of fair coin against the conditioned pushforward. Therefore the source points whose sheet weight ever drops below epsilon form a uniformly c.e.-open set of fair-coin measure at most epsilon.
 
 That estimate is strong enough at the Martin-Löf level but not automatically at the computable-randomness level. The forced two-prefix lists bound candidate count, yet they do not compute the hitting probability of the low-weight event. Likewise, every fixed output betting stage lifts exactly to a computable source martingale, but choosing/stopping those stages coherently requires precisely the missing hitting-time effectivity.
 

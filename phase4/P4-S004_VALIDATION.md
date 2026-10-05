@@ -10,7 +10,7 @@ Checks:
 - Phase 4 was OPEN for selected CAND-01 and Phase 5 CLOSED;
 - CAND-01's exact formulation is unchanged;
 - P4-S001 through P4-S003 are not edited;
-- for conditioned source measure lambda_sigma, mu_sigma([tau])=2^{|sigma|-|tau|}w_sigma(tau), so q_sigma=2^{-|sigma|}/w_sigma is the fair-coin/mu_sigma likelihood-ratio martingale;
+- for conditioned source measure lambda_sigma, mu_sigma([tau])=2^{|sigma|-|tau|}w_sigma(tau), so q_sigma=2^{-|sigma|}/w_sigma is the fair-coin/mu_sigma likelihood-ratio supermartingale on positive-mu_sigma strings;
 - Ville's inequality gives lambda(V_{sigma,epsilon})<=epsilon for the effectively open low-weight crossing set;
 - the conclusion for Martin-Löf-random sources is explicitly not promoted to computably random sources; REL-0001/REL-0002 are used only to calibrate this effectivity gap;
 - the fixed-stage pullback e_m(sigma)=2^{|sigma|} integral_[sigma] d(F(z)↾m) dlambda is computable, normalized and satisfies the source martingale equation;

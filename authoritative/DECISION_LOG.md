@@ -256,7 +256,7 @@ Record: phase4/P4-S003_MATHEMATICS.md.
 
 On 2026-10-05, P4-S004 continued selected CAND-01 strictly at k=2.
 
-Decision/result: for every source cylinder [sigma], low values of the conditional martingale w_sigma pull back to uniformly effectively open source sets with fair-coin measure at most the weight threshold. Equivalently, the reciprocal weight is the likelihood-ratio martingale between fair coin and the pushforward of fair coin conditioned on [sigma]. This forces positive persistent weight for Martin-Löf-random sources, but does not by itself settle computably random sources; the missing datum is a computable hitting probability/stopped pullback or another computable-randomness-level test.
+Decision/result: for every source cylinder [sigma], low values of the conditional martingale w_sigma pull back to uniformly effectively open source sets with fair-coin measure at most the weight threshold. Equivalently, the reciprocal weight is the likelihood-ratio supermartingale between fair coin and the pushforward of fair coin conditioned on [sigma]. This forces positive persistent weight for Martin-Löf-random sources, but does not by itself settle computably random sources; the missing datum is a computable hitting probability/stopped pullback or another computable-randomness-level test.
 
 Every fixed stage of an output computable martingale also lifts exactly to a normalized computable source martingale. The obstruction is coherence across unbounded stages: a fixed mixture needs a growth rate, while adaptive stopping again needs effective hitting probabilities.
 
