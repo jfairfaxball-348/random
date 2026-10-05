@@ -683,3 +683,32 @@ Recommended next bounded session: `P3-S007`, a separate documented selection/NO-
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
 
+
+
+## P3-S007 — Candidate-selection / NO-GO decision
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `a2f68f95fdc1e167368b544169f1987be8127065`, matching live `main` exactly. The incoming session ledger contained no P3-S007 heading, the Phase-3 directory contained no P3-S007 record and repository code search returned no committed P3-S007 hit, so the session identifier was unique.
+
+Scope completed: one bounded Phase-3 candidate-selection / NO-GO decision over surviving CAND-01 and CAND-02 only, using committed evidence. No new external literature was required.
+
+Outcome: **SELECT_CAND_01**.
+
+CAND-01 is selected for a separate formal Gate-3 review because its finite-multiplicity axis offers the stronger expected explanatory payoff relative to residual risk. The controlling guard is unchanged: no computable-randomness consequence of the bare global finite cardinal fibre bound is established.
+
+CAND-02 is not selected for active Gate-3 investment. Its positive significance case remains preserved, together with the elevated risk that everywhere-totality is merely a representation slice excluding a.e./partial witness constructions.
+
+PA-0001 and PA-0002 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. CAND-03 remains retired. DEF-0020 and all evidence/convention guards remain unchanged. Selection is programme prioritization, not a novelty, openness, theorem or publishability finding.
+
+Records: `phase3/P3-S007_SELECTION_DECISION.md`, `phase3/P3-S007_CLOSE.md`, `phase3/P3-S007_VALIDATION.md`. Durable decision: D-0021. Selection/novelty guard: FL-047.
+
+No proof search, witness construction, experiment, Lean/Palomar use, broad literature survey, Gate-3 review, Phase-4 work, publication work or outreach occurred.
+
+Gate 3 remains NOT REVIEWED; Phase 4 remains CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P3-S008`, a separate formal Gate-3 review of selected CAND-01 only. It may record PASS, FAIL or BACKTRACK and must not begin Phase-4 mathematics in the same session.
+
+The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
