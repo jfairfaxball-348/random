@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S007",
+  "last_updated_session": "P4-S009",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S008",
-      "record_path": "phase4/P4-S008_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S009",
+      "record_path": "phase4/P4-S009_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -326,6 +326,25 @@
         "exact_k2_destroyer_constructed": false,
         "general_k2_scan_preservation_resolved": false,
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S008",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_moving_hole_mathematics": {
+        "session": "P4-S009",
+        "scope": "k=2 singleton moving-hole / dynamic-sentinel boundary only",
+        "result": "UNIFORMLY_UNAVOIDABLE_SENTINELS_HAVE_COMPUTABLE_DEADLINES_AND_BOUNDED_DEFERRED_WAGERS_HEDGE_EXACTLY_BRANCHWISE_AVOIDABLE_TURNOVERS_REMAIN",
+        "successful_mechanisms": [
+          "For any finite scan state and fresh sentinel, the avoidance continuations form a computable binary tree; uniform eventual consumption yields a computably searchable finite deadline.",
+          "Given a finite deadline, finite conditional expectation exactly hedges the deferred logical wager on a sentinel revealed early, with no multiplicative turnover loss.",
+          "Any genuinely unbounded singleton turnover is target-consumed but omittable on a sibling continuation.",
+          "Finite-horizon portfolio/savings accounting has vanishing tail coverage and yields no rate-free infinite-turnover lower bound from output-martingale unboundedness alone.",
+          "A simple global k=2 fair-coin singleton-spine comb verifies the query-set geometry but not a computably random witness."
+        ],
+        "unresolved_mechanism": "No computable unbounded deferred-wager value, no rate-free dynamic-sentinel transfer, and no exact adaptive singleton-spine destroyer were obtained.",
+        "exact_k2_destroyer_constructed": false,
+        "general_k2_scan_preservation_resolved": false,
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S009",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
@@ -730,8 +749,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S008",
-  "recommended_next_scope": "Phase 4 Mathematics on selected CAND-01 only; stay at k=2 and analyze whether the coherent width-two skeleton's freshness constraint permits a cofinite/adaptive scan non-conservation witness or instead forces a computable preservation mechanism.",
+  "recommended_next_session": "P4-S010",
+  "recommended_next_scope": "k=2 branchwise-avoidable deferred-wager / adaptive singleton-spine boundary only",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
