@@ -620,3 +620,19 @@ The same example blocks a second natural branch-free shortcut: the finite measur
 Resolution: do not infer Schnorr-effectivity from the two-prefix list alone, and do not revisit the direct crossing-measure-computability route as though P4-S005 had left it open. Equally, do not infer non-conservation from noncomputable hitting probability: the example has an explicit computable clopen injective-sheet split and therefore lies in P4-S003's positive preservation regime.
 
 Lesson: the remaining k=2 problem is about effective coherence of genuinely non-clopen/moving sheets, not merely the numerical computability of the P4-S004 crossing probability.
+
+
+## FL-054 — Canonical Borel branch assignment is not computable branch control
+
+Session: P4-S006
+Status: PHASE-4 k=2 EFFECTIVE-BOREL / MOVING-SHEET GUARD
+
+The compact collision relation admits a natural lexicographic decomposition: the nonminimum/upper source sheet is effective F-sigma, the lower sheet is effective G-delta, and the lexicographic minimum/maximum inverse selectors are effective Baire-1 pointwise limits of computable continuous approximants. This is genuine effective structure, but it is weaker than the computable sheet data used in P4-S003.
+
+The distinction is substantive. In the P4-S005 prefix-code map, the canonical upper and lower sheet masses encode a noncomputable base-4 real, even though that same map has a different computable clopen injective-sheet split and preserves computable randomness. Thus a canonical definable sheet need not have computable mass, and a Baire-1 selector need not supply a computable stabilization modulus.
+
+A second failure concerns the most direct moving-one-hole repair of SRC-0061. If a set of filler coordinates is encoded by one shared two-way ambiguity, later revealing any one of those coordinates to place a genuine bet identifies the ambiguity and exposes every other differing coordinate in the same cohort. Rotating to a fresh hole cannot make already exposed old coordinates unknown again.
+
+Resolution: do not equate effective F-sigma/G-delta or Baire-1 inverse information with computable conditional measures, and do not treat a single hidden/rotating bit as a solution to the filler pre-revelation problem. Any future negative construction must allow richer finite-prefix ambiguity and delay its coalescence while still proving that complete fibres have size at most two.
+
+Lesson: the remaining k=2 boundary has moved from canonical branch definability to **when** ambiguity coalesces. Large finite-prefix inverse trees may still collapse to two final points; whether that delayed coalescence forces a computable transfer or enables a genuine destroyer is the next exact question.
