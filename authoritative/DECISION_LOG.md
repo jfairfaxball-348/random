@@ -299,3 +299,15 @@ The attempted one-hole/rotating-mask completion of the SRC-0061 filler idea also
 General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S006_MATHEMATICS.md.
+
+## D-0029 — delayed coalescence has a coherent width-two skeleton but leaves a freshness obstruction
+
+On 2026-10-05, P4-S007 continued selected CAND-01 strictly at k=2.
+
+Decision/result: for every exact k=2 map there is a computable monotone coalescence schedule c(n) such that the n-prefixes compatible with y↾c(n) form a coherent width-at-most-two inverse tree whose infinite paths are exactly F^{-1}(y). Double fibres become exact two persistent tracks after their true split; singleton phantoms can recur only with their disagreement moving outward. Fixed precision has a computable mind-change bound and at most one post-c(n) injury, but the last injury need not be computably recognizable.
+
+This bounded inverse information is insufficient for the existing computable-randomness transfer routes because it does not compute branch persistence, conditional mass or stopping normalization. After c(n), all unresolved first-n information is one binary choice, so revealing one later coordinate that distinguishes the candidates determines every other differing coordinate below n. Thus any future scan-style k=2 counterexample must prove a global freshness condition relative to c(n).
+
+SRC-0061 is not claimed to meet that condition and is not reused as a finite-fibre witness. General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S007_MATHEMATICS.md.
