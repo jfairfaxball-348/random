@@ -553,3 +553,16 @@ Gate 3 asks whether the selected candidate has survived enough dedicated prior-a
 Resolution: P3-S008 records **PASS** because every Gate-3 minimum-evidence category is present and the remaining risks are explicit. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The finite-fibre axis remains provisionally substantive, but no computable-randomness consequence of the bare cardinal bound is smuggled into the gate decision.
 
 Lesson: a gate can authorize the next kind of work without upgrading epistemic status. Phase 4 begins with a research question under explicit uncertainty, not with a certified new notion.
+
+## FL-049 — Singleton fibres can force effective inversion, but not a class-wide inverse-use bound
+
+Session: P4-S001
+Status: PHASE-4 MATHEMATICAL BOUNDARY / NON-EXTRAPOLATION GUARD
+
+An attempted k=1 counterexample strategy was to make an injective total computable fair-coin-preserving map whose inverse hides noncomputable information. In the exact Cantor setting this fails: total computability gives effective finite forward-use bounds; injectivity makes the compact images of same-level input cylinders disjoint; those images can therefore be effectively separated at some finite output level. Fair-coin preservation additionally forces the closed range to be all of Cantor space. The inverse is consequently computable.
+
+What remains unbounded is the amount of output needed for inversion. Coordinate permutations can move an early input bit arbitrarily far out, so no single fixed inverse-use modulus works for the entire k=1 class.
+
+Resolution: treat k=1 as an effective-isomorphism collapse, but do not extrapolate the separation argument to k>=2. Once fibres can contain two points, image cylinders can overlap through different preimages, and the exact effective fibre-enumeration problem must be analysed separately.
+
+Lesson: distinguish “an inverse is computable for each valid map” from “there is a map-independent quantitative inverse bound,” and distinguish both from the genuinely multivalued inverse-branch problem that begins at k=2.
