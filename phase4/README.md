@@ -166,3 +166,20 @@ Records:
 - phase4/P4-S009_VALIDATION.md
 
 Next recommended session: **P4-S010**, still bounded to k=2, on whether threshold-capping makes the branchwise-avoidable deferred-wager value computable enough for an optional-projection transfer, or whether an exact adaptive singleton-spine witness can be built.
+
+## P4-S010 — k=2 branchwise-avoidable capped optional-projection boundary
+
+P4-S010 shows that output-capital capping does not by itself make the hard deferred-wager value computable. An exact total computable adaptive no-repeat scan consumes a fixed sentinel on a c.e.-open event of noncomputable fair-coin probability alpha and omits it otherwise; trigger fibres are singleton and nontrigger fibres have size two, so the scan is globally k=2 and fair-coin preserving. A computable martingale already bounded by 2 has eventual-consumption payoff whose exact first projected values after prequerying the sentinel are 1-alpha and 1+alpha. Hence the exact capped optional projection need not be computable, and its computable finite-horizon approximants need not have a computable convergence modulus.
+
+This blocks the exact capped-projection route only; it is not a universal impossibility theorem for martingale transfer.
+
+The session also verifies an adaptive least-unqueried-sentinel comb with the required global geometry. It is total, no-repeat, fair-coin preserving and globally k=2; all-trigger paths are singleton fibres; genuine sentinel bets are fresh; and future sentinels are chosen only after turnover from still-unqueried coordinates. The remaining decisive check is source randomness: no proof is obtained that an infinite all-trigger correct-prediction spine contains a computably random source. SRC-0061 is not reused.
+
+No exact k=2 destroyer and no full global-k=2 scan preservation theorem is obtained. General k=2 preservation/failure remains unresolved.
+
+Records:
+- phase4/P4-S010_MATHEMATICS.md
+- phase4/P4-S010_CLOSE.md
+- phase4/P4-S010_VALIDATION.md
+
+Next recommended session: **P4-S011**, still bounded to k=2, on whether the adaptive c.e.-trigger singleton-spine can contain a computably random winning source or instead forces one computable source martingale.
