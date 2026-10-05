@@ -566,3 +566,16 @@ What remains unbounded is the amount of output needed for inversion. Coordinate 
 Resolution: treat k=1 as an effective-isomorphism collapse, but do not extrapolate the separation argument to k>=2. Once fibres can contain two points, image cylinders can overlap through different preimages, and the exact effective fibre-enumeration problem must be analysed separately.
 
 Lesson: distinguish “an inverse is computable for each valid map” from “there is a map-independent quantitative inverse bound,” and distinguish both from the genuinely multivalued inverse-branch problem that begins at k=2.
+
+## FL-050 — Two-point fibres give effective negative information without continuous sheet selection
+
+Session: P4-S002
+Status: PHASE-4 INVERSE-INFORMATION / RANDOMNESS-TRANSFER GUARD
+
+At k=2, total computability still makes F^{-1}([y↾m]) a uniformly computable descending clopen approximation to the fibre. What fails from k=1 is disjointness of same-level cylinder images. A concrete prefix-replacement map can have only one double fibre and nevertheless force the unique inverse off the collision point to approach two different domain limits. No global continuous selector, and hence no total computable selector or two-function fibre enumeration, can exist.
+
+Resolution: never replace the bare cardinal condition |F^{-1}(y)|<=2 by global effective inverse branches. The forced information is a negative compact fibre name plus local recovery after an isolating prefix is known.
+
+A second guard is equally important: failure of total branch selection is not itself failure of computable-randomness conservation. The branch-collision witness has an a.e.-computable measure-preserving inverse and therefore falls under THM-0038. Conversely, the exactly two-to-one shift preserves computable randomness by a direct martingale lift even though no single selector gives an a.e. inverse identity.
+
+Lesson: the remaining k=2 problem is not “are total branches computable?” but whether the forced finite-fibre information always supports some weaker a.e./weighted decomposition or direct betting transfer, or whether a genuine bounded-fibre non-conservation construction exists.
