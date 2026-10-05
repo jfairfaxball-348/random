@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P3-S008",
-  "status": "PHASE3_CANDIDATE_SELECTED_GATE3_PENDING",
+  "last_updated_session": "P4-S001",
+  "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
     "REJECT_CATALOGUED_CHARACTERIZATION",
@@ -94,11 +94,11 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P3-S008",
-      "record_path": "phase3/P3-S008_GATE3_REVIEW.md",
+      "last_reviewed_in": "P4-S001",
+      "record_path": "phase4/P4-S001_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
-      "original_proof_work_performed": false,
+      "original_proof_work_performed": true,
       "final_candidate_selected": true,
       "resolved_formulation_tasks": [
         "E1"
@@ -193,6 +193,21 @@
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "phase4_status": "OPEN",
         "guard": "Finite multiplicity is provisionally substantive but has no established computable-randomness consequence."
+      },
+      "phase4_mathematics": {
+        "session": "P4-S001",
+        "scope": "k=1 injective base case only",
+        "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
+        "new_programme_mathematics": [
+          "Fair-coin preservation plus injectivity forces surjectivity because the range is closed and every nonempty cylinder has positive fair-coin measure.",
+          "Total computability plus injectivity on compact Cantor space yields an everywhere-total computable inverse with a computable map-dependent inverse-use modulus.",
+          "No single inverse-use bound works uniformly across all k=1 maps; coordinate permutations witness arbitrarily delayed inverse use."
+        ],
+        "literature_dependency": "SRC-0015 / THM-0038 supplies computable-randomness invariance once the effective inverse pair is established.",
+        "forward_computable_randomness_preserved": true,
+        "k_ge_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
       }
     },
     {
