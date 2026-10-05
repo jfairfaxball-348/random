@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S004",
+  "last_updated_session": "P4-S005",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S004",
-      "record_path": "phase4/P4-S004_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S005",
+      "record_path": "phase4/P4-S005_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -257,6 +257,22 @@
         "unresolved_mechanism": "No computable hitting probability/stopped pullback or single coherent source martingale is forced by the established two-prefix data.",
         "exact_k2_destroyer_constructed": false,
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S004",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_stopping_mathematics": {
+        "session": "P4-S005",
+        "scope": "k=2 crossing-measure / stopped-pullback boundary only",
+        "result": "TWO_PREFIX_LISTS_DO_NOT_FORCE_COMPUTABLE_LOW_WEIGHT_CROSSING_MEASURES_OR_COMPUTABLE_SYMMETRIC_FIBRE_COUNT_LIFT",
+        "successful_mechanisms": [
+          "Exact k=2 halting-triggered prefix-code map with a noncomputable low-weight crossing measure.",
+          "The counterexample retains a computable clopen injective two-sheet split, so it separates stopping-effectivity failure from actual non-conservation.",
+          "The natural inverse-point-count lift can have noncomputable total mass even for fair-coin output measure."
+        ],
+        "unresolved_mechanism": "No single coherent computable pullback martingale and no exact k=2 computable-randomness destroyer were obtained.",
+        "exact_k2_destroyer_constructed": false,
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S005",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
