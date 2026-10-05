@@ -823,3 +823,31 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: `P4-S005`, still restricted to k=2, testing whether the low-weight crossing sets become Schnorr/computable-randomness null under the two-prefix structure, versus a genuine thin-sheet non-conservation realization.
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
+
+## P4-S005 — k=2 crossing-measure non-effectivity boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `beaa3c41f886176cde1b51d74e6e812b8f30974a`, matching live `main` exactly. Repository search returned no P4-S005 record on the incoming checkpoint, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2.
+
+Result: the forced two-prefix inverse lists do not make the P4-S004 low-weight crossing measures computable. An exact total computable fair-coin-preserving k=2 prefix-code map, even with the stronger computable clopen split [0],[1] into injective sheets, has
+[
+\lambda(V_{0,1/3})=\frac18\sum_{e\in K}4^{-(e+1)}
+]
+for a fixed c.e. noncomputable K. The base-4 digit gap proves this crossing measure noncomputable.
+
+A natural branch-free inverse-point-count lift also has noncomputable total mass on the same example. Thus neither the finite two-prefix candidate bound nor symmetric fibre counting supplies the missing computable stopped/pullback martingale.
+
+The construction is explicitly not a randomness-destruction witness: P4-S003's computable-clopen-sheet theorem applies, so it preserves computable randomness. The SRC-0061 filler/pre-revealed-bet obstruction remains unresolved, including the tested one-hidden/rotating-mask variation. No exact k=2 destroyer is claimed.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001 through P4-S004 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S005_MATHEMATICS.md`, `phase4/P4-S005_CLOSE.md`, `phase4/P4-S005_VALIDATION.md`. Durable decision: D-0027. Lesson: FL-053.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S006`, still restricted to k=2, testing the effective complexity of the canonical lexicographic/Borel two-sheet split of the compact collision relation and whether it suffices for computable-randomness transfer; if not, pursue a genuinely moving-sheet/one-hole counterexample rather than revisiting crossing-measure computability.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
