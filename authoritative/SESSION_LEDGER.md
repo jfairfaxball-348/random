@@ -926,3 +926,27 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: `P4-S009`, still restricted to k=2, testing only the singleton-fibre moving-hole route: whether threshold-triggered/dynamic-sentinel permutation completions can be combined into one computable martingale without a computable success-rate/query-time bound, or whether an exact globally k=2 singleton-winning scan witness can satisfy all freshness, fair-coin and fibre checks.
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
+
+## P4-S009 — singleton moving-hole / bounded deferred-wager boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `90f4441e1edde8f1c3a4e85652c2514e18cb77ac`, matching live `main` exactly before substantive work and after continuation. The expected P4-S009 records were absent on the incoming checkpoint, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2 and to the singleton-fibre moving-hole case from P4-S008.
+
+Result: a proposed sentinel j has a computable avoidance tree. If every continuation eventually consumes j, a uniform finite deadline is computably searchable. Given such a deadline, the deferred wager created by prequerying j can be hedged exactly by finite conditional expectation, reaching the same post-consumption capital as the original output martingale with no multiplicative loss.
+
+Thus the live obstruction is narrower: on the singleton target a hard sentinel is consumed, but another continuation can omit it forever. Finite-horizon portfolio/savings schemes have vanishing tail coverage as the delay grows, so output-martingale unboundedness alone gives no rate-free infinite-turnover guarantee. This is not a universal impossibility theorem for all martingale transfers.
+
+A simple globally k=2 fair-coin singleton-spine comb verifies that infinitely many avoidable-but-consumed holes are combinatorially possible, but its naive computable-control spine is not computably random. No adaptive exact destroyer is completed and SRC-0061 is not reused.
+
+No exact k=2 destroyer and no full global-k=2 scan preservation theorem is claimed. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001 through P4-S008 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S009_MATHEMATICS.md`, `phase4/P4-S009_CLOSE.md`, `phase4/P4-S009_VALIDATION.md`. Durable decision: D-0031. Lesson: FL-057.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S010`, still restricted to k=2, on the branchwise-avoidable deferred-wager value: test whether threshold-capping makes that optional-projection value computable, or build an exact adaptive singleton-spine witness with all global checks.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
