@@ -179,3 +179,20 @@ Next action: P3-S007 must make a separate documented choice among selecting CAND
 
 Record: `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`.
 
+
+
+## D-0021 — Select CAND-01 for separate Gate-3 review
+
+On 2026-10-05, P3-S007 made the bounded Phase-3 candidate-selection / NO-GO decision over surviving CAND-01 and CAND-02.
+
+Decision: **SELECT_CAND_01**.
+
+CAND-01 is selected because its residual uncertainty is a direct mathematical-payoff question on a structurally meaningful finite-multiplicity axis. P3-S004 remains controlling: no computable-randomness consequence of the bare global finite cardinal fibre bound is established. The expected value lies in a sharp preservation/failure result plus an explanatory boundary between unrestricted total-map non-conservation, cardinal finite ambiguity and explicit effective inverse information.
+
+CAND-02 is not selected for active Gate-3 investment. Its natural nonergodic/effective-observation axes remain acknowledged, but P3-S005/P3-S006's **elevated technical-slice / representation-artifact risk** remains decisive: everywhere-totality may merely exclude a.e./partial witness representations without defining a distinct randomness boundary.
+
+NO-GO is not chosen because CAND-01 still clears the programme's investment threshold for an independent Gate-3 review. This selection is not a novelty, openness, truth or publishability finding. PA-0001 and PA-0002 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**.
+
+Gate 3 is not reviewed in P3-S007 and Phase 4 remains closed.
+
+Record: `phase3/P3-S007_SELECTION_DECISION.md`.
