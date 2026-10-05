@@ -42,7 +42,7 @@ For each candidate ask: Has this definition/result appeared before? Is it equiva
 
 ## Phase 4 — Mathematics
 
-**Status:** OPEN after Gate-3 PASS in P3-S008 for selected CAND-01. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; this authorization is not a novelty finding. The first bounded session is P4-S001 on the k=1 injective base case.
+**Status:** OPEN after Gate-3 PASS in P3-S008 for selected CAND-01. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; this authorization is not a novelty finding. P4-S001 settles the k=1 injective boundary by forcing a computable measure-preserving inverse and computable-randomness invariance. P4-S002 shows that k=2 forces effective descending clopen fibre approximations but not total computable selectors/two-branch enumeration; the general k=2 computable-randomness preservation/failure question remains unresolved.
 
 **Purpose:** do the actual mathematical work.
 
