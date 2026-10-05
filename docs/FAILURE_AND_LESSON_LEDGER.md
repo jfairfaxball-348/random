@@ -677,3 +677,16 @@ The failed inference is that savings/restart can therefore handle the singleton 
 A simple k=2 singleton-spine comb confirms that infinitely many avoidable-but-consumed holes are compatible with the global fibre bound, but fixing the spine by a computable set of control bits destroys source computable randomness. Making the controls adaptive without pre-revealing future decisive bets is the unresolved construction problem.
 
 Resolution: do not charge an automatic factor-two penalty to bounded sentinel turnovers, and do not claim that generic savings removes the unbounded stopping-value problem. Future work should analyze the capped deferred-wager value on branchwise-avoidable sentinels, or construct an adaptive singleton spine with every global check proved.
+
+## FL-058 — a bounded cap removes integrability trouble, not noncomputable branch mass
+
+Session: P4-S010
+Status: PHASE-4 k=2 BRANCHWISE-AVOIDABLE OPTIONAL-PROJECTION GUARD
+
+The failed inference is that once the deferred output martingale is stopped below a fixed threshold, bounded martingale convergence makes the prequeried-sentinel conditional value computable. P4-S010 gives an exact counterexample: sentinel consumption is a c.e.-open event with noncomputable measure alpha, while the bounded terminal payoff is 2b on consumption and 1 on avoidance. After revealing sentinel bit b early, the exact projected capital is 1+(2b-1)alpha.
+
+Finite truncations are computable, but a computable convergence modulus would compute alpha. Thus boundedness supplies existence and integrability, not effective tail control.
+
+The witness-side lesson is separate. An adaptive least-unqueried-sentinel comb can satisfy totality, fair-coin, global k=2, singleton-spine, freshness and non-pre-revelation checks. The unresolved burden is source randomness: noncomputable trigger normalization blocks the immediate source-martingale mirror but does not prove that a computably random sequence lies on an infinite correct-prediction spine.
+
+Resolution: do not infer computable optional projection from a capital cap, and do not infer a counterexample merely from noncomputable projection values. Future work should attack the computably-random-source question for the c.e.-trigger singleton spine directly.
