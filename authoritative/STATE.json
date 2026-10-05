@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P3-S008",
+  "last_completed_session": "P4-S001",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 74
   },
-  "next_transition": "Run P4-S001: bounded initial mathematical investigation of CAND-01, beginning with the k=1 injective base case and effective inverse information.",
-  "recommended_next_session": "P4-S001",
+  "next_transition": "Run P4-S002: bounded k=2 structural investigation of effective fibre enumeration / inverse-branch information under the exact CAND-01 hypotheses.",
+  "recommended_next_session": "P4-S002",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,8 +297,21 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": null,
-    "next_session": "P4-S001",
-    "original_mathematics_performed": false
+    "last_session": "P4-S001",
+    "next_session": "P4-S002",
+    "original_mathematics_performed": true,
+    "latest_record": "phase4/P4-S001_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S001_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S001_VALIDATION.md",
+    "k1_result": {
+      "session": "P4-S001",
+      "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
+      "effective_inverse_forced": true,
+      "map_dependent_inverse_use_modulus": true,
+      "class_wide_fixed_inverse_use_bound": false,
+      "randomness_dependency": "SRC-0015 / THM-0038",
+      "k_ge_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    }
   }
 }
