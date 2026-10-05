@@ -12,7 +12,7 @@ Phases 1–3 are complete for gate purposes. Phase 4 — **Mathematics** — is 
 
 Phase-4 work may perform original mathematical investigation on CAND-01: proofs/disproofs, counterexamples, exact boundary analysis, characterizations, examples, justified computation, and Lean/Palomar work where useful. It must preserve the exact committed CAND-01 formulation unless a documented mathematical finding requires an explicit revision/backtrack.
 
-Gate-3 PASS does not establish novelty, openness, truth or publishability. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. The controlling guard remains that finite multiplicity is provisionally substantive but has no established computable-randomness consequence. Publication work remains unauthorized until a separate Gate-4 PASS.
+Gate-3 PASS does not establish novelty, openness, truth or publishability. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. The Gate-3 controlling guard was that finite multiplicity was provisionally substantive but had no established computable-randomness consequence before Phase 4. P4-S001 now establishes only the k=1 injective consequence: such maps force a computable measure-preserving inverse and preserve computable randomness. No conclusion is established there for k>=2 or general finite multiplicity. Publication work remains unauthorized until a separate Gate-4 PASS.
 
 ## Programme objective
 
