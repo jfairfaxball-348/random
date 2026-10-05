@@ -223,3 +223,17 @@ The effective inverse information is map-dependent: coordinate permutations show
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status claim is made, and no result is inferred for k>=2 or arbitrary finite multiplicity. The Gate-3 guard remains accurate as the pre-Phase-4 baseline rather than as a post-P4-S001 statement about k=1.
 
 Record: phase4/P4-S001_MATHEMATICS.md.
+
+## D-0024 — k=2 does not force total effective inverse branches
+
+On 2026-10-05, P4-S002 investigated the first genuinely non-injective CAND-01 case.
+
+Decision/result: under the exact k=2 hypotheses, the inverse fibre F^{-1}(y) is uniformly represented by descending computable clopen sets F^{-1}([y↾m]); a particular point becomes computable from y when an isolating input prefix is supplied. But the bare cardinal bound does **not** force an everywhere-total computable selector or an everywhere-total computable two-branch enumeration.
+
+The witness is an explicit computable fair-coin-preserving prefix-replacement map with exactly one double fibre. Unique inverses approaching the collision output converge along two subsequences to two different domain points, so every global selector/listing is discontinuous.
+
+This obstruction does not decide computable-randomness preservation. The witness has an a.e.-computable measure-preserving inverse and hence preserves computable randomness by SRC-0015 / THM-0038. The exactly two-to-one shift independently preserves computable randomness by direct martingale lift. General k=2 preservation/failure therefore remains unresolved after P4-S002.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S002_MATHEMATICS.md.
