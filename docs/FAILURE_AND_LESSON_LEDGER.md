@@ -664,3 +664,16 @@ The failed inference is to extend this fixed-sentinel argument automatically to 
 Resolution: any future scan-based k=2 destroyer must be singleton-fibre at its winning source and must maintain an outward-moving freshness hole. Do not reuse a persistent-hole/double-fibre story, and do not claim that the fixed-sentinel family already yields one computable martingale.
 
 Lesson: the scan problem is now narrower than P4-S007's general freshness formulation. The remaining issue is not whether one coordinate can stay hidden forever—it cannot on a winning computably random source—but whether infinitely many successively consumed holes can be managed without either a computable growth-rate assumption or pre-revelation.
+
+## FL-057 — bounded deferred wagers are exactly hedgeable; unbounded delay means a sibling can keep the hole forever
+
+Session: P4-S009
+Status: PHASE-4 k=2 SINGLETON-MOVING-HOLE / DEFERRED-WAGER GUARD
+
+A moving sentinel is not intrinsically costly. From a finite scan state, the continuations avoiding a proposed sentinel form a computable binary tree. If every continuation eventually consumes the sentinel, finite branching makes the tree finite and its first empty level gives a computably searchable deadline. Once that deadline is known, the future logical wager on the already-seen sentinel bit can be prepaid exactly: the finite conditional expectation of the post-consumption output-martingale capital is a computable fair martingale on the completion bits.
+
+The failed inference is that savings/restart can therefore handle the singleton case automatically. The genuinely hard turnover is precisely one where the target eventually consumes the sentinel but some sibling continuation can omit it forever. Then no finite terminal depth is certified. Splitting capital among finite horizon guesses gives tail weights tending to zero; across infinitely many such turnovers no lower bound follows from unbounded output capital unless delay is related effectively to capital growth.
+
+A simple k=2 singleton-spine comb confirms that infinitely many avoidable-but-consumed holes are compatible with the global fibre bound, but fixing the spine by a computable set of control bits destroys source computable randomness. Making the controls adaptive without pre-revealing future decisive bets is the unresolved construction problem.
+
+Resolution: do not charge an automatic factor-two penalty to bounded sentinel turnovers, and do not claim that generic savings removes the unbounded stopping-value problem. Future work should analyze the capped deferred-wager value on branchwise-avoidable sentinels, or construct an adaptive singleton spine with every global check proved.
