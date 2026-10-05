@@ -265,3 +265,22 @@ A new explicit asymmetric collision map F_thin is total computable, fair-coin pr
 General k=2 preservation/failure remains unresolved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S004_MATHEMATICS.md.
+
+## D-0027 — k=2 two-prefix lists do not force computable stopping probabilities
+
+On 2026-10-05, P4-S005 continued selected CAND-01 strictly at k=2.
+
+Decision/result: the forced two-prefix inverse lists do **not** make the P4-S004 low-weight crossing measures computable. An exact total computable fair-coin-preserving k=2 prefix-code map is constructed with a computable clopen partition [0],[1] into injective sheets, yet
+[
+\lambda(V_{0,1/3})=\frac18\sum_{e\in K}4^{-(e+1)}
+]
+for a fixed c.e. noncomputable set K. The base-4 coding makes this crossing measure noncomputable.
+
+A natural branch-free alternative also fails uniformly: integrating inverse-point counts against fair coin yields a finite measure whose total mass is (2-\frac12\sum_{e\in K}4^{-(e+1)}), again noncomputable. Thus neither candidate-count information nor symmetric fibre counting supplies the desired computable stopped/pullback martingale by itself.
+
+These are effectivity obstructions, not non-conservation results. The constructed map lies inside P4-S003's positive computable-clopen-sheet regime and therefore preserves computable randomness. No exact k=2 destroyer is obtained, and the SRC-0061 pre-revealed-bet obstruction remains unresolved.
+
+General k=2 preservation/failure remains unresolved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S005_MATHEMATICS.md.
+
