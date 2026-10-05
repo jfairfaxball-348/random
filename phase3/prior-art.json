@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 3,
-  "last_updated_session": "P3-S007",
+  "last_updated_session": "P3-S008",
   "records": [
     {
       "id": "PA-0001",
@@ -67,7 +67,7 @@
       "novelty_guard": "No openness or novelty conclusion is inferred from search absence. The exact finite-fibre restriction remains unresolved under the evidence inspected.",
       "original_mathematics_performed": false,
       "final_candidate_selected": false,
-      "gate3_review_performed": false,
+      "gate3_review_performed": true,
       "significance_assessment": {
         "session": "P3-S004",
         "disposition": "PROVISIONALLY_SUBSTANTIVE_CONTINUE_PHASE3",
@@ -100,7 +100,14 @@
         ],
         "guard": "Novelty classification remains unchanged. No mathematical implication from finite cardinal fibres to effective inverse information, entropy control, channel capacity or randomness preservation is asserted."
       },
-      "selection_status": "SELECTED_FOR_GATE3_REVIEW"
+      "selection_status": "SELECTED_FOR_GATE3_REVIEW",
+      "gate3_review": {
+        "session": "P3-S008",
+        "outcome": "PASS",
+        "review_record": "phase3/P3-S008_GATE3_REVIEW.md",
+        "phase4_opened": true,
+        "guard": "Disposition remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; Gate-3 PASS is not an openness or novelty finding."
+      }
     },
     {
       "id": "PA-0002",
@@ -323,5 +330,17 @@
     "gate3_review_performed": false,
     "phase4_opened": false,
     "next_session": "P3-S008"
+  },
+  "gate3_review": {
+    "session": "P3-S008",
+    "date": "2026-10-05",
+    "outcome": "PASS",
+    "selected_candidate": "CAND-01",
+    "review_record": "phase3/P3-S008_GATE3_REVIEW.md",
+    "close_record": "phase3/P3-S008_CLOSE.md",
+    "validation_record": "phase3/P3-S008_VALIDATION.md",
+    "prior_art_disposition_unchanged": true,
+    "phase4_opened": true,
+    "phase4_work_performed": false
   }
 }
