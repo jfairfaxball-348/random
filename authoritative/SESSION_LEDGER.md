@@ -878,3 +878,27 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: \`P4-S007\`, still restricted to k=2, testing delayed-coalescence inverse trees for either a computable martingale transfer or an exact moving-sheet non-conservation witness.
 
 The exact outgoing \`main\` hash is verified after closeout and reported in the session response.
+
+## P4-S007 — delayed-coalescence inverse-tree boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `b25136e24991cb988dc1186567a5639a3c41b38c`, matching live `main` exactly. Repository search returned no committed P4-S007 record on the incoming checkpoint, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2.
+
+Result: a computable monotone c(n) turns the raw inverse approximants into coherent compatible n-prefix sets of size at most two whose infinite paths are exactly the fibre. Double fibres become exact two-track tails after their true split. Singleton fibres can have at most one phantom per precision, with recurrent disagreement forced farther right. Fixed precision has a computable finite mind-change bound and at most one post-c(n) injury, but no computable last-injury time is forced.
+
+This gives bounded inverse information and a partial singleton inverse, but not the branch masses, persistence decisions or stopping normalization needed for one computable source martingale. General k=2 computable-randomness preservation/failure therefore remains unresolved.
+
+The session also proves an architecture-independent post-coalescence collapse: after c(n), later information that distinguishes the two candidate n-prefixes determines every other differing coordinate below n. An SRC-0061-style finite-fibre completion must therefore satisfy a global freshness condition relative to c(n). The committed unrestricted scan mechanism does not establish that condition, so it is not reused as a k=2 witness.
+
+No exact k=2 destroyer is claimed. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001 through P4-S006 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S007_MATHEMATICS.md`, `phase4/P4-S007_CLOSE.md`, `phase4/P4-S007_VALIDATION.md`. Durable decision: D-0029. Lesson: FL-055.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S008`, still restricted to k=2, testing whether the coherent width-two skeleton's freshness condition permits a genuinely nonmonotonic finite-fibre scan witness or instead forces a computable preservation mechanism.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
