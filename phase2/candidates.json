@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S005",
+  "last_updated_session": "P4-S006",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S005",
-      "record_path": "phase4/P4-S005_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S006",
+      "record_path": "phase4/P4-S006_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -273,6 +273,23 @@
         "unresolved_mechanism": "No single coherent computable pullback martingale and no exact k=2 computable-randomness destroyer were obtained.",
         "exact_k2_destroyer_constructed": false,
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S005",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_canonical_sheet_mathematics": {
+        "session": "P4-S006",
+        "scope": "k=2 canonical lexicographic sheet / one-hole boundary only",
+        "result": "CANONICAL_LEX_SHEETS_EFFECTIVE_BOREL_BAIRE1_NONCOMPUTABLE_MASS_POSSIBLE",
+        "successful_mechanisms": [
+          "Collision relation is effectively closed; canonical upper/lower sheets are effective F-sigma/G-delta.",
+          "Lexicographic min/max inverse selectors are effective Baire-1 limits of computable continuous approximants.",
+          "The P4-S005 internal map gives noncomputable canonical sheet masses, blocking uniform computable component measures.",
+          "A one-hole/rotating-mask filler architecture collapses when a masked genuine betting coordinate is revealed."
+        ],
+        "unresolved_mechanism": "No computable component measure, stabilization modulus, coherent source martingale or exact k=2 destroyer is obtained; delayed-coalescence constructions remain untested.",
+        "exact_k2_destroyer_constructed": false,
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S006",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
@@ -677,8 +694,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S005",
-  "recommended_next_scope": "Bounded k=2 mathematics on low-weight crossing-set effectivity / coherent stopping versus a genuine thin-sheet computable-randomness non-conservation witness.",
+  "recommended_next_session": "P4-S007",
+  "recommended_next_scope": "Bounded k=2 mathematics on delayed-coalescence inverse trees: can large finite-prefix ambiguity with at most two final fibre points yield one computable martingale transfer or an exact moving-sheet non-conservation witness?",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
