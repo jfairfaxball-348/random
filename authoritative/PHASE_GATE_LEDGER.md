@@ -5,7 +5,7 @@
 | Scaffold -> Phase 1 | AUTHORIZED | Owner explicitly authorized Phase 1 on 2026-10-03. |
 | Phase 1 -> Phase 2 | PASS | P1-S014 formally reviewed Gate 1 and passed it. Phase 1 is complete for gate purposes and Phase 2 — Discovery is OPEN. The catalogue remains bounded/non-exhaustive and residual provenance gaps remain recorded. |
 | Phase 2 -> Phase 3 | PASS | P2-S006 formally reviewed Gate 2 and passed it. Phase 2 is complete for gate purposes and Phase 3 — Novelty / Prior Art is OPEN. The PASS authorizes dedicated prior-art attack; it does not establish novelty or select a candidate. |
-| Phase 3 -> Phase 4 | CLOSED | Phase 3 is OPEN; Gate 3 has not been reviewed and Phase 4 is not authorized. |
+| Phase 3 -> Phase 4 | PASS | P3-S008 formally reviewed selected CAND-01 against every Gate-3 minimum-evidence requirement and passed Gate 3. Phase 3 is complete for gate purposes and Phase 4 — Mathematics is OPEN for CAND-01. PA-0001 remains unresolved under inspected evidence; PASS is not a novelty finding. |
 | Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
 
@@ -202,3 +202,21 @@ CAND-02 is not selected for active Gate-3 investment. Its significance assessmen
 PA-0001 and PA-0002 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. CAND-03 remains retired. Selection is not a novelty, openness, theorem or publishability finding.
 
 Authorization remains unchanged pending formal review: Phase 3 is **OPEN**, Gate 3 is **NOT REVIEWED**, Phase 4 is **CLOSED**, and mathematical investigation is unauthorized. The next bounded session is P3-S008, a separate formal Gate-3 review of selected CAND-01 only.
+
+
+## Gate-3 formal review — P3-S008
+
+Formal outcome: **PASS**.
+
+P3-S008 independently reviewed selected CAND-01 against every Gate-3 minimum-evidence requirement in docs/GATE_POLICY.md. The dedicated primary-source prior-art attack, alternate terminology/equivalent-formulation search, closest-known-work account, equivalence/rebranding risk, significance/usefulness case, interested-community assessment, explicit remaining novelty uncertainty and documented selection decision are all present.
+
+The PASS preserves the controlling guard: finite multiplicity is provisionally substantive but no computable-randomness consequence of the bare global finite cardinal fibre bound is established. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; no openness or novelty inference is made.
+
+Authorization after P3-S008:
+
+- Phase 3: **COMPLETED FOR GATE PURPOSES**
+- Phase 4 — Mathematics: **OPEN for CAND-01**
+- Phase 5 — Publication: **CLOSED**
+- Phase-4 mathematics performed in P3-S008: **NO**
+
+Formal review record: phase3/P3-S008_GATE3_REVIEW.md
