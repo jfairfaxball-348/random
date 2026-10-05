@@ -311,3 +311,17 @@ The post-coalescence state below precision n is intrinsically one binary cohort.
 This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S006 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S007_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S008 (not a gate review)
+
+P4-S008 completed one bounded k=2 scan-freshness investigation for selected CAND-01.
+
+Result: P4-S007's c(n) has an exact scan interpretation: by c(n), every transcript has queried at least n-1 of the first n source coordinates. For each fixed coordinate j, prequerying j and then following the scan until it requests j gives a total computable adaptive permutation completion; if j is never requested, global k=2 forces every other coordinate to be queried. An output martingale can be copied along this completion and frozen at sentinel consumption.
+
+Consequently a computably random winning source for a global k=2 scan cannot lie on a double fibre or omit a persistent coordinate. Any possible scan-based destroyer must win on a singleton fibre, with the unique low-coordinate hole moving outward and eventually being consumed.
+
+This does not prove scan preservation. No computable hole-consumption deadline follows from c(n), and no static mixture or dynamic-sentinel completion has been shown to convert the singleton moving-hole case into one computable source martingale without reintroducing pre-revelation. SRC-0061 is not reused and no exact k=2 destroyer is claimed.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S007 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S008_MATHEMATICS.md.
