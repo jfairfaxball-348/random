@@ -541,3 +541,15 @@ P3-S007 selected CAND-01 over CAND-02 under explicit uncertainty. The choice res
 Resolution: preserve PA-0001 and PA-0002 as **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Preserve CAND-01's lack of any established computable-randomness consequence of bare finite multiplicity and CAND-02's elevated totality/representation-artifact risk. Do not use the selection label as evidence in a later novelty claim or as a substitute for the formal Gate-3 review.
 
 Lesson: a programme may rationally choose which uncertainty to investigate without resolving that uncertainty. Selection answers “which research risk is worth reviewing/investing in next?”, not “which candidate has already been shown novel or mathematically correct?”
+
+
+## FL-048 — Gate-3 PASS authorizes mathematics; it does not certify novelty
+
+Session: P3-S008  
+Status: GATE / NOVELTY-SEPARATION GUARD
+
+Gate 3 asks whether the selected candidate has survived enough dedicated prior-art and significance scrutiny to justify mathematical investment. It does not require search absence to be converted into an openness claim, and it does not require the central Phase-4 theorem to be known in advance.
+
+Resolution: P3-S008 records **PASS** because every Gate-3 minimum-evidence category is present and the remaining risks are explicit. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The finite-fibre axis remains provisionally substantive, but no computable-randomness consequence of the bare cardinal bound is smuggled into the gate decision.
+
+Lesson: a gate can authorize the next kind of work without upgrading epistemic status. Phase 4 begins with a research question under explicit uncertainty, not with a certified new notion.
