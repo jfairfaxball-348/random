@@ -1,28 +1,25 @@
-# Next Session Prompt — P3-S007
+# Next Session Prompt — P3-S008
 
 Continue the Fairfax-Ball Randomness Research Programme in:
 
 https://github.com/jfairfaxball-348/random
 
-Run only Phase 3 — Novelty / Prior Art session P3-S007.
+Run only Phase 3 — Novelty / Prior Art session P3-S008, the formal Gate-3 review.
 
-Treat committed repository state as authoritative. Pin live `main` at the exact P3-S006 outgoing checkpoint reported by the preceding session, reconcile any mismatch before consuming authority, and confirm P3-S007 is unique.
+Treat committed repository state as authoritative. Pin live `main` at the exact P3-S007 outgoing checkpoint reported by the preceding session, reconcile any mismatch before consuming authority, and confirm P3-S008 is unique.
 
-Read `AGENTS.md`, `authoritative/START_HERE.md` and required authority; `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, its close and validation records; the P3-S001 through P3-S005 prior-art/significance records; `phase3/prior-art.json`; `phase2/candidates.json`; and the committed CAND-01/CAND-02 formulation and significance anchors.
+Read `AGENTS.md`, `authoritative/START_HERE.md` and required authority; `docs/GATE_POLICY.md`; `phase3/P3-S007_SELECTION_DECISION.md`, its close and validation records; `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`; the relevant P3-S001/P3-S004 CAND-01 prior-art/significance records; `phase3/prior-art.json`; `phase2/candidates.json`; and the committed CAND-01 formulation anchors.
 
-Perform one bounded Phase-3 **candidate-selection / NO-GO decision** over surviving CAND-01 and CAND-02 only. Do not perform the formal Gate-3 review in P3-S007.
+Perform the **formal Gate-3 review only** for selected CAND-01. Independently review the committed evidence against every Gate-3 minimum-evidence requirement: dedicated primary-source prior-art audit; alternate terminology/equivalent formulations searched; closest known work; equivalence/rebranding risk; significance/usefulness case; likely interested communities; remaining novelty uncertainty explicit; and documented selection decision.
 
-Compare the two candidates using only the committed Phase-3 evidence: prior-art/rebranding risk, mathematical significance/usefulness, likely interested communities, remaining novelty uncertainty, theorem-package quality, expected Phase-4 payoff, and candidate-specific technical-artifact risk. Preserve CAND-01's P3-S004 judgment that finite multiplicity is provisionally substantive but has no established computable-randomness consequence. Preserve CAND-02's P3-S005/P3-S006 elevated risk that everywhere-totality may be only a representation slice. Do not reopen retired CAND-03.
+Record exactly one formal outcome: `PASS`, `FAIL` or `BACKTRACK`.
 
-Record exactly one documented programme outcome:
-- `SELECT_CAND_01`;
-- `SELECT_CAND_02`; or
-- `NO_GO` for both survivors, with the required backtrack/termination disposition stated but not executed beyond authorized Phase-3 synchronization.
+Preserve the P3-S004/P3-S007 guard that finite multiplicity is provisionally substantive but no computable-randomness consequence of the bare global finite cardinal fibre bound is established. Preserve PA-0001 as `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`; do not infer openness or novelty from search absence. Do not reopen CAND-02 or CAND-03 except as historical comparison needed to verify the selection record.
 
-If a candidate is selected, explain why its expected mathematical value justifies its residual novelty/technical risk and why the other survivor is not selected. If `NO_GO`, explain why neither survivor clears the investment threshold. Do not infer novelty or openness from search absence.
+If Gate 3 is `PASS`, synchronize authority to show Phase 4 opened for selected CAND-01, but perform **no Phase-4 mathematics in P3-S008**. If `FAIL` or `BACKTRACK`, record the exact deficiency/disposition and synchronize only the authorized state.
 
-Do not conduct proof search, construct witnesses, run experiments, use Lean/Palomar, perform a new broad literature survey, review Gate 3, begin Phase 4, prepare publication material or contact third parties. Use new external literature only if a concrete committed-reference inconsistency blocks the decision.
+Do not conduct proof search, construct witnesses, run experiments, use Lean/Palomar, perform a broad new literature survey, prepare publication material or contact third parties. Use new external literature only if a concrete committed-reference inconsistency blocks an honest Gate-3 decision.
 
-Preserve DEF-0020 and all convention/evidence guards. Validate changed records and references; synchronize authority; create the P3-S007 close record; commit useful work; verify remote `main`; and report the exact outgoing hash.
+Preserve DEF-0020 and all convention/evidence guards. Validate changed records and references; synchronize authority; create the P3-S008 gate-review, close and validation records; commit useful work; verify remote `main`; and report the exact outgoing hash.
 
-If there is no owner/external blocker, provide the smallest runnable next prompt consistent with the P3-S007 outcome. A selected candidate should proceed to a **separate** formal Gate-3 review session; a NO-GO outcome should schedule only the authorized backtrack/termination decision needed by the recorded disposition.
+If there is no owner/external blocker, provide the smallest runnable next prompt consistent with the Gate-3 outcome.
