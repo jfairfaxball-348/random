@@ -311,3 +311,17 @@ This bounded inverse information is insufficient for the existing computable-ran
 SRC-0061 is not claimed to meet that condition and is not reused as a finite-fibre witness. General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S007_MATHEMATICS.md.
+
+## D-0030 — global k=2 scan destruction cannot use a persistent hole
+
+On 2026-10-05, P4-S008 continued selected CAND-01 strictly at k=2 and analyzed only the scan-freshness question forced by P4-S007.
+
+Decision/result: for a total adaptive no-repeat scan, P4-S007's schedule c(n) means that by stage c(n) every transcript has queried at least n-1 of the first n source coordinates. More importantly, any fixed coordinate j can be turned into a sentinel for a total computable adaptive permutation: query j first, follow the original scan while it avoids j, and if it requests j switch to enumerating all remaining coordinates. If it never requests j, the global k=2 fibre condition forces the original scan to query every other coordinate.
+
+An output martingale can be copied along this permutation completion and frozen if the sentinel is consumed. Hence a computably random source on which the original output martingale succeeds cannot omit any coordinate. Any scan-based k=2 destroyer must therefore win on a singleton fibre, with the unique low-coordinate hole moving outward and eventually being consumed.
+
+This does not yet prove scan preservation. On a singleton path every fixed sentinel is eventually consumed, c(n) gives no computable consumption deadline, and neither a static mixture nor a dynamic sentinel completion has been shown to retain the win without a computable growth/query-time relation. SRC-0061 is not reused.
+
+General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S008_MATHEMATICS.md.
