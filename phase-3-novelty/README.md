@@ -1,11 +1,11 @@
 # Phase 3 — Novelty / Prior Art
 
-Status: **OPEN** after formal Gate-2 PASS in P2-S006.
+Status: **COMPLETED FOR GATE PURPOSES** after formal Gate-3 PASS in P3-S008.
 
-Purpose: aggressively test each serious candidate against primary-source prior art, alternate terminology, equivalent formulations, usefulness, significance and likely interested communities.
+P3-S001 through P3-S007 supplied the selected-candidate prior-art, significance, readiness and selection evidence. P3-S008 independently reviewed selected CAND-01 against every Gate-3 minimum-evidence requirement and recorded PASS.
 
-Gate-2 PASS is only authorization to perform this attack. Candidate-level novelty/literature status is still NOT_ASSESSED, no candidate is selected and Fairfax-Ball Randomness is not defined.
+CAND-01 is authorized for Phase-4 mathematics. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The Gate-3 PASS does not establish openness, novelty, truth or publishability, and the controlling guard remains that finite multiplicity is provisionally substantive but has no established computable-randomness consequence.
 
-The first bounded session is **P3-S001**, a dedicated prior-art attack on CAND-01 only. Original mathematics, Lean/Palomar work, Gate-3 review, Phase-4 work and publication activity remain unauthorized.
+CAND-02 remains unselected with its recorded significance case and elevated totality/representation-slice risk. CAND-03 remains retired as a definition-level rebranding.
 
-A failed novelty audit is a successful gate function: retire or revise the candidate rather than rationalizing around prior art.
+No Phase-4 mathematics was performed in P3-S008. Phase 5 remains CLOSED.
