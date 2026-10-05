@@ -189,3 +189,16 @@ CAND-01 retains its unresolved finite-multiplicity payoff risk. CAND-02 retains 
 
 Authorization is unchanged: Phase 3 remains **OPEN**, Gate 3 remains **NOT REVIEWED / CLOSED**, Phase 4 remains **CLOSED**, and no candidate is selected. The next bounded session is P3-S007, selection/NO-GO only.
 
+
+
+## Phase-3 candidate selection — P3-S007 (not a gate review)
+
+P3-S007 recorded the single programme outcome **SELECT_CAND_01** after comparing the two surviving Phase-3 investment cases under the committed P3-S001 through P3-S006 evidence.
+
+CAND-01 is selected for a separate formal Gate-3 review. Its P3-S004 qualification remains controlling: finite multiplicity is provisionally substantive as a research axis, but no computable-randomness consequence of the bare global finite cardinal fibre bound is established. The selection reflects the expected explanatory payoff of resolving the boundary between unrestricted total-map non-conservation, bare finite multiplicity and explicit effective inverse information.
+
+CAND-02 is not selected for active Gate-3 investment. Its significance assessment is preserved, including the elevated risk that everywhere-totality is merely a representation slice excluding a.e./partial witnesses rather than changing randomness content.
+
+PA-0001 and PA-0002 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. CAND-03 remains retired. Selection is not a novelty, openness, theorem or publishability finding.
+
+Authorization remains unchanged pending formal review: Phase 3 is **OPEN**, Gate 3 is **NOT REVIEWED**, Phase 4 is **CLOSED**, and mathematical investigation is unauthorized. The next bounded session is P3-S008, a separate formal Gate-3 review of selected CAND-01 only.
