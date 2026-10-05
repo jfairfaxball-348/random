@@ -297,3 +297,17 @@ No exact k=2 randomness-destruction witness is claimed. General k=2 preservation
 This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S005 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S006_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S007 (not a gate review)
+
+P4-S007 completed one bounded k=2 delayed-coalescence inverse-tree investigation for selected CAND-01.
+
+Result: the P4-S003 two-prefix theorem can be made coherent across source precision. A computable monotone c(n) yields nonempty compatible n-prefix sets of size at most two whose projections are coherent and whose infinite paths are exactly the fibre. Double fibres have exact two-track tails after their first true split. Singleton fibres have at most one phantom at each precision, and recurrent phantoms must move their first disagreement arbitrarily far right. At fixed n there is a computable finite mind-change bound and at most one post-c(n) injury, but no computable final stabilization time is forced.
+
+This does not supply a computable-randomness transfer: branch persistence, conditional masses and stopping normalization remain unavailable. P4-S004/P4-S005 remain controlling on those measure/effectivity points.
+
+The post-coalescence state below precision n is intrinsically one binary cohort. Later information selecting one of the two candidates determines every differing first-n coordinate simultaneously. Any SRC-0061-style k=2 completion must therefore prove a global freshness condition relative to c(n); the committed unrestricted scan mechanism supplies no such theorem. No exact k=2 destroyer is claimed.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S006 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S007_MATHEMATICS.md.
