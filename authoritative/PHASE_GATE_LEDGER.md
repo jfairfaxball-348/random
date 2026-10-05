@@ -220,3 +220,15 @@ Authorization after P3-S008:
 - Phase-4 mathematics performed in P3-S008: **NO**
 
 Formal review record: phase3/P3-S008_GATE3_REVIEW.md
+
+## Mathematics checkpoint — P4-S001 (not a gate review)
+
+P4-S001 completed the first bounded Phase-4 investigation on selected CAND-01, restricted to k=1.
+
+Result: every everywhere-total computable fair-coin-preserving injective Cantor self-map is forced to be a computable fair-coin-preserving homeomorphism with an everywhere-total computable inverse. Total computability supplies effective finite forward-use bounds; injectivity effectively separates the images of fixed-level input cylinders; fair-coin preservation forces surjectivity because a missing point would have a positive-measure cylinder with empty preimage.
+
+Applying the already-catalogued SRC-0015 / THM-0038 therefore gives computable-randomness invariance for the entire k=1 class. A map-dependent computable inverse-use modulus is forced, but no single fixed class-wide use bound exists; coordinate permutations witness arbitrarily delayed inverse use.
+
+This is Phase-4 programme mathematics, not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The Gate-3 no-consequence guard is preserved as the pre-Phase-4 baseline; P4-S001 resolves only k=1 and makes no claim for k>=2 or general finite multiplicity. Phase 4 remains OPEN, Gate 4 is not reviewed, and Phase 5 remains CLOSED.
+
+Record: phase4/P4-S001_MATHEMATICS.md.
