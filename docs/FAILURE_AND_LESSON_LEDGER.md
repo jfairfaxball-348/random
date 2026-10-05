@@ -651,3 +651,16 @@ The same skeleton sharpens the filler problem. After c(n), every unresolved firs
 Resolution: future scan-based non-conservation work must prove a **freshness invariant** relative to c(n), not merely retain many raw finite-stage candidates. It must ensure that coalescence below n does not place two still-important future betting positions into the same binary cohort. SRC-0061 currently supplies no such guarantee.
 
 Lesson: delayed coalescence narrows the negative route rather than solving it. The remaining question is whether a globally k=2 completion can keep enough nonmonotonic bets fresh despite the computable coalescence schedule, or whether that constraint forces preservation.
+
+## FL-056 — a persistent scan hole collapses to a computable permutation; only a moving singleton hole survives
+
+Session: P4-S008
+Status: PHASE-4 k=2 SCAN-FRESHNESS / SINGLETON-MOVING-HOLE GUARD
+
+For a global k=2 no-repeat scan, a permanently omitted coordinate cannot support a computable-randomness counterexample. Fixing an omitted coordinate j allows a total adaptive permutation completion: query j first, follow the scan while it avoids j, and switch to exhaustive fillers if the scan ever requests j. If it never does, global k=2 forces every other coordinate to be queried. A winning output martingale therefore transfers to a k=1 permutation image, contradicting P4-S001 on a computably random source.
+
+The failed inference is to extend this fixed-sentinel argument automatically to singleton fibres. On a singleton winning path every coordinate is eventually queried, so each fixed-sentinel completion eventually freezes. P4-S007's c(n) says that at most one low coordinate remains fresh at the sampled stage, but gives no computable deadline for when that moving hole is consumed. A weighted family of fixed sentinels has no proved success-rate compensation, while replacing consumed sentinels dynamically can pre-reveal later genuine betting coordinates.
+
+Resolution: any future scan-based k=2 destroyer must be singleton-fibre at its winning source and must maintain an outward-moving freshness hole. Do not reuse a persistent-hole/double-fibre story, and do not claim that the fixed-sentinel family already yields one computable martingale.
+
+Lesson: the scan problem is now narrower than P4-S007's general freshness formulation. The remaining issue is not whether one coordinate can stay hidden forever—it cannot on a winning computably random source—but whether infinitely many successively consumed holes can be managed without either a computable growth-rate assumption or pre-revelation.
