@@ -2,7 +2,7 @@
 
 Date: 2026-10-05
 Incoming baseline: b5881ac82a636c03c0b7c3ad9d6a36b5b47de123
-Result: **PASS** for uniqueness, k=2 scope discipline, effective-Borel calculations, canonical-selector checks, one-hole obstruction accounting, authority synchronization target and preserved novelty/convention guards.
+Result: **PASS** for uniqueness, k=2 scope discipline, effective-Borel calculations, canonical-selector checks, one-hole obstruction accounting, authority synchronization and preserved novelty/convention guards.
 
 Checks:
 - live main matched the incoming baseline before substantive work;
@@ -31,6 +31,9 @@ Checks:
 - PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE;
 - the pre-Phase-4 Gate-3 guard remains historical and unchanged in meaning;
 - DEF-0020 and catalogue records are unchanged;
-- Gate 4 is not reviewed and Phase 5 remains CLOSED.
+- Gate 4 is not reviewed and Phase 5 remains CLOSED;
+- synchronized `authoritative/STATE.json`, `phase2/candidates.json` and unchanged `phase3/prior-art.json` parse successfully, with PA-0001 still `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`;
+- the final baseline comparison changes only P4-S006 records and programme authority/index files; P4-S001 through P4-S005 and catalogue files are absent from the changed-file set;
+- P4-S007 is the next bounded task and no owner/external blocker exists.
 
 This is bookkeeping/manual proof validation, not proof-assistant verification and not a novelty theorem.
