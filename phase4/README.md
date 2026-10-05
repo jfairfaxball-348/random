@@ -70,4 +70,24 @@ Records:
 - phase4/P4-S004_CLOSE.md
 - phase4/P4-S004_VALIDATION.md
 
-Next recommended session: **P4-S005**, still bounded to k=2, on Schnorr/computable-randomness effectivization of the low-weight crossing sets versus a genuine thin-sheet non-conservation realization.
+Historical next step after P4-S004: **P4-S005**, now completed below.
+
+## P4-S005 — k=2 crossing-measure non-effectivity boundary
+
+P4-S005 refutes the direct stopping-effectivization route isolated in P4-S004. An exact total computable fair-coin-preserving k=2 prefix-code map has a computable clopen partition [0],[1] into injective sheets, yet for a fixed c.e. noncomputable set K its low-weight crossing set satisfies
+[
+\lambda(V_{0,1/3})=\frac18\sum_{e\in K}4^{-(e+1)},
+]
+which is noncomputable. Thus the forced two-prefix inverse lists do not force computable low-weight hitting probabilities, even under strictly stronger effective sheet information.
+
+A second natural branch-free route also fails uniformly: integrating inverse-point counts against fair coin gives a finite measure whose total mass can encode the same noncomputable set. Hence symmetric fibre counting does not automatically yield one computable pullback martingale.
+
+The new map is not a randomness-destruction witness because its computable clopen injective-sheet split places it inside P4-S003's positive preservation theorem. The SRC-0061 pre-revealed-bet obstruction remains unresolved. General k=2 preservation/failure remains unresolved.
+
+Records:
+- phase4/P4-S005_MATHEMATICS.md
+- phase4/P4-S005_CLOSE.md
+- phase4/P4-S005_VALIDATION.md
+
+Next recommended session: **P4-S006**, still bounded to k=2, on the canonical lexicographic/Borel two-sheet split of the compact collision relation and whether its effective complexity suffices for computable-randomness transfer; if not, pursue a genuinely moving-sheet/one-hole counterexample rather than revisiting crossing-measure computability.
+
