@@ -129,3 +129,20 @@ Records:
 - phase4/P4-S007_VALIDATION.md
 
 Next recommended session: **P4-S008**, still bounded to k=2, on the freshness constraint: determine whether a total adaptive scan completable to global k=2 can retain enough genuinely fresh nonmonotonic bets to defeat a computably random source, or whether the constraint yields a computable martingale/permutation-style preservation theorem.
+
+## P4-S008 — k=2 scan freshness / permutation-completion boundary
+
+P4-S008 specializes P4-S007's freshness constraint to total adaptive no-repeat scans. At stage c(n), every transcript has queried at least n-1 of the first n source coordinates, so all remaining low-coordinate freshness is concentrated in at most one hole.
+
+For any fixed coordinate j, querying j first and then following the scan until it requests j yields a total computable adaptive permutation completion: if j is never requested, global k=2 forces the original scan to query every other coordinate; if it is requested, the completion switches to exhaustive fillers. Any output martingale can be copied until that switch and then frozen.
+
+Therefore a computably random winning source cannot have a persistent omitted coordinate. Any scan-based k=2 destroyer must win on a singleton fibre, where every coordinate is eventually queried and any low-coordinate hole moves outward.
+
+The singleton moving-hole case remains unresolved. c(n) supplies no computable consumption deadline, fixed-sentinel mixtures have no proved growth-rate compensation, and dynamic sentinels can again pre-reveal later genuine bets. SRC-0061 is not reused. No exact k=2 destroyer and no full scan-preservation theorem is obtained.
+
+Records:
+- phase4/P4-S008_MATHEMATICS.md
+- phase4/P4-S008_CLOSE.md
+- phase4/P4-S008_VALIDATION.md
+
+Next recommended session: **P4-S009**, still bounded to k=2, on the singleton-fibre moving-hole route: determine whether threshold-triggered/dynamic-sentinel permutation completions can be combined into one computable martingale without a computable success-rate/query-time bound, or whether an exact globally k=2 singleton-winning scan witness can be constructed with all global checks.
