@@ -10,9 +10,9 @@ Gate 1 passed in P1-S014, Gate 2 passed in P2-S006 and Gate 3 passed in P3-S008.
 
 P3-S007 selected CAND-01, and P3-S008 independently verified that its committed Phase-3 record satisfies every Gate-3 minimum-evidence requirement. This authorization does **not** establish that CAND-01 is open, novel, mathematically distinct, true or publishable. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**.
 
-The controlling Phase-4 starting guard is unchanged: finite multiplicity is provisionally substantive as a structural axis, but no computable-randomness consequence of the bare global finite cardinal fibre bound has yet been established. CAND-02 is not selected; CAND-03 remains retired.
+The controlling Gate-3 statement remains historical: before Phase 4, finite multiplicity was provisionally substantive but had no established computable-randomness consequence. P4-S001 settles k=1 positively by forcing a computable measure-preserving inverse. P4-S002 shows that k=2 no longer forces total computable inverse branches or total fibre enumeration: an explicit fair-coin-preserving map with one double fibre makes every global selector discontinuous. That example still preserves computable randomness through an a.e. inverse, so the general k=2 preservation/failure question remains unresolved. CAND-02 is not selected; CAND-03 remains retired.
 
-The next bounded task is P4-S001, a first mathematical investigation of the k=1 injective base case and effective inverse information. Phase 5 publication work remains CLOSED, and Fairfax-Ball Randomness is not defined.
+The next bounded task is P4-S003, still restricted to k=2, testing whether weaker a.e./weighted inverse information or a direct martingale-transfer theorem is forced, versus a genuine k=2 non-conservation construction. Phase 5 publication work remains CLOSED, and Fairfax-Ball Randomness is not defined.
 
 Repository authority lives in the committed files. Start every future session with authoritative/START_HERE.md.
 
