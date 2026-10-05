@@ -8,7 +8,7 @@ Result: **THE CANONICAL LEXICOGRAPHIC SHEETS ARE EFFECTIVE BOREL / BAIRE-1 BUT N
 
 ## Authority, uniqueness and scope
 
-Live \`main\` matched the incoming checkpoint exactly before substantive work, and repository search returned no committed P4-S006 record. P4-S006 was therefore unused.
+Live `main` matched the incoming checkpoint exactly before substantive work, and repository search returned no committed P4-S006 record. P4-S006 was therefore unused.
 
 Gate 3 is PASS and Phase 4 is OPEN for selected CAND-01. Phase 5 remains CLOSED. P4-S001 through P4-S005 are preserved exactly. This session stays strictly at k=2. P4-S005's negative stopping result is treated as settled: no attempt is made to recover computability of the P4-S004 low-weight crossing measures.
 
