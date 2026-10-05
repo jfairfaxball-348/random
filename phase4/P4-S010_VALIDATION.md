@@ -34,4 +34,11 @@ Checks:
 - DEF-0020 and catalogue records are unchanged;
 - Gate 4 is not reviewed and Phase 5 remains CLOSED.
 
-Repository/authority synchronization and final remote-head verification are performed in closeout. This is bookkeeping/manual proof validation, not proof-assistant verification and not a novelty theorem.
+- synchronized `authoritative/STATE.json`, `phase2/candidates.json` and unchanged `phase3/prior-art.json` parse successfully;
+- authoritative state names P4-S010 as last completed, P4-S011 as next, keeps Phase 4 OPEN and Phase 5 CLOSED, and records no owner/external blocker;
+- PA-0001 remains `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`;
+- the incoming-baseline comparison changes only P4-S010 records and programme authority/index/summary files; P4-S001 through P4-S009, Phase-3 prior-art records and catalogue records are absent from the changed-file set;
+- the committed P4-S011 prompt is bounded to the adaptive c.e.-trigger singleton-spine source-randomness question and does not reopen the settled P4-S010 capped-projection counterexample;
+- final remote `main` is verified after this validation update and the exact outgoing hash is reported in the session response.
+
+This is bookkeeping/manual proof validation, not proof-assistant verification and not a novelty theorem.
