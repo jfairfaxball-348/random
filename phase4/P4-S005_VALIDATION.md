@@ -31,6 +31,8 @@ Checks:
 - the pre-Phase-4 Gate-3 guard remains historical and unchanged in meaning;
 - DEF-0020 and catalogue records are unchanged;
 - Gate 4 is not reviewed and Phase 5 remains CLOSED;
+- synchronized `authoritative/STATE.json`, `phase2/candidates.json` and `phase3/prior-art.json` parse successfully; PA-0001 remains `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`;
+- the final baseline comparison changes only P4-S005 records and programme authority/index files; P4-S001 through P4-S004 and catalogue files are absent from the changed-file set;
 - P4-S006 is the next bounded task and no owner/external blocker exists.
 
 This is bookkeeping/manual proof validation, not proof-assistant verification and not a novelty theorem.
