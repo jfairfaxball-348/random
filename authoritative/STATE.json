@@ -6,7 +6,7 @@
   "active_phase": 3,
   "active_phase_name": "Novelty / Prior Art",
   "active_session": null,
-  "last_completed_session": "P3-S006",
+  "last_completed_session": "P3-S007",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,10 +52,10 @@
     "questions": 1,
     "authors": 74
   },
-  "next_transition": "Run P3-S007: separate documented candidate-selection/NO-GO decision over surviving CAND-01 and CAND-02 only; do not combine selection with Gate-3 review or begin Phase 4.",
-  "recommended_next_session": "P3-S007",
+  "next_transition": "Run P3-S008: separate formal Gate-3 review of selected CAND-01 against docs/GATE_POLICY.md; record PASS, FAIL or BACKTRACK; do not begin Phase-4 mathematics in the same session.",
+  "recommended_next_session": "P3-S008",
   "active_blocker": null,
-  "candidate_selected": false,
+  "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
   "mathematical_investigation_authorized": false,
   "publication_work_authorized": false,
@@ -168,9 +168,9 @@
   },
   "phase3_gate_status": "NOT_REVIEWED",
   "phase3_prior_art": {
-    "last_session": "P3-S006",
+    "last_session": "P3-S007",
     "prior_art_index": "phase3/prior-art.json",
-    "latest_record": "phase3/P3-S006_SELECTION_READINESS_AUDIT.md",
+    "latest_record": "phase3/P3-S007_SELECTION_DECISION.md",
     "candidates": {
       "CAND-01": {
         "status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
@@ -188,7 +188,8 @@
           "SRC-0065",
           "SRC-0066"
         ],
-        "selection_readiness": "READY_AS_SELECTION_OPTION"
+        "selection_readiness": "READY_AS_SELECTION_OPTION",
+        "selection_status": "SELECTED_FOR_GATE3_REVIEW"
       },
       "CAND-02": {
         "status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
@@ -212,7 +213,8 @@
           "SRC-0012"
         ],
         "technical_slice_risk": "ELEVATED_TOTALITY_REPRESENTATION_ARTIFACT_RISK",
-        "selection_readiness": "READY_AS_SELECTION_OPTION_WITH_ELEVATED_TECHNICAL_SLICE_RISK"
+        "selection_readiness": "READY_AS_SELECTION_OPTION_WITH_ELEVATED_TECHNICAL_SLICE_RISK",
+        "selection_status": "NOT_SELECTED_P3_S007"
       },
       "CAND-03": {
         "status": "EQUIVALENT_OR_REBRANDED",
@@ -228,11 +230,11 @@
         "openness_claimed": false
       }
     },
-    "candidate_selected": false,
+    "candidate_selected": true,
     "gate3_review_performed": false,
     "original_proof_work_performed": false,
     "phase4_opened": false,
-    "latest_close_record": "phase3/P3-S006_CLOSE.md",
+    "latest_close_record": "phase3/P3-S007_CLOSE.md",
     "selection_readiness_audit": {
       "session": "P3-S006",
       "result": "READY_FOR_SELECTION_DECISION",
@@ -243,9 +245,26 @@
         "CAND-02"
       ],
       "targeted_phase3_work_required": false,
-      "candidate_selected": false,
+      "candidate_selected": true,
       "gate3_review_performed": false,
-      "next_session": "P3-S007"
+      "next_session": "P3-S007",
+      "selection_completed_in": "P3-S007"
+    },
+    "selected_candidate_id": "CAND-01",
+    "selection_decision": {
+      "session": "P3-S007",
+      "date": "2026-10-05",
+      "outcome": "SELECT_CAND_01",
+      "decision_record": "phase3/P3-S007_SELECTION_DECISION.md",
+      "validation_record": "phase3/P3-S007_VALIDATION.md",
+      "selected_candidate": "CAND-01",
+      "nonselected_candidate": "CAND-02",
+      "cand01_risk_preserved": "Finite multiplicity is provisionally substantive but has no established computable-randomness consequence.",
+      "cand02_risk_preserved": "Everywhere-totality retains elevated risk of being only a representation slice.",
+      "novelty_status_unchanged": true,
+      "gate3_review_performed": false,
+      "next_session": "P3-S008"
     }
-  }
+  },
+  "selected_candidate_id": "CAND-01"
 }
