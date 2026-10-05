@@ -284,3 +284,18 @@ General k=2 preservation/failure remains unresolved. PA-0001 remains **UNRESOLVE
 
 Record: phase4/P4-S005_MATHEMATICS.md.
 
+
+
+## D-0028 — canonical k=2 sheets are effective Borel/Baire-1 but do not uniformly yield computable transfer data
+
+On 2026-10-05, P4-S006 continued selected CAND-01 strictly at k=2.
+
+Decision/result: for every exact k=2 map, the collision relation is effectively closed. Assigning the lexicographic minimum of each fibre to the lower sheet and the nonminimum point of each double fibre to the upper sheet gives an effective G-delta lower sheet and effective F-sigma upper sheet; the double-fibre output set is effective F-sigma. The lexicographic minimum and maximum inverse selectors are effective Baire-1 limits of computable continuous approximants.
+
+This does not close computable-randomness transfer. In the P4-S005 prefix-code map, used here only as a calibration example, the canonical sheet masses are noncomputable. Therefore the canonical split does not uniformly provide computable component measures, and the Baire-1 selector approximations have no forced computable stabilization modulus.
+
+The attempted one-hole/rotating-mask completion of the SRC-0061 filler idea also remains invalid: revealing one genuine betting coordinate that was encoded in a shared two-way ambiguity identifies that ambiguity and pre-reveals every other coordinate in the same cohort. A more complex delayed-coalescence construction is not ruled out.
+
+General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S006_MATHEMATICS.md.
