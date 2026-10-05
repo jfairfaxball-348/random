@@ -108,4 +108,24 @@ Records:
 - phase4/P4-S006_CLOSE.md
 - phase4/P4-S006_VALIDATION.md
 
-Next recommended session: **P4-S007**, still bounded to k=2, on delayed-coalescence inverse trees: allow many finite-prefix candidates while requiring at most two final fibre points, and test whether this structure yields one computable martingale transfer or an exact moving-sheet counterexample without the one-hole pre-revelation collapse.
+Historical next step after P4-S006: **P4-S007**, now completed below.
+
+
+## P4-S007 — k=2 delayed-coalescence inverse-tree boundary
+
+P4-S007 shows that the raw many-candidate inverse approximation can be computably resampled into a coherent width-two skeleton. There is a computable monotone coalescence schedule c(n) such that the compatible n-prefixes after y↾c(n) form a nonempty set of size at most two, these sets project coherently down the source tree, and their infinite paths are exactly F^{-1}(y).
+
+For a double fibre, every skeleton level after the first true split consists exactly of the two true branch prefixes. For a singleton fibre, there is one true prefix and at most one phantom; recurrent phantoms must move their first disagreement arbitrarily far right. At fixed precision the approximation has a computable finite mind-change bound and at most one injury after c(n), but no computable last-injury time is forced.
+
+This gives one choice bit per precision and a partial inverse on singleton fibres, but not computable branch masses, persistence decisions or a coherent pullback martingale. P4-S004 and P4-S005 therefore remain controlling for the measure/effectivity obstruction.
+
+The session also generalizes P4-S006's one-hole collapse: after c(n), all unresolved first-n information is one binary cohort. Later information that distinguishes the two candidates determines the entire n-prefix and therefore pre-reveals every other differing coordinate below n. Any SRC-0061-style finite-fibre completion must prove a global freshness condition relative to c(n); the committed mechanism does not provide one.
+
+General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained.
+
+Records:
+- phase4/P4-S007_MATHEMATICS.md
+- phase4/P4-S007_CLOSE.md
+- phase4/P4-S007_VALIDATION.md
+
+Next recommended session: **P4-S008**, still bounded to k=2, on the freshness constraint: determine whether a total adaptive scan completable to global k=2 can retain enough genuinely fresh nonmonotonic bets to defeat a computably random source, or whether the constraint yields a computable martingale/permutation-style preservation theorem.
