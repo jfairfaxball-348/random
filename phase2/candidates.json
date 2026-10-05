@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P3-S006",
-  "status": "PHASE3_SELECTION_READY",
+  "last_updated_session": "P3-S007",
+  "status": "PHASE3_CANDIDATE_SELECTED_GATE3_PENDING",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
     "REJECT_CATALOGUED_CHARACTERIZATION",
@@ -12,7 +12,8 @@
   "counts": {
     "considered_seriously": 6,
     "retained_provisionally": 2,
-    "rejected": 4
+    "rejected": 4,
+    "selected": 1
   },
   "retained_ids": [
     "CAND-01",
@@ -24,7 +25,7 @@
     "CAND-06",
     "CAND-03"
   ],
-  "candidate_selected": false,
+  "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
   "gate2_review_performed": true,
   "record_authority": "Exact formulas, quantifier guards and full dispositions are in phase2/P2-S001_DISCOVERY.md. These are programme questions, not additions to the source-derived Phase-1 catalogue.",
@@ -93,12 +94,12 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P3-S006",
-      "record_path": "phase3/P3-S001_PRIOR_ART.md",
+      "last_reviewed_in": "P3-S007",
+      "record_path": "phase3/P3-S007_SELECTION_DECISION.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": false,
-      "final_candidate_selected": false,
+      "final_candidate_selected": true,
       "resolved_formulation_tasks": [
         "E1"
       ],
@@ -179,6 +180,11 @@
         "result": "READY_AS_SELECTION_OPTION",
         "audit_record": "phase3/P3-S006_SELECTION_READINESS_AUDIT.md",
         "principal_risk": "Finite cardinal multiplicity is provisionally substantive but has no established computable-randomness consequence."
+      },
+      "selection_decision": {
+        "session": "P3-S007",
+        "outcome": "SELECTED_FOR_GATE3_REVIEW",
+        "rationale": "Preferred Phase-4 investment profile: structurally meaningful finite-multiplicity axis with explanatory theorem package, while preserving the unresolved fact that no computable-randomness consequence is established."
       }
     },
     {
@@ -247,8 +253,8 @@
         "COV-0014"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P3-S006",
-      "record_path": "phase3/P3-S005_SIGNIFICANCE.md",
+      "last_reviewed_in": "P3-S007",
+      "record_path": "phase3/P3-S007_SELECTION_DECISION.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S002_COMPLETE",
       "original_proof_work_performed": false,
@@ -304,6 +310,11 @@
         "result": "READY_AS_SELECTION_OPTION_WITH_ELEVATED_TECHNICAL_SLICE_RISK",
         "audit_record": "phase3/P3-S006_SELECTION_READINESS_AUDIT.md",
         "principal_risk": "Everywhere-totality may be only a representation slice rather than a distinct randomness boundary."
+      },
+      "selection_decision": {
+        "session": "P3-S007",
+        "outcome": "NOT_SELECTED",
+        "rationale": "Elevated risk that everywhere-totality is only a representation slice makes expected Phase-4 payoff less favorable than CAND-01; prior-art and significance judgments remain unchanged."
       }
     },
     {
@@ -575,8 +586,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P3-S007",
-  "recommended_next_scope": "Separate Phase-3 candidate-selection/NO-GO decision over surviving CAND-01 and CAND-02 only; no Gate-3 review, proof search or Phase-4 work.",
+  "recommended_next_session": "P3-S008",
+  "recommended_next_scope": "Separate formal Gate-3 review of selected CAND-01 only; no proof search or Phase-4 mathematics in the review session.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
@@ -627,7 +638,7 @@
     "phase3_opened": true
   },
   "phase3_prior_art": {
-    "last_session": "P3-S006",
+    "last_session": "P3-S007",
     "structured_record": "phase3/prior-art.json",
     "cand01": {
       "prior_art_id": "PA-0001",
@@ -652,7 +663,7 @@
       "specific_intrinsic_characterization_located": false,
       "openness_claimed": false
     },
-    "candidate_selected": false,
+    "candidate_selected": true,
     "gate3_review_performed": false,
     "significance_last_session": "P3-S005",
     "selection_readiness": {
@@ -662,8 +673,20 @@
         "CAND-01",
         "CAND-02"
       ],
-      "selection_performed": false,
+      "selection_performed": true,
+      "gate3_review_performed": false,
+      "selection_completed_in": "P3-S007",
+      "outcome": "SELECT_CAND_01"
+    },
+    "selected_candidate_id": "CAND-01",
+    "selection_decision": {
+      "session": "P3-S007",
+      "outcome": "SELECT_CAND_01",
+      "decision_record": "phase3/P3-S007_SELECTION_DECISION.md",
+      "selected_candidate": "CAND-01",
+      "nonselected_candidate": "CAND-02",
       "gate3_review_performed": false
     }
-  }
+  },
+  "selected_candidate_id": "CAND-01"
 }
