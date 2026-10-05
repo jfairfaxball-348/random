@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S006",
+  "last_updated_session": "P4-S007",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S006",
-      "record_path": "phase4/P4-S006_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S007",
+      "record_path": "phase4/P4-S007_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -290,6 +290,24 @@
         "unresolved_mechanism": "No computable component measure, stabilization modulus, coherent source martingale or exact k=2 destroyer is obtained; delayed-coalescence constructions remain untested.",
         "exact_k2_destroyer_constructed": false,
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S006",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_delayed_coalescence_mathematics": {
+        "session": "P4-S007",
+        "scope": "k=2 delayed-coalescence inverse-tree boundary only",
+        "result": "K2_FORCES_COHERENT_COMPUTABLE_WIDTH_TWO_INVERSE_SKELETON_WITH_FIXED_PRECISION_FINITE_INJURY",
+        "successful_mechanisms": [
+          "A computable monotone c(n) yields coherent compatible-prefix levels of width at most two whose paths are exactly the fibre.",
+          "Double fibres become exact two-track skeletons after their first true split; singleton phantoms must move their disagreement arbitrarily far right.",
+          "At fixed source precision there is a computable mind-change bound and at most one post-coalescence injury.",
+          "Singleton fibres admit a uniform partial inverse procedure under the singleton promise.",
+          "Post-coalescence first-n ambiguity is one binary cohort, yielding an architecture-independent collapse lemma and a necessary freshness condition for scan completions."
+        ],
+        "unresolved_mechanism": "No computable last-injury time, branch mass, coherent source martingale or exact k=2 destroyer is obtained. SRC-0061 supplies no proved freshness schedule relative to c(n).",
+        "exact_k2_destroyer_constructed": false,
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S007",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
@@ -694,8 +712,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S007",
-  "recommended_next_scope": "Bounded k=2 mathematics on delayed-coalescence inverse trees: can large finite-prefix ambiguity with at most two final fibre points yield one computable martingale transfer or an exact moving-sheet non-conservation witness?",
+  "recommended_next_session": "P4-S008",
+  "recommended_next_scope": "Phase 4 Mathematics on selected CAND-01 only; stay at k=2 and analyze whether the coherent width-two skeleton's freshness constraint permits a cofinite/adaptive scan non-conservation witness or instead forces a computable preservation mechanism.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
