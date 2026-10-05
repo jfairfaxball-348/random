@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S001",
+  "last_completed_session": "P4-S002",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 74
   },
-  "next_transition": "Run P4-S002: bounded k=2 structural investigation of effective fibre enumeration / inverse-branch information under the exact CAND-01 hypotheses.",
-  "recommended_next_session": "P4-S002",
+  "next_transition": "Run P4-S003: remain at k=2 and test whether the forced finite-fibre approximation yields an a.e./weighted inverse decomposition or direct martingale-transfer theorem, versus a genuine k=2 non-conservation construction.",
+  "recommended_next_session": "P4-S003",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S001",
-    "next_session": "P4-S002",
+    "last_session": "P4-S002",
+    "next_session": "P4-S003",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S001_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S001_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S001_VALIDATION.md",
+    "latest_record": "phase4/P4-S002_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S002_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S002_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -311,6 +311,20 @@
       "class_wide_fixed_inverse_use_bound": false,
       "randomness_dependency": "SRC-0015 / THM-0038",
       "k_ge_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_result": {
+      "session": "P4-S002",
+      "result": "K2_FORCES_DESCENDING_COMPUTABLE_CLOPEN_FIBRE_NAMES_BUT_NOT_TOTAL_COMPUTABLE_SELECTORS_OR_ENUMERATIONS",
+      "descending_clopen_fibre_name_forced": true,
+      "total_computable_selector_forced": false,
+      "total_computable_two_branch_enumeration_forced": false,
+      "isolation_advice_recovers_fibre_point": true,
+      "explicit_branch_collision_example_has_one_double_fibre": true,
+      "explicit_branch_collision_example_preserves_computable_randomness_via": "SRC-0015 / THM-0038",
+      "shift_example_preserves_computable_randomness_by_direct_martingale_lift": true,
+      "general_k2_forward_computable_randomness_resolved": false,
+      "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   }
