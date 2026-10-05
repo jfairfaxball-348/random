@@ -89,5 +89,23 @@ Records:
 - phase4/P4-S005_CLOSE.md
 - phase4/P4-S005_VALIDATION.md
 
-Next recommended session: **P4-S006**, still bounded to k=2, on the canonical lexicographic/Borel two-sheet split of the compact collision relation and whether its effective complexity suffices for computable-randomness transfer; if not, pursue a genuinely moving-sheet/one-hole counterexample rather than revisiting crossing-measure computability.
+Historical next step after P4-S005: **P4-S006**, now completed below.
 
+
+
+## P4-S006 — canonical lexicographic two-sheet complexity
+
+P4-S006 computes the canonical sheet complexity without revisiting P4-S005's settled crossing-measure result. The collision relation is effectively closed. Assigning the lexicographically least preimage to the lower sheet and the nonminimum point of a double fibre to the upper sheet gives an effective G-delta lower sheet and effective F-sigma upper sheet; the double-fibre output set is effective F-sigma. The lexicographic minimum and maximum inverse selectors are effective Baire-1 limits of computable continuous selectors from the descending clopen fibre approximants.
+
+This effective Borel information is not enough to run the existing computable-randomness transfer. In the P4-S005 map, viewed only as an internal calibration example, the canonical upper and lower sheet masses encode the same noncomputable base-4 real, so the canonical component measures need not be computable. The selector approximations also have no forced computable stabilization modulus.
+
+A single hidden/rotating filler bit does not repair SRC-0061: revealing one previously masked genuine betting coordinate identifies the common one-bit ambiguity and pre-reveals every other coordinate in that cohort. More complicated delayed-coalescence constructions are not ruled out.
+
+General k=2 preservation/failure remains unresolved. No exact k=2 destroyer is obtained.
+
+Records:
+- phase4/P4-S006_MATHEMATICS.md
+- phase4/P4-S006_CLOSE.md
+- phase4/P4-S006_VALIDATION.md
+
+Next recommended session: **P4-S007**, still bounded to k=2, on delayed-coalescence inverse trees: allow many finite-prefix candidates while requiring at most two final fibre points, and test whether this structure yields one computable martingale transfer or an exact moving-sheet counterexample without the one-hole pre-revelation collapse.
