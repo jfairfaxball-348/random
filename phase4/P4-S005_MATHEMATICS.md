@@ -144,7 +144,7 @@ The P4-S003 two-prefix inverse lists do **not** force the P4-S004 low-weight hit
 
 Therefore the direct proposed upgrade
 [
-V_{\sigma,\epsilon}quad\text{c.e. open + computable measure}
+V_{\sigma,\epsilon}: c.e. open with computable measure
 ]
 fails in general at k=2. In particular, V_{0,1/3} in the example cannot itself be used as a Schnorr-test component through the standard computable-level-measure requirement.
 
