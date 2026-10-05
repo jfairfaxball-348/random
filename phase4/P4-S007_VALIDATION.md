@@ -2,7 +2,7 @@
 
 Date: 2026-10-05
 Incoming baseline: b25136e24991cb988dc1186567a5639a3c41b38c
-Result: **PASS** for uniqueness, k=2 scope discipline, coherent-tree calculations, finite-injury bounds, generalized collapse accounting and preserved authority/convention guards.
+Result: **PASS** for uniqueness, k=2 scope discipline, coherent-tree calculations, finite-injury bounds, generalized collapse accounting, authority synchronization and preserved novelty/convention guards.
 
 Checks:
 - live main matched the incoming baseline before substantive work;
@@ -32,5 +32,8 @@ Checks:
 - the pre-Phase-4 Gate-3 guard remains historical and unchanged in meaning;
 - DEF-0020 and catalogue records are unchanged;
 - Gate 4 is not reviewed and Phase 5 remains CLOSED.
+- synchronized `authoritative/STATE.json`, `phase2/candidates.json` and unchanged `phase3/prior-art.json` parse successfully, with PA-0001 still `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`;
+- the final baseline comparison changes only P4-S007 records and programme authority/index files; P4-S001 through P4-S006 and catalogue files are absent from the changed-file set;
+- authoritative state names P4-S007 as last completed, P4-S008 as next, and records no owner/external blocker.
 
 This is bookkeeping/manual proof validation, not proof-assistant verification and not a novelty theorem.
