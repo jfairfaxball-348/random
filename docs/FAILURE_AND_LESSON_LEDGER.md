@@ -607,3 +607,16 @@ That estimate is strong enough at the Martin-Löf level but not automatically at
 An asymmetric k=2 collision example confirms that the structural issue is real: one actual sheet can have weight tending to zero even though F is total, fair-coin preserving and has at most two preimages everywhere. The example does not destroy computable randomness because its thin point is computable and the map is a.e.-invertible.
 
 Resolution: do not promote the Ville/ML estimate to a computable-randomness transfer theorem without a computable stopping measure, and do not infer positive sheet weight from the two-prefix list alone. Conversely, vanishing weight at a non-random source point is not a non-conservation witness. The next exact question is whether k=2 makes these special hitting sets Schnorr/computable-randomness null, or whether a computably random point can occupy a genuinely thin sheet.
+
+## FL-053 — Two-prefix inverse lists do not compute stopping probabilities
+
+Session: P4-S005
+Status: PHASE-4 k=2 STOPPING-EFFECTIVITY / NON-CONSERVATION-SEPARATION GUARD
+
+The P4-S004 crossing sets are special c.e.-open sets arising from conditional sheet-weight martingales, but their measure need not be computable even at k=2. A halting-triggered prefix-code construction gives a total computable fair-coin-preserving map with at most two preimages everywhere and, more strongly, a computable clopen partition into two injective sheets, while the measure of V_{0,1/3} encodes a c.e. noncomputable set in base 4.
+
+The same example blocks a second natural branch-free shortcut: the finite measure obtained by integrating inverse-point counts can have noncomputable total mass. Hence neither “at most two current candidates” nor “count both inverse points symmetrically” automatically supplies computable stopping data.
+
+Resolution: do not infer Schnorr-effectivity from the two-prefix list alone, and do not revisit the direct crossing-measure-computability route as though P4-S005 had left it open. Equally, do not infer non-conservation from noncomputable hitting probability: the example has an explicit computable clopen injective-sheet split and therefore lies in P4-S003's positive preservation regime.
+
+Lesson: the remaining k=2 problem is about effective coherence of genuinely non-clopen/moving sheets, not merely the numerical computability of the P4-S004 crossing probability.
