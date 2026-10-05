@@ -15,11 +15,11 @@ Repository: https://github.com/jfairfaxball-348/random
 10. `authoritative/DECISION_LOG.md`
 11. `docs/FAILURE_AND_LESSON_LEDGER.md`
 12. `authoritative/SESSION_LEDGER.md`
-13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, and `phase3/P3-S007_SELECTION_DECISION.md`; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
+13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, `phase3/P3-S007_SELECTION_DECISION.md`, and `phase3/P3-S008_GATE3_REVIEW.md`; then `phase4/README.md`; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
 
 ## Current authority
 
-**Gate 1 PASSED in P1-S014. Gate 2 PASSED in P2-S006. Phase 1 — Research / Catalogue — and Phase 2 — Discovery — are COMPLETED for gate purposes. Phase 3 — Novelty / Prior Art — is OPEN. Phases 4–5 remain CLOSED.**
+**Gate 1 PASSED in P1-S014. Gate 2 PASSED in P2-S006. Gate 3 PASSED in P3-S008. Phases 1–3 are COMPLETED for gate purposes. Phase 4 — Mathematics — is OPEN for selected CAND-01. Phase 5 remains CLOSED.**
 
 The Phase-1 catalogue remains bounded and non-exhaustive; all recorded provenance/access gaps, weak-evidence cautions and convention guards remain live. Gate-2 PASS does not upgrade evidence quality.
 
@@ -37,8 +37,8 @@ P3-S006 completed the comparative candidate-selection readiness audit and record
 
 P3-S007 recorded **SELECT_CAND_01**. CAND-01 is selected for a separate formal Gate-3 review because its finite-multiplicity axis offers the stronger expected explanatory payoff relative to residual risk. The P3-S004 guard remains controlling: no computable-randomness consequence of the bare finite cardinal bound is established. CAND-02 is not selected for active Gate-3 investment; its P3-S005/P3-S006 significance case remains intact together with the elevated risk that everywhere-totality is only a representation slice. PA-0001 and PA-0002 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Selection is not a novelty, openness, theorem or publishability finding.
 
-Gate 3 is not reviewed; Phase 4 remains CLOSED and mathematical investigation remains unauthorized.
+P3-S008 independently reviewed selected CAND-01 against every Gate-3 minimum-evidence requirement and recorded **PASS**. Phase 3 is complete for gate purposes and Phase 4 — Mathematics is OPEN for CAND-01. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; Gate-3 PASS is not a novelty or openness finding. The P3-S004/P3-S007 guard remains controlling: finite multiplicity is provisionally substantive but no computable-randomness consequence of the bare global finite cardinal fibre bound is established. No Phase-4 mathematics was performed in P3-S008.
 
-Recommended next bounded session: `P3-S008`, a separate formal Gate-3 review of selected CAND-01 only. It may record PASS, FAIL or BACKTRACK but must not begin Phase-4 mathematics in the same session. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
+Recommended next bounded session: `P4-S001`, a bounded first mathematical investigation of CAND-01 focused on the k=1 injective base case and effective inverse information. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
