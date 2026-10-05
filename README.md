@@ -4,15 +4,17 @@ This repository is the authoritative research record for a five-phase programme 
 
 ## Current state
 
-**PHASE 3 — NOVELTY / PRIOR ART — IS OPEN.**
+**PHASE 4 — MATHEMATICS — IS OPEN FOR SELECTED CAND-01.**
 
-Gate 1 passed in P1-S014 and Gate 2 passed in P2-S006. Phase 1 and Phase 2 are complete for gate purposes. The Phase-1 catalogue remains bounded/non-exhaustive with all recorded provenance and access cautions preserved.
+Gate 1 passed in P1-S014, Gate 2 passed in P2-S006 and Gate 3 passed in P3-S008. Phases 1–3 are complete for gate purposes.
 
-The committed Discovery portfolio remains six stable candidates: CAND-01, CAND-02 and CAND-03 are retained provisionally and are now authorized for dedicated prior-art attack; CAND-04, CAND-05 and CAND-06 remain rejected in their recorded shapes. E1–E3 remain resolved. Gate-2 PASS does **not** establish novelty, openness, separation, nontriviality, a final candidate or Fairfax-Ball Randomness.
+P3-S007 selected CAND-01, and P3-S008 independently verified that its committed Phase-3 record satisfies every Gate-3 minimum-evidence requirement. This authorization does **not** establish that CAND-01 is open, novel, mathematically distinct, true or publishable. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**.
 
-Read the [formal Gate-2 review](phase2/P2-S006_GATE2_REVIEW.md), [candidate index](phase2/candidates.json) and [P2-S006 close](phase2/P2-S006_CLOSE.md). The next bounded task is P3-S001, a primary-source prior-art attack on CAND-01 only. No Phase-4 original mathematics, Lean/Palomar work, final candidate selection or publication work is authorized.
+The controlling Phase-4 starting guard is unchanged: finite multiplicity is provisionally substantive as a structural axis, but no computable-randomness consequence of the bare global finite cardinal fibre bound has yet been established. CAND-02 is not selected; CAND-03 remains retired.
 
-Repository authority lives in the committed files. Start every future session with `authoritative/START_HERE.md`.
+The next bounded task is P4-S001, a first mathematical investigation of the k=1 injective base case and effective inverse information. Phase 5 publication work remains CLOSED, and Fairfax-Ball Randomness is not defined.
+
+Repository authority lives in the committed files. Start every future session with authoritative/START_HERE.md.
 
 ## Five gated phases
 
