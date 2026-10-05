@@ -529,3 +529,15 @@ Resolution: P3-S006 records **READY_FOR_SELECTION_DECISION** because the missing
 
 Lesson: distinguish an **evidence gap that prevents an informed programme decision** from an **open mathematical risk that is the reason to fund or reject the next phase**. Readiness requires the former to be closed or explicit enough to decide; it does not require the latter to be mathematically settled.
 
+
+
+## FL-047 — Candidate selection is investment prioritization, not a novelty theorem
+
+Session: `P3-S007`  
+Status: PHASE-3 SELECTION / CLAIM-DISCIPLINE GUARD
+
+P3-S007 selected CAND-01 over CAND-02 under explicit uncertainty. The choice rests on comparative expected mathematical payoff and technical-artifact risk, not on proof that CAND-01 is open, novel, distinct or true.
+
+Resolution: preserve PA-0001 and PA-0002 as **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Preserve CAND-01's lack of any established computable-randomness consequence of bare finite multiplicity and CAND-02's elevated totality/representation-artifact risk. Do not use the selection label as evidence in a later novelty claim or as a substitute for the formal Gate-3 review.
+
+Lesson: a programme may rationally choose which uncertainty to investigate without resolving that uncertainty. Selection answers “which research risk is worth reviewing/investing in next?”, not “which candidate has already been shown novel or mathematically correct?”
