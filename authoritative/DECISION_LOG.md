@@ -211,3 +211,15 @@ The PASS does not upgrade PA-0001. It remains **UNRESOLVED_UNDER_INSPECTED_EVIDE
 Authorization effect: Phase 3 is complete for gate purposes; Phase 4 — Mathematics is OPEN for CAND-01; Phase 5 remains CLOSED. No Phase-4 mathematics was performed in P3-S008.
 
 Record: phase3/P3-S008_GATE3_REVIEW.md.
+
+## D-0023 — k=1 finite ambiguity collapses to the effective-isomorphism regime
+
+On 2026-10-05, P4-S001 performed the first authorized original mathematics on selected CAND-01.
+
+Decision/result: under the exact k=1 hypotheses, an everywhere-total computable fair-coin-preserving Cantor self-map with one-point fibres is necessarily a computable fair-coin-preserving homeomorphism with an everywhere-total computable inverse. The inverse can be computed by effectively separating the compact images of finite input cylinders. SRC-0015 / THM-0038 then yields computable-randomness invariance in both directions.
+
+The effective inverse information is map-dependent: coordinate permutations show that no single fixed inverse-use bound works for the whole k=1 class.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status claim is made, and no result is inferred for k>=2 or arbitrary finite multiplicity. The Gate-3 guard remains accurate as the pre-Phase-4 baseline rather than as a post-P4-S001 statement about k=1.
+
+Record: phase4/P4-S001_MATHEMATICS.md.
