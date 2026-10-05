@@ -950,3 +950,27 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: `P4-S010`, still restricted to k=2, on the branchwise-avoidable deferred-wager value: test whether threshold-capping makes that optional-projection value computable, or build an exact adaptive singleton-spine witness with all global checks.
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
+
+## P4-S010 — branchwise-avoidable capped optional-projection boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `ea87997cea224d458a80b72ea82089c31441e325`, matching live `main` exactly before substantive work and immediately before writes. P4-S010 was absent on the incoming checkpoint and therefore unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2 and to the branchwise-avoidable deferred-wager case from P4-S009.
+
+Result: threshold capping does not force a computable optional projection. A computable global k=2 no-repeat scan consumes sentinel 0 on a c.e.-open event of noncomputable measure alpha and omits it otherwise. A computable martingale bounded by 2 has eventual-consumption/threshold payoff whose exact first projected values after prequerying the sentinel are 1-alpha and 1+alpha. Finite-horizon projections are computable but have no computable convergence modulus.
+
+The negative result is limited to the exact capped-projection route. It does not establish impossibility of every martingale transfer.
+
+An adaptive least-unqueried-sentinel comb was then checked. It is total, no-repeat, fair-coin preserving and globally k=2; all-trigger paths are singleton fibres; the current sentinel is genuinely fresh at its wager and future sentinels are chosen only after turnover from unqueried coordinates. Thus the earlier geometry/non-pre-revelation defects can be removed. No proof is obtained that an infinite correct-prediction spine contains a computably random source, so no destroyer is claimed.
+
+No exact k=2 destroyer and no full global-k=2 scan preservation theorem is established. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001 through P4-S009 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S010_MATHEMATICS.md`, `phase4/P4-S010_CLOSE.md`, `phase4/P4-S010_VALIDATION.md`. Durable decision: D-0032. Lesson: FL-058.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S011`, still restricted to k=2, focused only on the adaptive c.e.-trigger singleton-spine architecture: determine whether its infinite correct-prediction spine can contain a computably random source, or whether the repeated graph-like trigger structure yields one computable source martingale despite noncomputable one-turnover normalization.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
