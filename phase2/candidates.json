@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S009",
+  "last_updated_session": "P4-S010",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S009",
-      "record_path": "phase4/P4-S009_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S010",
+      "record_path": "phase4/P4-S010_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -345,6 +345,24 @@
         "exact_k2_destroyer_constructed": false,
         "general_k2_scan_preservation_resolved": false,
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S009",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_optional_projection_mathematics": {
+        "session": "P4-S010",
+        "scope": "k=2 branchwise-avoidable capped optional-projection / adaptive singleton-spine boundary only",
+        "result": "THRESHOLD_CAPPING_DOES_NOT_FORCE_COMPUTABLE_OPTIONAL_PROJECTION_ADAPTIVE_SINGLETON_SPINE_GEOMETRY_WORKS_SOURCE_CR_UNRESOLVED",
+        "successful_mechanisms": [
+          "A global k=2 scan can encode a noncomputable left-c.e. sentinel-consumption probability.",
+          "A cap-2 bounded martingale can have exact deferred-payoff projection values 1-alpha and 1+alpha, so threshold capping does not force a computable optional projection.",
+          "Finite-horizon projections can lack a computable convergence modulus.",
+          "An adaptive least-unqueried-sentinel comb passes totality, fair-coin, fibre, singleton-spine, freshness and non-pre-revelation checks."
+        ],
+        "unresolved_mechanism": "No computably random all-trigger correct-prediction source is proved, and no exact k=2 destroyer or full scan-preservation theorem is obtained.",
+        "exact_k2_destroyer_constructed": false,
+        "general_k2_scan_preservation_resolved": false,
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S010",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
@@ -749,8 +767,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S010",
-  "recommended_next_scope": "k=2 branchwise-avoidable deferred-wager / adaptive singleton-spine boundary only",
+  "recommended_next_session": "P4-S011",
+  "recommended_next_scope": "k=2 adaptive c.e.-trigger singleton-spine source-randomness boundary only",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
