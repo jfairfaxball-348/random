@@ -15,7 +15,7 @@ Repository: https://github.com/jfairfaxball-348/random
 10. `authoritative/DECISION_LOG.md`
 11. `docs/FAILURE_AND_LESSON_LEDGER.md`
 12. `authoritative/SESSION_LEDGER.md`
-13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, and `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
+13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, and `phase3/P3-S007_SELECTION_DECISION.md`; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
 
 ## Current authority
 
@@ -35,8 +35,10 @@ CAND-01 and CAND-02 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**: neither is e
 
 P3-S006 completed the comparative candidate-selection readiness audit and recorded **READY_FOR_SELECTION_DECISION**. Both survivors have the committed prior-art, terminology/equivalent-formulation, closest-known-work, rebranding-risk, significance/usefulness, community, novelty-uncertainty and theorem-package evidence needed for an honest separate selection/NO-GO decision. CAND-01 remains only provisionally substantive with no established computable-randomness consequence of bare finite multiplicity. CAND-02 remains selection-eligible but carries **elevated technical-slice risk** because everywhere-totality may be only a representation boundary. No additional targeted Phase-3 evidence session is required before selection. This is not a candidate selection and not a Gate-3 review.
 
-No final candidate is selected; Gate 3 is not reviewed; Phase 4 remains CLOSED.
+P3-S007 recorded **SELECT_CAND_01**. CAND-01 is selected for a separate formal Gate-3 review because its finite-multiplicity axis offers the stronger expected explanatory payoff relative to residual risk. The P3-S004 guard remains controlling: no computable-randomness consequence of the bare finite cardinal bound is established. CAND-02 is not selected for active Gate-3 investment; its P3-S005/P3-S006 significance case remains intact together with the elevated risk that everywhere-totality is only a representation slice. PA-0001 and PA-0002 remain **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. Selection is not a novelty, openness, theorem or publishability finding.
 
-Recommended next bounded session: `P3-S007`, a separate documented candidate-selection/NO-GO decision over CAND-01 and CAND-02 only. It must not combine selection with Gate-3 review or begin Phase 4. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
+Gate 3 is not reviewed; Phase 4 remains CLOSED and mathematical investigation remains unauthorized.
+
+Recommended next bounded session: `P3-S008`, a separate formal Gate-3 review of selected CAND-01 only. It may record PASS, FAIL or BACKTRACK but must not begin Phase-4 mathematics in the same session. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
