@@ -739,3 +739,19 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: P4-S001, a first mathematical investigation of the k=1 injective base case and effective inverse information.
 
 The exact outgoing main hash is verified after all closeout writes and reported in the session response.
+
+## P4-S001 — k=1 injective base case
+
+Date: 2026-10-05
+Incoming checkpoint: d451cf0c65b9a508b8215ade9916c09fa239f7ad
+Phase: 4 — Mathematics
+Status: **COMPLETED**
+
+Bounded scope: selected CAND-01, k=1 only. Proved that total computability + fair-coin preservation + one-point fibres force a computable fair-coin-preserving homeomorphism with computable inverse. Applied existing SRC-0015 / THM-0038 to conclude computable-randomness invariance. Recorded that inverse use is computable map-by-map but has no single fixed bound across the class.
+
+No claim was made for k>=2, general finite multiplicity, novelty, openness or publishability. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 and catalogue records are unchanged. Phase 4 remains OPEN; Phase 5 remains CLOSED.
+
+Work: phase4/P4-S001_MATHEMATICS.md
+Close: phase4/P4-S001_CLOSE.md
+Validation: phase4/P4-S001_VALIDATION.md
+Next: P4-S002 — bounded k=2 effective-fibre/inverse-branch analysis.
