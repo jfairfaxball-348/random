@@ -1,6 +1,6 @@
 # Phase 3 — Novelty / Prior Art records
 
-Status: **OPEN** after Gate-2 PASS in P2-S006. Gate 3 has not been reviewed; Phase 4 remains CLOSED.
+Status: **COMPLETED FOR GATE PURPOSES** after formal Gate-3 PASS in P3-S008. Phase 4 — Mathematics is OPEN for selected CAND-01.
 
 P3-S001 completed a bounded primary-source attack on CAND-01; its exact globally finite-fibre everywhere-total preservation question remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**.
 
@@ -12,10 +12,10 @@ P3-S004 assessed CAND-01's significance/usefulness as **PROVISIONALLY SUBSTANTIV
 
 P3-S005 assessed CAND-02's significance/usefulness as **PROVISIONALLY SUBSTANTIVE — CONTINUE PHASE-3 INVESTMENT WITH ELEVATED TECHNICAL-SLICE RISK**. Weak-Birkhoff nonergodic convergence and c.e./lower-semicomputable observation complexity are established primary-literature axes, and total computable Cantor dynamics are legitimate. The unresolved risk is whether everywhere-totality changes the randomness content or merely excludes a.e./partial witness representations. The assessment is recorded in `P3-S005_SIGNIFICANCE.md` and does not alter PA-0002's unresolved novelty status.
 
-P3-S006 completed the comparative candidate-selection readiness audit with **READY_FOR_SELECTION_DECISION**. P3-S007 then recorded **SELECT_CAND_01**. CAND-01 is selected for separate Gate-3 review while preserving the P3-S004 guard that finite multiplicity has no established computable-randomness consequence. CAND-02 is not selected for active Gate-3 investment; its significance case remains preserved with elevated totality/representation-artifact risk. PA-0001 and PA-0002 remain unresolved under inspected evidence. Gate 3 is still not reviewed and Phase 4 remains CLOSED.
+P3-S006 completed the comparative candidate-selection readiness audit with **READY_FOR_SELECTION_DECISION**. P3-S007 then recorded **SELECT_CAND_01**. P3-S008 independently reviewed selected CAND-01 against every Gate-3 minimum-evidence requirement and recorded **PASS**. CAND-01 is therefore authorized for Phase-4 mathematics. The P3-S004 guard remains controlling: finite multiplicity is provisionally substantive but has no established computable-randomness consequence. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; Gate-3 PASS is not a novelty or openness finding.
 
-Structured prior-art findings are in `prior-art.json`. Session records include `P3-S001_PRIOR_ART.md`, `P3-S002_PRIOR_ART.md`, `P3-S003_PRIOR_ART.md`, `P3-S004_SIGNIFICANCE.md`, `P3-S005_SIGNIFICANCE.md`, `P3-S006_SELECTION_READINESS_AUDIT.md` and `P3-S007_SELECTION_DECISION.md`.
+Structured prior-art findings are in `prior-art.json`. Session records include `P3-S001_PRIOR_ART.md`, `P3-S002_PRIOR_ART.md`, `P3-S003_PRIOR_ART.md`, `P3-S004_SIGNIFICANCE.md`, `P3-S005_SIGNIFICANCE.md`, `P3-S006_SELECTION_READINESS_AUDIT.md`, `P3-S007_SELECTION_DECISION.md` and `P3-S008_GATE3_REVIEW.md`.
 
-Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`, `P3-S002_VALIDATION.md`, `P3-S002_CLOSE.md`, `P3-S003_VALIDATION.md`, `P3-S003_CLOSE.md`, `P3-S004_VALIDATION.md`, `P3-S004_CLOSE.md`, `P3-S005_VALIDATION.md`, `P3-S005_CLOSE.md`, `P3-S006_VALIDATION.md`, `P3-S006_CLOSE.md`, `P3-S007_VALIDATION.md`, `P3-S007_CLOSE.md`.
+Validation and close records: `P3-S001_VALIDATION.md`, `P3-S001_CLOSE.md`, `P3-S002_VALIDATION.md`, `P3-S002_CLOSE.md`, `P3-S003_VALIDATION.md`, `P3-S003_CLOSE.md`, `P3-S004_VALIDATION.md`, `P3-S004_CLOSE.md`, `P3-S005_VALIDATION.md`, `P3-S005_CLOSE.md`, `P3-S006_VALIDATION.md`, `P3-S006_CLOSE.md`, `P3-S007_VALIDATION.md`, `P3-S007_CLOSE.md`, `P3-S008_VALIDATION.md`, `P3-S008_CLOSE.md`.
 
-Next recommended session: **P3-S008**, a separate formal Gate-3 review of selected CAND-01 only. It must not begin Phase-4 mathematics in the review session.
+Next recommended session: **P4-S001**, a bounded first mathematical investigation of selected CAND-01 focused on the k=1 injective base case and effective inverse information.
