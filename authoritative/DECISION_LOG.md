@@ -196,3 +196,18 @@ NO-GO is not chosen because CAND-01 still clears the programme's investment thre
 Gate 3 is not reviewed in P3-S007 and Phase 4 remains closed.
 
 Record: `phase3/P3-S007_SELECTION_DECISION.md`.
+
+
+## D-0022 — Gate 3 PASS opens Phase 4 for selected CAND-01
+
+On 2026-10-05, P3-S008 independently reviewed selected CAND-01 against every Gate-3 minimum-evidence requirement in docs/GATE_POLICY.md.
+
+Decision: **PASS**.
+
+The committed record contains a dedicated primary-source prior-art attack, alternate-terminology/equivalent-formulation search, an explicit closest-known-work account, calibrated equivalence/rebranding risk, a significance/usefulness case, plausible interested communities, explicit remaining novelty uncertainty and a documented selection decision.
+
+The PASS does not upgrade PA-0001. It remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No openness or novelty conclusion is inferred from search absence. The P3-S004/P3-S007 guard remains controlling: finite multiplicity is provisionally substantive, but no computable-randomness consequence of the bare global finite cardinal fibre bound is established.
+
+Authorization effect: Phase 3 is complete for gate purposes; Phase 4 — Mathematics is OPEN for CAND-01; Phase 5 remains CLOSED. No Phase-4 mathematics was performed in P3-S008.
+
+Record: phase3/P3-S008_GATE3_REVIEW.md.
