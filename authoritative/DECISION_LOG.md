@@ -339,3 +339,15 @@ The unresolved case is therefore branchwise avoidable: the singleton target cons
 No exact k=2 destroyer and no full scan-preservation theorem is obtained. SRC-0061 is not reused. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S009_MATHEMATICS.md.
+
+## D-0032 — threshold capping does not compute branchwise-avoidable optional projections
+
+On 2026-10-05, P4-S010 continued selected CAND-01 strictly at k=2 and analyzed only the branchwise-avoidable deferred-wager case isolated by P4-S009.
+
+Decision/result: capping at an output-capital threshold does not by itself effectivize the missing stopping value. An exact global k=2 no-repeat scan was constructed in which sentinel 0 is consumed on a c.e.-open tail event of noncomputable measure alpha and omitted otherwise. A bounded computable martingale, already capped at 2, has eventual-consumption payoff whose exact conditional values after a fixed-sentinel completion reveals bit b are 1-alpha and 1+alpha. Hence the exact optional projection is noncomputable; finite-horizon projections have no computable convergence modulus.
+
+A stronger adaptive singleton-spine comb was also checked. Withhold the least unqueried coordinate, let other fresh bits drive a c.e. trigger/prediction, consume the sentinel only after the prediction is fixed, and choose the next sentinel only afterwards from still-unqueried coordinates. This architecture is total, fair-coin preserving, globally k=2, singleton on every all-trigger path, and satisfies freshness/non-pre-revelation. The missing check is the existence of a computably random all-trigger winning source.
+
+No exact k=2 destroyer and no full scan-preservation theorem is obtained. SRC-0061 is not reused. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S010_MATHEMATICS.md.
