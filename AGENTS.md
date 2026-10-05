@@ -12,7 +12,7 @@ Phases 1–3 are complete for gate purposes. Phase 4 — **Mathematics** — is 
 
 Phase-4 work may perform original mathematical investigation on CAND-01: proofs/disproofs, counterexamples, exact boundary analysis, characterizations, examples, justified computation, and Lean/Palomar work where useful. It must preserve the exact committed CAND-01 formulation unless a documented mathematical finding requires an explicit revision/backtrack.
 
-Gate-3 PASS does not establish novelty, openness, truth or publishability. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. The Gate-3 controlling guard was that finite multiplicity was provisionally substantive but had no established computable-randomness consequence before Phase 4. P4-S001 establishes the exact k=1 injective consequence. P4-S002 establishes that k=2 gives descending computable-clopen fibre names but not total computable selectors/branch enumerations. P4-S003 strengthens the forced k=2 information to uniform two-prefix inverse lists, proves preservation under an explicitly supplied computable clopen two-sheet split, and shows that no global continuous/clopen sheet colouring is forced. P4-S004 sharpens the conditional-weight boundary: low sheet-weight crossings give only an ML-level pullback test, every fixed output betting stage lifts exactly to a source martingale, and an explicit asymmetric k=2 collision map shows that an actual sheet may have weight tending to zero. The missing step is computable-randomness-level stopping/coherence or a genuine thin-sheet destruction witness. General k=2 preservation/failure remains unresolved. No conclusion is established for k>2 or general finite multiplicity. Publication work remains unauthorized until a separate Gate-4 PASS.
+Gate-3 PASS does not establish novelty, openness, truth or publishability. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. The Gate-3 controlling guard was that finite multiplicity was provisionally substantive but had no established computable-randomness consequence before Phase 4. P4-S001 establishes the exact k=1 injective consequence. P4-S002 establishes that k=2 gives descending computable-clopen fibre names but not total computable selectors/branch enumerations. P4-S003 strengthens the forced k=2 information to uniform two-prefix inverse lists, proves preservation under an explicitly supplied computable clopen two-sheet split, and shows that no global continuous/clopen sheet colouring is forced. P4-S004 sharpens the conditional-weight boundary: low sheet-weight crossings give only an ML-level pullback test, every fixed output betting stage lifts exactly to a source martingale, and an explicit asymmetric k=2 collision map shows that an actual sheet may have weight tending to zero. P4-S005 then shows that the forced two-prefix structure does not make those crossing measures computable: an exact k=2 map with a computable clopen injective-sheet split has noncomputable low-weight hitting measure, and a natural symmetric fibre-count lift can have noncomputable mass. The example is in the positive split regime and is not a destroyer. General k=2 preservation/failure remains unresolved; the live obstruction is effective non-clopen branch coherence versus a genuinely moving-sheet counterexample. No conclusion is established for k>2 or general finite multiplicity. Publication work remains unauthorized until a separate Gate-4 PASS.
 
 ## Programme objective
 
@@ -69,3 +69,16 @@ Do not contact mathematicians, editors, journals, arXiv or other third parties w
 ## Publication integrity
 
 Publication is an aspiration, not a promised outcome. Do not represent an arXiv preprint as peer reviewed. Do not represent a private reviewer as a journal referee. Preserve an accurate disclosure trail for substantive AI assistance and follow the policies of the eventual venue.
+
+## Mathematics checkpoint — P4-S005 (not a gate review)
+
+P4-S005 completed one bounded k=2 crossing-measure/stopped-pullback investigation for selected CAND-01.
+
+Result: the forced two-prefix inverse lists do not make the P4-S004 low-weight crossing measures computable. A total computable fair-coin-preserving k=2 prefix-code map, even with a computable clopen partition into two injective sheets, has a crossing set V_{0,1/3} whose fair-coin measure is a noncomputable base-4 encoding of a c.e. noncomputable set. A natural symmetric inverse-point-count lift can likewise have noncomputable total mass.
+
+These are stopping-effectivity obstructions, not non-conservation results. The example preserves computable randomness by the P4-S003 clopen-sheet theorem. No exact k=2 destroyer is obtained, and the SRC-0061 pre-revealed-bet obstruction remains unresolved.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S004 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S005_MATHEMATICS.md.
+
