@@ -1,25 +1,21 @@
-# Next Session Prompt — P3-S008
+# Next Session Prompt — P4-S001
 
 Continue the Fairfax-Ball Randomness Research Programme in:
 
 https://github.com/jfairfaxball-348/random
 
-Run only Phase 3 — Novelty / Prior Art session P3-S008, the formal Gate-3 review.
+Run only Phase 4 — Mathematics session P4-S001.
 
-Treat committed repository state as authoritative. Pin live `main` at the exact P3-S007 outgoing checkpoint reported by the preceding session, reconcile any mismatch before consuming authority, and confirm P3-S008 is unique.
+Treat committed repository state as authoritative. Pin live main at the exact P3-S008 outgoing checkpoint reported by the preceding session, reconcile any mismatch before consuming authority, and confirm P4-S001 is unique.
 
-Read `AGENTS.md`, `authoritative/START_HERE.md` and required authority; `docs/GATE_POLICY.md`; `phase3/P3-S007_SELECTION_DECISION.md`, its close and validation records; `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`; the relevant P3-S001/P3-S004 CAND-01 prior-art/significance records; `phase3/prior-art.json`; `phase2/candidates.json`; and the committed CAND-01 formulation anchors.
+Read AGENTS.md, authoritative/START_HERE.md and required authority; phase3/P3-S008_GATE3_REVIEW.md, its close and validation records; phase3/P3-S007_SELECTION_DECISION.md; phase3/P3-S004_SIGNIFICANCE.md; phase3/P3-S001_PRIOR_ART.md; phase3/prior-art.json; phase2/candidates.json; and the committed CAND-01 formulation anchors.
 
-Perform the **formal Gate-3 review only** for selected CAND-01. Independently review the committed evidence against every Gate-3 minimum-evidence requirement: dedicated primary-source prior-art audit; alternate terminology/equivalent formulations searched; closest known work; equivalence/rebranding risk; significance/usefulness case; likely interested communities; remaining novelty uncertainty explicit; and documented selection decision.
+Perform one bounded first Phase-4 mathematical investigation on selected CAND-01 focused on the k=1 injective base case. Determine, under the exact everywhere-total computable fair-coin-preserving Cantor self-map hypotheses with one-point fibres, what effective inverse information is forced or not forced, and what this yields for forward preservation of computable randomness.
 
-Record exactly one formal outcome: `PASS`, `FAIL` or `BACKTRACK`.
+You may prove lemmas, construct counterexamples, inspect exact already-catalogued source statements when a theorem dependency must be checked, and use justified computation or formalisation only if it materially helps this bounded question. Keep literature facts separate from new mathematics.
 
-Preserve the P3-S004/P3-S007 guard that finite multiplicity is provisionally substantive but no computable-randomness consequence of the bare global finite cardinal fibre bound is established. Preserve PA-0001 as `UNRESOLVED_UNDER_INSPECTED_EVIDENCE`; do not infer openness or novelty from search absence. Do not reopen CAND-02 or CAND-03 except as historical comparison needed to verify the selection record.
+Do not broaden to general k>1 unless a result for k=1 directly requires a clearly marked reduction. Do not redefine CAND-01, claim novelty/open status, prepare publication material, review Gate 4, or contact third parties.
 
-If Gate 3 is `PASS`, synchronize authority to show Phase 4 opened for selected CAND-01, but perform **no Phase-4 mathematics in P3-S008**. If `FAIL` or `BACKTRACK`, record the exact deficiency/disposition and synchronize only the authorized state.
+Preserve PA-0001 as UNRESOLVED_UNDER_INSPECTED_EVIDENCE and preserve the Gate-3 guard that finite multiplicity had no established computable-randomness consequence before Phase 4. Preserve DEF-0020 and all convention/evidence guards.
 
-Do not conduct proof search, construct witnesses, run experiments, use Lean/Palomar, perform a broad new literature survey, prepare publication material or contact third parties. Use new external literature only if a concrete committed-reference inconsistency blocks an honest Gate-3 decision.
-
-Preserve DEF-0020 and all convention/evidence guards. Validate changed records and references; synchronize authority; create the P3-S008 gate-review, close and validation records; commit useful work; verify remote `main`; and report the exact outgoing hash.
-
-If there is no owner/external blocker, provide the smallest runnable next prompt consistent with the Gate-3 outcome.
+Record the mathematical result honestly, including failed approaches and exact proof dependencies. Validate and synchronize authority, create the P4-S001 work, close and validation records, commit useful work, verify remote main, report the exact outgoing hash, and provide the smallest runnable next prompt if no blocker exists.
