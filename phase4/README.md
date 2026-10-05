@@ -23,7 +23,7 @@ Records:
 - phase4/P4-S001_CLOSE.md
 - phase4/P4-S001_VALIDATION.md
 
-Next recommended session: **P4-S002**, bounded k=2 effective-fibre / inverse-branch analysis.
+Historical next step after P4-S001: **P4-S002**, now completed below.
 
 ## P4-S002 — k=2 finite-valued inverse boundary
 
