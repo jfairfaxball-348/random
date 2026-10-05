@@ -137,3 +137,15 @@ The hard case is exactly branchwise avoidability: the singleton target consumes 
 No exact k=2 destroyer and no full scan-preservation theorem is obtained. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; P4-S001 through P4-S008 and DEF-0020 are preserved; no k>2, novelty/open-status, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S009_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S010 (not a gate review)
+
+P4-S010 completed one bounded k=2 branchwise-avoidable deferred-wager / capped optional-projection investigation for selected CAND-01.
+
+Result: threshold capping does not force a computable exact optional projection. An exact global k=2 adaptive no-repeat scan can make consumption of a fresh sentinel a c.e.-open event of noncomputable probability alpha. For a computable output martingale already bounded by 2, the eventual-consumption/threshold payoff has first conditional values 1-alpha and 1+alpha after the sentinel is prequeried. The finite-horizon conditional values are computable but have no computable convergence modulus. This is an optional-projection obstruction only, not a proof that every transfer theorem fails.
+
+A stronger adaptive least-unqueried-sentinel comb also passes the totality, no-repeat, fair-coin, global k=2 fibre, singleton-spine, freshness and non-pre-revelation checks. The remaining unproved condition is the existence of a computably random source on an infinite all-trigger correct-prediction spine. No exact k=2 destroyer and no full scan-preservation theorem is obtained. SRC-0061 is not reused.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; P4-S001 through P4-S009 and DEF-0020 are preserved; no k>2, novelty/open-status, Gate-4 or publication claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S010_MATHEMATICS.md.
