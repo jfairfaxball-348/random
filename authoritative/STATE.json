@@ -2,11 +2,11 @@
   "schema_version": 1,
   "project": "Fairfax-Ball Randomness Research Programme",
   "repository": "jfairfaxball-348/random",
-  "programme_status": "PHASE_3_ACTIVE",
-  "active_phase": 3,
-  "active_phase_name": "Novelty / Prior Art",
+  "programme_status": "PHASE_4_ACTIVE",
+  "active_phase": 4,
+  "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P3-S007",
+  "last_completed_session": "P3-S008",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -20,18 +20,18 @@
     },
     "3": {
       "name": "Novelty / Prior Art",
-      "status": "OPEN"
+      "status": "COMPLETED"
     },
     "4": {
       "name": "Mathematics",
-      "status": "CLOSED"
+      "status": "OPEN"
     },
     "5": {
       "name": "Publication",
       "status": "CLOSED"
     }
   },
-  "current_authorization": "Phase 3 Novelty / Prior Art only. Gate 2 passed in P2-S006. Phases 4-5 remain closed.",
+  "current_authorization": "Phase 4 Mathematics only for selected CAND-01. Gate 3 passed in P3-S008. Phase 5 remains closed.",
   "phase1_gate_status": "PASS",
   "phase1_coverage": {
     "coverage_records": 19,
@@ -52,12 +52,12 @@
     "questions": 1,
     "authors": 74
   },
-  "next_transition": "Run P3-S008: separate formal Gate-3 review of selected CAND-01 against docs/GATE_POLICY.md; record PASS, FAIL or BACKTRACK; do not begin Phase-4 mathematics in the same session.",
-  "recommended_next_session": "P3-S008",
+  "next_transition": "Run P4-S001: bounded initial mathematical investigation of CAND-01, beginning with the k=1 injective base case and effective inverse information.",
+  "recommended_next_session": "P4-S001",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
-  "mathematical_investigation_authorized": false,
+  "mathematical_investigation_authorized": true,
   "publication_work_authorized": false,
   "phase1_audit": {
     "session": "P1-S013",
@@ -166,11 +166,11 @@
     "novelty_assessment_performed": false,
     "candidate_selected": false
   },
-  "phase3_gate_status": "NOT_REVIEWED",
+  "phase3_gate_status": "PASS",
   "phase3_prior_art": {
-    "last_session": "P3-S007",
+    "last_session": "P3-S008",
     "prior_art_index": "phase3/prior-art.json",
-    "latest_record": "phase3/P3-S007_SELECTION_DECISION.md",
+    "latest_record": "phase3/P3-S008_GATE3_REVIEW.md",
     "candidates": {
       "CAND-01": {
         "status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
@@ -189,7 +189,7 @@
           "SRC-0066"
         ],
         "selection_readiness": "READY_AS_SELECTION_OPTION",
-        "selection_status": "SELECTED_FOR_GATE3_REVIEW"
+        "selection_status": "SELECTED_FOR_PHASE4_MATHEMATICS"
       },
       "CAND-02": {
         "status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
@@ -231,10 +231,10 @@
       }
     },
     "candidate_selected": true,
-    "gate3_review_performed": false,
+    "gate3_review_performed": true,
     "original_proof_work_performed": false,
-    "phase4_opened": false,
-    "latest_close_record": "phase3/P3-S007_CLOSE.md",
+    "phase4_opened": true,
+    "latest_close_record": "phase3/P3-S008_CLOSE.md",
     "selection_readiness_audit": {
       "session": "P3-S006",
       "result": "READY_FOR_SELECTION_DECISION",
@@ -264,7 +264,41 @@
       "novelty_status_unchanged": true,
       "gate3_review_performed": false,
       "next_session": "P3-S008"
+    },
+    "gate3_review": {
+      "session": "P3-S008",
+      "date": "2026-10-05",
+      "outcome": "PASS",
+      "review_record": "phase3/P3-S008_GATE3_REVIEW.md",
+      "close_record": "phase3/P3-S008_CLOSE.md",
+      "validation_record": "phase3/P3-S008_VALIDATION.md",
+      "selected_candidate": "CAND-01",
+      "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "finite_multiplicity_guard": "Provisionally substantive; no established computable-randomness consequence of the bare global finite cardinal fibre bound.",
+      "phase4_opened": true,
+      "phase4_work_performed_in_review_session": false
     }
   },
-  "selected_candidate_id": "CAND-01"
+  "selected_candidate_id": "CAND-01",
+  "phase3_gate_review": {
+    "session": "P3-S008",
+    "date": "2026-10-05",
+    "outcome": "PASS",
+    "review_record": "phase3/P3-S008_GATE3_REVIEW.md",
+    "close_record": "phase3/P3-S008_CLOSE.md",
+    "validation_record": "phase3/P3-S008_VALIDATION.md",
+    "selected_candidate": "CAND-01",
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "finite_multiplicity_guard": "Provisionally substantive; no established computable-randomness consequence of the bare global finite cardinal fibre bound.",
+    "phase4_opened": true,
+    "phase4_work_performed_in_review_session": false
+  },
+  "phase4_mathematics": {
+    "status": "OPEN",
+    "opened_by": "P3-S008",
+    "selected_candidate_id": "CAND-01",
+    "last_session": null,
+    "next_session": "P4-S001",
+    "original_mathematics_performed": false
+  }
 }
