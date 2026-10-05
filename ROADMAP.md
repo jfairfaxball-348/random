@@ -42,7 +42,7 @@ For each candidate ask: Has this definition/result appeared before? Is it equiva
 
 ## Phase 4 — Mathematics
 
-**Status:** OPEN after Gate-3 PASS in P3-S008 for selected CAND-01. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; this authorization is not a novelty finding. P4-S001 settles k=1. P4-S002 and P4-S003 isolate the k=2 inverse-list/sheet boundary. P4-S004 shows that low conditional sheet weight gives an ML-level pullback test and that each fixed output betting stage lifts exactly, while an exact asymmetric k=2 map permits vanishing sheet weight. The computable-randomness-level stopping/coherence step and general k=2 preservation/failure remain unresolved.
+**Status:** OPEN after Gate-3 PASS in P3-S008 for selected CAND-01. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; this authorization is not a novelty finding. P4-S001 settles k=1. P4-S002 and P4-S003 isolate the k=2 inverse-list/sheet boundary. P4-S004 isolates the low conditional-weight stopping problem. P4-S005 proves that k=2 does not make those hitting measures computable, even under a stronger computable clopen injective-sheet split, and that a natural symmetric fibre-count lift can also have noncomputable mass. General k=2 preservation/failure remains unresolved; the live issue is now effective non-clopen branch coherence versus a genuine moving-sheet counterexample.
 
 **Purpose:** do the actual mathematical work.
 
