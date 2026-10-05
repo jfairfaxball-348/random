@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "session": "P3-S004",
-  "checked_on": "2026-10-04",
+  "session": "P4-S011",
+  "checked_on": "2026-10-05",
   "records": [
     {
       "id": "SRC-0001",
@@ -4180,6 +4180,112 @@
         "For a specified subclass it characterizes when a finite-to-one onto restriction exists.",
         "The article conjectures, rather than proves in full generality, an equivalence between a finite-to-one onto property and stationary Markov capacity attainment for a specified class.",
         "Its shift-commuting symbolic hypotheses are additional structure absent from CAND-01."
+      ]
+    },
+    {
+      "id": "SRC-0067",
+      "title": "On the construction of effectively random sets",
+      "authors": [
+        "Wolfgang Merkle",
+        "Nenad Mihailović"
+      ],
+      "author_ids": [
+        "AUT-0019",
+        "AUT-0075"
+      ],
+      "year": 2004,
+      "source_type": "journal_article",
+      "doi": "10.2178/jsl/1096901772",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.2178/jsl/1096901772",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "computable-randomness",
+        "autoreducibility",
+        "weak-truth-table-reducibility",
+        "martingales"
+      ],
+      "aliases_search_terms": [
+        "rec-random weak truth-table autoreducible",
+        "wtt-autoreducible computably random",
+        "Merkle Mihailovic effectively random sets"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0076"
+      ],
+      "questions": [],
+      "priority_relevance": "Mathematical ingredient for P4-S011: supplies a rec-random weak-truth-table-autoreducible source; P4-S011 separately proves the finite-fibre scan conversion.",
+      "notes": "Journal of Symbolic Logic 69(3) (2004), 862-878. Cambridge/JSL metadata and abstract inspected in P4-S011. The abstract states existence of a rec-random weak-truth-table-autoreducible set and contrasts it with the known impossibility of rec-random truth-table autoreducibility. DEF-0004 records recursive/rec-random terminology for computable randomness. This source does not state a finite-fibre map theorem.",
+      "inspected_material": [
+        "Cambridge Core publication metadata and abstract"
+      ],
+      "pointers": [
+        "Journal of Symbolic Logic 69(3) (2004), 862-878",
+        "publisher abstract: rec-random set that is weak truth-table autoreducible"
+      ],
+      "cross_links": [
+        "SRC-0068",
+        "SRC-0061",
+        "SRC-0018"
+      ],
+      "checked_on": "2026-10-05",
+      "exact_relevance": "Provides the computably random weak-truth-table-autoreducible source existence used in P4-S011.",
+      "inspected_claims": [
+        "There exists a rec-random set that is weak truth-table autoreducible.",
+        "The abstract contrasts this with the known fact that no rec-random set is truth-table autoreducible."
+      ]
+    },
+    {
+      "id": "SRC-0068",
+      "title": "Algorithmic Randomness",
+      "authors": [
+        "Nenad Mihailović"
+      ],
+      "author_ids": [
+        "AUT-0075"
+      ],
+      "year": 2007,
+      "source_type": "thesis",
+      "doi": null,
+      "arxiv": null,
+      "stable_locator": "https://archiv.ub.uni-heidelberg.de/volltextserver/7786/",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "computable-randomness",
+        "autoreducibility",
+        "weak-truth-table-reducibility",
+        "martingales"
+      ],
+      "aliases_search_terms": [
+        "Mihailovic Algorithmic Randomness Theorem 6.9",
+        "computably random wtt-autoreducible"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0076"
+      ],
+      "questions": [],
+      "priority_relevance": "Statement-level corroboration and exact reduction convention for the P4-S011 autoreducibility ingredient.",
+      "notes": "Heidelberg doctoral dissertation (2007). P4-S011 inspected the full-text wtt/autoreducibility definitions and Theorem 6.9. The thesis defines wtt reducibility as Turing reducibility with a computable use bound and autoreducibility by an oracle machine forbidden to query the current input. Theorem 6.9 states that there is a computably random wtt-autoreducible sequence.",
+      "inspected_material": [
+        "full dissertation text",
+        "Section 1.2 reducibility/autoreducibility definitions",
+        "Section 6.2 Theorem 6.9"
+      ],
+      "pointers": [
+        "Section 1.2, printed pp. 5-6",
+        "Section 6.2, Theorem 6.9, printed p. 61"
+      ],
+      "cross_links": [
+        "SRC-0067"
+      ],
+      "checked_on": "2026-10-05",
+      "exact_relevance": "Fixes the partial-on-sibling oracle-machine semantics and explicitly states the computably-random wtt-autoreducible existence theorem used in P4-S011.",
+      "inspected_claims": [
+        "A wtt reduction is a Turing reduction by an oracle machine with a computable bound on use.",
+        "An autoreduction computes the sequence from itself without querying the current input.",
+        "Theorem 6.9: there exists a sequence that is computably random and wtt-autoreducible."
       ]
     }
   ]

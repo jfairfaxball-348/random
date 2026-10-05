@@ -690,3 +690,18 @@ Finite truncations are computable, but a computable convergence modulus would co
 The witness-side lesson is separate. An adaptive least-unqueried-sentinel comb can satisfy totality, fair-coin, global k=2, singleton-spine, freshness and non-pre-revelation checks. The unresolved burden is source randomness: noncomputable trigger normalization blocks the immediate source-martingale mirror but does not prove that a computably random sequence lies on an infinite correct-prediction spine.
 
 Resolution: do not infer computable optional projection from a capital cap, and do not infer a counterexample merely from noncomputable projection values. Future work should attack the computably-random-source question for the c.e.-trigger singleton spine directly.
+
+## FL-059 — partial autoreduction realizes the hard sibling-avoidable turnover on a computably random source
+
+Session: P4-S011
+Status: PHASE-4 k=2 EXACT NON-CONSERVATION / PARTIAL-PREDICTION BOUNDARY
+
+The failed positive inference was that infinitely many graph-like correct-prediction triggers might automatically combine into a computable source martingale even when one-turnover normalization is noncomputable.
+
+SRC-0067 / SRC-0068 / THM-0076 block that inference: a computably random weak-truth-table-autoreducible sequence exists. Its autoreduction predicts each target bit without reading that bit, but unlike a truth-table reduction it need not halt on every sibling oracle.
+
+Embedding that partial predictor into the least-fresh-sentinel comb gives exactly the P4-S009/P4-S010 hard geometry. On the target each sentinel is eventually consumed and correctly predicted. On a sibling where one prediction never halts, the total scan continues forever through every other coordinate and leaves exactly that sentinel omitted. Thus fibres remain globally of size at most two without a uniform turnover deadline.
+
+Resolution: the branchwise-avoidable case supports an exact k=2 computable-randomness destroyer. Any positive theorem for a narrower subclass must add enough totality or uniformity to exclude this partial-autoreduction mechanism.
+
+Lesson: distinguish a predictor that halts correctly on the target from one that is total on every oracle.

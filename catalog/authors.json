@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P3-S004",
+  "session": "P4-S011",
   "records": [
     {
       "id": "AUT-0001",
@@ -321,10 +321,14 @@
       "name": "Wolfgang Merkle",
       "topics": [
         "KL-randomness",
-        "stochasticity"
+        "stochasticity",
+        "computable-randomness",
+        "autoreducibility",
+        "weak-truth-table-reducibility"
       ],
       "source_ids": [
-        "SRC-0018"
+        "SRC-0018",
+        "SRC-0067"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -1121,6 +1125,21 @@
       ],
       "source_ids": [
         "SRC-0066"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0075",
+      "name": "Nenad Mihailović",
+      "topics": [
+        "computable-randomness",
+        "autoreducibility",
+        "weak-truth-table-reducibility",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0067",
+        "SRC-0068"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }

@@ -351,3 +351,15 @@ A stronger adaptive singleton-spine comb was also checked. Withhold the least un
 No exact k=2 destroyer and no full scan-preservation theorem is obtained. SRC-0061 is not reused. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S010_MATHEMATICS.md.
+
+## D-0033 — k=2 already admits exact computable-randomness destruction
+
+On 2026-10-05, P4-S011 used SRC-0067 / SRC-0068 / THM-0076 to fix a computably random weak-truth-table-autoreducible source Y and converted its partial autoreduction into a total adaptive no-repeat least-fresh-sentinel scan.
+
+The induced map is fair-coin preserving and has every fibre of size at most two. A permanently nontriggering epoch omits exactly one sentinel; an all-trigger transcript queries every coordinate. On Y all predictions halt and are correct, so Y lies on a singleton fibre and one computable output martingale doubles at every sentinel.
+
+Therefore the general k=2 forward-preservation question is settled negatively by an exact witness. The repeated graph-like trigger structure does not force a source martingale without stronger totality or uniformity.
+
+This is programme mathematics, not a novelty finding. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. SRC-0061 is not reused. No k>2 result is asserted. Gate 4 is not reviewed and Phase 5 remains closed.
+
+Record: phase4/P4-S011_MATHEMATICS.md.

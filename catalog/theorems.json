@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P2-S002",
+  "session": "P4-S011",
   "records": [
     {
       "id": "THM-0001",
@@ -2093,6 +2093,38 @@
       "cautions": [
         "The nontrivial source theorem is the direction low for ordinary computable randomness implies computable.",
         "This theorem does not characterize Low^star(CR,CR) and must not be transferred from ordinary oracle martingales to DEF-0025 uniform all-oracle families."
+      ]
+    },
+    {
+      "id": "THM-0076",
+      "name": "Computably random weak-truth-table-autoreducible sequence exists",
+      "statement": "There exists a computably random binary sequence Y that is weak truth-table autoreducible.",
+      "hypotheses": [
+        "fair-coin Cantor space / binary sequences",
+        "computable randomness is DEF-0004",
+        "wtt autoreducibility uses an oracle machine that computes Y(n) without querying n and has a computable use bound"
+      ],
+      "direction": "existence",
+      "source_support": [
+        {
+          "source": "SRC-0067",
+          "evidence": "ABSTRACT_INSPECTED",
+          "pointer": "publisher abstract: rec-random set that is weak truth-table autoreducible"
+        },
+        {
+          "source": "SRC-0068",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 6.2, Theorem 6.9; Section 1.2 definitions"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0004"
+      ],
+      "relations": [],
+      "cautions": [
+        "The source theorem is an autoreducibility result, not a finite-fibre measure-preserving-map theorem.",
+        "The P4-S011 k=2 conversion is programme mathematics and must not be attributed to the source.",
+        "Do not strengthen wtt autoreducibility to truth-table autoreducibility."
       ]
     }
   ]

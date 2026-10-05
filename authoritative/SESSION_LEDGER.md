@@ -974,3 +974,21 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: `P4-S011`, still restricted to k=2, focused only on the adaptive c.e.-trigger singleton-spine architecture: determine whether its infinite correct-prediction spine can contain a computably random source, or whether the repeated graph-like trigger structure yields one computable source martingale despite noncomputable one-turnover normalization.
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
+
+## P4-S011 — adaptive c.e.-trigger singleton spine gives exact k=2 non-conservation
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint 31cff4e4c442520b19054f19fac75bd8b5c7cc26 matched live main exactly and P4-S011 was unique.
+
+SRC-0067 / SRC-0068 / THM-0076 provide a computably random weak-truth-table-autoreducible source. P4-S011 converts its partial autoreduction into a total least-fresh-sentinel scan. Nontriggering epochs omit exactly one sentinel; all-trigger transcripts query every coordinate. The map is fair-coin preserving and globally k=2.
+
+On the computably random source every prediction triggers correctly, and a computable output martingale doubles at each sentinel. Hence exact k=2 forward computable-randomness preservation fails.
+
+SRC-0061 is not reused. P4-S005 through P4-S010 remain settled. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records: phase4/P4-S011_MATHEMATICS.md, phase4/P4-S011_CLOSE.md, phase4/P4-S011_VALIDATION.md. Durable decision D-0033. Lesson FL-059.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: NONE.
+
+Recommended next session: P4-S012, still at k=2, abstracting the weakest partial-predictor hypothesis sufficient for the P4-S011 scan conversion and testing the converse inside the global-k=2 adaptive no-repeat scan subclass.

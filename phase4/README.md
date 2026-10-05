@@ -183,3 +183,22 @@ Records:
 - phase4/P4-S010_VALIDATION.md
 
 Next recommended session: **P4-S011**, still bounded to k=2, on whether the adaptive c.e.-trigger singleton-spine can contain a computably random winning source or instead forces one computable source martingale.
+
+## P4-S011 — exact k=2 destruction via a computably random wtt-autoreducible spine
+
+P4-S011 closes the source-randomness gap left by P4-S010. SRC-0067 / SRC-0068 / THM-0076 provide a computably random weak-truth-table-autoreducible sequence Y.
+
+Use the autoreduction as the trigger predictor in the least-fresh-sentinel comb. While a prediction is unresolved, query fresh non-sentinel fillers. On a visible prediction, query the sentinel and begin the next epoch. The scan is everywhere total and no-repeat; finite output prefixes constrain distinct fair-coin source coordinates, so the induced map preserves fair coin.
+
+If an epoch never triggers, fillers exhaust every coordinate except that epoch's sentinel, giving a two-point fibre. If every epoch triggers, every coordinate is eventually queried, giving a singleton fibre. Thus the map is globally k=2.
+
+On Y every prediction halts and is correct. A computable output martingale stays flat on fillers and doubles on every sentinel, hence succeeds. Therefore exact k=2 forward computable-randomness preservation fails.
+
+SRC-0061 is not reused. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. No k>2, novelty, Gate-4 or publication claim is made.
+
+Records:
+- phase4/P4-S011_MATHEMATICS.md
+- phase4/P4-S011_CLOSE.md
+- phase4/P4-S011_VALIDATION.md
+
+Next recommended session: P4-S012, still at k=2, abstracting the weakest partial-predictor/autoreduction hypothesis sufficient for the destroyer and testing the converse inside the adaptive no-repeat scan subclass.
