@@ -268,3 +268,15 @@ No exact k=2 randomness-destruction witness is claimed. The SRC-0061 filler/pre-
 This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S003 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S004_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S005 (not a gate review)
+
+P4-S005 completed one bounded k=2 crossing-measure/stopped-pullback investigation for selected CAND-01.
+
+Result: the forced two-prefix inverse lists do not make the P4-S004 low-weight crossing measures computable. A total computable fair-coin-preserving k=2 prefix-code map, even with a computable clopen partition into two injective sheets, has a crossing set V_{0,1/3} whose fair-coin measure is a noncomputable base-4 encoding of a c.e. noncomputable set. A natural symmetric inverse-point-count lift can likewise have noncomputable total mass.
+
+These are stopping-effectivity obstructions, not non-conservation results. The example preserves computable randomness by the P4-S003 clopen-sheet theorem. No exact k=2 destroyer is obtained, and the SRC-0061 pre-revealed-bet obstruction remains unresolved. General k=2 preservation/failure remains unresolved.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S004 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S005_MATHEMATICS.md.
