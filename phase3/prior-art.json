@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 3,
-  "last_updated_session": "P3-S006",
+  "last_updated_session": "P3-S007",
   "records": [
     {
       "id": "PA-0001",
@@ -99,7 +99,8 @@
           "Optional quantitative information consequence only after the exact hypotheses support it."
         ],
         "guard": "Novelty classification remains unchanged. No mathematical implication from finite cardinal fibres to effective inverse information, entropy control, channel capacity or randomness preservation is asserted."
-      }
+      },
+      "selection_status": "SELECTED_FOR_GATE3_REVIEW"
     },
     {
       "id": "PA-0002",
@@ -205,7 +206,8 @@
           "Natural total nonergodic examples or system classes; optional intrinsic test/robustness or quantitative consequences only if naturally produced."
         ],
         "guard": "Novelty classification remains unchanged. No implication from totality to a new randomness class, no completeness of effectively-open indicators for lower-semicomputable observables, and no equivalence/separation from Martin-Lof, Schnorr, weak-2 or Oberwolfach randomness is asserted."
-      }
+      },
+      "selection_status": "NOT_SELECTED_P3_S007"
     },
     {
       "id": "PA-0003",
@@ -300,9 +302,26 @@
     },
     "missing_readiness_categories": [],
     "targeted_phase3_work_required": false,
-    "selection_performed": false,
+    "selection_performed": true,
     "gate3_review_performed": false,
-    "next_session": "P3-S007",
-    "next_task": "Separate documented candidate-selection/NO-GO decision over CAND-01 and CAND-02 only; do not combine with Gate-3 review."
+    "next_session": "P3-S008",
+    "next_task": "Separate formal Gate-3 review of selected CAND-01 only; do not begin Phase-4 mathematics in the same session.",
+    "selection_completed_in": "P3-S007",
+    "selection_outcome": "SELECT_CAND_01"
+  },
+  "selection_decision": {
+    "session": "P3-S007",
+    "date": "2026-10-05",
+    "outcome": "SELECT_CAND_01",
+    "decision_record": "phase3/P3-S007_SELECTION_DECISION.md",
+    "selected_candidate": "CAND-01",
+    "nonselected_candidate": "CAND-02",
+    "rationale": "CAND-01 has the stronger expected explanatory payoff relative to residual risk; CAND-02 retains elevated totality/representation-artifact risk.",
+    "cand01_prior_art_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "cand02_prior_art_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "novelty_or_openness_claimed": false,
+    "gate3_review_performed": false,
+    "phase4_opened": false,
+    "next_session": "P3-S008"
   }
 }
