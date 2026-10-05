@@ -15,7 +15,7 @@ Repository: https://github.com/jfairfaxball-348/random
 10. `authoritative/DECISION_LOG.md`
 11. `docs/FAILURE_AND_LESSON_LEDGER.md`
 12. `authoritative/SESSION_LEDGER.md`
-13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, `phase3/P3-S007_SELECTION_DECISION.md`, and `phase3/P3-S008_GATE3_REVIEW.md`; then `phase4/README.md`, the P4-S001 through P4-S003 mathematics/close/validation records; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
+13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, `phase3/P3-S007_SELECTION_DECISION.md`, and `phase3/P3-S008_GATE3_REVIEW.md`; then `phase4/README.md`, the P4-S001 through P4-S004 mathematics/close/validation records; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
 
 ## Current authority
 

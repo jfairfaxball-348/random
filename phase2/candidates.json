@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S003",
+  "last_updated_session": "P4-S004",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S003",
-      "record_path": "phase4/P4-S003_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S004",
+      "record_path": "phase4/P4-S004_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -241,6 +241,22 @@
         "failed_counterexample_route": "Completing SRC-0061's nonmonotonic scan with filler queries can pre-reveal later betting positions; no winning ordinary output martingale was preserved while maintaining the global k=2 fibre bound.",
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S003",
         "exact_k2_destroyer_constructed": false,
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_weight_mathematics": {
+        "session": "P4-S004",
+        "scope": "k=2 conditional-weight / effective-stopping boundary only",
+        "result": "LOW_WEIGHT_PULLBACK_IS_ML_LEVEL_FIXED_STAGES_LIFT_EXACTLY_BARE_K2_ALLOWS_VANISHING_SHEET_WEIGHT",
+        "successful_mechanisms": [
+          "Low conditional sheet weight pulls back to a uniformly effectively open source set with measure at most the threshold.",
+          "Every fixed output martingale stage lifts exactly to a normalized computable source martingale.",
+          "An exact asymmetric collision map satisfies all k=2 map hypotheses while one genuine sheet has conditional weight tending to zero."
+        ],
+        "unresolved_mechanism": "No computable hitting probability/stopped pullback or single coherent source martingale is forced by the established two-prefix data.",
+        "exact_k2_destroyer_constructed": false,
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S004",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
@@ -645,8 +661,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S001",
-  "recommended_next_scope": "Bounded initial Phase-4 mathematics on selected CAND-01, beginning with the k=1 injective base case and effective inverse information.",
+  "recommended_next_session": "P4-S005",
+  "recommended_next_scope": "Bounded k=2 mathematics on low-weight crossing-set effectivity / coherent stopping versus a genuine thin-sheet computable-randomness non-conservation witness.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",

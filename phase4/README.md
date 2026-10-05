@@ -54,3 +54,20 @@ Records:
 - phase4/P4-S003_VALIDATION.md
 
 Next recommended session: **P4-S004**, still bounded to k=2, on the conditional-weight stabilization/transfer obstruction versus an exact k=2 non-conservation witness.
+
+## P4-S004 — k=2 conditional-weight stopping boundary
+
+P4-S004 identifies the exact effectivity gap behind P4-S003's conditional weights. For each source cylinder [sigma], the points whose conditional weight ever falls below epsilon form a uniformly effectively open source set of measure at most epsilon. Hence Martin-Löf-random sources have positive persistent weight, but this is only an ML-test estimate; the computably-random source case still needs computable hitting measures, a computable stopped pullback, or another computable-randomness-level argument.
+
+For every fixed output stage m, the output martingale capital lifts exactly to a uniformly computable normalized source martingale. The unresolved issue is coherence across unbounded m. Static mixtures need a growth rate, and adaptive threshold selection returns to the same effective stopping problem.
+
+An explicit asymmetric collision map F_thin is total computable, fair-coin preserving and globally k=2, with one actual double-fibre sheet satisfying w_0(0^m)=2^{-m}->0. Its thin point is computable and the map is a.e.-invertible off the collision output, so it is not a randomness-destruction witness.
+
+General k=2 preservation/failure remains unresolved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No k>2, novelty/open-status, Gate-4 or publication claim is made.
+
+Records:
+- phase4/P4-S004_MATHEMATICS.md
+- phase4/P4-S004_CLOSE.md
+- phase4/P4-S004_VALIDATION.md
+
+Next recommended session: **P4-S005**, still bounded to k=2, on Schnorr/computable-randomness effectivization of the low-weight crossing sets versus a genuine thin-sheet non-conservation realization.

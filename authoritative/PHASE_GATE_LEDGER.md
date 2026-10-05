@@ -257,3 +257,14 @@ This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRES
 
 Record: phase4/P4-S003_MATHEMATICS.md.
 
+## Mathematics checkpoint — P4-S004 (not a gate review)
+
+P4-S004 completed one bounded k=2 conditional-weight/stopping investigation for selected CAND-01.
+
+Result: low conditional sheet weight pulls back to an effectively open source set whose measure is bounded by the same threshold; this is an ML-level estimate, not yet a computable-randomness-level stopping theorem. Every fixed output martingale stage lifts exactly to a normalized computable source martingale, but no coherent single lift across all stages was obtained. An explicit asymmetric k=2 collision map shows that one genuine sheet may have conditional weight tending to zero while all map hypotheses hold.
+
+No exact k=2 randomness-destruction witness is claimed. The SRC-0061 filler/pre-revealed-bet obstruction remains unresolved.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S003 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S004_MATHEMATICS.md.

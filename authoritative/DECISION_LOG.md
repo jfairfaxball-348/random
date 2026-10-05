@@ -252,3 +252,16 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status,
 
 Record: phase4/P4-S003_MATHEMATICS.md.
 
+## D-0026 — k=2 conditional weights reduce the remaining transfer problem to effective stopping
+
+On 2026-10-05, P4-S004 continued selected CAND-01 strictly at k=2.
+
+Decision/result: for every source cylinder [sigma], low values of the conditional martingale w_sigma pull back to uniformly effectively open source sets with fair-coin measure at most the weight threshold. Equivalently, the reciprocal weight is the likelihood-ratio martingale between fair coin and the pushforward of fair coin conditioned on [sigma]. This forces positive persistent weight for Martin-Löf-random sources, but does not by itself settle computably random sources; the missing datum is a computable hitting probability/stopped pullback or another computable-randomness-level test.
+
+Every fixed stage of an output computable martingale also lifts exactly to a normalized computable source martingale. The obstruction is coherence across unbounded stages: a fixed mixture needs a growth rate, while adaptive stopping again needs effective hitting probabilities.
+
+A new explicit asymmetric collision map F_thin is total computable, fair-coin preserving and globally k=2, yet one genuine double-fibre sheet has w_0(0^m)=2^{-m}->0. Its thin source point is computable and the map has an a.e.-computable inverse off the collision output, so it is not a randomness-destruction witness.
+
+General k=2 preservation/failure remains unresolved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S004_MATHEMATICS.md.

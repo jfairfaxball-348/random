@@ -802,3 +802,24 @@ Recommended next bounded session: `P4-S004`, still restricted to k=2, resolving 
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
 
+## P4-S004 — k=2 conditional-weight stopping boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `08b2d04dba6adb57435857369cd2b5317c508940`, matching live `main` exactly. Repository search returned no P4-S004 record on the incoming checkpoint, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2.
+
+Result: low conditional sheet weight yields a uniformly effectively open source crossing set with measure at most the threshold. This proves positive persistent weight for Martin-Löf-random sources but reaches only ML-test strength for the CAND-01 computably-random source hypothesis. Every fixed output martingale stage lifts exactly to a normalized computable source martingale; the unresolved issue is constructing one coherent stopped/limit martingale without a computable hitting probability.
+
+An exact asymmetric collision map F_thin shows that bare k=2 permits a genuine sheet with conditional weight tending to zero. The thin point in that example is computable and the map is a.e.-invertible, so it is not a randomness-destruction witness. The SRC-0061 filler route remains blocked, including the tested masked-filler variant.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001 through P4-S003 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S004_MATHEMATICS.md`, `phase4/P4-S004_CLOSE.md`, `phase4/P4-S004_VALIDATION.md`. Durable decision: D-0026. Lesson: FL-052.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S005`, still restricted to k=2, testing whether the low-weight crossing sets become Schnorr/computable-randomness null under the two-prefix structure, versus a genuine thin-sheet non-conservation realization.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
