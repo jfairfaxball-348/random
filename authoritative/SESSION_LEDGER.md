@@ -755,3 +755,27 @@ Work: phase4/P4-S001_MATHEMATICS.md
 Close: phase4/P4-S001_CLOSE.md
 Validation: phase4/P4-S001_VALIDATION.md
 Next: P4-S002 — bounded k=2 effective-fibre/inverse-branch analysis.
+
+## P4-S002 — k=2 finite-valued inverse boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `834d945b0f3796906f0d9e93cd3e1369e252d866`, matching live `main` exactly. The incoming phase4 directory contained no P4-S002 record and repository code search returned no P4-S002 result, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2.
+
+Result: the hypotheses force a uniform descending computable-clopen presentation of each fibre, but do not force a total computable selector or total computable two-branch enumeration. The work record gives an explicit total computable fair-coin-preserving map with one double fibre for which every global selector/listing is discontinuous at the branch-collision output.
+
+The same witness has an a.e.-computable measure-preserving inverse, so SRC-0015 / THM-0038 gives computable-randomness invariance for it. The exactly two-to-one shift supplies a complementary direct martingale-preservation example. Therefore general k=2 forward computable-randomness preservation/failure is not settled in this session.
+
+Failed approaches are recorded: extrapolating the k=1 cylinder-image separation, lexicographic selection, inferring randomness failure from absent total branches, treating THM-0038 as the universal k=2 route, and upgrading the forced negative fibre name to a total exact enumeration.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, exact P4-S001 result and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S002_MATHEMATICS.md`, `phase4/P4-S002_CLOSE.md`, `phase4/P4-S002_VALIDATION.md`. Durable decision: D-0024. Lesson: FL-050.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S003`, still restricted to k=2, testing whether an a.e./weighted two-sheet decomposition or direct martingale transfer is forced, versus a genuine k=2 non-conservation construction.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
