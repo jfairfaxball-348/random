@@ -6,7 +6,7 @@
 | Phase 1 -> Phase 2 | PASS | P1-S014 formally reviewed Gate 1 and passed it. Phase 1 is complete for gate purposes and Phase 2 — Discovery is OPEN. The catalogue remains bounded/non-exhaustive and residual provenance gaps remain recorded. |
 | Phase 2 -> Phase 3 | PASS | P2-S006 formally reviewed Gate 2 and passed it. Phase 2 is complete for gate purposes and Phase 3 — Novelty / Prior Art is OPEN. The PASS authorizes dedicated prior-art attack; it does not establish novelty or select a candidate. |
 | Phase 3 -> Phase 4 | PASS | P3-S008 formally reviewed selected CAND-01 against every Gate-3 minimum-evidence requirement and passed Gate 3. Phase 3 is complete for gate purposes and Phase 4 — Mathematics is OPEN for CAND-01. PA-0001 remains unresolved under inspected evidence; PASS is not a novelty finding. |
-| Phase 4 -> Phase 5 | CLOSED | Phase 4 is not authorized. |
+| Phase 4 -> Phase 5 | CLOSED | Phase 4 is active; Gate 4 has not been reviewed, so Phase 5 remains unauthorized. |
 | Phase 5 completion | CLOSED | No publication work is authorized. |
 
 ## Pre-review Gate-1 evidence status after P1-S013 (historical)
@@ -232,3 +232,15 @@ Applying the already-catalogued SRC-0015 / THM-0038 therefore gives computable-r
 This is Phase-4 programme mathematics, not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The Gate-3 no-consequence guard is preserved as the pre-Phase-4 baseline; P4-S001 resolves only k=1 and makes no claim for k>=2 or general finite multiplicity. Phase 4 remains OPEN, Gate 4 is not reviewed, and Phase 5 remains CLOSED.
 
 Record: phase4/P4-S001_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S002 (not a gate review)
+
+P4-S002 completed one bounded k=2 structural investigation for selected CAND-01.
+
+Result: k=2 forces a uniform descending computable-clopen name for every one- or two-point fibre, but does not force a total computable selector or total two-branch fibre enumeration. A concrete total computable fair-coin-preserving map with exactly one double fibre makes every global selector discontinuous.
+
+The counterexample mechanism concerns global inverse information, not randomness destruction. That map has an a.e.-computable measure-preserving inverse, so SRC-0015 / THM-0038 gives computable-randomness invariance for it. The exactly two-to-one left shift supplies a separate direct martingale-preservation example. General k=2 preservation/failure remains unresolved.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard and exact P4-S001 result are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S002_MATHEMATICS.md.
