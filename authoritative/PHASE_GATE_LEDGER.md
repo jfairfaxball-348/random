@@ -280,3 +280,20 @@ These are stopping-effectivity obstructions, not non-conservation results. The e
 This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S004 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S005_MATHEMATICS.md.
+
+
+## Mathematics checkpoint — P4-S006 (not a gate review)
+
+P4-S006 completed one bounded k=2 canonical-sheet / moving-one-hole investigation for selected CAND-01.
+
+Result: the compact collision relation is effectively closed. The canonical lexicographic upper source sheet is effective F-sigma, the lower sheet effective G-delta, the double-fibre output set effective F-sigma, and the lexicographic minimum/maximum inverse selectors are effective Baire-1 pointwise limits of computable continuous approximants.
+
+These Borel selectors do not uniformly provide the effective data used by the positive transfer theorems. The already-committed P4-S005 map has noncomputable canonical sheet masses, so canonical component measures need not be computable. No coherent computable pullback martingale follows.
+
+A one-hole/rotating-mask filler construction also does not resolve SRC-0061's pre-revealed-bet obstruction: revealing one masked genuine betting coordinate collapses the shared two-way ambiguity and exposes the rest of that cohort. More complicated delayed-coalescence constructions are not excluded.
+
+No exact k=2 randomness-destruction witness is claimed. General k=2 preservation/failure remains unresolved.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S005 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S006_MATHEMATICS.md.
