@@ -902,3 +902,27 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: `P4-S008`, still restricted to k=2, testing whether the coherent width-two skeleton's freshness condition permits a genuinely nonmonotonic finite-fibre scan witness or instead forces a computable preservation mechanism.
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
+
+## P4-S008 — scan freshness / fixed-sentinel permutation boundary
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: `22fa3f66558a92eae070ded127035dec2f128e1e`, matching live `main` exactly. The expected P4-S008 records were absent on the incoming checkpoint and P4-S008 appeared only as forward scheduling, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2.
+
+Result: for a no-repeat scan, c(n) means that after c(n) at most one of the first n source coordinates remains unqueried. For every fixed coordinate j, a sentinel construction turns the global k=2 scan into a total computable adaptive permutation. Any output martingale can be copied while the original scan avoids j and frozen when j would be consumed.
+
+Therefore a computably random source supporting a scan-based k=2 non-conservation witness cannot omit any source coordinate. Any such witness must lie on a singleton fibre and use an outward-moving, eventually consumed freshness hole. This rules out the persistent-hole/double-fibre scan route.
+
+The singleton moving-hole route remains unresolved: c(n) gives no computable hole-consumption deadline, a static sentinel mixture has no proved growth-rate compensation, and a dynamic sentinel can again pre-reveal later genuine bets. SRC-0061 is not reused and no exact k=2 destroyer is claimed.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001 through P4-S007 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: `phase4/P4-S008_MATHEMATICS.md`, `phase4/P4-S008_CLOSE.md`, `phase4/P4-S008_VALIDATION.md`. Durable decision: D-0030. Lesson: FL-056.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: `P4-S009`, still restricted to k=2, testing only the singleton-fibre moving-hole route: whether threshold-triggered/dynamic-sentinel permutation completions can be combined into one computable martingale without a computable success-rate/query-time bound, or whether an exact globally k=2 singleton-winning scan witness can satisfy all freshness, fair-coin and fibre checks.
+
+The exact outgoing `main` hash is verified after closeout and reported in the session response.
