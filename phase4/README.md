@@ -146,3 +146,23 @@ Records:
 - phase4/P4-S008_VALIDATION.md
 
 Next recommended session: **P4-S009**, still bounded to k=2, on the singleton-fibre moving-hole route: determine whether threshold-triggered/dynamic-sentinel permutation completions can be combined into one computable martingale without a computable success-rate/query-time bound, or whether an exact globally k=2 singleton-winning scan witness can be constructed with all global checks.
+
+
+## P4-S009 — k=2 singleton moving-hole deferred-wager boundary
+
+P4-S009 proves that not every moving-sentinel turnover carries a multiplicative martingale penalty. From a finite scan state, the continuations avoiding a proposed fresh sentinel form a computable binary tree. If every continuation eventually consumes the sentinel, finite branching makes this tree finite and a uniform consumption deadline is computably searchable.
+
+With such a deadline, the future logical wager on the already-revealed sentinel bit can be hedged exactly: take the finite conditional expectation of the output martingale's capital immediately after sentinel consumption. This gives a computable fair martingale on the completion bits that starts at the current output capital and ends at exactly the post-consumption output capital. Bounded turnovers therefore concatenate without factor-two loss.
+
+The hard singleton case is now exact: the target consumes the sentinel, but some sibling continuation can omit it forever. Finite-horizon portfolio/savings schemes have tail coverage tending to zero as the delay grows, so unbounded output capital alone supplies no rate-free guarantee across infinitely many such turnovers. This does not rule out a different transfer theorem.
+
+A simple globally k=2 fair-coin singleton-spine comb shows that infinitely many avoidable-but-consumed holes are compatible with the fibre constraint, but the naive computable-control spine is not computably random. No adaptive exact witness is completed and SRC-0061 is not reused.
+
+General k=2 preservation/failure remains unresolved.
+
+Records:
+- phase4/P4-S009_MATHEMATICS.md
+- phase4/P4-S009_CLOSE.md
+- phase4/P4-S009_VALIDATION.md
+
+Next recommended session: **P4-S010**, still bounded to k=2, on whether threshold-capping makes the branchwise-avoidable deferred-wager value computable enough for an optional-projection transfer, or whether an exact adaptive singleton-spine witness can be built.
