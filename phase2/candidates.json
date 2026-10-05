@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S001",
+  "last_updated_session": "P4-S002",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S001",
-      "record_path": "phase4/P4-S001_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S002",
+      "record_path": "phase4/P4-S002_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -206,6 +206,25 @@
         "literature_dependency": "SRC-0015 / THM-0038 supplies computable-randomness invariance once the effective inverse pair is established.",
         "forward_computable_randomness_preserved": true,
         "k_ge_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_mathematics": {
+        "session": "P4-S002",
+        "scope": "k=2 structural inverse-information boundary only",
+        "result": "K2_FORCES_DESCENDING_COMPUTABLE_CLOPEN_FIBRE_NAMES_BUT_NOT_TOTAL_COMPUTABLE_SELECTORS_OR_ENUMERATIONS",
+        "forced_information": [
+          "Uniform descending computable clopen sets F^{-1}([y↾m]) intersect exactly to the fibre.",
+          "A chosen fibre point is computable from y once an isolating input prefix is supplied."
+        ],
+        "nonforced_information": [
+          "An everywhere-total computable selector.",
+          "Two everywhere-total computable branches enumerating every fibre."
+        ],
+        "counterexample_boundary": "A prefix-replacement map with exactly one double fibre has no continuous global selector/listing, yet has an a.e.-computable measure-preserving inverse and therefore preserves computable randomness by SRC-0015 / THM-0038.",
+        "second_positive_boundary": "The exactly two-to-one left shift preserves computable randomness by direct martingale lift.",
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S002",
+        "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
       }
