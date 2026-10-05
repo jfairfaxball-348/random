@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S007",
-      "record_path": "phase4/P4-S007_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S008",
+      "record_path": "phase4/P4-S008_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -308,6 +308,24 @@
         "unresolved_mechanism": "No computable last-injury time, branch mass, coherent source martingale or exact k=2 destroyer is obtained. SRC-0061 supplies no proved freshness schedule relative to c(n).",
         "exact_k2_destroyer_constructed": false,
         "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S007",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_freshness_mathematics": {
+        "session": "P4-S008",
+        "scope": "k=2 adaptive no-repeat scan freshness / permutation-completion boundary only",
+        "result": "GLOBAL_K2_SCAN_DESTROYER_MUST_WIN_ON_SINGLETON_FIBRE_PERSISTENT_HOLE_REDUCES_TO_COMPUTABLE_PERMUTATION",
+        "successful_mechanisms": [
+          "P4-S007's c(n) means every scan transcript has queried at least n-1 of the first n source coordinates by stage c(n).",
+          "For each fixed coordinate j, prequerying j and then following the scan until it requests j yields a total computable adaptive permutation completion.",
+          "A martingale can copy the original output martingale along that completion and freeze at sentinel consumption; therefore a computably random winning source cannot omit any fixed coordinate.",
+          "Any possible scan-based k=2 destroyer is reduced to a singleton fibre whose unique low-coordinate hole, when present, moves outward and is eventually consumed."
+        ],
+        "unresolved_mechanism": "On a singleton winning path every fixed sentinel is eventually consumed. No computable relation between output-capital growth and sentinel query time is forced, and no dynamic-sentinel scheme is proved globally exhaustive without pre-revealing later genuine bets.",
+        "exact_k2_destroyer_constructed": false,
+        "general_k2_scan_preservation_resolved": false,
+        "general_forward_computable_randomness_preserved": "UNRESOLVED_IN_P4_S008",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
