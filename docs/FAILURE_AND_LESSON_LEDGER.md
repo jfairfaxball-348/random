@@ -636,3 +636,18 @@ A second failure concerns the most direct moving-one-hole repair of SRC-0061. If
 Resolution: do not equate effective F-sigma/G-delta or Baire-1 inverse information with computable conditional measures, and do not treat a single hidden/rotating bit as a solution to the filler pre-revelation problem. Any future negative construction must allow richer finite-prefix ambiguity and delay its coalescence while still proving that complete fibres have size at most two.
 
 Lesson: the remaining k=2 boundary has moved from canonical branch definability to **when** ambiguity coalesces. Large finite-prefix inverse trees may still collapse to two final points; whether that delayed coalescence forces a computable transfer or enables a genuine destroyer is the next exact question.
+
+## FL-055 — Raw delayed ambiguity collapses to one binary cohort at each fixed precision
+
+Session: P4-S007
+Status: PHASE-4 k=2 DELAYED-COALESCENCE / FRESHNESS GUARD
+
+The raw clopen inverse approximants may contain many source-prefix candidates before they die, but this does not produce arbitrarily many independent persistent ambiguities. The P4-S003 finite search can be diagonalized to a computable monotone c(n) for which the compatible n-prefixes form a coherent width-two skeleton. On a double fibre the two nodes are exactly the two true branch prefixes after their first split. On a singleton fibre there is at most one phantom, and any recurring phantom must move its disagreement farther out.
+
+A fixed-precision finite-injury bound is therefore forced, including at most one deletion after c(n). The failed inference is to treat that as a computable stabilization time. The last allowed deletion can occur after an unbounded, noncomputably recognizable delay; a uniform persistence test would recover selector information excluded by the earlier k=2 boundary.
+
+The same skeleton sharpens the filler problem. After c(n), every unresolved first-n coordinate is encoded by the same binary choice between two prefixes. Revealing one coordinate on which they differ chooses the entire n-prefix and therefore exposes every other differing coordinate below n. This generalizes the P4-S006 one-hole collapse beyond XOR or any particular mask representation.
+
+Resolution: future scan-based non-conservation work must prove a **freshness invariant** relative to c(n), not merely retain many raw finite-stage candidates. It must ensure that coalescence below n does not place two still-important future betting positions into the same binary cohort. SRC-0061 currently supplies no such guarantee.
+
+Lesson: delayed coalescence narrows the negative route rather than solving it. The remaining question is whether a globally k=2 completion can keep enough nonmonotonic bets fresh despite the computable coalescence schedule, or whether that constraint forces preservation.
