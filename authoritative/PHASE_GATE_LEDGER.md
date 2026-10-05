@@ -325,3 +325,17 @@ This does not prove scan preservation. No computable hole-consumption deadline f
 This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S007 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S008_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S009 (not a gate review)
+
+P4-S009 completed one bounded k=2 singleton moving-hole / dynamic-sentinel investigation for selected CAND-01.
+
+Result: for any finite scan state and fresh sentinel, the continuations avoiding that sentinel form a computable binary tree. Uniform eventual consumption implies that this tree is finite, so a uniform finite deadline is computably searchable. With such a deadline, the deferred logical wager on a sentinel that was revealed early can be hedged exactly by a finite conditional-expectation martingale; bounded turnovers therefore incur no intrinsic multiplicative loss.
+
+The only hard singleton turnovers are those consumed on the target while still omittable on a sibling continuation. For finite-horizon portfolio/savings constructions, the capital fraction covering an actual delay tends to zero as the delay grows, so no rate-free infinite-turnover bound follows from output-martingale unboundedness alone. This does not prove that every possible transfer fails.
+
+A simple globally k=2 fair-coin singleton-spine comb shows that the required query-set geometry is possible, but its naive spine is not computably random. No exact destroyer and no full global-k=2 scan preservation theorem is obtained; SRC-0061 is not reused.
+
+This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S008 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S009_MATHEMATICS.md.
