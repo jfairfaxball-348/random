@@ -712,3 +712,30 @@ Owner/external blocker: **NONE**.
 Recommended next bounded session: `P3-S008`, a separate formal Gate-3 review of selected CAND-01 only. It may record PASS, FAIL or BACKTRACK and must not begin Phase-4 mathematics in the same session.
 
 The exact outgoing `main` hash is verified after all closeout writes and reported in the session response.
+
+
+## P3-S008 — Formal Gate-3 review
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: 02cea775c1fa8e93c68e8f59717c47e0e8749022, matching live main exactly. The incoming session ledger contained no P3-S008 heading, repository code search returned no committed P3-S008 hit, and the P3-S008 review/close/validation records did not exist, so P3-S008 was unique.
+
+Scope completed: one formal Gate-3 review of selected CAND-01 only, using committed evidence. No new external literature was required.
+
+Outcome: **PASS**.
+
+Every Gate-3 minimum-evidence requirement is satisfied: dedicated primary-source prior-art audit; alternate terminology/equivalent-formulation search; closest-known-work identification; equivalence/rebranding risk; significance/usefulness; plausible interested communities; explicit remaining novelty uncertainty; and documented selection.
+
+The PASS preserves PA-0001 as **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and preserves the guard that finite multiplicity is provisionally substantive but has no established computable-randomness consequence. It is not a novelty, openness, theorem or publishability finding.
+
+Records: phase3/P3-S008_GATE3_REVIEW.md, phase3/P3-S008_CLOSE.md, phase3/P3-S008_VALIDATION.md. Durable decision: D-0022. Gate/novelty-separation guard: FL-048.
+
+No proof search, witness construction, experiment, Lean/Palomar use, broad literature survey, Phase-4 mathematics, publication work or outreach occurred.
+
+Gate 3 is PASS; Phase 3 is COMPLETED for gate purposes; Phase 4 is OPEN for selected CAND-01; Phase 5 remains CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S001, a first mathematical investigation of the k=1 injective base case and effective inverse information.
+
+The exact outgoing main hash is verified after all closeout writes and reported in the session response.
