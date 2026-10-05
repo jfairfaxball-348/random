@@ -851,3 +851,30 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: `P4-S006`, still restricted to k=2, testing the effective complexity of the canonical lexicographic/Borel two-sheet split of the compact collision relation and whether it suffices for computable-randomness transfer; if not, pursue a genuinely moving-sheet/one-hole counterexample rather than revisiting crossing-measure computability.
 
 The exact outgoing `main` hash is verified after closeout and reported in the session response.
+
+
+## P4-S006 — canonical lexicographic two-sheet complexity
+
+Status: COMPLETED
+
+Date: 2026-10-05. Incoming checkpoint: \`b5881ac82a636c03c0b7c3ad9d6a36b5b47de123\`, matching live \`main\` exactly. Repository search returned no committed P4-S006 record on the incoming checkpoint, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, restricted to k=2.
+
+Result: the compact collision relation is effectively closed. The canonical lexicographic nonminimum/upper source sheet is effective F-sigma, the lower/minimum sheet is effective G-delta, and the double-fibre output set is effective F-sigma. Lexicographic minimum and maximum inverse selectors are effective Baire-1 pointwise limits of computable continuous selectors from the descending clopen fibre approximants.
+
+This canonical information does not uniformly supply the missing computable-randomness transfer. In the already-committed P4-S005 map, used only as an internal calibration example, the canonical upper/lower sheet masses encode the same noncomputable base-4 real. Hence canonical component measures need not be computable, and no computable selector stabilization modulus or coherent source martingale follows.
+
+The moving-sheet alternative was also tested. A single hidden/rotating mask bit collapses when one masked genuine betting coordinate is later revealed: the shared ambiguity is then identified and all other coordinates in that two-way cohort become pre-revealed. More complicated delayed-coalescence constructions, in which finite output prefixes retain many source candidates before only two survive at the limit, are not ruled out.
+
+No exact k=2 destroyer is claimed. General k=2 preservation/failure remains unresolved.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. The pre-Phase-4 Gate-3 guard, P4-S001 through P4-S005 and DEF-0020 are preserved. No k>2, novelty/open-status, Gate-4, publication or outreach claim is made.
+
+Records: \`phase4/P4-S006_MATHEMATICS.md\`, \`phase4/P4-S006_CLOSE.md\`, \`phase4/P4-S006_VALIDATION.md\`. Durable decision: D-0028. Lesson: FL-054.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: \`P4-S007\`, still restricted to k=2, testing delayed-coalescence inverse trees for either a computable martingale transfer or an exact moving-sheet non-conservation witness.
+
+The exact outgoing \`main\` hash is verified after closeout and reported in the session response.
