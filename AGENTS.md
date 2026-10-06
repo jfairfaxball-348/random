@@ -251,3 +251,14 @@ P4-S016 implies this condition. A fixed-H example has divergent harmonic premium
 P4-S005 through P4-S016 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S017_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S018 (not a gate review)
+
+P4-S018 isolates the remaining effectivity gap in P4-S017. A computable running-maximum coercivity modulus h(K), forcing ticket capital K once realized skipped loss reaches h(K), is sufficient for the settled ticket/restart transfer and remains strictly weaker than absolute premium summability.
+
+Semantic coercivity itself is weaker: a computable exact k=2 mode-switch construction has arbitrarily large finite deterministic-loss side bursts at constant ticket capital while every actually loss-divergent branch is coercive. Thus semantic coercivity need not admit any uniform loss-to-capital threshold, even noncomputably. The exact set-theoretic extra condition is loss-properness b(K)=sup{E(v):W*(v)<K}<infinity.
+
+P4-S011 admits no effective modulus for any computable horizon selector. P4-S005 through P4-S017 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S019, testing only whether finite loss-properness bounds are automatically computably bounded.
+
