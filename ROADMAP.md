@@ -216,3 +216,16 @@ Mechanism: exhaust the computable finite use frontier before declaring a horizon
 Important non-consequence: the target premium and payout sums still diverge while ticket capital stays constant, so this gives no coercivity, loss-properness or randomness-preservation transfer.
 
 Next bounded mathematics: **P4-S028**, strictly at k=2, isolate whether an effectively exhaustible per-epoch dependency frontier is sufficient/necessary for this solvency mechanism or whether genuinely unbounded future dependencies can force arbitrary reserve demand.
+
+
+## P4-S028 checkpoint
+
+Completed: P4-S027's bare-solvency mechanism extends from a globally clipped wtt use bound to any computable finite per-epoch dependency frontier whose exhaustion removes all future filler-value dependence from the current sentinel's trigger data.
+
+Positive boundary: exhaust the frontier by a computable horizon; every positive postmiss ticket is then deterministic and reserve R=1 recycles forever.
+
+Negative boundary: P4-S012 does not force such a frontier. A first-1-search exact global-k=2 scan leaves, after every finite horizon, repeated one-sided payoff vectors (0,1) on a stored-sentinel-1/all-zero sibling. Each ticket costs 1/2 and pays 0 there, so no finite reserve works.
+
+Important guard: this is an existence separation, not a proof that every no-frontier scan is insolvent.
+
+Next bounded mathematics: **P4-S029**, strictly at k=2, test whether no-frontier bare solvency is possible with genuinely late one-sided trigger dependence but effectively decaying skipped gains.

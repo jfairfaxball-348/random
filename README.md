@@ -186,3 +186,14 @@ After a miss, later trigger visibility is independent of future filler values. H
 The P4-S011 target still has divergent cumulative premiums and skipped gains, so the account is noncoercive and non-loss-proper. All P4-S015 through P4-S026 transfer/searchability boundaries remain intact. PA-0001 is still **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Next: P4-S028, restricted to whether an effectively exhaustible finite dependency frontier is the structural boundary for bare full-ticket admissibility in the broader P4-S012 setting.
+
+
+## Mathematics checkpoint — P4-S028
+
+P4-S028 shows that P4-S027's wtt use syntax is stronger than the bare-solvency argument needs. A computable finite dependency frontier at each reachable least-fresh epoch is sufficient whenever exhausting it makes every later trigger decision and trigger value independent of future filler bits. A computable frontier-exhausting horizon then makes each positive P4-S016 last-chance ticket deterministic. Its fair premium equals its certain payout and is at most one, so reserve R=1 is globally admissible.
+
+The P4-S012 partial-predictor setting does not force such a frontier. An exact first-1-search scan is everywhere total, fair-coin preserving and globally k=2, but its first epoch has no finite dependency frontier. On the sentinel-first sibling with stored sentinel bit 1 and all later fillers 0, after every finite horizon each unresolved node has last-chance loss vector (0,1), premium 1/2 and actual payout 0. Repeating this forces unbounded net deficit, so no finite reserve is globally admissible for any finite horizon selector.
+
+This is not a necessity theorem: no-frontier dependence may coexist with decaying one-sided skipped gains. P4-S011 remains unchanged and satisfies the positive frontier hypothesis through P4-S027's use-clipped normal form. P4-S005 through P4-S027 remain settled; P4-S011 and P4-S015 through P4-S027 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S029**, testing only whether an exact no-frontier global-k=2 scan with arbitrarily late one-sided trigger opportunities can nevertheless have a finite globally admissible full-ticket reserve, for example through effectively decaying skipped gains.
