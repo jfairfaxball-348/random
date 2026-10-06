@@ -499,3 +499,20 @@ Literal map-level normalization is false even for destruction. Precomposing the 
 All mathematics through P4-S032 is preserved. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: **P4-S034**, testing whether OH is invariant under the explicit three-bit coded-hole homeomorphism, beginning at the P4-S012 self-avoiding stake level.
+
+## Mathematics checkpoint — P4-S034 (not a gate review)
+
+P4-S034 continues the sustained one-hole normalization programme selected after P4-S031.
+
+OH is now proved invariant under every computable finite-coordinate fair-coin recoding, strictly extending P4-S033's signed-coordinate-permutation invariance. Therefore every finite truncation of the explicit repeated three-bit source mixer preserves OH.
+
+For a repeated invertible finite binary block matrix, a canonical raw support evaluator gives a total computable one-hole scan: it copies each virtual wager on the last fresh raw support pivot and skips only a **spoiled** virtual stage whose parity is already determined by earlier raw queries. For the displayed three-bit matrix every raw column has weight at least two, so the evaluator is exhaustive and hence an effective isomorphism.
+
+Consequently, on a computably random raw source, all copied live-pivot gain is bounded. Any virtual martingale destruction through the displayed H must obtain unbounded multiplicative gain from spoiled stages. The remaining obstruction is late selection of a wager on an already raw-determined parity.
+
+No OH non-invariance witness is established. The inclusions remain
+\(MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR\), with \(R_2=OH\) unresolved.
+
+Next: P4-S035 on raw determination time and early-decided versus genuinely late-decided spoiled stakes. The P4-S015–P4-S031 ticket/reserve sequence remains frozen as the default trajectory.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
