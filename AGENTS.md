@@ -455,3 +455,33 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 
 Authoritative pivot record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
 This note supersedes earlier P4-S032 recommendations that asked only for the next bankroll/ticket refinement.
+
+
+## P4-S032 — finite-ambiguity reconnaissance selects one-hole normalization
+
+P4-S032 completes the first reconnaissance session under the sustained post-P4-S031 pivot.
+
+The programme now uses R_k for computably random sources preserved by every total computable fair-coin-preserving map with fibres at most k, and R_fin for the intersection of the finite-k classes.
+
+Settled and new consequences are synchronized as follows:
+
+- R_1=CR; R_{k+1} subseteq R_k.
+- P4-S011 gives R_k proper-subset CR for every k>=2 and R_fin proper-subset CR.
+- MLR subseteq R_fin, because Martin-Löf randomness is conserved by the ambient computable measure-preserving morphisms.
+- Every total computable fair-coin-preserving image of a CR source remains Schnorr random, so P4-S011's image is Schnorr/Kurtz but not CR.
+- **Null-ambiguity preservation:** if the set of outputs having more than one preimage is null, the singleton-fibre locus has an a.e.-computable fair-coin-preserving inverse and CR is preserved.
+- This is measure-sharp but not a characterization: P4-S011 can be localized to produce k=2 destruction with arbitrarily small positive ambiguity measure, while P4-S002's exactly-two-to-one left shift has full ambiguity and preserves CR.
+- In adaptive no-repeat scans, h permanently omitted coordinates give exactly 2^h preimages. Hence k=2 is exactly a one-hole budget in this subclass. The P4-S011 target has h=0, so the operative mechanism is renewable/migratory counterfactual ambiguity rather than a bit left hidden in the final fibre.
+- Composition multiplies fibre bounds and gives F_j(R_jk) subseteq R_k; binary factorisation alone is therefore not enough to collapse the robustness hierarchy.
+
+The selected sustained theorem target is **one-hole normalization**. Define OH as the CR sources preserved by every total computable adaptive no-repeat scan with at most one omitted source coordinate on every transcript. Then
+
+MLR subseteq R_2 subseteq OH proper-subset CR.
+
+The programme will test whether R_2=OH: does every arbitrary global-k=2 destruction normalize to a one-hole scan and therefore to the P4-S012 self-avoiding stake mechanism, or is there a genuinely non-scan binary-ambiguity resource?
+
+All mathematics through P4-S031 remains frozen. PA-0001 is **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach claim is made.
+
+Records: phase4/P4-S032_MATHEMATICS.md, phase4/P4-S032_CLOSE.md, phase4/P4-S032_VALIDATION.md.
+
+Next: **P4-S033**, first one-hole normalization attack from the P4-S002/P4-S007 effective width-two inverse skeleton.

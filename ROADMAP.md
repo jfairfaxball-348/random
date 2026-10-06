@@ -288,3 +288,22 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 
 Authoritative pivot record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
 This note supersedes earlier P4-S032 recommendations that asked only for the next bankroll/ticket refinement.
+
+
+## Phase-4 pivot milestone — P4-S032 theorem selection
+
+P4-S032 completed finite-ambiguity reconnaissance and selected the next sustained theorem programme.
+
+New exact milestone: total computable fair-coin-preserving maps with null output ambiguity locus preserve computable randomness via an a.e.-computable measure-preserving inverse. The threshold is sharp only at zero: global-k=2 destruction can be localized to arbitrarily small positive ambiguity measure, while full-measure ambiguity can still preserve CR.
+
+The scan subclass exposes a more promising parameter. A transcript with h omitted coordinates has exactly 2^h source preimages, so k=2 equals a one-hole scan budget. Because the P4-S011 vulnerable target ends with h=0, the programme now treats **renewable one-hole temporal ambiguity** rather than final hidden information as the leading candidate resource.
+
+Selected sustained target: define OH as robustness under every total computable one-hole adaptive no-repeat scan and determine whether **R_2=OH**.
+
+Planned bounded progression:
+1. P4-S033 — first normalization lemma/obstruction from the effective width-two inverse skeleton.
+2. P4-S034 — non-coordinate mixing and possible computable-homeomorphism conjugacy.
+3. P4-S035 — strongest surviving structured subclass / separation.
+4. P4-S036 only if warranted — compare the resulting invariant with MLR and the finite-hole hierarchy.
+
+This supersedes the old local P4-S032 contraction question. The P4-S015–P4-S031 bankroll line remains settled machinery, not the default scheduler. PA-0001 and DEF-0020 are unchanged; no Gate-4, publication or outreach transition occurs.

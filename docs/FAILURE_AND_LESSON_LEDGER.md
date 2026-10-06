@@ -1032,3 +1032,20 @@ At the same time, immediate favourable triggers can leave the scale unchanged be
 Correct guard: terminalization is one sufficient way to set future reserve demand to zero. A strictly positive computable renewal potential is another. Insolvency still requires unbounded purchase-time premium deficit; mere repeatability of late triggers is not enough.
 
 This does not establish that scale contraction is necessary. P4-S032 is reserved for whether the explicit contraction itself can be removed.
+
+
+## FL-080 — final fibre size and ambiguity mass are not the resource; renewal can exist on a singleton target
+
+Session: P4-S032
+Date: 2026-10-06
+Status: **DURABLE FINITE-AMBIGUITY LESSON**
+
+Two tempting explanations of the k=1 versus k=2 jump are now ruled out as complete invariants.
+
+First failed explanation: the destroyer works because the vulnerable source leaves one bit permanently hidden in its inverse fibre. P4-S011 says the opposite on the winning path: every epoch triggers, every source coordinate is eventually queried and the final fibre is a singleton. In the adaptive no-repeat scan model, P4-S032 makes this exact: h permanently unqueried coordinates give 2^h preimages. The P4-S011 target has h=0.
+
+Second failed explanation: the amount of output ambiguity controls destruction. P4-S032 proves that zero ambiguity measure is indeed safe — an a.e.-injective map has an a.e.-computable measure-preserving inverse. But there is no positive safety threshold: localizing P4-S011 inside a small clopen cylinder makes destructive k=2 maps with arbitrarily small positive ambiguity measure. At the opposite extreme, P4-S002's exactly-two-to-one left shift has ambiguity measure one and preserves CR.
+
+The better candidate resource is **renewable counterfactual ambiguity**. A k=2 scan may withhold one fresh source coordinate while exposing others, use the exposed information to determine a wager on that withheld sentinel, then consume the sentinel and move the hole to a new fresh coordinate. Off-target avoiding siblings justify the global two-point fibre budget; the target itself can finish with no ambiguity at all.
+
+Correct guard: do not infer preservation or destruction from final fibre cardinality along the target or from lambda(A_F) once it is positive. Future characterization work should test whether arbitrary k=2 destruction normalizes to renewable one-hole adaptive access, or identify the extra non-scan resource if it does not.

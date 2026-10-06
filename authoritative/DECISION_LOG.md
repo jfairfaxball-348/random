@@ -766,3 +766,34 @@ No settled result is reopened. The P4-S015–P4-S031 line remains available as m
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty, prior-art, Gate-4, publication or outreach claim is made.
 
 Authority record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
+
+
+## D-0055 — select one-hole normalization as the sustained finite-ambiguity theorem target
+
+Session: P4-S032
+Date: 2026-10-06
+Type: Phase-4 mathematics theorem-selection decision
+
+Decision/result: after exact reconnaissance across robustness, structural thresholds, composition and scan/source-side mechanisms, select **one-hole normalization** as the next sustained theorem programme.
+
+P4-S032 first proves a structural preservation theorem. For an everywhere-total computable fair-coin-preserving F, let A_F be the outputs with at least two preimages. If lambda(A_F)=0, then the singleton-fibre locus supports a partial computable inverse whose domain is a full-measure constructive G_delta. The inverse is fair-coin preserving on that domain, so THM-0038 gives computable-randomness preservation. No finite global fibre bound and no effective-null presentation of A_F are needed.
+
+The boundary cannot be promoted to an ambiguity-mass invariant. Localizing the P4-S011 destroyer inside a clopen cylinder gives exact global-k=2 destroyers with positive ambiguity measure below any prescribed epsilon. Conversely the P4-S002 left shift is exactly two-to-one everywhere and preserves computable randomness. Thus zero ambiguity mass is safe, but neither small positive nor full ambiguity mass determines behavior.
+
+P4-S032 also proves the scan ambiguity-budget identity: an adaptive no-repeat transcript omitting h<infinity source coordinates has exactly 2^h preimages. Global k=2 is therefore exactly a one-hole constraint in the scan subclass. On the P4-S011 vulnerable target, however, no coordinate is omitted in the limit and the final fibre is singleton. The relevant resource is therefore **renewable counterfactual one-hole ambiguity**: a fresh bit can be withheld long enough to support a self-avoiding wager, consumed, and replaced by another withheld bit.
+
+Define OH as the CR sources robust under every total computable one-hole adaptive no-repeat scan. Then R_2 subseteq OH, and P4-S011 plus P4-S012 makes OH a concrete source-side class with a stake-level failure mechanism.
+
+Selected theorem target:
+
+> Determine whether R_2=OH.
+
+A positive result would normalize arbitrary binary-ambiguity destruction to the P4-S012 self-avoiding scan/stake mechanism. A negative result must construct a genuinely non-scan k=2 destroyer and identify the additional resource.
+
+This target outranks direct R_2-versus-MLR classification because it first asks for the mechanism of arbitrary k=2 failure. It outranks ambiguity-mass refinement because that parameter has already been shown non-characterizing. It outranks binary factorisation because P4-S032 proves that factorisation alone does not propagate R_2 robustness through the intermediate image.
+
+The bounded follow-up plan is P4-S033 through at most P4-S036 as warranted: first normalization from the effective width-two inverse skeleton; then non-coordinate mixing/homeomorphism conjugacy; then the strongest surviving structured subclass; only after that compare the resulting invariant with MLR or the finite-hole hierarchy.
+
+P4-S005 through P4-S031 remain settled; the local ticket/reserve trajectory stays frozen. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty, prior-art, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S032_MATHEMATICS.md.

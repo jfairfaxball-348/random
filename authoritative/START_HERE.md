@@ -331,3 +331,22 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 
 Authoritative pivot record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
 This note supersedes earlier P4-S032 recommendations that asked only for the next bankroll/ticket refinement.
+
+
+## Current Phase-4 theorem target after P4-S032
+
+P4-S032 has completed the required reconnaissance under the sustained finite-ambiguity pivot. The old P4-S015–P4-S031 ticket/reserve line remains frozen as settled machinery.
+
+The strongest new structural boundary is: **null output ambiguity is safe**. Any total computable fair-coin-preserving map that is injective on almost every output has an a.e.-computable fair-coin-preserving inverse and preserves computable randomness. But arbitrarily small positive ambiguity can already support P4-S011-type destruction, while the exactly-two-to-one left shift preserves CR. Raw ambiguity mass is therefore not the organizing invariant.
+
+In the adaptive no-repeat scan subclass, h omitted coordinates give exactly 2^h preimages. Thus the k=2 mechanism is a one-hole temporal budget. P4-S011 destroys on a source whose final fibre is singleton, so the resource is not a permanently hidden bit; it is the ability to **renew** a withheld counterfactual coordinate while making self-avoiding wagers.
+
+The selected theorem programme is **one-hole normalization**. Let OH be CR sources robust under every total computable one-hole adaptive no-repeat scan. We know
+
+MLR subseteq R_2 subseteq OH proper-subset CR.
+
+The next central question is whether R_2=OH. If yes, P4-S012 becomes a source-side normal form for every k=2 vulnerability. If no, the separating map should reveal a genuinely non-scan finite-ambiguity resource.
+
+Next session: P4-S033, first normalization attack from the effective width-two inverse skeleton. See phase4/P4-S032_MATHEMATICS.md and authoritative/NEXT_SESSION_PROMPT.md.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No novelty, prior-art, Gate-4, publication or outreach work is authorized.

@@ -1494,3 +1494,40 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 Authority record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
 
 Recommended next session: P4-S032 under the sustained pivot.
+
+
+## P4-S032 — finite-ambiguity reconnaissance and theorem selection
+
+Status: **COMPLETED / VALIDATED**
+
+Date: 2026-10-06
+
+Incoming checkpoint: 26c86b254410806dac04ddb57584d97b0da7da1c
+
+Scope: first mathematics session under the sustained post-P4-S031 pivot. All mathematics through P4-S031 was frozen; the ticket/reserve/frontier/recycling sequence was not reopened.
+
+Results:
+
+- Formalized R_k and R_fin. R_1=CR; R_{k+1} subseteq R_k; P4-S011 makes R_k proper-subset CR for all k>=2 and R_fin proper-subset CR.
+- Proved MLR subseteq R_fin from the recorded morphism-conservation theorem.
+- Proved every total computable fair-coin-preserving image of a CR source remains Schnorr random; hence P4-S011 gives a Schnorr-but-not-CR output.
+- Proved the new null-ambiguity preservation theorem: a total computable fair-coin-preserving map injective on almost every output has an a.e.-computable fair-coin-preserving inverse and preserves CR.
+- Proved measure sharpness: localizations of P4-S011 give k=2 destroyers with arbitrarily small positive ambiguity measure. Together with the preserving two-to-one left shift, ambiguity mass is not the invariant.
+- Proved composition multiplicity jk and robustness transport F_j(R_jk) subseteq R_k; binary factorisation alone does not imply hierarchy collapse.
+- Proved the adaptive-scan fibre formula 2^h for h omitted coordinates, exposing a one-hole ambiguity budget at k=2.
+- Identified the P4-S011 resource as renewable/migratory counterfactual ambiguity: its vulnerable target has a singleton final fibre.
+- Defined OH, the one-hole scan robustness class, with MLR subseteq R_2 subseteq OH proper-subset CR.
+- Selected the sustained target R_2=OH? — one-hole normalization of arbitrary k=2 destruction to the P4-S012 self-avoiding stake mechanism.
+
+Why selected: it has the strongest explanatory and source-side payoff, uses settled inverse-tree/scan machinery, and both a proof and a separation would identify a deeper invariant than raw fibre cardinality.
+
+Records:
+- phase4/P4-S032_MATHEMATICS.md
+- phase4/P4-S032_CLOSE.md
+- phase4/P4-S032_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. Phase 4 remains OPEN; Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach claim is made.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next session: **P4-S033**, first one-hole normalization attack using the P4-S002/P4-S007 effective width-two inverse skeleton and the P4-S032 null-ambiguity reduction.
