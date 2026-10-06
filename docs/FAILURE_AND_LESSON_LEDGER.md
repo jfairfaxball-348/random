@@ -770,3 +770,17 @@ The new trap is effectivity. The pointwise smallest future-loss envelope asks wh
 Resolution: require a computable rational future-loss envelope, or stronger data that computes one. Under a finite pathwise budget on its fair ticket prices, weighted tickets plus the P4-S014 restart hedge transfer success. P4-S011 remains outside the positive regime because every target sentinel wager is all-in and correct, so each missed-then-triggered positive loss is exactly one.
 
 Next lesson target: test whether advance envelopes can be replaced by incremental tickets bought only when larger postmiss stakes become finitely visible, without computing an infinite optional projection.
+
+
+## FL-064 — do not replace a noncomputable future supremum by another advance approximation when a fresh last-chance bit remains
+
+Session: P4-S016
+Date: 2026-10-06
+
+The P4-S015 pointwise minimal future skipped-loss envelope can encode noncomputable information, so trying to approximate that supremum more cleverly is the wrong local target.
+
+After a horizon miss, the sentinel-first completion still has fresh filler bits. At each unresolved state, before the next filler is drawn, both next-child logical states are computable. The exact skipped-sentinel loss is therefore computable on any child that triggers immediately. Buying the corresponding one-step ticket at that moment removes the need to know any farther future supremum.
+
+The remaining difficulty is quantitative rather than limit-computational: a single finite initial bankroll can fund all last-chance tickets only under an effective admissibility condition. P4-S016 uses a finite uniform pathwise sum bound on their exact fair premiums. The next refinement should attack that bankroll condition, not return to the noncomputable future envelope.
+
+Guard: this is a lesson about the P4-S016 least-fresh transfer architecture only, not an impossibility result for other computable martingale transfers.
