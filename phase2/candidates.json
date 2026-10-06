@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S017",
-      "record_path": "phase4/P4-S017_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S020",
+      "record_path": "phase4/P4-S020_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -207,7 +207,26 @@
         "forward_computable_randomness_preserved": true,
         "k_ge_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
-        "novelty_claimed": false
+        "novelty_claimed": false,
+        "k2_loss_level_searchability_result": {
+          "session": "P4-S020",
+          "result": "ZERO_LOSS_WAITING_INSUFFICIENT_SEARCHABLE_LOSS_LEVELS_SUFFICIENT",
+          "zero_loss_waiting_bound_sufficient": false,
+          "heartbeat_counterexample_global_k2": true,
+          "heartbeat_counterexample_loss_proper": true,
+          "heartbeat_counterexample_computable_majorant": false,
+          "obstruction": "Halting-time information can be carried by summably small positive heartbeat losses; event frequency does not control reachable loss scale.",
+          "amount_sensitive_progress_sufficient": true,
+          "loss_level_witness_modulus_sufficient": true,
+          "loss_bar_searchability_equivalence": "witness modulus <=> decidable Reach(K,m) <=> uniform positive semidecidability of true Bar(K,m)",
+          "loss_properness_plus_searchability_implies_computable_majorant": true,
+          "absolute_premium_summability_restored": false,
+          "p4_s011_loss_proper_under_admissibility": false,
+          "p4_s011_bare_admissibility_ruled_out": false,
+          "next_question": "scale-tail local data versus shrinking-scale halting obstruction",
+          "k_gt_2_resolved": false,
+          "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+        }
       },
       "phase4_k2_mathematics": {
         "session": "P4-S002",
@@ -528,6 +547,29 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S019_VALIDATION.md"
+      },
+      "phase4_k2_loss_level_searchability_mathematics": {
+        "session": "P4-S020",
+        "scope": "k=2 loss-properness zero-loss-waiting / searchable-loss-level boundary only",
+        "result": "ZERO_LOSS_WAITING_BOUND_DOES_NOT_EFFECTIVIZE_LOSS_PROPERNESS_LOSS_LEVEL_WITNESS_MODULUS_DOES",
+        "successful_mechanisms": [
+          "P4-S019 can be heartbeatized with summably small positive deterministic losses, preserving finite b(K) and destroying every computable majorant despite a fixed next-positive-loss waiting bound.",
+          "A computable D(K,m) bounding one witness depth whenever bad-capital loss level m is reachable makes Reach(K,m) decidable by finite search.",
+          "Under loss-properness, searching for the first unreachable integer loss level yields a total computable U(K) and hence the P4-S018 coercivity modulus.",
+          "A stronger branchwise amount-sensitive progress modulus implies the witness condition, but root-level witness searchability does not constrain slow sibling branches.",
+          "The settled harmonic one-sided-trigger account has searchable loss levels while absolute premium sum diverges."
+        ],
+        "obstruction": "Loss-scale nonuniformity: halting information can hide across infinitely many summably small positive increments rather than zero-loss waiting.",
+        "p4_s011_destroyer_preserved": true,
+        "p4_s015_weighted_theorem_preserved": true,
+        "p4_s016_ticket_theorem_preserved": true,
+        "p4_s017_coercive_reserve_theorem_preserved": true,
+        "p4_s018_effective_coercivity_boundary_preserved": true,
+        "p4_s019_loss_properness_effectivity_boundary_preserved": true,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S020_VALIDATION.md"
       }
     },
     {
