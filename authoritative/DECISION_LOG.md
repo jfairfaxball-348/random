@@ -613,3 +613,26 @@ Boundary-specific effective caps can be weaker as primitive syntax, but if they 
 P4-S011 remains outside even the semantic finite-limit regime under global admissibility. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S025_MATHEMATICS.md.
+
+## D-0048 — integer-boundary caps separate from full effective usc, but boundary completeness collapses to Reach searchability
+
+Session: P4-S026
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, distinguish representation strength from final searchability strength.
+
+One-sided integer-boundary upper information is genuinely weaker as presentation data than P4-S025's complete effective rational upper-cap basis. A computable globally admissible exhaustive ticket stream can have constant branch-limit loss
+\[
+\alpha=\sum_{e\in H}4^{-(e+2)}<1/4
+\]
+for a c.e. noncomputable set \(H\). Every integer boundary \(m\ge1\) then has the trivial root cap \(1/4\), while a complete rational upper-cap basis would make \(\alpha\) right-c.e.; together with its left-c.e. approximation this would make \(\alpha\) computable.
+
+However, any uniformly c.e. sound local boundary-certificate system which is complete for all branches with \(L_K<m\) collapses, under semantic anti-Zeno, to the already-settled P4-S020 searchability level. If Bar(K,m) is true, anti-Zeno makes every bad-capital branch strictly sub-boundary; the certified cylinders cover the computable pruned branch space, and effective compactness finds a finite subcover. Thus true Bar is positively semidecidable. Since Reach already has c.e. finite witnesses, Reach is decidable and the P4-S020 witness modulus is recoverable.
+
+This collapse is independent of the certificate syntax: rational caps, residual bounds, oracle-uniform integer-clearance functionals and arbitrary c.e. local strict-sublevel certificates all behave the same once they are sound and boundary-complete.
+
+P4-S011 is preserved exactly. Under global admissibility it still has a bounded-capital branch with divergent realized skipped loss, so it lies outside the full finite-limit P4-S025 regime. The weaker P4-S026 boundary-only notion need not fail on that branch, because every integer boundary is eventually reached there. Bare admissibility remains unruled-out.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S026_MATHEMATICS.md.
