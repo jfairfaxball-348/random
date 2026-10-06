@@ -248,9 +248,9 @@ E=2e,\qquad W^*=1+e.
 
 #### Geometric machine tail
 
-After selecting e, simulate \(\Phi_e\) one ordinary step at a time.
+After selecting e, simulate \(\Phi_e\) one ordinary step at a time, numbering machine-tail stages \(t=0,1,2,\ldots\).
 
-The remaining target loss is initially 2. If the machine has not halted by machine stage t, append a finite deterministic-trigger block whose total realized positive loss is
+The remaining target loss is initially 2. If the machine has not halted at machine-tail stage t, append a finite deterministic-trigger block whose total realized positive loss is
 
 \[
 2^{-t}
