@@ -237,3 +237,24 @@ On the all-immediate-favourable completion, c remains 1 and the settled savings 
 P4-S030 is the terminal case; P4-S029 is the absolute-summability case; P4-S028 is the zero-payout divergent-deficit case; P4-S011/P4-S027 is deterministic-frontier recycling. P4-S005 through P4-S030 remain settled; P4-S011 and P4-S015 through P4-S030 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: **P4-S032**, testing only whether the explicit positive scale contraction after late triggers can also be removed, so every finite trigger renews the same raw active stake scale under one finite global reserve, or else isolating the narrow stationary repeatable-late-trigger deficit condition.
+
+## Overriding Phase-4 direction after P4-S031 — sustained finite-ambiguity pivot
+
+Owner direction after completed P4-S031 freezes all validated mathematics through P4-S031 and changes the default Phase-4 trajectory.
+
+Do **not** automatically continue the P4-S015–P4-S031 ticket/reserve/frontier/recycling refinement sequence. Those results remain settled machinery and may be reused if a deeper theorem needs them.
+
+The organising question is now:
+
+> **What mathematical resource is exposed by the jump from injective observation to one binary degree of inverse ambiguity, and what else does that resource control?**
+
+The forward programme is organised around: robustness classes R_k; structural thresholds strictly between injective and bare k=2 maps; reverse/randomness-creation phenomena; selected cross-randomness comparisons; composition/factorisation and ambiguity budgets; identifying an invariant deeper than fibre cardinality; mutations of the P4-S011 machine; and converses from k=2 vulnerability to source-side predictive structure.
+
+P4-S032 is the first reconnaissance/theorem-selection session of this sustained branch. It must perform enough exact mathematics across several axes to select the strongest theorem target for multi-session pursuit, rather than choosing the smallest available local lemma.
+
+The old session-local strict-k=2 default is lifted only where finite k>2, composition or factorisation is mathematically required by this programme. No k>2 theorem is asserted merely by the pivot.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty/prior-art conclusion, Gate-4, publication or outreach work is authorized. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Authoritative pivot record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
+This note supersedes earlier P4-S032 recommendations that asked only for the next bankroll/ticket refinement.

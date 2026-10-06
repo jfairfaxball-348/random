@@ -52,7 +52,7 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S032: stay at k=2 inside the P4-S012/P4-S016-P4-S017 least-fresh ticket architecture; test only whether P4-S031's explicit positive scale contraction after late triggers can be removed, so every finite trigger renews the same raw active stake scale under one finite reserve through savings-wrapper dilution and payout recycling, or else isolate the stationary repeatable-late-trigger deficit obstruction.",
+  "next_transition": "Run P4-S032 as the first reconnaissance/theorem-selection session of the sustained post-P4-S031 Phase-4 pivot. Freeze all mathematics through P4-S031; do not default back to the ticket/reserve/frontier/recycling sequence. Develop the finite-ambiguity theory around the k=1 versus k=2 jump, formalise R_k, probe several deeper axes with exact mathematics, and select the strongest theorem target for multi-session follow-up.",
   "recommended_next_session": "P4-S032",
   "active_blocker": null,
   "candidate_selected": true,
@@ -868,6 +868,41 @@
       "next_question": "whether explicit positive scale contraction can be removed while every trigger renews the same raw active stake scale",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "research_pivot_after_p4_s031": {
+      "status": "ACTIVE_SUSTAINED_PHASE4_PIVOT",
+      "date": "2026-10-06",
+      "authority_record": "phase4/P4_RESEARCH_PIVOT_AFTER_S031.md",
+      "freeze_through": "P4-S031",
+      "mathematics_changed_by_pivot": false,
+      "organizing_question": "What mathematical resource is exposed by the jump from injective observation to one binary degree of inverse ambiguity, and what else does that resource control?",
+      "previous_default_trajectory": "P4-S015 through P4-S031 ticket/reserve/frontier/recycling refinement sequence",
+      "previous_default_trajectory_frozen": true,
+      "automatic_return_to_previous_trajectory": false,
+      "previous_strict_k2_default_lifted": true,
+      "finite_k_gt_2_allowed_when_mathematically_required": true,
+      "next_session_mode": "RECONNAISSANCE_AND_THEOREM_SELECTION",
+      "research_axes": [
+        "robustness classes R_k and source-side characterization",
+        "structural thresholds between injective and bare two-to-one observation",
+        "reverse direction: randomness creation / hiding exploitable nonrandomness",
+        "comparative behaviour across selected randomness notions",
+        "composition, factorisation and ambiguity-budget questions",
+        "structural invariant deeper than raw fibre cardinality",
+        "mutations of the P4-S011 construction",
+        "converses from k=2 vulnerability to source-side predictive structure"
+      ],
+      "selection_rule": "Choose the deepest exact theorem target by explanatory power, tractability and ability to organise multiple subsequent sessions; do not default to the smallest unresolved local lemma.",
+      "guards": {
+        "pa_0001": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "def_0020": "UNCHANGED",
+        "novelty_claims": false,
+        "prior_art_work": false,
+        "gate4": false,
+        "publication": false,
+        "outreach": false,
+        "phase5": "CLOSED"
+      }
     }
   },
   "phase4_k2_moving_hole_mathematics": {

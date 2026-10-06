@@ -734,3 +734,35 @@ The new structural lesson is a renewal reserve potential: terminalization sets t
 P4-S005 through P4-S030 remain settled. P4-S011 and P4-S015 through P4-S030 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S031_MATHEMATICS.md.
+
+## D-0054 — freeze the local bankroll sequence and pivot Phase 4 to a theory of finite inverse ambiguity
+
+Date: 2026-10-06
+Type: programme-level research-direction decision after P4-S031
+
+Decision: preserve all validated mathematics through P4-S031, but stop using the next unresolved ticket/reserve/frontier/recycling refinement as the automatic Phase-4 scheduler.
+
+The new organising question is:
+
+> What mathematical resource is exposed by the jump from injective observation to one binary degree of inverse ambiguity, and what else does that resource control?
+
+Future sessions should treat P4-S001's k=1 preservation result and P4-S011's k=2 destruction result as base points of a broader mathematical theory. The main forward axes are:
+
+- robustness classes R_k and source-side characterizations;
+- structural conditions strictly between injective and bare finite-to-one observation;
+- reverse/randomness-creation effects;
+- selected comparisons across randomness notions;
+- composition, factorisation and ambiguity budgets;
+- identification of a structural resource deeper than fibre cardinality;
+- systematic mutations of P4-S011;
+- converse results from vulnerability to predictive/autoreductive source structure.
+
+P4-S032 is therefore a reconnaissance/theorem-selection session, not a continuation of the stationary late-trigger reserve question scheduled before this decision. It should compare several routes with exact mathematical work and select the deepest theorem target for sustained multi-session pursuit.
+
+The old strict-k=2 restriction was session-local to the previous trajectory. It is no longer the default when finite k>2, composition or factorisation is mathematically necessary for this finite-ambiguity theory. This decision itself asserts no k>2 theorem.
+
+No settled result is reopened. The P4-S015–P4-S031 line remains available as machinery when a deeper theorem needs it.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty, prior-art, Gate-4, publication or outreach claim is made.
+
+Authority record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.

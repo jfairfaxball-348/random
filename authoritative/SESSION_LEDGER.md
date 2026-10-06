@@ -1470,3 +1470,27 @@ P4-S005 through P4-S030 remain settled. P4-S011 and P4-S015 through P4-S030 are 
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S032, testing only whether the explicit c -> c/4 contraction can be removed while all finite triggers renew the same raw active stake scale and a finite full-ticket reserve survives.
+
+## Post-P4-S031 programme-direction pivot — not a mathematics session
+
+Status: ACTIVE PROGRAMME DIRECTION
+
+Date: 2026-10-06
+
+Trigger: owner instruction after P4-S031 was completed, validated, synchronized and committed.
+
+Mathematics changed: **NONE**. P4-S001 through P4-S031 remain exactly as committed.
+
+Direction change: freeze the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence as settled machinery rather than the automatic default research path. Reorganize continuing Phase 4 around the mathematical resource exposed by the k=1 versus k=2 inverse-ambiguity jump.
+
+Primary axes: robustness classes R_k and intrinsic source characterizations; structural thresholds between injectivity and bare finite multiplicity; randomness creation / reverse-direction phenomena; selected cross-randomness comparisons; composition/factorisation and ambiguity budgets; a structural invariant deeper than raw fibre cardinality; mutations of P4-S011; and converse theorems linking k=2 vulnerability to self-avoiding prediction/autoreduction-type structure.
+
+P4-S032 is assigned as a reconnaissance/theorem-selection session. It must carry out enough exact mathematics across several axes to choose the strongest theorem target for sustained follow-up. It must not default to the smallest unresolved local bankroll lemma.
+
+The prior session-local strict-k=2 default is lifted only when finite k>2, composition or factorisation is genuinely required by the new finite-ambiguity questions.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty/prior-art conclusion, Gate-4, publication or outreach work is authorized. Phase 5 remains CLOSED.
+
+Authority record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
+
+Recommended next session: P4-S032 under the sustained pivot.
