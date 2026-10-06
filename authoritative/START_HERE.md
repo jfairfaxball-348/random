@@ -119,3 +119,16 @@ P4-S016's absolute budget is a stronger sufficient bankroll condition. Bare no-o
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S018, testing only whether semantic coercivity admits a local computable reserve-floor / retained-surplus modulus.
+
+## Mathematics checkpoint — P4-S018 (not a gate review)
+
+P4-S018 completed the k=2 effectivity-of-coercivity investigation for the P4-S017 self-financing last-chance account.
+
+A computable running-maximum coercivity modulus is sufficient: for each integer K, a computable threshold h(K) may require that any finite history with cumulative realized skipped loss E>=h(K) has already reached ticket capital K. This uses only finite ticket history, may grow arbitrarily slowly, and remains strictly weaker than absolute premium summability.
+
+The condition is not equivalent to semantic coercivity. A computable mode switch between the two settled P4-S017 gadgets gives a semantically coercive exact k=2 ticket stream with arbitrarily large finite deterministic-loss bursts while ticket capital stays 1. Thus no uniform loss-to-capital threshold exists even noncomputably. The exact set-theoretic strengthening is loss-properness b(K)=sup{E(v):W*(v)<K}<infinity.
+
+P4-S011 admits no effective modulus for any computable horizon selector. P4-S005 through P4-S017 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S019, testing only whether finite loss-properness bounds b(K) are automatically computably bounded.
+
