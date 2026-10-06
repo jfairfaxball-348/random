@@ -307,3 +307,19 @@ Planned bounded progression:
 4. P4-S036 only if warranted — compare the resulting invariant with MLR and the finite-hole hierarchy.
 
 This supersedes the old local P4-S032 contraction question. The P4-S015–P4-S031 bankroll line remains settled machinery, not the default scheduler. PA-0001 and DEF-0020 are unchanged; no Gate-4, publication or outreach transition occurs.
+
+## Current Phase-4 route after P4-S033
+
+The sustained target remains **R_2=OH?**, but P4-S033 rules out literal map-level scan normalization.
+
+Established first-step structure:
+- P4-S007 width two = one binary inverse cohort, not necessarily one raw coordinate hole.
+- Every one-hole scan double fibre has Hamming distance one.
+- R_2 is invariant under all computable fair-coin-preserving homeomorphisms.
+- OH^iso := {x in CR : H(x) in OH for every computable fair-coin-preserving homeomorphism H} satisfies R_2 subseteq OH^iso subseteq OH.
+- OH is invariant under signed coordinate permutations.
+- A three-bit linear source recoding of P4-S011 gives an exact destructive global-k=2 **coded-hole** map outside the literal/output-homeomorphic scan class.
+
+Therefore the next bounded theorem is not another map-presentation attempt. P4-S034 tests whether OH itself is invariant under the explicit coded-hole homeomorphism. A non-invariance witness x in OH with H(x) outside OH immediately gives R_2 proper-subset OH; a positive theorem enlarges the normalization class and should identify the structural reason.
+
+The P4-S015–P4-S031 ticket/reserve line remains settled machinery and is not the default route. Phase 4 remains OPEN; Phase 5 remains CLOSED.
