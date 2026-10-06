@@ -385,3 +385,37 @@ Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S037**, on rolling finite-state/backward fair-price normalization across an infinite interaction component.
 
+
+
+## P4-S037 — rolling renewal normalization and persistent-claim pricing boundary
+
+Date: 2026-10-06
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 6e6694a0439001933427f4e830b085da637100e1
+
+Scope: rolling finite-state/backward-price normalization on infinite one-hole interaction components.
+
+Results:
+- formalized finite open-claim frontiers without hiding terminal information;
+- isolated effective fresh-frontier renewal as a new positive compiler condition;
+- proved the backward continuation vector cancels exactly at each fresh renewal;
+- combined the identity with P4-S036 persistent savings to construct one computable raw martingale;
+- normalized the explicit P4-S035 directed infinite ray;
+- normalized the concrete P4-S036 rank-one infinite overlap component;
+- showed finite packetization, absence of directed rays, and weak-component finiteness are not necessary boundaries;
+- showed bounded active open-claim width and finite computable frontier state are insufficient via the recoded P4-S011 witness;
+- strengthened the negative comparison with a half-stake P4-S011 martingale whose local triggered prices lie in ([1/2,3/2]) with ratio at most (3);
+- isolated non-effective claim retirement / backward-price stabilization as the surviving obstruction;
+- proved effective Cauchy stabilization of absolute persistent-savings backward prices sufficient;
+- did **not** prove (X\in OH), OH non-invariance, or (R_2\subsetneq OH).
+
+Records:
+- phase4/P4-S037_MATHEMATICS.md
+- phase4/P4-S037_CLOSE.md
+- phase4/P4-S037_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S038**, on persistent-frontier retirement and effective backward-price stabilization in the recoded P4-S011 schedule.
