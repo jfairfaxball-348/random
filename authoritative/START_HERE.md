@@ -67,7 +67,7 @@ P4-S013 identifies the positive sibling-totality boundary inside that least-fres
 
 P4-S014 adds the next positive quantitative boundary below finite deadlines. A total computable horizon selector with one finite uniform pathwise budget on the exact conditional horizon-miss probabilities yields a one-martingale transfer via a sentinel-first effective-isomorphism completion, miss tickets, and truncated/restart hedges. Genuine infinite avoiding siblings are allowed. P4-S011 necessarily violates this budgeted-tail condition.
 
-Recommended next bounded session: `P4-S015`, still restricted to k=2, focused only on whether the raw miss-probability budget can be weakened to a computable stake-weighted skipped-wager loss budget allowing nonsummable raw miss probabilities. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
+Recommended next bounded session: P4-S016, still restricted to k=2, focused only on whether P4-S015's advance computable future-loss envelope can be replaced by incrementally purchased computable loss tickets as larger postmiss stakes become finitely visible, under a computable total increment budget. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
 
@@ -81,3 +81,16 @@ The proof uses a globally exhaustive sentinel-first completion. A fair unit miss
 This is strictly weaker than P4-S013 finite deadlines: a zero-stake wait-for-next-1 functional has an infinite all-zero avoiding sibling at every reached epoch, but horizons H_r=r+2 have total miss budget at most 1/2. P4-S011 necessarily violates the budgeted-tail condition.
 
 No absolute necessity is claimed. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+
+## Mathematics checkpoint — P4-S015 (not a gate review)
+
+P4-S015 establishes a stake-weighted weakening of P4-S014 for the k=2 least-fresh stake subclass. For a given output martingale, first apply a computable savings wrapper that makes success tend to infinity at all late prefixes without increasing fractional stake magnitudes. At each finite horizon miss, charge only a computable leafwise majorant of the positive multiplicative gain of the deferred sentinel wager that would be skipped if the epoch later triggers.
+
+For horizon H(s), miss leaf rho and prequeried sentinel bit b, let w(s,b,rho) majorize that future positive gain. Its exact finite fair ticket price is
+c(s)=2^{-(H(s)+1)} sum_rho (w(s,0,rho)+w(s,1,rho)).
+A finite computable uniform pathwise budget on sum c(s) suffices. Weighted tickets handle divergent realized miss weights; finite realized weight leaves a positive restart scale because the loss factors are at most 1+w; P4-S014's truncated hedge and P4-S001 then give one source martingale.
+
+The condition strictly improves the raw P4-S014 certificate. A two-control-bit scan has a permanent avoiding sibling of probability 1/4 at every epoch, so no raw-tail budget exists for any horizon selector, while small sentinel stakes yield weighted cost at most 1/4. The exact pointwise minimal future-loss envelope is not uniformly computable, so the computable envelope is genuine effective certificate data.
+
+P4-S011's all-in correct-prediction destroyer necessarily has no finite P4-S015 certificate. P4-S011 through P4-S014 remain unchanged. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
