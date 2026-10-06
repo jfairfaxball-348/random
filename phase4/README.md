@@ -358,3 +358,17 @@ P4-S011 fails the scale-tail hypothesis strongly under global admissibility: its
 P4-S005 through P4-S020 remain settled. P4-S011 and P4-S015 through P4-S020 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S022, still at k=2, testing only whether a computable anti-Zeno / boundary-isolation condition weaker than an explicit P4-S020 witness modulus makes exact loss-level reachability decidable, or whether halting information survives another shrinking-scale coding.
+
+## Mathematics checkpoint — P4-S022 (not a gate review)
+
+P4-S022 derives computable fixed-scale exhaustion frontiers from P4-S021's effective loss bound and large-loss waiting modulus. At an n-quiet frontier, the remaining subscale contribution has a computable residual cap Q. A strict inequality (E+Q<m) is a finite certificate that no continuation in the bad-capital tree reaches the queried integer boundary.
+
+If every false Reach(K,m) eventually has such a strict frontier certificate, exact Reach is decidable by dovetailing it with the already-c.e. positive witness search. A separate “must cross within bounded depth” arm is not needed.
+
+This local condition is not strictly weaker than P4-S020 in final effective content: decidable Reach computes a witness modulus D(K,m). The difference is only that the primitive data are local scale-tail separation certificates rather than a root-level witness bound.
+
+The P4-S021 geometric halting construction is sharp. On a nonhalting selected-e branch, the exact computable residual geometric tail equals the current gap to (m_e); a halt pays that residual in one finite correction. Hence nonstrict (E+Qle m) control leaves halting information intact.
+
+P4-S011 remains outside the scale-tail regime under global admissibility. P4-S005 through P4-S021 remain settled; PA-0001 and DEF-0020 are unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S023**, still at k=2, testing only whether semantic exclusion of nonattaining integer-boundary Zeno paths plus P4-S021 strong effective tail convergence forces a searchable strict frontier gap by effective compactness, or whether incompatible branches can preserve halting information.
