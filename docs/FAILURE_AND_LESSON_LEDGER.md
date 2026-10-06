@@ -999,3 +999,20 @@ P4-S029 refutes that inference using the exact P4-S028 first-1-search scan. The 
 The durable lesson is to separate **dependency depth** from **exposure mass**. A finite frontier makes positive tickets deterministic and therefore recyclable, but genuinely unbounded value-sensitive dependence can also be solvent when the unreplenished premium deficit is bounded. In the fixed first-1-search family the exact boundary is summability of the one-sided premium tail.
 
 This does not weaken any P4-S015 through P4-S028 transfer theorem and does not affect the P4-S011 destroyer.
+
+
+## FL-078 — divergent one-sided premiums are compatible with solvency when renewal is paid for
+
+Session: P4-S030
+Date: 2026-10-06
+Status: **DURABLE LESSON**
+
+The tempting inference after P4-S029 is that divergent cumulative premiums must force a deterministic frontier before a finite reserve can survive. P4-S030 refutes that inference.
+
+The relevant quantity is still purchase-time deficit, not gross expenditure. A genuinely one-sided ticket may renew the same no-frontier risk regime if its realized payout more than restores the premium just spent. P4-S030 arranges exactly that on the continuing branch: the early ticket costs a_r/2, pays a_r, and moves to the next active epoch. Repeating these wins yields a divergent harmonic premium sum while the reserve grows.
+
+The global guard is on the losing or unreplenished siblings. Every active epoch has arbitrarily late one-sided opportunities, but once the first early ticket loses, the remaining late-ticket premium tail is summable; a late trigger or unfavorable sentinel terminalizes future positive ticket cost. Hence no completion can concatenate infinitely many unpaid bad tails.
+
+Correct obstruction: if some completion has unbounded cumulative premium minus prior payouts — in particular a zero-payout continuation with divergent remaining premium mass — then no finite reserve is possible. P4-S028 has exactly that obstruction. P4-S030 avoids it without making tickets deterministic and without restoring P4-S016 absolute premium summability.
+
+This does not alter any transfer theorem or the P4-S011 destroyer.

@@ -240,3 +240,16 @@ Use the same first-1-search global-k=2 no-frontier scan as P4-S028, but scale th
 Sharp comparison inside this witness family: (alpha_n=1) recovers P4-S028's unbounded N/2 deficit; summable (alpha_n) gives finite reserve. P4-S011/P4-S027 is different again because deterministic tickets recycle certain payouts even with divergent premiums.
 
 Next bounded mathematics: **P4-S030**, strictly at k=2, test whether no-frontier self-financing solvency is possible when absolute premiums diverge, using earlier one-sided ticket winnings to fund later premiums.
+
+
+## Mathematics checkpoint — P4-S030 (not a gate review)
+
+P4-S030 proves that no-frontier bare admissibility can coexist with divergent cumulative canonical premiums through genuine P4-S017 payout recycling. An exact P4-S012 least-fresh scan remains total, no-repeat, fair-coin preserving and globally k=2. Every active epoch has no finite dependency frontier and has genuinely one-sided tickets at arbitrarily late post-horizon fillers.
+
+With H=1, after r favorable early renewals the savings-wrapped skipped gain is a_r=1/(r+1). The immediate post-horizon one-sided ticket costs a_r/2 and pays a_r on its favorable child, which renews another active epoch. Later first-1 triggers use stake 2^{-m}; their whole unreplenished tail costs only a_r/4, and any such late trigger or an unfavorable sentinel ends future positive ticket cost. Thus reserve R=3/4 is globally admissible on every completion.
+
+On the all-early-favorable completion, premiums are 1/(2(r+1)) and diverge harmonically, while the payouts recycle enough capital to fund every later purchase. This is distinct from P4-S029 absolute summability, P4-S028's zero-payout divergent deficit, and P4-S011/P4-S027 deterministic-frontier recycling.
+
+P4-S005 through P4-S029 remain settled; P4-S011 and P4-S015 through P4-S029 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S031**, testing only whether the terminalization of late triggers can be removed so every finite trigger renews another active no-frontier epoch while one finite global reserve still survives divergent premiums.

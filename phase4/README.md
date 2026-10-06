@@ -482,3 +482,23 @@ Records:
 - phase4/P4-S029_VALIDATION.md
 
 Recommended next bounded session: **P4-S030**, testing only whether no-frontier bare admissibility can survive divergent absolute premium sums through genuine self-financing payout recycling while arbitrarily late one-sided tickets remain.
+
+
+## Mathematics checkpoint — P4-S030
+
+P4-S030 separates no-frontier solvency from absolute premium summability. There is an exact total computable no-repeat fair-coin-preserving global-k=2 least-fresh scan whose active epochs have no finite dependency frontier and retain one-sided trigger opportunities at every arbitrarily late post-horizon depth, but whose canonical P4-S017 full-ticket account is globally admissible with reserve R=3/4 while premiums diverge on a completion run.
+
+Take H=1 after one ignored dummy filler. In an active epoch, if the first later 1 appears immediately, expose stake 1 on the sentinel being 1; if it first appears at depth m>=2, expose stake 2^{-m}; if none appears, diverge. An immediate favorable trigger renews the active mode. Any late trigger or unfavorable sentinel makes all future stakes zero.
+
+After r early favorable renewals, the P4-S015 savings wrapper has total capital r+1 and active risk 1, so the immediate skipped gain is a_r=1/(r+1). The first one-sided ticket has premium a_r/2 and favorable payout a_r. If it loses, the complete later premium tail is only a_r/4. Therefore an active epoch can draw down at most 3a_r/4, and reserve 3/4 funds every completion. On the all-early-favorable completion the premiums 1/(2(r+1)) diverge harmonically, while ticket payouts recycle and grow the bank.
+
+P4-S029 is the summable-decay case; P4-S028 is the zero-payout divergent-deficit case; P4-S011/P4-S027 is deterministic-frontier recycling. P4-S030 is distinct: divergent premiums are funded by genuinely one-sided favorable payouts while no-frontier late risk remains.
+
+Records:
+- phase4/P4-S030_MATHEMATICS.md
+- phase4/P4-S030_CLOSE.md
+- phase4/P4-S030_VALIDATION.md
+
+P4-S005 through P4-S029 remain settled. P4-S011 and P4-S015 through P4-S029 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S031**, testing only whether P4-S030's terminalization of late triggers is essential, or whether every finite trigger can renew an active no-frontier epoch under one finite global reserve.

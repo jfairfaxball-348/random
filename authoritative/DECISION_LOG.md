@@ -693,3 +693,23 @@ More generally, in this same no-frontier geometry a positive stake sequence (alp
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S029_MATHEMATICS.md.
+
+
+## D-0052 — no-frontier one-sided tickets can recycle a finite reserve across divergent premiums
+
+Session: P4-S030
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 P4-S012 / P4-S016–P4-S017 least-fresh architecture, divergent cumulative canonical premiums are compatible with bare global admissibility even when every active epoch has no finite dependency frontier and genuinely one-sided trigger opportunities remain at arbitrarily late fillers.
+
+Use an active/dead least-fresh stake functional. In every active epoch, one dummy filler is ignored and H=1 is missed. Thereafter search fresh fillers for the first 1. If it appears immediately, stake 1 on the sentinel being 1; if it first appears at later post-horizon depth m>=2, stake 2^{-m}; if no 1 appears, diverge. An immediate favorable trigger renews another active epoch. Any late trigger or unfavorable sentinel sends all later epochs to zero-stake dead mode.
+
+After r immediate favorable renewals, the P4-S015 savings wrapper has savings r, active risk 1 and total capital r+1. Thus the immediate positive skipped gain is a_r=1/(r+1), while the depth-m late gain is a_r 2^{-m}. The one-sided ticket premiums are a_r/2 at depth 1 and a_r 2^{-(m+1)} at m>=2. The entire unreplenished premium exposure of one active epoch is therefore 3a_r/4 <= 3/4.
+
+Reserve R=3/4 is globally admissible. An immediate favorable ticket costs a_r/2, pays a_r and renews the process, so the account gains a_r/2. A 0-child exposes only the summable late tail; a later trigger or nontriggering continuation ends all future positive ticket cost. On the all-immediate-favorable completion, premiums are 1/(2(r+1)) and diverge harmonically, while payouts fund later premiums and the ticket bank grows.
+
+This is genuine one-sided P4-S017 recycling, unlike P4-S011/P4-S027 deterministic-ticket recycling and unlike P4-S029 absolute premium summability. P4-S028's obstruction remains exact: a zero-payout sibling with divergent remaining premium deficit still defeats every finite reserve.
+
+P4-S005 through P4-S029 remain settled. P4-S011 and P4-S015 through P4-S029 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S030_MATHEMATICS.md.

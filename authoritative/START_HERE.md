@@ -281,3 +281,18 @@ More generally, the same no-frontier scan with stake sequence (alpha_n) has one-
 P4-S011/P4-S027 remains distinct: frontier exhaustion makes positive tickets deterministic, so premium equals certain payout and reserve one can recycle even when cumulative premiums diverge. P4-S005 through P4-S028 remain settled; P4-S011 and P4-S015 through P4-S028 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: **P4-S030**, testing only whether no-frontier bare admissibility can coexist with divergent absolute premium sums through P4-S017 self-financing payout recycling.
+
+
+## Current mathematics checkpoint — P4-S030
+
+P4-S030 gives a positive answer to the no-frontier divergent-premium recycling question. An exact P4-S012 least-fresh global-k=2 scan can have no finite dependency frontier in every active epoch, arbitrarily late genuinely one-sided post-horizon tickets, and divergent cumulative canonical premiums on a completion run, while the canonical P4-S017 full-ticket account remains globally admissible with finite reserve R=3/4.
+
+The active epoch ignores one dummy filler, then searches for the first 1. An immediate post-horizon 1 exposes an all-in sentinel stake; a first 1 at later depth m exposes stake 2^{-m}; no 1 leaves the epoch unresolved forever. Immediate favorable triggers renew another active epoch. Late triggers or unfavorable sentinels put all later epochs into zero-stake dead mode.
+
+After r immediate favorable renewals, the savings-wrapped positive skipped gain is a_r=1/(r+1). The immediate ticket costs a_r/2 and pays a_r; the entire later zero-payout premium tail costs a_r/4. Hence the maximum unreplenished exposure of an active epoch is 3a_r/4 <= 3/4. Reserve 3/4 is globally admissible. On the all-immediate-favorable run, premiums are 1/(2(r+1)) and diverge, while each payout funds the next epoch.
+
+This differs from P4-S029, where all premium mass is absolutely summable, and from P4-S011/P4-S027, where post-frontier tickets are deterministic. P4-S028 remains the negative case: a zero-payout sibling with divergent premium deficit defeats every finite reserve.
+
+Phase 4 remains OPEN for selected CAND-01 only; Phase 5 remains CLOSED. P4-S005 through P4-S029 are settled. P4-S011 and P4-S015 through P4-S029 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Next bounded session: **P4-S031**, testing only whether every finite trigger, including arbitrarily late triggers, can renew an active no-frontier epoch without losing finite-reserve admissibility.

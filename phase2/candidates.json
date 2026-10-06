@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S029",
+  "last_updated_session": "P4-S030",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S029",
-      "record_path": "phase4/P4-S029_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S030",
+      "record_path": "phase4/P4-S030_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -759,6 +759,27 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S029_VALIDATION.md"
+      },
+      "phase4_k2_no_frontier_recycling_mathematics": {
+        "session": "P4-S030",
+        "scope": "k=2 no-frontier self-financing bare-reserve boundary only",
+        "result": "NO_FRONTIER_DIVERGENT_PREMIUMS_CAN_BE_GLOBALLY_ADMISSIBLE_BY_ONE_SIDED_PAYOUT_RECYCLING",
+        "exact_no_frontier_global_k2_scan": true,
+        "arbitrarily_late_one_sided_tickets": true,
+        "horizon": 1,
+        "finite_global_reserve": "3/4",
+        "divergent_cumulative_premiums_on_completion_run": true,
+        "absolute_premium_summability": false,
+        "recycling_mechanism": "Early favorable one-sided ticket pays twice its premium and renews the active epoch; every unreplenished late tail has bounded total premium and terminalizes future positive cost.",
+        "p4_s028_constant_deficit_preserved": true,
+        "p4_s029_summable_decay_preserved": true,
+        "p4_s011_p4_s027_deterministic_recycling_preserved": true,
+        "p4_s015_through_p4_s029_preserved": true,
+        "next_boundary": "whether terminalizing late triggers can be removed while every trigger renews a no-frontier epoch and global finite-reserve admissibility persists",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S030_VALIDATION.md"
       }
     },
     {

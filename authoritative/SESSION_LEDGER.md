@@ -1432,3 +1432,21 @@ P4-S005 through P4-S028 remain settled. P4-S011 and P4-S015 through P4-S028 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S030, testing only whether no-frontier bare admissibility can survive divergent absolute premium sums through genuine self-financing payout recycling while arbitrarily late one-sided tickets remain.
+
+
+## P4-S030 — no-frontier self-financing recycling
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: `45b0a3b0d5b2715f2b9886e826803aa2994dcd2f`
+
+P4-S030 answers the P4-S029 bare-bankroll question positively. There is an exact P4-S012 total computable no-repeat fair-coin-preserving global-k=2 scan whose active epochs have no finite dependency frontier and have genuinely one-sided trigger opportunities at arbitrarily late post-horizon fillers, yet the canonical P4-S017 full-ticket account is globally admissible with finite reserve R=3/4 even though cumulative canonical premiums diverge on one completion run.
+
+The mechanism is genuine payout recycling. After r favorable early renewals the savings-wrapped skipped gain is a_r=1/(r+1). The first post-horizon trigger ticket has premium a_r/2 and payout a_r on the favorable branch, so it funds renewal. Later possible triggers use stakes 2^{-m}; the whole unreplenished tail costs only a_r/4 after the first ticket. A late trigger or unfavorable sentinel ends all future positive ticket cost. On the all-early-favorable run the premiums 1/(2(r+1)) diverge harmonically while the bank grows.
+
+P4-S028's zero-payout divergent-deficit witness, P4-S029's absolutely summable no-frontier witness, and P4-S011/P4-S027's deterministic-frontier recycling case are preserved as three distinct comparison points. P4-S005 through P4-S029 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made. Owner/external blocker: **NONE**.
+
+Records: `phase4/P4-S030_MATHEMATICS.md`, `phase4/P4-S030_CLOSE.md`, `phase4/P4-S030_VALIDATION.md`.
+
+Recommended next bounded session: **P4-S031**, testing only whether P4-S030's terminal late-trigger branch can be removed so that every finite trigger renews another active no-frontier epoch while a finite reserve still survives divergent premiums.
