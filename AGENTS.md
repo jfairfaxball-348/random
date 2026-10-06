@@ -190,3 +190,20 @@ A concrete functional which diverges on a coordinate always used as a filler sho
 P4-S011's destroyer and P4-S012's stake-level boundary remain unchanged. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S013_MATHEMATICS.md.
+
+
+## Mathematics checkpoint — P4-S014 (not a gate review)
+
+P4-S014 completed the computably budgeted finite-horizon avoidance-tail investigation inside the selected CAND-01 k=2 least-fresh stake subclass.
+
+Result: finite deadlines are not required for the P4-S009 hedge architecture. At every reachable epoch state s choose a total computable finite horizon H(s), and let p(s) be the exact conditional fair-coin probability that the epoch still avoids its sentinel after H(s) fillers. If one finite computable budget bounds the sum of p(s) over all epoch states reached on every run, then every computable output-martingale win transfers to one computable source martingale.
+
+A globally exhaustive sentinel-first completion physically reveals each sentinel early. A fair unit miss-ticket martingale succeeds if horizon misses occur infinitely often. A second finite-horizon conditional-expectation hedge tracks the output martingale exactly on good epochs; after a miss it continues copying fresh filler bets, skips only the already-revealed sentinel wager if the epoch eventually triggers, and restarts. If a missed epoch never triggers, it copies the output martingale forever. Their sum succeeds whenever the output martingale succeeds, and P4-S001 transfers the completion win to the source.
+
+This condition is strictly weaker than P4-S013 reachable-sentinel totality/finite deadlines. A zero-stake wait-for-next-1 functional retains a genuine all-zero infinite avoiding sibling at every reached epoch while H_r=r+2 gives total tail budget at most 1/2. P4-S011's exact destroyer necessarily violates the P4-S014 budget condition.
+
+No absolute necessity is claimed. The next bounded issue is only whether raw miss probabilities may be nonsummable while a computable stake-weighted skipped-wager loss budget is summable.
+
+P4-S005 through P4-S013 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S014_MATHEMATICS.md.
