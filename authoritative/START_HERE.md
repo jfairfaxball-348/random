@@ -268,3 +268,16 @@ The negative result is existential, not a necessity theorem. Absence of a finite
 P4-S011 remains unchanged and satisfies the positive frontier hypothesis through P4-S027's use-clipped wtt normal form. P4-S015 through P4-S027 remain settled.
 
 Phase 4 remains OPEN for selected CAND-01 only; Phase 5 remains CLOSED. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 is unchanged. No result is claimed for k>2.
+
+
+## Mathematics checkpoint — P4-S029 (not a gate review)
+
+P4-S029 shows that P4-S028's computable finite dependency frontier is sufficient but not necessary for bare canonical full-ticket admissibility.
+
+The proof reuses the exact P4-S028 first-1-search global-k=2 scan, so the first epoch still has no finite dependency frontier and every arbitrarily late filler remains capable of producing a one-sided trigger. If the first 1 occurs at filler n, change the sole possible sentinel wager to fractional size (2^{-n}), then freeze. With H=1, the stored-sentinel-1 postmiss tickets are ((0,2^{-n})), with fair premiums (2^{-(n+1)}). Their total tail is 1/4, so reserve R=1/4 is globally admissible even on the all-zero avoiding sibling.
+
+More generally, the same no-frontier scan with stake sequence (alpha_n) has one-sided premium (alpha_n/2). Summable tails give finite reserve; divergent tails fail on the zero-payout all-zero sibling. Thus P4-S028's constant-1/2 deficit witness and P4-S029's decaying solvent witness differ only quantitatively, not in dependency geometry.
+
+P4-S011/P4-S027 remains distinct: frontier exhaustion makes positive tickets deterministic, so premium equals certain payout and reserve one can recycle even when cumulative premiums diverge. P4-S005 through P4-S028 remain settled; P4-S011 and P4-S015 through P4-S028 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S030**, testing only whether no-frontier bare admissibility can coexist with divergent absolute premium sums through P4-S017 self-financing payout recycling.
