@@ -889,3 +889,18 @@ Resolution: for exact Reach search, require or derive a **strict** residual-gap 
 Guard: do not call such a condition strictly weaker than D in effective consequence. It is only a different, more local source of the same exact searchability. The next question is whether semantic exclusion of nonattaining boundary-Zeno paths plus effective compactness forces the strict gap automatically.
 
 P4-S011 remains outside the scale-tail regime under global admissibility.
+
+
+## FL-071 — incompatible near-boundary branches cannot beat compactness under a uniform vanishing tail
+
+Session: P4-S023
+Date: 2026-10-06
+Status: PHASE-4 k=2 SEMANTIC ANTI-ZENO / EFFECTIVE-COMPACTNESS GUARD
+
+P4-S022 left open a possible escape: every individual bad-capital branch might be non-Zeno while different incompatible branches come arbitrarily close to the same integer boundary, preventing a uniform strict gap.
+
+That escape fails under the strong P4-S021 tail form. Global fixed-scale exhaustion and an effectively vanishing uniform subscale bound make cumulative loss uniformly Cauchy on compact branch space. Near-boundary nodes at finer frontiers therefore have a diagonal limit branch which inherits the boundary value.
+
+Resolution: under strong uniform tail convergence, semantic anti-Zeno is enough. A false Reach instance must eventually expose a strict P4-S022 frontier certificate, so exact Reach is decidable and P4-S020's witness modulus follows.
+
+Guard: the proof uses **uniform** effective tail convergence. P4-S023 does not show that pointwise or merely branchwise convergence suffices. P4-S011 remains outside the strong tail regime under global admissibility.
