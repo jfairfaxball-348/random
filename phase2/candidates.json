@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S023",
-      "record_path": "phase4/P4-S023_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S024",
+      "record_path": "phase4/P4-S024_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -636,6 +636,27 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S023_VALIDATION.md"
+      },
+      "phase4_k2_pointwise_tail_mathematics": {
+        "session": "P4-S024",
+        "scope": "k=2 pointwise/branchwise tail sharpness only",
+        "result": "ORACLE_UNIFORM_BRANCH_MODULI_COMPACTIFY_NONUNIFORM_POINTWISE_TAILS_ALLOW_INCOMPATIBLE_BRANCH_HALTING_COMB",
+        "positive_boundary": [
+          "A single oracle-uniform branchwise Cauchy-modulus functional total on all bad-capital branches yields a computable global uniform tail modulus by effective compactness.",
+          "Under semantic anti-Zeno this recovered uniformity gives searchable strict frontier separation and decidable Reach exactly as in P4-S023."
+        ],
+        "negative_boundary": [
+          "An exact computable globally k=2, globally admissible comb has every individual bad-capital branch eventually loss-constant and hence branchwise effectively convergent and non-Zeno.",
+          "The comb retains computable global exhaustion of every fixed positive loss scale and an explicit computable bad-capital loss bound.",
+          "Reach(e+2,2e+2) holds exactly when machine e halts.",
+          "Near-boundary tooth limits converge to the queried boundary while the Cantor-limit spine remains two units below it, so the branch-limit loss is discontinuous."
+        ],
+        "p4_s011_destroyer_preserved": true,
+        "p4_s015_through_p4_s023_preserved": true,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S024_VALIDATION.md"
       }
     },
     {
