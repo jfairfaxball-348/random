@@ -881,3 +881,26 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; 
 
 Record: phase4/P4-S036_MATHEMATICS.md.
 
+
+
+## D-0059 — replace infinite-component geometry by effective claim retirement
+
+Session: P4-S037
+Date: 2026-10-06
+Type: Phase-4 mathematics theorem-selection refinement
+
+Decision/result: the infinite-component obstruction selected in P4-S036 splits into a positive rolling-renewal case and a sharper persistent-claim case.
+
+A computable finite frontier transition which retires all old spoiled claims and hands off only to new virtually unseen fair parities gives exact backward-price cancellation. Persistent savings then transfers virtual success to one computable raw martingale.
+
+This theorem normalizes both the explicit P4-S035 directed ray and the concrete P4-S036 rank-one overlap component. Therefore neither directed rays nor infinite weak interaction components are the decisive invariant.
+
+The recoded P4-S011 witness rules out a simpler width/conditioning criterion. It has active nonzero frontier width one; with half-stake sentinel bets its local triggered price vectors have entries in ([1/2,3/2]) and ratio at most (3), yet destruction persists. Its wtt use frontier makes source-value dependence finite but does not make eventual claim retirement decidable.
+
+Decision for P4-S038: attack non-effective retirement/backward-price stabilization in the actual P4-S011 persistent frontier. Test the weakest computable retirement, summable unresolved-price tail, or optional-projection condition sufficient for a raw compiler, and whether one-hole geometry forces it.
+
+No OH non-invariance witness is established. (OH^{iso}) remains the comparison class. The P4-S015–P4-S031 bankroll sequence remains frozen.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
+
+Record: phase4/P4-S037_MATHEMATICS.md.
