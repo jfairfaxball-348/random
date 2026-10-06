@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S018",
+  "last_updated_session": "P4-S019",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -505,6 +505,29 @@
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
+      },
+      "phase4_k2_loss_properness_effectivity_mathematics": {
+        "session": "P4-S019",
+        "scope": "k=2 loss-properness effectivity boundary only",
+        "result": "FINITE_LOSS_PROPERNESS_NEED_NOT_HAVE_COMPUTABLE_UNIFORM_MAJORANT",
+        "successful_mechanisms": [
+          "The bad-capital loss height b(K) is uniformly lower semicomputable from the computable ticket tree.",
+          "A globally admissible exact k=2 halting-coded ticket stream has b(K)<infinity for every K but no computable majorant.",
+          "Effective loss-properness, a computable uniform upper bound on b(K), is equivalent up to a margin to the P4-S018 coercivity modulus.",
+          "P4-S011 cannot be loss-proper under global admissibility."
+        ],
+        "obstruction": "finite bad-capital excursions can encode unbounded halting times after zero-loss waiting",
+        "absolute_premium_summability_restored": false,
+        "p4_s011_destroyer_preserved": true,
+        "p4_s015_weighted_theorem_preserved": true,
+        "p4_s016_ticket_theorem_preserved": true,
+        "p4_s017_coercive_reserve_theorem_preserved": true,
+        "p4_s018_effective_coercivity_boundary_preserved": true,
+        "next_boundary": "structural conditions making finite loss bars effectively searchable",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S019_VALIDATION.md"
       }
     },
     {
