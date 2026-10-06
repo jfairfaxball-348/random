@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S024",
-      "record_path": "phase4/P4-S024_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S025",
+      "record_path": "phase4/P4-S025_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -657,6 +657,28 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S024_VALIDATION.md"
+      },
+      "phase4_k2_effective_upper_semicontinuity_mathematics": {
+        "session": "P4-S025",
+        "scope": "k=2 effective upper-semicontinuity / local tail-cap boundary only",
+        "result": "EFFECTIVE_UPPER_CAP_BASIS_COMPACTIFIES_TO_UNIFORM_TAIL_MODULUS_WHILE_SEMANTIC_CONTINUITY_CAN_STILL_HIDE_HALTING",
+        "positive_boundary": [
+          "A complete c.e. sound local upper-cap basis for branch-limit loss yields a computable global uniform tail modulus by effective compactness of the pruned bad-capital tree.",
+          "Conversely a computable global uniform tail modulus enumerates a complete effective upper-cap basis.",
+          "With semantic anti-Zeno, either presentation forces searchable strict frontier separation, decidable Reach(K,m), and recovery of the P4-S020 witness modulus."
+        ],
+        "negative_boundary": [
+          "An exact computable globally k=2, globally admissible delayed-activation comb has continuous branch-limit loss and every bad-capital branch eventually loss-constant and non-Zeno.",
+          "The comb retains computable global exhaustion of every fixed positive loss scale and an explicit computable bad-capital loss bound.",
+          "Reach(e+2,2e+2) holds exactly when machine e halts, so ordinary continuity does not make the strict gap effectively searchable.",
+          "The missing datum is a computable upper-cap/continuity modulus; full effective upper-semicontinuity would decide the halting-coded Reach instances."
+        ],
+        "p4_s011_destroyer_preserved": true,
+        "p4_s015_through_p4_s024_preserved": true,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S025_VALIDATION.md"
       }
     },
     {
