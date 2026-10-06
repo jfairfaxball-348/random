@@ -985,3 +985,17 @@ P4-S028's negative witness adds exactly the missing quantitative feature. In the
 Correct guard: to prove bare insolvency, exhibit unbounded **net premium deficit before replenishment**, not merely infinitely many value-sensitive future dependencies. Future no-frontier examples with effectively decaying skipped gains may still be globally solvent and must be analyzed separately.
 
 P4-S011 is not affected: its P4-S027 frontier makes post-horizon tickets deterministic even though cumulative premiums diverge.
+
+
+## FL-077 — no-frontier dependence is a geometry, not a bankroll lower bound
+
+Session: P4-S029
+Date: 2026-10-06
+
+The failed inference is: “if an epoch has no finite dependency frontier and keeps arbitrarily late one-sided trigger opportunities, then a finite canonical full-ticket reserve must fail.”
+
+P4-S029 refutes that inference using the exact P4-S028 first-1-search scan. The scan geometry is unchanged and still has no finite initial frontier, but scaling the possible skipped gain at first-1 depth n to (2^{-n}) changes the ticket from ((0,1)) to ((0,2^{-n})). The zero-payout sibling then pays only the summable premiums (2^{-(n+1)}), whose total is 1/4.
+
+The durable lesson is to separate **dependency depth** from **exposure mass**. A finite frontier makes positive tickets deterministic and therefore recyclable, but genuinely unbounded value-sensitive dependence can also be solvent when the unreplenished premium deficit is bounded. In the fixed first-1-search family the exact boundary is summability of the one-sided premium tail.
+
+This does not weaken any P4-S015 through P4-S028 transfer theorem and does not affect the P4-S011 destroyer.
