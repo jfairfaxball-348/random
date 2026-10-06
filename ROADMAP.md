@@ -206,3 +206,13 @@ P4-S011 remains preserved. Under global admissibility its known completion has a
 P4-S005 through P4-S025 remain settled; P4-S011 and P4-S015 through P4-S025 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S027, testing only whether some computable horizon selector and finite reserve make the canonical P4-S016/P4-S017 full-ticket account for P4-S011 globally admissible, without coercivity or loss-properness.
+
+## P4-S027 checkpoint
+
+Completed: bare global admissibility for the canonical P4-S016/P4-S017 full-ticket account is achievable for the P4-S011 wtt destroyer in globally use-clipped normal form.
+
+Mechanism: exhaust the computable finite use frontier before declaring a horizon miss. Postmiss trigger decisions then cannot depend on future filler bits, every positive last-chance ticket has premium equal to certain payout, and reserve R=1 is recycled forever.
+
+Important non-consequence: the target premium and payout sums still diverge while ticket capital stays constant, so this gives no coercivity, loss-properness or randomness-preservation transfer.
+
+Next bounded mathematics: **P4-S028**, strictly at k=2, isolate whether an effectively exhaustible per-epoch dependency frontier is sufficient/necessary for this solvency mechanism or whether genuinely unbounded future dependencies can force arbitrary reserve demand.

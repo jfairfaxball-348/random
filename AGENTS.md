@@ -371,3 +371,15 @@ P4-S011 remains preserved. Under global admissibility its known completion has a
 P4-S005 through P4-S025 remain settled; P4-S011 and P4-S015 through P4-S025 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S027, testing only whether some computable horizon selector and finite reserve make the canonical P4-S016/P4-S017 full-ticket account for P4-S011 globally admissible, without coercivity or loss-properness.
+
+## Mathematics checkpoint — P4-S027 (not a gate review)
+
+P4-S027 settles the repeatedly deferred bare-bankroll question for the P4-S011 destroyer positively in the standard globally use-clipped wtt normal form. The computable wtt use bound, unused by the destroyer conversion, supplies a finite per-epoch dependency frontier.
+
+Choose the P4-S016 horizon only after all still-unqueried non-sentinel coordinates in that frontier have been exposed. After a miss, a later trigger may still be delayed or absent, but future filler values cannot affect it. Thus both children of every positive last-chance ticket have the same skipped gain. Exact premium equals certain payout, and because that gain is at most one, reserve R=1 makes the full-ticket account globally admissible on every completion branch.
+
+On the P4-S011 computably random target, cumulative premiums and skipped gains still diverge while the account remains constant. Hence bare solvency does not imply the P4-S017 coercivity condition, P4-S019 loss-properness, or any later searchability condition. P4-S011 and P4-S015 through P4-S026 remain settled.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Recommended next bounded session: **P4-S028**, testing only the effective finite-dependency-frontier boundary for bare full-ticket admissibility.
