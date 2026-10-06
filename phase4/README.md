@@ -612,3 +612,22 @@ Records:
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. Phase 4 remains OPEN; Phase 5 remains CLOSED.
 
 Recommended next session: **P4-S035**, formalizing spoiled-stage raw determination times and separating early-decided from genuinely late-decided spoiled wagers.
+
+## Mathematics checkpoint — P4-S035 (early-decision normalization and infinite dependency nonclosure)
+
+P4-S035 sharpens the P4-S034 spoiled-parity obstruction without reopening the frozen ticket/reserve line.
+
+For the displayed three-bit recoding, a computable support order separates spoiled determination pivots. If every spoiled fractional stake is uniformly fixed **before** its determining raw pivot is read, the spoiled-gain product itself is a computable raw martingale. Since P4-S034 forces any destruction to have unbounded spoiled gain, every actual destructive witness must use genuinely non-predictable late choice.
+
+If a stake is selected only after the same pivot is seen, its factor splits into a legal raw martingale factor times an exact computable late-choice premium. Unbounded gain in that synchronous class therefore requires an unbounded product of those premiums.
+
+A stronger finite-memory theorem holds for all repeated invertible finite binary block matrices of block size at least two: every block-closed, and more generally every uniformly bounded packet-closed, one-hole witness is harmless. The whole finite packet is pulled back by exact finite Doob conditional expectations, and the raw packet scan is exhaustive.
+
+Bounded decision delay alone is not enough. P4-S035 gives an exact one-hole architecture in which the pending spoiled parity in block \(b\) takes its stake information from block \(b+1\), which creates the next pending parity. Every individual delay is bounded, but no finite packet closes the all-trigger dependency chain.
+
+No OH non-invariance witness is proved. The retained comparison is
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S036**, formalize the block-dependency graph and attack finite/well-founded closure versus a genuine infinite dependency ray.
