@@ -1407,3 +1407,28 @@ P4-S005 through P4-S027 remain settled. P4-S011 and P4-S015 through P4-S027 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S029, testing only whether a no-frontier global-k=2 partial predictor can retain arbitrarily late one-sided trigger opportunities while still admitting a finite full-ticket reserve, for example through effectively decaying skipped gains.
+
+
+## P4-S029 — finite-frontier necessity for bare admissibility
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 P4-S012 / P4-S016–P4-S017 finite-frontier necessity and bare reserve only
+Status: **COMPLETED**
+
+Incoming checkpoint `dbdee97f6981e00cd2a677b742de042f36c7dacc` matched live `main` exactly before substantive work and again before writes. Commit search showed P4-S028 as the latest completed session and no committed P4-S029 record, so P4-S029 was unique.
+
+P4-S029 disproves necessity of P4-S028's finite dependency frontier for bare canonical full-ticket admissibility. It reuses the exact first-1-search no-frontier global-k=2 scan and changes only the output-martingale exposure. If the first 1 appears at filler n, the sole possible sentinel wager has fractional size (2^{-n}) and the martingale freezes after that sentinel.
+
+For horizon H=1, on the stored-sentinel-1 postmiss branch the ticket before filler n>=2 has loss vector ((0,2^{-n})) and fair premium (2^{-(n+1)}). Such one-sided opportunities exist at every arbitrarily late filler, so no finite frontier has reappeared. Nevertheless the full premium tail is (1/4), and reserve R=1/4 is globally admissible on every sentinel-first completion branch.
+
+The same first-1-search family with stake sequence (alpha_n) has premium (alpha_n/2) on the all-zero avoiding sibling. Summable tails are solvent; divergent tails are insolvent on that zero-payout branch. This recovers P4-S028 at (alpha_n=1). P4-S011/P4-S027 remains the distinct deterministic-frontier case where premiums may diverge but certain payouts recycle reserve.
+
+Records: phase4/P4-S029_MATHEMATICS.md; phase4/P4-S029_CLOSE.md; phase4/P4-S029_VALIDATION.md. Durable decision: D-0051. Lesson: FL-077.
+
+P4-S005 through P4-S028 remain settled. P4-S011 and P4-S015 through P4-S028 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S030, testing only whether no-frontier bare admissibility can survive divergent absolute premium sums through genuine self-financing payout recycling while arbitrarily late one-sided tickets remain.
