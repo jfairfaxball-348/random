@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S028",
+  "last_completed_session": "P4-S029",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S029: stay at k=2 inside the least-fresh ticket/restart architecture; test only whether P4-S028's computable finite dependency frontier is necessary for bare admissibility, by seeking a no-frontier globally k=2 scan with arbitrarily late one-sided trigger opportunities but finite full-ticket reserve, or a narrow nondegenerate necessity theorem.",
-  "recommended_next_session": "P4-S029",
+  "next_transition": "Run P4-S030: stay at k=2 inside the P4-S012/P4-S016-P4-S017 least-fresh ticket architecture; test only whether no-frontier bare admissibility can survive divergent absolute premium sums through genuine self-financing payout recycling while arbitrarily late one-sided ticket risk remains.",
+  "recommended_next_session": "P4-S030",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S028",
-    "next_session": "P4-S029",
+    "last_session": "P4-S029",
+    "next_session": "P4-S030",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S028_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S028_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S028_VALIDATION.md",
+    "latest_record": "phase4/P4-S029_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S029_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S029_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -798,6 +798,26 @@
       "next_question": "whether no-frontier bare admissibility is possible with decaying one-sided skipped gains",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_frontier_necessity_result": {
+      "session": "P4-S029",
+      "scope": "k=2 necessity of finite dependency frontiers for bare canonical full-ticket admissibility only",
+      "result": "FINITE_DEPENDENCY_FRONTIER_NOT_NECESSARY_DECAYING_ONE_SIDED_EXPOSURE_GIVES_FINITE_RESERVE",
+      "finite_frontier_necessary": false,
+      "exact_no_frontier_global_k2_scan": true,
+      "arbitrarily_late_one_sided_trigger_opportunities": true,
+      "horizon": 1,
+      "decaying_fractional_stake": "alpha_n=2^-n",
+      "postmiss_ticket_on_stored_sentinel_1": "(0,2^-n)",
+      "fair_premium": "2^-(n+1)",
+      "finite_global_reserve": "1/4",
+      "p4_s016_absolute_premium_budget_available": true,
+      "parametric_boundary": "For the same first-1-search scan, tail sum alpha_n finite gives finite reserve and divergent tail sum fails on the zero-payout all-zero sibling.",
+      "p4_s028_constant_half_deficit_recovered": true,
+      "p4_s011_deterministic_frontier_case_preserved": true,
+      "next_question": "no-frontier bare admissibility with divergent absolute premiums via P4-S017 self-financing payout recycling",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -1024,5 +1044,24 @@
     "k_gt_2_resolved": false,
     "novelty_claimed": false,
     "validation_record": "phase4/P4-S028_VALIDATION.md"
+  },
+  "phase4_k2_frontier_necessity_mathematics": {
+    "session": "P4-S029",
+    "scope": "k=2 finite-frontier necessity / bare reserve boundary only",
+    "result": "NO_FRONTIER_CAN_BE_GLOBALLY_ADMISSIBLE_WHEN_ONE_SIDED_SKIPPED_GAINS_DECAY_SUMMABLY",
+    "successful_mechanisms": [
+      "Reuse the exact P4-S028 first-1-search global-k=2 scan, so no finite first-epoch dependency frontier exists.",
+      "Make the sole possible positive sentinel wager at first-1 depth n have fractional stake 2^-n.",
+      "With H=1, arbitrarily late stored-sentinel-1 tickets have loss vector (0,2^-n) and fair price 2^-(n+1).",
+      "The entire zero-payout premium tail is 1/4, so reserve 1/4 funds every full ticket globally.",
+      "The same family recovers P4-S028 insolvency at alpha_n=1; divergence versus summability of one-sided premium mass is the exact boundary in that family."
+    ],
+    "finite_frontier_necessary": false,
+    "p4_s011_destroyer_preserved": true,
+    "p4_s015_through_p4_s028_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false,
+    "novelty_claimed": false,
+    "validation_record": "phase4/P4-S029_VALIDATION.md"
   }
 }
