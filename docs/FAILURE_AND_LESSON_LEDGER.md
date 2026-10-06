@@ -854,3 +854,22 @@ Do not silently replace a loss-level reachability problem by a next-event waitin
 The searchable-loss-level condition remains weaker than branchwise amount-sensitive progress and is compatible with divergent absolute premium sums. P4-S011 fails before this boundary because global admissibility plus loss-properness is already impossible there.
 
 Guard: this is a boundary inside the P4-S016/P4-S017 full-ticket plus restart architecture, not an impossibility theorem for arbitrary martingale transfers.
+
+
+## FL-069 — effective loss mass does not decide boundary attainment
+
+Session: P4-S021
+Date: 2026-10-06
+Status: PHASE-4 k=2 ANTI-ZENO / LOSS-BOUNDARY GUARD
+
+P4-S020 isolated loss-scale reachability after next-positive-loss waiting proved too coarse. P4-S021 shows that a strong repair still has two logically different consequences.
+
+If losses at a fixed positive scale have computably bounded local waiting and the total contribution below that scale has a computable bound, then set-theoretic loss-properness can be effectivized. One does not need exact loss-bar searchability for that conclusion.
+
+But even global deadlines for every fixed scale plus an effectively vanishing small-loss tail do not decide whether an exact loss level is reached. A computable geometric tail can approach a rational boundary forever if a machine diverges and pay the remaining residual at once if the machine halts. Thus finite attainment versus limit approach can carry halting information while all bad-capital loss heights already have a computable majorant.
+
+Resolution: distinguish **effective control of total loss mass** from **effective isolation of a queried boundary**. Do not silently upgrade a computable tail estimate into a P4-S020 witness modulus. Any next exact-Reach theorem needs an anti-Zeno / boundary-isolation ingredient or an equivalent finite-attainment certificate.
+
+P4-S011 lies outside even the scale-tail regime under global admissibility: its divergent loss has an unbounded tail below every fixed positive scale.
+
+Guard: this is a boundary inside the settled P4-S016/P4-S017 full-ticket plus restart architecture, not a general impossibility theorem for arbitrary martingale transfers.
