@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S017",
+  "last_completed_session": "P4-S018",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S018: stay at k=2 inside the least-fresh stake architecture; test only whether P4-S017 semantic coercivity can be replaced by a local computable reserve-floor / retained-surplus modulus without restoring absolute premium summability.",
-  "recommended_next_session": "P4-S018",
+  "next_transition": "Run P4-S019: stay at k=2 inside the least-fresh stake architecture; assume P4-S018 loss-properness b(K)<infinity and test only whether the finite bad-capital loss bounds are computably bounded.",
+  "recommended_next_session": "P4-S019",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S017",
-    "next_session": "P4-S018",
+    "last_session": "P4-S018",
+    "next_session": "P4-S019",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S017_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S017_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S017_VALIDATION.md",
+    "latest_record": "phase4/P4-S018_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S018_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S018_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -567,6 +567,24 @@
       "next_question": "effectivize semantic coercivity by a local computable reserve-floor / retained-surplus modulus",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_effective_coercivity_result": {
+      "session": "P4-S018",
+      "result": "COMPUTABLE_RUNNING_MAX_COERCIVITY_MODULUS_SUFFICES_BUT_SEMANTIC_COERCIVITY_NEED_NOT_HAVE_ANY_UNIFORM_LOSS_THRESHOLD",
+      "effective_sufficient_condition": "For each integer K, a total computable threshold h(K) such that E(v)>=h(K) implies the ticket running maximum W*(v)>=K on every finite history.",
+      "equivalent_floor_form": "A computable nondecreasing unbounded running-maximum floor g(E), up to routine rounding.",
+      "current_capital_floor_required": false,
+      "absolute_premium_summability_required": false,
+      "fixed_horizon_strict_separation": true,
+      "semantic_coercivity_implies_uniform_threshold": false,
+      "noncomputable_uniform_threshold_always_exists": false,
+      "cross_branch_obstruction": "Every infinite bad-capital branch may have bounded E while finite bad-capital side branches have arbitrarily large E.",
+      "loss_properness_boundary": "b(K)=sup{E(v):W*(v)<K}<infinity",
+      "p4_s011_effective_modulus": false,
+      "p4_s011_bare_admissibility_ruled_out": false,
+      "next_question": "whether finite loss-properness bounds b(K) are automatically computably bounded",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -713,5 +731,26 @@
     "k_gt_2_resolved": false,
     "novelty_claimed": false,
     "validation_record": "phase4/P4-S016_VALIDATION.md"
+  },
+  "phase4_k2_effective_coercivity_mathematics": {
+    "session": "P4-S018",
+    "scope": "k=2 effectivity-of-coercivity boundary inside least-fresh ticket/restart architecture only",
+    "result": "RUNNING_MAX_MODULUS_SUFFICES_SEMANTIC_COERCIVITY_STRICTLY_WEAKER_BY_CROSS_BRANCH_ESCAPE",
+    "successful_mechanisms": [
+      "A computable loss threshold h(K) forcing prior ticket capital K is enough for the P4-S017 transfer.",
+      "The condition permits divergent absolute premium sums.",
+      "A computable mode switch between the two settled P4-S017 gadgets gives semantic coercivity with no uniform loss-to-capital threshold even noncomputably.",
+      "Loss-properness b(K)<infinity is the exact set-theoretic condition restoring a uniform threshold.",
+      "P4-S011 admits no effective modulus for any computable horizon selector."
+    ],
+    "unresolved_mechanism": "Whether finite b(K) in a computable k=2 ticket tree automatically has a computable uniform upper bound.",
+    "p4_s011_destroyer_preserved": true,
+    "p4_s015_weighted_theorem_preserved": true,
+    "p4_s016_ticket_theorem_preserved": true,
+    "p4_s017_coercive_reserve_theorem_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false,
+    "novelty_claimed": false,
+    "validation_record": "phase4/P4-S018_VALIDATION.md"
   }
 }
