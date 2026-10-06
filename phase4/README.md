@@ -331,3 +331,15 @@ P4-S011 is excluded more strongly: for every computable horizon selector, any gl
 P4-S005 through P4-S018 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S020, testing only whether a natural local bound on zero-loss waiting / positive-loss reachability, or a weaker effectively searchable loss-bar condition, turns loss-properness into effective loss-properness without restoring absolute premium summability.
+
+## Mathematics checkpoint — P4-S020 (not a gate review)
+
+P4-S020 shows that merely bounding zero-loss waiting does not effectivize P4-S019 loss-properness. The halting-coded construction can be heartbeatized with summably small deterministic positive-loss tickets: any branch that will later realize more positive loss sees another positive loss within a fixed computable number of epochs, while nonhalting branches still accumulate only bounded heartbeat loss and a late halt still unlocks an effectively divergent finite burst. Thus the remaining obstruction is loss-scale nonuniformity, not simply long intervals on which E is constant.
+
+A positive structural condition is a computable loss-level witness modulus D(K,m): whenever some history with W*<K has E>=m, one such witness occurs by depth D(K,m). Finite search then decides loss-level reachability and the complementary loss-bar predicate. Under set-theoretic loss-properness, searching for the first unreachable integer loss level computes a uniform bad-capital loss bound U(K), hence the P4-S018 coercivity modulus. A stronger branchwise amount-sensitive progress modulus implies this condition, but is not needed.
+
+This searchability condition does not restore absolute premium summability: the settled one-sided-trigger harmonic account has computably searchable loss levels while its premium sum diverges on the all-trigger branch. P4-S011 remains excluded already at the stronger P4-S019 level: any globally admissible full-ticket account for it fails set-theoretic loss-properness at some K. Bare admissibility remains unruled-out.
+
+P4-S005 through P4-S019 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S021, still restricted to k=2, testing whether searchable loss levels follow from local scale-tail data weaker than an explicit witness modulus—such as computable waiting bounds for losses at least 2^-n together with computable control of cumulative smaller losses while W*<K—or whether halting information can still move across infinitely many shrinking loss scales.
