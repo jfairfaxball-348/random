@@ -326,3 +326,18 @@ The remaining coded-hole resource is therefore more specific than finite Boolean
 No \(R_2\subsetneq OH\) claim is made and \(OH^{iso}\) remains the comparison class.
 
 Next: **P4-S036**, attack infinite cross-block decision nonclosure. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory.
+
+## Current Phase-4 route after P4-S036
+
+The sustained target remains **\(R_2=OH?\)**.
+
+P4-S036 removes the uniform packet-size hypothesis from the finite-memory side. After an exact threshold-stopping savings transform, any successful virtual martingale has capital tending to infinity, so arbitrary computably finite closed packets can be compressed one by one by finite raw Doob expectations. More generally, a total computable online closed packetizer is sufficient.
+
+Finite forward dependence is not the same thing as finite packet closure. Even rank-one, no-ray graphs can fail effectively: a complete finite closure can hide halting information, and uniformly computable finite forward closures can overlap into one infinite undirected interaction component.
+
+The P4-S035 cross-block ray cannot be repaired by merely reordering the three raw coordinates. Every finite truncation is exactly compressible; the unresolved resource is effective stabilization of the backward fair prices of the open boundary claims. The recoded P4-S011 witness is now known to admit no computable finite closed packetizer, but its raw source is still only known to be computably random, not in \(OH\).
+
+No \(R_2\subsetneq OH\) claim is made; \(OH^{iso}\) remains the comparison class.
+
+Next: **P4-S037**, attack rolling finite-state/backward-price normalization on infinite interaction components. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory.
+
