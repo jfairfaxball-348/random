@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S018",
+  "last_completed_session": "P4-S019",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -53,7 +53,7 @@
     "authors": 75
   },
   "next_transition": "Run P4-S019: stay at k=2 inside the least-fresh stake architecture; assume P4-S018 loss-properness b(K)<infinity and test only whether the finite bad-capital loss bounds are computably bounded.",
-  "recommended_next_session": "P4-S019",
+  "recommended_next_session": "P4-S020",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S018",
-    "next_session": "P4-S019",
+    "last_session": "P4-S019",
+    "next_session": "P4-S020",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S018_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S018_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S018_VALIDATION.md",
+    "latest_record": "phase4/P4-S019_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S019_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S019_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -585,6 +585,25 @@
       "next_question": "whether finite loss-properness bounds b(K) are automatically computably bounded",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_loss_properness_effectivity_result": {
+      "session": "P4-S019",
+      "result": "FINITE_LOSS_PROPERNESS_NEED_NOT_HAVE_ANY_COMPUTABLE_UNIFORM_MAJORANT",
+      "b_uniformly_lower_semicomputable": true,
+      "loss_properness_implies_computable_majorant": false,
+      "computable_majorant_equivalent_to_effective_modulus": true,
+      "exact_effective_condition": "A total computable U(K) uniformly bounding E(v) on all finite histories with W*(v)<K.",
+      "counterexample_global_k2": true,
+      "counterexample_globally_admissible": true,
+      "counterexample_all_b_finite": true,
+      "counterexample_computable_majorant": false,
+      "absolute_premium_summability_restored": false,
+      "obstruction": "Halting-time information can be hidden in finite bad-capital deterministic bursts after arbitrarily long zero-loss waiting.",
+      "p4_s011_loss_proper_under_admissibility": false,
+      "p4_s011_bare_admissibility_ruled_out": false,
+      "next_question": "natural local searchability conditions converting loss-properness into effective loss-properness",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -752,5 +771,27 @@
     "k_gt_2_resolved": false,
     "novelty_claimed": false,
     "validation_record": "phase4/P4-S018_VALIDATION.md"
+  },
+  "phase4_k2_loss_properness_effectivity_mathematics": {
+    "session": "P4-S019",
+    "scope": "k=2 loss-properness effectivity boundary inside least-fresh ticket/restart architecture only",
+    "result": "LOSS_PROPERNESS_FINITE_EVERY_K_BUT_NO_COMPUTABLE_UNIFORM_BOUND_POSSIBLE",
+    "successful_mechanisms": [
+      "For a computable ticket tree, b(K) is uniformly lower semicomputable.",
+      "A halting-coded construction using zero-stake controls and the settled P4-S017 gadgets is globally k=2, globally admissible, and has b(K)<infinity for every K.",
+      "Any computable uniform majorant of those b(K) would compute a finite bound on every halting time and decide the halting problem.",
+      "A computable majorant of b(K) is equivalent, up to a harmless margin, to the P4-S018 running-maximum coercivity modulus.",
+      "P4-S011 cannot satisfy set-theoretic loss-properness for any globally admissible full-ticket account."
+    ],
+    "unresolved_mechanism": "Whether a natural local zero-loss-waiting / positive-loss-reachability or weaker searchable-bar condition forces effective loss-properness without absolute premium summability.",
+    "p4_s011_destroyer_preserved": true,
+    "p4_s015_weighted_theorem_preserved": true,
+    "p4_s016_ticket_theorem_preserved": true,
+    "p4_s017_coercive_reserve_theorem_preserved": true,
+    "p4_s018_effective_coercivity_boundary_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false,
+    "novelty_claimed": false,
+    "validation_record": "phase4/P4-S019_VALIDATION.md"
   }
 }
