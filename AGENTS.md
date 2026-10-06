@@ -516,3 +516,23 @@ No OH non-invariance witness is established. The inclusions remain
 Next: P4-S035 on raw determination time and early-decided versus genuinely late-decided spoiled stakes. The P4-S015–P4-S031 ticket/reserve sequence remains frozen as the default trajectory.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Mathematics checkpoint — P4-S035 (not a gate review)
+
+P4-S035 continues the sustained one-hole normalization programme selected after P4-S031.
+
+For the displayed three-bit recoding, spoiled stakes that are uniformly fixed before their raw determination pivots are harmless: a separating support schedule lets one raw martingale reproduce their whole multiplicative gain. The weaker post-pivot case carries an exact late-choice fair-price premium.
+
+A broader theorem now removes all bounded closed finite-memory effects. For every repeated invertible finite binary block recoding of block size at least two, every block-closed or uniformly bounded packet-closed one-hole witness preserves computable randomness by exact finite Doob compression.
+
+The first surviving obstruction is an infinite cross-block decision chain. P4-S035 gives an exact one-hole architecture with bounded individual delay but no finite dependency packet. This is not an OH non-invariance witness.
+
+The inclusions remain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR,
+\]
+with \(R_2=OH\) unresolved.
+
+Next: P4-S036 on the dependency graph, finite closure and infinite rays. The P4-S015–P4-S031 ticket/reserve sequence remains frozen as the default trajectory.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
