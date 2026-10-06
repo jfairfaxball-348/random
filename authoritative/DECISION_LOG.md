@@ -511,3 +511,18 @@ P4-S011 cannot satisfy set-theoretic loss-properness for any globally admissible
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S019_MATHEMATICS.md.
+
+## D-0042 — event-level waiting does not effectivize loss-properness; searchable loss levels do
+
+Session: P4-S020
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, do **not** infer effective loss-properness from a computable zero-loss-waiting or next-positive-loss bound. P4-S019 can be heartbeatized with summably small deterministic positive-loss tickets, so positive loss occurs at a fixed computable cadence on every branch that will later realize more loss, while all b(K) remain finite and no computable majorant exists.
+
+Use **loss-level searchability** as the structural positive boundary. A total computable D(K,m) such that every reachable bad-capital loss level m has some witness by depth D(K,m) makes Reach(K,m) decidable. Under loss-properness, the first unreachable integer loss level gives a computable U(K), equivalently the P4-S018 running-maximum coercivity threshold.
+
+This does not restore absolute premium summability. P4-S011 remains outside the set-theoretic loss-proper regime whenever the full-ticket account is globally admissible; bare admissibility remains unruled-out.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S020_MATHEMATICS.md.
