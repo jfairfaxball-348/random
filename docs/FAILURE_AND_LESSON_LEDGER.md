@@ -936,3 +936,21 @@ Resolution: distinguish ordinary continuity/usc from an effective upper-cap repr
 P4-S011 remains outside even the finite branch-limit regime under global admissibility.
 
 Guard: this is a boundary inside the settled k=2 ticket/restart architecture, not a necessity theorem for arbitrary martingale transfers.
+
+## FL-074 — boundary-only effectivity may be weaker as data, but completeness is already the negative Reach search
+
+Session: P4-S026
+Date: 2026-10-06
+Status: PHASE-4 k=2 ONE-SIDED-BOUNDARY / SEARCHABILITY GUARD
+
+P4-S025 left a narrow apparent gap between full effective upper-semicontinuity and explicit searchable Bar. That gap is real only at the level of representation. Integer-boundary caps can exist without a complete rational upper-cap basis: a constant noncomputable left-c.e. loss below 1 has a trivial effective cap for every integer boundary but cannot admit arbitrary effective rational upper approximation.
+
+The tempting mistake is to infer a new intermediate searchability notion from that representation weakening. If sound local exclusion certificates are c.e. and complete for every branch strictly below a queried integer boundary, then on a true Bar instance semantic anti-Zeno makes those cylinders cover the whole computable pruned bad-capital branch space. Effective compactness finds a finite subcover. This positively semidecides Bar; together with the already-c.e. positive Reach witnesses it decides Reach and recovers P4-S020's witness modulus.
+
+Resolution: distinguish **weaker certificate language** from **weaker final effective consequence**. Any c.e. all-boundary-complete local-cap language is already the missing negative Reach search in topological form.
+
+To remain strictly below P4-S020, a future boundary notion must give up either effective enumeration of sound local certificates or completeness for every false queried boundary; then it no longer yields searchable Bar by itself.
+
+P4-S011 remains unchanged. Its divergent bad-capital branch is outside the full finite-limit regime, but it does not refute the weaker boundary-only notion because that branch reaches every integer boundary.
+
+Guard: this is a searchability boundary inside the settled k=2 ticket/restart architecture, not a general necessity theorem for arbitrary martingale transfers.
