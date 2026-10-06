@@ -314,3 +314,15 @@ For the full repeated three-bit map, P4-S034 constructs a canonical raw one-hole
 This isolates the next resource as an order/timing phenomenon: **late stake selection after raw determination**, not finite block mixing alone. No OH non-invariance source is proved, so no \(R_2\subsetneq OH\) claim is made and \(OH^{iso}\) remains the comparison class.
 
 Next: **P4-S035**, attack early-decided versus genuinely late-decided spoiled stakes for the repeated three-bit recoding. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory.
+
+## Current Phase-4 route after P4-S035
+
+The sustained target remains **\(R_2=OH?\)**.
+
+P4-S035 proves that spoiled gain is harmless whenever its wager is uniformly fixed before the raw pivot which first determines that parity. It also proves a broader finite-memory theorem: under every repeated invertible finite block recoding of block size at least two, a one-hole witness that closes each block, or each uniformly bounded finite packet of blocks, before leaving it can be compressed exactly to a raw martingale by finite Doob conditional expectations.
+
+The remaining coded-hole resource is therefore more specific than finite Boolean mixing, spoiledness, or bounded local delay. A candidate obstruction must keep already-determined wagers open across block boundaries in a dependency chain with no uniformly finite closed packet. P4-S035 constructs such a one-hole architecture, but not a succeeding witness on an \(OH\) source.
+
+No \(R_2\subsetneq OH\) claim is made and \(OH^{iso}\) remains the comparison class.
+
+Next: **P4-S036**, attack infinite cross-block decision nonclosure. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory.
