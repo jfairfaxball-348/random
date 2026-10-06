@@ -1142,3 +1142,18 @@ P4-S005 through P4-S016 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPE
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S018.
+
+## P4-S018 — effective coercivity modulus / cross-branch escape
+
+Date: 2026-10-06
+Status: COMPLETED
+Incoming checkpoint: 5b77d2f6b0d824c9f8a0213908e6fbd6efc245a9
+
+P4-S018 stays strictly at k=2 and preserves P4-S005 through P4-S017. A computable running-maximum coercivity modulus h(K), meaning E(v)>=h(K) forces W*(v)>=K on every finite ticket history, is sufficient for the P4-S017 transfer and remains strictly weaker than absolute premium summability.
+
+Semantic coercivity is strictly weaker than any such uniform modulus. A computable mode switch between the two P4-S017 gadgets gives a semantically coercive ticket stream with arbitrarily large finite deterministic-loss bursts at capital 1, so no uniform threshold exists even noncomputably. The exact set-theoretic boundary is loss-properness b(K)=sup{E(v):W*(v)<K}<infinity.
+
+P4-S011 admits no effective modulus for any computable horizon selector. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records: phase4/P4-S018_MATHEMATICS.md; phase4/P4-S018_CLOSE.md; phase4/P4-S018_VALIDATION.md.
+
