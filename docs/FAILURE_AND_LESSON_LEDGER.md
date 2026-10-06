@@ -1116,3 +1116,22 @@ Correct negative guard: an infinite interaction component is still only a compil
 
 For the recoded P4-S011 witness, P4-S036 proves only that no total computable finite closed packetizer exists. It does not prove the recoded source lies in \(OH\), nor even that the essential graph contains a directed infinite ray.
 
+
+
+## FL-084 — infinite interaction is harmless when the frontier renews effectively
+
+Session: P4-S037
+Date: 2026-10-06
+Status: **DURABLE ONE-HOLE NORMALIZATION LESSON**
+
+P4-S036 correctly identified backward pricing as the next object, but the explicit P4-S035 infinite ray does not require an effective infinite-limit argument. Its carried claim is replaced by a new virtual coordinate which has not yet been queried. Conditional on the visible transition transcript, that new parity is still fair. Therefore every normalized next-frontier price vector has mean one and vanishes exactly from the previous backward step.
+
+The same rolling cancellation handles the P4-S036 rank-one overlap realization. Thus neither a directed infinite ray nor an infinite symmetrized component is, by itself, the obstruction.
+
+The tempting next inference — bounded open-claim width plus bounded positive prices should suffice — is also false. The recoded P4-S011 witness has active nonzero width one. A fixed half-stake sentinel martingale still succeeds while its local triggered price vector is always of ((3/2,1/2))-type, so the condition number is at most three.
+
+The correct surviving distinction is **effective retirement/stabilization**. P4-S011 has finite per-claim value dependence from its wtt use bound, but after those values are exposed the open computation may still halt only after an arbitrarily long search, or never halt on a sibling. Finite dependence is therefore not effective closure of the claim's backward price.
+
+Correct positive guard: effective fresh-frontier renewal is sufficient, and effective Cauchy stabilization of absolute persistent-savings prices is sufficient more generally.
+
+Correct negative guard: compiler failure still does not prove OH non-invariance. The recoded source is only known to be computably random, not in (OH).
