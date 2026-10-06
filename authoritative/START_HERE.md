@@ -398,3 +398,20 @@ No \(x\in OH\) with \(H(x)\notin OH\) is proved, so no \(R_2\subsetneq OH\) clai
 Next session: **P4-S036**, formalize block-dependency closure and attack the infinite-ray case. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Latest mathematics — P4-S036
+
+P4-S036 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+P4-S035's uniform packet-size condition has been removed. An exact persistent-savings transform makes every successful computable martingale tend to infinity, so arbitrary computably finite closed packets can be compressed packet-by-packet by finite Doob conditional expectations. The theorem extends to any total computable online closed packetizer which supplies the complete finite packet at entry.
+
+Finite directed dependence is weaker than this positive hypothesis. Set-theoretic finite closure, well-foundedness, finite/computable rank and even uniformly computable finite forward closures can fail to give finite closed packets, either because closure completion is nonuniform or because finite closures overlap into one infinite interaction component.
+
+For the repeated three-bit recoding, no raw coordinate order can save a fresh pivot for \(u_2^{(b)}\) after \(u_0^{(b)},u_1^{(b)}\) are known. Every finite ray truncation remains exactly Doob-compressible; the unresolved obstruction is effective convergence/stabilization of the backward fair prices of open boundary claims.
+
+The recoded P4-S011 witness is now known to have no total computable finite closed packetizer. This is still only a compiler result: its recoded source is not proved to belong to \(OH\), and no OH non-invariance or \(R_2\subsetneq OH\) result is claimed.
+
+Next session: **P4-S037**, attack rolling finite-state/backward-price normalization on infinite interaction components. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
