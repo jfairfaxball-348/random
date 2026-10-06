@@ -1354,3 +1354,27 @@ P4-S005 through P4-S025 remain settled. P4-S011 and P4-S015 through P4-S025 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S027, testing only whether the canonical P4-S016/P4-S017 full-ticket account for the settled P4-S011 destroyer can be made globally admissible by some computable horizon selector and finite reserve, without coercivity or loss-properness.
+
+## P4-S027 — bare bankroll for the P4-S011 destroyer
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 P4-S011 / P4-S016–P4-S017 bare full-ticket admissibility only
+Status: **COMPLETED**
+
+Incoming checkpoint `4bd698d8b0402bb03d5beabe01766d263476eb31` matched live `main` exactly before substantive work. The incoming tree contained P4-S001 through P4-S026 and no P4-S027 mathematics, close or validation record, so P4-S027 was unique.
+
+P4-S027 resolves the repeatedly preserved bare-bankroll question positively for the P4-S011 wtt destroyer after a harmless globally use-clipped normalization of its autoreduction witness. The computable wtt use bound was not needed to build the destroyer, but it supplies a finite dependency frontier for bankroll control.
+
+At an epoch with sentinel j, choose a horizon after every still-unqueried non-sentinel coordinate inside a strict computable use cap U(j) has been exposed, plus one extra filler. After a miss, any later trigger may still be delayed by computation time or fail forever, but no future filler value can affect it. Thus every positive P4-S016 last-chance ticket has equal child losses: its fair premium equals its certain payout. The skipped positive multiplicative gain is at most one, so reserve R=1 buys every full ticket on every sentinel-first completion branch and is restored after each resolution. Resolved ticket capital stays exactly one.
+
+On the P4-S011 computably random target, P4-S016 still forces divergent realized skipped gain for this horizon. Here cumulative premiums diverge equally while ticket capital remains constant. Hence P4-S016 absolute summability, P4-S017 coercivity, P4-S019 loss-properness and all later transfer/searchability hypotheses remain false; P4-S011 is unchanged.
+
+Records: `phase4/P4-S027_MATHEMATICS.md`; `phase4/P4-S027_CLOSE.md`; `phase4/P4-S027_VALIDATION.md`. Durable decision: D-0049. Lesson: FL-075.
+
+P4-S005 through P4-S026 remain settled. P4-S011 and P4-S015 through P4-S026 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S028, testing only whether an effectively exhaustible per-epoch dependency frontier is the weakest natural structural condition behind the P4-S027 bare-admissibility mechanism, or whether absence of such a frontier permits an exact global-k=2 sibling family forcing unbounded reserve demand.

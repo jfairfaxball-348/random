@@ -954,3 +954,17 @@ To remain strictly below P4-S020, a future boundary notion must give up either e
 P4-S011 remains unchanged. Its divergent bad-capital branch is outside the full finite-limit regime, but it does not refute the weaker boundary-only notion because that branch reaches every integer boundary.
 
 Guard: this is a searchability boundary inside the settled k=2 ticket/restart architecture, not a general necessity theorem for arbitrary martingale transfers.
+
+## FL-075 — divergent premiums do not imply unbounded reserve demand
+
+Session: P4-S027
+Date: 2026-10-06
+Status: **DURABLE LESSON**
+
+Failed inference to avoid: from P4-S016's proof that every computable horizon has divergent last-chance premium sum on the P4-S011 target, infer that no finite reserve can buy all full tickets globally.
+
+Why it fails: total expenditure and reserve demand are different when ticket payouts can be recycled. After globally clipping the P4-S011 wtt witness to its computable use frontier and choosing a horizon which exhausts that frontier, every positive postmiss ticket is deterministic. Its two child losses are equal, so its exact fair premium equals its certain payout. A unit reserve can therefore be spent and restored indefinitely even though the cumulative premium sum diverges.
+
+Correct guard: to refute bare self-financing admissibility one needs a family of branches producing **net premium deficit before replenishment**, not merely infinitely many or divergent fair prices. In particular, future trigger dependence on genuinely unrevealed filler bits is the relevant source of one-sided ticket risk.
+
+This lesson does not weaken P4-S016's absolute-budget theorem or P4-S017's coercivity theorem. It distinguishes absolute expenditure, solvency and success of the ticket martingale.

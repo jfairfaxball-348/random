@@ -243,3 +243,15 @@ P4-S011 remains preserved. Under global admissibility its known completion has a
 P4-S005 through P4-S025 remain settled; P4-S011 and P4-S015 through P4-S025 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S027, testing only whether some computable horizon selector and finite reserve make the canonical P4-S016/P4-S017 full-ticket account for P4-S011 globally admissible, without coercivity or loss-properness.
+
+## Current mathematics checkpoint — P4-S027
+
+P4-S027 answers the P4-S011 bare-bankroll question positively in the normalized wtt presentation. Clip the autoreduction witness to its computable use bound on every sibling oracle, and choose each finite horizon only after all possible non-sentinel oracle dependencies inside that bound have been exposed.
+
+After such a horizon miss, future filler bits cannot affect a later trigger. Every positive P4-S016 one-step ticket is therefore deterministic: premium equals certain payout. Since the savings-wrapped skipped gain is at most one, initial reserve R=1 makes the canonical full-ticket account globally admissible on every sentinel-first completion branch and the resolved account stays exactly one.
+
+This does **not** restore any transfer theorem. On the P4-S011 computably random target, both premiums and realized skipped gains diverge while ticket capital stays bounded, so P4-S017 coercivity, P4-S019 loss-properness and the later effective searchability conditions still fail.
+
+Phase 4 remains OPEN for selected CAND-01 only; Phase 5 remains CLOSED. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 is unchanged. No result is claimed for k>2.
+
+Next bounded session: **P4-S028**, on whether an effectively exhaustible finite dependency frontier is the natural structural boundary for bare full-ticket admissibility in the broader P4-S012 partial-predictor setting.

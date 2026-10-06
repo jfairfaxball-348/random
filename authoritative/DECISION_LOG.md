@@ -636,3 +636,22 @@ P4-S011 is preserved exactly. Under global admissibility it still has a bounded-
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S026_MATHEMATICS.md.
+
+## D-0049 — a use-exhausting horizon makes the P4-S011 full-ticket account globally solvent
+
+Session: P4-S027
+Date: 2026-10-06
+
+Decision/result: the settled P4-S011 wtt destroyer may be put in a globally use-clipped normal form without changing its computably random target or its exact global-k=2 scan argument. The wtt use bound, although unnecessary for the destroyer conversion itself, then yields a computable finite dependency frontier at every sentinel epoch.
+
+Choose the P4-S016 horizon only after all still-unqueried non-sentinel coordinates inside that frontier have been exposed. If the epoch is still unresolved, later halting visibility may depend on more simulation time but cannot depend on any future filler value.
+
+Therefore at every unresolved postmiss node both next-filler children either remain unresolved or trigger with the same prediction and the same positive skipped gain (ell). The exact P4-S016 fair ticket has payoff vector ((ell,ell)), so its premium is (ell) and it repays that amount surely. Because (0leellle1), reserve R=1 makes the canonical full-ticket account globally admissible and its resolved capital remains exactly one.
+
+Do not infer transfer or preservation. On the P4-S011 target, cumulative realized skipped gain and cumulative premium both diverge while ticket capital is bounded, so coercivity and loss-properness fail maximally. This is fully consistent with P4-S016 through P4-S026.
+
+The result is stated for the harmless globally use-clipped representative of the wtt witness. No claim is made for every arbitrary unnormalized off-target implementation of the same reduction.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: `phase4/P4-S027_MATHEMATICS.md`.
