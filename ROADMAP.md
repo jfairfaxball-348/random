@@ -99,3 +99,16 @@ P4-S011 admits no effective modulus for any computable horizon selector. P4-S005
 
 Recommended next bounded session: P4-S019, testing only whether finite loss-properness bounds b(K) are automatically computably bounded.
 
+## Mathematics checkpoint — P4-S019 (not a gate review)
+
+P4-S019 resolves the remaining effectivity layer from P4-S018 negatively. For an admissible computable ticket account, b(K)=sup{E(v):W*(v)<K} is uniformly lower semicomputable, but finiteness of b(K) for every K does not force any computable uniform upper bound.
+
+The exact k=2 counterexample uses only settled P4-S017 gadgets. Zero-stake controls choose a machine index, finitely many one-sided-trigger wins raise ticket capital to a computable level, zero-stake epochs wait on that machine, and a finite deterministic-ticket burst records its halting time in realized skipped loss while ticket capital stays fixed. For each fixed capital target K only finitely many machine indices can reach that waiting/burst phase below K, so b(K) is finite. If a computable function majorized all b(K), effective divergence of harmonic sums would turn that bound into a computable halting-time bound and decide the halting problem.
+
+Thus the exact numerical extra condition for the settled ticket/restart proof is effective loss-properness: a computable U(K) uniformly bounding E on W*<K histories. Up to a harmless margin, this is equivalent to the P4-S018 running-maximum coercivity modulus. Mere set-theoretic loss-properness is strictly weaker.
+
+P4-S011 is excluded more strongly: for every computable horizon selector, any globally admissible full-ticket account must fail loss-properness at some K; otherwise its divergent realized skipped loss on the computably random sentinel-first completion would force ticket-martingale success. Bare admissibility alone remains unruled-out.
+
+P4-S005 through P4-S018 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S020, testing only whether a natural local bound on zero-loss waiting / positive-loss reachability, or a weaker effectively searchable loss-bar condition, turns loss-properness into effective loss-properness without restoring absolute premium summability.
