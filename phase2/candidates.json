@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S012",
-      "record_path": "phase4/P4-S012_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S013",
+      "record_path": "phase4/P4-S013_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -393,6 +393,21 @@
         "all_in_special_case": "Every all-in wager on a succeeding path is correct.",
         "next_boundary": "effective sibling totality / uniform deadline sufficient for least-fresh preservation",
         "p4_s011_destroyer_preserved": true,
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_sibling_totality_mathematics": {
+        "session": "P4-S013",
+        "scope": "k=2 sibling-totality / finite-deadline boundary inside least-fresh scan subclass only",
+        "result": "REACHABLE_SENTINEL_TOTALITY_EQUIVALENT_TO_SEARCHABLE_FINITE_DEADLINES_AND_FORCES_K1_EFFECTIVE_ISOMORPHISM",
+        "full_oracle_totality_sufficient": true,
+        "full_oracle_totality_stronger_than_needed": true,
+        "weakest_established_condition": "reachable-sentinel totality, equivalently no infinite reachable avoidance branch / computably searchable finite deadline",
+        "computable_randomness_preserved": true,
+        "target_only_totality_sufficient": false,
+        "p4_s011_destroyer_preserved": true,
+        "next_boundary": "computable summable avoidance-tail control weaker than finite deadlines",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
