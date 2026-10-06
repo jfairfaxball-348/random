@@ -1043,3 +1043,26 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: P4-S014, still at k=2, testing only computable summable avoidance-tail bounds as an intermediate condition between finite deadlines and arbitrary branchwise avoidance.
 
 The exact outgoing main hash is verified after closeout and reported in the session response.
+
+
+## P4-S014 — computably budgeted avoidance-tail transfer
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh stake subclass; finite-horizon quantitative sibling-avoidance boundary only
+Status: **COMPLETED**
+
+P4-S014 proves that finite deadlines are not needed for the P4-S009 hedge architecture. At each reachable epoch choose a total computable finite horizon H(s), and let p(s) be the exact conditional probability that the epoch still avoids its sentinel at that horizon. If one finite computable budget bounds the pathwise sum of those p(s) values over all reached epochs, every successful output martingale transfers to one computable source martingale.
+
+A sentinel-first completion physically reveals each sentinel before its logical epoch but is globally exhaustive even if the logical epoch never triggers. A fair miss-ticket martingale succeeds on infinitely many horizon misses. A second truncated/restart martingale hedges exactly through H(s), copies fillers beyond a miss, skips only the pre-revealed sentinel wager if that epoch later triggers, and restarts. Hence it succeeds when misses are finite and the output martingale succeeds; if a missed epoch never triggers it copies the output forever. Their sum gives the one-martingale completion transfer, and P4-S001 transfers it to the source.
+
+The condition is strictly weaker than P4-S013 finite deadlines: a zero-stake wait-for-next-1 functional has infinite all-zero avoiding siblings but admits H_r=r+2 with total miss budget <=1/2. P4-S011 necessarily violates the new condition.
+
+P4-S005 through P4-S013 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records: phase4/P4-S014_MATHEMATICS.md, phase4/P4-S014_CLOSE.md, phase4/P4-S014_VALIDATION.md. Durable decision: D-0036. Lesson: FL-062.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S015, still at k=2, testing only whether a computable stake-weighted skipped-wager loss budget permits nonsummable raw horizon-miss probabilities.
