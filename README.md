@@ -288,3 +288,17 @@ All mathematics through P4-S031 remains frozen. PA-0001 is **UNRESOLVED_UNDER_IN
 Records: phase4/P4-S032_MATHEMATICS.md, phase4/P4-S032_CLOSE.md, phase4/P4-S032_VALIDATION.md.
 
 Next: **P4-S033**, first one-hole normalization attack from the P4-S002/P4-S007 effective width-two inverse skeleton.
+
+## Phase-4 checkpoint — P4-S033 coded-hole normalization obstruction
+
+P4-S033 makes the first normalization step under the sustained finite-ambiguity pivot. A global-k=2 inverse skeleton always carries at most one binary choice, but a one-hole scan localizes that choice to one raw coordinate. These are not equivalent.
+
+The session proves R_2 is invariant under computable fair-coin-preserving homeomorphisms and defines the homeomorphism closure OH^iso, giving
+
+MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
+
+Hence the target R_2=OH can hold only if OH itself is homeomorphism-invariant. OH is invariant under signed coordinate permutations.
+
+An explicit blockwise three-bit linear source recoding of the P4-S011 destroyer gives a destructive global-k=2 map whose double fibres differ in at least two raw coordinates. Therefore literal scan normalization, even up to output homeomorphism, is false. The unresolved source-level issue is whether this **coded hole** can always be replaced by some different raw one-hole destroyer on the same source.
+
+Next: P4-S034 tests homeomorphism invariance of OH at this explicit three-bit recoding. The old P4-S015–P4-S031 bankroll line remains frozen as the default trajectory. PA-0001 and DEF-0020 are unchanged.
