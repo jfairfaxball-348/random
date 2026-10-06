@@ -526,3 +526,21 @@ This does not restore absolute premium summability. P4-S011 remains outside the 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S020_MATHEMATICS.md.
+
+
+## D-0043 — scale-tail data effectivize loss-properness but do not decide exact loss-level reachability
+
+Session: P4-S021
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, a computable local waiting bound for reachable losses at least \(2^{-n}\), together with a computable bound on the cumulative contribution of smaller realized losses in \(B_K\), is a structural sufficient condition for converting set-theoretic loss-properness into effective loss-properness. Coarse-scale accumulated loss is finitely searchable; an unreachable coarse amount plus the subscale bound computes U(K).
+
+Do **not** infer from these scale-tail data that P4-S020's exact predicate Reach(K,m) is decidable. A computable globally k=2, globally admissible construction with global fixed-scale deadlines, effectively vanishing small-loss tails and an explicit linear U(K) can encode halting in whether a shrinking geometric tail attains an integer loss boundary at a finite node or only approaches it.
+
+The next effectivity boundary is anti-Zeno / boundary isolation. Absolute premium summability is not restored.
+
+P4-S011 violates the scale-tail hypothesis under global admissibility because its divergent missed-epoch gains eventually lie below every fixed positive scale. Bare admissibility remains unruled-out.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S021_MATHEMATICS.md.
