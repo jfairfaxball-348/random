@@ -173,47 +173,61 @@ So the P4-S036 concern about an ineffective limit does not occur for this explic
 
 ## 5. A single computable raw compiler
 
-Finite approximants are not enough. Threshold stopping turns the rolling identities into one successful raw martingale.
+Finite approximants are not enough. The persistent-savings transform already proved in P4-S036 supplies the correct success-preserving normalization.
 
-Normalize (d(arnothing)=1). For (kge1), let (d^{[k]}) be (d) stopped on first reaching (2^k).
-
-For each (k), use the effective renewal decision trees and Lemma 2 to construct a raw martingale (e^{[k]}):
-
-- at a renewal boundary its capital is the current stopped virtual capital times the local price (p_s(z));
-- inside the next finite fresh-block transition, use the finite raw Doob conditional expectations of the terminal value at the next boundary;
-- after (d^{[k]}) has stopped, all future virtual multipliers are (1), so every later boundary price is exactly (1).
-
-Every (e^{[k]}) is total, computable, rational and nonnegative on the exhaustive raw evaluator.
-
-Now put
+Normalize (d(\varnothing)=1), let (d^{[k]}) be (d) stopped on first reaching (2^k), and put
 [
-e=sum_{kge1}2^{-k}e^{[k]}.
+\widehat d=\sum_{k\ge1}2^{-k}d^{[k]}.
+]
+P4-S036 proved that (\widehat d) is an exactly computable nonnegative rational martingale and
+[
+d	ext{ unbounded}quad\Longrightarrowquad \widehat d_t\to\infty.
 ]
 
-### Lemma 4 — the infinite mixture is exactly computable
+It has a stronger persistence property useful here. Once (d) has reached thresholds (2,4,\ldots,2^K) along a virtual transcript, the first (K) stopped summands each contribute at least (1) on **every** continuation of that transcript. Hence
+[
+\widehat d\ge K
+]
+on every later virtual continuation, not merely on the target path.
 
-At any finite raw history, only the current finite renewal tree is needed to evaluate the local price. Compute the maximum value of (d) on the actual finite virtual history and on every node of that finite tree. Choose (K) with (2^K) larger than this maximum.
+For a frontier state (s,z), define the **absolute rolling price**
+[
+V_s(z)
+]
+to be the fair conditional value of (\widehat d) at the end of the next computably finite renewal transition, with the old frontier retired. Equivalently, compute it by the finite decision tree from Definition 1.
 
-For all (k>K), threshold (2^k) has not been reached on the history or anywhere in the local tree, so all (e^{[k]}) have the same value there. The remaining infinite tail is therefore one exact rational geometric tail. Hence (e) is an exactly computable rational martingale.
+At the next frontier (s',w), use (V_{s'}(w)) as the terminal raw value of the current transition. The average of (V_{s'}(w)) over the fresh virtually unseen vector (w) is exactly the current virtual capital (\widehat d) at that new boundary: this is just finite martingale averaging through the next renewal episode. Therefore Lemma 2 gives
+[
+\mathbb E[,V_{s'}(w)mid s,z,]=V_s(z).
+]
+
+Query the finitely many fresh raw coordinates of the current transition and use finite raw Doob conditional expectations of the terminal table (V_{s'}(w)). Concatenating these finite pieces gives one total computable nonnegative rational raw martingale (e). A finite startup piece connects the empty raw history to the first frontier. The raw evaluator is exhaustive by Definition 1.
+
+### Lemma 4 — persistent savings defeat arbitrary boundary distortion
+
+If the first (K) savings thresholds have been locked before a renewal boundary, then
+[
+V_s(z)ge K
+]
+for every frontier value (z) compatible with the current raw history.
+
+**Proof.**
+Every virtual continuation from that transcript has (\widehat d\ge K). In particular every leaf value at the end of the next finite renewal transition is at least (K). Its fair conditional expectation is therefore at least (K). ∎
 
 ### Theorem 5 — effective fresh-frontier renewal normalizes infinite components
 
-Under Definition 1, if (xin CR), no computable nonnegative rational martingale can succeed on the recoded one-hole scan output.
+Under Definition 1, if (x\in CR), no computable nonnegative rational martingale can succeed on the recoded one-hole scan output.
 
 **Proof.**
-Suppose (d) succeeds. For every (k), (d^{[k]}) eventually reaches at least (2^k) and then remains constant. From the next renewal boundary onward its price is (1), so
-[
-e^{[k]}ge2^k
-]
-at all later renewal boundaries.
+Suppose (d) succeeds. Then (\widehat d\to\infty), and for every (K) there is a virtual stage after which the first (K) stopped savings components are permanently locked.
 
-For each (K), after thresholds (1,ldots,K) have all been reached, the first (K) summands of (e) contribute at least (K) at every sufficiently late renewal boundary:
+At every sufficiently late renewal boundary, Lemma 4 gives
 [
-sum_{k=1}^K2^{-k}e^{[k]}ge K.
+e\ge K.
 ]
-Thus (e) is unbounded on the exhaustive computable raw evaluator. By the settled k=1/effective-permutation invariance this contradicts (xin CR). ∎
+Thus (e) is unbounded on the exhaustive computable raw evaluator. By the settled k=1/effective-permutation invariance this contradicts (x\in CR). ∎
 
-This theorem needs no finite packet and no uniform price-ratio bound.
+This construction uses one computable raw martingale, not a sequence of finite approximants. It needs no finite packet, no uniform positive lower bound on normalized prices and no bounded condition number.
 
 ### Corollary 6 — the P4-S035 infinite ray is harmless
 
@@ -294,15 +308,13 @@ The rolling theorem has a direct analytic formulation.
 
 ### Theorem 9 — effective backward-price stabilization is sufficient
 
-Suppose that for every threshold-stopped virtual martingale (d^{[k]}), every reachable finite frontier state has finite-horizon normalized backward price vectors which converge uniformly effectively, with a total computable Cauchy modulus and computable limiting vector, and that these limiting vectors satisfy the finite-step Doob consistency equations along the computable raw evaluator.
+Apply the P4-S036 persistent-savings transform first, obtaining (\widehat d).
 
-Then the limiting conditional values form a total computable nonnegative raw martingale (e^{[k]}). The same geometric mixture
-[
-sum_{kge1}2^{-k}e^{[k]}
-]
-transfers every virtual success to the raw source.
+Suppose every reachable finite frontier state has finite-horizon **absolute** backward prices for (\widehat d) which converge uniformly effectively, with a total computable Cauchy modulus and a computable limiting price vector, and suppose the limiting vectors satisfy the one-step Doob consistency equations along the computable raw evaluator.
 
-Effective fresh-frontier renewal is a structural sufficient condition for Theorem 9 in which the Cauchy modulus is trivial: the normalized vector stabilizes after one backward renewal step.
+Then those limiting conditional values form one total computable nonnegative raw martingale. If (d) succeeds, the persistent-savings floor is eventually at least (K) on every continuation of the current virtual transcript for each (K). Every limiting conditional price from that point is therefore at least (K), so the raw martingale succeeds.
+
+Effective fresh-frontier renewal is a structural sufficient condition for Theorem 9 in which no limiting computation is required at all: the normalized continuation vector is annihilated after one backward renewal step.
 
 This is the weakest exact positive hypothesis isolated in this session. Bounded width, graph rank, positivity and bounded price ratios do not imply it.
 
