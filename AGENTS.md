@@ -536,3 +536,24 @@ with \(R_2=OH\) unresolved.
 Next: P4-S036 on the dependency graph, finite closure and infinite rays. The P4-S015–P4-S031 ticket/reserve sequence remains frozen as the default trajectory.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Mathematics checkpoint — P4-S036 (not a gate review)
+
+P4-S036 continues the sustained one-hole normalization programme selected after P4-S031.
+
+The finite side is now stronger: the P4-S035 uniform packet-size bound is unnecessary. A persistent threshold-stopping savings transform makes virtual success persist to packet boundaries, so every computably finite packet-closed witness, and more generally every witness with a total computable finite closed packetizer, is harmless under every repeated invertible finite binary block recoding of block size at least two.
+
+The graph analysis separates forward dependence from operational packet closure. Finite closures, well-foundedness, finite/computable rank and even uniformly computable finite forward closures need not produce finite packetization; rank-one examples show both nonuniform closure completion and infinite overlap without a directed ray.
+
+For the displayed recoding, producing \(u_0,u_1\) necessarily consumes all three raw coordinates, so the pending \(u_2\) cannot be re-threaded by raw coordinate order alone. Every finite truncation still has a finite Doob compiler. The surviving issue is effective stabilization of finite-horizon backward prices on an infinite component.
+
+The recoded P4-S011 witness cannot admit a computable finite closed packetizer, but its source is not proved in \(OH\). The inclusions remain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR,
+\]
+with \(R_2=OH\) unresolved.
+
+Next: P4-S037 on rolling finite-state/backward-price normalization. The P4-S015–P4-S031 ticket/reserve sequence remains frozen as the default trajectory.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
