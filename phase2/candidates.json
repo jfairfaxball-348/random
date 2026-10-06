@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S035",
+  "last_updated_session": "P4-S037",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S036",
-      "record_path": "phase4/P4-S036_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S037",
+      "record_path": "phase4/P4-S037_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -250,6 +250,31 @@
           "class_OH_iso_preserved": true,
           "next_question": "rolling finite-state backward-price normalization on infinite interaction components",
           "next_session": "P4-S037",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_fifth_step_result": {
+          "session": "P4-S037",
+          "result": "EFFECTIVE_FRESH_FRONTIER_RENEWAL_NORMALIZES_INFINITE_RAYS_AND_OVERLAP_COMPONENTS_NON_EFFECTIVE_CLAIM_RETIREMENT_IS_THE_SURVIVING_BOUNDARY",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "fresh_frontier_renewal_normalization": true,
+          "p4_s035_ray_normalized": true,
+          "p4_s036_rank_one_overlap_normalized": true,
+          "finite_packetization_required": false,
+          "bounded_open_claim_width_sufficient": false,
+          "recoded_p4_s011_active_width_one": true,
+          "positive_bounded_price_ratios_sufficient": false,
+          "p4_s011_half_stake_price_ratio_bound": 3,
+          "p4_s011_non_effective_retirement_obstruction": true,
+          "effective_backward_price_stabilization_sufficient": true,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "persistent-frontier retirement and effective backward-price stabilization",
+          "next_session": "P4-S038",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
@@ -1311,8 +1336,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S037",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack rolling finite-state/backward fair-price normalization on infinite interaction components, including the P4-S035 ray, rank-one overlap without a ray, and the recoded P4-S011 schedule.",
+  "recommended_next_session": "P4-S038",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack persistent-frontier claim retirement and effective backward-price stabilization in the recoded P4-S011 schedule, using the P4-S037 rolling-renewal theorem as the positive boundary.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
