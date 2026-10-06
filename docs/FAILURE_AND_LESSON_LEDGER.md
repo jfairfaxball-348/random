@@ -819,3 +819,20 @@ P4-S011 remains outside every effective-modulus regime. Bare no-overdraft is sti
 
 Guard: this is a boundary inside the P4-S016/P4-S017 ticket-plus-restart architecture, not an impossibility theorem for arbitrary transfer martingales.
 
+## FL-067 — finite bad-capital loss height is not an effective loss bar
+
+Session: P4-S019
+Date: 2026-10-06
+Status: PHASE-4 k=2 LOSS-PROPERNESS EFFECTIVITY GUARD
+
+P4-S018 isolated loss-properness b(K)<infinity as the exact set-theoretic condition restoring a uniform loss threshold at each fixed capital target. The tempting next inference is that a computable ticket tree should let one search for those finite bounds. That inference is false.
+
+A computable controller can hide the halting time of machine e behind a finite ticket-capital ladder. After the ladder, zero-stake epochs wait for the machine. If it halts after t steps, a deterministic finite ticket burst records t in cumulative realized skipped loss without increasing ticket capital. For each fixed K only finitely many e remain below K, so b(K) is finite; but a computable majorant of b would bound every halting time and decide the halting problem.
+
+The general lesson is that computability of finite histories gives lower semicomputable approximations to b(K), not effective upper bounds. Finiteness of a lower-semicomputable quantity is not a modulus.
+
+Resolution: when the P4-S018 quantitative transfer is needed, require effective loss-properness — a computable bad-capital loss bound U(K) — or structural data from which such a bound can actually be searched. Do not silently turn set-theoretic loss-properness into an effective certificate.
+
+P4-S011 is outside even the set-theoretic loss-proper regime whenever its full-ticket account is globally admissible. Bare admissibility remains unruled-out.
+
+Guard: this is a boundary inside the P4-S016/P4-S017 full-ticket plus restart architecture, not an impossibility theorem for arbitrary martingale transfers.
