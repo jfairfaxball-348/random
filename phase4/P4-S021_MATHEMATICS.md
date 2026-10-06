@@ -63,11 +63,11 @@ A **large-loss waiting modulus** is a total computable function
 R(K,n)
 \]
 
-such that for every finite history \(v\in B_K\) and every infinite branch X through \(B_K\) extending v:
+such that for every pair of finite histories \(v\preceq w\) in \(B_K\):
 
-if X has any later ticket payout at least \(\delta_n\), then its first such later payout occurs within the next \(R(K,n)\) controller epochs.
+if some ticket payout at least \(\delta_n\) occurs between v and w, then the first such payout after v occurs within the next \(R(K,n)\) controller epochs.
 
-This is a branchwise local condition. It says nothing about smaller losses and does not decide whether another large loss exists.
+Equivalently, from any bad-capital node, any future \(\delta_n\)-large payout that is reachable while remaining below K has a \(\delta_n\)-large witness within a uniformly bounded local continuation. This says nothing about smaller losses and does not decide whether another large loss exists.
 
 ### Definition — computable subscale-tail bound
 
