@@ -800,3 +800,22 @@ Resolution: the needed condition is **coercivity**, not merely solvency. The ful
 P4-S011 excludes every coercive certificate; bare admissibility alone is not ruled out.
 
 Guard: this is a boundary for the P4-S016/P4-S017 ticket-plus-restart architecture, not an impossibility theorem for every computable transfer.
+
+## FL-066 — semantic branchwise coercivity does not give a uniform loss-to-capital modulus
+
+Session: P4-S018
+Date: 2026-10-06
+Status: PHASE-4 k=2 EFFECTIVE-COERCIVITY / CROSS-BRANCH GUARD
+
+The tempting inference from P4-S017 is that if every individual completion run with divergent realized skipped loss makes the self-financing ticket account unbounded, compactness should yield a computable retained-surplus floor. That inference fails before computability enters.
+
+For a capital target K, let B_K be the tree of finite ticket histories whose running maximum capital is still below K. Semantic coercivity only says that every infinite branch through B_K has bounded cumulative realized loss E. It does not say that E is uniformly bounded over all finite nodes of B_K.
+
+A computable mode switch between the two settled P4-S017 gadgets makes the distinction exact. One mode is genuinely coercive on every E-divergent run. The other permits a unary-selected finite burst of certain-payout tickets: price equals payout, so capital stays 1 while the harmonic cumulative payout can be made arbitrarily large, after which positive tickets stop. Every individual burst branch still has finite E.
+
+Resolution: use a computable running-maximum threshold h(K) only as a stronger sufficient certificate. The exact set-theoretic extra condition for a uniform threshold is loss-properness b(K)=sup{E(v):W*(v)<K}<infinity. Whether finite b(K) must be computably bounded is a separate question.
+
+P4-S011 remains outside every effective-modulus regime. Bare no-overdraft is still not ruled out there.
+
+Guard: this is a boundary inside the P4-S016/P4-S017 ticket-plus-restart architecture, not an impossibility theorem for arbitrary transfer martingales.
+
