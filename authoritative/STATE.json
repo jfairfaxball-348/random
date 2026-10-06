@@ -302,7 +302,7 @@
     "original_mathematics_performed": true,
     "latest_record": "phase4/P4-S015_MATHEMATICS.md",
     "latest_close_record": "phase4/P4-S015_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S014_VALIDATION.md",
+    "latest_validation_record": "phase4/P4-S015_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -524,7 +524,8 @@
       "absolute_necessity_claimed": false,
       "next_question": "incremental loss tickets replacing advance computable future-loss envelopes",
       "k_gt_2_resolved": false,
-      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "validation_record": "phase4/P4-S015_VALIDATION.md"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -649,6 +650,7 @@
     "p4_s014_boundary_preserved": true,
     "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
     "k_gt_2_resolved": false,
-    "novelty_claimed": false
+    "novelty_claimed": false,
+    "validation_record": "phase4/P4-S015_VALIDATION.md"
   }
 }
