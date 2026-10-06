@@ -1049,3 +1049,17 @@ Second failed explanation: the amount of output ambiguity controls destruction. 
 The better candidate resource is **renewable counterfactual ambiguity**. A k=2 scan may withhold one fresh source coordinate while exposing others, use the exposed information to determine a wager on that withheld sentinel, then consume the sentinel and move the hole to a new fresh coordinate. Off-target avoiding siblings justify the global two-point fibre budget; the target itself can finish with no ambiguity at all.
 
 Correct guard: do not infer preservation or destruction from final fibre cardinality along the target or from lambda(A_F) once it is positive. Future characterization work should test whether arbitrary k=2 destruction normalizes to renewable one-hole adaptive access, or identify the extra non-scan resource if it does not.
+
+## P4-S033 lesson — binary inverse width is not coordinate locality
+
+**Failed route:** infer a one-hole scan presentation directly from the P4-S007 coherent width-two inverse skeleton.
+
+**Why it fails:** width two bounds the inverse state to one binary cohort, but the two candidate source points may differ in many raw coordinates. A one-hole scan has a stronger invariant: every double fibre differs at exactly one raw coordinate.
+
+**Exact destructive witness:** precompose the P4-S011 scan destroyer with a computable fair-coin-preserving blockwise three-bit linear homeomorphism whose inverse maps a virtual unit-coordinate difference to raw Hamming weight 2, 2 or 3. The conjugate remains globally k=2 and destructive but cannot be a one-hole scan or an output-homeomorphic one-hole scan.
+
+**Positive lesson:** source recoding is harmless for R_2 but not definitionally harmless for OH. OH is invariant under signed coordinate permutations; arbitrary homeomorphism invariance is the real first source-level normalization test.
+
+**Do not overclaim:** the coded-hole map refutes literal map normalization only. It does not prove R_2 proper-subset OH because the recoded source may still be destroyed by a different one-hole scan.
+
+Next bounded attack: P4-S034 on OH invariance under the explicit coded-hole homeomorphism.
