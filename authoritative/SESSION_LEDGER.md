@@ -1585,3 +1585,32 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S035**, on early-decided versus genuinely late-decided spoiled stakes.
+
+## P4-S035 — determination-predictable spoiled stakes and infinite cross-block delay
+
+Date: 2026-10-06
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 9751ab899736c606f47f137f78823318c72aa6e6
+
+Scope: delayed-stake attack for the sustained \(R_2=OH\) one-hole normalization target.
+
+Results:
+- formalized raw determination events separately from later virtual betting times;
+- corrected the early-decision hypothesis to pre-pivot forecastability;
+- constructed a separating support schedule for the displayed three-bit matrix;
+- proved that every determination-predictable spoiled-gain product transfers exactly to a raw martingale;
+- isolated an exact same-pivot late-choice premium for the weaker post-pivot case;
+- proved a closed-packet normalization theorem for every repeated invertible finite binary block recoding of block size at least two;
+- showed bounded decision delay alone is insufficient by an exact one-hole infinite cross-block dependency architecture;
+- did **not** produce \(x\in OH\) with \(H(x)\notin OH\), so no \(R_2\subsetneq OH\) separation is claimed.
+
+Records:
+- phase4/P4-S035_MATHEMATICS.md
+- phase4/P4-S035_CLOSE.md
+- phase4/P4-S035_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S036**, on finite/well-founded block-dependency closure versus infinite dependency rays.
