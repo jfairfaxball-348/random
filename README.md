@@ -341,3 +341,18 @@ No \(R_2\subsetneq OH\) claim is made; \(OH^{iso}\) remains the comparison class
 
 Next: **P4-S037**, attack rolling finite-state/backward-price normalization on infinite interaction components. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory.
 
+
+
+## Current Phase-4 route after P4-S037
+
+The sustained target remains **(R_2=OH?)**.
+
+P4-S037 shows that infinite interaction geometry alone is not the coded-hole resource. The P4-S035 one-pending-claim directed ray has an exact rolling normalization: when an old spoiled claim retires and a new virtually unseen parity is carried forward, the new normalized boundary price averages to one and cancels from the preceding backward step. Persistent savings then gives one computable raw martingale. The same argument handles the P4-S036 rank-one infinite overlap component despite failure of finite packetization.
+
+The remaining boundary is sharper. The recoded P4-S011 witness has only one active nonzero open claim at a time. Even after replacing the all-in sentinel bet by a fixed half-stake, its local price vectors are uniformly positive with ratio at most three, yet the witness still destroys. The missing information is whether a persistent sentinel claim ever retires: the wtt use bound makes value dependence finite but does not give an effective halt/divergence or backward-price stabilization modulus.
+
+Thus bounded frontier width, finite state, graph rank, directed-ray status and bounded price ratios are not the invariant. Effective backward-price stabilization is sufficient; effective fresh renewal is the exact one-step case.
+
+No OH non-invariance witness is proved and (OH^{iso}) remains the comparison class.
+
+Next: **P4-S038**, attack persistent claim retirement in the actual recoded P4-S011 schedule. The P4-S015–P4-S031 bankroll line remains frozen.
