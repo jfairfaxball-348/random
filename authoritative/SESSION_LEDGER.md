@@ -1182,3 +1182,17 @@ P4-S005 through P4-S018 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPE
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S020, testing only whether a natural local zero-loss-waiting / positive-loss-reachability condition, or a weaker effectively searchable loss-bar condition, converts loss-properness into effective loss-properness without restoring absolute premium summability.
+
+## P4-S020 — zero-loss waiting versus searchable loss levels
+
+Date: 2026-10-06. Incoming checkpoint: `4beb36e69158e9badccb2a80a6292772c11c8ed4`, matching live `main` exactly before substantive work. Repository commit search returned no committed P4-S020 record, so the session identifier was unique.
+
+P4-S020 shows that a computable bound on ordinary zero-loss waiting is not enough to effectivize P4-S019 loss-properness. The halting-coded construction can be heartbeatized with summably small positive deterministic losses, retaining a fixed bound to the next positive loss on every branch that will later realize more loss while preserving finite b(K) and the no-computable-majorant obstruction.
+
+The positive structural condition is a computable loss-level witness modulus D(K,m): if some bad-capital history reaches E>=m, one such witness occurs within depth D(K,m). This decides loss-level reachability and loss bars by finite search. Combined with loss-properness, searching for the first unreachable integer loss level computes U(K), hence the P4-S018 coercivity modulus. This remains compatible with divergent absolute premium sums.
+
+P4-S011 remains excluded already at loss-properness under global admissibility; bare admissibility remains unruled-out. P4-S005 through P4-S019 remain settled. PA-0001 and DEF-0020 are unchanged.
+
+Records: phase4/P4-S020_MATHEMATICS.md; phase4/P4-S020_CLOSE.md; phase4/P4-S020_VALIDATION.md. Durable decision: D-0042. Lesson: FL-068.
+
+Recommended next bounded session: P4-S021, testing only whether searchable loss levels follow from local scale-tail data weaker than an explicit witness modulus, or whether halting information can still move across infinitely many shrinking loss scales.
