@@ -752,3 +752,21 @@ This alone is vulnerable to infinitely many misses. The repair is orthogonal: bu
 Lesson: under effective tail control, spend computability on a finite miss-event ticket rather than on the noncomputable stopping value. The exact summability condition established here is a finite uniform pathwise budget on the conditional horizon-miss probabilities. It is strictly weaker than finite deadlines but still excludes P4-S011.
 
 Do not infer absolute necessity: a stake-weighted loss budget may be weaker and remains for a separate session.
+
+
+## FL-063 — a horizon miss should be priced by the positive skipped gain, but its optimal future price may be noncomputable
+
+Session: P4-S015
+Status: PHASE-4 k=2 STAKE-WEIGHTED TAIL GUARD
+
+P4-S014 deliberately charged one unit for every finite-horizon miss. That was enough for a clean theorem, but it can be grossly pessimistic when the deferred sentinel wager is small, losing, or never occurs.
+
+P4-S015 identifies the exact local damage to the restart hedge: if a missed epoch later triggers and the prequeried sentinel wager would multiply output capital by g, skipping it only hurts when g>1, by positive multiplicative loss g-1. A finite leaf ticket can therefore be priced by a computable majorant of this positive gain rather than by unit miss mass.
+
+This matters quantitatively. A two-control-bit least-fresh scan can retain a permanent avoiding sibling of probability 1/4 at every epoch, so no choice of finite horizons has a summable raw miss budget. Yet if sentinel j carries stake 2^{-(j+1)}, the leafwise fair weighted prices sum to at most 1/4.
+
+The new trap is effectivity. The pointwise smallest future-loss envelope asks whether and with what stake a currently missed partial computation will ever halt. A c.e. noncomputable trigger family makes that exact optimum encode a noncomputable set. Do not silently treat the optimal stake-weighted envelope as computable.
+
+Resolution: require a computable rational future-loss envelope, or stronger data that computes one. Under a finite pathwise budget on its fair ticket prices, weighted tickets plus the P4-S014 restart hedge transfer success. P4-S011 remains outside the positive regime because every target sentinel wager is all-in and correct, so each missed-then-triggered positive loss is exactly one.
+
+Next lesson target: test whether advance envelopes can be replaced by incremental tickets bought only when larger postmiss stakes become finitely visible, without computing an infinite optional projection.
