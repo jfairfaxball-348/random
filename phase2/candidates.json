@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S026",
+  "last_updated_session": "P4-S027",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S026",
-      "record_path": "phase4/P4-S026_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S027",
+      "record_path": "phase4/P4-S027_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -703,6 +703,23 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S026_VALIDATION.md"
+      },
+      "phase4_k2_bare_bankroll_mathematics": {
+        "session": "P4-S027",
+        "scope": "k=2 bare global full-ticket admissibility for the P4-S011 destroyer",
+        "result": "USE_EXHAUSTING_WTT_FRONTIER_MAKES_POSTMISS_TICKETS_DETERMINISTIC_RESERVE_ONE_SUFFICES",
+        "globally_use_clipped_wtt_normal_form": true,
+        "use_exhausting_horizon_computable": true,
+        "finite_global_reserve": 1,
+        "ticket_capital_on_p4_s011_target": "CONSTANT_ONE_DESPITE_DIVERGENT_PREMIUMS_AND_PAYOUTS",
+        "coercivity_recovered": false,
+        "loss_properness_recovered": false,
+        "p4_s011_destroyer_preserved": true,
+        "p4_s015_through_p4_s026_preserved": true,
+        "next_boundary": "effective finite dependency frontier versus unbounded reserve demand for broader P4-S012 partial predictors",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false
       }
     },
     {
@@ -1104,8 +1121,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S023",
-  "recommended_next_scope": "Phase 4 Mathematics only; selected CAND-01; k=2 semantic anti-Zeno/effective-compactness boundary after P4-S022.",
+  "recommended_next_session": "P4-S028",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01 only: k=2 effective finite dependency frontier versus bare full-ticket reserve demand.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",

@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S026",
+  "last_completed_session": "P4-S027",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S027: stay at k=2 inside the least-fresh ticket/restart architecture; test only whether some computable horizon selector H and finite reserve R make the canonical P4-S016/P4-S017 full-ticket account for the settled P4-S011 destroyer globally admissible on every completion branch, without coercivity, loss-properness or searchable bars; otherwise isolate an exact sibling family forcing unbounded reserve demand.",
-  "recommended_next_session": "P4-S027",
+  "next_transition": "Run P4-S028: stay at k=2 inside the least-fresh ticket/restart architecture; test only whether an effectively exhaustible per-epoch finite dependency frontier is the structural condition behind P4-S027 bare admissibility, or whether without such a frontier an exact global-k=2 sibling family can force unbounded full-ticket reserve demand.",
+  "recommended_next_session": "P4-S028",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S026",
-    "next_session": "P4-S027",
+    "last_session": "P4-S027",
+    "next_session": "P4-S028",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S026_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S026_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S026_VALIDATION.md",
+    "latest_record": "phase4/P4-S027_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S027_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S027_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -757,6 +757,27 @@
       "next_question": "bare global admissibility / finite reserve for the canonical P4-S011 full-ticket account",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_bare_bankroll_result": {
+      "session": "P4-S027",
+      "scope": "k=2 bare global admissibility of the canonical P4-S016/P4-S017 full-ticket account for the P4-S011 destroyer only",
+      "result": "WTT_USE_FRONTIER_YIELDS_GLOBALLY_ADMISSIBLE_DETERMINISTIC_FULL_TICKETS_WITH_RESERVE_ONE",
+      "globally_use_clipped_wtt_normal_form": true,
+      "use_bound_needed_by_destroyer_conversion": false,
+      "use_bound_used_for_bankroll": true,
+      "use_exhausting_horizon_computable": true,
+      "post_horizon_positive_tickets_deterministic": true,
+      "exact_premium_equals_certain_payout": true,
+      "finite_global_reserve": 1,
+      "p4_s011_bare_admissibility_established": true,
+      "p4_s011_absolute_premium_sum_finite": false,
+      "p4_s011_coercive": false,
+      "p4_s011_loss_proper": false,
+      "p4_s011_destroyer_preserved": true,
+      "arbitrary_unnormalized_wtt_program_covered": false,
+      "next_question": "effective finite dependency frontier versus unbounded reserve demand in the broader P4-S012 partial-predictor setting",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -946,5 +967,23 @@
     "k_gt_2_resolved": false,
     "novelty_claimed": false,
     "validation_record": "phase4/P4-S019_VALIDATION.md"
+  },
+  "phase4_k2_bare_bankroll_mathematics": {
+    "session": "P4-S027",
+    "scope": "k=2 P4-S011 bare-bankroll boundary only",
+    "result": "USE_EXHAUSTING_HORIZON_MAKES_LAST_CHANCE_TICKETS_DETERMINISTIC_AND_RESERVE_ONE_GLOBALLY_ADMISSIBLE",
+    "successful_mechanisms": [
+      "Normalize the wtt autoreduction witness by clipping every sibling computation to its computable use frontier without changing the target computation.",
+      "Choose each horizon after all still-unqueried non-sentinel coordinates inside that frontier have been exposed.",
+      "After a miss, later trigger visibility is independent of future filler values, so both last-chance ticket children have the same loss.",
+      "Every positive ticket has premium equal to certain payout and positive gain at most one; reserve one funds all full tickets globally.",
+      "On the P4-S011 target, cumulative premium and payout both diverge while ticket capital remains constant, preserving all settled noncoercivity/loss-properness exclusions."
+    ],
+    "p4_s011_destroyer_preserved": true,
+    "p4_s015_through_p4_s026_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false,
+    "novelty_claimed": false,
+    "validation_record": "phase4/P4-S027_VALIDATION.md"
   }
 }

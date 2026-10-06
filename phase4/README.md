@@ -430,3 +430,17 @@ P4-S011 remains preserved. Under global admissibility its known completion has a
 P4-S005 through P4-S025 remain settled; P4-S011 and P4-S015 through P4-S025 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S027, testing only whether some computable horizon selector and finite reserve make the canonical P4-S016/P4-S017 full-ticket account for P4-S011 globally admissible, without coercivity or loss-properness.
+
+## Mathematics checkpoint — P4-S027 (not a gate review)
+
+P4-S027 resolves the repeatedly deferred bare-bankroll question for the settled P4-S011 wtt destroyer positively after the standard globally use-clipped normalization of its autoreduction witness.
+
+Let U(j) be a computable strict use cap. At each least-fresh epoch choose a finite horizon long enough to expose every still-unqueried non-sentinel coordinate below U(j), plus one harmless extra filler. If the epoch is still unresolved after that horizon, every oracle bit the clipped predictor can ever inspect is already fixed. A later trigger can still be delayed by computation time or fail forever, so this does not restore reachable-sentinel totality.
+
+At every postmiss P4-S016 last-chance node, the next filler bit is outside the dependency frontier. Consequently both filler children either remain unresolved or trigger with the same prediction and the same skipped positive gain. Every positive ticket is therefore deterministic: its exact fair premium equals its certain payout. Since all positive multiplicative skipped gains are at most 1, reserve R=1 funds every full ticket on every completion branch and the resolved account stays exactly 1.
+
+On the P4-S011 computably random target, settled P4-S016 still forces divergent realized skipped gain for this horizon. Here the premium sum diverges equally while the ticket account stays constant. Thus P4-S016 absolute summability, P4-S017 coercivity, P4-S019 loss-properness and all later transfer/searchability hypotheses continue to fail. P4-S011 is preserved.
+
+P4-S005 through P4-S026 remain settled; P4-S011 and P4-S015 through P4-S026 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S028, testing only whether an effectively exhaustible per-epoch dependency frontier is the weakest natural structural condition behind this bare-admissibility result, or whether its absence permits an exact global-k=2 sibling family forcing unbounded reserve demand.
