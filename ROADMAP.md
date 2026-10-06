@@ -229,3 +229,14 @@ Negative boundary: P4-S012 does not force such a frontier. A first-1-search exac
 Important guard: this is an existence separation, not a proof that every no-frontier scan is insolvent.
 
 Next bounded mathematics: **P4-S029**, strictly at k=2, test whether no-frontier bare solvency is possible with genuinely late one-sided trigger dependence but effectively decaying skipped gains.
+
+
+## P4-S029 checkpoint
+
+Completed: finite dependency frontiers are not necessary for bare full-ticket solvency.
+
+Use the same first-1-search global-k=2 no-frontier scan as P4-S028, but scale the possible positive skipped sentinel gain at first-1 depth n to (2^{-n}). With H=1 the arbitrarily late one-sided tickets are ((0,2^{-n})), their premiums are (2^{-(n+1)}), and the total zero-payout deficit is at most 1/4. Reserve R=1/4 is globally admissible.
+
+Sharp comparison inside this witness family: (alpha_n=1) recovers P4-S028's unbounded N/2 deficit; summable (alpha_n) gives finite reserve. P4-S011/P4-S027 is different again because deterministic tickets recycle certain payouts even with divergent premiums.
+
+Next bounded mathematics: **P4-S030**, strictly at k=2, test whether no-frontier self-financing solvency is possible when absolute premiums diverge, using earlier one-sided ticket winnings to fund later premiums.
