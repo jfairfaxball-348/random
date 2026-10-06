@@ -1066,3 +1066,30 @@ Records: phase4/P4-S014_MATHEMATICS.md, phase4/P4-S014_CLOSE.md, phase4/P4-S014_
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S015, still at k=2, testing only whether a computable stake-weighted skipped-wager loss budget permits nonsummable raw horizon-miss probabilities.
+
+
+## P4-S015 — stake-weighted skipped-wager loss transfer
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh stake subclass; smallest quantitative weakening of P4-S014 only
+Status: **COMPLETED**
+
+Incoming checkpoint 7c47680ab22d21e9fd21cb1d276165f0406bc0e8 matched live main exactly before substantive work. The P4-S015 mathematics/close/validation records were absent and repository search returned no P4-S015 record, so the session identifier was unique.
+
+P4-S015 replaces the P4-S014 unit cost of a horizon miss by the finite fair price of the positive deferred sentinel gain that can actually be lost. After a computable savings wrapper, a computable leafwise envelope w(s,b,rho) majorizes the possible positive multiplicative gain of a later skipped sentinel wager. The exact ticket price is c(s)=2^{-(H(s)+1)} sum_rho(w(s,0,rho)+w(s,1,rho)). A finite uniform pathwise budget on these prices suffices.
+
+A weighted miss-ticket martingale is unbounded if realized miss weights diverge. If their sum is finite, the restart hedge loses at most factors 1+w, so its multiplicative scale stays bounded away from zero while the savings-wrapped output martingale tends to infinity. A permanently nontriggering missed epoch is copied forever. Their sum transfers every certified output win through the P4-S014 sentinel-first completion and P4-S001 to one source martingale.
+
+The result is strictly weaker than P4-S014 at the scan/martingale certificate level. A two-control-bit scan triggers after 1 or 01 and diverges after 00; permanent avoidance has probability 1/4 at every epoch, so no raw-tail certificate exists for any horizon selector. Small sentinel stakes a_j=2^{-(j+1)} yield weighted ticket cost a_j/4 and total budget at most 1/4.
+
+The pointwise minimal future-loss envelope is not uniformly computable. P4-S011's all-in destroyer necessarily violates every finite P4-S015 certificate.
+
+P4-S005 through P4-S014 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records: phase4/P4-S015_MATHEMATICS.md, phase4/P4-S015_CLOSE.md, phase4/P4-S015_VALIDATION.md. Durable decision: D-0037. Lesson: FL-063.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S016, still at k=2, testing only whether the advance future-loss envelope can be eliminated by incrementally purchased computable loss tickets under a computable total increment budget.
