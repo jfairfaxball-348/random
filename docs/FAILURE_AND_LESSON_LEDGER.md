@@ -1081,3 +1081,21 @@ The exact surviving obstruction is temporal. A canonical raw support evaluator c
 Correct guard: do not call this OH non-invariance. It is an exact compiler obstruction, not a source separation. A strict \(R_2\subsetneq OH\) conclusion still requires an actual \(x\in OH\) with a homeomorphic image outside OH.
 
 Next lesson to test: whether spoiled stakes already decided at raw determination time can always be moved back to the last raw pivot, leaving only genuinely late-decision dependence as the possible infinitary resource.
+
+## FL-082 — bounded delay is not finite closure
+
+Session: P4-S035
+Date: 2026-10-06
+Status: **DURABLE ONE-HOLE NORMALIZATION LESSON**
+
+The P4-S034 phrase “late choice after raw determination” needs two refinements.
+
+First, “stake known at determination time” is not enough if it means after the determining raw bit has been read. A fair raw wager must be fixed before that pivot. Same-pivot late choice has an exact fair-price correction; the residual is a multiplicative late-choice premium.
+
+Second, finite local delay is not the real obstruction. Every late-decision mechanism confined to one closed finite block, or to a uniformly bounded closed packet of blocks, is harmless under every repeated invertible finite block recoding: finite Doob compression transfers the whole packet exactly.
+
+The first surviving architecture is **decision nonclosure across infinitely many blocks**. A pending spoiled parity in block \(b\) may wait for stake information from block \(b+1\), which creates the next pending parity, and so on. Individual delays may remain uniformly bounded while no finite packet closes.
+
+Correct guard: this is still only a compiler obstruction. It does not prove OH non-invariance or \(R_2\subsetneq OH\).
+
+Next bounded attack: P4-S036 on the dependency graph and infinite rays.
