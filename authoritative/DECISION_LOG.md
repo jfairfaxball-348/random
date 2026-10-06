@@ -858,3 +858,26 @@ Decision for P4-S036: formalize the dependency graph and test finite/well-founde
 The P4-S015–P4-S031 bankroll sequence remains frozen as the default route. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
 
 Record: phase4/P4-S035_MATHEMATICS.md.
+
+## D-0058 — replace packet-size/rank criteria by effective closed packetization and backward-price stabilization
+
+Session: P4-S036
+Date: 2026-10-06
+Type: Phase-4 mathematics theorem-selection refinement
+
+Decision/result: the finite side of the coded-hole obstruction is now controlled by **effective closed packetization**, not by a uniform packet-size bound and not by dependency rank.
+
+P4-S036 uses an exact persistent-savings transform to make every virtual martingale win persistently. This removes the only use of uniformly bounded packet cardinality in P4-S035. Every computably finite packet-closed witness, and more generally every witness admitting a total computable online finite closed packetizer, normalizes by finite Doob conditional expectations.
+
+Finite forward closure / well-foundedness is not the same effective resource. Rank-one examples show both that closure completion can encode halting information and that uniformly computable finite forward closures can overlap into an infinite symmetrized interaction component even with no directed infinite ray.
+
+For the explicit P4-S035 ray, raw coordinate reordering cannot retain a pivot after \(u_0,u_1\) are known. Yet every finite truncation has exact conditional-expectation compression. The selected obstruction is therefore the **effective stabilization of the finite-horizon backward fair-price vector of the open boundary claims**.
+
+Decision for P4-S037: attack rolling finite-state normalization on infinite interaction components. Test bounded open-claim width, finite boundary-state dimension, telescoping/contraction and computable Cauchy/projective moduli. Compare the simple ray, the no-ray rank-one overlap architecture and the actual recoded P4-S011 schedule.
+
+No OH non-invariance witness is established. The P4-S011 recoded source remains only known to be in \(CR\), not in \(OH\). The P4-S015–P4-S031 bankroll sequence remains frozen as the default route.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
+
+Record: phase4/P4-S036_MATHEMATICS.md.
+
