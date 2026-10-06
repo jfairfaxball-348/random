@@ -462,3 +462,23 @@ Records:
 - phase4/P4-S028_VALIDATION.md
 
 Recommended next bounded session: **P4-S029**, testing only whether finite dependency frontiers are necessary for bare admissibility or whether effectively decaying one-sided exposure gives an exact no-frontier solvent example.
+
+
+## Mathematics checkpoint — P4-S029
+
+P4-S029 shows that P4-S028's finite dependency frontier is sufficient but not necessary for bare canonical full-ticket admissibility.
+
+Reuse the exact P4-S028 first-1-search global-k=2 scan, so the initial epoch still has no finite dependency frontier and a later unseen filler can trigger the sentinel at every depth. Change only the output martingale: if the first 1 appears at filler n, make a fractional sentinel wager of size (2^{-n}), then freeze. With H=1, the stored-sentinel-1 postmiss tickets are ((0,2^{-n})), with fair premiums (2^{-(n+1)}) for n>=2. Their whole zero-payout tail sums to 1/4, so reserve R=1/4 is globally admissible.
+
+More generally, in the same first-1-search geometry a stake sequence (alpha_n) gives one-sided premium (alpha_n/2). Summable tails yield finite reserve; divergent tails fail on the stored-sentinel-1/all-zero sibling. Thus P4-S028 is the constant (alpha_n=1) insolvent case, while P4-S029 is the summably decaying solvent case.
+
+P4-S011/P4-S027 remains a different recycling mechanism: its finite frontier makes each positive ticket deterministic, so premium equals certain payout and reserve one can recycle even when premiums diverge. P4-S005 through P4-S028 remain settled; P4-S011 and P4-S015 through P4-S028 are preserved.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records:
+- phase4/P4-S029_MATHEMATICS.md
+- phase4/P4-S029_CLOSE.md
+- phase4/P4-S029_VALIDATION.md
+
+Recommended next bounded session: **P4-S030**, testing only whether no-frontier bare admissibility can survive divergent absolute premium sums through genuine self-financing payout recycling while arbitrarily late one-sided tickets remain.
