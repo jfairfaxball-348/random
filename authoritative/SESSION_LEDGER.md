@@ -1276,3 +1276,29 @@ P4-S005 through P4-S022 remain settled. P4-S011 and P4-S015 through P4-S022 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S024, testing only the sharpness of the uniform-tail assumption.
+
+## P4-S024 — pointwise tail convergence and the incompatible-branch comb
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh ticket/restart architecture; pointwise/branchwise tail sharpness only
+Status: **COMPLETED**
+
+Incoming checkpoint \`4f0eef36aa6c2223528c1e48a8e300f0e9d29ec0\` matched live \`main\` exactly before substantive work. Direct path checks found no P4-S024 mathematics, close or validation record, so the identifier was unique.
+
+P4-S024 separates oracle-uniform branchwise effectivity from genuinely nonuniform pointwise effectivity. Under global admissibility the bad-capital tree is computable, finitely branching and pruned. If one oracle functional returns a correct tail modulus on every branch, its halting cylinders cover the compact branch space; an effective finite-subcover search yields a computable global tail modulus. Thus semantic anti-Zeno again gives P4-S023 strict frontier separation and decidable Reach.
+
+The genuinely nonuniform weakening fails sharply. An exact globally k=2, globally admissible incompatible-branch comb has computable fixed-scale exhaustion and an explicit computable bad-capital loss bound. Every individual bad-capital branch has only finitely many positive losses, hence is eventually constant, branchwise effectively convergent and semantically non-Zeno at every integer boundary. Nevertheless Reach(e+2,2e+2) holds exactly when machine e halts.
+
+On a divergent machine, tooth t ends at loss m_e-2^{-(t+1)}, tending to m_e across incompatible teeth, while the Cantor-limit all-continue spine stays at m_e-2. The branch-limit loss is discontinuous. This is the exact incompatible-branch escape excluded by P4-S023's uniform tail condition.
+
+P4-S011 remains outside even the weak pointwise-tail regime under global admissibility because its computably random completion has divergent realized skipped gain in one bad-capital tree.
+
+Records: phase4/P4-S024_MATHEMATICS.md; phase4/P4-S024_CLOSE.md; phase4/P4-S024_VALIDATION.md. Durable decision: D-0046. Lesson: FL-072.
+
+P4-S005 through P4-S023 remain settled. P4-S011 and P4-S015 through P4-S023 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S025, testing only effective upper-semicontinuity / local tail-cap data versus searchable strict frontier separation.
