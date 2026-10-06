@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S021",
+  "last_updated_session": "P4-S022",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S021",
-      "record_path": "phase4/P4-S021_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S022",
+      "record_path": "phase4/P4-S022_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -594,6 +594,27 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S021_VALIDATION.md"
+      },
+      "phase4_k2_boundary_isolation_mathematics": {
+        "session": "P4-S022",
+        "scope": "k=2 anti-Zeno / boundary-isolation searchability only",
+        "result": "STRICT_RESIDUAL_FRONTIER_GAPS_DECIDE_REACH_BUT_RECOVER_THE_P4_S020_WITNESS_MODULUS",
+        "successful_mechanisms": [
+          "P4-S021 effective loss bounds plus fixed-scale waiting yield a computable global exhaustion frontier for every loss scale.",
+          "At an exhausted scale, a computable residual subscale cap gives a finitely checkable strict certificate that a queried integer boundary cannot be reached.",
+          "If every false Reach(K,m) instance eventually receives such a strict frontier certificate, dovetailing it with ordinary finite witness search decides exact Reach.",
+          "A separate bounded-crossing arm is unnecessary because true Reach already has c.e. finite witnesses.",
+          "Any resulting Reach decision procedure compiles to the P4-S020 witness modulus, so the new condition is only weaker as primitive local data, not final computability strength.",
+          "The P4-S021 geometric nonhalting branch keeps the exact residual tail equal to the current boundary gap, showing nonstrict E+Q<=m control is insufficient.",
+          "P4-S011 fails the underlying P4-S021 subscale-tail hypothesis under global admissibility."
+        ],
+        "obstruction": "The only surviving one-branch shrinking-scale obstruction is equality at a nonattained boundary: strict residual separation never appears although the computable tail tends to zero.",
+        "p4_s011_destroyer_preserved": true,
+        "p4_s015_through_p4_s021_preserved": true,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S022_VALIDATION.md"
       }
     },
     {
@@ -995,8 +1016,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S019",
-  "recommended_next_scope": "Stay at k=2 and test only whether P4-S018 loss-properness b(K)<infinity forces computable bad-capital loss bounds, or can be finite without a computable uniform bound.",
+  "recommended_next_session": "P4-S023",
+  "recommended_next_scope": "Phase 4 Mathematics only; selected CAND-01; k=2 semantic anti-Zeno/effective-compactness boundary after P4-S022.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
