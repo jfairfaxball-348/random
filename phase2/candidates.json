@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S012",
+  "last_updated_session": "P4-S014",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -411,6 +411,25 @@
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
+      },
+      "phase4_k2_budgeted_tail_mathematics": {
+        "session": "P4-S014",
+        "scope": "k=2 computably budgeted finite-horizon avoidance tails inside least-fresh stake subclass only",
+        "result": "COMPUTABLY_BUDGETED_FINITE_HORIZON_AVOIDANCE_TAILS_SUFFICE_FOR_ONE_MARTINGALE_SOURCE_TRANSFER",
+        "weakest_established_summability_condition": "A total computable horizon selector H(s) and one finite computable uniform pathwise bound on the sum of the exact conditional horizon-miss probabilities p(s) over all reached epoch states.",
+        "stronger_easy_form": "A computable summable epoch sequence epsilon_r uniformly bounding every reachable r-th epoch miss probability.",
+        "finite_deadlines_required": false,
+        "infinite_avoiding_siblings_allowed": true,
+        "exact_optional_projection_required": false,
+        "sentinel_first_completion_effective_isomorphism": true,
+        "miss_ticket_plus_truncated_restart_transfer": true,
+        "strict_separation_from_p4_s013": "Zero-stake wait-for-next-1 functional has an infinite all-zero avoiding sibling at each reached epoch while H_r=r+2 gives total miss budget <=1/2.",
+        "p4_s011_budgeted_tail_condition": false,
+        "absolute_necessity_claimed": false,
+        "next_boundary": "stake-weighted skipped-wager loss budgets with nonsummable raw miss probabilities",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
       }
     },
     {
@@ -812,8 +831,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S013",
-  "recommended_next_scope": "Stay at k=2 and test only the sibling-totality boundary for the P4-S012 self-avoiding partial predictor/stake mechanism: determine the weakest effective totality/deadline condition forcing preservation in the least-fresh scan subclass.",
+  "recommended_next_session": "P4-S015",
+  "recommended_next_scope": "Stay at k=2 and test only whether the P4-S014 computably budgeted raw miss-probability condition can be weakened to a computable stake-weighted skipped-wager loss budget allowing nonsummable raw horizon misses.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
