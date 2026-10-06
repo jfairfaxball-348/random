@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S014",
+  "last_completed_session": "P4-S016",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -53,7 +53,7 @@
     "authors": 75
   },
   "next_transition": "Run P4-S015: stay at k=2 and inside the least-fresh stake architecture; test only whether the P4-S014 unit miss-ticket budget can be weakened to a computable stake-weighted skipped-wager loss budget allowing nonsummable raw miss probabilities.",
-  "recommended_next_session": "P4-S016",
+  "recommended_next_session": "P4-S017",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S015",
-    "next_session": "P4-S016",
+    "last_session": "P4-S016",
+    "next_session": "P4-S017",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S015_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S015_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S015_VALIDATION.md",
+    "latest_record": "phase4/P4-S016_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S016_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S016_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -526,6 +526,28 @@
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "validation_record": "phase4/P4-S015_VALIDATION.md"
+    },
+    "k2_incremental_ticket_result": {
+      "session": "P4-S016",
+      "result": "ADVANCE_FUTURE_LOSS_ENVELOPE_ELIMINATED_BY_BUDGETED_LAST_CHANCE_ONE_STEP_TICKETS",
+      "output_martingale_relative": true,
+      "savings_wrapper_required_by_proof": true,
+      "advance_future_loss_envelope_required": false,
+      "exact_one_step_loss_uniformly_computable": true,
+      "exact_one_step_fair_price": "pi(v)=(L_v(0)+L_v(1))/2",
+      "finite_uniform_pathwise_premium_sum_sufficient": true,
+      "infinite_optional_projection_required": false,
+      "insurance_handles_divergent_realized_loss": true,
+      "restart_hedge_handles_finite_realized_loss": true,
+      "local_one_step_price_minimal": true,
+      "globally_weaker_than_p4_s015_claimed": false,
+      "p4_s011_satisfies_incremental_condition": false,
+      "p4_s011_target_premium_sum_diverges": true,
+      "absolute_necessity_claimed": false,
+      "next_question": "computable self-financing reserve condition weaker than absolute premium-sum budget",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "validation_record": "phase4/P4-S016_VALIDATION.md"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -652,5 +674,25 @@
     "k_gt_2_resolved": false,
     "novelty_claimed": false,
     "validation_record": "phase4/P4-S015_VALIDATION.md"
+  },
+  "phase4_k2_incremental_ticket_mathematics": {
+    "session": "P4-S016",
+    "scope": "k=2 envelope-free incremental postmiss loss-ticket transfer inside least-fresh stake subclass only",
+    "result": "LAST_CHANCE_ONE_STEP_FAIR_PREMIUMS_WITH_FINITE_PATHWISE_BUDGET_SUFFICE_WITHOUT_ADVANCE_FUTURE_LOSS_ENVELOPE",
+    "successful_mechanisms": [
+      "After a horizon miss, both child losses at the next fresh filler are exactly computable before that filler is drawn.",
+      "The exact fair one-step premium is the average of the two child losses and is locally minimal for a one-step covering ticket.",
+      "A finite uniform pathwise premium budget funds an insurance martingale whose payouts equal realized positive skipped gains.",
+      "Finite realized skipped gain leaves the P4-S015 restart hedge at positive scale; divergent realized gain makes insurance succeed.",
+      "No infinite optional projection, future supremum or advance computable envelope is used.",
+      "P4-S011 has divergent premium sum on its computably random target for every computable horizon selector."
+    ],
+    "unresolved_mechanism": "Whether the absolute premium-sum budget can be replaced by a computable self-financing reserve/admissibility condition.",
+    "p4_s011_destroyer_preserved": true,
+    "p4_s015_weighted_theorem_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false,
+    "novelty_claimed": false,
+    "validation_record": "phase4/P4-S016_VALIDATION.md"
   }
 }
