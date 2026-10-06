@@ -705,3 +705,19 @@ Embedding that partial predictor into the least-fresh-sentinel comb gives exactl
 Resolution: the branchwise-avoidable case supports an exact k=2 computable-randomness destroyer. Any positive theorem for a narrower subclass must add enough totality or uniformity to exclude this partial-autoreduction mechanism.
 
 Lesson: distinguish a predictor that halts correctly on the target from one that is total on every oracle.
+
+
+## FL-060 — martingale success yields self-avoiding stakes, not automatically an error-free autoreduction
+
+Session: P4-S012
+Status: PHASE-4 k=2 PARTIAL-PREDICTOR / CONVERSE GUARD
+
+The P4-S011 witness was stated using a computably random weak-truth-table-autoreducible source, but the scan conversion never uses the computable use bound. It only waits until the current sentinel has a finite visible computation which avoids that sentinel and is correct on the target. Even prediction at filler coordinates is unnecessary. A still weaker rational stake output suffices if the target stake capital is unbounded.
+
+The converse has a similarly precise level. Once P4-S008 forces a winning computably random scan source to be singleton, one can simulate the scan up to coordinate j while withholding j and read off the winning martingale's signed fractional stake. This gives a self-avoiding partial stake functional total on the target and reproduces the martingale exactly in the original scan order.
+
+The failed inference is to promote this automatically to an all-correct bit autoreduction. A fractional martingale can grow despite infinitely many wrong favoured-bit wagers; only all-in wagers are forced to be correct on a succeeding path. Moreover the induced stake functional is order-sensitive: success in the original scan order need not survive a different least-fresh ordering.
+
+Resolution: use “partial self-betting” as the structural level justified by an arbitrary singleton winning scan. Treat all-correct partial prediction as the stronger full-wager special case exemplified by P4-S011. Do not infer a strict separation between these source properties without a separate theorem.
+
+Lesson: the next positive boundary is not bounded use. It is enough effective sibling totality to rule out the branchwise-divergent turnover that powers P4-S011.

@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S011",
+  "last_completed_session": "P4-S012",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S012: stay at k=2, treat P4-S011 as settled, abstract the weakest partial autoreduction/predictor hypothesis sufficient for the singleton-spine scan conversion, and test the converse only inside the global k=2 adaptive no-repeat scan subclass.",
-  "recommended_next_session": "P4-S012",
+  "next_transition": "Run P4-S013: stay at k=2, treat P4-S012 as settled, and test only whether total-on-all-oracles or a weaker effective uniform-totality/deadline condition on the self-avoiding predictor/stake functional forces computable-randomness preservation for the least-fresh scan subclass.",
+  "recommended_next_session": "P4-S013",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,11 +297,11 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S011",
-    "next_session": "P4-S012",
+    "last_session": "P4-S012",
+    "next_session": "P4-S013",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S011_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S011_CLOSE.md",
+    "latest_record": "phase4/P4-S012_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S012_CLOSE.md",
     "latest_validation_record": "phase4/P4-S011_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
@@ -450,6 +450,22 @@
       "src0061_reused": false,
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_predictor_boundary_result": {
+      "session": "P4-S012",
+      "result": "LEAST_FRESH_CONVERSION_NEEDS_ONLY_TARGET_WINNING_SELF_AVOIDING_PARTIAL_STAKES_SCAN_CONVERSE_EXACT_AT_STAKE_LEVEL",
+      "wtt_use_bound_needed_by_conversion": false,
+      "filler_coordinate_predictions_needed": false,
+      "sentinel_local_correct_partial_predictions_sufficient": true,
+      "target_winning_fractional_stake_spine_sufficient": true,
+      "every_cr_winning_global_k2_scan_singleton_by": "P4-S008",
+      "scan_induces_self_avoiding_stake_functional_total_on_target": true,
+      "stake_capital_reproduces_output_martingale_in_original_scan_order": true,
+      "arbitrary_success_forces_all_correct_bit_autoreduction": false,
+      "all_in_wagers_on_succeeding_path_correct": true,
+      "next_question": "sibling totality or weaker effective uniform-totality/deadline condition for least-fresh preservation",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -497,6 +513,22 @@
     "general_k2_forward_computable_randomness_resolved": true,
     "general_k2_forward_computable_randomness_preserved": false,
     "next_question": "structural equivalence between partial autoreduction/predictor schemes and singleton-spine global-k2 no-repeat scan destroyers",
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false
+  },
+  "phase4_k2_predictor_boundary_mathematics": {
+    "session": "P4-S012",
+    "scope": "k=2 partial-predictor / singleton-scan converse boundary only",
+    "result": "TARGET_WINNING_SELF_AVOIDING_PARTIAL_STAKES_SUFFICE_AND_EVERY_SINGLETON_WINNING_SCAN_INDUCES_THEM_IN_ORIGINAL_ORDER",
+    "successful_mechanisms": [
+      "The P4-S011 least-fresh conversion does not use the wtt use bound or predictions at filler coordinates.",
+      "Sentinel-local c.e.-visible self-avoiding correct predictions suffice; target-winning rational fractional stakes suffice more generally.",
+      "Every computably-random winning global-k=2 no-repeat scan is singleton by P4-S008 and induces a self-avoiding stake functional total on that source.",
+      "The induced stakes reproduce the winning rational martingale exactly in the original scan order.",
+      "All-in wagers on a succeeding path are necessarily correct."
+    ],
+    "unresolved_mechanism": "Arbitrary martingale success does not force an all-correct bit autoreduction, and reordering the induced stakes into a new least-fresh comb is not justified. The next boundary is effective sibling totality.",
+    "p4_s011_destroyer_preserved": true,
     "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
     "k_gt_2_resolved": false
   }

@@ -992,3 +992,28 @@ Records: phase4/P4-S011_MATHEMATICS.md, phase4/P4-S011_CLOSE.md, phase4/P4-S011_
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: NONE.
 
 Recommended next session: P4-S012, still at k=2, abstracting the weakest partial-predictor hypothesis sufficient for the P4-S011 scan conversion and testing the converse inside the global-k=2 adaptive no-repeat scan subclass.
+
+
+## P4-S012 — partial-predictor / scan-converse boundary
+
+Status: COMPLETED
+
+Date: 2026-10-06. Incoming checkpoint: 491c671be615abd9bef9b3e9239ccdb74b76b22b, matching live main exactly before substantive work. The incoming phase4 directory contained no P4-S012 record, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 structural investigation on selected CAND-01, restricted to k=2 and preserving the exact P4-S011 destroyer.
+
+Result: P4-S011's weak-truth-table use bound is stronger than the scan conversion requires. The least-fresh construction only needs c.e.-visible self-avoiding correct partial predictions at the sentinels generated on the target; more generally, target-winning rational fractional stakes suffice. No prediction is needed at filler coordinates and no sibling-oracle totality is assumed.
+
+The converse is exact at the stake level. By P4-S008, a computably random source on which a global-k=2 no-repeat scan wins must be singleton and every coordinate is eventually queried. Simulating that scan up to coordinate j without reading j gives a self-avoiding partial functional which outputs the winning martingale's exact signed stake at j. On the winning source it halts for every j, and in the original scan order its stake capital equals the output martingale capital.
+
+An all-correct bit-autoreduction converse is not established. Fractional martingale success may include infinitely many wrong favoured-bit wagers; all-in wagers on a succeeding path are necessarily correct. Query order can also matter when trying to re-embed the induced stakes in a different least-fresh comb.
+
+P4-S005 through P4-S011 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records: phase4/P4-S012_MATHEMATICS.md, phase4/P4-S012_CLOSE.md, phase4/P4-S012_VALIDATION.md. Durable decision: D-0034. Lesson: FL-060.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S013, still restricted to k=2, testing only whether sibling-totality or the weakest effective uniform-totality/deadline substitute forces preservation for the least-fresh partial-stake scan subclass.
+
+The exact outgoing main hash is verified after closeout and reported in the session response.

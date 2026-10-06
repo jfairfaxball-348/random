@@ -363,3 +363,20 @@ Therefore the general k=2 forward-preservation question is settled negatively by
 This is programme mathematics, not a novelty finding. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. SRC-0061 is not reused. No k>2 result is asserted. Gate 4 is not reviewed and Phase 5 remains closed.
 
 Record: phase4/P4-S011_MATHEMATICS.md.
+
+
+## D-0034 — the k=2 scan mechanism is partial self-betting; the converse is exact at stake level
+
+On 2026-10-06, P4-S012 continued selected CAND-01 strictly at k=2 and abstracted the P4-S011 destroyer without altering it.
+
+Decision/result: the P4-S011 least-fresh conversion does not use the weak-truth-table use bound. It needs only target-visible self-avoiding partial predictions at the recursively generated sentinels; predictions at filler coordinates are irrelevant. More generally, a target-winning self-avoiding rational stake spine is sufficient.
+
+Conversely, every global-k=2 adaptive no-repeat scan winning on a computably random source induces a partial self-avoiding stake functional total on that source. P4-S008 forces the winning transcript to be singleton; simulating the scan up to each coordinate without reading it and reading off the output martingale's signed stake reproduces the winning capital exactly in the scan's original order.
+
+This does not establish an all-correct bit-autoreduction converse. Fractional success can survive infinitely many wrong favoured-bit predictions, although all-in wagers on a succeeding path must be correct. Reordering the induced stakes into a new least-fresh scan is not justified automatically.
+
+The new live boundary is sibling totality: P4-S011 relies on a target-correct partial computation which may diverge on sibling oracles. P4-S013 should test whether total-on-all-oracles or a weaker effective uniform-totality/deadline condition forces preservation for the least-fresh subclass.
+
+P4-S011's exact destroyer remains settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S012_MATHEMATICS.md.

@@ -202,3 +202,19 @@ Records:
 - phase4/P4-S011_VALIDATION.md
 
 Next recommended session: P4-S012, still at k=2, abstracting the weakest partial-predictor/autoreduction hypothesis sufficient for the destroyer and testing the converse inside the adaptive no-repeat scan subclass.
+
+
+## P4-S012 — k=2 partial-predictor / scan-converse boundary
+
+P4-S012 isolates the exact data used by P4-S011's least-fresh conversion. The weak-truth-table use bound is not used: it suffices that each generated target sentinel receives a finite visible self-avoiding correct partial prediction. Predictions at filler coordinates and totality on sibling oracles are unnecessary. More generally, the visible computation may output any rational fractional stake in [-1,1]; if the target stake capital is unbounded, the same least-fresh scan is total, no-repeat, fair-coin preserving, globally k=2, singleton on the target and defeated by a computable output martingale.
+
+The converse is exact at the stake level. For a global-k=2 no-repeat scan winning on a computably random source, P4-S008 first forces singletonhood. For each coordinate j, simulate the scan from the start using the oracle away from j until the scan is about to query j. The winning rational martingale then determines a signed fractional stake. This partial functional never queries j, halts on the winning source for every j, and in the original scan order reproduces the output capital exactly.
+
+A full all-correct bit-autoreduction converse is not obtained. Arbitrary fractional martingales may succeed while making infinitely many wrong favoured-bit wagers; all-in wagers on a succeeding path are necessarily correct. Re-embedding the scan-relative stakes into a different least-fresh order is also not justified automatically.
+
+Records:
+- phase4/P4-S012_MATHEMATICS.md
+- phase4/P4-S012_CLOSE.md
+- phase4/P4-S012_VALIDATION.md
+
+Next recommended session: **P4-S013**, still at k=2, testing only the sibling-totality boundary: whether total-on-all-oracles, or a weaker effective uniform-totality/deadline condition, forces a computable source martingale for the least-fresh partial-stake subclass.

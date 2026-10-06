@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S011",
+  "last_updated_session": "P4-S012",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S011",
-      "record_path": "phase4/P4-S011_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S012",
+      "record_path": "phase4/P4-S012_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -377,6 +377,22 @@
         "general_k2_forward_computable_randomness_preserved": false,
         "winning_source_singleton_fibre": true,
         "src0061_reused": false,
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_predictor_boundary_mathematics": {
+        "session": "P4-S012",
+        "scope": "k=2 partial-predictor / singleton-scan converse boundary only",
+        "result": "TARGET_WINNING_SELF_AVOIDING_PARTIAL_STAKES_SUFFICE_SCAN_CONVERSE_EXACT_AT_STAKE_LEVEL",
+        "wtt_use_bound_needed_by_conversion": false,
+        "sentinel_local_correct_partial_predictions_sufficient": true,
+        "target_winning_partial_stakes_sufficient": true,
+        "scan_converse": "Every computably-random winning global-k=2 no-repeat scan induces a self-avoiding stake functional total on the winning source which reproduces the output martingale in the original query order.",
+        "all_correct_bit_autoreduction_converse": "NOT_ESTABLISHED_FOR_ARBITRARY_WINNING_MARTINGALE",
+        "all_in_special_case": "Every all-in wager on a succeeding path is correct.",
+        "next_boundary": "effective sibling totality / uniform deadline sufficient for least-fresh preservation",
+        "p4_s011_destroyer_preserved": true,
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
@@ -781,8 +797,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S012",
-  "recommended_next_scope": "Stay at k=2 and abstract the P4-S011 autoreduction-to-scan destroyer into the weakest sufficient partial-predictor hypothesis; test the converse only inside the global k=2 adaptive no-repeat scan subclass.",
+  "recommended_next_session": "P4-S013",
+  "recommended_next_scope": "Stay at k=2 and test only the sibling-totality boundary for the P4-S012 self-avoiding partial predictor/stake mechanism: determine the weakest effective totality/deadline condition forcing preservation in the least-fresh scan subclass.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",

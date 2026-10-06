@@ -15,7 +15,7 @@ Repository: https://github.com/jfairfaxball-348/random
 10. `authoritative/DECISION_LOG.md`
 11. `docs/FAILURE_AND_LESSON_LEDGER.md`
 12. `authoritative/SESSION_LEDGER.md`
-13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, `phase3/P3-S007_SELECTION_DECISION.md`, and `phase3/P3-S008_GATE3_REVIEW.md`; then `phase4/README.md`, the P4-S001 through P4-S011 mathematics/close/validation records; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
+13. `phase3/README.md`, `phase3/prior-art.json`, `phase3/P3-S001_PRIOR_ART.md` through `phase3/P3-S003_PRIOR_ART.md`, `phase3/P3-S004_SIGNIFICANCE.md`, `phase3/P3-S005_SIGNIFICANCE.md`, `phase3/P3-S006_SELECTION_READINESS_AUDIT.md`, `phase3/P3-S007_SELECTION_DECISION.md`, and `phase3/P3-S008_GATE3_REVIEW.md`; then `phase4/README.md`, the P4-S001 through P4-S012 mathematics/close/validation records; then `phase2/README.md`, `phase2/candidates.json`, `phase2/P2-S006_GATE2_REVIEW.md`, `phase2/P2-S006_CLOSE.md` and `phase2/P2-S006_VALIDATION.md` when tracing candidate authority
 
 ## Current authority
 
@@ -61,6 +61,8 @@ P4-S010 answers the threshold-capping subquestion negatively. A computable globa
 
 P4-S011 supplies the missing source-randomness step. SRC-0067 / SRC-0068 / THM-0076 provide a computably random weak-truth-table-autoreducible source. Its partial autoreduction is embedded into the least-fresh-sentinel comb; nontrigger branches omit exactly one sentinel, all-trigger branches query every coordinate, and the scan preserves fair coin. On the computably random source every prediction triggers correctly, while one computable output martingale doubles at each sentinel. Thus exact k=2 forward computable-randomness preservation fails.
 
-Recommended next bounded session: `P4-S012`, still restricted to k=2, focused on the structural explanation of the P4-S011 witness: isolate the weakest partial autoreduction/predictor hypothesis sufficient for the singleton-spine scan conversion and test the converse inside the global-k=2 adaptive no-repeat scan subclass. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
+P4-S012 isolates the structural content of that witness. The wtt use bound and predictions at filler coordinates are not needed by the least-fresh conversion; target-visible self-avoiding partial predictions suffice, and a still weaker target-winning rational stake spine suffices as well. Conversely, any computably-random singleton-spine winning global-k=2 no-repeat scan induces a self-avoiding stake functional, total on the winning source, which exactly reproduces the output martingale in the original scan order. Arbitrary martingale success does not force all favoured-bit predictions to be correct, so a full all-correct bit-autoreduction converse is not established.
+
+Recommended next bounded session: `P4-S013`, still restricted to k=2, focused only on the sibling-totality boundary: test whether total-on-all-oracles or a weaker effective uniform-totality/deadline condition on the self-avoiding predictor/stake functional forces preservation for the least-fresh scan subclass. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
