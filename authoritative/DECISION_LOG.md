@@ -495,3 +495,19 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 
 Record: phase4/P4-S018_MATHEMATICS.md.
 
+## D-0041 — finite loss-properness need not have any computable uniform bound
+
+Session: P4-S019
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, do **not** infer a computable running-maximum coercivity modulus from the set-theoretic condition b(K)=sup{E(v):W*(v)<K}<infinity for every K.
+
+For a computable admissible ticket tree, K -> b(K) is uniformly lower semicomputable. A halting-coded construction using only zero-stake controls and the two settled P4-S017 gadgets has every b(K) finite while no total computable function majorizes them. The finite bad-capital loss heights can therefore encode noncomputable halting-time information.
+
+The exact numerical strengthening sufficient for the P4-S018 proof is effective loss-properness: a total computable U(K) uniformly bounding E on histories with W*<K. This is equivalent, up to a harmless margin, to a computable P4-S018 coercivity threshold.
+
+P4-S011 cannot satisfy set-theoretic loss-properness for any globally admissible full-ticket account; bare admissibility itself remains unruled-out.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S019_MATHEMATICS.md.
