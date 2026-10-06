@@ -350,3 +350,19 @@ The next central question is whether R_2=OH. If yes, P4-S012 becomes a source-si
 Next session: P4-S033, first normalization attack from the effective width-two inverse skeleton. See phase4/P4-S032_MATHEMATICS.md and authoritative/NEXT_SESSION_PROMPT.md.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No novelty, prior-art, Gate-4, publication or outreach work is authorized.
+
+## Latest mathematics — P4-S033
+
+P4-S033 is complete and validated. The sustained target remains whether R_2=OH.
+
+The first normalization attempt finds that P4-S007 width two is only one binary inverse cohort; it need not be one raw source-coordinate hole. R_2 is invariant under every computable fair-coin-preserving homeomorphism. The new comparison class
+
+OH^iso = {x in CR : every computable fair-coin homeomorphism H sends x into OH}
+
+satisfies R_2 subseteq OH^iso subseteq OH. Therefore R_2=OH requires homeomorphism invariance of OH.
+
+OH is invariant under signed coordinate permutations. But literal map-level normalization fails: an explicit three-bit linear source recoding of the P4-S011 destroyer produces a destructive k=2 map whose double fibres differ in two or three raw coordinates. This is the current **coded-hole obstruction**.
+
+Next session: **P4-S034**, test whether the explicit coded hole can be absorbed at the source level by a raw one-hole scan/stake witness. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; Phase 4 OPEN, Phase 5 CLOSED.
