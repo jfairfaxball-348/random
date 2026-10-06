@@ -31,3 +31,18 @@ A phase transition is permitted only when the current phase's committed gate rec
 The name **Fairfax-Ball Randomness** is an objective of the programme, not a presupposed result. The programme must be willing to conclude that a proposed notion is already known, equivalent to an existing notion, mathematically uninteresting, inadequately motivated, or otherwise not publication-worthy. The name is earned only by a definition and theorem package that survive the preceding gates.
 
 See `AGENTS.md`, `PROJECT_CHARTER.md`, `ROADMAP.md` and `authoritative/START_HERE.md`.
+
+
+## Mathematics checkpoint — P4-S016 (not a gate review)
+
+P4-S016 removes the extra advance future-loss envelope from P4-S015 inside the k=2 least-fresh stake subclass. After a finite-horizon miss, each unresolved state still has a fresh filler bit. Before that bit is drawn, both possible child states can be simulated. If a child makes the sentinel trigger, the exact positive skipped gain of the savings-wrapped output martingale is computable; otherwise its immediate loss is zero. The exact one-step fair ticket price is the average of those two child losses.
+
+A finite computable uniform pathwise bound on the sum of these automatic last-chance fair prices funds one insurance martingale. If realized skipped gains diverge, insurance succeeds; if they have finite sum, the restart hedge keeps a positive multiplicative scale and succeeds with the savings-wrapped output martingale. The sentinel-first completion remains an effective isomorphism, so one source martingale follows.
+
+No infinite optional projection, future supremum or advance computable loss envelope is used. The one-step premium is locally minimal for this ticket architecture. P4-S015 and P4-S016 numerical certificates are not claimed globally ordered.
+
+P4-S011 violates the incremental premium condition on its target path for every computable horizon selector: its realized skipped-gain sum must diverge, and each final pre-trigger premium is at least half the realized loss.
+
+P4-S005 through P4-S015 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S017, still restricted to k=2, testing only whether the absolute pathwise premium-sum budget can be weakened to a computable self-financing reserve condition.
