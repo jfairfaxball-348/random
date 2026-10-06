@@ -596,3 +596,20 @@ The exact failure is discontinuity of the branch-limit loss. Do not infer search
 P4-S011 remains outside even the weak pointwise-tail regime under global admissibility. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S024_MATHEMATICS.md.
+
+## D-0047 — effective upper caps compactify; semantic continuity need not effectivize the gap
+
+Session: P4-S025
+Date: 2026-10-06
+
+Decision/result: inside the k=2 least-fresh ticket/restart architecture, a complete effective upper-semicontinuity presentation of the bad-capital branch-limit loss is sufficient with semantic anti-Zeno, but it is not a genuine weakening of P4-S023's computable global tail modulus.
+
+A c.e. sound local upper-cap basis can be refined to cylinders on which the cap lies within \(2^{-n}\) of the current finite-prefix loss. Pointwise convergence makes those cylinders cover the computable pruned bad-capital branch space. Effective compactness finds a finite subcover, yielding a computable global uniform tail modulus. Conversely, a computable uniform tail modulus enumerates such an upper-cap basis. Semantic anti-Zeno then gives the P4-S023 strict frontier certificate and decidable Reach.
+
+Ordinary upper-semicontinuity is not enough effectively. A delayed-activation exact global-k=2 admissible comb has continuous branch-limit loss, eventual constancy and semantic anti-Zeno on every bad-capital branch, computable fixed-scale exhaustion and effective loss-properness, yet Reach(e+2,2e+2) is equivalent to machine-e halting. The missing information is the effective upper-cap / continuity modulus.
+
+Boundary-specific effective caps can be weaker as primitive syntax, but if they uniformly cover every false integer Reach instance they are exactly a topological presentation of semidecidable Bar(K,m), hence recover P4-S020 searchability.
+
+P4-S011 remains outside even the semantic finite-limit regime under global admissibility. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S025_MATHEMATICS.md.
