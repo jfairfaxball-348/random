@@ -316,3 +316,18 @@ The P4-S021 geometric machine tail remains the sharp equality obstruction: on di
 P4-S011 remains outside the P4-S021 scale-tail regime under global admissibility. P4-S005 through P4-S021 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Recommended next bounded session: P4-S023, testing only whether semantic exclusion of nonattaining integer-boundary Zeno paths plus strong effective tail convergence forces a searchable strict frontier gap by effective compactness.
+
+
+## Mathematics checkpoint — P4-S023 (not a gate review)
+
+P4-S023 answers P4-S022's semantic anti-Zeno question positively under the strong P4-S021 tail form. Computable global fixed-scale exhaustion plus a uniformly and effectively vanishing subscale tail makes bad-capital cumulative loss uniformly Cauchy.
+
+If Reach(K,m) is false and no bad-capital branch converges to m from below without finite attainment, then failure of every strict P4-S022 frontier gap would give finer near-m frontier nodes whose compact diagonal limit is an infinite bad-capital branch with loss exactly m. Uniform tail control is what transfers the near-boundary values to that limit branch. This contradicts semantic anti-Zeno.
+
+Hence a strict frontier certificate is eventually searchable, exact Reach is decidable under the promise, and P4-S020's witness modulus is recoverable. The proposed incompatible-branch halting escape cannot satisfy the strong uniform-tail and semantic anti-Zeno hypotheses simultaneously.
+
+P4-S021's geometric halting example fails the semantic promise exactly on its nonhalting Zeno branch. P4-S011 remains outside the strong tail regime under global admissibility because its bad-capital target has unbounded realized loss below every fixed positive scale.
+
+P4-S005 through P4-S022 remain settled; P4-S011 and P4-S015 through P4-S022 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S024, testing only whether the uniform effective tail hypothesis can be weakened to pointwise or branchwise effective convergence, or whether incompatible branches then recover a halting obstruction.
