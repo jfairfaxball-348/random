@@ -918,3 +918,21 @@ That is false if the moduli are genuinely nonuniform. P4-S024 builds a computabl
 Resolution: distinguish **pointwise existence of computable moduli** from **one oracle-uniform branch-modulus functional**. The latter compactifies effectively to a global uniform modulus on the pruned bad-capital tree; the former does not.
 
 Guard: semantic anti-Zeno is branchwise and does not by itself control discontinuity across branches. The next useful hypothesis should target effective upper-semicontinuity or an equivalent computable local tail-cap basis, not merely restate pointwise convergence. P4-S011 remains outside even the weak pointwise-tail regime under global admissibility.
+
+## FL-073 — continuity is not an effective frontier certificate
+
+Session: P4-S025
+Date: 2026-10-06
+Status: PHASE-4 k=2 EFFECTIVE-UPPER-SEMICONTINUITY / COMPACTNESS GUARD
+
+P4-S024 isolated discontinuity of the branch-limit loss as the failure of genuinely nonuniform pointwise tails. It is tempting to conclude that restoring continuity should make semantic anti-Zeno computationally sufficient.
+
+That inference is false. P4-S025's delayed-activation comb keeps the branch-limit loss continuous: on a nonhalting selected-e comb, tooth losses converge to the all-continue spine; if a halt is detected, every still-surviving branch receives the same finite correction. Every branch is eventually loss-constant and non-Zeno. Yet exact Reach still codes halting.
+
+The missing datum is effective upper information. A complete c.e. local upper-cap basis is much stronger than semantic continuity: on the computable pruned bad-capital tree it compactifies to a computable global uniform tail modulus. Thus full effective upper-semicontinuity collapses back to the P4-S023 regime.
+
+Resolution: distinguish ordinary continuity/usc from an effective upper-cap representation. Do not treat a set-theoretic compactness gap as searchable without effective upper neighborhoods. Boundary-specific effective caps are useful only when they supply the already-needed positive certificate for Bar(K,m).
+
+P4-S011 remains outside even the finite branch-limit regime under global admissibility.
+
+Guard: this is a boundary inside the settled k=2 ticket/restart architecture, not a necessity theorem for arbitrary martingale transfers.
