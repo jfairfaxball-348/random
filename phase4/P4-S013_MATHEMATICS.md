@@ -38,9 +38,9 @@ This is strictly weaker than full oracle-totality: for every Z and every n, B^Z(
 
 ### Definition — the epoch avoidance tree
 
-Fix a reachable finite epoch state s and its current sentinel j. Continue the least-fresh filler rule while refusing to consume j. A finite binary string rho belongs to A_s if rho can be used as the successive fresh filler answers for |rho| steps and, after those answers, no valid halting computation B(j) is yet visible.
+Fix a reachable finite epoch state s and its current sentinel j. Let T_B denote the already-established total computable least-fresh scan induced by B. A finite binary string rho belongs to A_s if, when T_B is simulated from s with rho supplying the successive fresh filler answers, the first |rho| output steps of that epoch all avoid j.
 
-A_s is a computable prefix-closed binary tree.
+A_s is a computable prefix-closed binary tree: for a fixed rho, simulate the total next-query procedure of T_B for exactly |rho| steps and check whether every queried coordinate is a filler rather than j. This operational definition avoids any need to decide an unbounded raw halting question for B.
 
 ### Lemma 1 — local totality, no avoiding sibling and finite deadline are equivalent
 
