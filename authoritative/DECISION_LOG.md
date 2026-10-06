@@ -417,3 +417,28 @@ P4-S011 necessarily violates this condition: otherwise its successful output mar
 This is a sufficient boundary, not an absolute necessity result. A stake-weighted weakening remains open. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S014_MATHEMATICS.md.
+
+
+## D-0037 — charge finite-horizon misses by possible positive skipped-sentinel gain, not by unit mass
+
+Session: P4-S015
+Date: 2026-10-06
+Decision: **USE A COMPUTABLE LEAF-DEPENDENT POSITIVE SKIPPED-GAIN PRICE AS THE NEXT POSITIVE TRANSFER BOUNDARY INSIDE THE k=2 LEAST-FRESH STAKE SUBCLASS.**
+
+For a given computable output martingale, apply a savings wrapper that preserves or reduces fractional stake sizes and tends to infinity along all late prefixes whenever the original martingale succeeds.
+
+At reachable epoch state s and finite horizon H(s), a miss leaf consists of the prequeried sentinel bit b and a filler string rho in the avoidance tree. Let w(s,b,rho) be a computable rational majorant of the positive multiplicative gain of any later sentinel wager that would be skipped from that leaf. The exact finite fair ticket price is
+c(s)=2^{-(H(s)+1)} sum_rho(w(s,0,rho)+w(s,1,rho)).
+A single finite computable pathwise budget on the sum of c(s) is sufficient.
+
+Weighted tickets succeed when realized miss weights diverge. Otherwise the P4-S014 restart hedge loses at most factors 1+w and keeps a positive scale against the savings-wrapped output martingale. Thus one completion martingale, and hence one source martingale via P4-S001, succeeds whenever the certified output martingale succeeds.
+
+The coarser condition sum p(s)a(s)<infinity follows when a computable epoch weight a(s) uniformly bounds possible positive post-horizon sentinel gain. Raw miss probabilities may be nonsummable.
+
+The boundary is strictly below P4-S014: an explicit two-control-bit scan has permanent avoidance probability 1/4 at every epoch, excluding every raw-tail certificate, while small sentinel stakes have total weighted price at most 1/4.
+
+The exact pointwise minimal envelope need not be computable, so an effective envelope or stronger computable data is a real hypothesis. P4-S011's all-in correct-prediction destroyer has no finite certificate of this form.
+
+This is programme mathematics, not a novelty finding or an absolute necessity theorem. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. DEF-0020 is unchanged. No k>2, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S015_MATHEMATICS.md.
