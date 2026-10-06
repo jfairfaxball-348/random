@@ -563,3 +563,19 @@ P4-S011 fails the underlying P4-S021 scale-tail hypothesis under global admissib
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S022_MATHEMATICS.md.
+
+
+## D-0045 — strong uniform effective tails turn semantic anti-Zeno into searchable boundary separation
+
+Session: P4-S023
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, computable fixed-scale exhaustion plus a uniformly/effectively vanishing subscale tail makes semantic anti-Zeno sufficient for the P4-S022 strict frontier certificate.
+
+If false Reach(K,m) had no strict certificate, finer frontier nodes would have E arbitrarily close to m. Uniform tail convergence prevents substantial late loss after common prefixes, so compactness turns a diagonal subsequence into an infinite bad-capital branch with limit loss exactly m. False Reach keeps every finite prefix below m, contradicting semantic anti-Zeno.
+
+Therefore exact Reach is decidable under the promise and P4-S020's witness modulus is recoverable. Do not claim an incompatible-branch counterexample under the strong uniform-tail hypothesis.
+
+P4-S011 fails the strong tail hypothesis under global admissibility. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S023_MATHEMATICS.md.
