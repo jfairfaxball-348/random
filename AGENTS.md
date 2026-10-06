@@ -302,3 +302,17 @@ P4-S011 fails the scale-tail hypothesis strongly under global admissibility: its
 P4-S005 through P4-S020 remain settled. P4-S011 and P4-S015 through P4-S020 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S022, still at k=2, testing only whether a computable anti-Zeno / boundary-isolation condition weaker than an explicit P4-S020 witness modulus makes exact loss-level reachability decidable, or whether halting information survives another shrinking-scale coding.
+
+## Mathematics checkpoint — P4-S022 (not a gate review)
+
+P4-S022 stays strictly at k=2 and closes the first anti-Zeno / boundary-isolation question after P4-S021. The P4-S021 effective bad-capital loss bound plus its large-loss waiting modulus yield a computable frontier after which no loss at a fixed scale remains possible. At such a frontier, a computable residual subscale cap Q makes (E+Q<m) a finite strict certificate that a queried integer boundary is unreachable.
+
+If every false Reach(K,m) eventually receives such a strict frontier certificate, exact Reach is decidable by dovetailing negative certificate search with the existing c.e. positive witness search. No separate local bounded-crossing arm is required.
+
+Do not describe this as strictly weaker than P4-S020 in final effective strength. P4-S020 already proves decidable Reach equivalent to a computable witness modulus D(K,m), so P4-S022 provides only a more local primitive route to the same exact searchability.
+
+The P4-S021 geometric machine tail remains the sharp equality obstruction: on divergence the computable residual equals the gap to m at every finite stage; on halting the residual is paid finitely. Nonstrict tail control does not decide Reach.
+
+P4-S011 remains outside the P4-S021 scale-tail regime under global admissibility. P4-S005 through P4-S021 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Recommended next bounded session: P4-S023, testing only whether semantic exclusion of nonattaining integer-boundary Zeno paths plus strong effective tail convergence forces a searchable strict frontier gap by effective compactness.
