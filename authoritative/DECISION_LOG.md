@@ -816,3 +816,25 @@ A blockwise three-bit linear precomposition of the P4-S011 destroyer preserves t
 Decision for P4-S034: test OH invariance under the explicit three-bit homeomorphism at the P4-S012 stake level. Do not return to the frozen bankroll sequence.
 
 Guards: PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; no novelty, Gate-4, publication or outreach conclusion.
+
+## D-0056 — treat late-decision spoiled gain as the next coded-hole obstruction
+
+Session: P4-S034
+Date: 2026-10-06
+Type: Phase-4 mathematics theorem-selection refinement
+
+Decision/result: finite source recoding is now on the positive side of the one-hole normalization boundary, while the repeated three-bit recoding is reduced to an infinitary delayed-stake problem.
+
+P4-S034 proves that OH is invariant under every computable finite-coordinate fair-coin recoding. This strictly enlarges P4-S033's signed-coordinate-permutation class: a finite CNOT recoding is allowed. Hence every finite truncation of the explicit repeated three-bit mixer preserves OH.
+
+At the P4-S012 level, direct pullback through the mixer yields vector-self-avoidance rather than raw-coordinate self-avoidance. A canonical support evaluator nevertheless turns every virtual one-hole scan for a repeated invertible binary block matrix into a raw one-hole scan. For the displayed matrix this evaluator is exhaustive. It copies all virtual wagers made while a fresh raw pivot remains and skips only **spoiled** wagers whose parity has already become determined in raw time.
+
+Since the evaluator is an effective isomorphism, copied live-pivot wagers cannot give an unbounded computable martingale on a computably random raw source. Any surviving destruction must therefore carry unbounded multiplicative gain in the spoiled wagers.
+
+Decision for P4-S035: formalize the determination-time versus stake-selection-time gap. First settle the early-decided case, where a spoiled stake is already known when its last raw pivot is exposed; then attack the genuinely late-decision case.
+
+No OH non-invariance witness is established, so no strict \(R_2\subsetneq OH\) claim is made. \(OH^{iso}\) remains the comparison class.
+
+The P4-S015–P4-S031 bankroll sequence remains frozen as the default route. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
+
+Record: phase4/P4-S034_MATHEMATICS.md.
