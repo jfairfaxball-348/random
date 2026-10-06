@@ -544,3 +544,22 @@ P4-S011 violates the scale-tail hypothesis under global admissibility because it
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S021_MATHEMATICS.md.
+
+## D-0044 — exact boundary search needs a strict residual-gap certificate; any full decision compiles to the P4-S020 witness modulus
+
+Session: P4-S022
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, P4-S021 scale-tail data plus loss-properness yield computable fixed-scale exhaustion frontiers. Once losses at scale at least (2^{-n}) are exhausted, a computable residual subscale cap Q gives a finite local nonreachability certificate whenever (E+Q<m).
+
+If every false Reach(K,m) instance eventually receives such a strict frontier certificate, exact Reach is decidable by dovetailing certificate search with the ordinary c.e. finite witness search. No separate bounded-crossing arm is needed.
+
+Do **not** claim this is strictly weaker than P4-S020 in final effective strength. Decidable Reach is already equivalent to a computable witness modulus D(K,m), so the local strict-gap condition only changes the primitive structural data from which D is derived.
+
+The strict inequality is essential. P4-S021's geometric halting construction has an exact computable residual tail equal to the current boundary gap on every divergent finite prefix; a halt pays that residual finitely. Hence nonstrict boundary control leaves halting information intact.
+
+P4-S011 fails the underlying P4-S021 scale-tail hypothesis under global admissibility and so remains outside this boundary-isolation regime.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S022_MATHEMATICS.md.
