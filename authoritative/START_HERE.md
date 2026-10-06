@@ -382,3 +382,19 @@ No \(x\in OH\) with \(H(x)\notin OH\) is proved, so no \(R_2\subsetneq OH\) clai
 Next session: **P4-S035**, formalize raw determination times and settle the early-decided spoiled-stake transfer before attacking genuinely late-decision dependence. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Latest mathematics — P4-S035
+
+P4-S035 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+The P4-S034 spoiled-stage obstruction is now split more sharply. For the displayed three-bit recoding, a computable support order gives each spoiled virtual coordinate its own raw determination pivot. If its eventual fractional stake is uniformly fixed before that pivot is read, the spoiled gain itself is a computable raw martingale and cannot be unbounded on a computably random source.
+
+Post-pivot same-pivot choice has an exact fair-price correction. More importantly, arbitrary delayed choice inside any closed finite block is harmless: for every repeated invertible finite binary block recoding of block size at least two, every block-closed or uniformly bounded packet-closed one-hole witness is exactly compressible to a raw martingale by finite Doob expectations.
+
+Bounded decision delay alone is not sufficient. P4-S035 constructs an exact one-hole architecture in which a pending spoiled parity in block \(b\) waits for information from block \(b+1\), which creates the next pending parity. No finite packet closes the all-trigger chain.
+
+No \(x\in OH\) with \(H(x)\notin OH\) is proved, so no \(R_2\subsetneq OH\) claim is made. \(OH^{iso}\) remains the comparison class.
+
+Next session: **P4-S036**, formalize block-dependency closure and attack the infinite-ray case. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
