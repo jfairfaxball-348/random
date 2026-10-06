@@ -253,3 +253,25 @@ Records:
 - phase4/P4-S014_VALIDATION.md
 
 Next recommended session: **P4-S015**, still at k=2, testing only whether a computable stake-weighted skipped-wager loss budget can weaken P4-S014 by allowing nonsummable raw horizon-miss probabilities.
+
+
+## P4-S015 — stake-weighted skipped-wager loss budgets
+
+P4-S015 weakens the P4-S014 unit miss-ticket budget for a fixed output martingale. Apply a computable savings wrapper so output success tends to infinity at all late prefixes without increasing fractional stakes. For each horizon-miss leaf, charge only a computable majorant of the positive multiplicative gain of the deferred sentinel wager that would be skipped if the epoch later triggers.
+
+If H(s) is the finite horizon and w(s,b,rho) is the leafwise envelope, the exact fair ticket price is
+c(s)=2^{-(H(s)+1)} sum_rho(w(s,0,rho)+w(s,1,rho)).
+One finite computable uniform pathwise budget on sum c(s) is sufficient. Weighted tickets cover divergent realized miss weights; finite realized weight leaves the P4-S014 restart hedge at a positive multiplicative scale. P4-S001 then transfers the completion win to the source.
+
+The coarser condition sum p(s)a(s)<infinity is sufficient when a computable epoch weight a(s) bounds every possible positive post-horizon sentinel gain. Raw miss probabilities need not be summable.
+
+The weakening is strict at the scan/martingale certificate level. A two-control-bit stake functional triggers after 1 or 01 and diverges after 00. Permanent avoidance probability 1/4 at every epoch rules out every P4-S014 raw-tail certificate, while stakes a_j=2^{-(j+1)} have weighted ticket budget at most 1/4.
+
+The exact pointwise minimal future-loss envelope is not uniformly computable. P4-S011's all-in destroyer necessarily violates every finite certificate of the P4-S015 form.
+
+Records:
+- phase4/P4-S015_MATHEMATICS.md
+- phase4/P4-S015_CLOSE.md
+- phase4/P4-S015_VALIDATION.md
+
+Next recommended session: **P4-S016**, still at k=2, testing only whether the advance computable future-loss envelope can be replaced by incrementally purchased computable loss tickets under a computable total increment budget.
