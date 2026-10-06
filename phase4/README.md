@@ -561,3 +561,29 @@ Records:
 P4-S005 through P4-S031 remain settled; P4-S011 and P4-S015 through P4-S031 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 is unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach claim is made.
 
 Recommended next session: **P4-S033**, attacking the first one-hole normalization step from the effective width-two inverse skeleton.
+
+## Mathematics checkpoint — P4-S033 (first one-hole normalization step)
+
+P4-S033 sharpens the selected equation R_2=OH without deciding it. P4-S007's width-two inverse skeleton supplies one binary inverse cohort, but a one-hole scan has a strictly stronger raw-coordinate property: every double fibre consists of two source points differing at exactly one coordinate. Thus width two alone does not canonically identify a scan hole.
+
+The session proves that R_2 is invariant under every computable fair-coin-preserving homeomorphism and introduces
+
+OH^iso = {x in CR : H(x) is in OH for every computable fair-coin-preserving homeomorphism H}.
+
+Hence MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. Equality R_2=OH therefore requires OH itself to be homeomorphism-invariant. Any x in OH with H(x) outside OH would immediately give x in OH\R_2.
+
+A positive same-source normalization theorem is proved for signed coordinate permutations, even with arbitrary computable fair-coin-preserving output homeomorphism: the virtual one-hole scan is compiled by permuting its queried coordinates and applying known child swaps to the martingale.
+
+Literal map-level normalization is false. Precompose the exact P4-S011 one-hole destroyer with an explicit invertible three-bit linear source homeomorphism whose inverse maps a unit virtual-coordinate difference to Hamming weight 2, 2 or 3. The conjugate remains total, fair-coin preserving, globally k=2 and destructive, but every double fibre differs in at least two raw coordinates, so it is not a one-hole scan and cannot become one by output-homeomorphic postprocessing.
+
+The remaining obstruction is therefore a **coded hole**: one binary inverse choice delocalized across several raw source coordinates. It remains open whether such coded-hole vulnerability always implies vulnerability to some different raw one-hole scan on the same source.
+
+Records:
+- phase4/P4-S033_MATHEMATICS.md
+- phase4/P4-S033_CLOSE.md
+- phase4/P4-S033_VALIDATION.md
+
+All mathematics through P4-S032 remains preserved. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 is unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach claim is made.
+
+Recommended next session: **P4-S034**, testing homeomorphism invariance of OH at the explicit three-bit coded-hole map, first at the P4-S012 self-avoiding stake level.
+
