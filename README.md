@@ -136,3 +136,15 @@ Exact Reach is consequently decidable under the promise, and P4-S020's witness m
 P4-S021's geometric halting example fails exactly at semantic anti-Zeno. P4-S011 remains outside the strong tail regime under global admissibility. P4-S005 through P4-S022 remain settled; PA-0001 and DEF-0020 are unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S024, testing only whether uniform effective tail convergence can be weakened to pointwise or branchwise effective convergence.
+
+## Mathematics checkpoint — P4-S024 (not a gate review)
+
+P4-S024 shows that P4-S023's uniform-tail hypothesis cannot be weakened all the way to genuinely nonuniform pointwise/branchwise effective convergence. An exact computable globally k=2, globally admissible comb retains computable exhaustion of every fixed positive loss scale and an explicit computable bad-capital loss bound, while every individual bad-capital branch has only finitely many positive losses and is therefore eventually loss-constant and semantically non-Zeno.
+
+Nevertheless exact \(\operatorname{Reach}(K_e,m_e)\), with \(K_e=e+2\) and \(m_e=2e+2\), is equivalent to halting. On divergence, later incompatible teeth have final losses approaching \(m_e\), while their Cantor-limit all-continue spine stays at \(m_e-2\). The branch-limit loss is discontinuous, so near-boundary mass can disappear at the compact limit and no searchable strict frontier gap is forced.
+
+There is a positive boundary: if "branchwise effective" means one oracle-uniform functional returning a correct convergence modulus on every bad-capital branch, effective compactness finds a finite subcover of its halting cylinders and compiles those moduli into one computable global tail modulus. P4-S023 then applies. Thus this oracle-uniform form is not a genuine weakening.
+
+P4-S011 remains outside even the weak pointwise-tail regime under global admissibility. P4-S005 through P4-S023 remain settled; P4-S011 and P4-S015 through P4-S023 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S025, testing only whether effective upper-semicontinuity of the branch-limit loss, or an equivalent computable local tail-cap basis, is enough with semantic anti-Zeno to recover searchable strict frontier separation.
