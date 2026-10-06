@@ -353,3 +353,35 @@ P4-S035 also exhibits an exact one-hole bounded-delay architecture whose pending
 Next bounded mathematics: **P4-S036**, determine whether every finite/well-founded dependency closure normalizes, and isolate what an infinite dependency ray can actually do on an \(OH\) source.
 
 PA-0001 and DEF-0020 are unchanged. Phase 4 remains OPEN; Phase 5 remains CLOSED.
+
+## P4-S036 — arbitrary finite packets and the effective infinite-component boundary
+
+Date: 2026-10-06
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: de5905a3b32cb091f2d5ff906606dff891e0632b
+
+Scope: finite/well-founded dependency closure versus infinite interaction components for the sustained \(R_2=OH\) normalization target.
+
+Results:
+- removed P4-S035's uniform packet-size hypothesis by an exact persistent-savings transform;
+- proved arbitrary computably finite packet-closed witnesses harmless for every repeated invertible finite binary block recoding of block size at least two;
+- generalized this to total computable online finite closed packetizers;
+- formalized essential stake dependence, spoiled exposure and operational return closure;
+- showed semantic finite closure / well-foundedness / finite rank need not give an effective closure-completion certificate;
+- showed even uniformly computable finite forward closures and rank one can overlap into one infinite symmetrized interaction component with no directed infinite ray;
+- proved no raw-coordinate reordering can retain a \(u_2^{(b)}\) pivot after producing \(u_0^{(b)},u_1^{(b)}\);
+- proved every finite ray truncation has exact finite Doob compression while classical limiting convergence need not be effective;
+- deduced that the recoded P4-S011 witness has no total computable finite closed packetizer;
+- did **not** prove the recoded source lies in \(OH\), so no OH non-invariance or \(R_2\subsetneq OH\) separation is claimed.
+
+Records:
+- phase4/P4-S036_MATHEMATICS.md
+- phase4/P4-S036_CLOSE.md
+- phase4/P4-S036_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S037**, on rolling finite-state/backward fair-price normalization across an infinite interaction component.
+
