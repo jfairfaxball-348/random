@@ -968,3 +968,20 @@ Why it fails: total expenditure and reserve demand are different when ticket pay
 Correct guard: to refute bare self-financing admissibility one needs a family of branches producing **net premium deficit before replenishment**, not merely infinitely many or divergent fair prices. In particular, future trigger dependence on genuinely unrevealed filler bits is the relevant source of one-sided ticket risk.
 
 This lesson does not weaken P4-S016's absolute-budget theorem or P4-S017's coercivity theorem. It distinguishes absolute expenditure, solvency and success of the ticket martingale.
+
+
+## FL-076 — no finite frontier is not yet a reserve lower bound; persistent one-sided deficit is
+
+Session: P4-S028
+Date: 2026-10-06
+Status: **DURABLE LESSON**
+
+P4-S027 showed that finite dependency exhaustion kills one-sided ticket risk: once later trigger data no longer depend on future filler values, both ticket children have the same skipped gain and a finite reserve can be recycled forever.
+
+The converse inference must not be made automatically. The absence of a finite dependency frontier only says that arbitrarily late filler values can still matter. By itself it does not quantify the size or cumulative drawdown of the resulting one-sided tickets.
+
+P4-S028's negative witness adds exactly the missing quantitative feature. In the first-1-search epoch, with stored sentinel bit 1, every unresolved post-horizon filler has loss vector (0,1). The fair premium is always 1/2. Following the 0-child repeatedly loses that premium and leaves the same one-sided opportunity available again, with no intervening payout. Hence the net deficit grows linearly and defeats every finite reserve.
+
+Correct guard: to prove bare insolvency, exhibit unbounded **net premium deficit before replenishment**, not merely infinitely many value-sensitive future dependencies. Future no-frontier examples with effectively decaying skipped gains may still be globally solvent and must be analyzed separately.
+
+P4-S011 is not affected: its P4-S027 frontier makes post-horizon tickets deterministic even though cumulative premiums diverge.

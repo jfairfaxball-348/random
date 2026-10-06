@@ -655,3 +655,23 @@ The result is stated for the harmless globally use-clipped representative of the
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: `phase4/P4-S027_MATHEMATICS.md`.
+
+
+## D-0050 — finite dependency exhaustion, not wtt syntax, is the bare-solvency mechanism
+
+Session: P4-S028
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 P4-S012 / P4-S016–P4-S017 least-fresh architecture, P4-S027's wtt use bound is stronger than the bankroll proof needs.
+
+It is sufficient to have a computable finite dependency frontier D(s) at every reachable epoch state s such that, once D(s) is exhausted, all later trigger data for the current sentinel are independent of future filler values. A computable least-fresh horizon can exhaust D(s). After that horizon, both next-filler children have identical trigger data and, because the canonical output martingale and its savings wrapper are flat on fillers, identical positive skipped gain. Every positive last-chance ticket is deterministic. Its fair premium equals its certain payout and is at most one, so reserve R=1 is globally admissible.
+
+This finite-frontier condition is not forced by P4-S012. A self-avoiding first-1-search predictor gives an exact total fair-coin-preserving global-k=2 scan whose first epoch has no finite dependency frontier. On the sentinel-first sibling with stored sentinel bit 1 and every later filler 0, after any finite horizon every next filler still offers a one-sided all-in trigger: the loss vector is (0,1), the fair premium is 1/2, and the actual payout is 0. Repeating this produces deficit N/2 after N tickets, so no finite reserve is globally admissible for any finite horizon selector.
+
+Do not promote this to a necessity theorem. P4-S028 shows that finite frontiers are a clean sufficient structural mechanism and that the broader P4-S012 class contains exact opposite reserve behavior. It does not show that every no-frontier predictor is insolvent; decaying one-sided skipped gains remain a live separation question.
+
+P4-S011 remains unchanged and lies on the positive side because P4-S027's globally use-clipped witness supplies exactly such a finite frontier. P4-S015 through P4-S027 remain settled.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S028_MATHEMATICS.md.

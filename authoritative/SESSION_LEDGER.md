@@ -1378,3 +1378,32 @@ P4-S005 through P4-S026 remain settled. P4-S011 and P4-S015 through P4-S026 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S028, testing only whether an effectively exhaustible per-epoch dependency frontier is the weakest natural structural condition behind the P4-S027 bare-admissibility mechanism, or whether absence of such a frontier permits an exact global-k=2 sibling family forcing unbounded reserve demand.
+
+
+## P4-S028 — finite dependency frontiers and bare reserve demand
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 P4-S012 / P4-S016–P4-S017 dependency-frontier and bare reserve boundary only
+Status: **COMPLETED**
+
+Incoming checkpoint e94ff739fc2fbc77f519ce0afb0458624ebfc673 matched live main exactly before substantive work. Direct incoming-checkpoint path checks found no P4-S028 mathematics, close or validation record, and commit search returned no P4-S028 commit. The session identifier was unique.
+
+P4-S028 proves that P4-S027's use-bound presentation is not the essential bankroll datum. A computable finite dependency frontier per reachable epoch is enough, provided exhausting it makes every later trigger decision and trigger value independent of future filler bits. The least-fresh filler rule gives a computable finite horizon which exhausts that frontier. After a miss, both next-filler children have identical trigger data and identical skipped positive gain, so every positive P4-S016 ticket is deterministic. Its premium equals its certain payout and is at most one. Reserve R=1 therefore makes the canonical P4-S016/P4-S017 full-ticket account globally admissible.
+
+The P4-S012 partial-predictor setting does not force such a frontier. The exact first-1-search predictor withholds sentinel 0, searches filler coordinates 1,2,... until the first 1, and otherwise diverges; after a trigger all later sentinels trigger immediately. The induced scan is everywhere total, no-repeat, fair-coin preserving and globally k=2: the all-zero first epoch omits only coordinate 0, while trigger branches become exhaustive.
+
+On the sentinel-first completion branch with stored sentinel bit 1 and every filler 0, every finite horizon is missed. At every later unresolved state, next filler 1 would trigger an all-in winning sentinel wager and next filler 0 continues avoidance. Thus each canonical ticket has loss vector (0,1), price 1/2 and actual payout 0. After N tickets the deficit is N/2, so every finite reserve eventually fails. This single exact scan defeats every finite computable horizon selector.
+
+The result is not a necessity theorem. No-frontier dependence can in principle be accompanied by shrinking one-sided losses, so P4-S029 is restricted to testing whether finite frontiers are necessary for bare admissibility or whether an exact no-frontier solvent example exists.
+
+P4-S011 remains preserved. P4-S027's globally use-clipped wtt witness provides exactly the finite frontier required by the positive theorem, so reserve one remains admissible while premiums and payouts diverge and coercivity/loss-properness fail.
+
+Records: phase4/P4-S028_MATHEMATICS.md; phase4/P4-S028_CLOSE.md; phase4/P4-S028_VALIDATION.md. Durable decision: D-0050. Lesson: FL-076.
+
+P4-S005 through P4-S027 remain settled. P4-S011 and P4-S015 through P4-S027 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S029, testing only whether a no-frontier global-k=2 partial predictor can retain arbitrarily late one-sided trigger opportunities while still admitting a finite full-ticket reserve, for example through effectively decaying skipped gains.

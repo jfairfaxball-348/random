@@ -255,3 +255,16 @@ This does **not** restore any transfer theorem. On the P4-S011 computably random
 Phase 4 remains OPEN for selected CAND-01 only; Phase 5 remains CLOSED. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 is unchanged. No result is claimed for k>2.
 
 Next bounded session: **P4-S028**, on whether an effectively exhaustible finite dependency frontier is the natural structural boundary for bare full-ticket admissibility in the broader P4-S012 partial-predictor setting.
+
+
+## Current mathematics checkpoint — P4-S028
+
+P4-S028 isolates the structural bankroll mechanism behind P4-S027. A wtt use bound is unnecessary: a computable finite dependency frontier at each reached epoch suffices whenever exhausting that frontier makes all later trigger data independent of future filler values. The least-fresh process can exhaust such a frontier by a computable finite horizon. Thereafter every positive P4-S016 last-chance ticket is deterministic, so its premium equals its certain payout and reserve R=1 is globally admissible.
+
+This frontier is not forced by the broader P4-S012 partial-predictor setting. An exact first-1-search least-fresh scan is everywhere total, fair-coin preserving and globally k=2, but has no finite first-epoch frontier. On the sentinel-first sibling with stored sentinel 1 and all later fillers 0, after every finite horizon each next filler still presents a one-sided all-in trigger opportunity. The canonical ticket costs 1/2 and pays 0 on the continuing 0-child, so cumulative deficit grows without bound and no finite reserve works.
+
+The negative result is existential, not a necessity theorem. Absence of a finite frontier does not by itself quantify one-sided skipped-gain exposure. P4-S029 is therefore restricted to whether an exact no-frontier scan with decaying one-sided exposure can nevertheless be bare-admissible.
+
+P4-S011 remains unchanged and satisfies the positive frontier hypothesis through P4-S027's use-clipped wtt normal form. P4-S015 through P4-S027 remain settled.
+
+Phase 4 remains OPEN for selected CAND-01 only; Phase 5 remains CLOSED. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 is unchanged. No result is claimed for k>2.
