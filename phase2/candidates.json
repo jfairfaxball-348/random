@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S015",
+  "last_updated_session": "P4-S016",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S015",
-      "record_path": "phase4/P4-S015_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S016",
+      "record_path": "phase4/P4-S016_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -444,6 +444,25 @@
         "map_wide_preservation_claimed": false,
         "next_boundary": "incremental loss tickets without an advance future-loss envelope",
         "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_incremental_ticket_mathematics": {
+        "session": "P4-S016",
+        "scope": "k=2 envelope-free incremental postmiss loss-ticket boundary only",
+        "result": "ADVANCE_ENVELOPE_REMOVED_UNDER_FINITE_UNIFORM_PATHWISE_LAST_CHANCE_PREMIUM_BUDGET",
+        "successful_mechanisms": [
+          "Exact immediate skipped-gain losses for both next filler children are computable from each finite unresolved postmiss state.",
+          "Their average is the exact fair price of a last-chance one-step loss ticket.",
+          "A finite uniform pathwise sum budget on these automatic prices plus the P4-S015 restart hedge yields one source transfer martingale.",
+          "P4-S011 necessarily has divergent premium sum on its target for every computable horizon selector."
+        ],
+        "advance_future_loss_envelope_required": false,
+        "infinite_optional_projection_required": false,
+        "absolute_necessity_claimed": false,
+        "relation_to_p4_s015": "effectivity envelope removed; complete numerical certificate conditions not claimed ordered",
+        "next_question": "self-financing premium reserve versus absolute premium-sum budget",
+        "exact_k2_destroyer_preserved": "P4-S011",
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
       }
