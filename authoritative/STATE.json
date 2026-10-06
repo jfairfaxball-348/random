@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S012",
+  "last_completed_session": "P4-S013",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S013: stay at k=2, treat P4-S012 as settled, and test only whether total-on-all-oracles or a weaker effective uniform-totality/deadline condition on the self-avoiding predictor/stake functional forces computable-randomness preservation for the least-fresh scan subclass.",
-  "recommended_next_session": "P4-S013",
+  "next_transition": "Run P4-S014: stay at k=2, treat P4-S013 as settled, and test only whether computable summable avoidance-tail bounds weaker than finite deadlines yield one computable source martingale in the least-fresh scan subclass.",
+  "recommended_next_session": "P4-S014",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,11 +297,11 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S012",
-    "next_session": "P4-S013",
+    "last_session": "P4-S013",
+    "next_session": "P4-S014",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S012_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S012_CLOSE.md",
+    "latest_record": "phase4/P4-S013_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S013_CLOSE.md",
     "latest_validation_record": "phase4/P4-S012_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
@@ -466,6 +466,24 @@
       "next_question": "sibling totality or weaker effective uniform-totality/deadline condition for least-fresh preservation",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_sibling_totality_result": {
+      "session": "P4-S013",
+      "result": "REACHABLE_SENTINEL_TOTALITY_EQUIVALENT_TO_SEARCHABLE_FINITE_DEADLINES_AND_FORCES_EFFECTIVE_ISOMORPHISM",
+      "full_oracle_totality_sufficient": true,
+      "full_oracle_totality_necessary": false,
+      "reachable_sentinel_totality_sufficient": true,
+      "reachable_sentinel_totality_equivalent_to_no_infinite_avoidance_path": true,
+      "finite_deadline_computably_searchable": true,
+      "global_exhaustiveness_forced": true,
+      "singleton_fibres_forced": true,
+      "computable_inverse_forced": true,
+      "computable_randomness_preserved": true,
+      "target_only_totality_sufficient": false,
+      "p4_s011_destroyer_preserved": true,
+      "next_question": "computable summable avoidance-tail bounds weaker than finite deadlines",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -529,6 +547,24 @@
     ],
     "unresolved_mechanism": "Arbitrary martingale success does not force an all-correct bit autoreduction, and reordering the induced stakes into a new least-fresh comb is not justified. The next boundary is effective sibling totality.",
     "p4_s011_destroyer_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false
+  },
+  "phase4_k2_sibling_totality_mathematics": {
+    "session": "P4-S013",
+    "scope": "k=2 sibling-totality / finite-deadline boundary inside least-fresh scan subclass only",
+    "result": "REACHABLE_SENTINEL_TOTALITY_EQUIVALENT_TO_COMPUTABLY_SEARCHABLE_FINITE_DEADLINES_AND_COLLAPSES_SCAN_TO_K1_ISOMORPHISM",
+    "successful_mechanisms": [
+      "Full oracle-totality implies reachable-sentinel totality but is stronger than needed.",
+      "At a reachable epoch, the nontriggering continuations form a computable finitely branching avoidance tree; no infinite path is equivalent to a computably searchable finite trigger deadline.",
+      "Reachable-sentinel totality makes every epoch terminate on every source and forces the least-fresh scan to query every coordinate exactly once.",
+      "The induced map has singleton fibres and an everywhere computable inverse, so P4-S001 / SRC-0015 / THM-0038 gives computable-randomness invariance.",
+      "P4-S009 finite hedges concatenate because every turnover now has a searched finite deadline.",
+      "A functional diverging on a coordinate always used as a filler separates reachable-sentinel totality from full oracle-totality."
+    ],
+    "unresolved_mechanism": "No theorem is proved for almost-everywhere or quantitative tail sibling-totality. Branchwise avoidance is not claimed to imply destruction in every instance.",
+    "p4_s011_destroyer_preserved": true,
+    "p4_s012_boundary_preserved": true,
     "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
     "k_gt_2_resolved": false
   }
