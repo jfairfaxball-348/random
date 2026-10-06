@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S035",
-      "record_path": "phase4/P4-S035_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S036",
+      "record_path": "phase4/P4-S036_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -226,6 +226,33 @@
           "next_question": "scale-tail local data versus shrinking-scale halting obstruction",
           "k_gt_2_resolved": false,
           "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+        },
+        "one_hole_normalization_fourth_step_result": {
+          "session": "P4-S036",
+          "result": "ARBITRARY_COMPUTABLY_FINITE_CLOSED_PACKETS_NORMALIZE_EFFECTIVE_PACKET_COMPLETION_AND_BACKWARD_PRICE_STABILIZATION_DEFINE_THE_INFINITE_COMPONENT_BOUNDARY",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "arbitrary_computably_finite_packet_closed_normalization": true,
+          "total_computable_online_closed_packetizer_sufficient": true,
+          "uniform_packet_size_required": false,
+          "finite_forward_closure_sufficient": false,
+          "well_foundedness_or_computable_rank_sufficient": false,
+          "uniformly_computable_finite_forward_closure_sufficient": false,
+          "infinite_overlap_without_directed_ray_possible": true,
+          "p4_s035_ray_rethreaded_by_raw_order": false,
+          "finite_horizon_doob_compilers": true,
+          "effective_limit_not_forced": true,
+          "recoded_p4_s011_has_finite_closed_packetizer": false,
+          "recoded_p4_s011_directed_ray_established": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "rolling finite-state backward-price normalization on infinite interaction components",
+          "next_session": "P4-S037",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
         }
       },
       "phase4_k2_mathematics": {
@@ -1284,8 +1311,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S036",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: formalize spoiled-stake block-dependency closure, extend finite/well-founded packet normalization, and attack the first genuine infinite cross-block dependency ray for the repeated three-bit recoding.",
+  "recommended_next_session": "P4-S037",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack rolling finite-state/backward fair-price normalization on infinite interaction components, including the P4-S035 ray, rank-one overlap without a ray, and the recoded P4-S011 schedule.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
