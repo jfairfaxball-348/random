@@ -656,3 +656,30 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 
 Recommended next session: **P4-S037**, on rolling finite-state normalization and finite-horizon backward fair-price vectors for infinite interaction components.
 
+
+
+## Mathematics checkpoint — P4-S037 (rolling renewal and persistent-claim boundary)
+
+P4-S037 moves the positive one-hole normalization boundary beyond finite packetization.
+
+A finite open-claim frontier is harmless when it has **effective fresh-frontier renewal**: a computably finite transition retires all old spoiled claims and hands off to new virtually unseen fair parities. The normalized continuation price then has conditional mean one and disappears exactly from the previous backward step. Combined with the P4-S036 persistent-savings transform, this yields one computable raw martingale.
+
+Consequently the explicit P4-S035 infinite directed ray normalizes, and so does the concrete P4-S036 rank-one infinite overlap architecture. Neither an infinite directed ray nor an infinite symmetrized interaction component is by itself the obstruction.
+
+The sharper negative boundary comes from the recoded P4-S011 witness. It has active nonzero open-claim width one and finite computable frontier state. A fixed half-stake sentinel martingale still succeeds while its local triggered prices stay in ([1/2,3/2]), ratio at most (3). Thus bounded width, finite state, uniform positivity and bounded price ratios do not suffice.
+
+The surviving resource is **non-effective claim retirement / backward-price stabilization**: finite wtt value dependence does not decide whether a still-open sentinel computation will ever halt. Effective Cauchy convergence of the absolute backward prices of the persistent-savings martingale is sufficient, but is not supplied by the committed P4-S011 data.
+
+No (X\in OH) source separation is proved. The retained comparison remains
+[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+]
+
+Records:
+- phase4/P4-S037_MATHEMATICS.md
+- phase4/P4-S037_CLOSE.md
+- phase4/P4-S037_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. The P4-S015–P4-S031 bankroll line remains frozen.
+
+Recommended next session: **P4-S038**, on persistent-frontier claim retirement and effective backward-price stabilization.
