@@ -1093,3 +1093,30 @@ Records: phase4/P4-S015_MATHEMATICS.md, phase4/P4-S015_CLOSE.md, phase4/P4-S015_
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S016, still at k=2, testing only whether the advance future-loss envelope can be eliminated by incrementally purchased computable loss tickets under a computable total increment budget.
+
+
+## P4-S016 — envelope-free incremental last-chance loss tickets
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh stake subclass; incremental postmiss insurance only
+Status: **COMPLETED**
+
+Incoming checkpoint 66b77cf8fcb5c6c5feafeb54cd9ce003e2d9342c matched live main exactly before substantive work. P4-S016 was unused.
+
+P4-S016 removes P4-S015's advance computable future-loss envelope. After a finite-horizon miss, at every still-unresolved state the next logical query is a fresh filler. Before drawing that bit, both possible child states are computable. If a child makes the sentinel trigger, the exact positive gain of the savings-wrapped deferred sentinel wager that would be skipped is a computable rational; otherwise the child loss is zero. A one-step ticket with those two payouts has exact fair price equal to their average.
+
+If one finite computable constant uniformly bounds the pathwise sum of these automatic one-step fair prices over all unresolved postmiss states, an insurance martingale can buy every ticket. Divergent realized skipped gain makes that account unbounded. Finite realized skipped gain leaves the P4-S015 restart hedge at positive scale, while the savings-wrapped output martingale tends to infinity. Their sum gives one completion martingale, and P4-S001 transfers it to the source.
+
+No infinite optional projection or future-loss supremum is computed. The local one-step price is minimal among one-step tickets covering both next-child losses. The complete P4-S015 and P4-S016 budget conditions are not claimed to be ordered: S015 is ex ante at the horizon; S016 is conditional along the realized postmiss continuation.
+
+P4-S011 violates the S016 condition on its computably random target Y itself: for every computable horizon selector, the realized skipped-gain sum must diverge, otherwise the restart hedge alone would contradict Y's computable randomness. Each final pre-trigger premium is at least half its realized loss, so the premium sum diverges as well.
+
+Records: phase4/P4-S016_MATHEMATICS.md, phase4/P4-S016_CLOSE.md, phase4/P4-S016_VALIDATION.md. Durable decision: D-0038. Lesson: FL-064.
+
+P4-S005 through P4-S015 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S017, still at k=2, testing only whether the absolute premium-sum budget can be weakened to a computable self-financing reserve condition.
