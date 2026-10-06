@@ -1450,3 +1450,23 @@ P4-S028's zero-payout divergent-deficit witness, P4-S029's absolutely summable n
 Records: `phase4/P4-S030_MATHEMATICS.md`, `phase4/P4-S030_CLOSE.md`, `phase4/P4-S030_VALIDATION.md`.
 
 Recommended next bounded session: **P4-S031**, testing only whether P4-S030's terminal late-trigger branch can be removed so that every finite trigger renews another active no-frontier epoch while a finite reserve still survives divergent premiums.
+
+## P4-S031 — repeatable no-frontier renewal by stake-scale contraction
+
+Status: COMPLETED
+
+Incoming checkpoint: 3acf92913c8c89dc32b718832d7966ab5ba0f6bb
+
+Scope completed: strictly k=2; tested only whether P4-S030's terminal late-trigger branch is essential for bare canonical P4-S017 full-ticket solvency.
+
+Result: terminalization is not essential. An exact P4-S012 least-fresh global-k=2 scan keeps every epoch active. With H=1, immediate first-1 triggers use stake c and preserve the current positive scale c; later first-1 triggers use stake c2^{-m} and renew at scale c/4. Every finite trigger therefore renews another no-frontier active epoch.
+
+For any savings-wrapper state, the complete premium exposure of an active epoch is at most 3c/4. The reserve invariant W>=c closes globally with R=1: immediate positive tickets are self-financing, and a late-triggered renewal has at least c/4 capital left even before its payout, matching the contracted next scale. On the all-immediate-favourable completion the premiums remain harmonic, 1/(2(r+1)), and diverge while payouts recycle capital.
+
+Validation: PASS. Records: phase4/P4-S031_MATHEMATICS.md, phase4/P4-S031_CLOSE.md, phase4/P4-S031_VALIDATION.md.
+
+P4-S005 through P4-S030 remain settled. P4-S011 and P4-S015 through P4-S030 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: P4-S032, testing only whether the explicit c -> c/4 contraction can be removed while all finite triggers renew the same raw active stake scale and a finite full-ticket reserve survives.

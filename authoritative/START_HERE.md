@@ -296,3 +296,17 @@ This differs from P4-S029, where all premium mass is absolutely summable, and fr
 Phase 4 remains OPEN for selected CAND-01 only; Phase 5 remains CLOSED. P4-S005 through P4-S029 are settled. P4-S011 and P4-S015 through P4-S029 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Next bounded session: **P4-S031**, testing only whether every finite trigger, including arbitrarily late triggers, can renew an active no-frontier epoch without losing finite-reserve admissibility.
+
+## Mathematics checkpoint — P4-S031 (not a gate review)
+
+P4-S031 shows that P4-S030's late-trigger terminalization is not essential for bare no-frontier solvency. There is an exact P4-S012 total computable no-repeat fair-coin-preserving global-k=2 least-fresh scan in which every finite trigger, including an arbitrarily late genuinely one-sided trigger, renews another active no-frontier epoch.
+
+Use H=1 after one ignored dummy filler and attach a positive scale c to every active epoch. The first post-horizon 1 exposes stake c if immediate and c2^{-m} if first seen at later depth m>=2. Immediate triggers keep scale c; late triggers renew at scale c/4. No trigger enters dead mode.
+
+For an arbitrary P4-S015 savings-wrapper state, write beta for active risk divided by total q-capital. The whole possible premium exposure of one active epoch is at most 3 beta c/4 <= 3c/4. The invariant W>=c therefore closes with initial reserve R=1: an immediate positive trigger is self-financing and keeps scale c, while after any late trigger at least c/4 remains even if its nonnegative payout is ignored, exactly funding the renewed scale c/4. An infinite nontriggering epoch also remains within the same 3c/4 bound.
+
+On the all-immediate-favourable completion, c remains 1 and the settled savings wrapper gives premium 1/(2(r+1)) and payout 1/(r+1) at epoch r. Premiums diverge harmonically while realized one-sided payouts finance later purchases.
+
+P4-S030 is the terminal case; P4-S029 is the absolute-summability case; P4-S028 is the zero-payout divergent-deficit case; P4-S011/P4-S027 is deterministic-frontier recycling. P4-S005 through P4-S030 remain settled; P4-S011 and P4-S015 through P4-S030 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S032**, testing only whether the explicit positive scale contraction after late triggers can also be removed, so every finite trigger renews the same raw active stake scale under one finite global reserve, or else isolating the narrow stationary repeatable-late-trigger deficit condition.

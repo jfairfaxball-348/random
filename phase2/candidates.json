@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S030",
+  "last_updated_session": "P4-S031",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S030",
-      "record_path": "phase4/P4-S030_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S031",
+      "record_path": "phase4/P4-S031_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -780,6 +780,35 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S030_VALIDATION.md"
+      },
+      "phase4_k2_repeatable_no_frontier_recycling_mathematics": {
+        "session": "P4-S031",
+        "scope": "k=2 repeatable no-frontier self-financing bare-reserve boundary only",
+        "result": "TERMINALIZATION_NOT_NECESSARY_POSITIVE_SCALE_CONTRACTION_FUNDS_REPEATABLE_LATE_RENEWALS",
+        "exact_no_frontier_global_k2_scan": true,
+        "every_finite_trigger_renews_active_epoch": true,
+        "terminal_dead_mode": false,
+        "arbitrarily_late_one_sided_tickets": true,
+        "horizon": 1,
+        "initial_scale": "1",
+        "immediate_trigger_stake": "c",
+        "late_trigger_stake": "c*2^-m",
+        "late_renewal_scale": "c/4",
+        "finite_global_reserve": "1",
+        "reserve_potential": "W>=c at each active epoch; full epoch exposure <=3c/4; late renewal leaves >=c/4",
+        "divergent_cumulative_premiums_on_completion_run": true,
+        "absolute_premium_summability": false,
+        "recycling_mechanism": "Immediate favourable tickets repay more than their premium; late-trigger renewals contract future active exposure to the residual reserve potential.",
+        "p4_s030_terminalization_necessary": false,
+        "p4_s028_constant_deficit_preserved": true,
+        "p4_s029_summable_decay_preserved": true,
+        "p4_s011_p4_s027_deterministic_recycling_preserved": true,
+        "p4_s015_through_p4_s030_preserved": true,
+        "next_boundary": "whether the explicit scale contraction can be removed while all finite triggers renew the same raw active stake scale",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S031_VALIDATION.md"
       }
     },
     {

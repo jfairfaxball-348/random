@@ -1016,3 +1016,19 @@ The global guard is on the losing or unreplenished siblings. Every active epoch 
 Correct obstruction: if some completion has unbounded cumulative premium minus prior payouts — in particular a zero-payout continuation with divergent remaining premium mass — then no finite reserve is possible. P4-S028 has exactly that obstruction. P4-S030 avoids it without making tickets deterministic and without restoring P4-S016 absolute premium summability.
 
 This does not alter any transfer theorem or the P4-S011 destroyer.
+
+## FL-079 — terminalization is only the zero-budget endpoint of a renewal reserve potential
+
+Session: P4-S031
+Date: 2026-10-06
+Status: **DURABLE LESSON**
+
+The tempting inference after P4-S030 is that once a branch has traversed an unreplenished late one-sided tail, future positive ticket cost must be terminated; otherwise repeated late triggers will eventually exhaust every finite reserve.
+
+P4-S031 shows that this is too strong. What must be controlled is the reserve budget of the renewed state, not whether renewal occurs at all. If an active state of scale c can incur at most 3c/4 premium drawdown before a late trigger, then starting with W>=c leaves at least c/4 even before crediting the trigger payout. Renewing at positive scale c/4 therefore closes the same reserve invariant. Repeated late triggers remain possible forever, but their worst unreplenished reserve demands contract geometrically.
+
+At the same time, immediate favourable triggers can leave the scale unchanged because their one-sided payout exceeds the premium just spent. Along the all-immediate-favourable branch this produces the same divergent harmonic premium stream as P4-S030, funded by realized payouts.
+
+Correct guard: terminalization is one sufficient way to set future reserve demand to zero. A strictly positive computable renewal potential is another. Insolvency still requires unbounded purchase-time premium deficit; mere repeatability of late triggers is not enough.
+
+This does not establish that scale contraction is necessary. P4-S032 is reserved for whether the explicit contraction itself can be removed.

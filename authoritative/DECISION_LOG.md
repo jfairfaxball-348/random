@@ -713,3 +713,24 @@ This is genuine one-sided P4-S017 recycling, unlike P4-S011/P4-S027 deterministi
 P4-S005 through P4-S029 remain settled. P4-S011 and P4-S015 through P4-S029 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S030_MATHEMATICS.md.
+
+## D-0053 — terminalization is not necessary; a positive renewal reserve potential can fund repeatable late triggers
+
+Session: P4-S031
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 P4-S012 / P4-S016–P4-S017 least-fresh architecture, reject P4-S030's late-trigger terminalization as a necessary condition for bare global full-ticket admissibility.
+
+Use active epochs with a positive dyadic scale c. After one ignored dummy filler, search for the first 1. An immediate trigger uses fractional stake c and renews the next active epoch at the same scale. A later trigger at depth m>=2 uses stake c2^{-m} and renews the next active epoch at scale c/4. No finite trigger enters dead mode.
+
+For any P4-S015 savings-wrapper state, if beta is active risk divided by total capital, the depth-1 premium is beta c/2 and the complete later premium tail is beta c/4. Thus one active epoch can draw down at most 3c/4. The invariant W>=c closes with initial reserve R=1: immediate positive triggers are self-financing, and after a late trigger at least c/4 remains even if its payout is ignored, exactly matching the next active scale c/4.
+
+Every renewed scale is positive, so every finite trigger — including arbitrarily late triggers and either sentinel outcome — starts another epoch with no finite dependency frontier and arbitrarily late genuinely one-sided ticket opportunities.
+
+On the all-immediate-favourable completion the scale stays one. The savings wrapper has active-risk ratio 1/(r+1), so premiums 1/(2(r+1)) diverge harmonically and payouts 1/(r+1) genuinely finance later tickets.
+
+The new structural lesson is a renewal reserve potential: terminalization sets the next exposure budget to zero, while P4-S031 leaves it positive but contracts it enough to fit inside the residual bankroll. This is sufficient, not claimed necessary.
+
+P4-S005 through P4-S030 remain settled. P4-S011 and P4-S015 through P4-S030 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S031_MATHEMATICS.md.
