@@ -1328,3 +1328,29 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: P4-S026, testing only whether a one-sided effective boundary-modulus weaker than complete effective upper-semicontinuity can arise structurally without already restating searchable Bar / decidable Reach.
 
 The exact outgoing main hash is verified after all closeout writes and reported in the session response.
+
+## P4-S026 — one-sided integer-boundary caps and the completeness collapse
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh ticket/restart architecture; one-sided integer-boundary effectivity only
+Status: **COMPLETED**
+
+Incoming checkpoint \`d4e7bedb3cb150c33c0ba84d6053035799da7e39\` matched live \`main\` exactly before substantive work. Direct incoming-checkpoint checks found no P4-S026 mathematics, close or validation record. The only incoming P4-S026 commit-search hit was the P4-S025 scheduling commit, so the identifier was unique.
+
+P4-S026 separates presentation strength from searchability strength. A computable globally admissible exhaustive k=2 ticket stream can have one constant noncomputable left-c.e. branch-limit loss \(\alpha<1/4\). Every queried integer boundary has the trivial effective root cap \(1/4\), while a complete rational upper-cap basis would make \(\alpha\) both left-c.e. and right-c.e., hence computable. Integer-boundary caps are therefore genuinely weaker as presentation data than P4-S025 full effective upper-semicontinuity.
+
+But every uniformly c.e. sound local boundary-certificate system that is complete for all branches with \(L_K<m\) collapses under semantic anti-Zeno to P4-S020 searchability. A true Bar(K,m) puts every branch strictly below \(m\); completeness gives a c.e. cylinder cover of the computable pruned bad-capital path space; effective compactness finds a finite subcover. Thus Bar is positively semidecidable. Dovetailing with the ordinary c.e. Reach witness search decides Reach and recovers the P4-S020 witness modulus.
+
+The collapse is certificate-language independent and applies to rational caps, residual-tail bounds, oracle-uniform integer-clearance functionals and arbitrary c.e. local strict-sublevel witnesses. Conversely, on the same anti-Zeno promise a Bar semidecision can enumerate the root as a degenerate boundary certificate, so abstract all-boundary c.e. completeness has exactly the missing negative-search content.
+
+P4-S011 remains preserved. Under global admissibility its known computably random completion has bounded ticket capital and divergent realized skipped loss, so it lies outside the full P4-S025 finite-limit regime. The weaker P4-S026 boundary-only condition is silent on that divergent branch because every integer boundary is eventually reached. Bare no-overdraft admissibility remains unresolved.
+
+Records: phase4/P4-S026_MATHEMATICS.md; phase4/P4-S026_CLOSE.md; phase4/P4-S026_VALIDATION.md. Durable decision: D-0048. Lesson: FL-074.
+
+P4-S005 through P4-S025 remain settled. P4-S011 and P4-S015 through P4-S025 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S027, testing only whether the canonical P4-S016/P4-S017 full-ticket account for the settled P4-S011 destroyer can be made globally admissible by some computable horizon selector and finite reserve, without coercivity or loss-properness.
