@@ -1652,3 +1652,43 @@ Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S037, rolling finite-state/backward-price normalization on infinite interaction components.
 
+
+
+## P4-S037 — rolling frontier renewal and effective backward pricing
+
+Date: 2026-10-06
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 6e6694a0439001933427f4e830b085da637100e1
+
+Scope: sustained Phase-4 one-hole normalization; rolling finite-state normalization on infinite interaction components.
+
+Results:
+- formalized finite computable open-claim frontiers;
+- defined effective fresh-frontier renewal;
+- proved exact one-step cancellation of normalized next-frontier backward prices;
+- combined that identity with P4-S036 persistent savings to obtain one computable raw martingale;
+- normalized the explicit P4-S035 infinite directed ray;
+- normalized the concrete P4-S036 rank-one infinite overlap component;
+- showed finite packetization is not necessary for these infinite components;
+- showed bounded active width and finite computable frontier state are insufficient via the recoded P4-S011 witness;
+- showed uniform positivity and bounded local price ratios are insufficient via a half-stake P4-S011 variant with ratio at most (3);
+- isolated non-effective claim retirement/backward-price stabilization as the surviving resource;
+- proved effective Cauchy stabilization of absolute persistent-savings backward prices sufficient;
+- established event-level acyclicity for P4-S011 but did not force a coarse block-level directed-ray classification from the abstract committed autoreduction;
+- did not prove (X\in OH), OH non-invariance or (R_2\subsetneq OH).
+
+Retained:
+[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+]
+
+Records:
+- phase4/P4-S037_MATHEMATICS.md
+- phase4/P4-S037_CLOSE.md
+- phase4/P4-S037_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: P4-S038, persistent-frontier claim retirement and effective backward-price stabilization.
