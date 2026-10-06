@@ -442,3 +442,23 @@ The exact pointwise minimal envelope need not be computable, so an effective env
 This is programme mathematics, not a novelty finding or an absolute necessity theorem. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE. DEF-0020 is unchanged. No k>2, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S015_MATHEMATICS.md.
+
+
+## D-0038 — advance future-loss envelopes can be replaced by last-chance one-step insurance
+
+Session: P4-S016
+Date: 2026-10-06
+
+Decision/result: inside the k=2 least-fresh stake architecture, P4-S015's advance computable future-loss envelope is not required if the exact fair prices of automatically computed last-chance loss tickets have one finite computable uniform pathwise sum budget.
+
+After a horizon miss, at each unresolved state simulate both possible answers to the next fresh filler. If a child makes the sentinel trigger, compute the savings martingale's exact positive skipped-sentinel gain on that child; otherwise use zero. The one-step fair ticket price is the average of the two losses. This price is automatic and is locally minimal for any one-step hedge covering both child losses.
+
+A reserve funded by the uniform premium budget buys all such tickets. Divergent realized skipped loss makes the insurance account succeed; finite realized loss preserves a positive multiplicative scale for the P4-S015 restart hedge. Their sum transfers every output win through the settled sentinel-first effective isomorphism.
+
+This eliminates the future-envelope effectivity datum but introduces a different conditional pathwise premium budget. No global ordering of the S015 and S016 numerical certificates is claimed.
+
+For the settled P4-S011 destroyer, every computable horizon selector yields divergent realized skipped loss on the computably random target, and the last pre-trigger fair premium is at least half the corresponding realized loss. Hence the S016 premium sum diverges on the target itself.
+
+P4-S011 through P4-S015 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S016_MATHEMATICS.md.
