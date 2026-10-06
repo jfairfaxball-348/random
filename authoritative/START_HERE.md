@@ -415,3 +415,20 @@ Next session: **P4-S037**, attack rolling finite-state/backward-price normalizat
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 
+
+
+## Latest mathematics — P4-S037
+
+P4-S037 is complete and validated. The sustained target remains whether (R_2=OH).
+
+The P4-S035 infinite ray is no longer an obstruction. P4-S037 formalizes an open-claim frontier and proves that **effective fresh-frontier renewal** suffices: when a computably finite transition retires the old spoiled claims and carries only new virtually unseen fair parities, the normalized continuation price averages to one and cancels exactly in the previous backward step. The P4-S036 persistent-savings transform then gives one successful raw martingale whenever the virtual martingale succeeds.
+
+This rolling compiler handles both the P4-S035 directed ray and the P4-S036 rank-one infinite overlap component. Infinite-component geometry and graph direction are therefore not the invariant.
+
+The recoded P4-S011 witness supplies the sharper negative boundary. It has active nonzero open-claim width one and finite computable frontier state. A half-stake sentinel version still succeeds while all local triggered prices are uniformly positive with ratio at most three. The missing datum is effective **claim retirement/backward-price stabilization**: after the finite wtt value-use frontier is exposed, a sibling computation may remain open indefinitely and finite simulation cannot certify divergence.
+
+No (X\in OH) is proved, so no OH non-invariance or (R_2\subsetneq OH) claim is made.
+
+Next session: **P4-S038**, attack persistent-frontier retirement and the actual recoded P4-S011 price jump. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
