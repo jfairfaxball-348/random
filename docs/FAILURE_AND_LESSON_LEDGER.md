@@ -1099,3 +1099,20 @@ The first surviving architecture is **decision nonclosure across infinitely many
 Correct guard: this is still only a compiler obstruction. It does not prove OH non-invariance or \(R_2\subsetneq OH\).
 
 Next bounded attack: P4-S036 on the dependency graph and infinite rays.
+
+## FL-083 — finite forward closure is not effective packet closure
+
+Session: P4-S036
+Date: 2026-10-06
+Status: **DURABLE ONE-HOLE NORMALIZATION LESSON**
+
+The P4-S035 uniform packet-size bound was not a real boundary. A standard threshold-stopping savings transform makes martingale success persist to packet exits, so every computably finite closed packet can be compressed exactly regardless of its size.
+
+The tempting replacement “every dependency has a finite/well-founded forward closure” is still too weak for two different reasons. First, the fact that a finite closure is complete may hide negative information: a rank-one edge can appear exactly when a machine halts. Second, even uniformly computable finite forward closures can overlap into one infinite interaction component; the rank-one graph \(a_n\to c_n,c_{n+1}\) has no directed infinite ray but its symmetrization is one infinite chain.
+
+Correct positive guard: what the current compiler needs is a **total computable finite closed packetizer** which knows the complete packet before its raw coordinates are opened. Rank and forward finiteness alone are not substitutes.
+
+Correct negative guard: an infinite interaction component is still only a compiler obstruction. Every finite truncation has exact Doob compression, and the remaining issue is effective stabilization of the backward fair prices of the open boundary claims. Failure of such a compiler does not prove OH non-invariance.
+
+For the recoded P4-S011 witness, P4-S036 proves only that no total computable finite closed packetizer exists. It does not prove the recoded source lies in \(OH\), nor even that the essential graph contains a directed infinite ray.
+
