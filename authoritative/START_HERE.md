@@ -65,6 +65,19 @@ P4-S012 isolates the structural content of that witness. The wtt use bound and p
 
 P4-S013 identifies the positive sibling-totality boundary inside that least-fresh architecture. Full oracle-totality is sufficient but stronger than necessary; reachable-sentinel totality is enough. At each reachable epoch it is equivalent to finiteness of the computable avoidance tree and therefore to a computably searchable finite deadline. Every epoch then terminates on every source, the scan is globally exhaustive with singleton fibres and a computable inverse, and P4-S001 gives computable-randomness invariance.
 
-Recommended next bounded session: `P4-S014`, still restricted to k=2, focused only on whether computable summable avoidance-tail bounds weaker than finite deadlines suffice for a one-martingale transfer in the least-fresh scan subclass. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
+P4-S014 adds the next positive quantitative boundary below finite deadlines. A total computable horizon selector with one finite uniform pathwise budget on the exact conditional horizon-miss probabilities yields a one-martingale transfer via a sentinel-first effective-isomorphism completion, miss tickets, and truncated/restart hedges. Genuine infinite avoiding siblings are allowed. P4-S011 necessarily violates this budgeted-tail condition.
+
+Recommended next bounded session: `P4-S015`, still restricted to k=2, focused only on whether the raw miss-probability budget can be weakened to a computable stake-weighted skipped-wager loss budget allowing nonsummable raw miss probabilities. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
+
+
+## Mathematics checkpoint — P4-S014 (not a gate review)
+
+P4-S014 establishes a computably budgeted avoidance-tail preservation theorem inside the k=2 least-fresh stake subclass. Choose a total computable finite horizon H(s) at each reachable epoch state and let p(s) be the exact conditional probability of still avoiding the sentinel at that horizon. If one finite computable budget bounds the sum of p(s) over the epoch states reached on every run, every successful output martingale transfers to one computable source martingale.
+
+The proof uses a globally exhaustive sentinel-first completion. A fair unit miss-ticket martingale succeeds on infinitely many misses. A finite-horizon conditional-expectation hedge tracks the output martingale exactly on good epochs; after a miss it copies fresh fillers, skips only the already-revealed sentinel wager if that epoch later triggers, and restarts. Their sum covers both finite- and infinite-miss cases, and P4-S001 transfers the completion win to the source.
+
+This is strictly weaker than P4-S013 finite deadlines: a zero-stake wait-for-next-1 functional has an infinite all-zero avoiding sibling at every reached epoch, but horizons H_r=r+2 have total miss budget at most 1/2. P4-S011 necessarily violates the budgeted-tail condition.
+
+No absolute necessity is claimed. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
