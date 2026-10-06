@@ -343,3 +343,18 @@ This searchability condition does not restore absolute premium summability: the 
 P4-S005 through P4-S019 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S021, still restricted to k=2, testing whether searchable loss levels follow from local scale-tail data weaker than an explicit witness modulus—such as computable waiting bounds for losses at least 2^-n together with computable control of cumulative smaller losses while W*<K—or whether halting information can still move across infinitely many shrinking loss scales.
+
+
+## Mathematics checkpoint — P4-S021 (not a gate review)
+
+P4-S021 resolves the local scale-tail question in two layers. A computable waiting bound for reachable losses at least \(2^{-n}\), together with a computable bound on the total contribution of smaller realized losses inside each bad-capital tree, is enough to turn set-theoretic loss-properness into effective loss-properness. Coarse-scale accumulated-loss reachability is searchable by a finite witness-depth bound; one then searches for an unreachable coarse-scale amount and adds the computable small-loss tail bound. This yields U(K) and hence the P4-S018 coercivity modulus.
+
+This does not restore absolute premium summability: the settled one-sided-trigger harmonic account satisfies the scale-tail condition while its premium sum diverges.
+
+The stronger P4-S020 loss-level witness modulus does not follow. An exact globally k=2, globally admissible index-ladder/geometric-tail construction can have computable global deadlines for every fixed loss scale, an effectively vanishing small-loss tail and an explicit computable linear U(K), while exact \(\operatorname{Reach}(K_e,m_e)\) with \(K_e=e+2\), \(m_e=2e+2\) is equivalent to halting of machine e. A divergent machine approaches the boundary from below through shrinking losses; a halt triggers one finite correction block which attains it. The remaining obstruction is therefore anti-Zeno / boundary-isolation effectivity, not loss-mass effectivity.
+
+P4-S011 fails the scale-tail hypothesis strongly under global admissibility: its computably random completion has bounded ticket capital but a divergent missed-epoch subseries of gains \(1/(r+1)\), so for every n the cumulative contribution of gains below \(2^{-n}\) is unbounded in one bad-capital tree. Bare admissibility remains unruled-out.
+
+P4-S005 through P4-S020 remain settled. P4-S011 and P4-S015 through P4-S020 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S022, still at k=2, testing only whether a computable anti-Zeno / boundary-isolation condition weaker than an explicit P4-S020 witness modulus makes exact loss-level reachability decidable, or whether halting information survives another shrinking-scale coding.
