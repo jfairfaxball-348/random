@@ -736,3 +736,19 @@ The boundary is sharp for this transfer architecture. Target-only halting is too
 Resolution: formulate the positive hypothesis as reachable-sentinel totality, equivalently finite avoidance trees or computably searchable finite deadlines at every reachable epoch. Under it the scan is globally exhaustive and falls back into the P4-S001 effective-isomorphism regime.
 
 Do not promote this to a necessary characterization of all preserving k=2 least-fresh scans. Branchwise avoidance merely reopens the destruction mechanism; it does not by itself prove failure.
+
+
+## FL-062 — do not approximate the infinite stopping value when a miss ticket can absorb the tail
+
+Session: P4-S014
+Status: PHASE-4 k=2 COMPUTABLY BUDGETED TAIL GUARD
+
+The failed framing from earlier turnover attempts was that every branchwise-avoidable deferred sentinel requires a computable approximation to its eventual conditional value. P4-S010 shows that such exact bounded projections can encode noncomputable probabilities.
+
+P4-S014 avoids that target. Fix only a finite horizon. Up to that horizon the P4-S009 finite hedge is exact. If the horizon is missed, keep copying the output martingale on fresh fillers and deliberately skip the one sentinel wager whose bit was revealed early. Restart at the next epoch.
+
+This alone is vulnerable to infinitely many misses. The repair is orthogonal: buy a fair unit ticket for each horizon-miss event. If the exact conditional ticket prices have one finite pathwise budget, infinitely many misses themselves make the ticket martingale succeed. If misses are finite, the restarted hedge eventually tracks a fixed positive multiple of the output martingale. Their sum therefore covers both cases without computing any infinite-horizon projection.
+
+Lesson: under effective tail control, spend computability on a finite miss-event ticket rather than on the noncomputable stopping value. The exact summability condition established here is a finite uniform pathwise budget on the conditional horizon-miss probabilities. It is strictly weaker than finite deadlines but still excludes P4-S011.
+
+Do not infer absolute necessity: a stake-weighted loss budget may be weaker and remains for a separate session.
