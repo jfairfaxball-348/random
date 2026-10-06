@@ -149,7 +149,7 @@ Therefore if the sum of realized miss weights diverges, J is unbounded. No indep
 
 ### Truncated/restart martingale D
 
-Run the P4-S014 finite-horizon conditional-expectation hedge against q.
+Run the P4-S014 finite-horizon conditional-expectation hedge against q. If q is zero at a restart state, freeze D forever on that branch. Zero is absorbing for q, so such a branch cannot be one on which d succeeds. This makes the construction total without affecting the success implication.
 
 On a good epoch triggering by H(s), D tracks one fixed positive multiple of q exactly through sentinel consumption. After a horizon miss, D copies q on later fresh fillers. If that epoch never triggers, D copies q forever. If it later triggers, D skips the already-revealed sentinel update and restarts at the next epoch.
 
