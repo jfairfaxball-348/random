@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S028",
+  "last_updated_session": "P4-S029",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S028",
-      "record_path": "phase4/P4-S028_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S029",
+      "record_path": "phase4/P4-S029_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -739,6 +739,26 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S028_VALIDATION.md"
+      },
+      "phase4_k2_frontier_necessity_mathematics": {
+        "session": "P4-S029",
+        "scope": "k=2 finite dependency frontier necessity / bare full-ticket reserve boundary only",
+        "result": "FINITE_FRONTIER_NOT_NECESSARY_SUMMABLY_DECAYING_ONE_SIDED_EXPOSURE_IS_SOLVENT",
+        "finite_frontier_necessary": false,
+        "exact_no_frontier_global_k2_scan": true,
+        "arbitrarily_late_one_sided_tickets": true,
+        "decaying_stake": "alpha_n=2^-n",
+        "horizon": 1,
+        "finite_global_reserve": "1/4",
+        "parametric_family": "Same first-1-search scan: premium alpha_n/2; summable tail gives finite reserve, divergent tail fails on all-zero stored-sentinel-1 sibling.",
+        "p4_s028_constant_deficit_preserved": true,
+        "p4_s011_deterministic_frontier_preserved": true,
+        "p4_s015_through_p4_s028_preserved": true,
+        "next_boundary": "whether divergent absolute premiums can still be globally admissible without a frontier through self-financing ticket payouts",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S029_VALIDATION.md"
       }
     },
     {
@@ -1140,8 +1160,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S029",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01 only: k=2 necessity of finite dependency frontiers for bare full-ticket admissibility.",
+  "recommended_next_session": "P4-S030",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01 only: k=2 no-frontier bare admissibility with divergent absolute premiums and self-financing payout recycling.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
