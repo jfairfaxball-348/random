@@ -372,3 +372,21 @@ The P4-S021 geometric halting construction is sharp. On a nonhalting selected-e 
 P4-S011 remains outside the scale-tail regime under global admissibility. P4-S005 through P4-S021 remain settled; PA-0001 and DEF-0020 are unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: **P4-S023**, still at k=2, testing only whether semantic exclusion of nonattaining integer-boundary Zeno paths plus P4-S021 strong effective tail convergence forces a searchable strict frontier gap by effective compactness, or whether incompatible branches can preserve halting information.
+
+
+## P4-S023 — semantic anti-Zeno plus effective compactness
+
+P4-S023 proves that the strong P4-S021 tail form — computable global fixed-scale exhaustion together with a uniformly/effectively vanishing subscale tail — turns semantic anti-Zeno into the strict P4-S022 frontier certificate.
+
+For false Reach(K,m), failure of every strict frontier gap would produce finer bad-capital nodes with E approaching m. Uniform tail convergence makes late additional loss negligible on all branches. Compactness therefore yields one infinite bad-capital branch whose loss converges to m from below without finite attainment, contradicting semantic anti-Zeno.
+
+Hence exact Reach is decidable under the promise and P4-S020's witness modulus is recoverable. The proposed incompatible-branch halting escape cannot satisfy all strong-tail and semantic anti-Zeno hypotheses. P4-S011 remains outside the strong tail regime under global admissibility.
+
+Records:
+- phase4/P4-S023_MATHEMATICS.md
+- phase4/P4-S023_CLOSE.md
+- phase4/P4-S023_VALIDATION.md
+
+P4-S005 through P4-S022 remain settled. P4-S011 and P4-S015 through P4-S022 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Next recommended session: **P4-S024**, restricted to whether uniform effective tail convergence can be weakened to pointwise or branchwise convergence while retaining semantic anti-Zeno.
