@@ -1063,3 +1063,21 @@ Correct guard: do not infer preservation or destruction from final fibre cardina
 **Do not overclaim:** the coded-hole map refutes literal map normalization only. It does not prove R_2 proper-subset OH because the recoded source may still be destroyed by a different one-hole scan.
 
 Next bounded attack: P4-S034 on OH invariance under the explicit coded-hole homeomorphism.
+
+## FL-081 — finite Boolean mixing is harmless; infinite delayed stake selection is the surviving coded-hole resource
+
+Session: P4-S034
+Date: 2026-10-06
+Status: **DURABLE ONE-HOLE NORMALIZATION LESSON**
+
+Two stronger-looking inferences from P4-S033 are now ruled out.
+
+First failed inference: once a virtual coordinate hole spreads across several raw coordinates, source-side one-hole normalization should already fail. P4-S034 proves the opposite for every recoding supported on finitely many coordinates. One may read the whole finite mixed block, skip the finitely many affected virtual wagers, and copy all remaining wagers. Finite deletion changes target capital only by a fixed positive multiplicative factor. Thus OH is invariant under all finite-coordinate fair-coin recodings.
+
+Second failed inference: the direct P4-S012 stake pullback should itself become an ordinary raw self-avoiding stake. It need not. For the displayed three-bit mixer, virtual avoidance becomes invariance under a multi-coordinate inverse flip vector. A stake may depend essentially on every individual raw coordinate while still avoiding the queried virtual parity.
+
+The exact surviving obstruction is temporal. A canonical raw support evaluator copies a virtual wager whenever the requested parity still has a fresh raw pivot. For the displayed matrix that evaluator is exhaustive, so copied gain is bounded on every computably random raw source. Any destructive witness must accumulate unbounded gain on the complementary **spoiled** stages, where the parity was fixed by earlier raw queries but the virtual martingale chooses its stake only later.
+
+Correct guard: do not call this OH non-invariance. It is an exact compiler obstruction, not a source separation. A strict \(R_2\subsetneq OH\) conclusion still requires an actual \(x\in OH\) with a homeomorphic image outside OH.
+
+Next lesson to test: whether spoiled stakes already decided at raw determination time can always be moved back to the last raw pivot, leaving only genuinely late-decision dependence as the possible infinitary resource.
