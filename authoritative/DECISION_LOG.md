@@ -398,3 +398,22 @@ This is a sufficient boundary for the exact compactness/finite-hedge transfer, n
 P4-S011's exact destroyer and P4-S012's structural boundary are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S013_MATHEMATICS.md.
+
+
+## D-0036 — computably budgeted avoidance tails suffice below finite deadlines
+
+Session: P4-S014
+Date: 2026-10-06
+Decision: **USE COMPUTABLY BUDGETED FINITE-HORIZON MISS PROBABILITIES AS THE NEXT POSITIVE PRESERVATION BOUNDARY INSIDE THE k=2 LEAST-FRESH STAKE SUBCLASS.**
+
+For a reachable epoch state s and a total computable horizon H(s), let p(s) be the exact conditional probability that the sentinel is still avoided after H(s) fillers. It is sufficient that one finite computable budget bound the sum of p(s) over all reached epoch states on every run.
+
+The proof does not compute the eventual trigger probability. A globally exhaustive sentinel-first completion supports two computable martingales: a fair unit miss-ticket martingale, funded by the finite tail budget and unbounded on infinitely many misses; and a finite-horizon conditional-expectation hedge which tracks the output martingale exactly on good epochs, copies filler bets after a miss, skips only the already-revealed sentinel wager if that epoch later triggers, and restarts. Their sum succeeds whenever the output martingale succeeds. P4-S001 transfers that completion win to one computable source martingale.
+
+The condition is strictly weaker than P4-S013 finite deadlines. The zero-stake wait-for-next-1 functional has a genuine all-zero infinite avoiding sibling at every reached epoch, while horizons H_r=r+2 have total miss budget at most 1/2.
+
+P4-S011 necessarily violates this condition: otherwise its successful output martingale would transfer to a computable martingale succeeding on its computably random source.
+
+This is a sufficient boundary, not an absolute necessity result. A stake-weighted weakening remains open. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S014_MATHEMATICS.md.
