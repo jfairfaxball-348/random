@@ -380,3 +380,21 @@ The new live boundary is sibling totality: P4-S011 relies on a target-correct pa
 P4-S011's exact destroyer remains settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty/open-status, k>2, Gate-4 or publication claim is made.
 
 Record: phase4/P4-S012_MATHEMATICS.md.
+
+## D-0035 — reachable-sentinel totality is the finite-deadline preservation boundary for the least-fresh mechanism
+
+On 2026-10-06, P4-S013 continued selected CAND-01 strictly at k=2 and tested only the sibling-totality boundary left by P4-S012.
+
+Decision/result: full totality of the self-avoiding predictor/stake functional on every oracle and every input is sufficient for preservation, but it is stronger than necessary. The weaker relevant condition is reachable-sentinel totality: whenever a least-fresh run reaches an epoch with sentinel j, the functional halts at j on that source.
+
+At any reachable epoch, nontriggering sibling continuations form a computable finitely branching avoidance tree. Reachable-sentinel totality is equivalent to absence of an infinite path through that tree. By compactness the tree is then finite, and the first empty level is found by a computable search. Therefore a separate computable deadline modulus is not an additional hypothesis.
+
+When this condition holds at every reachable epoch, every epoch ends on every source and the scan is exhaustive. It queries every coordinate exactly once, so the induced map has singleton fibres and a computable inverse. The least-fresh k=2 subclass has collapsed to the P4-S001 k=1 effective-isomorphism regime, and computable randomness is invariant.
+
+The condition is strictly weaker than full oracle-totality because the functional may diverge on coordinates that are always consumed earlier as fillers and therefore never become sentinels.
+
+This is a sufficient boundary for the exact compactness/finite-hedge transfer, not a necessary characterization of every preserving k=2 least-fresh scan. P4-S011 shows that target-only totality is insufficient and that branchwise avoidance can support exact destruction; it does not say every branchwise-avoidable scan destroys randomness.
+
+P4-S011's exact destroyer and P4-S012's structural boundary are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty/open-status, k>2, Gate-4 or publication claim is made.
+
+Record: phase4/P4-S013_MATHEMATICS.md.
