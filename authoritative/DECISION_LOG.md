@@ -838,3 +838,23 @@ No OH non-invariance witness is established, so no strict \(R_2\subsetneq OH\) c
 The P4-S015–P4-S031 bankroll sequence remains frozen as the default route. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
 
 Record: phase4/P4-S034_MATHEMATICS.md.
+
+## D-0057 — finite packet closure is safe; select infinite dependency closure
+
+Session: P4-S035
+Date: 2026-10-06
+Type: Phase-4 mathematics theorem-selection refinement
+
+Decision/result: the P4-S034 spoiled-stage obstruction is not caused by finite delayed choice inside a fixed region of the source.
+
+For the displayed three-bit recoding, every spoiled stake uniformly determined before its raw determination pivot transfers exactly to a raw martingale. Same-pivot late choice reduces to an exact scalar late-choice premium.
+
+More strongly, for every repeated invertible finite binary block recoding of block size at least two, every block-closed or uniformly bounded packet-closed one-hole witness preserves computable randomness. Finite packet behaviour is exactly compressible by raw Doob conditional expectations.
+
+Bounded decision delay does not imply packet closure. There is an exact one-hole architecture with a pending spoiled parity in block \(b\) whose stake depends on information first exposed in block \(b+1\), recursively, producing an infinite dependency ray with no finite closed packet.
+
+Decision for P4-S036: formalize the dependency graph and test finite/well-founded closure versus infinite rays. Do not infer OH non-invariance from the architecture alone.
+
+The P4-S015–P4-S031 bankroll sequence remains frozen as the default route. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
+
+Record: phase4/P4-S035_MATHEMATICS.md.
