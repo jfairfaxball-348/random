@@ -675,3 +675,21 @@ P4-S011 remains unchanged and lies on the positive side because P4-S027's global
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S028_MATHEMATICS.md.
+
+
+## D-0051 — finite dependency frontiers are sufficient but not necessary for bare solvency
+
+Session: P4-S029
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 P4-S012 / P4-S016–P4-S017 least-fresh architecture, reject finite dependency frontiers as a necessary condition for bare canonical full-ticket admissibility.
+
+Reuse the exact P4-S028 first-1-search scan. Its initial epoch still has no finite dependency frontier: after every finite zero filler prefix, a later unseen bit can still decide whether the sentinel triggers. The scan remains total, no-repeat, fair-coin preserving and globally k=2.
+
+Change only the output martingale. If the first 1 occurs at filler n, make one fractional sentinel wager of size (2^{-n}) on bit 1 and freeze thereafter. With H=1, on the stored-sentinel-1 branch the postmiss last-chance tickets are ((0,2^{-n})) and cost (2^{-(n+1)}), for every n>=2. These one-sided opportunities persist arbitrarily late, but the whole premium tail sums to 1/4. Therefore reserve R=1/4 is globally admissible.
+
+More generally, in this same no-frontier geometry a positive stake sequence (alpha_n) gives premium (alpha_n/2) on the all-zero avoiding sibling. Summable tails give finite reserve; divergent tails give unbounded zero-payout deficit. P4-S028 is the constant (alpha_n=1) case. P4-S011/P4-S027 is different: frontier exhaustion makes tickets deterministic, so certain payouts recycle reserve even with divergent premium sums.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S029_MATHEMATICS.md.
