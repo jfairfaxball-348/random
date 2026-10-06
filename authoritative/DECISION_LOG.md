@@ -479,3 +479,19 @@ P4-S011 has no coercive certificate for any computable horizon selector. Bare ad
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S017_MATHEMATICS.md.
+
+## D-0040 — effective coercivity requires uniform bad-capital loss control; semantic coercivity alone does not provide it
+
+Session: P4-S018
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, use a **computable running-maximum coercivity modulus** as the natural effective sufficient certificate: for every integer K, a computable threshold h(K) must ensure that any finite history with realized skipped loss E>=h(K) has already reached ticket capital K.
+
+This certificate may be arbitrarily slow and does not imply absolute premium summability. It is nevertheless strictly stronger than P4-S017 semantic coercivity. Cross-branch finite-loss excursions can be arbitrarily large while every individual infinite bad-capital branch has bounded loss. The exact set-theoretic strengthening is loss-properness b(K)=sup{E(v):W*(v)<K}<infinity.
+
+P4-S011 has no effective modulus for any computable horizon selector. Bare admissibility remains unruled-out there.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S018_MATHEMATICS.md.
+
