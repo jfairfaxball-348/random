@@ -1017,3 +1017,29 @@ Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/exte
 Recommended next bounded session: P4-S013, still restricted to k=2, testing only whether sibling-totality or the weakest effective uniform-totality/deadline substitute forces preservation for the least-fresh partial-stake scan subclass.
 
 The exact outgoing main hash is verified after closeout and reported in the session response.
+
+## P4-S013 — reachable-sentinel totality restores least-fresh preservation
+
+Status: COMPLETED
+
+Date: 2026-10-06. Incoming checkpoint: 8a5409b662cf548d711485f45d7c35a090f9b917, matching live main exactly before substantive work. P4-S013 mathematics/close/validation records were absent on the incoming checkpoint, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 investigation on selected CAND-01, strictly at k=2 and restricted to the sibling-totality boundary of the P4-S011/P4-S012 least-fresh architecture.
+
+Result: full oracle-totality of the self-avoiding stake functional is sufficient but stronger than necessary. The exact local condition used by the positive proof is reachable-sentinel totality: on every source, whenever the least-fresh run reaches an epoch with sentinel j, the functional halts at j. For each reachable epoch, the sibling continuations that have not yet triggered form a computable binary avoidance tree. Reachable-sentinel totality is equivalent to that tree having no infinite path, hence to finiteness and to a computably searchable finite trigger deadline.
+
+Under this condition every epoch ends on every source. The least-fresh scan queries every coordinate exactly once, all fibres are singleton, and the map is an everywhere-total computable fair-coin-preserving bijection with computable inverse. P4-S001 / SRC-0015 / THM-0038 therefore gives computable-randomness invariance. The finite deadlines also let the P4-S009 conditional-expectation hedges concatenate into one computable completion martingale.
+
+A concrete self-avoiding stake functional separates the notions: it diverges on input 1, but coordinate 1 is always consumed as the first epoch's filler and is never a sentinel; every reachable sentinel still halts. Thus full oracle-totality is strictly stronger than necessary.
+
+Target-only totality remains insufficient by the settled P4-S011 destroyer. No claim is made that branchwise avoidance always destroys randomness.
+
+P4-S011 and P4-S012 remain unchanged. P4-S005 through P4-S012 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records: phase4/P4-S013_MATHEMATICS.md, phase4/P4-S013_CLOSE.md, phase4/P4-S013_VALIDATION.md. Durable decision: D-0035. Lesson: FL-061.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S014, still at k=2, testing only computable summable avoidance-tail bounds as an intermediate condition between finite deadlines and arbitrary branchwise avoidance.
+
+The exact outgoing main hash is verified after closeout and reported in the session response.
