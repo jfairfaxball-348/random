@@ -797,3 +797,22 @@ The bounded follow-up plan is P4-S033 through at most P4-S036 as warranted: firs
 P4-S005 through P4-S031 remain settled; the local ticket/reserve trajectory stays frozen. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No novelty, prior-art, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S032_MATHEMATICS.md.
+
+## P4-S033 — select homeomorphism invariance as the next normalization test
+
+Date: 2026-10-06
+Decision: **LITERAL SCAN NORMALIZATION IS TOO STRONG; TEST HOMEOMORPHISM INVARIANCE OF OH NEXT**
+
+P4-S033 proves that the P4-S007 width-two inverse skeleton supplies one binary cohort but not a raw coordinate hole. One-hole scan double fibres differ at exactly one raw coordinate.
+
+The session proves R_2 is invariant under every computable fair-coin-preserving homeomorphism and defines OH^iso with
+
+R_2 subseteq OH^iso subseteq OH.
+
+Thus R_2=OH requires OH to be homeomorphism-invariant. OH invariance is proved for signed coordinate permutations.
+
+A blockwise three-bit linear precomposition of the P4-S011 destroyer preserves totality, fair coin, fibre bound two and destruction while spreading every scan double-fibre unit difference to raw Hamming weight 2 or 3. Hence the resulting map is not a one-hole scan and cannot be made one by an output homeomorphism. This exact destructive **coded-hole** architecture shows literal map-level normalization is false without deciding the source-class equation.
+
+Decision for P4-S034: test OH invariance under the explicit three-bit homeomorphism at the P4-S012 stake level. Do not return to the frozen bankroll sequence.
+
+Guards: PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; no novelty, Gate-4, publication or outreach conclusion.
