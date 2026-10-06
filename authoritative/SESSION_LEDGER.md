@@ -1531,3 +1531,28 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next session: **P4-S033**, first one-hole normalization attack using the P4-S002/P4-S007 effective width-two inverse skeleton and the P4-S032 null-ambiguity reduction.
+
+## P4-S033 — first one-hole normalization step
+
+Date: 2026-10-06
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: `1995951e38106e18effb79dcc44e4a96a77c3793`
+
+Scope: first normalization attack for the sustained P4-S032 target R_2=OH.
+
+Result:
+- formalized the raw-coordinate locality of one-hole scan double fibres;
+- proved R_2 invariance under computable fair-coin-preserving homeomorphisms;
+- defined OH^iso and obtained MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR;
+- proved OH invariance under signed coordinate permutations and same-source normalization for the corresponding output-homeomorphic scan subclass;
+- constructed an exact destructive global-k=2 coded-hole conjugate of P4-S011 whose double fibres differ in raw Hamming weight 2 or 3;
+- therefore refuted literal/output-homeomorphic scan normalization while leaving R_2=OH unresolved.
+
+Records:
+- `phase4/P4-S033_MATHEMATICS.md`
+- `phase4/P4-S033_CLOSE.md`
+- `phase4/P4-S033_VALIDATION.md`
+
+Next: **P4-S034**, test homeomorphism invariance of OH for the explicit three-bit coded-hole map.
+
+Owner/external blocker: **NONE**.
