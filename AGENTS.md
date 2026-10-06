@@ -357,3 +357,17 @@ Boundary-specific effective caps can be weaker as primitive syntax, but if they 
 P4-S011 remains outside even the finite branch-limit regime under global admissibility. P4-S005 through P4-S024 remain settled; P4-S011 and P4-S015 through P4-S024 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S026, testing only whether a one-sided effective boundary-modulus weaker than complete effective upper-semicontinuity can arise structurally without already restating searchable Bar / decidable Reach.
+
+## Mathematics checkpoint — P4-S026 (not a gate review)
+
+P4-S026 separates one-sided integer-boundary effectivity from full effective upper-semicontinuity. A computable globally admissible exhaustive k=2 deterministic-ticket stream can have constant branch-limit loss \(\alpha<1/4\) for a noncomputable left-c.e. real \(\alpha\). Every integer boundary \(m\ge1\) then has the trivial effective root cap \(1/4\), while a complete rational upper-cap basis would make \(\alpha\) right-c.e. as well as left-c.e., hence computable. Thus integer-boundary caps are genuinely weaker as presentation data than the P4-S025 upper-cap basis.
+
+That weakening does not create a new exact-boundary searchability level. Any uniformly c.e. sound local certificate system complete for all branches with \(L_K<m\) semidecides true Bar(K,m) under semantic anti-Zeno: the certified cylinders cover the computable pruned bad-capital path space, and effective compactness finds a finite subcover. Since Reach(K,m) already has c.e. finite witnesses, dovetailing decides Reach and recovers the P4-S020 witness modulus.
+
+The collapse is independent of certificate syntax. Rational caps, residual bounds, oracle-uniform integer-clearance functionals and arbitrary c.e. strict-sublevel certificates all have the same final effective consequence once they are boundary-complete. To remain below P4-S020, a future notion must sacrifice c.e. sound-certificate enumeration or completeness for every false boundary.
+
+P4-S011 remains preserved. Under global admissibility its known completion has a bounded-capital branch with divergent realized skipped loss, so it remains outside the full finite-limit P4-S025 regime. The weaker P4-S026 boundary-only notion is not refuted by that branch because every integer boundary is eventually reached there. Bare admissibility remains unresolved.
+
+P4-S005 through P4-S025 remain settled; P4-S011 and P4-S015 through P4-S025 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S027, testing only whether some computable horizon selector and finite reserve make the canonical P4-S016/P4-S017 full-ticket account for P4-S011 globally admissible, without coercivity or loss-properness.
