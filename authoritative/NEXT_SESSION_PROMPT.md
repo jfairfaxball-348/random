@@ -1,12 +1,12 @@
-# Next Session Prompt — P4-S036
+# Next Session Prompt — P4-S037
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S036. Treat committed repository state as authoritative. Pin live main at the exact P4-S035 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S036 is unique, and read P4-S001 through P4-S035, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, phase4/P4-S032_MATHEMATICS.md, phase4/P4-S033_MATHEMATICS.md, phase4/P4-S034_MATHEMATICS.md, and phase4/P4-S035_MATHEMATICS.md.
+Run only Phase 4 — Mathematics session P4-S037. Treat committed repository state as authoritative. Pin live main at the exact P4-S036 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S037 is unique, and read P4-S001 through P4-S036, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, phase4/P4-S032_MATHEMATICS.md, phase4/P4-S033_MATHEMATICS.md, phase4/P4-S034_MATHEMATICS.md, phase4/P4-S035_MATHEMATICS.md, and phase4/P4-S036_MATHEMATICS.md.
 
 ## Sustained Phase-4 target — one-hole normalization after coded recoding
 
-Freeze all validated mathematics through P4-S035. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence unless it becomes necessary for the theorem below.
+Freeze all validated mathematics through P4-S036. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence unless it becomes necessary for the theorem below.
 
 Retain
 \[
@@ -32,119 +32,161 @@ u_1=x_0\oplus x_1,\qquad
 u_2=x_0\oplus x_1\oplus x_2.
 \]
 
-P4-S034 reduces every possible destruction through this H to unbounded multiplicative gain on spoiled virtual stages: wagers chosen after their parity is already raw-determined.
+P4-S034 reduces any destruction through this \(H\) to unbounded multiplicative gain on spoiled virtual stages. P4-S035 separates early/same-pivot late choice from genuinely cross-block late choice and proves bounded closed packets harmless.
 
-P4-S035 sharpens that reduction.
+P4-S036 materially strengthens the finite side and sharpens the infinite obstruction.
 
-1. For the displayed matrix there is a computable support-query order which gives each spoiled virtual coordinate its own raw determination pivot.
-
-2. If every spoiled fractional stake is uniformly fixed from the raw history **before** that determining pivot is read, the entire spoiled-gain product transfers exactly to a computable raw martingale. Thus any destructive witness must contain genuinely non-previsible late choice.
-
-3. If the stake is selected from the same determining pivot, its factor splits exactly into a legal raw martingale factor times a computable late-choice fair-price premium. Unbounded gain in that synchronous class requires an unbounded product of those premiums.
-
-4. Much more strongly, for every repeated invertible finite binary block matrix of block size at least two, every block-closed one-hole witness is harmless. The same holds for every computable uniformly bounded finite packet partition when the scan is packet-closed. The whole packet is compressed by finite Doob conditional expectations and the raw packet scan is exhaustive.
-
-5. Therefore finite Boolean mixing, early spoiled wagers, same-pivot late choice with bounded premium, and arbitrary finite-memory delay inside a closed bounded packet are all on the positive side.
-
-6. Bounded decision delay alone is not enough. P4-S035 constructs an exact one-hole architecture with pending \(u_2^{(b)}\) in block \(B_b\), then queries \(u_0^{(b+1)},u_1^{(b+1)}\), lets the latter information alter the stake on \(u_2^{(b)}\), consumes \(u_2^{(b)}\) on the trigger branch, and carries \(u_2^{(b+1)}\) forward. On a nontrigger branch it omits the old pending coordinate and switches to an exhaustive tail. Every individual delay is bounded, but any packet containing \(B_b\) and closing its wager must contain \(B_{b+1}\), then \(B_{b+2}\), and so on.
-
-7. This infinite dependency chain is a compiler obstruction only. No computably random \(x\in OH\) with \(H(x)\notin OH\) is proved. No \(R_2\subsetneq OH\) conclusion is available.
-
-## P4-S036 bounded task — finite dependency closure versus infinite rays
-
-Attack only the infinite cross-block decision-nonclosure exposed by P4-S035.
-
-### 1. Formalize the dependency graph
-
-Define a precise computable dependency object for one destructive virtual witness. At minimum, put an edge
+1. A standard exact persistent-savings transform
 \[
-B\to C
+\widehat d=\sum_{k\ge1}2^{-k}d^{[k]}
 \]
-when a spoiled wager on a parity already raw-determined in block B can have its fractional stake changed by virtual information first exposed later from block C.
+turns every successful computable nonnegative rational martingale into one whose capital tends to infinity. Therefore the uniform packet-size hypothesis in P4-S035 is unnecessary.
 
-Distinguish:
+2. For every repeated invertible finite binary block recoding of block size at least two, **every computably finite packet-closed one-hole witness is harmless**, with no uniform packet-cardinality bound.
 
-- same-block dependencies, already controlled by finite block compression;
-- finite packet dependencies;
-- computably finite but non-uniform dependency closures;
-- well-founded infinite graphs with no infinite forward ray;
-- genuine infinite rays / recurrent dependency components.
+3. More generally, the same is true when there is a total computable online **closed packetizer** which, at packet entry and before raw packet queries, returns the exact finite set of blocks which is closed on every continuation.
 
-Do not hide future virtual information in the graph definition.
+4. The exact essential stake-dependency relation is only c.e. in general. Set-theoretic finite forward closure, semantic well-foundedness, finite rank and even a fixed computable rank bound do not by themselves give the closure-completion information required by the packet compiler. A rank-one halting-coded edge family witnesses this.
 
-### 2. Remove the uniform packet-size hypothesis if possible
+5. Even uniformly computable finite forward closures do not imply finite packetizability. The computable rank-one graph
+\[
+a_n\to c_n,\qquad a_n\to c_{n+1}
+\]
+has forward closures of size at most three and no directed infinite ray, but its symmetrized interaction component is
+\[
+c_0-a_0-c_1-a_1-c_2-a_2-\cdots.
+\]
 
-P4-S035 assumes uniformly bounded packet size only to ensure that unbounded martingale capital cannot occur solely inside larger and larger packets while packet-boundary capital stays bounded.
+6. For the P4-S035 ray, no reordering of raw coordinates can retain a pivot for \(u_2^{(b)}\) after \(u_0^{(b)},u_1^{(b)}\) have been produced: their support union is all three raw coordinates of \(B_b\).
 
-Test whether a standard computable stopping/savings normalization, or another elementary martingale argument, removes this uniform-size requirement for packet-closed witnesses with computably finite packets.
+7. Every finite dependency-ray truncation has an exact computable raw Doob conditional-expectation martingale. The obstruction is therefore passage to the infinite limit, not finite conditional expectation. Classical bounded/uniformly-integrable convergence is not enough effectively: a bounded computable martingale can have a noncomputable pointwise limit.
 
-This is not a return to the P4-S015–P4-S031 ticket/reserve programme. Use only the minimal martingale normalization needed for the finite-packet theorem.
+8. The sharper object is the **finite-horizon backward fair-price vector of the open boundary claims**. A positive infinite compiler needs effective stabilization, a telescoping identity, controlled boundary distortion, or another genuinely source-side mechanism.
 
-If arbitrary computably finite packet closure is safe, prove it exactly.
+9. Applied to the P4-S033 recoded P4-S011 witness, P4-S036 proves that no total computable finite closed packetizer can exist. The wtt use bound gives finite dependence for each individual sentinel computation but does not decide whether the global obstruction is a genuine directed ray or overlapping finite closures.
 
-### 3. Test well-founded dependency closure
+10. No computably random \(X\in OH\) with \(H(X)\notin OH\) is proved. For the recoded P4-S011 source only \(X\in CR\) is established. No \(R_2\subsetneq OH\) conclusion is available.
 
-If every block has a computably discoverable finite forward dependency closure, determine whether those closures can be packetized and normalized.
+## P4-S037 bounded task — rolling finite-state normalization on infinite interaction components
 
-Then test genuinely well-founded but unbounded dependency trees. Determine whether effective well-foundedness / finite rank / computable rank suffices for normalization, or whether nonuniform closure already blocks a total compiler.
+Attack only the effective infinite-component obstruction selected by P4-S036.
 
-State the weakest exact positive hypothesis obtained.
+### 1. Formalize the open-claim frontier
 
-### 4. Attack the infinite ray directly
+For a finite raw/virtual cut, define the finite state carried by spoiled claims whose parities are already raw-determined but whose eventual wagers are not yet closed.
 
-For the P4-S035 chain
+At minimum distinguish:
+
+- the set of open spoiled claims;
+- the virtual control state needed to decide their future stakes;
+- the already known values of their parities;
+- the first not-yet-exposed future blocks on which their stakes may depend.
+
+Define the finite-horizon terminal payoff and its backward fair-price vector conditional on this frontier state.
+
+Do not hide noncomputable terminal information in the state definition.
+
+### 2. Solve the simple P4-S035 ray as far as possible
+
+For
 \[
 B_0\to B_1\to B_2\to\cdots,
 \]
-test whether a different raw one-hole evaluator can re-thread the dependency by reserving pivots across blocks.
+there is only one carried pending parity in the explicit architecture.
 
-Do not assume the canonical support evaluator is optimal.
+Derive the finite-horizon backward transfer operator from one boundary state to the previous one. Test whether the price vector:
 
-However preserve the exact local constraint:
-after both \(u_0^{(b)}\) and \(u_1^{(b)}\) have been produced, their raw support union is all three coordinates of \(B_b\), so \(u_2^{(b)}\) is already raw-determined under every exact raw-coordinate evaluation of those two virtual bits.
+- telescopes exactly;
+- has a uniformly bounded positive distortion;
+- contracts in a projective/log-ratio metric;
+- admits a computable Cauchy modulus;
+- or can oscillate / drift in a way that defeats every finite-state raw compiler.
 
-If another raw compiler exists, it must use a genuinely different source-side mechanism rather than merely a different order of the three raw coordinates.
+A positive theorem should construct one computable raw martingale/one-hole evaluator, not merely a sequence of finite approximants.
 
-### 5. Quantify what an infinite ray can buy
+### 3. Test bounded open-claim width as the next positive hypothesis
 
-Track the spoiled multiplicative capital along an infinite dependency ray.
+P4-S035's ray has bounded simultaneous open-claim width even though its packet closure is infinite.
 
-Test whether its gain admits:
+Determine whether a computable bound on the number of simultaneously open spoiled claims, together with a finite computable boundary-state representation, is sufficient.
 
-- a computable conditional-expectation martingale on successively larger finite closures;
-- a convergent or uniformly integrable limit which still transfers success;
-- a diagonal raw one-hole scan;
-- or an exact obstruction showing why every finite closure leaves essential future stake information outside.
+If not, isolate the additional hypothesis actually needed, for example:
 
-A negative theorem should identify the precise nonuniformity: infinite open claims, failure of effective closure, nonconvergent conditional expectations, or another exact temporal resource.
+- a uniform positivity bound on backward prices;
+- bounded price ratios;
+- a computable contraction modulus;
+- effective Cauchy convergence of normalized finite-horizon price vectors;
+- or exact finite-state stationarity.
 
-### 6. Revisit the recoded P4-S011 source only if the graph analysis gives a concrete route
+State the weakest exact positive hypothesis obtained.
 
-Determine whether the P4-S033 recoded P4-S011 witness actually realizes an infinite dependency ray with unbounded spoiled gain.
+### 4. Separate directed rays from infinite overlap components
 
-Do not promote it to a separation witness merely because its compiler fails.
+Analyze the P4-S036 rank-one overlap architecture, whose dependency graph has no infinite directed ray but whose symmetrized interaction component is infinite.
 
-An actual separation still requires
+Test whether rolling finite-state normalization succeeds there even when finite packetization fails.
+
+This comparison should determine whether the true obstruction is:
+
+- a directed temporal ray;
+- an infinite weak/overlap component;
+- unbounded open-claim width;
+- or non-effective backward pricing independent of graph direction.
+
+Do not treat graph rank by itself as a randomness invariant.
+
+### 5. Quantify failure of effective backward pricing if normalization fails
+
+A negative result should be exact.
+
+Construct, if possible, a computable one-hole architecture under the displayed recoding for which every finite-horizon payoff is computable but the normalized backward price vectors:
+
+- have no computable convergence modulus;
+- converge to a noncomputable boundary price;
+- develop unbounded condition numbers/price ratios;
+- or encode halting information in a way that prevents a total computable raw martingale compiler.
+
+Distinguish this from the generic fact that computable martingales can have noncomputable limits. The obstruction must arise in the actual open-claim pricing problem.
+
+### 6. Revisit the recoded P4-S011 witness concretely
+
+Use the wtt use bound only as established finite per-claim dependency data.
+
+Determine, from the actual P4-S011 epoch/sentinel schedule under the three-bit recoding, whether its lack of a finite packetizer is caused by:
+
+- a genuine infinite directed dependency ray;
+- recurrent/cyclic dependency;
+- or overlapping finite closures with no directed ray.
+
+If a finite-state frontier exists, derive its backward price recursion and compare it with the simple P4-S035 ray.
+
+Do not promote the recoded source to a separation witness unless \(X\in OH\) is independently proved.
+
+### 7. Source-side separation guard
+
+An actual OH non-invariance theorem still requires
 \[
-x\in OH,\qquad H(x)\notin OH.
+X\in OH,\qquad H(X)\notin OH.
 \]
 
-If the recoded P4-S011 source cannot yet be proved in OH, record exactly what source-side statement is missing.
+The second statement is available for the P4-S033 recoded construction because \(H(X)=Y\) is destroyed by P4-S011. The missing statement is \(X\in OH\).
 
-### 7. Preserve the sustained reduction
+If P4-S037 produces a concrete source-side route to prove \(X\in OH\), pursue it only if it follows directly from the rolling-price analysis. Do not return to the frozen bankroll sequence merely because source robustness remains open.
+
+### 8. Preserve the sustained reduction
 
 P4-S032 null-ambiguity preservation remains available for arbitrary destructive global-k=2 maps. Do not return to ambiguity mass as an invariant.
 
-Do not reopen the frozen bankroll sequence.
+Do not reopen the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence.
 
-### 8. Required session outcome
+### 9. Required session outcome
 
 The output should be one of:
 
-- a finite/well-founded dependency-closure normalization theorem materially stronger than P4-S035;
-- full OH invariance for the displayed H;
+- a rolling finite-state/backward-price normalization theorem which handles the P4-S035 infinite ray or a materially larger infinite-component class;
+- full OH invariance for the displayed \(H\);
 - a rigorous OH non-invariance witness;
-- or the sharpest exact infinite-ray obstruction that selects P4-S037.
+- or the sharpest exact non-effective backward-pricing obstruction that selects P4-S038.
 
 The sustained question remains whether
 \[
