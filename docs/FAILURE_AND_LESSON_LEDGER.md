@@ -721,3 +721,18 @@ The failed inference is to promote this automatically to an all-correct bit auto
 Resolution: use “partial self-betting” as the structural level justified by an arbitrary singleton winning scan. Treat all-correct partial prediction as the stronger full-wager special case exemplified by P4-S011. Do not infer a strict separation between these source properties without a separate theorem.
 
 Lesson: the next positive boundary is not bounded use. It is enough effective sibling totality to rule out the branchwise-divergent turnover that powers P4-S011.
+
+## FL-061 — totality is needed only where a coordinate actually becomes a sentinel
+
+Session: P4-S013
+Status: PHASE-4 k=2 SIBLING-TOTALITY / FINITE-DEADLINE GUARD
+
+The overstrong inference is that excluding the P4-S011 mechanism requires a predictor or stake functional which halts on every oracle at every input. P4-S013 shows that the least-fresh scan never consults many such input/oracle pairs. What matters is only the pair encountered when an epoch actually withholds a coordinate as its sentinel.
+
+At a reachable epoch, the nontriggering continuations form a computable finitely branching tree. If every compatible continuation eventually triggers, the tree has no infinite path, is finite by König compactness, and has a computably searchable empty level. Thus qualitative sibling totality automatically supplies the finite deadline needed for the P4-S009 hedge; an extra modulus is not necessary.
+
+The boundary is sharp for this transfer architecture. Target-only halting is too weak because P4-S011 has it on the computably random winning source while a sibling can diverge forever. But full oracle-totality is too strong because a functional may diverge on a coordinate that the scan always consumes as a filler before that coordinate can ever become a sentinel.
+
+Resolution: formulate the positive hypothesis as reachable-sentinel totality, equivalently finite avoidance trees or computably searchable finite deadlines at every reachable epoch. Under it the scan is globally exhaustive and falls back into the P4-S001 effective-isomorphism regime.
+
+Do not promote this to a necessary characterization of all preserving k=2 least-fresh scans. Branchwise avoidance merely reopens the destruction mechanism; it does not by itself prove failure.
