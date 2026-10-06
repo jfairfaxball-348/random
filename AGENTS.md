@@ -394,3 +394,16 @@ The P4-S012 partial-predictor setting does not force such a frontier. An exact f
 This is not a necessity theorem: no-frontier dependence may coexist with decaying one-sided skipped gains. P4-S011 remains unchanged and satisfies the positive frontier hypothesis through P4-S027's use-clipped normal form. P4-S005 through P4-S027 remain settled; P4-S011 and P4-S015 through P4-S027 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: **P4-S029**, testing only whether an exact no-frontier global-k=2 scan with arbitrarily late one-sided trigger opportunities can nevertheless have a finite globally admissible full-ticket reserve, for example through effectively decaying skipped gains.
+
+
+## Mathematics checkpoint — P4-S029
+
+P4-S029 disproves necessity of P4-S028's finite dependency frontier for bare canonical P4-S016/P4-S017 full-ticket admissibility. Reuse the exact P4-S028 first-1-search global-k=2 scan, so the initial epoch still has no finite dependency frontier and one-sided trigger opportunities remain at arbitrarily late fillers. If the first 1 appears at filler n, make the sole possible sentinel wager have fractional size (2^{-n}), then freeze.
+
+With H=1, on the stored-sentinel-1 branch the postmiss ticket before filler n>=2 has loss vector ((0,2^{-n})) and fair premium (2^{-(n+1)}). The whole zero-payout premium tail is 1/4, so reserve R=1/4 is globally admissible even on the all-zero avoiding sibling.
+
+In the same no-frontier family, replacing (2^{-n}) by (alpha_n) gives premium (alpha_n/2). Summable tails yield finite reserve; divergent tails fail on the zero-payout all-zero sibling. P4-S028 is the constant (alpha_n=1) insolvent case. P4-S011/P4-S027 remains a distinct deterministic-frontier recycling case: premiums may diverge, but each is certainly repaid.
+
+P4-S005 through P4-S028 remain settled; P4-S011 and P4-S015 through P4-S028 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S030**, strictly at k=2, test whether no-frontier bare admissibility can survive divergent absolute premium sums through genuine P4-S017 self-financing payout recycling while arbitrarily late one-sided tickets remain.
