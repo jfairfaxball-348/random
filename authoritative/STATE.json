@@ -53,7 +53,7 @@
     "authors": 75
   },
   "next_transition": "Run P4-S015: stay at k=2 and inside the least-fresh stake architecture; test only whether the P4-S014 unit miss-ticket budget can be weakened to a computable stake-weighted skipped-wager loss budget allowing nonsummable raw miss probabilities.",
-  "recommended_next_session": "P4-S015",
+  "recommended_next_session": "P4-S016",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,11 +297,11 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S014",
-    "next_session": "P4-S015",
+    "last_session": "P4-S015",
+    "next_session": "P4-S016",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S014_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S014_CLOSE.md",
+    "latest_record": "phase4/P4-S015_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S015_CLOSE.md",
     "latest_validation_record": "phase4/P4-S014_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
@@ -505,6 +505,26 @@
       "next_question": "computable stake-weighted skipped-wager loss budget with nonsummable raw miss probabilities",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_weighted_loss_result": {
+      "session": "P4-S015",
+      "result": "COMPUTABLY_BUDGETED_POSITIVE_SKIPPED_GAIN_PRICES_SUFFICE_WITH_NONSUMMABLE_RAW_MISS_PROBABILITIES",
+      "output_martingale_relative": true,
+      "savings_wrapper_required_by_proof": true,
+      "leaf_dependent_future_loss_envelope": true,
+      "exact_fair_ticket_price": "2^{-(H(s)+1)} * sum_{rho in A_s intersect 2^{H(s)}} (w(s,0,rho)+w(s,1,rho))",
+      "coarse_sufficient_condition": "finite uniform pathwise budget on sum p(s)*a(s), where a(s) computably majorizes possible positive post-horizon sentinel gain",
+      "raw_miss_probability_summability_required": false,
+      "weighted_ticket_handles_divergent_realized_loss": true,
+      "truncated_restart_handles_finite_realized_loss": true,
+      "strict_weaker_than_p4_s014_at_certificate_level": true,
+      "explicit_no_raw_certificate_scan": true,
+      "exact_minimal_future_loss_envelope_uniformly_computable": false,
+      "p4_s011_satisfies_weighted_condition": false,
+      "absolute_necessity_claimed": false,
+      "next_question": "incremental loss tickets replacing advance computable future-loss envelopes",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -609,5 +629,26 @@
     "next_question": "computable stake-weighted skipped-wager loss budget with nonsummable raw miss probabilities",
     "k_gt_2_resolved": false,
     "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+  },
+  "phase4_k2_weighted_loss_mathematics": {
+    "session": "P4-S015",
+    "scope": "k=2 stake-weighted skipped-wager loss budget inside least-fresh stake subclass only",
+    "result": "COMPUTABLE_LEAFWISE_POSITIVE_SKIPPED_GAIN_PRICE_WITH_FINITE_PATHWISE_BUDGET_SUFFICES_FOR_ONE_SOURCE_TRANSFER_MARTINGALE",
+    "successful_mechanisms": [
+      "A computable savings wrapper makes output-martingale success diverge along all late prefixes without increasing fractional stake sizes.",
+      "Finite miss tickets are priced by computable leafwise majorants of the positive multiplicative gain of a deferred sentinel wager that would be skipped.",
+      "Divergent realized miss weights are caught by weighted tickets; finite realized weight leaves the restart hedge at a positive multiplicative scale.",
+      "An explicit two-control-bit scan has permanent avoidance probability 1/4 at every epoch, so no P4-S014 raw-tail certificate exists, while small sentinel stakes give weighted budget at most 1/4.",
+      "The exact pointwise minimal future-loss envelope is not uniformly computable.",
+      "P4-S011's all-in destroyer cannot satisfy any finite certificate of this form."
+    ],
+    "unresolved_mechanism": "The advance computable future-loss envelope is extra effective data; it is not yet known whether incremental tickets can remove it without computing an infinite optional projection.",
+    "p4_s011_destroyer_preserved": true,
+    "p4_s012_boundary_preserved": true,
+    "p4_s013_boundary_preserved": true,
+    "p4_s014_boundary_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false,
+    "novelty_claimed": false
   }
 }
