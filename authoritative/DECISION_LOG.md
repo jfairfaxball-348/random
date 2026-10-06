@@ -579,3 +579,20 @@ Therefore exact Reach is decidable under the promise and P4-S020's witness modul
 P4-S011 fails the strong tail hypothesis under global admissibility. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S023_MATHEMATICS.md.
+
+## D-0046 — nonuniform pointwise tail convergence permits an incompatible-branch halting comb
+
+Session: P4-S024
+Date: 2026-10-06
+
+Decision/result: inside the settled k=2 last-chance-ticket/restart architecture, distinguish two meanings of branchwise effective tail convergence.
+
+A **single oracle-uniform branch-modulus functional** total on every bad-capital branch is not genuinely weaker than P4-S023's uniform tail regime. The bad-capital tree is computable, finitely branching and pruned under global admissibility. Halting cylinders for the functional form a c.e. open cover of its compact path space; an effective finite-subcover search gives one computable global tail modulus. Semantic anti-Zeno therefore still yields searchable strict frontier gaps and decidable Reach.
+
+By contrast, **genuinely nonuniform pointwise/branchwise effectivity** is insufficient. The P4-S024 incompatible-branch comb is globally k=2, globally admissible, effectively loss-proper and has computable exhaustion of every fixed positive loss scale. Every individual bad-capital branch is eventually loss-constant and semantically non-Zeno. Nevertheless Reach(e+2,2e+2) is equivalent to halting: near-boundary loss moves to later incompatible teeth, while their Cantor-limit spine stays two units below the boundary.
+
+The exact failure is discontinuity of the branch-limit loss. Do not infer searchable Bar from semantic anti-Zeno plus branchwise convergence unless the branchwise tail information has enough effective uniform/topological structure to survive compact limits.
+
+P4-S011 remains outside even the weak pointwise-tail regime under global admissibility. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S024_MATHEMATICS.md.
