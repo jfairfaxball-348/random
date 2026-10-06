@@ -1253,3 +1253,26 @@ P4-S005 through P4-S021 remain settled. P4-S011 and P4-S015 through P4-S021 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S023, testing only whether strong effective tail convergence plus semantic exclusion of nonattaining integer-boundary Zeno branches forces a searchable strict frontier gap by effective compactness, or whether incompatible branches can still hide halting information.
+
+
+## P4-S023 — semantic anti-Zeno plus effective compactness
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh ticket/restart architecture; semantic anti-Zeno / effective compactness only
+Status: **COMPLETED**
+
+Incoming checkpoint `6cae7e038730450463293da2559a0a31ead04daf` matched live `main` exactly before substantive work. The incoming tree contained P4-S001 through P4-S022 and no P4-S023 session record, so the identifier was unique.
+
+P4-S023 proves that strong P4-S021 uniform effective tail convergence turns semantic anti-Zeno into P4-S022 searchable strict separation. If false Reach(K,m) had no strict frontier certificate, finer quiet frontiers would contain nodes with E approaching m. A compactness/diagonal subsequence plus uniform tail control then yields an infinite bad-capital branch whose loss converges to m from below without finite attainment, contradicting semantic anti-Zeno.
+
+Therefore exact Reach is decidable under the promise and P4-S020's witness modulus is recoverable. The incompatible-branch escape is impossible under the strong uniform-tail hypothesis. P4-S011 remains excluded before this theorem under global admissibility because it has unbounded subscale loss at every fixed scale in one bad-capital tree.
+
+Records: phase4/P4-S023_MATHEMATICS.md; phase4/P4-S023_CLOSE.md; phase4/P4-S023_VALIDATION.md. Durable decision: D-0045. Lesson: FL-071.
+
+P4-S005 through P4-S022 remain settled. P4-S011 and P4-S015 through P4-S022 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S024, testing only the sharpness of the uniform-tail assumption.
