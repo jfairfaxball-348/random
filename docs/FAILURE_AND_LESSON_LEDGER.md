@@ -904,3 +904,17 @@ That escape fails under the strong P4-S021 tail form. Global fixed-scale exhaust
 Resolution: under strong uniform tail convergence, semantic anti-Zeno is enough. A false Reach instance must eventually expose a strict P4-S022 frontier certificate, so exact Reach is decidable and P4-S020's witness modulus follows.
 
 Guard: the proof uses **uniform** effective tail convergence. P4-S023 does not show that pointwise or merely branchwise convergence suffices. P4-S011 remains outside the strong tail regime under global admissibility.
+
+## FL-072 — pointwise effective convergence does not survive incompatible-branch limits
+
+Session: P4-S024
+Date: 2026-10-06
+Status: PHASE-4 k=2 POINTWISE-TAIL / EFFECTIVE-TOPOLOGY GUARD
+
+P4-S023 used uniform vanishing tails to transfer near-boundary loss from incompatible finite nodes to a compact diagonal limit branch. It is tempting to replace that by the statement that every individual bad-capital branch has an effective convergence modulus.
+
+That is false if the moduli are genuinely nonuniform. P4-S024 builds a computable globally k=2 admissible comb in which every branch has only finitely many positive losses, so every branch is eventually constant and has some computable modulus. Yet later incompatible teeth end arbitrarily close to the queried integer boundary while their all-continue Cantor-limit spine stays a fixed distance below it. The branch-limit loss is discontinuous, and exact Reach still codes halting.
+
+Resolution: distinguish **pointwise existence of computable moduli** from **one oracle-uniform branch-modulus functional**. The latter compactifies effectively to a global uniform modulus on the pruned bad-capital tree; the former does not.
+
+Guard: semantic anti-Zeno is branchwise and does not by itself control discontinuity across branches. The next useful hypothesis should target effective upper-semicontinuity or an equivalent computable local tail-cap basis, not merely restate pointwise convergence. P4-S011 remains outside even the weak pointwise-tail regime under global admissibility.
