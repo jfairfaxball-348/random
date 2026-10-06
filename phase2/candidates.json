@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S033",
+  "last_updated_session": "P4-S034",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S033",
-      "record_path": "phase4/P4-S033_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S034",
+      "record_path": "phase4/P4-S034_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -850,6 +850,23 @@
         "next_session": "P4-S034",
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
+      },
+      "phase4_one_hole_normalization_second_step": {
+        "session": "P4-S034",
+        "result": "FINITE_RECODING_INVARIANCE_AND_SPOILED_PARITY_OBSTRUCTION",
+        "target_equation": "R_2 = OH ?",
+        "target_resolved": false,
+        "OH_finite_coordinate_recoding_invariant": true,
+        "invariance_beyond_signed_permutations": true,
+        "pulled_back_stakes": "coded/vector self-avoidance rather than raw-coordinate self-avoidance",
+        "repeated_linear_support_evaluator": "raw one-hole",
+        "displayed_three_bit_evaluator": "exhaustive effective isomorphism",
+        "necessary_surviving_resource": "unbounded multiplicative gain on spoiled virtual wagers selected after their parity is raw-determined",
+        "every_finite_truncation_preserves_OH": true,
+        "OH_noninvariance_witness": false,
+        "next_session": "P4-S035",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
       }
     },
     {
@@ -1251,8 +1268,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S034",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: test homeomorphism invariance of OH at the explicit P4-S033 three-bit coded-hole recoding, beginning at the P4-S012 self-avoiding stake level.",
+  "recommended_next_session": "P4-S035",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: formalize spoiled-stage raw determination times for the repeated three-bit recoding and attack early-decided versus genuinely late-decided stake transfer.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
