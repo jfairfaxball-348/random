@@ -238,4 +238,18 @@ Records:
 - phase4/P4-S013_CLOSE.md
 - phase4/P4-S013_VALIDATION.md
 
-Next recommended session: **P4-S014**, still at k=2, testing only whether computable summable avoidance-tail bounds weaker than finite deadlines suffice for a one-martingale transfer, and whether the P4-S011 destroyer necessarily violates such bounds.
+
+## P4-S014 — computably budgeted avoidance tails
+
+P4-S014 proves a preservation theorem strictly weaker than P4-S013 finite deadlines. At each reachable least-fresh epoch choose a total computable finite horizon H(s), and let p(s) be the exact conditional probability of still avoiding the sentinel at that horizon. If one finite computable budget bounds the sum of p(s) over all epoch states reached on every run, then every computable output-martingale win transfers to one computable source martingale.
+
+The proof uses one globally exhaustive sentinel-first completion. A fair unit miss-ticket martingale succeeds if horizon misses occur infinitely often. A second finite-horizon conditional-expectation hedge tracks the output martingale exactly on good epochs; after a miss it copies later filler bets, skips only the already-revealed sentinel wager if that epoch eventually triggers, and restarts. Thus finitely many misses are harmless, while a permanently nontriggering missed epoch is copied forever. The sum succeeds whenever the output martingale succeeds, and P4-S001 transfers it back to the source.
+
+The condition permits genuine infinite avoiding siblings. The zero-stake "wait for the next 1" functional has no finite deadlines, but horizons H_r=r+2 give tail budget at most 1/2. P4-S011 necessarily has no such budget certificate.
+
+Records:
+- phase4/P4-S014_MATHEMATICS.md
+- phase4/P4-S014_CLOSE.md
+- phase4/P4-S014_VALIDATION.md
+
+Next recommended session: **P4-S015**, still at k=2, testing only whether a computable stake-weighted skipped-wager loss budget can weaken P4-S014 by allowing nonsummable raw horizon-miss probabilities.
