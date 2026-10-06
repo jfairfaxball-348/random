@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S031",
+  "last_updated_session": "P4-S032",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S031",
-      "record_path": "phase4/P4-S031_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S032",
+      "record_path": "phase4/P4-S032_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -809,6 +809,31 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S031_VALIDATION.md"
+      },
+      "phase4_finite_ambiguity_reconnaissance": {
+        "session": "P4-S032",
+        "result": "NULL_AMBIGUITY_SAFE_POSITIVE_AMBIGUITY_ARBITRARILY_SMALL_DESTRUCTION_POSSIBLE_ONE_HOLE_NORMALIZATION_SELECTED",
+        "R1_equals_CR": true,
+        "hierarchy_monotone": true,
+        "k_ge_2_proper_subclass_CR": true,
+        "MLR_subset_R_fin": true,
+        "null_ambiguity_preserves_CR": true,
+        "null_ambiguity_requires_effective_nullness": false,
+        "arbitrarily_small_positive_ambiguity_k2_destroyers": true,
+        "ambiguity_mass_complete_invariant": false,
+        "composition_multiplicity": "jk",
+        "factorization_alone_sufficient_for_R2_collapse": false,
+        "scan_fibre_formula": "2^h",
+        "scan_k2_equals_one_hole": true,
+        "p4_s011_winning_fibre": "singleton",
+        "candidate_resource": "renewable counterfactual one-hole ambiguity / self-avoiding scan-order stakes",
+        "OH_definition": "CR sources preserved by every total computable adaptive no-repeat scan omitting at most one coordinate per transcript",
+        "inclusions": "MLR subseteq R_2 subseteq OH proper-subset CR",
+        "selected_next_theorem": "R_2 = OH ?",
+        "next_session": "P4-S033",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S032_VALIDATION.md"
       }
     },
     {
@@ -1210,8 +1235,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S030",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01 only: k=2 no-frontier bare admissibility with divergent absolute premiums and self-financing payout recycling.",
+  "recommended_next_session": "P4-S033",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: selected one-hole normalization/source-characterization target R_2=OH; first normalization attack from the effective width-two inverse skeleton.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",

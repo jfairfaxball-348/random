@@ -1,75 +1,55 @@
-# Next Session Prompt — P4-S032
+# Next Session Prompt — P4-S033
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S032. Treat committed repository state as authoritative. Pin live main at the exact post-P4-S031 pivot checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S032 is unique, and read P4-S001 through P4-S031, the required CAND-01 authority, and phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
+Run only Phase 4 — Mathematics session P4-S033. Treat committed repository state as authoritative. Pin live main at the exact P4-S032 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S033 is unique, and read P4-S001 through P4-S032, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md.
 
-## Sustained Phase-4 pivot
+## Sustained Phase-4 target — one-hole normalization
 
-This session begins a sustained research pivot. Freeze all validated mathematics through P4-S031. Do not reopen or continue tightening the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence merely because a local next lemma remains available. That machinery remains available only when it serves a deeper theorem.
+Freeze all validated mathematics through P4-S032. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence unless it becomes necessary for the theorem below.
 
-The organising question is:
+Retain the P4-S032 definitions
 
-**What mathematical resource is exposed by the jump from injective observation to one binary degree of inverse ambiguity, and what else does that resource control?**
-
-The previous session-local "strictly k=2" restriction is no longer the default: k=1 and k=2 remain the base phenomenon, but finite k>2, composition or factorisation may be used when the new questions genuinely require them. Do not broaden into an unfocused survey.
-
-## P4-S032 task — reconnaissance and theorem selection
-
-P4-S032 is not expected to settle the whole new programme. Its job is to perform mathematically disciplined reconnaissance across the new axes, prove enough exact lemmas/constructions/obstructions to distinguish promising routes from superficial ones, and select the strongest next theorem target for sustained multi-session work.
-
-Start by formalising
-
-R_k = {x in CR : F(x) remains computably random for every total computable fair-coin-preserving F with fibre size at most k},
+R_2 = {x in CR : every total computable fair-coin-preserving global-k=2 map sends x to CR}
 
 and
 
-R_fin = intersection over all finite k of R_k.
+OH = {x in CR : every total computable adaptive no-repeat scan whose every transcript omits at most one source coordinate sends x to CR}.
 
-Record only the immediate consequences already forced by settled mathematics:
+P4-S032 establishes MLR subseteq R_2 subseteq OH proper-subset CR. It also establishes the null-ambiguity preservation theorem: a total computable fair-coin-preserving map that is injective on almost every output preserves computable randomness. It shows that arbitrarily small positive ambiguity can still destroy, so ambiguity mass is not the invariant.
 
-- P4-S001 gives R_1 = CR.
-- P4-S011 gives a computably random source outside R_2, hence R_2 is a proper subclass of CR.
-- R_{k+1} subseteq R_k is immediate from the map classes.
+The sustained theorem target selected by P4-S032 is:
 
-These are internal consequences, not novelty claims.
+**Does R_2 = OH?**
 
-Then perform exact reconnaissance across several of the following axes, choosing the ones that can be tested most sharply in one session:
+Equivalently, can every arbitrary global-k=2 destruction of computable randomness be normalized to a one-hole adaptive no-repeat scan destruction, and hence brought into the P4-S012 self-avoiding stake mechanism? If not, isolate a genuinely non-scan k=2 resource.
 
-1. **Robustness hierarchy / source characterization:** test whether R_2,R_3,... form a strict hierarchy or collapse, whether R_2 robustness could imply all-finite robustness, and whether vulnerability under k=2 is tied to partial self-avoiding predictability/autoreducibility.
-2. **Structural in-between threshold:** test natural subclasses strictly between injective and bare two-to-one maps — e.g. finitely many double fibres, ambiguity on null/effectively null sets, exactly-two-to-one a.e. behaviour, effective/partial inverse selectors, computably distinguishable branches, bounded ambiguity-resolution delay, finite dependency frontiers, local effective invertibility, branch-weight lower bounds, vanishing second-branch weights, one global unresolved bit versus renewable ambiguity — seeking a preservation/failure threshold theorem rather than another isolated example.
-3. **Reverse direction / randomness creation:** test whether a finite-to-one fair-coin-preserving map can send an individually non-computably-random source to a computably random output, and whether this cleanly separates conservation from creation/no-randomness-from-nothing behaviour.
-4. **Composition/factorisation / ambiguity budget:** test whether binary-ambiguity stages factor finite multiplicity in an effective way, whether robustness under all binary stages could imply robustness under arbitrary finite k, whether composing k=2 stages is equivalent to or stronger than one static k=4 map, and whether repeated temporal ambiguity is more important than raw fibre cardinality.
-5. **Cross-randomness comparison:** probe one or two carefully chosen other randomness notions only where a sharp theorem is realistically available; candidates include Martin-Löf, Schnorr, Kurtz, Church-stochastic/computable-selection, nonmonotonic/Kolmogorov-Loveland-style notions, or effective dimension. Do not conduct an encyclopaedic survey.
-6. **Machine mutations:** use the P4-S011 design pattern to test structurally important variants — especially exceptional sources on double fibres, exactly-two-to-one maps, recurrent/migratory/symmetric ambiguity, extra regularity or shift-like structure, sparse or arbitrarily weak prediction advantage, interacting sentinels under a small fibre bound, or renewed ambiguity — while explicitly tracking totality, fair-coin preservation, fibre bound, source randomness, output randomness and effective inverse information.
-7. **Actual resource / invariant:** directly compare candidate explanations suggested by settled work: hidden inverse information, sibling partiality, self-avoiding prediction, nonuniform inverse selection, delayed revelation, unresolved binary choices, renewable ambiguity, and failure to aggregate branchwise betting advantages into one source martingale. Seek a criterion explaining both k=1 safety and k=2 failure.
-8. **Converses:** test whether a natural subclass of k=2 destroyers necessarily induces partial self-avoiding prediction/stake structure, autoreduction, or a related source-side mechanism on the vulnerable computably random source.
+## P4-S033 bounded task
 
-You do not need to advance every axis. Prefer 3–4 serious mathematical probes with exact statements over shallow coverage of all directions.
+Attack the first normalization step only.
 
-## Selection requirement
+1. Formalize OH and record the easy inclusions already forced by P4-S032; do not spend the session reproving them.
 
-By the end of P4-S032, choose the strongest next theorem target based on mathematical depth, explanatory power, tractability and ability to organise multiple subsequent sessions.
+2. Start with an arbitrary total computable fair-coin-preserving F with fibres at most two, a computably random x, and a computable martingale d succeeding on y=F(x).
 
-The selected target should ideally do at least one of the following:
+3. Use the P4-S002/P4-S007 effective width-two inverse-prefix skeleton to test whether the pair (F,d) can be converted, on the same source x, into a total computable adaptive no-repeat one-hole scan T and a computable martingale e with e succeeding on T(x).
 
-- characterize vulnerability/robustness on the source side;
-- identify a structural preservation threshold strictly between k=1 and bare k=2;
-- establish a composition/factorisation principle or obstruction;
-- reveal a genuine asymmetry between randomness destruction and randomness creation;
-- show that the one-bit ambiguity mechanism has a sharp analogue or sharp failure for another randomness notion;
-- isolate an invariant deeper than raw fibre cardinality.
+4. It is permitted to pre- or post-compose with computable fair-coin-preserving homeomorphisms if this is stated explicitly and the P4-S001 invariance argument proves that the normalization question is unchanged.
 
-Record why the selected target outranks the other tested routes, and give a bounded multi-session research plan without claiming it will succeed.
+5. Prove the strongest exact positive subclass theorem available. Natural candidates include k=2 maps whose inverse-prefix skeleton admits a coherent effective branch coding, maps whose output-prefix partitions can be generated by adaptively exposing fresh source coordinates, or another condition that is demonstrably weaker than already having a scan presentation.
 
-Do not automatically select the smallest unresolved technical lemma.
+6. In parallel, identify the exact obstruction for a general map. In particular test whether output bits depending on genuinely multi-coordinate Boolean information, rather than fresh-coordinate revelation, can defeat scan normalization while retaining fair-coin preservation and fibre bound two.
 
-## Guards
+7. Use the P4-S032 null-ambiguity theorem as a reduction: any destructive witness must have positive-measure ambiguity locus. Do not mistake positive ambiguity mass for the sought invariant.
 
-Preserve P4-S005 through P4-S031 as settled, including P4-S011 and P4-S015 through P4-S031.
+8. If full normalization is false or cannot be reached, do not fall back to a local bankroll lemma. Produce the sharpest exact obstruction or candidate separation architecture and state what extra resource beyond renewable one-hole access it appears to use.
 
-Preserve PA-0001 as **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and preserve DEF-0020 unchanged.
+## Selection guard for the next session
 
-Make no novelty, openness, Gate-4, publication or outreach claim. Do not start prior-art work. Continue original mathematics only.
+P4-S033 need not decide R_2=OH. Its purpose is to establish a real normalization lemma for a nontrivial subclass or isolate a precise obstruction that determines the next bounded attack.
 
-Record, validate and synchronize useful work, commit it, verify remote main, report the exact outgoing hash, and provide the next prompt aligned with the theorem target selected by this sustained pivot if no blocker exists.
+Preserve all P4-S032 reconnaissance results, especially the distinction between static final ambiguity and renewable temporal ambiguity.
+
+Preserve PA-0001 as **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 unchanged. Make no novelty, openness, prior-art, Gate-4, publication or outreach claim. Continue original mathematics only.
+
+Record, validate and synchronize useful work, commit it, verify remote main, report the exact outgoing hash, and provide the next prompt if no blocker exists.

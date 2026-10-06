@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S031",
+  "last_completed_session": "P4-S032",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S032 as the first reconnaissance/theorem-selection session of the sustained post-P4-S031 Phase-4 pivot. Freeze all mathematics through P4-S031; do not default back to the ticket/reserve/frontier/recycling sequence. Develop the finite-ambiguity theory around the k=1 versus k=2 jump, formalise R_k, probe several deeper axes with exact mathematics, and select the strongest theorem target for multi-session follow-up.",
-  "recommended_next_session": "P4-S032",
+  "next_transition": "Run P4-S033 on the selected one-hole normalization target: test whether arbitrary global-k=2 computable-randomness destruction can be converted to a total computable adaptive no-repeat one-hole scan/stake witness, beginning with the P4-S002/P4-S007 width-two inverse skeleton and using P4-S032 null-ambiguity preservation to exclude the a.e.-injective case.",
+  "recommended_next_session": "P4-S033",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S031",
-    "next_session": "P4-S032",
+    "last_session": "P4-S032",
+    "next_session": "P4-S033",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S031_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S031_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S031_VALIDATION.md",
+    "latest_record": "phase4/P4-S032_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S032_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S032_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -873,7 +873,7 @@
       "status": "ACTIVE_SUSTAINED_PHASE4_PIVOT",
       "date": "2026-10-06",
       "authority_record": "phase4/P4_RESEARCH_PIVOT_AFTER_S031.md",
-      "freeze_through": "P4-S031",
+      "freeze_through": "P4-S032",
       "mathematics_changed_by_pivot": false,
       "organizing_question": "What mathematical resource is exposed by the jump from injective observation to one binary degree of inverse ambiguity, and what else does that resource control?",
       "previous_default_trajectory": "P4-S015 through P4-S031 ticket/reserve/frontier/recycling refinement sequence",
@@ -881,7 +881,7 @@
       "automatic_return_to_previous_trajectory": false,
       "previous_strict_k2_default_lifted": true,
       "finite_k_gt_2_allowed_when_mathematically_required": true,
-      "next_session_mode": "RECONNAISSANCE_AND_THEOREM_SELECTION",
+      "next_session_mode": "ONE_HOLE_NORMALIZATION_PROGRAMME",
       "research_axes": [
         "robustness classes R_k and source-side characterization",
         "structural thresholds between injective and bare two-to-one observation",
@@ -902,7 +902,44 @@
         "publication": false,
         "outreach": false,
         "phase5": "CLOSED"
-      }
+      },
+      "selected_target": "Determine whether arbitrary k=2 destruction normalizes to renewable one-hole adaptive no-repeat scan destruction (R_2=OH), or isolate the genuinely non-scan resource."
+    },
+    "finite_ambiguity_reconnaissance_result": {
+      "session": "P4-S032",
+      "mode": "RECONNAISSANCE_AND_THEOREM_SELECTION",
+      "robustness_classes": {
+        "R1": "CR",
+        "monotone": "R_{k+1} subseteq R_k",
+        "k_ge_2_proper_subclass_CR": true,
+        "MLR_subset_R_fin": true,
+        "R_fin_proper_subclass_CR": true
+      },
+      "cross_randomness": {
+        "arbitrary_total_computable_measure_preserving_maps_preserve_Schnorr": true,
+        "p4_s011_output": "SCHNORR_BUT_NOT_CR",
+        "MLR_preserved_without_fibre_bound": true
+      },
+      "null_ambiguity_theorem": "If the output non-singleton-fibre locus has fair-coin measure zero, an a.e.-computable measure-preserving inverse exists and CR is preserved.",
+      "arbitrarily_small_positive_ambiguity_destroyers": true,
+      "ambiguity_mass_is_complete_invariant": false,
+      "composition": {
+        "multiplicity_rule": "F_j then F_k has fibre bound jk",
+        "robustness_transport": "F_j(R_jk) subseteq R_k",
+        "binary_factorization_alone_implies_hierarchy_collapse": false
+      },
+      "scan_budget": {
+        "fibre_size": "2^h for h finite omitted coordinates",
+        "global_k_condition": "h <= floor(log2(k))",
+        "k2_resource_candidate": "renewable one-hole temporal ambiguity",
+        "p4_s011_target_final_holes": 0
+      },
+      "selected_target": "ONE_HOLE_NORMALIZATION",
+      "target_equation": "R_2 = OH ?",
+      "next_session": "P4-S033",
+      "blocker": null,
+      "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "novelty_claimed": false
     }
   },
   "phase4_k2_moving_hole_mathematics": {

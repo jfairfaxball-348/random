@@ -537,3 +537,27 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. 
 
 Authoritative pivot record: phase4/P4_RESEARCH_PIVOT_AFTER_S031.md.
 This note supersedes earlier P4-S032 recommendations that asked only for the next bankroll/ticket refinement.
+
+
+## Mathematics checkpoint — P4-S032 (finite-ambiguity reconnaissance)
+
+P4-S032 begins the sustained post-P4-S031 pivot and does not reopen the frozen ticket/reserve sequence.
+
+It formalizes R_k and R_fin. Settled mathematics gives R_1=CR, monotonicity R_{k+1} subseteq R_k, and P4-S011 makes every R_k for k>=2 (and R_fin) a proper subclass of CR. THM-0035 gives MLR subseteq R_fin. THM-0036 gives a useful cross-randomness boundary: every total computable fair-coin-preserving image of a computably random source remains Schnorr random, so P4-S011 destroys CR without destroying Schnorr/Kurtz randomness.
+
+The new structural theorem is null-ambiguity preservation. If a total computable fair-coin-preserving map has non-singleton output fibres only on a null set, its singleton-fibre locus supports an a.e.-computable fair-coin-preserving inverse, so THM-0038 yields CR preservation. Effective nullness is not needed. This boundary is measure-sharp: localizing P4-S011 in an arbitrarily small clopen cylinder yields global-k=2 destroyers with positive ambiguity measure below every epsilon. P4-S002's two-to-one left shift remains a measure-one-ambiguity preserving example, so ambiguity mass is not the invariant.
+
+Composition obeys multiplicity jk and F_j(R_jk) subseteq R_k; binary factorisation alone therefore does not collapse R_2 to higher robustness because the intermediate image would need hereditary R_2 robustness.
+
+In the adaptive no-repeat scan subclass, h permanently omitted coordinates give exactly 2^h preimages. Thus k=2 is exactly a one-hole budget. P4-S011 nevertheless destroys on a target with zero final holes, showing that the operative resource is renewable/migratory counterfactual ambiguity rather than a permanently hidden inverse bit.
+
+P4-S032 selects the sustained theorem target **one-hole normalization**. Let OH be CR sources robust under every total computable one-hole adaptive no-repeat scan. Then MLR subseteq R_2 subseteq OH proper-subset CR. The next programme asks whether R_2=OH, so arbitrary k=2 destruction would normalize to the P4-S012 self-avoiding stake mechanism, or whether a genuinely non-scan resource exists.
+
+Records:
+- phase4/P4-S032_MATHEMATICS.md
+- phase4/P4-S032_CLOSE.md
+- phase4/P4-S032_VALIDATION.md
+
+P4-S005 through P4-S031 remain settled; P4-S011 and P4-S015 through P4-S031 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 is unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach claim is made.
+
+Recommended next session: **P4-S033**, attacking the first one-hole normalization step from the effective width-two inverse skeleton.
