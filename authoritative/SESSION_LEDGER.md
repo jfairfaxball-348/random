@@ -1556,3 +1556,32 @@ Records:
 Next: **P4-S034**, test homeomorphism invariance of OH for the explicit three-bit coded-hole map.
 
 Owner/external blocker: **NONE**.
+
+## P4-S034 — finite recoding invariance and spoiled-parity obstruction
+
+Date: 2026-10-06
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 63a6e11565d19660ec5b711a8f53bb55f73d9040
+
+Scope: homeomorphism-invariance attack for the sustained \(R_2=OH\) one-hole normalization target.
+
+Results:
+- pulled the P4-S012 stake witness through the explicit three-bit homeomorphism and identified exact vector-self-avoidance under raw flip vectors \((1,1,0),(1,0,1),(1,1,1)\);
+- showed this does not generally yield raw-coordinate self-avoidance;
+- constructed a canonical support evaluator for every repeated invertible finite binary block matrix and proved it is a total computable raw one-hole scan;
+- proved the evaluator is exhaustive for the displayed three-bit matrix;
+- built the copied-live-wager martingale and proved that any destruction must have unbounded multiplicative gain on spoiled virtual stages already determined by the raw history;
+- proved OH invariant under every computable finite-coordinate fair-coin recoding and hence under the group generated with signed coordinate permutations;
+- observed that every finite truncation of the repeated three-bit mixer preserves OH, so any failure for the full map must be infinitary;
+- did **not** produce \(x\in OH\) with \(H(x)\notin OH\), so no \(R_2\subsetneq OH\) separation is claimed.
+
+Records:
+- phase4/P4-S034_MATHEMATICS.md
+- phase4/P4-S034_CLOSE.md
+- phase4/P4-S034_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S035**, on early-decided versus genuinely late-decided spoiled stakes.
