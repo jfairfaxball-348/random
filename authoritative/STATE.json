@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S027",
+  "last_completed_session": "P4-S028",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S028: stay at k=2 inside the least-fresh ticket/restart architecture; test only whether an effectively exhaustible per-epoch finite dependency frontier is the structural condition behind P4-S027 bare admissibility, or whether without such a frontier an exact global-k=2 sibling family can force unbounded full-ticket reserve demand.",
-  "recommended_next_session": "P4-S028",
+  "next_transition": "Run P4-S029: stay at k=2 inside the least-fresh ticket/restart architecture; test only whether P4-S028's computable finite dependency frontier is necessary for bare admissibility, by seeking a no-frontier globally k=2 scan with arbitrarily late one-sided trigger opportunities but finite full-ticket reserve, or a narrow nondegenerate necessity theorem.",
+  "recommended_next_session": "P4-S029",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S027",
-    "next_session": "P4-S028",
+    "last_session": "P4-S028",
+    "next_session": "P4-S029",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S027_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S027_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S027_VALIDATION.md",
+    "latest_record": "phase4/P4-S028_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S028_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S028_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -778,6 +778,26 @@
       "next_question": "effective finite dependency frontier versus unbounded reserve demand in the broader P4-S012 partial-predictor setting",
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+    },
+    "k2_dependency_frontier_result": {
+      "session": "P4-S028",
+      "scope": "k=2 P4-S012 finite dependency frontier / bare full-ticket reserve boundary only",
+      "result": "COMPUTABLE_FINITE_EPOCH_FRONTIER_SUFFICES_RESERVE_ONE_WHILE_NO_FRONTIER_GLOBAL_K2_SCAN_CAN_FORCE_UNBOUNDED_RESERVE_DEMAND",
+      "finite_frontier_sufficient": true,
+      "wtt_use_bound_essential": false,
+      "frontier_exhausting_horizon_computable": true,
+      "deterministic_postfrontier_tickets": true,
+      "finite_global_reserve": 1,
+      "frontier_forced_by_p4_s012": false,
+      "exact_no_frontier_global_k2_witness": true,
+      "every_finite_horizon_defeated_by_witness": true,
+      "no_finite_reserve_for_witness": true,
+      "frontier_necessity_claimed": false,
+      "p4_s011_preserved": true,
+      "p4_s015_through_p4_s027_preserved": true,
+      "next_question": "whether no-frontier bare admissibility is possible with decaying one-sided skipped gains",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
@@ -985,5 +1005,24 @@
     "k_gt_2_resolved": false,
     "novelty_claimed": false,
     "validation_record": "phase4/P4-S027_VALIDATION.md"
+  },
+  "phase4_k2_dependency_frontier_mathematics": {
+    "session": "P4-S028",
+    "scope": "k=2 P4-S012 dependency-frontier versus bare reserve-demand boundary only",
+    "result": "FINITE_FRONTIER_MAKES_TICKETS_DETERMINISTIC_NO_FRONTIER_CAN_SUPPORT_REPEATED_ONE_SIDED_DEFICIT",
+    "successful_mechanisms": [
+      "A computable finite epoch dependency frontier can be exhausted by a computable least-fresh horizon.",
+      "After exhaustion, future filler values cannot change trigger data, so positive P4-S016 tickets have equal child losses and premium equals certain payout.",
+      "Reserve one therefore funds the canonical full-ticket account globally.",
+      "A first-1-search self-avoiding predictor has no finite frontier yet induces an exact total fair-coin-preserving global-k=2 scan.",
+      "On its stored-sentinel-1/all-zero sibling every post-horizon ticket has loss vector (0,1), price 1/2 and payout 0, forcing arbitrarily large reserve demand."
+    ],
+    "frontier_necessity_claimed": false,
+    "p4_s011_destroyer_preserved": true,
+    "p4_s015_through_p4_s027_preserved": true,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "k_gt_2_resolved": false,
+    "novelty_claimed": false,
+    "validation_record": "phase4/P4-S028_VALIDATION.md"
   }
 }

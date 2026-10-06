@@ -444,3 +444,21 @@ On the P4-S011 computably random target, settled P4-S016 still forces divergent 
 P4-S005 through P4-S026 remain settled; P4-S011 and P4-S015 through P4-S026 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S028, testing only whether an effectively exhaustible per-epoch dependency frontier is the weakest natural structural condition behind this bare-admissibility result, or whether its absence permits an exact global-k=2 sibling family forcing unbounded reserve demand.
+
+
+## Mathematics checkpoint — P4-S028
+
+P4-S028 isolates the structural content of P4-S027's use-bound argument. A wtt presentation is unnecessary: any computable finite per-epoch dependency frontier whose exhaustion makes later trigger data independent of future filler values yields a computable frontier-exhausting horizon. Beyond that horizon every positive P4-S016 ticket is deterministic, so its fair premium equals its certain payout and reserve R=1 is globally admissible.
+
+The P4-S012 partial-predictor setting does not force such a frontier. A self-avoiding first-1-search predictor gives an exact total, fair-coin-preserving global-k=2 scan with no finite first-epoch frontier. On the sentinel-first sibling with stored sentinel 1 and all later fillers 0, every post-horizon node has last-chance loss vector (0,1), premium 1/2 and actual payout 0. Hence every finite horizon leaves unbounded cumulative premium deficit and no finite reserve can be globally admissible.
+
+This is an existence separation, not a necessity theorem: no-frontier predictors may still conceivably be solvent when one-sided skipped gains decay. P4-S011 remains unchanged and lies on the positive side because P4-S027 supplies its finite use frontier. P4-S015 through P4-S027 remain settled.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Records:
+- phase4/P4-S028_MATHEMATICS.md
+- phase4/P4-S028_CLOSE.md
+- phase4/P4-S028_VALIDATION.md
+
+Recommended next bounded session: **P4-S029**, testing only whether finite dependency frontiers are necessary for bare admissibility or whether effectively decaying one-sided exposure gives an exact no-frontier solvent example.
