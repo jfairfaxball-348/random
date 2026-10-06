@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S019",
+  "last_updated_session": "P4-S021",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S020",
-      "record_path": "phase4/P4-S020_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S021",
+      "record_path": "phase4/P4-S021_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -570,6 +570,30 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S020_VALIDATION.md"
+      },
+      "phase4_k2_scale_tail_mathematics": {
+        "session": "P4-S021",
+        "scope": "k=2 loss-scale / scale-tail effectivity boundary only",
+        "result": "LOCAL_SCALE_TAIL_DATA_SUFFICE_FOR_EFFECTIVE_LOSS_PROPERNESS_BUT_NOT_EXACT_REACH_SEARCHABILITY",
+        "successful_mechanisms": [
+          "A computable waiting bound for reachable losses at least 2^-n gives finite-search decidability of coarse-scale accumulated-loss reachability.",
+          "Under set-theoretic loss-properness, an unreachable coarse-scale amount plus a computable bound on smaller realized losses yields a computable U(K).",
+          "The settled harmonic one-sided-trigger account satisfies scale-tail control while absolute premium sum diverges.",
+          "A globally k=2, globally admissible geometric-tail construction has global fixed-scale deadlines, effectively vanishing small-loss tails and a computable linear U(K), yet Reach(e+2,2e+2) is equivalent to machine-e halting.",
+          "P4-S011 has divergent realized loss in arbitrarily small scales under global admissibility, so every finite subscale-tail certificate fails on its computably random target."
+        ],
+        "obstruction": "Finite attainment versus limit approach at an exact loss boundary can encode halting despite effective control of total loss mass.",
+        "p4_s011_destroyer_preserved": true,
+        "p4_s015_weighted_theorem_preserved": true,
+        "p4_s016_ticket_theorem_preserved": true,
+        "p4_s017_coercive_reserve_theorem_preserved": true,
+        "p4_s018_effective_coercivity_boundary_preserved": true,
+        "p4_s019_loss_properness_effectivity_boundary_preserved": true,
+        "p4_s020_loss_level_searchability_boundary_preserved": true,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S021_VALIDATION.md"
       }
     },
     {
