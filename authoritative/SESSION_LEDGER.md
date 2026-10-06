@@ -1196,3 +1196,32 @@ P4-S011 remains excluded already at loss-properness under global admissibility; 
 Records: phase4/P4-S020_MATHEMATICS.md; phase4/P4-S020_CLOSE.md; phase4/P4-S020_VALIDATION.md. Durable decision: D-0042. Lesson: FL-068.
 
 Recommended next bounded session: P4-S021, testing only whether searchable loss levels follow from local scale-tail data weaker than an explicit witness modulus, or whether halting information can still move across infinitely many shrinking loss scales.
+
+
+## P4-S021 — scale-tail effectivity versus shrinking-scale boundary attainment
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh ticket/restart architecture; scale-tail effectivity only
+Status: **COMPLETED**
+
+Incoming checkpoint \`baf6f7be7dfe30f475465d43e677235abee66518\` matched live \`main\` exactly before substantive work. Repository search returned no committed P4-S021 record, so the session identifier was unique.
+
+P4-S021 proves that local two-scale data can effectivize loss-properness without giving full loss-level searchability. A computable waiting bound for any reachable loss at least \(2^{-n}\), plus a computable bound on the total contribution of smaller realized losses while \(W^*<K\), makes coarse-scale accumulated-loss reachability decidable. With set-theoretic loss-properness, search for the first unreachable coarse-scale amount and add the small-loss bound to obtain a computable U(K), hence the P4-S018 coercivity modulus.
+
+The condition remains compatible with divergent absolute premium sums in the settled one-sided-trigger harmonic account.
+
+The stronger P4-S020 witness modulus does not follow. A globally k=2, globally admissible index-ladder/geometric-tail construction has computable global deadlines at every fixed loss scale, effectively vanishing smaller-loss tails and an explicit linear U(K), yet \(\operatorname{Reach}(e+2,2e+2)\) holds exactly when machine e halts. Nonhalting tails approach the queried boundary from below; halting causes one finite rational correction block to attain it.
+
+Thus the remaining obstruction is anti-Zeno / boundary-isolation effectivity, not loss-frequency or loss-mass effectivity.
+
+P4-S011 fails the new scale-tail condition under global admissibility: its bounded-capital computably random completion carries a divergent missed-epoch subseries of \(1/(r+1)\), hence unbounded cumulative mass below every fixed positive scale.
+
+Records: phase4/P4-S021_MATHEMATICS.md; phase4/P4-S021_CLOSE.md; phase4/P4-S021_VALIDATION.md. Durable decision: D-0043. Lesson: FL-069.
+
+P4-S005 through P4-S020 remain settled. P4-S011 and P4-S015 through P4-S020 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S022, testing only a local anti-Zeno / boundary-isolation condition for exact loss-level reachability.
