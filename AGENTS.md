@@ -176,3 +176,17 @@ This does not force an all-correct bit autoreduction for an arbitrary winning ma
 P4-S011's exact destroyer and P4-S005 through P4-S011 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4 or publication claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S012_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S013 (not a gate review)
+
+P4-S013 completed one bounded k=2 sibling-totality investigation for selected CAND-01.
+
+Result: full oracle-totality of the P4-S012 self-avoiding stake functional is sufficient for preservation but stronger than necessary. The exact local hypothesis is reachable-sentinel totality: every sentinel computation halts on every source on which that sentinel is actually reached. At each reachable epoch the nontriggering continuations form a computable binary tree; reachable-sentinel totality is equivalent to this tree being finite, hence to a computably searchable finite deadline.
+
+Every epoch then terminates on every source. The least-fresh scan becomes globally exhaustive, queries each coordinate exactly once, has only singleton fibres, and has an everywhere computable inverse. Thus the k=2 least-fresh subclass collapses to the P4-S001 k=1 effective-isomorphism regime and preserves computable randomness. P4-S009 finite hedges can also be concatenated because every turnover now has a searched finite deadline.
+
+A concrete functional which diverges on a coordinate always used as a filler shows that full totality is strictly stronger than reachable-sentinel totality. Target-only totality remains insufficient by P4-S011.
+
+P4-S011's destroyer and P4-S012's stake-level boundary remain unchanged. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S013_MATHEMATICS.md.
