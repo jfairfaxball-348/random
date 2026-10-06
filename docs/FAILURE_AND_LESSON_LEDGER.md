@@ -873,3 +873,19 @@ Resolution: distinguish **effective control of total loss mass** from **effectiv
 P4-S011 lies outside even the scale-tail regime under global admissibility: its divergent loss has an unbounded tail below every fixed positive scale.
 
 Guard: this is a boundary inside the settled P4-S016/P4-S017 full-ticket plus restart architecture, not a general impossibility theorem for arbitrary martingale transfers.
+
+## FL-070 — a vanishing tail bound is not a boundary gap; exact search needs strict separation
+
+Session: P4-S022
+Date: 2026-10-06
+Status: PHASE-4 k=2 STRICT-BOUNDARY / ANTI-ZENO GUARD
+
+P4-S021 already gives extremely strong control in its negative example: every fixed positive loss scale dies out by a computable deadline, the remaining small-loss tail tends effectively to zero, and total bad-capital loss has a computable bound. The tempting inference is that this should make exact integer loss levels decidable.
+
+The missing detail is the sign of the residual gap. At an exhausted scale, a computable tail cap Q proves nonreachability only when (E+Q<m). In the P4-S021 nonhalting machine tail, the sharp computable remainder satisfies (E+Q=m) at every finite stage. If the machine halts, that same residual is paid by one finite correction. Equality therefore carries the halting bit.
+
+Resolution: for exact Reach search, require or derive a **strict** residual-gap certificate on every genuinely unreachable boundary. Positive crossing witnesses need no extra certificate because they are already c.e. Once all false boundaries have searchable strict gaps, Reach is decidable and P4-S020's witness modulus can be recovered.
+
+Guard: do not call such a condition strictly weaker than D in effective consequence. It is only a different, more local source of the same exact searchability. The next question is whether semantic exclusion of nonattaining boundary-Zeno paths plus effective compactness forces the strict gap automatically.
+
+P4-S011 remains outside the scale-tail regime under global admissibility.
