@@ -557,3 +557,26 @@ Next: P4-S037 on rolling finite-state/backward-price normalization. The P4-S015�
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 
+
+
+## Mathematics checkpoint — P4-S037 (not a gate review)
+
+P4-S037 continues the sustained one-hole normalization programme.
+
+The finite-packet condition is no longer the positive boundary. A computable rolling transition which retires the old spoiled frontier and hands off to new virtually unseen fair parities gives exact backward-price cancellation. Together with persistent savings, this constructs one successful raw martingale whenever the virtual witness succeeds.
+
+This normalizes both the P4-S035 infinite directed ray and the P4-S036 rank-one infinite overlap architecture. Hence directed-ray status and infinite weak-component geometry are not themselves the resource.
+
+The actual recoded P4-S011 witness isolates the sharper obstruction. Its active nonzero frontier has width one; a half-stake sentinel version still succeeds with all local triggered price coordinates between (1/2) and (3/2). What is missing is effective retirement: after the finite wtt value-use frontier is known, a sibling computation may still remain open for arbitrarily long and finite simulation cannot certify divergence.
+
+Effective computable stabilization of the absolute persistent-savings backward prices is sufficient. Whether one-hole geometry forces enough stabilization remains open.
+
+The inclusions remain
+[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR,
+]
+with (R_2=OH) unresolved.
+
+Next: P4-S038 on persistent-frontier claim retirement and effective backward-price stabilization. The P4-S015–P4-S031 bankroll sequence remains frozen.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
