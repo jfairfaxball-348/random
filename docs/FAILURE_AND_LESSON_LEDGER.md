@@ -836,3 +836,21 @@ Resolution: when the P4-S018 quantitative transfer is needed, require effective 
 P4-S011 is outside even the set-theoretic loss-proper regime whenever its full-ticket account is globally admissible. Bare admissibility remains unruled-out.
 
 Guard: this is a boundary inside the P4-S016/P4-S017 full-ticket plus restart architecture, not an impossibility theorem for arbitrary martingale transfers.
+
+## FL-068 — bounding the next positive loss is too coarse; control the reachable loss scale
+
+Session: P4-S020
+Date: 2026-10-06
+Status: PHASE-4 k=2 LOSS-SCALE SEARCHABILITY GUARD
+
+P4-S019 hid halting-time information behind arbitrarily long zero-loss waiting, suggesting that a computable waiting bound might repair effectivity. That diagnosis is too coarse.
+
+The same obstruction survives after inserting summably small deterministic heartbeat losses. A branch which will later realize more positive skipped gain can be forced to realize some positive gain again within a fixed computable number of controller epochs, yet the total heartbeat contribution on a nonhalting branch remains bounded. A late halt still unlocks a finite effectively divergent burst, so a computable majorant of b(K) would still decide halting.
+
+Lesson: event frequency does not control accumulated loss scale. The useful structural datum is a computable bound on where a **specified loss level** must first have a witness if it is reachable. Such a loss-level witness modulus makes the global loss-bar predicate searchable; with loss-properness it computes U(K).
+
+Do not silently replace a loss-level reachability problem by a next-event waiting bound, especially when positive increments may shrink summably.
+
+The searchable-loss-level condition remains weaker than branchwise amount-sensitive progress and is compatible with divergent absolute premium sums. P4-S011 fails before this boundary because global admissibility plus loss-properness is already impossible there.
+
+Guard: this is a boundary inside the P4-S016/P4-S017 full-ticket plus restart architecture, not an impossibility theorem for arbitrary martingale transfers.
