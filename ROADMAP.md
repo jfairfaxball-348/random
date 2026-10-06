@@ -339,3 +339,17 @@ No \(x\in OH\) with \(H(x)\notin OH\) is known, so \(R_2=OH\) remains unresolved
 Next bounded mathematics: **P4-S035**, formalize raw determination time and test whether early-decided spoiled stakes can always be moved back to their last raw pivot; then isolate or eliminate genuinely late-decision spoiled gain.
 
 PA-0001 and DEF-0020 are unchanged. No Gate-4, publication or outreach transition occurs.
+
+## P4-S035 checkpoint — finite packet normalization and infinite dependency rays
+
+Completed: the late-decision obstruction is now separated into a normalizable finite part and a genuinely infinitary cross-block part.
+
+For the displayed three-bit mixer, spoiled stakes that are uniformly known before their determining raw pivot transfer exactly to a raw martingale. Same-pivot late choice has an exact scalar fair-price correction, so only an unbounded product of those late-choice premiums can survive.
+
+More strongly, for every repeated invertible finite binary block recoding of block size at least two, every block-closed or uniformly bounded packet-closed one-hole witness preserves computable randomness. Finite packets are compiled by exact raw Doob martingales.
+
+P4-S035 also exhibits an exact one-hole bounded-delay architecture whose pending spoiled wager in block \(b\) depends on information first exposed in block \(b+1\), recursively. No finite packet closes this chain. This is the first surviving compiler obstruction, not an OH non-invariance witness.
+
+Next bounded mathematics: **P4-S036**, determine whether every finite/well-founded dependency closure normalizes, and isolate what an infinite dependency ray can actually do on an \(OH\) source.
+
+PA-0001 and DEF-0020 are unchanged. Phase 4 remains OPEN; Phase 5 remains CLOSED.
