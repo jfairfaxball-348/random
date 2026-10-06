@@ -1225,3 +1225,31 @@ P4-S005 through P4-S020 remain settled. P4-S011 and P4-S015 through P4-S020 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S022, testing only a local anti-Zeno / boundary-isolation condition for exact loss-level reachability.
+
+## P4-S022 — anti-Zeno boundary isolation versus exact loss-level searchability
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh ticket/restart architecture; anti-Zeno / boundary-isolation searchability only
+Status: **COMPLETED**
+
+Incoming checkpoint `2abc3b536272fd5c8f903d8087e0328212445d11` matched live `main` exactly before substantive work. Commit search returned no P4-S022 session record; the only incoming P4-S022 hit was P4-S021 forward scheduling, so the identifier was unique.
+
+P4-S022 derives a computable global exhaustion frontier for every fixed loss scale from the settled P4-S021 loss bound and large-loss waiting modulus. At an n-quiet frontier, the remaining subscale contribution has a computable local cap. A strict inequality placing that residual cap below a queried integer loss boundary is therefore a finite certificate that the boundary is unreachable through that frontier.
+
+If every false Reach(K,m) instance eventually has such a strict frontier certificate, exact Reach is decidable by dovetailing negative certificate search with the already-c.e. finite positive witness search. A separate “must cross within bounded depth” arm is unnecessary.
+
+This condition is weaker only as primitive local data. Because P4-S020 already proved decidable Reach equivalent to a computable witness modulus D(K,m), any uniform strict-gap procedure that decides all exact boundaries compiles back into D.
+
+P4-S021's geometric halting tail is sharp for strictness: on a divergent selected-e branch the exact computable remaining tail equals the current gap to m_e at every finite stage, while a halt replaces that tail by a finite correction attaining m_e. Thus nonstrict E+Q<=m control, even with effective vanishing tails and fixed-scale deadlines, does not decide Reach.
+
+P4-S011 remains excluded before this boundary under global admissibility because it fails every finite P4-S021 subscale-tail bound in one bad-capital tree.
+
+Records: phase4/P4-S022_MATHEMATICS.md; phase4/P4-S022_CLOSE.md; phase4/P4-S022_VALIDATION.md. Durable decision: D-0044. Lesson: FL-070.
+
+P4-S005 through P4-S021 remain settled. P4-S011 and P4-S015 through P4-S021 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S023, testing only whether strong effective tail convergence plus semantic exclusion of nonattaining integer-boundary Zeno branches forces a searchable strict frontier gap by effective compactness, or whether incompatible branches can still hide halting information.
