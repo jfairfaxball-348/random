@@ -172,3 +172,19 @@ P4-S011 fails the scale-tail hypothesis strongly under global admissibility: its
 P4-S005 through P4-S020 remain settled. P4-S011 and P4-S015 through P4-S020 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S022, still at k=2, testing only whether a computable anti-Zeno / boundary-isolation condition weaker than an explicit P4-S020 witness modulus makes exact loss-level reachability decidable, or whether halting information survives another shrinking-scale coding.
+
+## Mathematics checkpoint — P4-S022 (not a gate review)
+
+P4-S022 resolves the first anti-Zeno formulation after P4-S021. The settled scale-tail data plus loss-properness already compute a global depth (G(K,n)) after which no loss of size at least (2^{-n}) remains possible in (B_K). At that frontier the remaining smaller-loss mass has a computable residual cap Q.
+
+A strict residual inequality (E+Q<m) is therefore a finite certificate that a queried integer loss boundary cannot be reached through that frontier. If every false Reach(K,m) instance eventually exposes such a finite strict-gap certificate, exact Reach is decidable by dovetailing this negative search with the ordinary c.e. positive witness search.
+
+The proposed finite-depth crossing arm is unnecessary. Conversely, the condition cannot remain strictly below P4-S020 in final effective strength: once Reach is decidable, the P4-S020 witness modulus D(K,m) is computable.
+
+P4-S021's geometric machine tail is the sharp equality obstruction. On a divergent branch the exact computable remaining tail equals the current gap to m at every finite stage, whereas a halt pays that same residual finitely. Thus nonstrict boundary control does not decide Reach.
+
+P4-S011 still fails earlier under global admissibility because no finite P4-S021 subscale-tail bound exists on its computably random target completion.
+
+P4-S005 through P4-S021 remain settled. P4-S011 and P4-S015 through P4-S021 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S023, testing only whether strong effective tail convergence plus semantic anti-Zeno exclusion forces the strict frontier gap by effective compactness.
