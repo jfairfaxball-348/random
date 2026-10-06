@@ -148,3 +148,17 @@ There is a positive boundary: if "branchwise effective" means one oracle-uniform
 P4-S011 remains outside even the weak pointwise-tail regime under global admissibility. P4-S005 through P4-S023 remain settled; P4-S011 and P4-S015 through P4-S023 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S025, testing only whether effective upper-semicontinuity of the branch-limit loss, or an equivalent computable local tail-cap basis, is enough with semantic anti-Zeno to recover searchable strict frontier separation.
+
+## Mathematics checkpoint — P4-S025 (not a gate review)
+
+P4-S025 shows that a complete effective upper-semicontinuity / local upper-cap basis for the bad-capital branch-limit loss is sufficient with semantic anti-Zeno, but is not genuinely weaker than P4-S023's uniform-tail regime. Tight local upper-cap cylinders form a c.e. cover of the computable pruned bad-capital branch space; effective compactness finds a finite subcover and yields a computable global uniform tail modulus. Conversely, a computable uniform tail modulus enumerates a complete effective upper-cap basis.
+
+Semantic anti-Zeno therefore forces a searchable strict frontier gap, decidable Reach(K,m), and recovery of the P4-S020 witness modulus.
+
+The sharp remaining obstruction is effectivity rather than ordinary continuity. An exact globally k=2, globally admissible delayed-activation comb has computable fixed-scale exhaustion, effective loss-properness, eventual loss-constancy and semantic anti-Zeno on every bad-capital branch, and a continuous branch-limit loss, yet \(\operatorname{Reach}(e+2,2e+2)\) is equivalent to machine-e halting. The missing information is the effective upper-cap / continuity modulus.
+
+Boundary-specific effective caps can be weaker as primitive syntax, but if they cover all false integer Reach instances they amount to the already-settled positive semidecidability of Bar(K,m) and recover P4-S020 searchability.
+
+P4-S011 remains outside even the finite branch-limit regime under global admissibility. P4-S005 through P4-S024 remain settled; P4-S011 and P4-S015 through P4-S024 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S026, testing only whether a one-sided effective boundary-modulus weaker than complete effective upper-semicontinuity can arise structurally without already restating searchable Bar / decidable Reach.
