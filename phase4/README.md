@@ -218,3 +218,24 @@ Records:
 - phase4/P4-S012_VALIDATION.md
 
 Next recommended session: **P4-S013**, still at k=2, testing only the sibling-totality boundary: whether total-on-all-oracles, or a weaker effective uniform-totality/deadline condition, forces a computable source martingale for the least-fresh partial-stake subclass.
+
+## P4-S013 — k=2 reachable-sentinel totality / finite-deadline boundary
+
+P4-S013 proves a positive theorem for the P4-S011/P4-S012 least-fresh subclass. Full totality of the self-avoiding predictor/stake functional on every oracle and every input is sufficient, but is stronger than the scan actually needs.
+
+The weaker condition is reachable-sentinel totality: whenever a run reaches an epoch with current sentinel j, the functional halts at j on that source. At a reachable epoch, the continuations on which no trigger is yet visible form a computable binary tree. Reachable-sentinel totality means that tree has no infinite path; finite branching then makes it finite, and a search for its first empty level gives a computable finite deadline. Thus qualitative sibling totality and a computably searchable deadline are equivalent in this architecture.
+
+Consequently every epoch ends on every source. The scan queries every coordinate exactly once and all fibres are singleton. Its inverse is computable by simulating the output transcript until the requested source coordinate is queried. Hence the map is a computable fair-coin-preserving isomorphism and P4-S001 / SRC-0015 / THM-0038 gives computable-randomness invariance.
+
+The finite deadline also makes the P4-S009 block hedge exact at every turnover, so the block hedges concatenate into one computable completion martingale.
+
+Full oracle-totality is strictly stronger than needed: a functional may diverge on a coordinate which is always consumed as a filler and never becomes a sentinel.
+
+This is a sufficient transfer boundary, not a necessary characterization of every preserving k=2 least-fresh scan. P4-S011 shows that target-only totality is insufficient and that branchwise avoidance can support destruction.
+
+Records:
+- phase4/P4-S013_MATHEMATICS.md
+- phase4/P4-S013_CLOSE.md
+- phase4/P4-S013_VALIDATION.md
+
+Next recommended session: **P4-S014**, still at k=2, testing only whether computable summable avoidance-tail bounds weaker than finite deadlines suffice for a one-martingale transfer, and whether the P4-S011 destroyer necessarily violates such bounds.
