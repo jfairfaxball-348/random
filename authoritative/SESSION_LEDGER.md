@@ -1157,3 +1157,28 @@ P4-S011 admits no effective modulus for any computable horizon selector. PA-0001
 
 Records: phase4/P4-S018_MATHEMATICS.md; phase4/P4-S018_CLOSE.md; phase4/P4-S018_VALIDATION.md.
 
+## P4-S019 — loss-properness effectivity boundary
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh ticket/restart architecture; loss-properness effectivity only
+Status: **COMPLETED**
+
+Incoming checkpoint b71f3fff7e128cafc6eb0e225f7b3f00ce8dc7cd matched live main exactly before substantive work. Repository search returned no committed P4-S019 record, so the session was unique.
+
+P4-S019 proves that set-theoretic loss-properness does not automatically effectivize. For an admissible computable full-ticket account, b(K)=sup{E(v):W*(v)<K} is uniformly lower semicomputable, but all b(K) may be finite without any computable uniform majorant.
+
+The counterexample stays inside the settled exact k=2 least-fresh machinery. Zero-stake controls select an index e; e one-sided-trigger wins raise ticket capital to P_e=1+H_e/2; zero-stake epochs simulate machine e; if it halts after t steps, t deterministic-trigger tickets raise E to H_{e+t} while leaving ticket capital fixed at P_e. For each fixed K only finitely many indices can reach their waiting/burst phase below K, so b(K)<infinity. A computable majorant would give a computable bound on every halting time and decide the halting problem.
+
+The exact numerical extra condition for the settled proof is effective loss-properness: a total computable U(K) bounding all E(v) with W*(v)<K. This is equivalent up to a margin to the P4-S018 coercivity modulus.
+
+P4-S011 cannot satisfy even set-theoretic loss-properness under global admissibility: its settled completion has E=infinity, so loss-properness would force the ticket account unbounded on a computably random effective-isomorphic completion. Bare admissibility remains unruled-out.
+
+Records: phase4/P4-S019_MATHEMATICS.md; phase4/P4-S019_CLOSE.md; phase4/P4-S019_VALIDATION.md. Durable decision: D-0041. Lesson: FL-067.
+
+P4-S005 through P4-S018 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S020, testing only whether a natural local zero-loss-waiting / positive-loss-reachability condition, or a weaker effectively searchable loss-bar condition, converts loss-properness into effective loss-properness without restoring absolute premium summability.
