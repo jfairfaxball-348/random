@@ -462,3 +462,20 @@ For the settled P4-S011 destroyer, every computable horizon selector yields dive
 P4-S011 through P4-S015 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Record: phase4/P4-S016_MATHEMATICS.md.
+
+## D-0039 — allow exact last-chance insurance to self-finance, but require coercivity
+
+Session: P4-S017
+Date: 2026-10-06
+
+Decision/result: inside the k=2 least-fresh stake architecture, replace P4-S016's absolute pathwise sum bound on last-chance fair premiums, for a fixed horizon/ticket stream, by a **coercive self-financing full-ticket reserve**.
+
+Earlier payouts may fund later premiums. A finite computable initial reserve must make every full-ticket purchase without overdraft on every run. Divergent cumulative realized positive skipped gain must also make the ticket account unbounded. The settled restart hedge handles finite realized loss; their sum transfers success through the sentinel-first effective isomorphism.
+
+P4-S016 implies this condition. Bare solvency does not. A fixed-H separation shows harmonic premiums can be funded by earlier ticket winnings. This does not rule out an old P4-S016 certificate after choosing another horizon.
+
+P4-S011 has no coercive certificate for any computable horizon selector. Bare admissibility alone is not excluded.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Record: phase4/P4-S017_MATHEMATICS.md.

@@ -1120,3 +1120,25 @@ P4-S005 through P4-S015 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPE
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S017, still at k=2, testing only whether the absolute premium-sum budget can be weakened to a computable self-financing reserve condition.
+
+## P4-S017 — self-financing last-chance reserves
+
+Date: 2026-10-06
+Phase: 4 — Mathematics
+Candidate: CAND-01
+Scope: k=2 least-fresh stake subclass; self-financing postmiss insurance only
+Status: **COMPLETED**
+
+Incoming checkpoint 4f587d38ff58c3eb6314c4f1d22bfd57594c77ea matched live main exactly and P4-S017 was unique.
+
+P4-S017 replaces P4-S016's absolute premium bankroll, for a fixed ticket stream, by a coercive self-financing reserve. Earlier ticket payouts may pay later exact fair premiums. The account must remain nonnegative on every run and become unbounded whenever cumulative realized positive skipped gain diverges. The settled restart hedge handles finite realized loss and permanently nontriggering missed epochs. Their sum gives one completion martingale and P4-S001 transfers it to one source martingale.
+
+P4-S016 implies the new condition. A fixed-H example has divergent harmonic premiums but reserve 1/2 funded by earlier wins. Bare no-overdraft is insufficient. P4-S011 admits no coercive certificate for any computable horizon selector; bare admissibility alone is not ruled out.
+
+Records: phase4/P4-S017_MATHEMATICS.md, phase4/P4-S017_CLOSE.md, phase4/P4-S017_VALIDATION.md. Durable decision: D-0039. Lesson: FL-065.
+
+P4-S005 through P4-S016 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S018.

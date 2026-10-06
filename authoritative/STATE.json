@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S016",
+  "last_completed_session": "P4-S017",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S015: stay at k=2 and inside the least-fresh stake architecture; test only whether the P4-S014 unit miss-ticket budget can be weakened to a computable stake-weighted skipped-wager loss budget allowing nonsummable raw miss probabilities.",
-  "recommended_next_session": "P4-S017",
+  "next_transition": "Run P4-S018: stay at k=2 inside the least-fresh stake architecture; test only whether P4-S017 semantic coercivity can be replaced by a local computable reserve-floor / retained-surplus modulus without restoring absolute premium summability.",
+  "recommended_next_session": "P4-S018",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S016",
-    "next_session": "P4-S017",
+    "last_session": "P4-S017",
+    "next_session": "P4-S018",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S016_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S016_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S016_VALIDATION.md",
+    "latest_record": "phase4/P4-S017_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S017_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S017_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -548,6 +548,25 @@
       "k_gt_2_resolved": false,
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "validation_record": "phase4/P4-S016_VALIDATION.md"
+    },
+    "k2_self_financing_reserve_result": {
+      "session": "P4-S017",
+      "scope": "k=2 self-financing last-chance reserve boundary only",
+      "result": "COERCIVE_SELF_FINANCING_FULL_TICKET_RESERVE_SUFFICES_WITHOUT_ABSOLUTE_PREMIUM_SUM_BOUND",
+      "weakest_established_condition": "For a fixed computable horizon/ticket stream, one finite computable initial reserve funds every full ticket on every run and the resulting ticket martingale is unbounded whenever cumulative realized positive skipped gain diverges.",
+      "absolute_premium_summability_required": false,
+      "earlier_ticket_payouts_may_fund_later_premiums": true,
+      "bare_no_overdraft_sufficient": false,
+      "stronger_effective_form": "A computable nondecreasing unbounded reserve floor g(E) in cumulative realized ticket payout E.",
+      "fixed_horizon_strict_separation": true,
+      "global_reoptimized_horizon_strict_separation_claimed": false,
+      "p4_s011_coercive_reserve_certificate": false,
+      "p4_s011_bare_admissibility_ruled_out": false,
+      "infinite_optional_projection_required": false,
+      "absolute_necessity_claimed": false,
+      "next_question": "effectivize semantic coercivity by a local computable reserve-floor / retained-surplus modulus",
+      "k_gt_2_resolved": false,
+      "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
     }
   },
   "phase4_k2_moving_hole_mathematics": {

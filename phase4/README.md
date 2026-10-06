@@ -290,3 +290,18 @@ P4-S011 violates the incremental premium condition on its target path for every 
 P4-S005 through P4-S015 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S017, still restricted to k=2, testing only whether the absolute pathwise premium-sum budget can be weakened to a computable self-financing reserve condition.
+
+## P4-S017 — self-financing last-chance reserves
+
+P4-S017 weakens the P4-S016 bankroll hypothesis for the same exact ticket stream. Earlier payouts may fund later premiums. The full-ticket account is admissible when it can buy every next ticket on every run without going negative, and coercive when divergent cumulative realized skipped gain forces it unbounded.
+
+Admissibility plus coercivity is sufficient with the settled restart hedge. P4-S016 absolute premium summability implies this condition. For fixed H the converse can fail: a two-filler example has harmonic total premiums but reserve 1/2 grows from winning tickets. Bare solvency is not enough.
+
+P4-S011 has no coercive reserve certificate for any computable horizon selector. Bare admissibility alone is not excluded.
+
+Records:
+- phase4/P4-S017_MATHEMATICS.md
+- phase4/P4-S017_CLOSE.md
+- phase4/P4-S017_VALIDATION.md
+
+Next recommended session: **P4-S018**, testing only whether semantic coercivity can be replaced by a local computable reserve-floor / retained-surplus modulus.

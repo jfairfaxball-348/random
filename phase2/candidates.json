@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S016",
+  "last_updated_session": "P4-S017",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S016",
-      "record_path": "phase4/P4-S016_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S017",
+      "record_path": "phase4/P4-S017_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -463,6 +463,28 @@
         "relation_to_p4_s015": "effectivity envelope removed; complete numerical certificate conditions not claimed ordered",
         "next_question": "self-financing premium reserve versus absolute premium-sum budget",
         "exact_k2_destroyer_preserved": "P4-S011",
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_self_financing_reserve_mathematics": {
+        "session": "P4-S017",
+        "scope": "k=2 self-financing last-chance reserve boundary only",
+        "result": "COERCIVE_SELF_FINANCING_FULL_TICKET_RESERVE_SUFFICES_WITHOUT_ABSOLUTE_PREMIUM_SUM_BOUND",
+        "successful_mechanisms": [
+          "Earlier exact-ticket payouts may fund later exact fair premiums.",
+          "Global no-overdraft plus unbounded ticket capital whenever realized positive skipped gain diverges is sufficient with the settled restart hedge.",
+          "P4-S016 absolute premium summability implies the new condition.",
+          "A fixed-H example has harmonic premium expenditure but a finite reserve that grows from ticket winnings.",
+          "Bare no-overdraft is insufficient: certain-payout tickets can recycle capital while realized loss diverges and the restart hedge stagnates.",
+          "P4-S011 admits no coercive self-financing certificate for any computable horizon selector."
+        ],
+        "fixed_horizon_strict_separation": true,
+        "global_reoptimized_horizon_strict_separation_claimed": false,
+        "bare_admissibility_sufficient": false,
+        "p4_s011_coercive_certificate": false,
+        "p4_s011_bare_admissibility_ruled_out": false,
+        "next_boundary": "local computable reserve-floor / retained-surplus modulus versus semantic coercivity",
+        "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
       }

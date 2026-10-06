@@ -784,3 +784,19 @@ After a horizon miss, the sentinel-first completion still has fresh filler bits.
 The remaining difficulty is quantitative rather than limit-computational: a single finite initial bankroll can fund all last-chance tickets only under an effective admissibility condition. P4-S016 uses a finite uniform pathwise sum bound on their exact fair premiums. The next refinement should attack that bankroll condition, not return to the noncomputable future envelope.
 
 Guard: this is a lesson about the P4-S016 least-fresh transfer architecture only, not an impossibility result for other computable martingale transfers.
+
+## FL-065 — solvency is not success: self-financed insurance needs a coercive surplus condition
+
+Session: P4-S017
+Date: 2026-10-06
+Status: PHASE-4 k=2 SELF-FINANCING RESERVE GUARD
+
+The tempting weakening of P4-S016 is to require only that earlier ticket winnings keep the insurance account from going bankrupt. That is not enough. No-overdraft makes the canonical full-ticket account a total nonnegative computable martingale, but says nothing about growth.
+
+A certain-payout ticket exposes the failure: if both next filler children trigger the same positive skipped loss ell, the exact fair premium is ell and the ticket pays ell surely. The same reserve can be recycled forever. Along a path with harmonic skipped gains, realized loss diverges but insurance capital stays constant, while the restart hedge can lose reciprocal factors and remain bounded.
+
+Resolution: the needed condition is **coercivity**, not merely solvency. The full-ticket account must be unbounded whenever cumulative realized positive skipped gain diverges. Finite realized loss is handled by the restart hedge. A computable unbounded reserve floor g(E) is a stronger easy certificate, but is not claimed necessary.
+
+P4-S011 excludes every coercive certificate; bare admissibility alone is not ruled out.
+
+Guard: this is a boundary for the P4-S016/P4-S017 ticket-plus-restart architecture, not an impossibility theorem for every computable transfer.

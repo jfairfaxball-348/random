@@ -67,7 +67,7 @@ P4-S013 identifies the positive sibling-totality boundary inside that least-fres
 
 P4-S014 adds the next positive quantitative boundary below finite deadlines. A total computable horizon selector with one finite uniform pathwise budget on the exact conditional horizon-miss probabilities yields a one-martingale transfer via a sentinel-first effective-isomorphism completion, miss tickets, and truncated/restart hedges. Genuine infinite avoiding siblings are allowed. P4-S011 necessarily violates this budgeted-tail condition.
 
-Recommended next bounded session: P4-S016, still restricted to k=2, focused only on whether P4-S015's advance computable future-loss envelope can be replaced by incrementally purchased computable loss tickets as larger postmiss stakes become finitely visible, under a computable total increment budget. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
+Recommended next bounded session: P4-S018, still restricted to k=2, focused only on whether P4-S017's semantic coercivity can be replaced by a local computable reserve-floor / retained-surplus modulus without restoring absolute premium summability. Phase 5 remains CLOSED. No owner/external blocker exists. Read `authoritative/NEXT_SESSION_PROMPT.md` for the exact bounded task.
 
 Always pin and verify live `main` before a new session. Repository state supersedes conversation history.
 
@@ -109,3 +109,13 @@ P4-S011 violates the incremental premium condition on its target path for every 
 P4-S005 through P4-S015 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S017, still restricted to k=2, testing only whether the absolute pathwise premium-sum budget can be weakened to a computable self-financing reserve condition.
+
+## Mathematics checkpoint — P4-S017 (not a gate review)
+
+P4-S017 replaces the P4-S016 absolute premium-sum bankroll, for a fixed ticket stream, by a coercive self-financing reserve. Earlier ticket payouts may fund later premiums. Global no-overdraft makes the ticket account a total nonnegative computable martingale; divergent realized skipped gain must make it unbounded. Finite realized loss remains handled by the settled restart hedge.
+
+P4-S016's absolute budget is a stronger sufficient bankroll condition. Bare no-overdraft is insufficient. P4-S011 violates every coercive reserve certificate for every computable horizon selector, although bare admissibility alone is not ruled out.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: P4-S018, testing only whether semantic coercivity admits a local computable reserve-floor / retained-surplus modulus.

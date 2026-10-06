@@ -241,3 +241,13 @@ P4-S011 violates the incremental premium condition on its target path for every 
 P4-S005 through P4-S015 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no k>2, novelty, Gate-4, publication or outreach claim is made.
 
 Recommended next bounded session: P4-S017, still restricted to k=2, testing only whether the absolute pathwise premium-sum budget can be weakened to a computable self-financing reserve condition.
+
+## Mathematics checkpoint — P4-S017 (not a gate review)
+
+P4-S017 completed the self-financing last-chance reserve investigation inside the selected CAND-01 k=2 least-fresh stake subclass. P4-S016's absolute premium budget can be replaced, for the same ticket stream, by a finite computable coercive self-financing reserve: earlier payouts may buy later tickets; the account must never overdraw and must be unbounded whenever cumulative realized skipped gain diverges. Finite realized loss remains handled by the settled restart hedge.
+
+P4-S016 implies this condition. A fixed-H example has divergent harmonic premiums but a reserve funded by earlier wins. Bare solvency is insufficient. P4-S011 admits no coercive reserve certificate for any computable horizon selector; bare admissibility alone is not ruled out.
+
+P4-S005 through P4-S016 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S017_MATHEMATICS.md.
