@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S022",
+  "last_updated_session": "P4-S026",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S025",
-      "record_path": "phase4/P4-S025_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S026",
+      "record_path": "phase4/P4-S026_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -679,6 +679,30 @@
         "k_gt_2_resolved": false,
         "novelty_claimed": false,
         "validation_record": "phase4/P4-S025_VALIDATION.md"
+      },
+      "phase4_k2_boundary_cap_mathematics": {
+        "session": "P4-S026",
+        "scope": "k=2 one-sided integer-boundary cap / completeness-collapse only",
+        "result": "INTEGER_BOUNDARY_CAPS_STRICTLY_WEAKER_AS_PRESENTATION_BUT_BOUNDARY_COMPLETE_CE_CAPS_COLLAPSE_TO_DECIDABLE_REACH",
+        "positive_boundary": [
+          "A c.e. sound local certificate basis for the strict integer sublevel L_K<m semidecides true Bar under semantic anti-Zeno by effective compactness.",
+          "Reach already has c.e. finite witnesses; dovetailing yields decidable Reach and the P4-S020 witness modulus.",
+          "Oracle-uniform local integer-clearance functionals compile into the same c.e. boundary-certificate system.",
+          "On the anti-Zeno promised class, a Bar semidecision yields a degenerate root boundary certificate, so abstract boundary completeness has exactly the missing negative-search content."
+        ],
+        "representation_separation": [
+          "A computable globally admissible exhaustive k=2 deterministic-ticket stream can have constant noncomputable left-c.e. branch-limit loss alpha<1/4.",
+          "Every integer boundary then has the trivial root cap 1/4, while a complete rational upper-cap basis would make alpha computable."
+        ],
+        "certificate_language_independent_collapse": true,
+        "p4_s011_destroyer_preserved": true,
+        "p4_s011_boundary_only_failure_claimed": false,
+        "p4_s011_bare_admissibility_ruled_out": false,
+        "p4_s015_through_p4_s025_preserved": true,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "k_gt_2_resolved": false,
+        "novelty_claimed": false,
+        "validation_record": "phase4/P4-S026_VALIDATION.md"
       }
     },
     {
