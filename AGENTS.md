@@ -485,3 +485,17 @@ All mathematics through P4-S031 remains frozen. PA-0001 is **UNRESOLVED_UNDER_IN
 Records: phase4/P4-S032_MATHEMATICS.md, phase4/P4-S032_CLOSE.md, phase4/P4-S032_VALIDATION.md.
 
 Next: **P4-S033**, first one-hole normalization attack from the P4-S002/P4-S007 effective width-two inverse skeleton.
+
+## Mathematics checkpoint — P4-S033 (not a gate review)
+
+P4-S033 begins the selected one-hole normalization attack. The P4-S007 width-two inverse skeleton gives one binary inverse cohort but not a raw coordinate hole: every double fibre of a one-hole scan has Hamming distance one, while an arbitrary k=2 pair may differ in many coordinates.
+
+R_2 is invariant under every computable fair-coin-preserving homeomorphism. Define OH^iso by requiring H(x) in OH for every such H. Then MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. Therefore R_2=OH requires homeomorphism invariance of OH.
+
+OH is proved invariant under computable signed coordinate permutations. More generally, if a destructive map has form K o T o H where T is one-hole, K is a computable fair-coin homeomorphism and H is a signed coordinate permutation, the destruction normalizes to a one-hole scan on the same source.
+
+Literal map-level normalization is false even for destruction. Precomposing the P4-S011 destroyer with an explicit invertible three-bit linear source homeomorphism produces an exact destructive global-k=2 map whose double fibres differ in raw Hamming weight 2 or 3. This is the **coded-hole obstruction**. It does not yet separate R_2 and OH because the recoded source may have a different one-hole destroyer.
+
+All mathematics through P4-S032 is preserved. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged. No novelty, Gate-4, publication or outreach claim is made.
+
+Recommended next bounded session: **P4-S034**, testing whether OH is invariant under the explicit three-bit coded-hole homeomorphism, beginning at the P4-S012 self-avoiding stake level.
