@@ -1614,3 +1614,41 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S036**, on finite/well-founded block-dependency closure versus infinite dependency rays.
+
+## P4-S036 — finite dependency closure, savings normalization and infinite-component obstruction
+
+Date: 2026-10-06
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: de5905a3b32cb091f2d5ff906606dff891e0632b
+
+Scope: sustained Phase-4 one-hole normalization; finite/well-founded dependency closure versus infinite interaction components.
+
+Result:
+- removed the uniform packet-size hypothesis by an exact persistent threshold-stopping savings transform;
+- proved arbitrary computably finite packet-closed normalization for every repeated invertible finite binary block recoding of block size at least two;
+- generalized the theorem to total computable online finite closed packetizers;
+- formalized essential stake dependence, spoiled exposure and return interaction;
+- proved finite semantic closure / well-foundedness / finite rank need not give an effective complete closure;
+- proved uniformly computable finite forward closures and computable rank one need not imply finite packetization, because closures may overlap into one infinite interaction component;
+- proved the P4-S035 ray cannot be repaired by reordering raw coordinates inside a block;
+- proved every finite ray truncation has exact finite Doob compression, while bounded computable martingales can have noncomputable pointwise limits;
+- reframed the unresolved infinite case by finite-horizon backward fair-price vectors on the open boundary state;
+- deduced that the recoded P4-S011 witness has no total computable finite closed packetizer;
+- did not prove \(X\in OH\), OH non-invariance or \(R_2\subsetneq OH\).
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Records:
+- phase4/P4-S036_MATHEMATICS.md
+- phase4/P4-S036_CLOSE.md
+- phase4/P4-S036_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: P4-S037, rolling finite-state/backward-price normalization on infinite interaction components.
+
