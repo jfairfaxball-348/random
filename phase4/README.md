@@ -631,3 +631,28 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 \]
 
 Next: **P4-S036**, formalize the block-dependency graph and attack finite/well-founded closure versus a genuine infinite dependency ray.
+
+## Mathematics checkpoint — P4-S036 (finite closure and infinite-component obstruction)
+
+P4-S036 materially strengthens the P4-S035 closed-packet theorem. A standard persistent-savings transform turns every successful computable martingale into an exactly computable rational martingale whose capital tends to infinity. Therefore success cannot hide only inside larger and larger finite packets. For every repeated invertible finite binary block recoding of block size at least two, **every computably finite packet-closed witness is harmless, with no uniform packet-size bound**. The same finite Doob argument works for a total computable online closed packetizer which knows the complete finite packet at entry.
+
+The dependency analysis also shows what this does not cover. Set-theoretic finite forward closure, semantic well-foundedness, finite/computable rank, and even uniformly computable finite forward closures do not by themselves imply finite packetization. Rank-one examples isolate both failures: closure completion can hide halting information, and finite forward closures can overlap into one infinite symmetrized interaction component even when there is no directed infinite ray.
+
+For the displayed three-bit map, no reordering of raw coordinates can retain a pivot for \(u_2^{(b)}\) after \(u_0^{(b)},u_1^{(b)}\) have been produced. Every finite dependency-ray truncation nevertheless has an exact finite Doob compiler. The remaining issue is effective passage to the infinite limit: bounded computable martingales may have noncomputable pointwise limits, so classical bounded/uniformly-integrable convergence is not an effective compiler.
+
+Applied to the recoded P4-S011 destroyer, the new theorem proves that no total computable finite closed packetizer can exist for that witness. It does not decide whether the obstruction is a genuine directed ray or overlapping finite wtt closures, and it does not prove the recoded source lies in \(OH\).
+
+The retained comparison remains
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Records:
+- phase4/P4-S036_MATHEMATICS.md
+- phase4/P4-S036_CLOSE.md
+- phase4/P4-S036_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. The P4-S015–P4-S031 bankroll line remains frozen as the default trajectory.
+
+Recommended next session: **P4-S037**, on rolling finite-state normalization and finite-horizon backward fair-price vectors for infinite interaction components.
+
