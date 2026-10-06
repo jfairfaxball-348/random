@@ -1302,3 +1302,29 @@ P4-S005 through P4-S023 remain settled. P4-S011 and P4-S015 through P4-S023 are 
 Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
 
 Recommended next bounded session: P4-S025, testing only effective upper-semicontinuity / local tail-cap data versus searchable strict frontier separation.
+
+## P4-S025 — effective upper-semicontinuity / local tail-cap boundary
+
+Status: COMPLETED
+
+Date: 2026-10-06. Incoming checkpoint: \`2b6c46b63029c454cc5536cfc11d51786d0590a1\`, matching live \`main\` exactly. Direct incoming-checkpoint path checks found no P4-S025 mathematics, close or validation record, and repository search returned no P4-S025 record, so the session identifier was unique.
+
+Scope completed: one bounded Phase-4 mathematical investigation on selected CAND-01, strictly at k=2, testing only effective upper-semicontinuity / local tail caps after P4-S024.
+
+Result: a complete effective local upper-cap basis for the branch-limit loss is sufficient with semantic anti-Zeno, but it is not genuinely weaker than P4-S023. Tight local upper-cap cylinders form a c.e. cover of the computable pruned bad-capital branch space; effective compactness finds a finite subcover and yields a computable global uniform tail modulus. Conversely a computable global tail modulus enumerates a complete effective upper-cap basis. Semantic anti-Zeno therefore recovers searchable strict frontier separation, decidable Reach(K,m), and the P4-S020 witness modulus.
+
+The sharp obstruction is effectivity rather than ordinary semicontinuity. An exact globally k=2, globally admissible delayed-activation comb has computable fixed-scale exhaustion and effective loss-properness; every bad-capital branch is eventually loss-constant and semantically anti-Zeno, and the branch-limit loss is continuous. Nevertheless Reach(e+2,2e+2) holds exactly when machine e halts. The nonhalting tooth losses converge to the all-continue spine, while a detected halt activates a finite correction on every still-surviving branch. Thus the missing data are the effective upper-cap / continuity modulus.
+
+Boundary-specific effective caps can be weaker as primitive syntax, but if they uniformly cover every false integer Reach instance they are exactly a topological form of positive semidecidability of Bar(K,m), hence recover the settled P4-S020/P4-S022 searchability strength.
+
+P4-S011 remains outside even the semantic finite branch-limit regime under global admissibility because its computably random completion has divergent realized skipped gain in one bad-capital tree.
+
+Records: phase4/P4-S025_MATHEMATICS.md; phase4/P4-S025_CLOSE.md; phase4/P4-S025_VALIDATION.md. Durable decision: D-0047. Lesson: FL-073.
+
+P4-S005 through P4-S024 remain settled. P4-S011 and P4-S015 through P4-S024 are preserved. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made.
+
+Phase 4 remains OPEN. Gate 4 is NOT REVIEWED. Phase 5 remains CLOSED. Owner/external blocker: **NONE**.
+
+Recommended next bounded session: P4-S026, testing only whether a one-sided effective boundary-modulus weaker than complete effective upper-semicontinuity can arise structurally without already restating searchable Bar / decidable Reach.
+
+The exact outgoing main hash is verified after all closeout writes and reported in the session response.
