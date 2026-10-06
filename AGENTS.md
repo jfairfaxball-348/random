@@ -207,3 +207,22 @@ No absolute necessity is claimed. The next bounded issue is only whether raw mis
 P4-S005 through P4-S013 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S014_MATHEMATICS.md.
+
+
+## Mathematics checkpoint — P4-S015 (not a gate review)
+
+P4-S015 completed the stake-weighted skipped-wager loss investigation inside the selected CAND-01 k=2 least-fresh stake subclass.
+
+Result: P4-S014's raw pathwise budget on finite-horizon miss probabilities can be weakened for a particular output martingale. After a computable savings wrapper, charge only the possible positive multiplicative gain of a deferred sentinel wager that would actually be skipped after a horizon miss. A computable leaf-dependent majorant w(s,b,rho) has exact finite fair ticket price
+c(s)=2^{-(H(s)+1)} sum_rho (w(s,0,rho)+w(s,1,rho)).
+One finite computable uniform pathwise budget on the sum of these prices suffices.
+
+A weighted miss-ticket martingale succeeds when realized miss weights diverge. If their sum is finite, the P4-S014 truncated/restart hedge loses at most factors 1+w, whose product remains bounded; the savings-wrapped output martingale tends to infinity at restart points. Their sum gives one completion martingale, and P4-S001 transfers it to one source martingale.
+
+The condition is strictly weaker than P4-S014 at the scan/martingale certificate level. An explicit two-control-bit least-fresh scan has a permanent avoiding sibling of probability 1/4 at every epoch, so no raw-tail certificate exists for any horizon selector, while small sentinel stakes a_j=2^{-(j+1)} give a weighted ticket budget at most 1/4.
+
+The exact pointwise minimal future-loss envelope is not uniformly computable; a computable envelope is genuine effective certificate data. P4-S011's all-in correct-prediction destroyer necessarily violates every finite P4-S015 certificate.
+
+P4-S005 through P4-S014 remain settled. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. No k>2, novelty, Gate-4, publication or outreach claim is made. Phase 4 remains OPEN and Phase 5 CLOSED.
+
+Record: phase4/P4-S015_MATHEMATICS.md.
