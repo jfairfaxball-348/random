@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S014",
+  "last_updated_session": "P4-S015",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S013",
-      "record_path": "phase4/P4-S013_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S015",
+      "record_path": "phase4/P4-S015_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -427,6 +427,22 @@
         "p4_s011_budgeted_tail_condition": false,
         "absolute_necessity_claimed": false,
         "next_boundary": "stake-weighted skipped-wager loss budgets with nonsummable raw miss probabilities",
+        "k_gt_2_resolved": false,
+        "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+        "novelty_claimed": false
+      },
+      "phase4_k2_weighted_loss_mathematics": {
+        "session": "P4-S015",
+        "scope": "k=2 stake-weighted skipped-wager loss boundary inside least-fresh stake subclass only",
+        "result": "FINITE_COMPUTABLE_PATHWISE_BUDGET_ON_LEAFWISE_POSITIVE_SKIPPED_GAIN_TICKET_PRICES_SUFFICES",
+        "exact_weighted_price": "2^{-(H(s)+1)} times the sum over miss leaves of the two sentinel-bit future-loss envelopes",
+        "coarse_condition": "sum p(s)a(s) finite when a(s) computably bounds possible positive post-horizon sentinel gain",
+        "raw_miss_summability_required": false,
+        "strict_separation_from_p4_s014": "Two-control-bit scan has permanent avoidance probability 1/4 at every epoch, hence no raw-tail certificate for any horizon selector, while small sentinel stakes have weighted budget at most 1/4.",
+        "minimal_envelope_uniformly_computable": false,
+        "p4_s011_weighted_certificate": false,
+        "map_wide_preservation_claimed": false,
+        "next_boundary": "incremental loss tickets without an advance future-loss envelope",
         "k_gt_2_resolved": false,
         "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
         "novelty_claimed": false
@@ -831,8 +847,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S015",
-  "recommended_next_scope": "Stay at k=2 and test only whether the P4-S014 computably budgeted raw miss-probability condition can be weakened to a computable stake-weighted skipped-wager loss budget allowing nonsummable raw horizon misses.",
+  "recommended_next_session": "P4-S016",
+  "recommended_next_scope": "Stay at k=2 and test only whether P4-S015's advance computable future-loss envelope can be replaced by incrementally purchased loss tickets as larger postmiss stakes become finitely visible, under a computable total increment budget.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
