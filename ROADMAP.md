@@ -483,7 +483,6 @@ Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S040**, on online c.e. local-code completion and raw-adjacent companion obstruction under a preselected raw sentinel.
 
-
 ## P4-S040 — raw-adjacent decisiveness and online singleton completion
 
 Date: 2026-10-07
@@ -502,8 +501,8 @@ Results:
 - proved Case-B raw-adjacent certificates are retroactive and cannot hand off to a still-unread same-block raw sentinel;
 - proved a globally one-hole scan cannot keep two prospective sentinels permanently unresolved on the same complete branch;
 - isolated divergence-only Case C as the surviving finite-certificate obstruction;
-- showed extra outside (M(n))-equations may add c.e. refutations, but the wtt use bound does not give a computably finite reverse dependency closure;
-- did **not** establish raw-adjacent decisiveness for the actual P4-S011 machine, construct an actual raw destroyer for (X), prove (Xin OH), prove OH non-invariance, or prove (R_2subsetneq OH).
+- showed extra outside \(M(n)\)-equations may add c.e. refutations, but the wtt use bound does not give a computably finite reverse dependency closure;
+- did **not** establish raw-adjacent decisiveness for the actual P4-S011 machine, construct an actual raw destroyer for \(X\), prove \(X\in OH\), prove OH non-invariance, or prove \(R_2\subsetneq OH\).
 
 Records:
 - phase4/P4-S040_MATHEMATICS.md
@@ -515,3 +514,4 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S041**, on finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual P4-S011 wtt autoreduction.
+
