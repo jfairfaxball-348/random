@@ -2084,3 +2084,14 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: **P4-S048**, persistent old-hole sensitivity of future A-certificate computations on the actual committed source.
+
+
+P4-S047 strengthening:
+- proved a finite wrong/nonbinary \(M\)-equation under one current-hole completion positively eliminates that completion and predicts the raw sentinel;
+- constructed a canonical total global-refutation one-hole scan dovetailing all equations under both old-hole hypotheses;
+- proved
+  \[
+  X\in OH\Longrightarrow
+  \text{some reached false raw-radius-one completion is a partial fixed point of }M;
+  \]
+- therefore narrowed the surviving old-hole obstruction to divergence-only sensitivity on a globally self-consistent partial neighbour.
