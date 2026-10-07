@@ -1,14 +1,14 @@
-# Next Session Prompt — P4-S045
+# Next Session Prompt — P4-S046
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S045. Treat committed repository state as authoritative. Pin live main at the exact P4-S044 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S045 is unique, and read P4-S001 through P4-S044, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md through phase4/P4-S044_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S027 and P4-S039 through P4-S044.
+Run only Phase 4 — Mathematics session P4-S046. Treat committed repository state as authoritative. Pin live main at the exact P4-S045 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S046 is unique, and read P4-S001 through P4-S045, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md through phase4/P4-S045_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S027 and P4-S039 through P4-S045.
 
 ## Sustained Phase-4 target — one-hole normalization after coded recoding
 
-Freeze all validated mathematics through P4-S044.
+Freeze all validated mathematics through P4-S045.
 
-Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, ambiguity mass, general radius-one totalization, one-off remote-divergence localization, or local A/B/C enumeration unless the theorem below genuinely requires them.
+Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, ambiguity mass, general radius-one totalization, one-off remote-divergence localization, local A/B/C enumeration, or generic certificate-time bounding unless the theorem below genuinely requires them.
 
 Retain
 
@@ -65,231 +65,122 @@ Retain
 X\in CR,\qquad H(X)=Y\notin OH.
 \]
 
-The missing source-side statement remains whether \(X\in OH\).
+The missing source-side statement remains whether
 
-## P4-S044 boundary to retain
+\[
+X\in OH.
+\]
 
-Use the P4-S027 use-clipped normal form with strict computable cap \(U(n)\).
+## P4-S044/P4-S045 boundary to retain
 
-For block
+Use the P4-S027 strict computable use cap \(U(n)\). For block
 
 \[
 B_b=\{3b,3b+1,3b+2\},
 \]
 
-P4-S044 defines
+retain
 
 \[
 V(b)=\max_{r<3}U(3b+r)
 \]
 
-and the computable raw block horizon
+and
 
 \[
 h(b)=\max\left\{b+1,\left\lceil V(b)/3\right\rceil\right\}.
 \]
 
-Every oracle query made by any of the six raw-adjacent endpoint computations at \(B_b\), regardless of whether that computation halts, is determined by raw source values in blocks below \(h(b)\), together with the finite current-block endpoint hypothesis.
+All source values that can affect the six raw-adjacent endpoint computations at \(B_b\) lie in raw blocks below \(h(b)\), together with the finite current-block endpoint hypothesis.
 
-Therefore:
+After those values are exposed, certificate time is **future-blind**: for each finite simulation time, whether an A/B event has appeared is determined by the already exposed finite data and internal computation. No later reservation-block bit is queried.
 
-- Case-A finite refutation is source-value closed below \(h(b)\);
-- Case-B positive acceptance is source-value closed below \(h(b)\);
-- after the relevant source values have been exposed, no later source bit can affect whether the positive event eventually appears;
-- but its certificate time may still be arbitrarily large or infinite.
+Retain the exact faithful moving-reservation selector from P4-S045:
 
-Retain the distinction:
+- choose a raw role before local status is known;
+- keep the current sentinel unread until its own A/B event;
+- cycle through a computable increasing stream of transient prospective future blocks;
+- consume each old reservation after finite no-event interaction;
+- freeze the reservation active when a positive A/B certificate appears;
+- on a genuine C continuation consume every transient reservation and leave only the current sentinel as the permanent hole.
 
-\[
-\text{finite source-value horizon}
-\]
-
-does **not** imply
+Retain the distinction between:
 
 \[
-\text{computable A/B certificate-time bound}.
-\]
-
-Retain the fixed-future-reservation dichotomy.
-
-If a current sentinel \(s\) remains unread while its selected A/B event is unresolved and a different fixed prospective sentinel \(t\) is also protected until that event, then on a no-event continuation a globally one-hole scan cannot leave both \(s,t\) unread forever.
-
-At least one must be consumed after finite interaction:
-
-- consuming \(s\) abandons the current unresolved role and can miss a later A/B certificate;
-- consuming \(t\) abandons the fixed future target.
-
-Thus P4-S044 narrows P4-S043's endogeneity from source-value footprint endogeneity to **certificate-time endogeneity**.
-
-Retain the moving-reservation alternative.
-
-A scan may use a computable increasing sequence of transient prospective targets
-
-\[
-g_0(b)<g_1(b)<\cdots
-\]
-
-above the value horizon, consuming each old reservation on the no-event branch. If the positive event appears while \(g_s(b)\) is active, the scan may freeze that target. The selected next block is therefore determined by certificate time.
-
-Retain the horizon interval geometry
-
-\[
-I_b=[b,h(b))
-\]
-
-and overlap depth
-
-\[
-d(t)=|\{b\le t:t<h(b)\}|.
-\]
-
-P4-S044 proves:
-
-\[
-\text{finitely many computable horizon lanes}
-\quad\Longleftrightarrow\quad
-\sup_t d(t)<\infty.
-\]
-
-Mere computable finiteness of each \(h(b)\) does not imply this. The structural example
-
-\[
-h(b)=2b+2
-\]
-
-has unbounded overlap.
-
-Countably many computable lanes are always available, but countable pigeonhole is invalid: an infinite recurrent set may meet every lane only finitely often.
-
-Retain also:
-
-- a support block may be completely consumed by a legal \(u_2\) support query;
-- opportunistic support reuse is possible but not forced;
-- finite transient multi-sentinel races have a no-rate obstruction: on the all-C continuation all but at most one candidate must be consumed, and finite-use A certificates can be delayed beyond those finite abandonment times;
-- recurrent \(C_0\) and the asymmetric \(ACB/ABC\) patterns remain subject to the same event-time reachability obstruction;
-- the P4-S044 structural countermodel on \(0^\omega\) has genuine finite-use horizon \(h(b)=2b+2\), recurrent nontriple \(C_0\), visible A witnesses, no triple C, and finite-family selector/race failure.
-
-This structural model does not decide the committed source.
-
-The exact new resource is **certificate-time selector thickness after source-value closure**.
-
-## P4-S045 bounded task — source-specific selector thickness
-
-Attack only whether the actual committed computably random wtt-autoreducible source supplies enough regularity to turn ambient recurrent A witnesses into A witnesses reached by one computable moving-reservation selector.
-
-Do not spend the session reproving the value-horizon theorem.
-
-### 1. Formalize moving-reservation selectors exactly
-
-Give a precise effective object for a one-hole moving-reservation selector.
-
-At a current target block \(b\), the selector should specify:
-
-- the raw role chosen before local status is known;
-- a computable increasing stream of prospective future blocks beyond the current value horizon;
-- finite rules for when an old prospective block is consumed and the reservation moves;
-- how a positive A/B certificate freezes the active reservation and closes the current sentinel;
-- how the no-event continuation remains everywhere-total with at most one permanent hole.
-
-Separate:
-
-\[
-\text{ambient block set},
-\quad
+\text{ambient A-set},
+\qquad
 \text{reservation stream},
-\quad
+\qquad
 \text{event-time-selected target subsequence}.
 \]
 
-Do not identify them.
+Retain the exact positive resource:
 
-### 2. Define selector-thickness / unavoidable recurrence
+> event-time selector thickness = one computable faithful selector completes infinitely many epochs, never becomes C-trapped, and selects A infinitely often.
 
-For an ambient set \(A_i\) of blocks on which role \(i\) is Case A, define the weakest useful condition under which one computable reservation selector is guaranteed to choose infinitely many \(A_i\)-blocks while avoiding permanent capture by \(C_i\).
-
-Test several exact formulations, for example:
-
-- \(A_i\) is cofinite on one reservation lane;
-- every infinite computable subsequence generated by a specified reservation mechanism meets \(A_i\) infinitely often;
-- finite-union lane concentration plus an effective certificate-time domination condition;
-- a bounded-gap or effective-density condition relative to reservation indices, not merely ambient block number.
-
-Prove implications between these formulations where possible.
-
-Do not assume the actual status sets satisfy them.
-
-### 3. Use target correctness of M, not just its use bound
-
-On \(Y\),
+Such a selector gives an actual raw one-hole destroyer and therefore proves
 
 \[
-M^Y(n)\downarrow=Y(n)
+X\notin OH.
 \]
 
-for every \(n\).
+Retain the sufficient and insufficient thickness facts:
 
-The Case-A certificate is a wrong/nonbinary halt on a raw-adjacent sibling. The use bound localizes its source values but not its time.
+- a C-free computable reservation lane on which A is cofinite is sufficient;
+- finite possible-index coverage plus certificate-time domination and A coverage is sufficient;
+- bounded gaps or positive density alone are insufficient;
+- finite-union lane concentration without control of the active certificate-time lane is insufficient;
+- recurrence along every computable subsequence is not automatically relevant because the actual selected subsequence need not be computable independently of \(X\).
 
-Ask whether simultaneous knowledge of:
+Retain that P4-S045 found no direct computable-randomness betting contradiction from systematic delayed A certificates. Delay after value closure carries no new unread source bit without an additional coupling theorem.
 
-- target halting for every input;
-- syntactic self-avoidance;
-- computable finite use;
-- computable randomness of \(Y\);
-- and recurrent local Case C forced by a hypothetical \(X\in OH\)
+Retain the presentation guard: finite computable dummy delays can change certificate times without changing oracle queries, use, output, self-avoidance, target correctness or semantic A/B/C status. Therefore computable randomness + target correctness + finite use do not by themselves force a machine-presentation-independent runtime modulus.
 
-places any nontrivial restriction on how late the wrong sibling halts can systematically occur relative to computable reservation schedules.
+Retain the P4-S045 structural strengthening:
 
-A theorem here must be source-specific. P4-S044 already shows finite-use machine structure alone is insufficient.
+> for every **prescribed uniformly computable countable family** of faithful moving-reservation selector schemes, there is a computable finite-use syntactically self-avoiding structural model on \(0^\omega\), using only \(CCA/CAC\), with no triple C, visible A and genuine horizon
+> \[
+> h(b)=2b+2,
+> \]
+> which eventually traps every family member in its selected C role.
 
-### 4. Test whether systematic delayed A certificates would violate computable randomness
+Retain the exact limit of that theorem:
 
-Suppose a role has infinitely many ambient Case-A blocks, but every computable moving-reservation selector either reaches C or abandons the A-bearing block before its finite refutation appears.
+> no computable-target structural model with infinitely many visible A witnesses can defeat **every** computable selector. After the model is built, finite Case-A certificates are c.e. on the computable target; one can enumerate increasing certified A targets and use their computable target-certificate times to reserve each next target only across a finite known window.
 
-Ask whether such systematic evasion exposes a computable betting or prediction resource on the target \(Y\) or \(X\).
+Thus the prescribed-family theorem is not universal.
 
-Do not return to the frozen general martingale-compilation route. Use only a direct source-side argument genuinely forced by the selector-delay pattern.
+Retain the new source-specific distinction:
 
-If no such argument is available, state why the delay pattern does not provide a computable target prediction.
+\[
+\text{computable target: off-line enumerable A evidence}
+\]
 
-### 5. Strengthen the structural diagonalization if possible
+versus
 
-P4-S044 defeats any prescribed finite selector/race family structurally.
+\[
+\text{committed noncomputable }X:\text{ live acquisition of finite A-certificate support}.
+\]
 
-Test whether this can be strengthened to:
+The exact missing resource is now **future A-certificate access compatible with one-hole freshness**.
 
-- every member of a uniformly computable countable selector family;
-- every total computable selector under a finite-injury or priority construction;
-- or an exact obstruction showing why such universal diagonalization cannot stay computable, finite-use and locally self-avoiding.
-
-If a universal structural countermodel is built, keep the target explicitly structural unless it is actually computably random.
-
-Do not infer anything about the committed source merely from a computable-target countermodel.
-
-### 6. Revisit recurrent C0 with selector thickness
-
-For recurrent nontriple \(C_0\), the patterns are
+Retain the recurrent \(C_0\) sharpening:
 
 \[
 CAA,\qquad CAC,\qquad CCA.
 \]
 
-Roles \(1\) and \(2\) always provide at least one A witness, but \(CAC/CCA\) can alternate which role is C.
+Two interleaved selectors do not generically solve this. The no-rate obstruction can be realized already with block-local use: \(CAC\) and \(CCA\) can remain indistinguishable until after one protected role must be abandoned, with the abandoned role chosen to be late A and the retained role C.
 
-Ask whether two interleaved moving-reservation selectors can force one role to acquire selector-thick A recurrence without keeping two permanent sentinels.
-
-If not, isolate whether the failure is:
+The failure factors are exactly:
 
 - role alternation;
 - certificate-time delay;
-- support consumption;
-- or the global one-hole fallback condition.
+- global one-hole fallback.
 
-Do not collapse these into one generic obstruction.
+Support consumption is not required for that obstruction.
 
-### 7. Revisit ACB and ABC
-
-Retain
+Retain also
 
 \[
 C_1\wedge B_2\Rightarrow(A,C,B),
@@ -299,27 +190,210 @@ C_1\wedge B_2\Rightarrow(A,C,B),
 C_2\wedge B_1\Rightarrow(A,B,C).
 \]
 
-These give a positively visible B arm alongside \(A_0\).
+The B and \(A_0\) certificate clocks can be independently delayed in structural realizations without changing use, queries or status. No generic timing synchronization follows. A source-specific coupling for the actual \(M\) remains possible but unproved.
 
-Test whether the positive B certificate can synchronize or time a future role-0 reservation strongly enough to make recurrent \(A_0\) selector-thick.
+P4-S045 did not prove that selector-evasive delayed certificates are compatible or incompatible with the exact committed computably random autoreduction.
 
-P4-S044 says the horizon alone does not do this. Look for an additional source-specific coupling between B-certificate time and the A0 certificate.
+## P4-S046 bounded task — future A-certificate access cost
 
-If none exists, state the exact independence obstruction.
+Attack only whether prospective Case-A evidence for the **actual committed autoreduction** can be learned while preserving enough raw freshness to use the certified block as a future one-hole target.
 
-### 8. Test computable-randomness compatibility of delayed certificates
+Do not spend the session seeking another generic certificate-time modulus. The new variable is **where the evidence must be read**, not how long a closed computation takes.
 
-The P4-S044 countermodel uses target \(0^\omega\).
+### 1. Formalize certificate support and freshness cost
 
-A materially stronger negative result would show that the same selector-evasion geometry can coexist with a computably random target or with the exact type of wtt-autoreducibility used in P4-S011.
+For each block \(b\), raw role \(i\), and finite Case-A witness, define precisely the finite raw source coordinates whose values are needed to verify that witness.
 
-Attempt this only if it can be done without literature or novelty work.
+Separate:
 
-If not, identify precisely which part of computable randomness prevents the structural construction from being transferred, or record that no such prevention has been proved.
+\[
+\text{current-block endpoint hypotheses},
+\]
 
-### 9. Preserve the source-side guard
+\[
+\text{outside raw support below }h(b),
+\]
 
-A source-specific selector theorem yielding one actual raw one-hole destroyer proves only
+and
+
+\[
+\text{actual raw coordinates of }B_b\text{ that must be queried on the live source}.
+\]
+
+Define a useful freshness-cost notion, for example:
+
+- cost 0: the A certificate can be recognized without reading any raw bit of \(B_b\);
+- cost 1: one raw bit of \(B_b\) must be exposed;
+- cost 2: both non-sentinel bits must be exposed while a chosen sentinel remains unread;
+- cost 3: the whole block is consumed.
+
+Do not assume this particular scale is final if a sharper affine/support definition is more natural.
+
+The point is to distinguish **hypothetical endpoint simulation** from **live acquisition of the actual block data needed to instantiate that simulation**.
+
+### 2. Define pre-certifiable future targets
+
+Give an exact effective definition of a prospective future target \((b,i)\) being pre-certifiable from a current scan state while another current sentinel remains open.
+
+A useful definition should require that:
+
+- the finite A witness becomes positively recognizable;
+- the eventual future sentinel needed for the wager remains unread;
+- the acquisition does not leave a second permanent hole on a no-event continuation;
+- the future target is still usable by a total no-repeat one-hole scan.
+
+Distinguish:
+
+\[
+\text{block-free pre-certification},
+\]
+
+\[
+\text{partially opened but still usable target},
+\]
+
+and
+
+\[
+\text{certificate that destroys target freshness}.
+\]
+
+Do not equate “finite source support” with “free support.”
+
+### 3. Test block-free branching over unknown local bits
+
+The structural post-construction selector on \(0^\omega\) knows the whole target block off-line. The actual scan does not.
+
+Test whether it can instead simulate all finitely many hypotheses for the as-yet unread raw block.
+
+For a prospective role \(i\), ask whether finite wrong/nonbinary halts across all relevant assignments of the other raw bits can give a **uniform A certificate** before any bit of \(B_b\) is queried.
+
+Possible useful outcomes include:
+
+- all local assignments certify the same sentinel value;
+- all assignments make the alternate endpoint impossible;
+- a finite family of hypothesis branches leaves one raw coordinate uniformly fixed;
+- or the hypotheses necessarily disagree so live block access is unavoidable.
+
+Use the P4-S039 code-to-raw-hyperplane theorem if genuinely relevant, but do not restart general local A/B/C enumeration.
+
+A positive theorem giving infinitely many block-free certificates would be a major selector resource.
+
+### 4. Use self-avoidance and target correctness to reduce same-block access
+
+On the actual \(Y\),
+
+\[
+M^Y(n)\downarrow=Y(n)
+\]
+
+for every \(n\), and \(M\) does not query its own input.
+
+Ask whether the specific dependency cycles and pairwise laws from P4-S041 imply that a finite Case-A witness for role \(i\) can sometimes be verified from outside-block support plus fewer than the two non-sentinel raw bits.
+
+In particular, determine whether the actual correct target equations can substitute for one of the raw block values without reading it.
+
+Any theorem must preserve the no-use-of-noncomputable-\(Y\)-as-program-parameter guard.
+
+### 5. Build the certification graph
+
+If useful, define a computable/source-relative directed graph whose nodes are prospective sentinel roles \((b,i)\).
+
+An edge
+
+\[
+(b,i)\longrightarrow(c,j)
+\]
+
+should mean that while retaining the current sentinel at \((b,i)\), the scan can positively certify the future A role \((c,j)\) and arrange \(B_c\) as the next usable target without violating global one-hole fallback.
+
+Separate:
+
+- semantic existence of an edge;
+- positive c.e. discovery of an edge;
+- computable selection of an outgoing edge;
+- an infinite computable path of usable edges.
+
+Test whether an infinite path would directly give selector thickness and \(X\notin OH\).
+
+If only finite branching is obtained, do not infer a computable infinite path without an effective choice theorem.
+
+### 6. Revisit recurrent C0 through certification access, not timing
+
+For recurrent nontriple \(C_0\),
+
+\[
+CAA,\qquad CAC,\qquad CCA,
+\]
+
+roles \(1,2\) contain at least one A witness.
+
+Ask whether the live source can determine **which role is A** without retaining two raw sentinels.
+
+Test finite hypothesis branching before reading either prospective sentinel.
+
+If the roles remain indistinguishable until one of their raw block values must be exposed, prove the exact access-cost obstruction.
+
+Keep separate:
+
+- role alternation;
+- certificate time;
+- live same-block access;
+- global one-hole fallback.
+
+P4-S045 already showed support consumption is not needed for the timing-only two-role obstruction; P4-S046 should determine whether same-block certification access is an additional independent obstruction.
+
+### 7. Revisit ACB/ABC as an information arm, not a clock
+
+Retain
+
+\[
+C_1\wedge B_2\Rightarrow(A,C,B),
+\qquad
+C_2\wedge B_1\Rightarrow(A,B,C).
+\]
+
+P4-S045 rules out a generic timing relation between the B and \(A_0\) certificates.
+
+Now ask a different question:
+
+> does the finite positive B certificate reveal any raw/source information that reduces the **live access cost** of certifying the accompanying \(A_0\) role on a future target?
+
+A useful theorem would show that B supplies one of the block values or one of the needed endpoint consistency facts without opening the prospective \(A_0\) sentinel.
+
+If B only certifies values already consumed in the current block, state the exact information-theoretic/access obstruction.
+
+### 8. Test support-only future A recurrence
+
+Define a support-only A certificate to mean one whose live verification reads only raw coordinates outside the prospective target block \(B_b\).
+
+Ask whether the actual committed \(M\), target correctness, self-avoidance, finite use, and recurrent local C forced by a hypothetical \(X\in OH\) imply infinitely many support-only A blocks in some role.
+
+If yes, test whether they can be turned into a computable C-free reservation lane or certification graph.
+
+If no theorem follows, build the sharpest structural counterexample that keeps:
+
+- finite use;
+- self-avoidance;
+- recurrent nontriple C;
+- visible ambient A;
+- but forces every A certificate to require live access to the prospective block.
+
+Keep any such model explicitly structural unless its target is actually computably random.
+
+### 9. Test computable-randomness compatibility only through access cost
+
+Do not try to infer timing regularity from computable randomness.
+
+Instead ask whether a pattern in which every prospective A certificate requires consuming a strategically useful future raw coordinate could itself yield a direct computable prediction of \(X\) or \(Y\).
+
+If not, state why the access pattern is merely a dependency property and gives no profitable bit prediction.
+
+A direct source-side betting argument is allowed only if the access-cost theorem genuinely exposes an unread target bit.
+
+### 10. Preserve the source-side guard
+
+An actual computable certification path yielding one raw one-hole destroyer proves only
 
 \[
 X\notin OH,
@@ -327,24 +401,25 @@ X\notin OH,
 
 eliminating this recoded source as an OH non-invariance candidate.
 
-Failure of all tested selector-thickness arguments does not prove
+Failure to pre-certify future A blocks does not prove
 
 \[
 X\in OH.
 \]
 
-Do not convert failure of a compiler or selector into membership.
+Do not turn failure of a certification graph, lane or selector into membership.
 
-### 10. Required session outcome
+### 11. Required session outcome
 
 The output should be one of:
 
-- a source-specific selector-thickness theorem producing an actual raw one-hole destroyer and hence \(X\notin OH\);
-- a computable-randomness theorem forcing effective recurrence or timing regularity for the actual A certificates;
-- a two-selector or B-assisted reservation theorem escaping the P4-S044 time-endogeneity obstruction;
-- a universal or countable-family structural selector countermodel substantially strengthening P4-S044;
-- a theorem showing computable randomness is compatible with selector-evasive delayed certificates under the relevant autoreduction geometry;
-- a sharper necessary certificate-time obstruction for any surviving \(X\in OH\);
+- an actual one-hole-compatible future-A certification theorem producing a raw destroyer and hence \(X\notin OH\);
+- a theorem that infinitely many actual A witnesses are block-free or low-cost pre-certifiable;
+- a certification-graph theorem giving an infinite computable usable path;
+- a recurrent-\(C_0\) theorem that one A role can be identified with at most one live sentinel;
+- a B-assisted **information** theorem reducing \(A_0\) certification cost;
+- a structural countermodel showing visible A can systematically require prospective-block access;
+- a theorem that every surviving \(X\in OH\) must make future A certification incur a specific one-hole freshness cost;
 - or, only if it follows directly, an actual proof of \(X\in OH\).
 
 The sustained question remains
