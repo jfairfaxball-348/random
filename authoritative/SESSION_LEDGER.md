@@ -1692,3 +1692,43 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S038, persistent-frontier claim retirement and effective backward-price stabilization.
+
+
+## P4-S038 — persistent retirement, one-jump pricing and uncertainty budgets
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: edae61899419825b2aa7610aa600e2804e9b8d1d
+
+Scope: sustained Phase-4 one-hole normalization; persistent-frontier retirement and the c.e. price jump.
+
+Results:
+- formalized value-closed persistent frontier states after the P4-S011 wtt use frontier is exhausted;
+- separated finite source-value closure from only-c.e. claim retirement;
+- derived the exact half-stake one-jump backward price process;
+- classified its c.e./co-c.e. and one-mind-change structure;
+- proved fixed positive-jump deadlines, stabilization moduli, Cauchy moduli, exact limit prices and two-sided retirement semidecisions collapse to trigger/nontrigger decision;
+- proved the actual recoded P4-S011 family has no such uniform decision or modulus;
+- proved its absolute persistent-savings backward prices have no uniform computable Cauchy modulus;
+- computed the exact one-claim orientation-free positive hedge cost \(1+r\);
+- validated computable supermartingale-to-martingale defect compensation under the repository convention;
+- proved a new persistent-frontier normalization theorem from a computable finite multiplicative uncertainty budget \(\prod_{e<n}(1+r_e)\le K\), without decidable retirement or an effective tail modulus;
+- proved the pure correct-prediction sentinel target gain equals the cumulative minimal orientation-free hedge product, so stake decay cannot separate success from unresolved price cost;
+- located the fixed half-stake P4-S011 witness outside both fresh-renewal and finite-uncertainty-budget compiler classes;
+- did not prove \(X\in OH\), OH non-invariance or \(R_2\subsetneq OH\).
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Records:
+- phase4/P4-S038_MATHEMATICS.md
+- phase4/P4-S038_CLOSE.md
+- phase4/P4-S038_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: P4-S039, same-source raw one-hole simulation of c.e.-persistent coded P4-S011 claims under the displayed three-bit recoding.
