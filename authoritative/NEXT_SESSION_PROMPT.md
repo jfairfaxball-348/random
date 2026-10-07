@@ -10,89 +10,88 @@ Freeze all validated mathematics through P4-S040. Do not return to the P4-S015â€
 
 Retain
 
-[
-R_2={xin CR:	ext{every total computable fair-coin-preserving global-}k=2	ext{ map sends }x	ext{ to }CR},
-]
+\[
+R_2=\{x\in CR:\text{every total computable fair-coin-preserving global-}k=2\text{ map sends }x\text{ to }CR\},
+\]
 
-[
-OH={xin CR:	ext{every total computable adaptive no-repeat one-hole scan sends }x	ext{ to }CR},
-]
+\[
+OH=\{x\in CR:\text{every total computable adaptive no-repeat one-hole scan sends }x\text{ to }CR\},
+\]
 
 and
 
-[
-OH^{iso}={xin CR:	ext{every computable fair-coin-preserving homeomorphism }H	ext{ sends }x	ext{ into }OH}.
-]
+\[
+OH^{iso}=\{x\in CR:\text{every computable fair-coin-preserving homeomorphism }H\text{ sends }x\text{ into }OH\}.
+\]
 
 The current inclusions remain
 
-[
-MLRsubseteq R_2subseteq OH^{iso}subseteq OHsubsetneq CR.
-]
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
 
 Retain the repeated three-bit recoding
 
-[
-u_0=x_0oplus x_2,qquad
-u_1=x_0oplus x_1,qquad
-u_2=x_0oplus x_1oplus x_2,
-]
+\[
+u_0=x_0\oplus x_2,\qquad
+u_1=x_0\oplus x_1,\qquad
+u_2=x_0\oplus x_1\oplus x_2,
+\]
 
 with
 
-[
+\[
 A=
-egin{pmatrix}
-1&0&1\
-1&1&0\
+\begin{pmatrix}
+1&0&1\\
+1&1&0\\
 1&1&1
-end{pmatrix},
-]
+\end{pmatrix},
+\]
 
 and inverse
 
-[
-x_0=u_0oplus u_1oplus u_2,qquad
-x_1=u_0oplus u_2,qquad
-x_2=u_1oplus u_2.
-]
+\[
+x_0=u_0\oplus u_1\oplus u_2,\qquad
+x_1=u_0\oplus u_2,\qquad
+x_2=u_1\oplus u_2.
+\]
 
-Let (Y) be the settled P4-S011 computably random wtt-autoreducible source, (M) its committed syntactically self-avoiding wtt autoreduction, (D) its one-hole destroyer, and
+Let \(Y\) be the settled P4-S011 computably random wtt-autoreducible source, \(M\) its committed syntactically self-avoiding wtt autoreduction, \(D\) its one-hole destroyer, and
 
-[
+\[
 X=H^{-1}(Y).
-]
+\]
 
 Retain
 
-[
-Xin CR,qquad H(X)=Y
-otin OH.
-]
+\[
+X\in CR,\qquad H(X)=Y\notin OH.
+\]
 
-The missing source-side statement remains whether (Xin OH).
+The missing source-side statement remains whether \(X\in OH\).
 
 ## P4-S040 boundary to retain
 
 P4-S040 weakens P4-S039 local sibling totality to **raw-adjacent decisiveness**.
 
-For a fresh block (B) and raw target direction (i), after the other two raw bits are read the two virtual endpoints differ by
+For a fresh block \(B\) and raw target direction \(i\), after the other two raw bits are read the two virtual endpoints differ by
 
-[
+\[
 c_i=Ae_i,
-]
+\]
 
 where
 
-[
-c_0=111,qquad c_1=011,qquad c_2=101.
-]
+\[
+c_0=111,\qquad c_1=011,\qquad c_2=101.
+\]
 
 The actual endpoint is eventually locally accepted by the three equations
 
-[
-M^{Y[Bleftarrow v]}(q_r)downarrow=v_r,qquad r=0,1,2.
-]
+\[
+M^{Y[B\leftarrow v]}(q_r)\downarrow=v_r,\qquad r=0,1,2.
+\]
 
 The raw-adjacent companion is **decisive** when it is either:
 
@@ -107,19 +106,18 @@ P4-S040 proves:
 2. no rejection-time bound is required;
 3. the minimum-distance-two local code law forces at least one Case-A finite-rejection direction on every fully decisive block;
 4. by infinite pigeonhole one fixed scan receives infinitely many correct all-in wagers, hence
-   [
-   X
-otin OH
-   ]
+   \[
+   X\notin OH
+   \]
    under the decisiveness hypothesis;
 5. this is materially weaker than full 24-computation local sibling totality;
 6. Case B is positively visible but gives no prospective same-block handoff, because raw-adjacent endpoints differ only at the current sentinel and certify only already-read raw coordinates;
 7. a globally one-hole scan cannot keep a second prospective sentinel permanently unread while the current sentinel is also left permanently unresolved;
 8. Case C has no finite divergence certificate;
-9. additional outside (M(n))-equations may supply more c.e. finite refutations, but the wtt use bound gives a finite forward oracle frontier for each fixed (n), not a computably finite reverse closure of all equations affected by the changed block;
-10. the committed P4-S011 authority does not establish raw-adjacent decisiveness for the actual (M).
+9. additional outside \(M(n)\)-equations may supply more c.e. finite refutations, but the wtt use bound gives a finite forward oracle frontier for each fixed \(n\), not a computably finite reverse closure of all equations affected by the changed block;
+10. the committed P4-S011 authority does not establish raw-adjacent decisiveness for the actual \(M\).
 
-Therefore P4-S040 does **not** give an actual raw destroyer for (X), and it does not prove (Xin OH).
+Therefore P4-S040 does **not** give an actual raw destroyer for \(X\), and it does not prove \(X\in OH\).
 
 ## P4-S041 bounded task â€” finite-perturbation refutability and raw-radius-one partiality
 
@@ -129,25 +127,25 @@ Do not return to ordinary raw-martingale compilation.
 
 ### 1. Formalize the finite-perturbation fixed-point relation
 
-For any oracle (Z), distinguish carefully:
+For any oracle \(Z\), distinguish carefully:
 
-- target correctness (M^Y(n)downarrow=Y(n));
-- local block consistency on the three (q_r);
+- target correctness \(M^Y(n)\downarrow=Y(n)\);
+- local block consistency on the three \(q_r\);
 - global fixed-point behaviour
-  [
-  M^Z(n)downarrow=Z(n)quad	ext{for every }n;
-  ]
+  \[
+  M^Z(n)\downarrow=Z(n)\quad\text{for every }n;
+  \]
 - finite refutation by one wrong/nonbinary halt;
 - divergence-only failure.
 
-For a raw finite perturbation (Fsubseteqomega), write
+For a raw finite perturbation \(F\subseteq\omega\), write
 
-[
-X^F=Xopluschi_F,qquad
+\[
+X^F=X\oplus\chi_F,\qquad
 Y^F=H(X^F).
-]
+\]
 
-Raw radius one means (F={j}), so inside its block (Y^F=Yoplus Ae_i).
+Raw radius one means \(F=\{j\}\), so inside its block \(Y^F=Y\oplus Ae_i\).
 
 Do not conflate local acceptance with global fixed-pointhood.
 
@@ -157,9 +155,9 @@ Use the wtt use bound correctly.
 
 Test and, if valid, prove:
 
-> If the committed self-avoiding wtt functional (M) halts on every input for every oracle which differs from (Y) on only finitely many coordinates, then (M) induces a truth-table autoreduction of (Y).
+> If the committed self-avoiding wtt functional \(M\) halts on every input for every oracle which differs from \(Y\) on only finitely many coordinates, then \(M\) induces a truth-table autoreduction of \(Y\).
 
-The intended compact finite-use argument is that, for a fixed input (n), every possible oracle-answer pattern below the computable use can be realized by a finite perturbation of (Y). Totality on all finite perturbations would therefore make the finite local truth table total.
+The intended compact finite-use argument is that, for a fixed input \(n\), every possible oracle-answer pattern below the computable use can be realized by a finite perturbation of \(Y\). Totality on all finite perturbations would therefore make the finite local truth table total.
 
 Check the exact retained authority about computably random truth-table autoreducibility before drawing the consequence.
 
@@ -171,19 +169,9 @@ The P4-S040 theorem needs decisiveness only at raw radius one.
 
 Ask whether all one-raw-bit companions can be decisive even though divergence is unavoidable at some larger finite raw perturbation.
 
-Define, if useful, a hierarchy:
+Define a radius hierarchy only if it genuinely helps. Test:
 
-[
-mathsf{Dec}(r):
-	ext{ every raw perturbation of size }le r
-	ext{ is either globally/local-relevantly accepted or finitely refuted}.
-]
-
-Use only a formulation that is actually needed; do not create notation for its own sake.
-
-Test:
-
-- whether (mathsf{Dec}(1)) is compatible with non-tt wtt autoreducibility;
+- whether raw-radius-one decisiveness is compatible with non-tt wtt autoreducibility;
 - whether the three-bit block basis makes radius-one decisiveness propagate to larger finite perturbations;
 - whether compositions of the three raw flip columns can force totality on every finite use pattern;
 - or whether divergence can be hidden entirely in perturbations involving two or more raw coordinates.
@@ -194,21 +182,21 @@ A construction/normal-form argument showing radius-one decisiveness can coexist 
 
 ### 4. Exploit the finite-difference dependency graph
 
-If both (Y) and a finite perturbation (Z=Yopluschi_S) are global fixed points of the same self-avoiding (M), then for every changed coordinate (nin S), the computations on (Y) and (Z) must obtain different outputs without querying (n).
+If both \(Y\) and a finite perturbation \(Z=Y\oplus\chi_S\) are global fixed points of the same self-avoiding \(M\), then for every changed coordinate \(n\in S\), the computations on \(Y\) and \(Z\) must obtain different outputs without querying \(n\).
 
 Test the exact consequence:
 
-- some queried coordinate in (Ssetminus{n}) must influence the change;
+- some queried coordinate in \(S\setminus\{n\}\) must influence the change;
 - hence the changed coordinates carry a finite directed dependency graph of minimum out-degree at least one;
 - therefore that graph contains a directed cycle.
 
 For the raw-adjacent supports
 
-[
-operatorname{supp}(Ae_1)={q_1,q_2},qquad
-operatorname{supp}(Ae_2)={q_0,q_2},qquad
-operatorname{supp}(Ae_0)={q_0,q_1,q_2},
-]
+\[
+\operatorname{supp}(Ae_1)=\{q_1,q_2\},\qquad
+\operatorname{supp}(Ae_2)=\{q_0,q_2\},\qquad
+\operatorname{supp}(Ae_0)=\{q_0,q_1,q_2\},
+\]
 
 classify the possible two-cycle / three-cycle patterns precisely.
 
@@ -218,9 +206,9 @@ Do not silently assume that a computation which differs between two oracles must
 
 ### 5. Test target-equivalent wtt normal forms
 
-The core constructive question is whether (M) can be replaced by another syntactically self-avoiding wtt functional (M') such that:
+The core constructive question is whether \(M\) can be replaced by another syntactically self-avoiding wtt functional \(M'\) such that:
 
-- (M'^Y(n)=Y(n)) for every (n);
+- \(M'^Y(n)=Y(n)\) for every \(n\);
 - a computable use bound is retained;
 - every raw-radius-one companion at the P4-S040 synchronized blocks is either a genuine accepted fixed-point candidate or has a finite wrong/nonbinary witness;
 - divergence is permitted elsewhere, so full truth-table totality is not imposed.
@@ -233,7 +221,7 @@ Test concrete normal-form operations:
 - use finite perturbation closure inside one wtt use window;
 - or prove that every such attempted totalization necessarily requires negative divergence information.
 
-Any modification must be computable uniformly from the committed data. Do not use (Y) as a noncomputable parameter in the program.
+Any modification must be computable uniformly from the committed data. Do not use \(Y\) as a noncomputable parameter in the program.
 
 ### 6. Separate finite refutation from totalization
 
@@ -243,34 +231,33 @@ Do not require all its computations to halt.
 
 Test whether partial functions can be extended just enough to create wrong-halt witnesses on the three structured raw-adjacent patterns while leaving other answer patterns divergent.
 
-If an abstract local extension is easy, identify the global uniformity obstruction: the compiler does not know which finite answer pattern belongs to the actual noncomputable (Y).
+If an abstract local extension is easy, identify the global uniformity obstruction: the compiler does not know which finite answer pattern belongs to the actual noncomputable \(Y\).
 
 This distinction is central to deciding whether P4-S040's condition is realistically weaker for the actual source, rather than only logically weaker as a local table property.
 
 ### 7. Revisit outside equations only through finite witnesses
 
-For a raw-adjacent companion, allow any outside input (n) whose (M(n)) computation can be simulated target-self-avoidingly.
+For a raw-adjacent companion, allow any outside input \(n\) whose \(M(n)\) computation can be simulated target-self-avoidingly.
 
 If one such computation halts incorrectly, that is a valid finite refutation.
 
 But do not quantify over infinitely many outside equations and then claim completion.
 
-Test whether the finite-difference/cycle structure yields a computable **finite witness set** of outside inputs for the special supports (Ae_i). If no such set is forced, record the exact reason.
+Test whether the finite-difference/cycle structure yields a computable **finite witness set** of outside inputs for the special supports \(Ae_i\). If no such set is forced, record the exact reason.
 
 ### 8. If raw-radius-one decisiveness is obtained, apply P4-S040 fully
 
 Do not stop at the normal form.
 
-Verify that the new (M') or the new finite refutation mechanism satisfies the exact P4-S040 decisiveness hypothesis on every reached synchronized block.
+Verify that the new \(M'\) or the new finite refutation mechanism satisfies the exact P4-S040 decisiveness hypothesis on every reached synchronized block.
 
 Then invoke the already-validated three-scan theorem and conclude only
 
-[
-X
-otin OH.
-]
+\[
+X\notin OH.
+\]
 
-This eliminates the present source as an OH non-invariance candidate. It does not prove (R_2=OH).
+This eliminates the present source as an OH non-invariance candidate. It does not prove \(R_2=OH\).
 
 ### 9. If radius-one Case C is unavoidable, state the narrowest theorem
 
@@ -291,16 +278,15 @@ A weaker exact obstruction is still useful if clearly delimited.
 
 An OH non-invariance theorem still requires
 
-[
-Xin OH,qquad H(X)=Y
-otin OH.
-]
+\[
+X\in OH,\qquad H(X)=Y\notin OH.
+\]
 
 Only the second statement is settled.
 
 If P4-S041 obtains raw-radius-one decisiveness and therefore a raw destroyer, then the present source is eliminated as a separation candidate.
 
-If it proves only that P4-S040 extraction cannot be forced from the committed autoreduction data, (Xin OH) remains unproved.
+If it proves only that P4-S040 extraction cannot be forced from the committed autoreduction data, \(X\in OH\) remains unproved.
 
 ### 11. Required session outcome
 
@@ -310,15 +296,15 @@ The output should be one of:
 - a finite-perturbation normal-form theorem materially advancing toward that goal;
 - a rigorous theorem locating the unavoidable partiality at a specific raw perturbation radius;
 - a finite-difference dependency/cycle theorem which sharply classifies Case-B versus Case-C companions;
-- or, only if it follows directly, a genuine proof that (Xin OH).
+- or, only if it follows directly, a genuine proof that \(X\in OH\).
 
 The sustained question remains
 
-[
-R_2=OH;?
-]
+\[
+R_2=OH\;?
+\]
 
-If no OH non-invariance witness is proved, preserve (OH^{iso}) as the comparison class and state separation status explicitly.
+If no OH non-invariance witness is proved, preserve \(OH^{iso}\) as the comparison class and state separation status explicitly.
 
 P4-S032 null-ambiguity preservation remains available. Do not return to ambiguity mass as an invariant.
 
