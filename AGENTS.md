@@ -702,3 +702,19 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S043**, attack recurrent fixed-direction local Case C and test whether visible A/B directions can be harvested asynchronously without waiting for the recurrent divergent direction.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## Mathematics checkpoint — P4-S043 (not a gate review)
+
+P4-S043 removes the P4-S040 all-three synchronization requirement. A computable scan may choose one raw role, close immediately when its own Case-A or Case-B status becomes positively visible, restore a fresh block boundary and continue without waiting for either unselected direction. Selected Case C remains absorbing. Thus the local scan geometry is now understood at the one-role level.
+
+The P4-S041 pairwise status law is also complete for local self-avoiding finite tables: exactly 14 A/B/C triples are realizable. Every nontriple recurrent fixed-C block has a visible Case-A direction, but ambient recurrence does not imply that one fixed computable scan reaches those witnesses.
+
+The obstruction is now an online selector/fresh-block reachability problem. A scan that guarantees finite abandonment of every unresolved sentinel becomes exhaustive and returns to the k=1 preservation regime. Conversely, any prescribed finite family of pure wait-for-own-status role policies can be trapped by a computable structural model using only nontriple C/A patterns.
+
+No recurrent-triple-C theorem, \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance or \(R_2\subsetneq OH\) theorem is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S044**, attack online role selection and fresh-block reachability using the actual computable wtt use horizon.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
