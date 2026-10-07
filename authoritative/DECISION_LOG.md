@@ -1214,3 +1214,34 @@ Decision: an actual total computable canonical partial-neighbour escape operator
 Next: **P4-S049**, analyze the two-raw-bit square / partial-fixed-point star and test whether the actual committed source forces a positive finite relation between the false-neighbour target equations and the doubly perturbed raw-adjacent branch.
 
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+## P4-S049 — trapped square refutations predict the future column
+
+Date: 2026-10-07
+Decision type: Phase-4 mathematics checkpoint
+Status: **VALIDATED**
+
+At an unresolved P4-S047 global-refutation epoch, the actual-future column of every two-raw-bit square consists of \(Y\) and the false old completion \(Z\). The former is a total fixed point and the latter is a global partial fixed point.
+
+Decision: adopt **actual-column shielding**. Neither corner in the actual-future column can have a finite wrong/nonbinary equation.
+
+Decision: therefore adopt the source-specific one-refutation rule
+\[
+\boxed{\text{finite refutation of }W_{a,\beta}\Longrightarrow X(t)=1-\beta}
+\]
+at a genuinely trapped old epoch. The old row label is irrelevant.
+
+Decision: an actual future Case-\(A_j\) raw-adjacent rejection is already one such square refutation. A false fourth-corner rejection is therefore not logically required for one-shot future-bit prediction, although it remains relevant to the older two-row CHU package and to square classification.
+
+Decision: use paired partial-fixed dependency cycles only when the required computations halt on both corners. Divergence terminates the lasso and supplies no edge.
+
+Decision: a genuine false-row local Case B activates the retained P4-S041 role-switch law and hence supplies finite refutations—and future-bit predictions—in alternate raw roles.
+
+Decision: the new effective obstruction is **finite-tenure capture**. With the old sentinel left permanently open, every future target must be transient on a globally legal no-event branch. If a computable finite-tenure policy catches infinitely many square refutations at one trapped old sentinel, it yields a computable one-hole destroyer and \(X\notin OH\).
+
+Decision: under hypothetical \(X\in OH\), every computable finite-tenure square-reservation policy catches only finitely many refutations at the first trapped old epoch. Retain this only algorithm-relatively; do not infer semantic infinitude of no-refutation squares or a computable eventual bound.
+
+Decision: retain the P4-S049 structural full-star model showing that both old rows can have all three future raw-adjacent neighbours globally partial fixed, with total row bases. The model is structural on \(0^\omega\), is not a randomness witness, and lacks the actual-A premise.
+
+Next: **P4-S050**, attack effective activation of the one-refutation square theorem without a semantic trap oracle, using only positive finite square events and globally legal one-hole fallback.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
