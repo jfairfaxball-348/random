@@ -581,3 +581,39 @@ The hoped-for deduction from recurrent nontriple C to recurrent triple C is not 
 Next bounded session: **P4-S044** — use the actual computable wtt horizon to test finite fresh-lane decompositions, transient multi-sentinel races and other online selector mechanisms capable of reaching infinitely many nontriple A witnesses.
 
 No novelty, Gate-4 or publication work is authorized.
+
+## P4-S044 — wtt value horizons and certificate-time selector obstruction
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: dfd593bd3d0e2bc68d9b2e2097b31c5dbc443c17
+
+Scope: online selector / fresh-block reachability under the actual computable wtt use horizon.
+
+Results:
+- computed the uniform raw source-value horizon
+  \[
+  V(b)=\max_{r<3}U(3b+r),\qquad
+  h(b)=\max\{b+1,\lceil V(b)/3\rceil\};
+  \]
+- proved all local raw-adjacent A/B positive evidence is source-value closed below that horizon;
+- proved the wtt horizon supplies no certificate-time bound;
+- proved the fixed-future-reservation dichotomy: indefinite current-sentinel retention plus a fixed protected future sentinel violates global one-hole on a no-event branch unless one is abandoned;
+- showed moving transient reservations are legal but make the next target certificate-time endogenous;
+- characterized finite horizon-lane covers exactly by uniformly bounded overlap of \(I_b=[b,h(b))\);
+- showed bare computable finite use does not force bounded overlap and countable lanes do not justify countable pigeonhole;
+- showed support blocks can be completely consumed by legal future \(u_2\) queries;
+- proved a finite transient multi-sentinel race has no rate-free guarantee against arbitrarily delayed A certificates;
+- built a computable finite-use structural countermodel on \(0^\omega\) with \(h(b)=2b+2\), recurrent nontriple \(C_0\), visible A witnesses and finite-family selector/race failure;
+- did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S044_MATHEMATICS.md
+- phase4/P4-S044_CLOSE.md
+- phase4/P4-S044_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S045**, on certificate-time selector thickness for the actual computably random wtt-autoreducible source after source-value closure.
