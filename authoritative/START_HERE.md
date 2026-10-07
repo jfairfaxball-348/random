@@ -533,3 +533,21 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S043**, study recurrent fixed-direction Case C, first asking whether infinitely many nontriple-C blocks can still be harvested by a finite asynchronous family of raw one-hole scans, which would force recurrent triple Case C on any surviving \(X\in OH\).
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## Latest mathematics — P4-S043
+
+P4-S043 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+The all-three synchronization in P4-S040 is no longer needed: one selected raw role can close and restart as soon as its own A/B status is positively visible. A selected A gives a correct wager; selected B gives zero stake; selected C is absorbing. No unselected status has to resolve.
+
+The local A/B/C geometry is now exact. The P4-S041 pairwise implications generate precisely 14 realizable status triples. Every nontriple fixed-C block contains visible Case A, but that raw-block recurrence is not automatically scan-reachable. The scan's wtt support queries determine its own future fresh blocks.
+
+P4-S043 also proves the central timeout dichotomy: if every unresolved sentinel is guaranteed to be closed in finite time, the scan is exhaustive and falls back into the k=1 computable-randomness-preserving regime. A finite family of pure waiting role policies cannot bridge the gap; a computable structural countermodel can trap all members while using no triple-C block.
+
+No separation is proved. The inclusions remain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S044**, formalize the computable wtt horizon and test whether it yields a finite fresh-lane/online-selector theorem converting ambient recurrent A witnesses into witnesses reached by one computable one-hole scan.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
