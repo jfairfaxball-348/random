@@ -659,3 +659,14 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S048**, persistent old-hole sensitivity on the actual source, with emphasis on whether finite branch disagreement exposes the current bit and whether only divergence-only sensitivity can survive indefinitely.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+P4-S047 also yields a stronger necessary obstruction under a hypothetical \(X\in OH\). A scan can dovetail every autoreduction equation under both old-hole completions without reading the current raw sentinel. A finite wrong/nonbinary equation eliminates that completion by target correctness and predicts the sentinel. If this happened at every epoch, a one-hole martingale would double forever.
+
+Therefore
+\[
+X\in OH\Longrightarrow
+\text{the canonical branch-refutation scan eventually reaches a false raw-radius-one partial fixed point of }M.
+\]
+
+At such a trap every defined equation is correct; only divergence remains as old-hole sensitivity. P4-S048 is correspondingly narrowed to persistent partial-fixed-point sensitivity and whether it can continue to gate later A certificates.
