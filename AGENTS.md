@@ -828,3 +828,30 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Pha
 P4-S047 strengthening: finite branch refutation is directly harvestable. A total one-hole scan can dovetail every \(M\)-equation under both old-hole hypotheses while sweeping all other raw coordinates. Any wrong/nonbinary halt eliminates that hypothesis and yields a correct sentinel wager. Therefore hypothetical \(X\in OH\) forces the scan eventually to encounter a false raw-radius-one **partial fixed point** of \(M\), on which every halt is correct and only divergence can distinguish the false branch.
 
 P4-S048 should therefore study persistent divergence-only influence from such partial fixed-point neighbours, not arbitrary old-hole collision.
+
+## Mathematics checkpoint — P4-S048 (not a gate review)
+
+P4-S048 analyzes the surviving P4-S047 false raw-radius-one completion \(Z\), which is a global partial fixed point.
+
+For future target equations, finite wrong-output sensitivity is gone. A divergence-sensitive target trace must contact the old changed support, and the P4-S042 lasso sharpens to exactly two outcomes: old-support divergence or a correct-halting old-support cycle.
+
+The canonical P4-S046 low-cost false-neighbour fixedness burden is now finite and role-specific:
+\[
+F_0=\{q_0,q_1,q_2\},\qquad
+F_1=\{q_0\},\qquad
+F_2=\{q_1\}.
+\]
+This is separate from false-branch raw-adjacent rejection, which lives on the doubly perturbed oracle.
+
+The separation is sharp. A structural Family F makes one listed equation diverge recurrently through one fixed old row while the false raw-adjacent rejection survives. A structural Family R makes the false neighbour a total global fixed point while every false raw-adjacent future candidate diverges; each such doubly perturbed oracle is itself a global partial fixed point. Thus partial fixedness, even total fixedness of \(Z\), does not force CHU escape.
+
+A total computable canonical partial-neighbour escape operator would yield an infinite computable CHU path and hence \(X\notin OH\). No such operator is obtained for the committed source, and \(X\in OH\) is not proved.
+
+Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S049**, study the two-raw-bit square / partial-fixed-point star, especially whether actual-source structure can force positive finite rejection at the fourth corner or otherwise yield old-bit prediction or CHU escape.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
