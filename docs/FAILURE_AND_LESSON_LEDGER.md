@@ -1223,3 +1223,42 @@ Hence a block with no finite rejection is necessarily triple Case C, but finite 
 Correct next move: localize single-raw-bit divergence. Determine whether remote divergent equations must propagate back to the three changed block equations, or whether radius-one divergence can remain remote while all local companions stay decisive.
 
 Correct guard: failure to totalize the finite use table is a negative-information obstruction, not a proof of \(X\in OH\), OH non-invariance or \(R_2\subsetneq OH\).
+
+## P4-S042 — remote-divergence localization failures and lessons
+
+### Failed route: target-trace contact implies local Case C
+
+A divergent radius-one companion equation does force the halting target trace to query the changed support. This finite contact is not enough to force a divergent local equation.
+
+**Lesson:** after contact, a correctly halting changed-coordinate equation can pass dependence to another changed coordinate and close into a P4-S041 dependency cycle.
+
+### Failed route: minimal wtt use gives a well-founded descent
+
+Choosing a divergent input of minimal use does not force the contacted local coordinate to have smaller use. The first-contact fact is about the queried coordinate lying below the original computation's use, not about the use of that coordinate's own computation.
+
+**Lesson:** forward use bounds do not orient the reverse dependency graph well-foundedly.
+
+### Exact counterexample to per-witness localization
+
+A computable finite-use self-avoiding functional on target \(0^\omega\) has one remote equation diverging under all three raw-adjacent perturbations while the three local statuses are
+\[
+(A_0,B_1,B_2).
+\]
+
+**Lesson:** remote partiality can coexist with full P4-S040 local decisiveness. Any theorem for the committed source must use more than self-avoidance, finite use and the three support shapes.
+
+### Failed strengthening: remote traces force a finite rejection elsewhere
+
+The target trace supplies dependency contact but no wrong/nonbinary output. It therefore yields no new finite cross-direction rejection law beyond P4-S041.
+
+**Lesson:** preserve
+\[
+B_0\Rightarrow A_1,A_2,\quad B_1\Rightarrow A_0,\quad B_2\Rightarrow A_0
+\]
+as the exact finite-evidence law currently justified.
+
+### New positive lesson: recurrence is the real surviving obligation
+
+A single remote divergence, a single local divergence or a single Case-C block is too weak to support \(X\in OH\). If Case C disappeared after a finite cutoff, delayed-start P4-S040 scans would destroy \(X\).
+
+**Lesson:** any surviving \(X\in OH\) branch must have arbitrarily late local Case C, with a fixed direction recurring infinitely often. Future work should attack recurrence/interleaving, not one-off localization.
