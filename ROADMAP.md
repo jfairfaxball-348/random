@@ -482,3 +482,36 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S040**, on online c.e. local-code completion and raw-adjacent companion obstruction under a preselected raw sentinel.
+
+
+## P4-S040 — raw-adjacent decisiveness and online singleton completion
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: a2902d7aed904f0fcf36693cf7da6105a1f6ab34
+
+Scope: online c.e. local-code extraction and raw-adjacent companions under one raw sentinel.
+
+Results:
+- replaced P4-S039 full 24-computation local sibling totality by the weaker **raw-adjacent decisiveness** condition;
+- defined a raw-adjacent companion as decisive when it is either locally self-consistent or finitely refuted by one wrong/nonbinary halt;
+- proved three synchronized raw one-hole scans remain total and globally one-hole without any rejection-time bound;
+- proved the minimum-distance-two local code law forces at least one finite-rejection direction on every fully decisive block;
+- used infinite pigeonhole to obtain one fixed raw scan with infinitely many correct all-in wagers, hence same-source raw one-hole destruction under the new condition;
+- proved the weakening is genuine at the local self-avoiding partial-table level: rejected companions may have other divergent computations;
+- proved Case-B raw-adjacent certificates are retroactive and cannot hand off to a still-unread same-block raw sentinel;
+- proved a globally one-hole scan cannot keep two prospective sentinels permanently unresolved on the same complete branch;
+- isolated divergence-only Case C as the surviving finite-certificate obstruction;
+- showed extra outside (M(n))-equations may add c.e. refutations, but the wtt use bound does not give a computably finite reverse dependency closure;
+- did **not** establish raw-adjacent decisiveness for the actual P4-S011 machine, construct an actual raw destroyer for (X), prove (Xin OH), prove OH non-invariance, or prove (R_2subsetneq OH).
+
+Records:
+- phase4/P4-S040_MATHEMATICS.md
+- phase4/P4-S040_CLOSE.md
+- phase4/P4-S040_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S041**, on finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual P4-S011 wtt autoreduction.
