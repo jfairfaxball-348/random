@@ -1162,3 +1162,27 @@ An infinite computable path of current-hole-uniform usable edges would still yie
 Next: **P4-S048**, persistent old-hole sensitivity of future A-certificate computations on the actual source. Test whether one current raw-radius-one perturbation can remain semantically essential for infinitely many later A witnesses without exposing the current bit, or whether its influence is effectively escapable into CHU usable edges.
 
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+
+
+### P4-S047 strengthening — finite branch refutation is harvestable
+
+The two-branch formalism yields a stronger source-side necessary condition.
+
+For any current raw completion \(h\), a finite wrong/nonbinary equation
+\[
+M^{Y^{[h]}}(n)\downarrow\ne Y^{[h]}(n)
+\]
+eliminates that completion, because the actual branch is total and target-correct. The event is positively discoverable without reading the current raw sentinel: old-block oracle values are supplied by the finite hypothesis and all other raw support is live outside the hole.
+
+Decision: adopt the canonical global-refutation scan which dovetails all \(M\)-equations under both hole hypotheses while sweeping every other raw coordinate. If a false completion is finitely refuted, the scan bets correctly on the current sentinel and restarts. If every epoch resolved, the martingale would double infinitely often.
+
+Therefore
+\[
+X\in OH
+\Longrightarrow
+\text{the canonical scan eventually reaches a false raw-radius-one partial fixed point of }M.
+\]
+
+At that trap every defined equation is correct; only divergence can hide the false completion.
+
+This sharpens, rather than retracts, the earlier guard: **mere CHU nonuniformity** does not expose the old bit, but an actual finite equation refuting one old-hole completion does.
