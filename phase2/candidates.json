@@ -625,11 +625,15 @@
           "OH_noninvariance_witness": false,
           "R2_proper_subset_OH_claimed": false,
           "class_OH_iso_preserved": true,
-          "next_question": "persistent old-hole sensitivity of future A certificates",
+          "next_question": "persistent partial-fixed-point old-hole sensitivity",
           "next_session": "P4-S048",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
-          "novelty_claimed": false
+          "novelty_claimed": false,
+          "global_branch_refutation_predicts_current_hole": true,
+          "canonical_global_refutation_scan": true,
+          "X_in_OH_implies_false_radius_one_partial_fixed_point_trap": true,
+          "surviving_sensitivity": "divergence-only on a partial fixed-point false completion"
         }
       },
       "phase4_k2_mathematics": {
@@ -1689,7 +1693,7 @@
     }
   ],
   "recommended_next_session": "P4-S048",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack persistent old-hole sensitivity for future A-certificate computations. Use P4-S047 current-hole branching, safe-trace and two-branch-fixedness criteria, and determine whether the actual committed source lets one old raw-radius-one perturbation remain an essential gate for infinitely many later A witnesses or whether that influence is effectively escapable into CHU usable edges. Do not reopen generic reverse-dependency closure, certificate-time bounds, bankroll/backward-price, ordinary martingale compilation, ambiguity mass, general totalization or local status enumeration.",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack persistent partial-fixed-point old-hole sensitivity. Use P4-S047's canonical global branch-refutation scan: finite wrong/nonbinary equations expose the current hole, so any surviving OH branch must reach a false raw-radius-one completion on which every defined M-equation is correct. Determine whether divergence-only influence from such a partial fixed point can remain essential for infinitely many later A certificates on the actual committed source, or whether it is effectively escapable into CHU usable edges. Do not reopen generic reverse-dependency closure, certificate-time bounds, bankroll/backward-price, ordinary martingale compilation, ambiguity mass, general totalization or local status enumeration.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
