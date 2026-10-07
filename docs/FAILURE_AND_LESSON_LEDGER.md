@@ -1499,3 +1499,12 @@ Individual finite CHU witnesses may be positively discoverable, but searching ma
 The structural countermodel can use one old row as a permanent gate. The committed source may have more rigidity, but none is yet proved.
 
 **Lesson:** P4-S048 should study semantic influence of one current raw-radius-one perturbation on later A-certificate computations, not return to generic support enumeration or reverse-dependency closure.
+
+
+### P4-S047 strengthening: finite wrong equations are not a surviving obstruction
+
+A universal dovetail over both current-hole completions can test every autoreduction equation while keeping the raw sentinel unread. If one completion ever produces a wrong/nonbinary halt, target correctness eliminates it and the sentinel is predicted.
+
+**Lesson:** finite branch refutability is harvestable by a total one-hole scan. Under hypothetical \(X\in OH\), the canonical search must eventually be trapped by a false raw-radius-one **partial fixed point**: every halt is correct and the only remaining source of branch distinction is divergence.
+
+This narrows the next problem from arbitrary old-hole sensitivity to persistent divergence-only sensitivity of partial fixed-point neighbours.
