@@ -1262,3 +1262,34 @@ as the exact finite-evidence law currently justified.
 A single remote divergence, a single local divergence or a single Case-C block is too weak to support \(X\in OH\). If Case C disappeared after a finite cutoff, delayed-start P4-S040 scans would destroy \(X\).
 
 **Lesson:** any surviving \(X\in OH\) branch must have arbitrarily late local Case C, with a fixed direction recurring infinitely often. Future work should attack recurrence/interleaving, not one-off localization.
+## P4-S043 — recurrent nontriple-C harvesting failures and lessons
+
+### Failed route: remove all-three synchronization and recurrence automatically becomes harvestable
+
+A selected A/B direction can indeed close and restart without waiting for the other directions. But a selected C has no positive completion event and is absorbing.
+
+**Lesson:** local asynchronous progress is solved; role selection is not.
+
+### Failed route: infinitely many ambient A blocks give infinitely many A wagers for a fixed role scan
+
+The local wtt simulations may consume raw coordinates in later blocks before the current sentinel closes. The next completely fresh target is therefore endogenous to the scan's own evaluation footprint.
+
+**Lesson:** ambient raw-block recurrence is not scan-reachable recurrence.
+
+### Failed route: add finite timeouts to skip C blocks
+
+If every unresolved sentinel is guaranteed to close after finite interaction and prefix restoration follows, every coordinate is eventually queried. The scan becomes an effective adaptive permutation.
+
+**Lesson:** guaranteed finite abandonment avoids C only by surrendering the one-hole resource and returning to k=1 preservation.
+
+### Failed route: a finite family of pure wait policies must cover the visible A direction
+
+For each fixed recurrent C direction, legal nontriple patterns can alternately expose A in one role while making another role C. A computable structural model can trap every member of any prescribed finite family after finitely many epochs.
+
+**Lesson:** finite-family role switching does not force recurrent triple C from the current local laws.
+
+### New positive lesson: the exact next resource is an online selector/fresh-lane theorem
+
+The P4-S041 pairwise law is complete and P4-S040 synchronization is no longer the issue.
+
+**Lesson:** future work should use the actual computable wtt horizon to test whether recurrent A witnesses can be placed on a computable fresh lane or reached by a transient one-hole-compatible race. Failure of such selectors remains an obstruction, not a proof of \(X\in OH\).
