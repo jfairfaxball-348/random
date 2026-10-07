@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S047",
+  "last_updated_session": "P4-S048",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S047",
-      "record_path": "phase4/P4-S047_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S048",
+      "record_path": "phase4/P4-S048_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -634,6 +634,50 @@
           "canonical_global_refutation_scan": true,
           "X_in_OH_implies_false_radius_one_partial_fixed_point_trap": true,
           "surviving_sensitivity": "divergence-only on a partial fixed-point false completion"
+        },
+        "one_hole_normalization_sixteenth_step_result": {
+          "session": "P4-S048",
+          "result": "PARTIAL_FIXED_NEIGHBOUR_ROLE_KERNELS_SEPARATE_TARGET_FIXEDNESS_FROM_RAW_ADJACENT_REJECTION_RECURRENT_DIVERGENCE_GATING_REMAINS_STRUCTURALLY_POSSIBLE",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "false_partial_neighbour_sensitivity_trichotomy": true,
+          "partial_fixed_support_lasso_outcomes": [
+            "old_support_divergence",
+            "correct_old_support_dependency_cycle"
+          ],
+          "finite_refutation_lasso_arm_survives": false,
+          "canonical_fixedness_lists": {
+            "A0": [
+              0,
+              1,
+              2
+            ],
+            "A1": [
+              0
+            ],
+            "A2": [
+              1
+            ]
+          },
+          "false_branch_raw_adjacent_rejection_separate_kernel": true,
+          "family_F_global_partial_fixed_point": true,
+          "family_F_fixed_old_row_recurrent_listed_divergence": true,
+          "family_F_raw_adjacent_rejection_survives": true,
+          "family_R_false_neighbour_total_fixed_point": true,
+          "family_R_raw_adjacent_candidate_divergence": true,
+          "partial_fixedness_forces_effective_escape": false,
+          "canonical_partial_neighbour_escape_operator_sufficient": true,
+          "infinite_computable_CHU_path_constructed": false,
+          "actual_raw_one_hole_destroyer_constructed": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "two-raw-bit square: false old partial neighbour versus future raw-adjacent perturbation, and whether the actual source forces a positive finite square constraint",
+          "next_session": "P4-S049",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
         }
       },
       "phase4_k2_mathematics": {
