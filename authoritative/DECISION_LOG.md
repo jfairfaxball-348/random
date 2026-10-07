@@ -904,3 +904,28 @@ No OH non-invariance witness is established. (OH^{iso}) remains the comparison c
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
 
 Record: phase4/P4-S037_MATHEMATICS.md.
+
+
+## D-0060 — close local persistent-price compilation and select same-source one-hole simulation
+
+Session: P4-S038
+Date: 2026-10-07
+Type: Phase-4 mathematics theorem-selection refinement
+
+Decision/result: the persistent single-claim obstruction selected by P4-S037 is now classified at the backward-price level.
+
+After the P4-S011 wtt value-use frontier is exhausted, the claim is value-closed but may retire only c.e. The half-stake normalized price has exactly one possible nontrivial jump from \((1,1)\) to \((3/2,1/2)\) or its reversal.
+
+For any fixed positive jump size, computable retirement deadlines, eventual-constancy/Cauchy moduli, exact limiting prices and two-sided retirement semidecisions all collapse to the trigger/nontrigger decision. The actual recoded P4-S011 family cannot have that uniform decision or an absolute persistent-savings Cauchy modulus, since P4-S037 would then contradict \(X\in CR\).
+
+A distinct positive compiler condition is available: if unresolved stake magnitudes \(r_e\) have a computable finite multiplicative uncertainty budget \(\prod_{e<n}(1+r_e)\le K\), the worst possible orientation can be prepaid. Persistent savings plus this reserve gives a computable raw supermartingale and a computable martingale cover without deciding retirement.
+
+This condition is sharp for the pure all-correct sentinel mechanism because the target gain is exactly the same product. Therefore stake decay cannot preserve unbounded sentinel gain while making the unresolved positive hedge cost finite.
+
+Decision for P4-S039: stop tightening ordinary raw-martingale retirement/pricing criteria for the actual P4-S011 source. Attack the missing same-source statement directly by testing whether the c.e.-persistent virtual sentinel process on \(H(X)\) can be simulated by a total raw-coordinate one-hole scan/stake process on \(X\). Begin with the exact one-hole linear algebra of the displayed three-bit block recoding and cross-block transport of the unresolved parity state.
+
+No \(X\in OH\) is established. No OH non-invariance or \(R_2\subsetneq OH\) conclusion is made. \(OH^{iso}\) remains the comparison class. The P4-S015–P4-S031 bankroll sequence remains frozen.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
+
+Record: phase4/P4-S038_MATHEMATICS.md.
