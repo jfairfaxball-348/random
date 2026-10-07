@@ -1,14 +1,14 @@
-# Next Session Prompt — P4-S049
+# Next Session Prompt — P4-S050
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S049. Treat committed repository state as authoritative. Pin live main at the exact P4-S048 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S049 is unique, and read P4-S001 through P4-S048, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md through phase4/P4-S048_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S027 and P4-S039 through P4-S048.
+Run only Phase 4 — Mathematics session P4-S050. Treat committed repository state as authoritative. Pin live main at the exact P4-S049 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S050 is unique, and read P4-S001 through P4-S049, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md through phase4/P4-S049_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S027, P4-S041, P4-S044 through P4-S049.
 
 ## Sustained Phase-4 target — one-hole normalization after coded recoding
 
-Freeze all validated mathematics through P4-S048.
+Freeze all validated mathematics through P4-S049.
 
-Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, ambiguity mass, general radius-one totalization, generic reverse-dependency closure, local A/B/C enumeration detached from the square below, certificate-time bounding, or same-block freshness-cost enumeration unless the bounded theorem below genuinely requires it.
+Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, general martingale-transfer compilation, ambiguity mass, general radius-one totalization, generic reverse-dependency closure, detached 14-pattern enumeration, generic certificate-time bounding, or same-block freshness-cost enumeration unless the square-specific activation theorem below genuinely requires a bounded instance.
 
 Retain
 
@@ -65,339 +65,354 @@ V(b)=\max_{r<3}U(3b+r),
 h(b)=\max\{b+1,\lceil V(b)/3\rceil\}.
 \]
 
-## P4-S047/P4-S048 boundary to retain
+## P4-S049 boundary to retain
 
-At a current raw sentinel
-
-\[
-s=(b,i),
-\]
-
-the two finite old-hole completions can be simulated without querying the actual sentinel.
-
-If the canonical P4-S047 global-refutation scan reaches an unresolved epoch, then mathematically the false completion
+For an old raw sentinel
 
 \[
-Z=Y^{[\bar h]}
+s=(b,i)
 \]
 
-is a global partial fixed point:
+and a prospective future raw target
 
 \[
-M^Z(n)\downarrow\Longrightarrow M^Z(n)=Z(n)\in\{0,1\}
-\qquad(\forall n).
+t=(c,j),\qquad c\ne b,
 \]
 
-No live construction may use the actual \(h_*=X(s)\) or \(\bar h=1-h_*\) as a program parameter.
-
-For future target equations \(n\notin B_b\), retain the exact trichotomy:
-
-1. trace-safe;
-2. trace-sensitive but value-fixed;
-3. divergence-sensitive.
-
-A divergence-sensitive target trace must contact the old changed support
+write the four counterfactual raw pair completions as
 
 \[
-S_i=\{q_{b,r}:r\in\operatorname{Dep}(i)\}.
+W_{a,\beta},
+\qquad a,\beta\in\{0,1\}.
 \]
 
-Under partial fixedness, the P4-S042 support lasso has only two surviving arms:
+A finite wrong/nonbinary equation on \(W_{a,\beta}\) positively eliminates exactly that raw pair hypothesis.
+
+Generic finite square logic:
+
+- refuting \((a,0)\) and \((a,1)\) predicts
+  \[
+  X(s)=1-a;
+  \]
+- refuting \((0,\beta)\) and \((1,\beta)\) predicts
+  \[
+  X(t)=1-\beta.
+  \]
+
+No divergence or failure to discover a halt is a prediction.
+
+At a genuinely unresolved P4-S047 global-refutation epoch, if
 
 \[
-\boxed{\text{old-support divergence}}
+\alpha=X(s),\qquad \gamma=X(t)
 \]
 
-or
+are named only in the proof, then
 
 \[
-\boxed{\text{correct-halting old-support dependency cycle}}.
+W_{\alpha,\gamma}=Y
 \]
 
-Finite local refutation on \(Z\) is no longer a surviving arm.
-
-For the canonical P4-S046 low-cost future A certificates, retain the exact false-neighbour target-equation lists
+is a total fixed point and
 
 \[
-F_0(c)=\{q_{c,0},q_{c,1},q_{c,2}\},
+W_{1-\alpha,\gamma}=Z
 \]
+
+is the false old completion, a global partial fixed point.
+
+Therefore the **actual future-bit column is refutation-free**:
 
 \[
-F_1(c)=\{q_{c,0}\},
+\operatorname{Ref}(a,\beta)
+\Longrightarrow
+\beta\ne\gamma.
 \]
+
+Hence at such a trapped old epoch,
 
 \[
-F_2(c)=\{q_{c,1}\}.
+\boxed{
+\text{one finite square refutation of }W_{a,\beta}
+\Longrightarrow
+X(t)=1-\beta.
+}
 \]
 
-They correspond to
+This rule does not require the old row to be known.
+
+In particular, every actual future Case-\(A_j\) raw-adjacent rejection \(Y_j\) is already a one-refutation future-bit certificate. A false fourth-corner rejection \(Z_j\) is not required for that one-shot prediction.
+
+Keep the fourth-corner classification nevertheless:
+
+1. finite-refuted;
+2. genuinely locally self-consistent / Case B;
+3. divergence-only.
+
+If the fourth corner is genuinely local Case B, retain the P4-S041 false-row role-switch law
 
 \[
-A_0:\kappa=0,
-\qquad
-A_1:\kappa\le1\text{ using future }x_2,
-\qquad
-A_2:\kappa\le1\text{ using future }x_1.
+B_0\Rightarrow A_1,A_2,\qquad
+B_1\Rightarrow A_0,\qquad
+B_2\Rightarrow A_0,
 \]
 
-A halt of \(M^Z(q)\) for \(q\in F_j(c)\) gives the canonical false-branch automatic unit-flip rejection by self-avoidance and partial fixedness.
+and the resulting alternate future-bit predictions at the trapped old epoch.
 
-Keep this separate from the false-branch raw-adjacent rejection
+For paired partial fixed points differing on one future support, use a first-difference dependency edge only where both corner computations halt. If a changed equation diverges on either corner, the lasso stops there. Under full two-corner halting retain:
 
-\[
-R_j^Z(c),
-\]
+- \(011\): forced two-cycle;
+- \(101\): forced two-cycle;
+- \(111\): two-cycle-with-tail or oriented three-cycle.
 
-which is computed on the oracle with **both** the false old raw completion and the future raw-adjacent perturbation.
+A square with no global finite refutation has all four corners as global partial fixed points, but this is semantic only.
 
-P4-S048 structural sharpness must remain visible:
-
-- Family F: one fixed old changed row can make one listed equation in \(F_j(c)\) diverge recurrently while \(R_j^Z(c)\) remains finite and positive;
-- Family R: \(Z\) can be a total global fixed point while every false-branch raw-adjacent future candidate is divergence-only;
-- moreover, in Family R every such doubly perturbed future candidate oracle is itself a global partial fixed point, giving an infinite partial-fixed-point star around \(Z\).
-
-Therefore neither partial fixedness nor total fixedness of \(Z\) alone forces CHU escape.
-
-An infinite computable CHU usable path still implies
+P4-S049 also established the **finite-tenure legality boundary**. While the old sentinel remains open, a future target may be reserved only transiently on a globally legal no-event branch. A computable policy which catches infinitely many square refutations at one genuinely trapped old sentinel gives a one-hole destroyer and
 
 \[
 X\notin OH.
 \]
 
-P4-S048 produced no such path and did not prove \(X\in OH\).
-
-## P4-S049 bounded task — the two-raw-bit square / partial-fixed-point star
-
-Attack only the new finite object exposed by P4-S048.
-
-For a current old raw sentinel \(s=(b,i)\) and a prospective future raw target \(t=(c,j)\), \(c\ne b\), there are four raw pair completions. In mathematical analysis, index them by old and future bits:
+Under hypothetical
 
 \[
-W_{a,\beta}
-=
-H(X\text{ with }X(s)=a,\ X(t)=\beta),
-\qquad
-a,\beta\in\{0,1\},
+X\in OH,
 \]
 
-where all other raw coordinates are the target values.
+at the first trapped P4-S047 epoch every computable finite-tenure square-reservation policy catches only finitely many square refutations. Keep this algorithm-relative. Do not infer semantically that infinitely many squares have no refutation.
 
-Equivalently, after naming the actual pair only in the proof, the square consists of:
+Finally retain the P4-S049 structural full-star countermodel on \(0^\omega\): the two unperturbed old rows can be total fixed points while all three future raw-adjacent neighbours in both rows are global partial fixed points. It is structural, non-random, and deliberately lacks the actual-A premise.
 
-- \(Y\): actual old bit, actual future bit;
-- \(Z\): false old bit, actual future bit;
-- \(Y_j\): actual old bit, flipped future raw bit;
-- \(Z_j\): false old bit, flipped future raw bit.
+## P4-S050 bounded task — activate finite square refutation without a trap oracle
 
-The horizontal future flip changes the future virtual block by \(c_j\). The vertical old flip changes only the old block by \(c_i\).
-
-Do not use the actual old or future bit as a live program parameter. Any live construction must run finite hypotheses symmetrically.
-
-The central question is:
+The central problem is now:
 
 \[
 \boxed{
-\text{Does the actual committed source force any positive finite constraint on the fourth corner }Z_j
-\text{ beyond P4-S048's structural countermodels?}
+\text{Can one finite positive square refutation be converted into reusable one-hole capital gain}
+\text{ without first knowing that the old epoch is trapped?}
 }
 \]
 
-### 1. Formalize square refutation as pair elimination
+Attack only positive finite activation mechanisms tied to the two-bit square.
 
-For a finite raw pair hypothesis \((a,\beta)\), a finite wrong/nonbinary equation
+### 1. First test the forbidden-pair two-bit hedge
+
+Suppose a finite square refutation of
 
 \[
-M^{W_{a,\beta}}(n)\downarrow\ne W_{a,\beta}(n)
+W_{a,\beta}
 \]
 
-positively eliminates that pair, because the actual pair is total and target-correct.
+appears while both raw coordinates \(s,t\) are still unread.
 
-Prove the exact finite elimination logic:
-
-- if both future-bit values \(\beta=0,1\) are eliminated for the same old value \(a\), then the old sentinel is predicted as \(1-a\);
-- if both old values \(a=0,1\) are eliminated for the same future value \(\beta\), then the future sentinel is predicted as \(1-\beta\).
-
-Keep this at the level of finite positive refutations. Do not use absence of a halt.
-
-Relate the second arm explicitly to CHU: an actual-branch \(A_j\) rejection eliminates the wrong future value in the actual-old row; a false-branch raw-adjacent rejection eliminates the same wrong future value in the false-old row. Together they are exactly a column elimination predicting the future raw sentinel independently of the old hole.
-
-### 2. Do not create an illegal permanent two-hole scan
-
-The square has two hypothesized raw coordinates, but a legal one-hole scan may not leave both permanently unread on a nonresolving branch.
-
-Distinguish:
-
-- finite counterfactual simulation of two raw hypotheses;
-- transient reservation of a future coordinate while the old hole remains open;
-- a globally legal total fallback which eventually consumes or closes one coordinate if no finite square event appears;
-- an illegal construction whose no-event transcript omits both raw coordinates forever.
-
-If a square-refutation search is proposed, prove its one-hole legality on every complete transcript.
-
-Do not infer legality merely because each individual finite simulation is computable.
-
-### 3. Classify the fourth corner \(Z_j\)
-
-For a future actual \(A_j\) candidate, the \(Y_j\) corner has a finite rejection.
-
-Classify \(Z_j\) at the level relevant to the canonical future slice:
-
-1. **finite-refuted fourth corner** — the desired false-branch raw-adjacent rejection appears;
-2. **locally self-consistent fourth corner** — all required local equations halt with the \(Z_j\)-values;
-3. **divergence-only fourth corner** — no finite rejection appears because one or more required computations diverge.
-
-If useful, refine this to global behavior:
+At that moment the actual raw pair is known to lie in the other three atoms of
 
 \[
-M^{Z_j}(n)\downarrow\Longrightarrow M^{Z_j}(n)=Z_j(n)
+\{0,1\}^2.
 \]
 
-when no global wrong equation occurs.
-
-Do not equate local non-refutation with global partial fixedness unless the universal equation condition is actually proved.
-
-### 4. Exploit paired partial fixedness only where justified
-
-Suppose both \(Z\) and \(Z_j\) are partial fixed points and differ only by future raw direction \(j\).
-
-Ask what self-avoidance forces on computations where **both** oracles halt.
-
-If the changed future-block equations all halt correctly on both corners, the P4-S041 finite-difference dependency-cycle theorem may apply on the support of \(c_j\).
-
-Determine precisely what survives when one or more of those equations diverge.
-
-Possible useful outcomes include:
-
-- a forced two-cycle for \(c_1=011\) or \(c_2=101\) under explicit two-corner totality;
-- a two-cycle-with-tail or three-cycle for \(c_0=111\);
-- a finite first-contact lasso into the future changed support;
-- or a proof that partiality can again remain remote and no closure stronger than P4-S048 follows.
-
-Do not apply the P4-S041 cycle theorem unless the required computations halt on both corners.
-
-### 5. Test the partial-fixed-point star on the actual source
-
-P4-S048 Family R shows structurally that one total false neighbour \(Z\) can have infinitely many future one-raw-flip partial-fixed neighbours \(Z_j\).
-
-The actual-source question is whether the committed computably random wtt-autoreducible \(Y\) permits the analogous recurrent star around a finite variant \(Z\) without creating positive finite information.
-
-Test only concrete mechanisms such as:
-
-- two pair eliminations predicting the old or future bit;
-- a computable finite family of square tests which guarantees one paired elimination;
-- a truth-table/autoreduction collapse from a genuinely sufficient totality pattern;
-- a reusable CHU edge from a finite square certificate;
-- or a finite dependency pattern which can be converted into one of the above.
-
-Do not claim computable randomness forbids the star merely because all its vertices are finite perturbations or because many computations diverge.
-
-### 6. Keep target-equation lists and fourth-corner rejection separate
-
-For roles \(j=0,1,2\), retain
+Test the exact fair two-bit martingale with proposed terminal capital
 
 \[
-F_0=\{q_0,q_1,q_2\},
-\qquad
-F_1=\{q_0\},
-\qquad
-F_2=\{q_1\}.
+G(x_s,x_t)=
+\begin{cases}
+0,&(x_s,x_t)=(a,\beta),\\
+4/3,&\text{otherwise}.
+\end{cases}
 \]
 
-A complete canonical CHU edge needs:
+Its fair-coin expectation is \(1\).
 
-1. the listed false-neighbour target equations to halt;
-2. the fourth corner \(Z_j\) to receive the required finite raw-adjacent rejection;
-3. the already retained legal support/fallback/handoff conditions.
+Verify explicitly whether it can be implemented by sequentially querying \(s\) and \(t\) after the finite refutation, for example by first querying \(s\):
 
-P4-S048 proves 1 does not force 2 and 2 does not force 1 in structural models.
+- capital \(2/3\) on the branch \(x_s=a\);
+- capital \(4/3\) on the branch \(x_s=1-a\);
+- on \(x_s=a\), the second query should take capital to \(0\) on \(x_t=\beta\) and \(4/3\) on \(x_t=1-\beta\);
+- on \(x_s=1-a\), the second query should leave capital \(4/3\) unchanged.
 
-P4-S049 should seek a source-specific bridge only if it is genuinely positive and finite.
+Do not assume this is valid merely from the terminal payoff. Check nonnegativity, fairness at each query, computability, query order, and compatibility with the adaptive scan transcript.
 
-### 7. Test locally self-consistent fourth corners
+If valid, record the exact theorem:
 
-If the false fourth corner is locally Case B rather than divergence-only, determine whether the P4-S041 pairwise status law or finite-difference cycle structure gives a useful square consequence.
+> a single finite pair refutation discovered before either raw coordinate is read gives a deterministic multiplicative gain \(4/3\) on the actual source, without predicting either individual bit and without any trapped-epoch premise.
 
-A useful consequence must do more than rename the status. For example:
+This would be a square-specific hedge, not a return to generic raw-martingale compilation.
 
-- force a common A role in both old-hole rows;
-- produce a finite pair elimination in another role;
-- give a zero-stake legal handoff;
-- or prove that the B corner can be incorporated into a new CHU certificate.
+### 2. Separate three square resources
 
-If none follows, record an exact counterexample or combinatorial obstruction.
+Keep distinct:
 
-Do not reopen generic 14-pattern enumeration unless it is needed to settle this square-specific question.
+1. **pair exclusion** — one finite refutation rules out one of four raw pairs;
+2. **bit prediction** — requires either positive row/column elimination, positive orientation information, or the P4-S049 trapped-column theorem;
+3. **pair hedge** — if valid, may exploit pair exclusion without deciding either bit.
 
-### 8. Positive-information prediction theorem
+Do not silently replace one by another.
 
-Retain the P4-S047 rule:
+A result at the pair-hedge level may be enough for one-hole destruction even when no individual raw bit is positively predicted.
+
+### 3. Make the no-event transcript globally one-hole
+
+If both \(s\) and \(t\) are left unread while searching for a square refutation, an infinite no-event wait is illegal.
+
+Any live pair-hedge protocol must therefore prove one-hole legality on every complete transcript.
+
+A canonical architecture to test is:
+
+- keep the current old sentinel \(s\) open;
+- reserve one future \(t\) for a finite computable tenure;
+- symmetrically dovetail square refutations while both remain unread;
+- if a refutation appears, execute the verified two-bit hedge and consume both \(s\) and \(t\), then start a fresh epoch;
+- if no refutation appears by timeout, consume \(t\) at zero stake and retain only \(s\) as the old hole;
+- move to another future reservation.
+
+Prove totality, no-repeat, fair-coin preservation and the at-most-one-permanent-hole property.
+
+Do not argue legality merely from finite simulation computability.
+
+### 4. Combine old-branch and square exits
+
+The old P4-S047 global-refutation scan already has a positive exit:
 
 \[
-\text{finite refutation of one completion}
+\text{finite refutation of one old completion}
 \Longrightarrow
-\text{that completion is impossible}.
+\text{correct prediction of }s.
 \]
 
-Extend it only through finite square logic.
+The square may offer a second positive exit:
 
-In particular, prove any genuine row/column elimination theorem explicitly.
+\[
+\text{finite pair refutation while }s,t\text{ unread}
+\Longrightarrow
+\text{two-bit hedge gain}
+\]
 
-Do not use:
+if Section 1 validates.
 
-- divergence;
-- failure to discover a rejection;
-- semantic non-totality;
-- or “one branch looks slower”
+Build the exact combined epoch if useful:
 
-as a bit prediction.
+- old-branch refutation may close \(s\) with a correct all-in wager;
+- square refutation may close \(s,t\) with the pair hedge;
+- timeout of \(t\) must not close \(s\);
+- complete no-event behavior must still omit only \(s\).
 
-### 9. Effective square escape theorem
+Determine whether repeated combined exits can yield one computable destroying scan.
 
-A major positive target is a theorem of the form:
+### 5. Positive escrow/orientation logic
 
-> if every reached old-hole node admits a total computable one-hole-safe procedure which finds a future square with a finite column elimination of the wrong future bit and a legal fallback/handoff, then one computable infinite CHU usable path exists.
+If the pair hedge fails or is insufficient, classify the smallest additional **positive** events which orient a stored pair refutation.
 
-Make every effectivity condition explicit.
+For a stored refutation of \((a,\beta)\), test exact combinations such as:
 
-A square may be semantically good but unusable if discovering its second refutation requires keeping two holes open forever.
+- a second refutation in the same future column;
+- a second refutation in the same old row;
+- a later positive old-branch refutation establishing that old value \(a\) is actual;
+- a later positive old-branch refutation establishing that \(a\) is false;
+- a second square refutation in another row/column.
 
-Do not infer a path from semantic abundance of good squares, c.e. individual refutations, or finite branching.
+State precisely what each finite combination predicts.
 
-### 10. Necessary pattern under hypothetical \(X\in OH\)
+Do not use the eventual absence of an old-branch refutation to orient the stored event.
 
-If no escape theorem is obtained, sharpen the obstruction under hypothetical
+Also address freshness: a certificate about \(t\) is useless for a wager on \(t\) if \(t\) has already been consumed while waiting for orientation.
+
+### 6. Effective square-refutation capture
+
+Assuming a valid pair hedge, define a **captured square event** to mean a finite pair refutation discovered before either active pair coordinate is consumed.
+
+Prove the strongest exact statement available of the form:
+
+> if one total computable globally one-hole-safe square policy captures infinitely many finite pair refutations, then \(X\notin OH\).
+
+This theorem should no longer require semantic knowledge that the old epoch is trapped if the hedge itself is generic.
+
+Then ask what the committed source supplies.
+
+Do not infer infinite capture from:
+
+- infinitely many semantic Case-A blocks;
+- c.e. existence of individual finite refutations;
+- finite use;
+- the P4-S044 value horizon;
+- or increasing tenure lengths.
+
+The P4-S044/P4-S045 certificate-time obstruction remains live unless a new square-specific mechanism defeats it.
+
+### 7. Revisit actual A only through capture
+
+P4-S049 showed:
+
+\[
+\text{actual }A_j
+\Longrightarrow
+\text{a finite pair refutation exists}.
+\]
+
+P4-S050 should ask the stronger operational question:
+
+\[
+\boxed{
+\text{Can a computable one-hole policy arrange to discover infinitely many such A-refutations while the relevant two raw bits are still unread?}
+}
+\]
+
+Do not return to generic A/B/C recurrence or same-block cost. Use the established costs and horizons only as inputs to the square-capture problem.
+
+If a fixed future role or a finite role family is enough, prove the exact selector/capture theorem.
+
+If not, state the timing obstruction algorithm-relatively.
+
+### 8. Necessary obstruction under hypothetical \(X\in OH\)
+
+If no infinite capture theorem is obtained, sharpen the necessary source-side pattern under
 
 \[
 X\in OH.
 \]
 
-A useful statement would specify exactly how every legal computable square-attempt can be trapped. Possible forms:
+A useful result would say that every computable combined old/square policy eventually reaches a persistent old sentinel at which:
 
-- the fourth corner eventually becomes a partial fixed point;
-- one square row remains free of paired finite refutation;
-- every computably selected future A square lacks the second column elimination;
-- a recurrent partial-fixed-point star blocks all canonical square exits.
+- no old-branch refutation ever appears; and
+- only finitely many transient future reservations catch a square refutation before timeout.
 
-Keep the quantifier order algorithm-relative unless a semantic statement about all future blocks is proved.
+If stronger conclusions follow, prove the quantifier order explicitly.
 
-One permanently trapped square can defeat one computable strategy; do not upgrade that to infinitely many semantically bad blocks without proof.
+Do not upgrade algorithm-relative failure into:
 
-### 11. Structural countermodel only if it strengthens Family R
+- semantic absence of future A blocks;
+- infinitely many no-refutation squares;
+- a global noncomputable timing domination theorem;
+- or \(X\in OH\) itself.
 
-Do not merely repeat P4-S048 Family R.
+### 9. Structural countermodel only against a concrete activation theorem
 
-A new model is useful only if it proves a sharper non-implication, for example:
+Do not repeat the P4-S049 full-star model merely to show that refutations can be absent.
 
-- all four square corners except the actual target are global partial fixed points in a controlled pattern;
-- the fourth-corner star also satisfies a proposed square-local dependency condition;
-- every finite square test in a specified computable family is trapped;
-- or locally self-consistent fourth corners defeat a candidate role-switch theorem.
+A new structural model is useful only if it defeats a concrete proposed activation mechanism, for example:
 
-Keep any such model explicitly structural unless its target is the committed computably random source.
+- every finite pair refutation exists but appears after a prescribed computable reservation tenure;
+- a prescribed computable family of pair-hedge policies captures only finitely many events;
+- positive escrow events occur but always after the target bit has been consumed;
+- or the combined old/square race can be trapped while all local square algebra remains intact.
 
-### 12. Source-side guard
+Keep any such model explicitly structural unless it uses the committed computably random source.
 
-An actual computable CHU path proves only
+Remember the P4-S045 guard: diagonalizing a prescribed computable family on a computable target does not automatically yield a universal actual-source obstruction.
+
+### 10. Computable-randomness contradiction only from a real fair strategy
+
+If the two-bit forbidden-pair hedge is valid, it is itself a raw computable martingale gain mechanism.
+
+Use it only when the scan can discover the forbidden pair before querying the two wagered bits and when the entire scan is globally total/no-repeat/one-hole.
+
+Do not claim a computable-randomness contradiction from semantic pair exclusion which is not effectively available before the wager.
+
+If the proposed hedge is invalid, record the exact fairness or adaptivity failure.
+
+### 11. Source-side guard
+
+An actual computable one-hole scan with unbounded capital proves only
 
 \[
 X\notin OH,
@@ -405,7 +420,7 @@ X\notin OH,
 
 eliminating this recoded source as an OH non-invariance witness.
 
-Failure to construct such a path does not prove
+Failure to construct such a scan does not prove
 
 \[
 X\in OH.
@@ -419,19 +434,19 @@ Preserve
 R_2\subseteq OH^{iso}\subseteq OH
 \]
 
-and state the separation status exactly.
+and state separation status exactly.
 
-### 13. Required session outcome
+### 12. Required session outcome
 
 The output should be one of:
 
-- a finite row/column square-refutation theorem yielding a legal old-bit or future-bit prediction and a usable CHU transition;
-- a source-specific theorem forcing the fourth corner to be finitely refuted under an exact positive hypothesis available on the committed source;
-- a square-local cycle/closure theorem that materially strengthens the P4-S048 finite role kernel;
-- an effective square-escape theorem yielding an infinite computable CHU path and hence \(X\notin OH\);
-- a theorem that hypothetical \(X\in OH\) forces a specified algorithm-relative partial-fixed-point square/star obstruction;
-- a sharper structural countermodel showing that even a proposed square-local bridge fails;
-- a direct computable-randomness contradiction only if a genuinely positive finite square event predicts a raw bit;
+- a verified forbidden-pair two-bit hedge theorem and a globally legal square-exit protocol;
+- an effective square-capture theorem yielding infinitely many guaranteed pair-hedge gains and hence \(X\notin OH\);
+- a positive escrow/orientation theorem converting finitely many square/old-branch refutations into a legal bit prediction or guaranteed capital gain;
+- a combined old-branch/square escape theorem;
+- a theorem that hypothetical \(X\in OH\) forces a sharper algorithm-relative square-refutation timing obstruction against every computable combined policy;
+- a structural countermodel defeating a concrete proposed activation/capture theorem;
+- a direct computable-randomness contradiction only from a fully verified fair finite square strategy;
 - or, only if it follows directly, an actual proof \(X\in OH\).
 
 The sustained question remains
