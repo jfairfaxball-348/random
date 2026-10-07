@@ -685,3 +685,20 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S042**, localize radius-one divergence into, or prove it can remain remote from, the three block equations. Do not return to the frozen bankroll line, backward-price normalization, ordinary raw-martingale compilation or ambiguity mass.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Mathematics checkpoint — P4-S042 (not a gate review)
+
+P4-S042 localizes the information carried by a raw-radius-one divergent companion without overclaiming local divergence. If \(M^{Z_i}(n)\uparrow\) while the target computation \(M^Y(n)\) halts, the finite target trace must query the changed support \(S_i\). Following only these finite target-trace contacts yields a support lasso: it can terminate in finite local refutation, local divergence, or a correct local dependency cycle.
+
+The cycle arm is genuine. An explicit computable syntactically self-avoiding finite-use countermodel has remote divergence in all three raw directions while its local status vector is \((A_0,B_1,B_2)\). Hence remote partiality can coexist with complete P4-S040 local decisiveness, and minimal use supplies no well-founded localization descent.
+
+The source-side consequence is stronger in a different direction. If the actual recoded source \(X\) were in \(OH\), local Case C could not occur only finitely often: after a finite cutoff P4-S040 could be restarted on wholly decisive blocks and would destroy \(X\). Therefore \(X\in OH\) forces arbitrarily late local Case-C block-direction pairs, and some fixed raw direction is Case C on infinitely many blocks.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance or \(R_2\subsetneq OH\) theorem is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S043**, attack recurrent fixed-direction local Case C and test whether visible A/B directions can be harvested asynchronously without waiting for the recurrent divergent direction.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
