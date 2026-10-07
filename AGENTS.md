@@ -580,3 +580,31 @@ with (R_2=OH) unresolved.
 Next: P4-S038 on persistent-frontier claim retirement and effective backward-price stabilization. The P4-S015–P4-S031 bankroll sequence remains frozen.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Mathematics checkpoint — P4-S038 (not a gate review)
+
+P4-S038 continues the sustained one-hole normalization programme.
+
+After the wtt value-use frontier of a recoded P4-S011 sentinel is exhausted, its source-value dependence is completely fixed but its retirement can remain only c.e. The half-stake backward price is exactly a one-jump vector:
+\[
+(1,1)\longrightarrow(3/2,1/2)\ \text{or}\ (1/2,3/2).
+\]
+
+For a fixed positive jump, effective deadlines, eventual-constancy/Cauchy moduli, exact limit prices and a semidecision of permanent nonretirement all collapse to deciding whether that jump ever occurs. The actual recoded P4-S011 family cannot have that uniform resource, and its absolute persistent-savings prices cannot have a uniform computable Cauchy modulus, or P4-S037 would contradict the settled \(X\in CR\).
+
+There is nevertheless a new positive compiler condition. If unresolved fractional stakes satisfy a computable finite multiplicative uncertainty budget
+\[
+\prod_{e<n}(1+r_e)\le K,
+\]
+the worst possible orientation can be prepaid. This gives a total computable raw supermartingale and hence a martingale cover even when retirement is only c.e. For the pure correct-prediction sentinel mechanism the bound is sharp: the same product is exactly the target capital growth, so stake decay cannot separate virtual success from unresolved positive hedge cost.
+
+The inclusions remain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR,
+\]
+with \(R_2=OH\) unresolved.
+
+Next: P4-S039 should stop trying to compile the actual witness into an ordinary raw martingale and instead test direct same-source raw one-hole simulation under the three-bit recoding. The P4-S015–P4-S031 bankroll sequence remains frozen.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
