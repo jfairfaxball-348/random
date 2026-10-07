@@ -682,3 +682,43 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S047**, current-hole-uniform future A certification and outside-support collision.
+
+
+## P4-S047 — current-hole branching and old-row-gated nonuniformity
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 751ce6dbf35c2ea4e34e02280e31ddeaab8871d1
+
+Scope: current-hole-uniform future A certification.
+
+Results:
+- formalized the two finite old-hole completions \(X^{[0]},X^{[1]}\);
+- computed
+  \[
+  \operatorname{Safe}(0)=\varnothing,\quad
+  \operatorname{Safe}(1)=\{u_0\},\quad
+  \operatorname{Safe}(2)=\{u_1\};
+  \]
+- proved finite rejection traces avoiding old hole-dependent rows are automatically current-hole-uniform;
+- defined two-branch future fixedness and proved it restores the P4-S046 automatic \(A^{-1}e_r\) rejections in both branches;
+- retained conditional local costs \(A_0:0\), \(A_1:\le1\), \(A_2:\le1\);
+- separated target-block access from old-hole branch sensitivity;
+- built a sharp finite-use self-avoiding structural \(0^\omega\) old-row-gated family using \(ACB,CAC,CCA\);
+- showed every current-role/future-role pair can have visible low-cost A on the target but no current-hole-uniform finite certificate;
+- therefore ruled out any role-only CHU transition theorem from the retained abstract hypotheses;
+- showed pointwise finite use does not force infinitely many future A witnesses outside the current-hole collision set;
+- showed branch nonuniformity alone does not predict the current bit;
+- retained the path theorem: an infinite computable CHU usable path would imply \(X\notin OH\);
+- obtained no such path and did not decide \(X\in OH\).
+
+Records:
+- phase4/P4-S047_MATHEMATICS.md
+- phase4/P4-S047_VALIDATION.md
+- phase4/P4-S047_CLOSE.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S048**, persistent old-hole sensitivity and the finite-refutation versus divergence-only branch dichotomy for future A computations on the actual committed source.
