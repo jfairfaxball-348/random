@@ -929,3 +929,27 @@ No \(X\in OH\) is established. No OH non-invariance or \(R_2\subsetneq OH\) conc
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
 
 Record: phase4/P4-S038_MATHEMATICS.md.
+
+## D-0061 — replace finite-rank simulation by the c.e. local-code completion target
+
+Session: P4-S039
+Date: 2026-10-07
+Type: Phase-4 mathematics theorem-selection refinement
+
+Decision/result: the direct three-bit source-side analysis separates exact virtual transcript simulation from same-source vulnerability.
+
+With one omitted raw coordinate, the virtual block is an affine rank-one state \(u=a+hAe_i\). Exact simulation of a unit virtual sentinel requires \(2,2,3\) raw unresolved coordinates and cannot be migrated to another block through one raw hole.
+
+However the three actual P4-S011 autoreduction equations define a local c.e. consistency code \(C_B\) with minimum Hamming distance at least two. For the displayed matrix every such code fixes at least one raw coordinate. Two visible consistent assignments already give a finite coordinate certificate.
+
+For a preselected raw target, the exact alternatives are finite rejection, a second self-consistent raw endpoint, or divergence-only failure of the alternate endpoint. The first gives a raw self-avoiding predictor. The latter two isolate the remaining one-bit circular / c.e.-singleton-completion obstruction.
+
+A positive theorem is retained: for the displayed matrix, and more generally every raw-hyperplane-coding invertible three-bit matrix, local sibling totality of the 24 finite perturbation computations yields a total raw one-hole destroyer on the same source.
+
+Decision for P4-S040: attack online c.e. local-code completion and raw-adjacent companions under a preselected raw sentinel. Test whether the Case-B/Case-C arms can be bypassed while preserving a global one-hole scan; otherwise prove a precise stall invariant.
+
+No actual raw destroyer for \(X\) is established and no \(X\in OH\) is established. No OH non-invariance or \(R_2\subsetneq OH\) conclusion is made. \(OH^{iso}\) remains the comparison class. The frozen P4-S015–P4-S031 bankroll sequence and the P4-S038 ordinary backward-price route remain closed as default directions.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
+
+Record: phase4/P4-S039_MATHEMATICS.md.
