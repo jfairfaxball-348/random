@@ -52,7 +52,7 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S049 on the two-raw-bit square isolated by P4-S048: compare the actual target, the false old partial neighbour, a future raw-adjacent A perturbation, and the combined old-plus-future perturbation; test whether the committed source forces any positive finite square constraint yielding branch refutation, old-bit prediction, or effective CHU escape.",
+  "next_transition": "Run P4-S049 on the two-raw-bit square / partial-fixed-point star isolated by P4-S048: compare Y, the false old partial neighbour Z, a future raw-adjacent A perturbation, and the combined old-plus-future perturbation; test whether the committed source forces any positive finite constraint yielding branch refutation, old-bit prediction, or effective CHU escape.",
   "recommended_next_session": "P4-S049",
   "active_blocker": null,
   "candidate_selected": true,
@@ -1506,11 +1506,12 @@
       "OH_noninvariance_witness": false,
       "R2_proper_subset_OH_claimed": false,
       "class_OH_iso_preserved": true,
-      "next_question": "two-raw-bit square: false old partial neighbour versus future raw-adjacent perturbation, and whether the actual source forces a positive finite square constraint",
+      "next_question": "two-raw-bit square / partial-fixed-point star: test whether the actual source imposes a positive finite constraint linking false-neighbour target fixedness to the doubly perturbed raw-adjacent branch",
       "next_session": "P4-S049",
       "blocker": null,
       "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
-      "novelty_claimed": false
+      "novelty_claimed": false,
+      "family_R_doubly_perturbed_partial_fixed_point_web": true
     }
   },
   "phase4_k2_moving_hole_mathematics": {
