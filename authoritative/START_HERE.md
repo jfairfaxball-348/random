@@ -626,3 +626,36 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S047**, branch future certificates over both values of the current open sentinel and determine whether one-hole-safe certification edges recur effectively.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Latest mathematics — P4-S047
+
+P4-S047 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+The current open raw sentinel now has an exact finite two-branch treatment. Its two raw completions induce safe current virtual rows
+\[
+\operatorname{Safe}(0)=\varnothing,\qquad
+\operatorname{Safe}(1)=\{u_0\},\qquad
+\operatorname{Safe}(2)=\{u_1\}.
+\]
+A future finite A-certificate whose traces avoid the hole-dependent old rows is automatically uniform over both old-hole hypotheses.
+
+More generally, if the future target-coordinate computations are target-correct under **both** old-hole completions, self-avoidance restores the P4-S046 automatic unit-flip rejections in both branches. The future local costs can then remain
+\[
+A_0:0,\qquad A_1:\le1,\qquad A_2:\le1.
+\]
+
+This branch stability is not forced by target correctness. A sharp structural \(0^\omega\) family gates every future local computation through one old hole-dependent virtual row. It works for every current raw role and every future A role, retains visible \(ACB,CAC,CCA\) A witnesses and the P4-S046 local costs on the target branch, but makes the alternate old-hole branch diverge. Hence no role-only current-hole-uniform transition matrix or automatic collision-escape recurrence follows from finite use and self-avoidance.
+
+Branch nonuniformity is not itself a prediction of the current sentinel because both \(h\)-branches are counterfactual simulations. A finite refutation of one current completion would be stronger.
+
+An infinite computable path of current-hole-uniform usable edges would still give \(X\notin OH\), but no such path is obtained. No \(X\in OH\) theorem is obtained either.
+
+Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S048**, persistent old-hole sensitivity on the actual source, with emphasis on whether finite branch disagreement exposes the current bit and whether only divergence-only sensitivity can survive indefinitely.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
