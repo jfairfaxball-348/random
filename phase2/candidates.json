@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S042",
+  "last_updated_session": "P4-S043",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S042",
-      "record_path": "phase4/P4-S042_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S043",
+      "record_path": "phase4/P4-S043_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -437,6 +437,54 @@
           "class_OH_iso_preserved": true,
           "next_question": "recurrent fixed-direction local Case C, asynchronous finite-family raw scans, and whether OH survival forces recurrent triple Case C",
           "next_session": "P4-S043",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_eleventh_step_result": {
+          "session": "P4-S043",
+          "result": "ASYNCHRONOUS_ONE_ROLE_EXTRACTION_REMOVES_ALL_THREE_SYNCHRONIZATION_BUT_RECURRENT_NONTRIPLE_CASE_C_REDUCES_TO_ONLINE_SELECTOR_AND_FRESH_BLOCK_REACHABILITY",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "exact_local_status_triples": 14,
+          "pairwise_status_law_complete_for_local_finite_tables": true,
+          "fixed_C0_patterns": [
+            "CAA",
+            "CAC",
+            "CCA",
+            "CCC"
+          ],
+          "fixed_C1_patterns": [
+            "ACA",
+            "ACB",
+            "ACC",
+            "CCA",
+            "CCC"
+          ],
+          "fixed_C2_patterns": [
+            "AAC",
+            "ABC",
+            "ACC",
+            "CAC",
+            "CCC"
+          ],
+          "asynchronous_one_role_extraction": true,
+          "all_three_status_synchronization_required": false,
+          "selected_case_C_absorbing_for_wait_architecture": true,
+          "total_abandonment_returns_to_exhaustive_k1": true,
+          "ambient_raw_block_recurrence_implies_scan_reachable_recurrence": false,
+          "finite_wait_family_structural_countermodel": true,
+          "countermodel_target": "0^omega",
+          "countermodel_is_randomness_witness": false,
+          "recurrent_triple_case_C_forced": false,
+          "p4_s041_shared_triple_C_divergences_activated": false,
+          "actual_raw_one_hole_destroyer_constructed": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "online role selection and fresh-block reachability under the actual wtt use footprint, including whether a computable fresh-lane selector or transient multi-sentinel race can hit infinitely many nontriple Case-A witnesses",
+          "next_session": "P4-S044",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
@@ -1498,8 +1546,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S043",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: exploit the recurrent fixed-direction local Case-C obstruction forced by any surviving X in OH; classify recurrent A/B/C patterns under the pairwise raw-adjacent laws and test finite-family/asynchronous raw one-hole scans that progress through visible A/B directions without waiting for the recurrent C direction, aiming either to force recurrent triple Case C or to destroy X.",
+  "recommended_next_session": "P4-S044",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack the online selector / fresh-block reachability obstruction exposed by P4-S043. Keep asynchronous own-role A/B closure, formalize the finite raw support footprint and first-completely-fresh-block map, and test whether the actual wtt use structure yields a computable fresh-lane/role selector hitting infinitely many nontriple Case-A witnesses; otherwise isolate an exact selector obstruction. Do not reopen the frozen bankroll, backward-price, ordinary raw-martingale, ambiguity-mass or general radius-one-totalization routes.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
