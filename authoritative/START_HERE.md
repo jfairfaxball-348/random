@@ -514,3 +514,22 @@ with \(R_2=OH\) unresolved.
 Next: **P4-S042**, localize radius-one divergence into the three local block equations or prove that it can remain remote while local raw-adjacent decisiveness survives.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Latest mathematics — P4-S042
+
+P4-S042 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+A radius-one companion divergence is now known to have a finite positive attachment to the changed block: the halting target computation must query the changed support. Iterating only these target-trace contacts yields a finite-support lasso. The lasso can hit a finite local refutation, hit a local divergent equation, or close into the already-classified correct dependency cycles.
+
+The last possibility is real. A fully computable finite-use self-avoiding countermodel has remote divergence in every raw direction while the local statuses are \((A_0,B_1,B_2)\). Thus remote partiality itself is harmless to P4-S040 whenever local A/B decisiveness is present. Minimal-use selection does not force a descent to the local block.
+
+The surviving source-side obstruction must therefore recur. If \(X\in OH\), then for arbitrarily late raw blocks some direction is local Case C; by pigeonhole one fixed direction is Case C infinitely often. A one-off radius-one, remote, or even local Case-C witness is not enough to support \(X\in OH\).
+
+No source-side separation is proved. The inclusions remain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S043**, study recurrent fixed-direction Case C, first asking whether infinitely many nontriple-C blocks can still be harvested by a finite asynchronous family of raw one-hole scans, which would force recurrent triple Case C on any surviving \(X\in OH\).
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
