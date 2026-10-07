@@ -1186,3 +1186,31 @@ X\in OH
 At that trap every defined equation is correct; only divergence can hide the false completion.
 
 This sharpens, rather than retracts, the earlier guard: **mere CHU nonuniformity** does not expose the old bit, but an actual finite equation refuting one old-hole completion does.
+
+## P4-S048 — partial fixedness splits canonical future A certification into two independent kernels
+
+Date: 2026-10-07
+Decision type: Phase-4 mathematics checkpoint
+Status: **VALIDATED**
+
+At an unresolved P4-S047 global-refutation epoch, the false raw-radius-one completion \(Z\) is a partial fixed point. Therefore future target equations have only three source-side types: trace-safe, trace-sensitive but value-fixed, or divergence-sensitive. A divergence-sensitive target trace must contact the old changed support.
+
+Decision: sharpen the P4-S042 support lasso. Under partial fixedness the finite-refutation arm disappears; after first old-support contact the walk reaches either old-support divergence or a correct-halting dependency cycle.
+
+Decision: adopt the canonical false-neighbour role lists
+\[
+F_0=\{q_0,q_1,q_2\},\qquad
+F_1=\{q_0\},\qquad
+F_2=\{q_1\}.
+\]
+These are exactly the target equations needed for the P4-S046 cost-\(0,1,1\) automatic unit-flip traces.
+
+Decision: keep the false-branch raw-adjacent rejection as a separate finite kernel. It lives on the doubly perturbed oracle and is not controlled by partial fixedness of \(Z\).
+
+Decision: retain both P4-S048 structural families. Family F makes one listed equation diverge recurrently through one fixed old row while the false raw-adjacent rejection survives. Family R makes \(Z\) a total fixed point while every false raw-adjacent future candidate diverges; each such doubly perturbed oracle is itself a global partial fixed point. Hence partial fixedness, even total fixedness of \(Z\), does not force CHU escape.
+
+Decision: an actual total computable canonical partial-neighbour escape operator would yield an infinite computable CHU path and \(X\notin OH\). Under hypothetical \(X\in OH\), only the algorithm-relative contrapositive is retained.
+
+Next: **P4-S049**, analyze the two-raw-bit square / partial-fixed-point star and test whether the actual committed source forces a positive finite relation between the false-neighbour target equations and the doubly perturbed raw-adjacent branch.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
