@@ -512,7 +512,7 @@ It first exposes the other two raw coordinates of \(B\). Thereafter, while withh
 
 If all 24 computations halt, \(C_B\) is now exactly known. By the raw-hyperplane property, it fixes at least one raw coordinate. If it fixes coordinate \(i\), the scan records the fixed bit as a full prediction; otherwise it records zero stake. It then queries its sentinel and starts a new fresh block.
 
-The three scans can be synchronized on the target: outside the current block they use the same filler order and the candidate simulations depend on the same outside virtual data. After a successful epoch each has consumed all three raw coordinates of the current block, so they can choose the same next completely fresh block.
+The three scans can be synchronized on the target: outside the current block they use the same filler order and the candidate simulations depend on the same outside virtual data. After a successful epoch each has consumed all three raw coordinates of the current block and exactly the same outside-block filler prefix. The next target block is chosen as the first completely fresh block above that common queried prefix. Filler enumeration always resumes from the least fresh coordinate outside the designated sentinel. Hence the three target runs remain synchronized, and if every epoch triggers then the common queried prefix tends to infinity, so every raw coordinate is eventually consumed.
 
 If local sibling totality fails on a sibling source, the scan does not cease producing output. It simply continues enumerating every raw coordinate other than its current sentinel. Hence any nontriggering transcript omits exactly that one sentinel. Every \(S^i\) is therefore an everywhere-total computable adaptive no-repeat one-hole scan.
 
