@@ -1955,3 +1955,45 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: **P4-S045**, certificate-time selector thickness for the actual computably random wtt-autoreducible source.
+
+## P4-S045 — moving-reservation selector thickness and prescribed countable-family diagonalization
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 55b203879c3c4ab6cfa88cc32f6dee6dc57d9259
+
+Scope: source-specific certificate-time selector thickness after the P4-S044 finite source-value horizon.
+
+Results:
+- verified live main at the exact P4-S044 outgoing tip and confirmed P4-S045 was unused;
+- read P4-S001 through P4-S044, selected CAND-01 authority, the post-P4-S031 pivot, and the required special-focus records;
+- formalized faithful moving-reservation selectors as globally one-hole scans;
+- separated ambient A sets, reservation streams and event-time-selected target subsequences;
+- defined exact event-time selector thickness and proved it yields a raw one-hole destroyer;
+- proved C-free A-cofinite lanes and finite possible-index coverage with certificate-time domination are sufficient thickness forms;
+- showed bounded gaps, positive density, bare finite-union lane concentration and recurrence on computable subsequences are not sufficient by themselves;
+- proved the certificate clock is future-blind once the P4-S044 value horizon is closed;
+- obtained no direct computable-randomness contradiction from systematic delayed A certificates;
+- strengthened the structural countermodel from every prescribed finite family to every member of any prescribed uniformly computable countable family of faithful moving-reservation selector schemes;
+- preserved computable target \(0^\omega\), \(CCA/CAC\) only, no triple C, visible A and genuine \(h(b)=2b+2\);
+- proved no universal computable-target version can retain infinitely many visible A witnesses, because post-construction A certificates can be enumerated and converted into a new finite-window selector;
+- isolated the committed-source gap as live acquisition of prospective A evidence while preserving future-target freshness;
+- isolated the recurrent-\(C_0\) two-selector failure as role alternation + certificate delay + global one-hole fallback, without support consumption;
+- showed \(ACB/ABC\) B-certificate timing gives no generic control of the \(A_0\) clock;
+- did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S045_MATHEMATICS.md
+- phase4/P4-S045_VALIDATION.md
+- phase4/P4-S045_CLOSE.md
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: **P4-S046**, future A-certificate access cost and one-hole-compatible pre-certification for the actual committed autoreduction.
