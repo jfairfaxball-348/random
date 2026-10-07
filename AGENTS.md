@@ -744,3 +744,26 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S045**, test certificate-time selector thickness using source-specific information from the actual computably random wtt-autoreducible \(Y\), rather than the already-settled value horizon.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Mathematics checkpoint — P4-S045 (not a gate review)
+
+P4-S045 formalizes the moving-reservation architecture left by P4-S044. A faithful selector chooses its raw role before local status is known, keeps the current sentinel until its own A/B event, cycles through transient fresh future-block reservations, and freezes exactly the reservation active when the positive certificate appears. On a no-event continuation every transient reservation is consumed, so only the current sentinel remains as the permanent hole.
+
+The exact useful source property is **event-time selector thickness**: one computable faithful selector must complete infinitely many epochs and select Case A infinitely often. A C-free computable reservation lane on which A is cofinite is sufficient. Finite possible-index coverage coupled to certificate-time domination is also sufficient. Bounded gaps, positive density, finite-union lane concentration without clock control, and recurrence only along computable subsequences are not.
+
+After the P4-S044 value horizon is closed, the certificate clock is future-blind: for each finite simulation time its state is determined by already exposed finite source data and internal computation, not by bits in later reservation blocks. Therefore systematic delay alone supplies no computable prediction of an unread future bit. Target correctness, self-avoidance, finite use and computable randomness do not by themselves provide a machine-presentation-independent runtime modulus.
+
+The structural obstruction strengthens substantially. Every member of any **prescribed uniformly computable countable family** of faithful moving-reservation selector schemes can be trapped by one computable finite-use self-avoiding model on \(0^\omega\), using only \(CCA/CAC\), no triple C, visible A, and the genuine horizon \(h(b)=2b+2\).
+
+That diagonalization cannot be universal on a computable target. After the model is built, finite Case-A certificates are c.e.; a new computable selector can enumerate increasing certified A targets and use their computable target-certificate times to reserve each next block only for a finite known window. Thus a computable-target model with infinitely many visible A witnesses cannot defeat every computable selector.
+
+This isolates the actual-source gap: on the noncomputable \(X\), prospective A certificates require **live acquisition of finite source values**, which may consume or indefinitely protect the very future coordinates needed for a raw one-hole target.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance or \(R_2\subsetneq OH\) theorem is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S046**, attack future A-certificate access cost. Determine whether the actual committed autoreduction provides infinitely many prospective A certificates whose evidence can be acquired while preserving the future raw target, or isolate the exact one-hole certification-access obstruction.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
