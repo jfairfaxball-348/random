@@ -1,14 +1,14 @@
-Next Session Prompt — P4-S048
+# Next Session Prompt — P4-S049
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S048. Treat committed repository state as authoritative. Pin live main at the exact P4-S047 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S048 is unique, and read P4-S001 through P4-S047, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md through phase4/P4-S047_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S027 and P4-S039 through P4-S047.
+Run only Phase 4 — Mathematics session P4-S049. Treat committed repository state as authoritative. Pin live main at the exact P4-S048 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S049 is unique, and read P4-S001 through P4-S048, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md through phase4/P4-S048_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S027 and P4-S039 through P4-S048.
 
 ## Sustained Phase-4 target — one-hole normalization after coded recoding
 
-Freeze all validated mathematics through P4-S047.
+Freeze all validated mathematics through P4-S048.
 
-Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, ambiguity mass, general radius-one totalization, one-off remote-divergence localization, local A/B/C enumeration, generic certificate-time bounding, same-block freshness-cost enumeration, or a generic reverse-dependency-closure theorem unless the theorem below genuinely requires it.
+Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, ambiguity mass, general radius-one totalization, generic reverse-dependency closure, local A/B/C enumeration detached from the square below, certificate-time bounding, or same-block freshness-cost enumeration unless the bounded theorem below genuinely requires it.
 
 Retain
 
@@ -39,14 +39,10 @@ X=H^{-1}(Y).
 Retain
 
 \[
-X\in CR,\qquad H(X)=Y\notin OH.
+X\in CR,\qquad H(X)=Y\notin OH,
 \]
 
-The missing source-side statement remains whether
-
-\[
-X\in OH.
-\]
+with \(X\in OH\) unresolved.
 
 Use the repeated block recoding
 
@@ -69,78 +65,72 @@ V(b)=\max_{r<3}U(3b+r),
 h(b)=\max\{b+1,\lceil V(b)/3\rceil\}.
 \]
 
-## P4-S047 boundary to retain
+## P4-S047/P4-S048 boundary to retain
 
-For a current protected raw sentinel
+At a current raw sentinel
 
 \[
 s=(b,i),
 \]
 
-there are exactly two finite counterfactual source completions
+the two finite old-hole completions can be simulated without querying the actual sentinel.
+
+If the canonical P4-S047 global-refutation scan reaches an unresolved epoch, then mathematically the false completion
 
 \[
-X^{[0]},\qquad X^{[1]},
+Z=Y^{[\bar h]}
 \]
 
-obtained by supplying the unread raw bit as the finite hypothesis \(h=0,1\). Neither simulation is allowed to query the actual sentinel.
-
-The old hole changes exactly the current virtual rows in
+is a global partial fixed point:
 
 \[
-\operatorname{Dep}(i)=\{r:A_{ri}=1\}.
+M^Z(n)\downarrow\Longrightarrow M^Z(n)=Z(n)\in\{0,1\}
+\qquad(\forall n).
 \]
 
-Hence
+No live construction may use the actual \(h_*=X(s)\) or \(\bar h=1-h_*\) as a program parameter.
+
+For future target equations \(n\notin B_b\), retain the exact trichotomy:
+
+1. trace-safe;
+2. trace-sensitive but value-fixed;
+3. divergence-sensitive.
+
+A divergence-sensitive target trace must contact the old changed support
 
 \[
-\operatorname{Safe}(0)=\varnothing,
-\qquad
-\operatorname{Safe}(1)=\{u_0\},
-\qquad
-\operatorname{Safe}(2)=\{u_1\}.
+S_i=\{q_{b,r}:r\in\operatorname{Dep}(i)\}.
 \]
 
-Retain the distinction between:
+Under partial fixedness, the P4-S042 support lasso has only two surviving arms:
 
 \[
-\text{syntactically old-hole-independent support}
+\boxed{\text{old-support divergence}}
 \]
 
-and
+or
 
 \[
-\text{support touching a hole-dependent row but still uniform after explicit two-branch simulation}.
+\boxed{\text{correct-halting old-support dependency cycle}}.
 \]
 
-A future finite slice certificate is **current-hole-uniform** (CHU) only when both hole hypotheses give finite compatible rejection families with the same future sentinel prediction, without a live query of the old sentinel or future sentinel, and with a total computable one-hole fallback.
+Finite local refutation on \(Z\) is no longer a surviving arm.
 
-Retain the three effectivity levels:
-
-- semantic CHU edge existence;
-- finite positive CHU discovery;
-- globally legal computable outgoing-edge selection;
-- infinite computable CHU usable path.
-
-Do not infer the last two from the first two.
-
-### P4-S047 positive criteria
-
-Retain the safe-trace theorem:
-
-> if all finite rejection traces used by a future certificate avoid the old hole-dependent rows, the same traces work under both hole hypotheses.
-
-Retain **two-branch future fixedness**. For a future block \(B_c\), if
+For the canonical P4-S046 low-cost future A certificates, retain the exact false-neighbour target-equation lists
 
 \[
-M^{Y^{[h]}}(q_{c,r})\downarrow=Y(q_{c,r})
-\qquad
-(h=0,1,\ r<3),
+F_0(c)=\{q_{c,0},q_{c,1},q_{c,2}\},
 \]
 
-then self-avoidance restores the P4-S046 automatic unit-flip rejections in both branches.
+\[
+F_1(c)=\{q_{c,0}\},
+\]
 
-Thus, under compatible two-branch raw-adjacent rejection,
+\[
+F_2(c)=\{q_{c,1}\}.
+\]
+
+They correspond to
 
 \[
 A_0:\kappa=0,
@@ -150,319 +140,260 @@ A_1:\kappa\le1\text{ using future }x_2,
 A_2:\kappa\le1\text{ using future }x_1.
 \]
 
-The future \(A_1/A_2\) cross-read itself is not an old-hole dependence; only the surrounding computation traces can create one.
+A halt of \(M^Z(q)\) for \(q\in F_j(c)\) gives the canonical false-branch automatic unit-flip rejection by self-avoidance and partial fixedness.
 
-### P4-S047 structural negative theorem
-
-For every current raw role \(i\) and every future A role \(j\), a computable finite-use syntactically self-avoiding structural model on \(0^\omega\) can query one old hole-dependent virtual row \(p\in\operatorname{Dep}(i)\) before every future local computation:
-
-- on the true \(h=0\) branch, run an \(ACB\), \(CAC\), or \(CCA\) block-local gadget;
-- on the alternate \(h=1\) branch, diverge at the old-row gate.
-
-This preserves visible \(A_0\), \(A_1\), or \(A_2\) and the P4-S046 local cost on the target branch, while destroying every corresponding CHU certificate on the alternate branch.
-
-Therefore the retained abstract hypotheses do **not** force:
-
-- a nonempty role-only CHU transition matrix;
-- infinitely many future A candidates outside the old-hole collision set;
-- two-branch fixedness;
-- or a computable CHU path.
-
-The model is structural only. Its target is computable and it says nothing directly about the committed computably random source.
-
-### P4-S047 global branch-refutation theorem
-
-This is the new source-side sharpening.
-
-For a current completion \(h\), define \(Y^{[h]}=H(X^{[h]})\) for finite simulation.
-
-If for some input \(n\),
+Keep this separate from the false-branch raw-adjacent rejection
 
 \[
-M^{Y^{[h]}}(n)\downarrow
+R_j^Z(c),
 \]
 
-with a nonbinary output or an output different from
+which is computed on the oracle with **both** the false old raw completion and the future raw-adjacent perturbation.
 
-\[
-Y^{[h]}(n),
-\]
+P4-S048 structural sharpness must remain visible:
 
-then completion \(h\) cannot be the actual source completion, because the actual branch is total and target-correct. Hence the current raw sentinel is predicted as \(1-h\).
+- Family F: one fixed old changed row can make one listed equation in \(F_j(c)\) diverge recurrently while \(R_j^Z(c)\) remains finite and positive;
+- Family R: \(Z\) can be a total global fixed point while every false-branch raw-adjacent future candidate is divergence-only;
+- moreover, in Family R every such doubly perturbed future candidate oracle is itself a global partial fixed point, giving an infinite partial-fixed-point star around \(Z\).
 
-This finite branch refutation is positively discoverable without reading the sentinel.
+Therefore neither partial fixedness nor total fixedness of \(Z\) alone forces CHU escape.
 
-Retain the canonical global-refutation one-hole scan \(S_{\rm ref}\):
-
-- choose a fresh current raw sentinel;
-- dovetail all \(M^{Y^{[h]}}(n)\) for both \(h\in\{0,1\}\) and all inputs \(n\);
-- answer old-block oracle questions from the finite hole hypothesis;
-- acquire all other raw support live;
-- run a least-fresh zero-stake sweep of every other raw coordinate;
-- when one completion receives a finite wrong/nonbinary equation, bet correctly on the other hole value, close the sentinel and restart.
-
-If no refutation ever appears, the current sentinel is the unique permanent hole.
-
-Therefore
-
-\[
-X\in OH
-\Longrightarrow
-\text{the target run of }S_{\rm ref}\text{ eventually reaches an unresolved epoch}.
-\]
-
-At that epoch the false raw-radius-one completion is a **partial fixed point** of \(M\):
-
-\[
-M^Z(n)\downarrow
-\Longrightarrow
-M^Z(n)=Z(n)\in\{0,1\}
-\qquad\text{for every }n.
-\]
-
-The false branch may still diverge.
-
-This is the crucial new boundary:
-
-\[
-\boxed{
-\text{finite wrong-halt old-hole sensitivity is harvestable;}
-\quad
-\text{divergence-only partial-fixed-point sensitivity survives.}
-}
-\]
-
-Mere CHU failure still does not expose the bit. Only finite elimination of one current completion does.
-
-An infinite computable CHU usable path still gives
+An infinite computable CHU usable path still implies
 
 \[
 X\notin OH.
 \]
 
-P4-S047 produced no such path and did not prove \(X\in OH\).
+P4-S048 produced no such path and did not prove \(X\in OH\).
 
-## P4-S048 bounded task — persistent partial-fixed-point old-hole sensitivity
+## P4-S049 bounded task — the two-raw-bit square / partial-fixed-point star
 
-Attack only the surviving case where the false raw-radius-one completion at a current sentinel is a partial fixed point of \(M\), so every finite halt is correct and old-hole sensitivity can be hidden only by divergence.
+Attack only the new finite object exposed by P4-S048.
 
-The new question is:
+For a current old raw sentinel \(s=(b,i)\) and a prospective future raw target \(t=(c,j)\), \(c\ne b\), there are four raw pair completions. In mathematical analysis, index them by old and future bits:
+
+\[
+W_{a,\beta}
+=
+H(X\text{ with }X(s)=a,\ X(t)=\beta),
+\qquad
+a,\beta\in\{0,1\},
+\]
+
+where all other raw coordinates are the target values.
+
+Equivalently, after naming the actual pair only in the proof, the square consists of:
+
+- \(Y\): actual old bit, actual future bit;
+- \(Z\): false old bit, actual future bit;
+- \(Y_j\): actual old bit, flipped future raw bit;
+- \(Z_j\): false old bit, flipped future raw bit.
+
+The horizontal future flip changes the future virtual block by \(c_j\). The vertical old flip changes only the old block by \(c_i\).
+
+Do not use the actual old or future bit as a live program parameter. Any live construction must run finite hypotheses symmetrically.
+
+The central question is:
 
 \[
 \boxed{
-\text{Can divergence-only sensitivity of one false old-hole completion remain essential for infinitely many later A certificates on the actual source?}
+\text{Does the actual committed source force any positive finite constraint on the fourth corner }Z_j
+\text{ beyond P4-S048's structural countermodels?}
 }
 \]
 
-Do not fall back to a generic theorem about all reverse dependencies. Keep the analysis tied to future A-certificate computations and the one currently open raw coordinate.
+### 1. Formalize square refutation as pair elimination
 
-### 1. Formalize the false partial neighbour
-
-At an unresolved \(S_{\rm ref}\) epoch with sentinel \(s=(b,i)\), let \(h_*=X(s)\) be used only in the mathematical analysis and let
+For a finite raw pair hypothesis \((a,\beta)\), a finite wrong/nonbinary equation
 
 \[
-\bar h=1-h_*.
+M^{W_{a,\beta}}(n)\downarrow\ne W_{a,\beta}(n)
 \]
 
-Write
+positively eliminates that pair, because the actual pair is total and target-correct.
 
-\[
-Z=Y^{[\bar h]}.
-\]
+Prove the exact finite elimination logic:
 
-Then \(Z\) differs from \(Y\) only in the old virtual block by \(c_i\), and P4-S047 gives
+- if both future-bit values \(\beta=0,1\) are eliminated for the same old value \(a\), then the old sentinel is predicted as \(1-a\);
+- if both old values \(a=0,1\) are eliminated for the same future value \(\beta\), then the future sentinel is predicted as \(1-\beta\).
 
-\[
-M^Z(n)\downarrow\Longrightarrow M^Z(n)=Z(n)
-\]
+Keep this at the level of finite positive refutations. Do not use absence of a halt.
 
-for every \(n\).
+Relate the second arm explicitly to CHU: an actual-branch \(A_j\) rejection eliminates the wrong future value in the actual-old row; a false-branch raw-adjacent rejection eliminates the same wrong future value in the false-old row. Together they are exactly a column elimination predicting the future raw sentinel independently of the old hole.
 
-Do not use \(h_*\) or \(\bar h\) as a program parameter in a live construction.
+### 2. Do not create an illegal permanent two-hole scan
+
+The square has two hypothesized raw coordinates, but a legal one-hole scan may not leave both permanently unread on a nonresolving branch.
 
 Distinguish:
 
-- target branch \(Y\), total and correct;
-- false branch \(Z\), partial but correct wherever defined;
-- finite simulations which run both \(h=0,1\) symmetrically.
+- finite counterfactual simulation of two raw hypotheses;
+- transient reservation of a future coordinate while the old hole remains open;
+- a globally legal total fallback which eventually consumes or closes one coordinate if no finite square event appears;
+- an illegal construction whose no-event transcript omits both raw coordinates forever.
 
-### 2. Classify future equations by branch sensitivity
+If a square-refutation search is proposed, prove its one-hole legality on every complete transcript.
 
-For every future input \(n\) outside the old block, \(Y(n)=Z(n)\).
+Do not infer legality merely because each individual finite simulation is computable.
 
-Classify the pair
+### 3. Classify the fourth corner \(Z_j\)
+
+For a future actual \(A_j\) candidate, the \(Y_j\) corner has a finite rejection.
+
+Classify \(Z_j\) at the level relevant to the canonical future slice:
+
+1. **finite-refuted fourth corner** — the desired false-branch raw-adjacent rejection appears;
+2. **locally self-consistent fourth corner** — all required local equations halt with the \(Z_j\)-values;
+3. **divergence-only fourth corner** — no finite rejection appears because one or more required computations diverge.
+
+If useful, refine this to global behavior:
 
 \[
-M^Y(n),\qquad M^Z(n)
+M^{Z_j}(n)\downarrow\Longrightarrow M^{Z_j}(n)=Z_j(n)
 \]
 
-into:
+when no global wrong equation occurs.
 
-1. **trace-safe** — the target trace never queries a changed old row, hence the \(Z\)-trace is identical and halts correctly;
-2. **trace-sensitive but value-fixed** — both halt correctly with the same output, though the finite traces differ;
-3. **divergence-sensitive** — \(M^Y(n)\) halts correctly but \(M^Z(n)\uparrow\).
+Do not equate local non-refutation with global partial fixedness unless the universal equation condition is actually proved.
 
-Finite wrong-output sensitivity is absent because \(Z\) is a partial fixed point.
+### 4. Exploit paired partial fixedness only where justified
 
-Prove the exact finite target-trace contact statement for case 3: the halting target trace must query at least one old row changed by \(c_i\).
+Suppose both \(Z\) and \(Z_j\) are partial fixed points and differ only by future raw direction \(j\).
 
-If useful, define the first changed-row contact.
+Ask what self-avoidance forces on computations where **both** oracles halt.
 
-### 3. Define the persistent sensitivity set relevant to future A
+If the changed future-block equations all halt correctly on both corners, the P4-S041 finite-difference dependency-cycle theorem may apply on the support of \(c_j\).
 
-For current sentinel \(s\), define a source-specific set such as
+Determine precisely what survives when one or more of those equations diverge.
 
-\[
-\operatorname{Sens}_A(s)
-\]
+Possible useful outcomes include:
 
-consisting only of prospective future A-certificate computations whose required equations are divergence-sensitive under the false partial neighbour.
+- a forced two-cycle for \(c_1=011\) or \(c_2=101\) under explicit two-corner totality;
+- a two-cycle-with-tail or three-cycle for \(c_0=111\);
+- a finite first-contact lasso into the future changed support;
+- or a proof that partiality can again remain remote and no closure stronger than P4-S048 follows.
 
-Keep this narrower than all inputs of \(M\).
+Do not apply the P4-S041 cycle theorem unless the required computations halt on both corners.
 
-Separate:
+### 5. Test the partial-fixed-point star on the actual source
 
-- syntactic fan-out: a target trace queries a changed old row;
-- semantic sensitivity: the false branch actually changes trace/output/domain;
-- divergence sensitivity: target halts but false branch diverges;
-- certificate-essential sensitivity: that divergence is what prevents a CHU future A certificate.
+P4-S048 Family R shows structurally that one total false neighbour \(Z\) can have infinitely many future one-raw-flip partial-fixed neighbours \(Z_j\).
 
-Do not identify these notions.
+The actual-source question is whether the committed computably random wtt-autoreducible \(Y\) permits the analogous recurrent star around a finite variant \(Z\) without creating positive finite information.
 
-### 4. Test whether partial fixedness gives new self-avoidance structure
+Test only concrete mechanisms such as:
 
-The false neighbour satisfies every equation on which \(M^Z\) halts.
+- two pair eliminations predicting the old or future bit;
+- a computable finite family of square tests which guarantees one paired elimination;
+- a truth-table/autoreduction collapse from a genuinely sufficient totality pattern;
+- a reusable CHU edge from a finite square certificate;
+- or a finite dependency pattern which can be converted into one of the above.
 
-Ask whether combining this global partial fixed-point property with syntactic self-avoidance forces any new finite dependency cycle, lasso, or local closure around the old changed support.
+Do not claim computable randomness forbids the star merely because all its vertices are finite perturbations or because many computations diverge.
 
-The P4-S041 dependency-cycle theorem applies when both relevant computations halt with differing correct values. Here the critical branch may diverge.
+### 6. Keep target-equation lists and fourth-corner rejection separate
 
-Determine precisely what survives:
-
-- does target-trace first contact plus partial fixedness force a finite chain back to the old block;
-- can every such chain close into a correct local cycle and leave divergence remote;
-- can divergence propagate through infinitely many future A computations from one old changed row;
-- or does self-avoidance prevent a single old raw bit from being an essential divergence gate indefinitely?
-
-Do not assume a well-founded descent merely from the wtt use.
-
-### 5. Revisit future \(A_0,A_1,A_2\) only through the partial neighbour
-
-Do not redo P4-S046 local cost.
-
-For a future \(A_0\), ask whether its four wrong-\(x_0\) rejection traces can fail CHU solely because one or more required \(Z\)-branch computations diverge.
-
-For \(A_1\) and \(A_2\), retain
+For roles \(j=0,1,2\), retain
 
 \[
-A_1:\text{ read future }x_2,
+F_0=\{q_0,q_1,q_2\},
 \qquad
-A_2:\text{ read future }x_1.
+F_1=\{q_0\},
+\qquad
+F_2=\{q_1\}.
 \]
 
-Determine whether the automatic \(110/101\) rejection traces can be divergence-sensitive under \(Z\), and whether the raw-adjacent A rejection can remain divergence-sensitive independently.
+A complete canonical CHU edge needs:
 
-A high-value theorem would isolate a finite list of divergence-sensitive equations whose totality under \(Z\) is equivalent to CHU certification for each role.
+1. the listed false-neighbour target equations to halt;
+2. the fourth corner \(Z_j\) to receive the required finite raw-adjacent rejection;
+3. the already retained legal support/fallback/handoff conditions.
 
-### 6. Exploit the fact that \(Z\) is correct wherever defined
+P4-S048 proves 1 does not force 2 and 2 does not force 1 in structural models.
 
-The old-row-gated P4-S047 structural model has exactly this shape: on the false branch the gated future computations diverge rather than halt wrongly.
+P4-S049 should seek a source-specific bridge only if it is genuinely positive and finite.
 
-Ask what additional constraints the actual committed source adds beyond that structural model.
+### 7. Test locally self-consistent fourth corners
 
-In particular test whether a partial fixed point differing from the computably random target by one raw bit can have infinitely many later divergence-sensitive future A equations without creating:
+If the false fourth corner is locally Case B rather than divergence-only, determine whether the P4-S041 pairwise status law or finite-difference cycle structure gives a useful square consequence.
 
-- a finite refutation elsewhere;
-- a computable prediction of the old bit;
-- a forbidden truth-table autoreduction normal form;
-- or a CHU escape route.
+A useful consequence must do more than rename the status. For example:
 
-Do not claim computable randomness forbids such a partial neighbour unless a concrete prediction/test is produced.
+- force a common A role in both old-hole rows;
+- produce a finite pair elimination in another role;
+- give a zero-stake legal handoff;
+- or prove that the B corner can be incorporated into a new CHU certificate.
 
-### 7. A source-side prediction theorem only from positive information
+If none follows, record an exact counterexample or combinatorial obstruction.
 
-If some finite event distinguishes the actual and false completions, verify whether it really eliminates one completion.
+Do not reopen generic 14-pattern enumeration unless it is needed to settle this square-specific question.
 
-A useful form is:
+### 8. Positive-information prediction theorem
+
+Retain the P4-S047 rule:
 
 \[
-\text{finite branch refutation}
+\text{finite refutation of one completion}
 \Longrightarrow
-\text{current-bit prediction}.
+\text{that completion is impossible}.
 \]
 
-This is already settled by P4-S047.
+Extend it only through finite square logic.
 
-Do not treat the absence of a halt on \(Z\) as positive information. Divergence is not c.e.
+In particular, prove any genuine row/column elimination theorem explicitly.
 
-If persistent divergence can only be detected negatively, state explicitly why no direct source martingale follows.
+Do not use:
 
-### 8. Test an effective escape theorem
+- divergence;
+- failure to discover a rejection;
+- semantic non-totality;
+- or “one branch looks slower”
 
-A major positive target is:
+as a bit prediction.
 
-> if every current false partial neighbour has only finitely many certificate-essential divergence-sensitive future A candidates, or if those candidates are computably escapable, then one computable CHU selector/path exists.
+### 9. Effective square escape theorem
 
-Make “computably escapable” exact. It must give a live one-hole-safe procedure, not merely a semantic cofinite set.
+A major positive target is a theorem of the form:
 
-Possible forms:
+> if every reached old-hole node admits a total computable one-hole-safe procedure which finds a future square with a finite column elimination of the wrong future bit and a legal fallback/handoff, then one computable infinite CHU usable path exists.
 
-- a computable bound beyond which required future A traces are branch-fixed;
-- a computable search producing one safe future A block while preserving the old and future sentinels;
-- a finite positive certificate that a candidate future block is not divergence-sensitive;
-- a source-specific totality theorem on the required false-branch computations.
+Make every effectivity condition explicit.
 
-Do not infer effective escape from finiteness alone.
+A square may be semantically good but unusable if discovering its second refutation requires keeping two holes open forever.
 
-### 9. Test persistent sensitivity as a necessary OH pattern
+Do not infer a path from semantic abundance of good squares, c.e. individual refutations, or finite branching.
 
-If no escape theorem is obtained, sharpen the one-way source-side statement.
+### 10. Necessary pattern under hypothetical \(X\in OH\)
 
-A useful theorem would say that hypothetical
+If no escape theorem is obtained, sharpen the obstruction under hypothetical
 
 \[
-X\in OH
+X\in OH.
 \]
 
-forces, along every computable branch-refutation/CHU attempt, eventual capture by a false raw-radius-one partial fixed point whose certificate-essential divergence sensitivity persists in a specified way.
+A useful statement would specify exactly how every legal computable square-attempt can be trapped. Possible forms:
 
-Possible levels:
+- the fourth corner eventually becomes a partial fixed point;
+- one square row remains free of paired finite refutation;
+- every computably selected future A square lacks the second column elimination;
+- a recurrent partial-fixed-point star blocks all canonical square exits.
 
-- infinitely many future A candidates are divergence-sensitive;
-- every computably proposed CHU future target is divergence-sensitive;
-- one fixed old changed virtual row remains essential for infinitely many future A traces;
-- or a recurrent finite dependency pattern carries the divergence.
+Keep the quantifier order algorithm-relative unless a semantic statement about all future blocks is proved.
 
-Keep the quantifier order exact. Do not replace “every computable attempt is eventually blocked” by a semantic statement about all future blocks unless proved.
+One permanently trapped square can defeat one computable strategy; do not upgrade that to infinitely many semantically bad blocks without proof.
 
-### 10. Structural countermodel only if it sharpens P4-S047
+### 11. Structural countermodel only if it strengthens Family R
 
-Do not merely repeat the old-row gate from P4-S047.
+Do not merely repeat P4-S048 Family R.
 
-A new structural model is useful only if it adds a genuinely sharper feature, for example:
+A new model is useful only if it proves a sharper non-implication, for example:
 
-- the false raw-radius-one neighbour is a global partial fixed point;
-- divergence-sensitive future A equations occur in an explicitly recurrent pattern;
-- every finite target trace contacts the old changed support in a controlled way;
-- and the model still preserves recurrent nontriple C plus P4-S046 local cost.
+- all four square corners except the actual target are global partial fixed points in a controlled pattern;
+- the fourth-corner star also satisfies a proposed square-local dependency condition;
+- every finite square test in a specified computable family is trapped;
+- or locally self-consistent fourth corners defeat a candidate role-switch theorem.
 
-Keep any such model explicitly structural unless the target is computably random.
-
-### 11. Certification graph target
-
-Refine the CHU usable graph only insofar as the false partial neighbour supplies a new edge criterion.
-
-Prove explicitly if obtained:
-
-\[
-\text{effective escape from partial-neighbour divergence at every reached node}
-\Longrightarrow
-\text{one computable infinite CHU usable path}
-\Longrightarrow
-X\notin OH.
-\]
-
-Do not infer a computable path from a source-relative infinite graph, semantic cofinality, finite branching, or c.e. edge existence alone.
+Keep any such model explicitly structural unless its target is the committed computably random source.
 
 ### 12. Source-side guard
 
@@ -480,18 +411,27 @@ Failure to construct such a path does not prove
 X\in OH.
 \]
 
-Conversely, any theorem derived under hypothetical \(X\in OH\) is a necessary obstruction, not a membership proof.
+A theorem derived under hypothetical \(X\in OH\) is only a necessary obstruction.
+
+Preserve
+
+\[
+R_2\subseteq OH^{iso}\subseteq OH
+\]
+
+and state the separation status exactly.
 
 ### 13. Required session outcome
 
 The output should be one of:
 
-- an effective escape theorem from false partial-neighbour divergence yielding a computable CHU path and hence \(X\notin OH\);
-- a theorem that each false partial neighbour has only finitely many certificate-essential divergence-sensitive future A computations, with enough effectivity to select beyond them;
-- a role-specific theorem reducing CHU failure to a finite explicit list of false-branch divergences;
-- a theorem that hypothetical \(X\in OH\) forces a specified persistent divergence-only old-hole sensitivity pattern;
-- a new structural countermodel showing that a global partial fixed-point false neighbour can gate recurrent future A certificates without finite branch refutation;
-- a direct computable-randomness contradiction only if a genuinely positive finite event predicts the old hole;
+- a finite row/column square-refutation theorem yielding a legal old-bit or future-bit prediction and a usable CHU transition;
+- a source-specific theorem forcing the fourth corner to be finitely refuted under an exact positive hypothesis available on the committed source;
+- a square-local cycle/closure theorem that materially strengthens the P4-S048 finite role kernel;
+- an effective square-escape theorem yielding an infinite computable CHU path and hence \(X\notin OH\);
+- a theorem that hypothetical \(X\in OH\) forces a specified algorithm-relative partial-fixed-point square/star obstruction;
+- a sharper structural countermodel showing that even a proposed square-local bridge fails;
+- a direct computable-randomness contradiction only if a genuinely positive finite square event predicts a raw bit;
 - or, only if it follows directly, an actual proof \(X\in OH\).
 
 The sustained question remains
