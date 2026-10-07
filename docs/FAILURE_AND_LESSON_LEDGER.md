@@ -1176,3 +1176,26 @@ Correct guard: do not infer \(X\in OH\) from the \(2,2,3\) exact-simulation cost
 Positive boundary: local sibling totality of the finite 24-computation block family makes the consistency code computable and yields a genuine same-source raw one-hole destroyer.
 
 Correct next move: study online extraction from the c.e. local code / raw-adjacent companion relation, not another raw-martingale pricing compiler.
+
+
+## P4-S040 lesson — positive pairs are visible, but divergence-only companions block online completion
+
+**Successful weakening:** full local sibling totality is unnecessary. It is enough that each raw-adjacent companion be positively decisive: either locally self-consistent or finitely refuted by one wrong/nonbinary halt. Under this condition three synchronized raw one-hole scans yield a same-source destroyer.
+
+**Why:** the P4-S039 minimum-distance-two local code law prevents all three raw-adjacent companions from being self-consistent. Thus every fully decisive block has at least one finite-rejection direction, and one fixed raw coordinate policy wins infinitely often by pigeonhole.
+
+**Failed handoff route:** use the positive two-solution certificate in Case B to nominate a fresh same-block sentinel.
+
+**Why it fails:** a raw-adjacent pair differs exactly at the current raw sentinel. Every raw coordinate it certifies is one of the other two coordinates, already read before classification. The certificate is therefore retroactive, not prospective.
+
+**Global handoff guard:** while a current sentinel remains permanently unresolved, a globally one-hole scan must eventually query every other raw coordinate. A second prospective sentinel cannot also remain permanently reserved on that branch.
+
+**Sharp surviving obstruction:** Case C. Once the actual endpoint is positively accepted, an unresolved companion can still later be finitely rejected, later become accepted, or diverge forever. No finite stage certifies the divergence-only alternative.
+
+**Outside-equation lesson:** additional (M(n))-equations can produce more c.e. rejection witnesses, but the wtt use bound is forward per-input information. It does not make the reverse dependency set of all inputs that may inspect the changed block computably finite.
+
+**Guard:** failure of these online Case-C compilers does not prove (Xin OH). The actual P4-S011 machine is not known to satisfy raw-adjacent decisiveness, so no actual raw destroyer, OH non-invariance or (R_2subsetneq OH) conclusion is available.
+
+Next session: **P4-S041**, test finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual wtt autoreduction. Do not return to backward-price normalization, the frozen P4-S015–P4-S031 bankroll line, or ambiguity mass.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
