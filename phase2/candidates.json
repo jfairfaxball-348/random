@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S038",
+  "last_updated_session": "P4-S039",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S037",
-      "record_path": "phase4/P4-S037_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S039",
+      "record_path": "phase4/P4-S039_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -304,6 +304,46 @@
           "class_OH_iso_preserved": true,
           "next_question": "same-source raw one-hole simulation of c.e.-persistent coded claims under the displayed three-bit recoding",
           "next_session": "P4-S039",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_seventh_step_result": {
+          "session": "P4-S039",
+          "result": "ONE_RAW_HOLE_IS_AN_AFFINE_ONE_BIT_STATE_LOCAL_AUTOREduction_CODES_FIX_A_RAW_COORDINATE_LOCAL_SIBLING_TOTALITY_YIELDS_A_RAW_ONE_HOLE_DESTROYER_AND_CE_SINGLETON_COMPLETION_REMAINS",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "one_raw_hole_affine_state": "u = a + h A e_i",
+          "displayed_raw_flip_columns": [
+            "111",
+            "011",
+            "101"
+          ],
+          "exact_virtual_unit_raw_hole_costs": [
+            2,
+            2,
+            3
+          ],
+          "exact_cross_block_pivot_transport": false,
+          "local_M_consistency_code_minimum_distance": 2,
+          "displayed_matrix_every_local_consistency_code_fixes_some_raw_coordinate": true,
+          "two_distinct_local_solutions_give_finite_raw_coordinate_certificate": true,
+          "raw_hyperplane_matrix_criterion": "(111)^T A is a unit row and A^{-1}(111)^T != (111)^T",
+          "preselected_raw_target_trichotomy": [
+            "finite_rejection",
+            "second_self_consistent_endpoint",
+            "divergence_only_singleton_completion"
+          ],
+          "finite_rejection_yields_raw_self_avoiding_predictor": true,
+          "local_sibling_totality_sufficient_for_same_source_raw_one_hole_destruction": true,
+          "actual_p4_s011_local_sibling_totality_established": false,
+          "actual_raw_one_hole_destroyer_constructed": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "online c.e. local-code completion and raw-adjacent companion obstruction under a preselected raw sentinel",
+          "next_session": "P4-S040",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
