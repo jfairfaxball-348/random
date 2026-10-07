@@ -823,3 +823,8 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S048**, attack persistent old-hole sensitivity on the actual committed source, especially the distinction between finite wrong-halt branch refutation and divergence-only branch sensitivity.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+P4-S047 strengthening: finite branch refutation is directly harvestable. A total one-hole scan can dovetail every \(M\)-equation under both old-hole hypotheses while sweeping all other raw coordinates. Any wrong/nonbinary halt eliminates that hypothesis and yields a correct sentinel wager. Therefore hypothetical \(X\in OH\) forces the scan eventually to encounter a false raw-radius-one **partial fixed point** of \(M\), on which every halt is correct and only divergence can distinguish the false branch.
+
+P4-S048 should therefore study persistent divergence-only influence from such partial fixed-point neighbours, not arbitrary old-hole collision.
