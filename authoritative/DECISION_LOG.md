@@ -1041,3 +1041,20 @@ By finite pigeonhole, some fixed raw direction is Case C on infinitely many bloc
 Decision: keep the current source candidate alive only through the recurrent fixed-direction Case-C regime. P4-S043 should test whether nontriple recurrent Case-C blocks can still be exploited asynchronously, potentially sharpening the necessary obstruction to recurrent triple Case C.
 
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+## P4-S043 — asynchronous progress is local; the surviving obstruction is online selection/reachability
+
+Date: 2026-10-07
+Decision type: Phase-4 mathematics checkpoint
+Status: **VALIDATED**
+
+P4-S043 removes one artifact of P4-S040: a scan does not need all three raw-adjacent statuses to become visible before restarting. One selected role can close on its own A/B certificate and move to a fresh block. This is a strict positive extension of the raw one-hole extraction theorem.
+
+The fixed-C status patterns are now completely classified. The P4-S041 implications are the full local finite-table law, with exactly 14 realizable A/B/C triples. Every nontriple recurrent fixed-C block contains visible Case A.
+
+The programme does **not** infer recurrent triple Case C. The missing step is global and online: a computable role must be chosen before its positive status certificate appears, a selected C is absorbing, and the scan's support queries determine which blocks remain fresh. Ambient recurrence therefore does not imply scan-reachable recurrence.
+
+A guaranteed finite abandonment policy is rejected as a destroyer mechanism because it makes the scan exhaustive and returns to the k=1 preservation regime. A finite family of pure wait policies is also insufficient from the current abstract data: a computable structural countermodel on \(0^\omega\) can trap every prescribed member using only nontriple patterns.
+
+Decision: keep the current source candidate alive only through the online selector / fresh-block reachability problem. Run P4-S044 on the actual wtt use horizon and whether it supplies a finite fresh-lane or transient-race selector theorem.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
