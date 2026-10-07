@@ -722,3 +722,13 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S048**, persistent old-hole sensitivity and the finite-refutation versus divergence-only branch dichotomy for future A computations on the actual committed source.
+
+
+P4-S047 strengthening: the two-hole-hypothesis formalism also yields a canonical global-refutation scan. A finite wrong/nonbinary \(M\)-equation under one candidate old-hole completion eliminates that completion and predicts the current raw sentinel. Hence
+\[
+X\in OH\Longrightarrow
+\text{some reached false raw-radius-one completion is a partial fixed point of }M.
+\]
+The surviving sensitivity is therefore divergence-only: every defined equation on the false neighbour is correct.
+
+This sharpens P4-S048 to persistent partial-fixed-point old-hole sensitivity rather than arbitrary collision.
