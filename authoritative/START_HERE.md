@@ -432,3 +432,22 @@ No (X\in OH) is proved, so no OH non-invariance or (R_2\subsetneq OH) claim is m
 Next session: **P4-S038**, attack persistent-frontier retirement and the actual recoded P4-S011 price jump. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Latest mathematics — P4-S038
+
+P4-S038 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+The actual recoded P4-S011 persistent frontier is now classified exactly. Once its finite wtt value-use frontier is exposed, future filler values are irrelevant, but finite simulation may still reveal a binary halt later. The half-stake backward price stays at \((1,1)\) and can jump once to \((3/2,1/2)\) or its reversal.
+
+For a fixed positive jump, any computable stabilization modulus or exact limiting-price procedure decides the trigger/nontrigger event. The actual witness cannot admit that uniformly, and its absolute persistent-savings prices cannot have a computable Cauchy modulus, because P4-S037 would then produce a raw martingale contradicting \(X\in CR\).
+
+A new positive theorem avoids deciding retirement: a computable finite multiplicative uncertainty budget \(\prod(1+r_e)\le K\) prepays every possible orientation and yields a successful raw supermartingale/martingale cover whenever the persistent-savings virtual witness succeeds. No effective tail modulus is required.
+
+For pure all-correct sentinel gain this condition is sharp in the opposite direction: the target gain product and the minimal orientation-free hedge product are identical. Thus shrinking stakes cannot rescue the actual P4-S011 mechanism.
+
+No \(X\in OH\) is proved, so no OH non-invariance or \(R_2\subsetneq OH\) claim is made.
+
+Next session: **P4-S039**, attack direct same-source one-hole simulation of the persistent coded claims under the displayed three-bit recoding, beginning with the finite linear algebra of one raw hole per block. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
