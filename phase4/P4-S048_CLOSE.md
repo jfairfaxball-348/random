@@ -32,6 +32,7 @@ Scope: persistent partial-fixed-point old-hole sensitivity of future A-certifica
   - the false neighbour is a **total global fixed point**;
   - every canonical automatic unit-flip rejection survives;
   - every false-branch raw-adjacent future candidate nevertheless becomes divergence-only;
+  - each such doubly perturbed candidate oracle is itself a global partial fixed point, producing an infinite partial-fixed-point star around the false total fixed neighbour;
 - therefore proved that global partial fixedness, and even total fixedness of the false neighbour, does not force a CHU escape;
 - defined an exact canonical partial-neighbour escape operator and proved that one total computable such operator along all reached nodes yields an infinite computable CHU path and hence
   \[
@@ -66,7 +67,7 @@ for \(A_0,A_1,A_2\).
 
 Partial fixedness removes finite wrong-output sensitivity from the first kernel, but does not make its divergence positively decidable. It also gives no control over the second, doubly perturbed kernel.
 
-The next irreducible object is therefore the **two-raw-bit square** consisting of \(Y\), the false old partial neighbour \(Z\), the future raw-adjacent A candidate, and the same future perturbation applied to \(Z\).
+The next irreducible object is therefore the **two-raw-bit square / partial-fixed-point star** consisting of \(Y\), the false old partial neighbour \(Z\), the future raw-adjacent A candidate, and the same future perturbation applied to \(Z\). Family R shows that the fourth corner may itself be a partial fixed point for infinitely many future blocks.
 
 ## Records
 
