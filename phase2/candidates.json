@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S044",
+  "last_updated_session": "P4-S045",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,7 +94,7 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S044",
+      "last_reviewed_in": "P4-S045",
       "record_path": "phase4/P4-S044_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
@@ -513,6 +513,42 @@
           "class_OH_iso_preserved": true,
           "next_question": "certificate-time selector thickness under the actual computably random wtt source",
           "next_session": "P4-S045",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_thirteenth_step_result": {
+          "session": "P4-S045",
+          "result": "MOVING_RESERVATION_SELECTOR_THICKNESS_FORMALIZED_PRESCRIBED_COUNTABLE_FAMILIES_STRUCTURALLY_DIAGONALIZED_UNIVERSAL_COMPUTABLE_TARGET_EVASION_BLOCKED_BY_POST_CONSTRUCTION_A_ENUMERATION",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "faithful_moving_reservation_selector_formalized": true,
+          "event_time_selector_thickness_defined": true,
+          "c_free_A_cofinite_lane_sufficient": true,
+          "finite_possible_index_clock_domination_sufficient": true,
+          "bounded_gap_density_sufficient": false,
+          "computable_subsequence_recurrence_sufficient": false,
+          "future_blind_certificate_clock_after_value_closure": true,
+          "direct_CR_delay_prediction_obtained": false,
+          "prescribed_uniform_countable_selector_family_countermodel": true,
+          "countermodel_target": "0^omega",
+          "countermodel_patterns": [
+            "CCA",
+            "CAC"
+          ],
+          "universal_computable_target_selector_evasion": false,
+          "universal_obstruction": "finite A certificates are post-construction c.e. on a computable target and can be scheduled in known finite certificate windows",
+          "actual_source_distinction": "prospective A certificates require live acquisition of noncomputable finite source values and may destroy future-target freshness",
+          "recurrent_C0_two_selector_escape_forced": false,
+          "B_assisted_timing_coupling_forced": false,
+          "CR_compatibility_of_delayed_certificates": "UNRESOLVED",
+          "actual_raw_one_hole_destroyer_constructed": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "one-hole-compatible future A-certificate access and pre-certification for the actual committed autoreduction",
+          "next_session": "P4-S046",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
@@ -1574,8 +1610,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S044",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack the online selector / fresh-block reachability obstruction exposed by P4-S043. Keep asynchronous own-role A/B closure, formalize the finite raw support footprint and first-completely-fresh-block map, and test whether the actual wtt use structure yields a computable fresh-lane/role selector hitting infinitely many nontriple Case-A witnesses; otherwise isolate an exact selector obstruction. Do not reopen the frozen bankroll, backward-price, ordinary raw-martingale, ambiguity-mass or general radius-one-totalization routes.",
+  "recommended_next_session": "P4-S046",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack future Case-A certificate access cost for the actual recoded P4-S011 source. Determine whether prospective A evidence can be acquired without consuming or indefinitely protecting the future raw target, and whether such one-hole-compatible certification edges compose into an infinite selector. Do not return to generic certificate-time bounds, the frozen bankroll/backward-price routes, ordinary raw-martingale compilation, ambiguity mass, general radius-one totalization or local status enumeration.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
