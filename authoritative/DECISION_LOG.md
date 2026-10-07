@@ -1105,3 +1105,27 @@ Decision: the sustained source-side obstruction is now **live-source certificati
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
 
 Next: P4-S046, future A-certificate access cost.
+
+## P4-S046 — move from target-block access to current-hole-uniform certification
+
+Date: 2026-10-07
+
+Decision: adopt **slice certificate freshness cost** as the exact local measure for future Case-A evidence. Count only live raw coordinates inside the prospective target block; track outside raw support separately.
+
+Decision: retain the automatic self-avoidance theorem. For \(d_r=A^{-1}e_r\), the candidate differs from \(Y\) only at virtual input \(q_r\); syntactic self-avoidance therefore reuses the correct target computation as a finite rejection.
+
+Decision: record the sharp local bound
+\[
+A_0:\kappa=0,\qquad A_1:\kappa\le1,\qquad A_2:\kappa\le1.
+\]
+Do not continue treating two non-sentinel raw bits as intrinsically necessary for Case-A certification under this recoding.
+
+Decision: use raw \(011\) / virtual \(110\) as the exact remaining block-free obstruction for \(A_1/A_2\) in the finite positive slice-certificate system.
+
+Decision: retain the \(CAC/CCA\) exact-cost-one gadgets only as structural sharpness witnesses. Their computable target does not transfer selector failure to the committed source.
+
+Decision: do not identify block-free certification with global one-hole compatibility. A future certificate can still depend through outside support on the current open sentinel.
+
+Decision: move P4-S047 to **current-hole-uniform future A certification**: branch prospective evidence over both values of the current sentinel and test whether usable collision-free certification edges can be selected infinitely often.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
