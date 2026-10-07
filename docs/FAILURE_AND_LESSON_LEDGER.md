@@ -1395,3 +1395,46 @@ In \(ACB\) or \(ABC\), finite internal dummy delays can move the A0 wrong halt a
 The structural post-construction escape works because \(0^\omega\) supplies all finite source values off-line.
 
 **Lesson:** the next task should ask where prospective A evidence must be read on the noncomputable \(X\). A future target is useful only if its A certificate can be learned without consuming or indefinitely protecting the coordinates needed to keep that block fresh.
+
+## P4-S046 — certification-access failures and lessons
+
+### Failed assumption: a Case-A certificate intrinsically needs both non-sentinel raw bits
+
+For this recoding, self-avoidance supplies three automatic finite rejections \(A^{-1}e_r\). Combining them with the actual raw-adjacent A witness reduces every A certificate to same-block cost at most one.
+
+**Lesson:** distinguish finite hypothesis branching from live block access. The naive endpoint implementation can overstate the freshness cost.
+
+### Failed strengthening: every visible A can be certified without opening its block
+
+Roles 1 and 2 share one extra candidate: raw \(011\), virtual \(110\). If it is accepted or divergence-only, the wrong sentinel slice cannot be completely finitely rejected without one cross-role raw value.
+
+Explicit \(CAC/CCA\) local gadgets realize this exact cost-one case.
+
+**Lesson:** support-only A is not forced by finite use, self-avoidance, target correctness and recurrent visible A.
+
+### Failed route: the B arm supplies missing local information for \(A_0\)
+
+Theorem 2 already makes every \(A_0\) block-free.
+
+**Lesson:** \(ACB/ABC\) cannot improve the local information cost below zero. Any useful B-assisted theorem must act on outside-support compatibility or transition structure, not on missing target-block data.
+
+### Failed inference: block-free means usable while another sentinel is open
+
+A cost-zero future certificate may still query a virtual value whose raw support contains the current protected sentinel.
+
+**Lesson:** track two independent freshness objects: local target-block cost and collision with the already open hole.
+
+### Failed route: one-bit access itself contradicts computable randomness
+
+Knowing which coordinate must be read does not predict its value before the read.
+
+**Lesson:** access structure is dependency information, not a source martingale. A randomness contradiction needs an additional coupling to an unread bit.
+
+### New positive lesson
+
+The target-block information problem is now small:
+\[
+A_0:\kappa=0,\qquad A_1,A_2:\kappa\le1.
+\]
+
+The next obstruction is sharper: can future finite A evidence be made **uniform over both values of the current open sentinel** while preserving the future sentinel and a total one-hole fallback?
