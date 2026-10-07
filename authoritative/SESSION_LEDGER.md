@@ -1997,3 +1997,42 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: **P4-S046**, future A-certificate access cost and one-hole-compatible pre-certification for the actual committed autoreduction.
+
+## P4-S046 — one-bit future-A certification cost
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 99b628d62895fb3c98e7c31545b818580b0b884d
+
+Scope: live future-A certificate support and prospective-target freshness.
+
+Results:
+- verified live main at the exact P4-S045 outgoing checkpoint and confirmed P4-S046 was unique;
+- read P4-S001 through P4-S045, CAND-01 authority, the post-S031 pivot and required special-focus records;
+- formalized finite rejection support and same-block slice freshness cost;
+- computed \(A^{-1}e_0=110\), \(A^{-1}e_1=101\), \(A^{-1}e_2=111\);
+- proved these three candidates are automatically finitely rejected by target correctness plus syntactic self-avoidance;
+- proved \(A_0\) is block-free and \(A_1,A_2\) require at most one same-block raw bit;
+- isolated raw \(011\) / virtual \(110\) as the sole extra block-free obstruction for \(A_1/A_2\);
+- built block-local \(CAC/CCA\) structural gadgets with exact cost one;
+- showed same-block access is independent of the prior certificate-time obstruction;
+- showed B cannot lower the already-zero local cost of \(A_0\);
+- defined open-hole-safe future certification and isolated outside-support collision with the current sentinel;
+- defined usable certification edges and proved an infinite computable usable path would produce a raw one-hole destroyer;
+- obtained no such path and did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S046_MATHEMATICS.md
+- phase4/P4-S046_VALIDATION.md
+- phase4/P4-S046_CLOSE.md
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: **P4-S047**, current-hole-uniform future A certification and outside-support collision.
