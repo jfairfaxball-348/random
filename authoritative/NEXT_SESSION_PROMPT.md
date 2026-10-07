@@ -1,12 +1,12 @@
-# Next Session Prompt — P4-S041
+# Next Session Prompt — P4-S042
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S041. Treat committed repository state as authoritative. Pin live main at the exact P4-S040 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S041 is unique, and read P4-S001 through P4-S040, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, phase4/P4-S032_MATHEMATICS.md through phase4/P4-S040_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S039 and P4-S040.
+Run only Phase 4 — Mathematics session P4-S042. Treat committed repository state as authoritative. Pin live main at the exact P4-S041 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S042 is unique, and read P4-S001 through P4-S041, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, phase4/P4-S032_MATHEMATICS.md through phase4/P4-S041_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S039, P4-S040 and P4-S041.
 
 ## Sustained Phase-4 target — one-hole normalization after coded recoding
 
-Freeze all validated mathematics through P4-S040. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, or ambiguity mass unless the theorem below genuinely requires them.
+Freeze all validated mathematics through P4-S041. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, or ambiguity mass unless the theorem below genuinely requires them.
 
 Retain
 
@@ -49,12 +49,10 @@ A=
 \end{pmatrix},
 \]
 
-and inverse
+and columns
 
 \[
-x_0=u_0\oplus u_1\oplus u_2,\qquad
-x_1=u_0\oplus u_2,\qquad
-x_2=u_1\oplus u_2.
+c_0=111,\qquad c_1=011,\qquad c_2=101.
 \]
 
 Let \(Y\) be the settled P4-S011 computably random wtt-autoreducible source, \(M\) its committed syntactically self-avoiding wtt autoreduction, \(D\) its one-hole destroyer, and
@@ -71,208 +69,223 @@ X\in CR,\qquad H(X)=Y\notin OH.
 
 The missing source-side statement remains whether \(X\in OH\).
 
-## P4-S040 boundary to retain
+## P4-S041 boundary to retain
 
-P4-S040 weakens P4-S039 local sibling totality to **raw-adjacent decisiveness**.
+P4-S041 proves the finite-perturbation totality collapse:
 
-For a fresh block \(B\) and raw target direction \(i\), after the other two raw bits are read the two virtual endpoints differ by
+> If \(M\) halts on every input for every finite perturbation of \(Y\), then the computable wtt use bound makes every finite answer pattern below the use halt, so \(M\) compiles to a truth-table autoreduction of \(Y\).
 
-\[
-c_i=Ae_i,
-\]
+The retained P4-S011 source authority excludes computably random truth-table-autoreducibility. Therefore some finite perturbation of \(Y\) causes divergence.
 
-where
+Transporting finite perturbations through the invertible recoding defines the minimal raw divergence radius
 
 \[
-c_0=111,\qquad c_1=011,\qquad c_2=101.
+\rho=\min\{|F|:(\exists n)\ M^{Y^F}(n)\uparrow\}.
 \]
 
-The actual endpoint is eventually locally accepted by the three equations
+P4-S041 proves
 
 \[
-M^{Y[B\leftarrow v]}(q_r)\downarrow=v_r,\qquad r=0,1,2.
+\rho\ge2\Longrightarrow X\notin OH,
 \]
 
-The raw-adjacent companion is **decisive** when it is either:
+because totality of every single-raw-bit companion implies P4-S040 raw-adjacent decisiveness everywhere.
 
-- locally accepted by all three correct binary halts; or
-- finitely refuted by at least one wrong/nonbinary halt.
-
-Thus decisiveness excludes only divergence-only Case C.
-
-P4-S040 proves:
-
-1. if all three raw directions are decisive on every reached synchronized block, three total computable raw one-hole scans suffice;
-2. no rejection-time bound is required;
-3. the minimum-distance-two local code law forces at least one Case-A finite-rejection direction on every fully decisive block;
-4. by infinite pigeonhole one fixed scan receives infinitely many correct all-in wagers, hence
-   \[
-   X\notin OH
-   \]
-   under the decisiveness hypothesis;
-5. this is materially weaker than full 24-computation local sibling totality;
-6. Case B is positively visible but gives no prospective same-block handoff, because raw-adjacent endpoints differ only at the current sentinel and certify only already-read raw coordinates;
-7. a globally one-hole scan cannot keep a second prospective sentinel permanently unread while the current sentinel is also left permanently unresolved;
-8. Case C has no finite divergence certificate;
-9. additional outside \(M(n)\)-equations may supply more c.e. finite refutations, but the wtt use bound gives a finite forward oracle frontier for each fixed \(n\), not a computably finite reverse closure of all equations affected by the changed block;
-10. the committed P4-S011 authority does not establish raw-adjacent decisiveness for the actual \(M\).
-
-Therefore P4-S040 does **not** give an actual raw destroyer for \(X\), and it does not prove \(X\in OH\).
-
-## P4-S041 bounded task — finite-perturbation refutability and raw-radius-one partiality
-
-Attack only the new boundary: can divergence-only raw-adjacent companions be eliminated, finitely refuted, or proved unavoidable for the actual wtt-autoreduction mechanism?
-
-Do not return to ordinary raw-martingale compilation.
-
-### 1. Formalize the finite-perturbation fixed-point relation
-
-For any oracle \(Z\), distinguish carefully:
-
-- target correctness \(M^Y(n)\downarrow=Y(n)\);
-- local block consistency on the three \(q_r\);
-- global fixed-point behaviour
-  \[
-  M^Z(n)\downarrow=Z(n)\quad\text{for every }n;
-  \]
-- finite refutation by one wrong/nonbinary halt;
-- divergence-only failure.
-
-For a raw finite perturbation \(F\subseteq\omega\), write
+Therefore
 
 \[
-X^F=X\oplus\chi_F,\qquad
-Y^F=H(X^F).
+X\in OH\Longrightarrow\rho=1.
 \]
 
-Raw radius one means \(F=\{j\}\), so inside its block \(Y^F=Y\oplus Ae_i\).
+Do not reverse this implication.
 
-Do not conflate local acceptance with global fixed-pointhood.
+Raw-radius-one divergence does not by itself give P4-S040 Case C. It may occur only at an outside equation \(M(n)\), or a companion may have a divergent equation while another local equation already gives a finite wrong/nonbinary refutation.
 
-### 2. Prove the finite-perturbation totality collapse exactly
-
-Use the wtt use bound correctly.
-
-Test and, if valid, prove:
-
-> If the committed self-avoiding wtt functional \(M\) halts on every input for every oracle which differs from \(Y\) on only finitely many coordinates, then \(M\) induces a truth-table autoreduction of \(Y\).
-
-The intended compact finite-use argument is that, for a fixed input \(n\), every possible oracle-answer pattern below the computable use can be realized by a finite perturbation of \(Y\). Totality on all finite perturbations would therefore make the finite local truth table total.
-
-Check the exact retained authority about computably random truth-table autoreducibility before drawing the consequence.
-
-If the lemma holds, conclude only that **some** finite perturbation must expose partiality/divergence. Do not jump from this to radius-one divergence.
-
-### 3. Determine the minimal raw perturbation radius at which divergence is forced
-
-The P4-S040 theorem needs decisiveness only at raw radius one.
-
-Ask whether all one-raw-bit companions can be decisive even though divergence is unavoidable at some larger finite raw perturbation.
-
-Define a radius hierarchy only if it genuinely helps. Test:
-
-- whether raw-radius-one decisiveness is compatible with non-tt wtt autoreducibility;
-- whether the three-bit block basis makes radius-one decisiveness propagate to larger finite perturbations;
-- whether compositions of the three raw flip columns can force totality on every finite use pattern;
-- or whether divergence can be hidden entirely in perturbations involving two or more raw coordinates.
-
-A proof that radius-one decisiveness forces too much would identify a genuine obstruction to applying P4-S040 to the actual witness.
-
-A construction/normal-form argument showing radius-one decisiveness can coexist with necessary higher-radius divergence would keep the positive route open.
-
-### 4. Exploit the finite-difference dependency graph
-
-If both \(Y\) and a finite perturbation \(Z=Y\oplus\chi_S\) are global fixed points of the same self-avoiding \(M\), then for every changed coordinate \(n\in S\), the computations on \(Y\) and \(Z\) must obtain different outputs without querying \(n\).
-
-Test the exact consequence:
-
-- some queried coordinate in \(S\setminus\{n\}\) must influence the change;
-- hence the changed coordinates carry a finite directed dependency graph of minimum out-degree at least one;
-- therefore that graph contains a directed cycle.
-
-For the raw-adjacent supports
+P4-S041 also proves the finite-difference dependency-cycle theorem. For genuine fixed-point companions, every changed coordinate depends on another changed coordinate. The raw-adjacent supports satisfy:
 
 \[
-\operatorname{supp}(Ae_1)=\{q_1,q_2\},\qquad
-\operatorname{supp}(Ae_2)=\{q_0,q_2\},\qquad
-\operatorname{supp}(Ae_0)=\{q_0,q_1,q_2\},
+011:\ q_1\leftrightarrow q_2,
 \]
 
-classify the possible two-cycle / three-cycle patterns precisely.
+\[
+101:\ q_0\leftrightarrow q_2,
+\]
 
-Determine whether these finite cycle constraints create a new finite refutation certificate or merely characterize the genuine Case-B companions.
+while \(111\) has a two-cycle with a tail or an oriented three-cycle as its canonical first-difference graph.
 
-Do not silently assume that a computation which differs between two oracles must halt on both unless that has been established.
+These are positive Case-B structures, not finite Case-C certificates.
 
-### 5. Test target-equivalent wtt normal forms
+Finally, if A/B/C denote the P4-S040 local status of raw directions,
 
-The core constructive question is whether \(M\) can be replaced by another syntactically self-avoiding wtt functional \(M'\) such that:
+\[
+B_0\Rightarrow A_1,A_2,\qquad
+B_1\Rightarrow A_0,\qquad
+B_2\Rightarrow A_0.
+\]
 
-- \(M'^Y(n)=Y(n)\) for every \(n\);
-- a computable use bound is retained;
-- every raw-radius-one companion at the P4-S040 synchronized blocks is either a genuine accepted fixed-point candidate or has a finite wrong/nonbinary witness;
-- divergence is permitted elsewhere, so full truth-table totality is not imposed.
+Hence a block with no finite rejection is necessarily triple Case C, with shared local divergences at the pairwise single-difference equations. No finite stage certifies that triple-C outcome.
 
-Test concrete normal-form operations:
+## P4-S042 bounded task — localize raw-radius-one divergence
 
-- dovetail several target-correct self-avoiding computations and accept the first finite disagreement;
-- add redundant self-avoiding equations whose target values are forced but which may reject finite perturbations;
-- compose or duplicate local checks without querying the input coordinate;
-- use finite perturbation closure inside one wtt use window;
-- or prove that every such attempted totalization necessarily requires negative divergence information.
+Attack only the gap between “some equation diverges on a single-raw-bit companion” and “one of the three block equations is divergence-only Case C”.
 
-Any modification must be computable uniformly from the committed data. Do not use \(Y\) as a noncomputable parameter in the program.
+Do not return to general totalization or ordinary martingale pricing.
 
-### 6. Separate finite refutation from totalization
+### 1. Formalize remote versus local radius-one partiality
 
-A companion only needs **one** finite refutation witness.
+Fix one raw coordinate \(j=(B,i)\) and let
 
-Do not require all its computations to halt.
+\[
+Z=Y^{\{j\}}.
+\]
 
-Test whether partial functions can be extended just enough to create wrong-halt witnesses on the three structured raw-adjacent patterns while leaving other answer patterns divergent.
+Distinguish:
 
-If an abstract local extension is easy, identify the global uniformity obstruction: the compiler does not know which finite answer pattern belongs to the actual noncomputable \(Y\).
+- **local partiality:** \(M^Z(q_r)\uparrow\) for some \(q_r\in B\);
+- **remote partiality:** \(M^Z(n)\uparrow\) for some \(n\notin B\);
+- **local Case C:** at least one local block equation diverges and every local equation which halts is correct for \(Z\);
+- **decisive despite partiality:** some equation may diverge, but one local equation finitely refutes \(Z\), so P4-S040 still classifies the companion as Case A.
 
-This distinction is central to deciding whether P4-S040's condition is realistically weaker for the actual source, rather than only logically weaker as a local table property.
+Do not conflate these.
 
-### 7. Revisit outside equations only through finite witnesses
+### 2. Use the halting target trace of a divergent companion equation
 
-For a raw-adjacent companion, allow any outside input \(n\) whose \(M(n)\) computation can be simulated target-self-avoidingly.
+Suppose
 
-If one such computation halts incorrectly, that is a valid finite refutation.
+\[
+M^Z(n)\uparrow,\qquad M^Y(n)\downarrow=Y(n).
+\]
 
-But do not quantify over infinitely many outside equations and then claim completion.
+The target computation is finite and has a definite query trace.
 
-Test whether the finite-difference/cycle structure yields a computable **finite witness set** of outside inputs for the special supports \(Ae_i\). If no such set is forced, record the exact reason.
+Ask whether divergence after changing only the support
 
-### 8. If raw-radius-one decisiveness is obtained, apply P4-S040 fully
+\[
+S_i=\operatorname{supp}(c_i)
+\]
 
-Do not stop at the normal form.
+forces the target trace to query at least one coordinate in \(S_i\).
 
-Verify that the new \(M'\) or the new finite refutation mechanism satisfies the exact P4-S040 decisiveness hypothesis on every reached synchronized block.
+Prove the exact statement. In particular, if the target computation never queries \(S_i\), the two computations see identical answers and must behave identically, contradicting divergence.
 
-Then invoke the already-validated three-scan theorem and conclude only
+Then identify the first queried changed coordinate and what this says about the dependency of the remote divergence on the block.
+
+### 3. Build a divergence dependency relation
+
+For a radius-one raw companion \(Z\), define a relation from a divergent input \(n\) to changed coordinates or to further inputs only when the relation is justified by finite target traces.
+
+Test whether one can follow a finite chain from any remote divergent equation back to one of the changed block inputs \(q_r\).
+
+Do not assume a computably finite reverse dependency closure. The relation must be oriented using information actually supplied by halting target computations.
+
+Determine whether minimality of \(n\), minimal wtt use, or minimal target-trace contact produces a well-founded descent.
+
+If no well-founded measure exists, isolate the exact obstruction.
+
+### 4. Test localization by minimal use
+
+Let \(u(n)\) be the computable wtt use bound.
+
+Among all divergent inputs for a fixed radius-one companion, choose one with minimal use \(u(n)\), if this helps.
+
+The target trace must contact a changed coordinate.
+
+Ask whether the contacted changed coordinate \(q_r\) can itself diverge under \(Z\), or whether its companion computation may halt correctly and pass the perturbation onward through another queried changed coordinate.
+
+Use the P4-S041 finite dependency-cycle theorem when the local computation halts correctly.
+
+The goal is to decide whether a minimal-use remote divergence can terminate only in:
+
+- a local Case-C divergence;
+- a finite local refutation;
+- or a genuine cycle of correct local halts that leaves divergence remote.
+
+### 5. Exploit the exact support sizes
+
+Treat separately:
+
+\[
+S_1=\{q_1,q_2\},\qquad
+S_2=\{q_0,q_2\},\qquad
+S_0=\{q_0,q_1,q_2\}.
+\]
+
+For the two-coordinate supports, accepted local companions force a two-cycle.
+
+Ask whether this rigid cycle makes remote divergence impossible, or merely means the outside divergent computation can depend on the already-closed two-cycle.
+
+For the three-coordinate support, compare the two-cycle-with-tail and three-cycle cases.
+
+Do not infer global fixed-pointhood from local cycle acceptance.
+
+### 6. Use the pairwise raw-adjacent law aggressively
+
+Retain
+
+\[
+B_0\Rightarrow A_1,A_2,\qquad
+B_1\Rightarrow A_0,\qquad
+B_2\Rightarrow A_0.
+\]
+
+Try to strengthen it when a direction has remote divergence.
+
+Examples to test:
+
+- can remote partiality in direction 1 coexist with \(B_1\), hence force \(A_0\);
+- can remote partiality occur in all three directions while some directions remain A or B locally;
+- does absence of any A still force explicit shared local divergence exactly as in P4-S041;
+- can one obtain a finite rejection in one direction from a remote divergence trace in another without negative information?
+
+Any strengthened status law should be exact and finite-evidence based.
+
+### 7. Test target-equivalent localization normal forms, not totalization
+
+The normal-form goal is now weaker.
+
+Do not try to make every radius-one companion total.
+
+Ask whether \(M\) can be replaced uniformly by a target-equivalent syntactically self-avoiding wtt \(M'\) such that any radius-one divergence affecting \(M'\) is localized to a changed block equation, while finite local rejections remain allowed.
+
+Potential operations:
+
+- duplicate an outside equation into a changed block equation without querying that block input itself;
+- redirect finite target traces through a block coordinate;
+- use tagged compositions which preserve syntactic self-avoidance;
+- choose a canonical lowest-use divergent dependency if such a choice can be made positively;
+- or prove that any localization compiler would still require negative divergence information.
+
+Any \(M'\) must be computable uniformly from committed data. Do not use \(Y\) as a noncomputable program parameter.
+
+### 8. Test whether remote partiality is harmless for P4-S040
+
+P4-S040 needs only local decisiveness.
+
+It is possible in principle that \(M\) has unavoidable radius-one divergence somewhere but every raw-adjacent companion is still locally A or B.
+
+If this can be proved for the committed mechanism, apply P4-S040 fully and conclude
 
 \[
 X\notin OH.
 \]
 
-This eliminates the present source as an OH non-invariance candidate. It does not prove \(R_2=OH\).
+Do not stop at the observation that remote divergence exists.
 
-### 9. If radius-one Case C is unavoidable, state the narrowest theorem
+Conversely, if remote divergence can coexist with local Case C, state exactly what additional hypothesis is needed to force persistent Case C on reached synchronized blocks.
 
-A negative result should distinguish at least:
+### 9. Separate one witness from enough witnesses
 
-- divergence somewhere among arbitrary finite perturbations;
-- divergence on some single raw-coordinate perturbation;
-- divergence on infinitely many reached fresh blocks;
-- divergence in enough raw directions to defeat every P4-S040 finite-family scan.
+A theorem that some single raw perturbation has local Case C is not enough by itself to defeat the P4-S040 three-scan theorem on infinitely many reached blocks.
 
-Do not infer the stronger statements from the weaker ones.
+Distinguish:
 
-The strongest useful negative outcome would show that every target-equivalent self-avoiding wtt presentation of the actual source necessarily has persistent raw-radius-one divergence-only companions in the recoding geometry.
+- one radius-one divergent perturbation;
+- one local Case-C direction;
+- a Case-C direction on infinitely many fresh blocks;
+- enough Case-C directions to block every finite-family synchronized raw scan;
+- persistent Case C for every target-equivalent presentation.
 
-A weaker exact obstruction is still useful if clearly delimited.
+Do not infer stronger recurrence from a single witness.
 
 ### 10. Preserve the source-side separation guard
 
@@ -284,19 +297,26 @@ X\in OH,\qquad H(X)=Y\notin OH.
 
 Only the second statement is settled.
 
-If P4-S041 obtains raw-radius-one decisiveness and therefore a raw destroyer, then the present source is eliminated as a separation candidate.
+If P4-S042 obtains local decisiveness everywhere, invoke P4-S040 and conclude only
 
-If it proves only that P4-S040 extraction cannot be forced from the committed autoreduction data, \(X\in OH\) remains unproved.
+\[
+X\notin OH,
+\]
+
+eliminating this source as a separation candidate.
+
+If P4-S042 localizes some divergence to Case C, \(X\in OH\) still does not follow unless all one-hole destroyers are excluded.
 
 ### 11. Required session outcome
 
 The output should be one of:
 
-- an actual proof of raw-adjacent decisiveness for a target-equivalent self-avoiding wtt presentation of the P4-S011 source, followed by the P4-S040 raw one-hole destroyer;
-- a finite-perturbation normal-form theorem materially advancing toward that goal;
-- a rigorous theorem locating the unavoidable partiality at a specific raw perturbation radius;
-- a finite-difference dependency/cycle theorem which sharply classifies Case-B versus Case-C companions;
-- or, only if it follows directly, a genuine proof that \(X\in OH\).
+- a theorem that every raw-radius-one divergent companion necessarily has local Case C or finite local refutation, with the exact branch classification;
+- a theorem that radius-one divergence can remain genuinely remote while all three local block equations are decisive, followed by P4-S040 if this holds for the committed source;
+- a target-equivalent self-avoiding wtt localization normal form;
+- a well-founded/minimal-use dependency theorem sharply reducing remote divergence to the block support;
+- a construction/obstruction showing why remote divergence cannot be localized from the committed data;
+- or, only if it follows directly, an actual proof of \(X\notin OH\) or \(X\in OH\).
 
 The sustained question remains
 

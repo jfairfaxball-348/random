@@ -981,4 +981,34 @@ The actual P4-S011 machine is not known to satisfy the new decisiveness conditio
 The P4-S015–P4-S031 bankroll sequence and P4-S037/P4-S038 backward-price route remain frozen as default directions. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
 
 Record: phase4/P4-S040_MATHEMATICS.md.
+## P4-S041 — finite-perturbation partiality is forced; only raw-radius-one partiality can remain relevant
 
+Date: 2026-10-07
+Decision type: Phase-4 mathematics checkpoint
+Status: **VALIDATED**
+
+The P4-S040 divergence-only boundary is sharpened.
+
+For the committed syntactically self-avoiding wtt autoreduction \(M\) of the P4-S011 computably random source \(Y\), totality on every finite perturbation of \(Y\) would make every finite answer pattern below the computable use halt. The finitely many patterns can then be dovetailed into a total truth table, yielding a truth-table autoreduction of \(Y\). The retained source authority excludes this. Therefore some finite perturbation necessarily makes some \(M(n)\) diverge.
+
+Under the repeated invertible three-bit recoding define \(\rho\) to be the least number of raw coordinates whose simultaneous flip causes any divergence. Then
+\[
+\rho\ge2\Longrightarrow X\notin OH.
+\]
+Reason: totality on every radius-one raw companion makes all three local block computations halt, hence every companion is P4-S040-decisive, and the validated three-scan theorem applies. Consequently any still-possible branch \(X\in OH\) requires \(\rho=1\).
+
+Do not identify \(\rho=1\) with P4-S040 Case C. Radius-one divergence may be remote from the block equations or may coexist with a finite local wrong halt.
+
+If a finite perturbation is genuinely fixed on its changed coordinates, self-avoidance forces a directed dependency cycle among those changed coordinates. For the displayed raw-adjacent supports, \(011\) and \(101\) force two-cycles; \(111\) gives a two-cycle with a tail or an oriented three-cycle. These cycles classify positive Case B and do not certify Case C.
+
+The pairwise raw-adjacent identity further yields
+\[
+B_0\Rightarrow A_1,A_2,\qquad B_1\Rightarrow A_0,\qquad B_2\Rightarrow A_0.
+\]
+Therefore a block with no finite-refutation direction is necessarily triple Case C.
+
+No uniform target-equivalent totalization is licensed by the wtt use bound: the finite use table has only a c.e. halting domain and a compiler cannot use \(Y\) as a noncomputable parameter.
+
+Decision: keep the present source alive only on the narrower raw-radius-one localization question. Run P4-S042 on whether remote radius-one divergence must propagate into the local block family or can coexist with local decisiveness.
+
+No \(X\in OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.

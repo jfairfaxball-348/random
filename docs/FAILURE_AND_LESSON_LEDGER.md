@@ -1198,4 +1198,28 @@ Correct next move: study online extraction from the c.e. local code / raw-adjace
 Next session: **P4-S041**, test finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual wtt autoreduction. Do not return to backward-price normalization, the frozen P4-S015–P4-S031 bankroll line, or ambiguity mass.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## FL-087 — finite-perturbation partiality is forced, but the location of divergence is the real resource
 
+Session: P4-S041
+Date: 2026-10-07
+Status: **DURABLE ONE-HOLE NORMALIZATION LESSON**
+
+A self-avoiding wtt autoreduction of the P4-S011 computably random source cannot remain total on every finite perturbation. The computable use bound would otherwise make every finite answer pattern total and hence compile the machine into a truth-table autoreduction, contradicting the retained source boundary.
+
+The important correction is that this does **not** force P4-S040 Case C at raw radius one.
+
+Under the invertible three-bit recoding there is a minimal raw divergence radius \(\rho\). If \(\rho\ge2\), every single-raw-bit companion is total and therefore P4-S040-decisive; the existing three-scan theorem then gives \(X\notin OH\). Thus a surviving \(X\in OH\) branch must have \(\rho=1\).
+
+But \(\rho=1\) only says that some equation diverges on some single-raw-bit companion. It may be an outside equation, or another local equation may already halt wrongly and finitely refute that companion. Do not equate radius-one partiality with local divergence-only Case C.
+
+Finite-difference dependency cycles characterize the opposite, positive arm. If a finite companion is genuinely fixed on its changed coordinates, each changed output must depend on another changed coordinate. The \(011\) and \(101\) raw-adjacent supports force two-cycles; \(111\) gives a two-cycle-with-tail or an oriented three-cycle. The cycles become visible only after the relevant halts and therefore do not certify divergence.
+
+A further local identity gives
+\[
+B_0\Rightarrow A_1,A_2,\qquad B_1\Rightarrow A_0,\qquad B_2\Rightarrow A_0.
+\]
+Hence a block with no finite rejection is necessarily triple Case C, but finite simulation still cannot certify that situation in advance.
+
+Correct next move: localize single-raw-bit divergence. Determine whether remote divergent equations must propagate back to the three changed block equations, or whether radius-one divergence can remain remote while all local companions stay decisive.
+
+Correct guard: failure to totalize the finite use table is a negative-information obstruction, not a proof of \(X\in OH\), OH non-invariance or \(R_2\subsetneq OH\).

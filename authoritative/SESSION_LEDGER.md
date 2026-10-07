@@ -1816,4 +1816,38 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S041, finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual P4-S011 wtt autoreduction.
+## P4-S041 — finite-perturbation collapse, minimal raw divergence radius and dependency cycles
 
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: c7735bca90102348d6a52afed16eb20ca8d3e2e1
+
+Scope: sustained Phase-4 one-hole normalization; finite-perturbation refutability and raw-radius-one partiality.
+
+Results:
+- proved finite-perturbation totality of the committed self-avoiding wtt autoreduction would collapse to truth-table autoreducibility;
+- used the retained P4-S011 authority to force divergence on some finite perturbation;
+- defined the minimal raw divergence radius \(\rho\) under the repeated three-bit recoding;
+- proved \(\rho\ge2\Rightarrow X\notin OH\), hence \(X\in OH\Rightarrow\rho=1\);
+- distinguished raw-radius-one divergence from local P4-S040 Case C;
+- proved a finite-difference dependency-cycle theorem;
+- classified the \(011\) and \(101\) Case-B supports as forced two-cycles and the \(111\) support as two-cycle-with-tail or oriented three-cycle;
+- proved \(B_0\Rightarrow A_1,A_2\), \(B_1\Rightarrow A_0\), \(B_2\Rightarrow A_0\), so no finite rejection on a block forces triple Case C;
+- showed wtt forward use does not provide a finite reverse refutation closure or a uniform target-equivalent finite-table totalization;
+- did not determine \(\rho\), construct an unconditional raw destroyer, prove \(X\in OH\), prove OH non-invariance or prove \(R_2\subsetneq OH\).
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Records:
+- phase4/P4-S041_MATHEMATICS.md
+- phase4/P4-S041_CLOSE.md
+- phase4/P4-S041_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: P4-S042, localization of raw-radius-one divergence into the local block equations versus remote partiality compatible with local decisiveness.

@@ -653,4 +653,35 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S041**, test finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual wtt autoreduction. Do not return to the frozen bankroll line, backward-price normalization or ambiguity mass.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## Mathematics checkpoint — P4-S041 (not a gate review)
 
+P4-S041 isolates the finite-perturbation partiality boundary for the recoded P4-S011 autoreduction.
+
+If the committed syntactically self-avoiding wtt functional \(M\) halted on every input on every finite perturbation of its computably random fixed point \(Y\), then the computable use bound would make every finite oracle-answer pattern below the use total. Dovetailing the finitely many patterns gives a total truth table, hence a truth-table autoreduction of \(Y\). The retained P4-S011 source authority excludes that. Therefore some finite perturbation forces divergence.
+
+Transporting finite differences through the invertible three-bit recoding gives a minimal raw divergence radius \(\rho\). The key new dichotomy is
+\[
+\rho\ge2\Longrightarrow X\notin OH.
+\]
+If no single raw flip causes divergence, every raw-adjacent companion is total on the three local block equations and therefore P4-S040-decisive. The existing three-scan theorem then destroys \(X\). Thus any still-possible proof of \(X\in OH\) must have \(\rho=1\).
+
+Radius-one divergence is weaker than local Case C: it may live only in an outside equation, or coexist with a finite local refutation.
+
+For genuine finite-difference fixed-point companions, changed coordinates carry a directed dependency cycle. Supports \(011\) and \(101\) force two-cycles; support \(111\) gives a two-cycle with a tail or an oriented three-cycle. These are positive Case-B structures, not finite certificates of divergence.
+
+A sharper adjacency law holds:
+\[
+B_0\Rightarrow A_1,A_2,\qquad B_1\Rightarrow A_0,\qquad B_2\Rightarrow A_0.
+\]
+Hence if a block has no finite-rejection direction, all three raw-adjacent companions are Case C.
+
+No target-equivalent radius-one totalization follows from the committed wtt data: finite use gives a finite c.e. halting table but not negative divergence information, and the compiler may not use noncomputable \(Y\) as a parameter.
+
+No unconditional raw destroyer for \(X\) and no proof \(X\in OH\) is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S042**, localize radius-one divergence into, or prove it can remain remote from, the three block equations. Do not return to the frozen bankroll line, backward-price normalization, ordinary raw-martingale compilation or ambiguity mass.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.

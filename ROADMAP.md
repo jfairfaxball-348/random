@@ -514,4 +514,33 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S041**, on finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual P4-S011 wtt autoreduction.
+## P4-S041 — finite-perturbation collapse and raw-radius-one partiality
 
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: c7735bca90102348d6a52afed16eb20ca8d3e2e1
+
+Scope: finite-perturbation refutability and raw-radius-one partiality for the sustained \(R_2=OH\) target.
+
+Results:
+- proved that totality of the committed self-avoiding wtt autoreduction on all finite perturbations of \(Y\) would compile to a truth-table autoreduction of \(Y\);
+- used the retained P4-S011 source authority to conclude that some finite perturbation must force divergence;
+- transported finite perturbations through the invertible three-bit recoding and defined the minimal raw divergence radius \(\rho\);
+- proved the exact dichotomy \(\rho\ge2\Rightarrow X\notin OH\), hence \(X\in OH\Rightarrow\rho=1\);
+- separated raw-radius-one divergence from P4-S040 local Case C: divergence may remain outside the three block equations or coexist with a finite local refutation;
+- proved the finite-difference dependency-cycle theorem for genuine finite fixed-point companions;
+- classified raw-adjacent Case-B supports: \(011\) and \(101\) force two-cycles, while \(111\) has a two-cycle-with-tail or an oriented three-cycle;
+- proved the pairwise status law \(B_0\Rightarrow A_1,A_2\), \(B_1\Rightarrow A_0\), \(B_2\Rightarrow A_0\), so absence of every finite rejection forces triple Case C;
+- showed the wtt use bound gives no finite reverse dependency closure and no uniform finite-table totalization without negative divergence information;
+- did **not** establish the actual value of \(\rho\), construct an unconditional raw destroyer for \(X\), prove \(X\in OH\), prove OH non-invariance, or prove \(R_2\subsetneq OH\).
+
+Records:
+- phase4/P4-S041_MATHEMATICS.md
+- phase4/P4-S041_CLOSE.md
+- phase4/P4-S041_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S042**, on localization of raw-radius-one divergence into the three local block equations versus genuinely remote partiality.

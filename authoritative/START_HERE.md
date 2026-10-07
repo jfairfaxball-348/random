@@ -485,4 +485,32 @@ Next session: **P4-S041**, attack finite-perturbation refutability / raw-adjacen
 Do not return to backward-price normalization, the frozen P4-S015–P4-S031 bankroll line, or ambiguity mass.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## Mathematics checkpoint — P4-S041
 
+P4-S041 proves that the committed P4-S011 wtt autoreduction cannot be total on every finite perturbation of its computably random target. If it were, the computable use bound would turn the finitely many answer patterns for each input into a total truth table, contradicting the retained non-truth-table-autoreducibility boundary.
+
+Transport finite perturbations through the repeated three-bit recoding and let \(\rho\) be the least number of raw flips that causes any divergence. Then
+\[
+\rho\ge2\Longrightarrow X\notin OH.
+\]
+Indeed every radius-one companion would then be total on all inputs and therefore decisive in the exact P4-S040 sense. Hence any still-possible proof that \(X\in OH\) requires \(\rho=1\).
+
+This is not yet local Case C. A radius-one divergence may occur only in an outside equation or may coexist with a local wrong halt.
+
+For accepted finite-difference companions, self-avoidance forces a directed dependency cycle among changed coordinates. The \(011\) and \(101\) supports force two-cycles; the \(111\) support yields a two-cycle with a tail or an oriented three-cycle. In addition,
+\[
+B_0\Rightarrow A_1,A_2,\qquad B_1\Rightarrow A_0,\qquad B_2\Rightarrow A_0,
+\]
+so if no raw direction has a finite rejection on a block, all three directions are Case C.
+
+No target-equivalent totalization follows from the wtt use bound alone, because the finite halting table is c.e. and divergence has no finite negative certificate.
+
+The inclusions remain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR,
+\]
+with \(R_2=OH\) unresolved.
+
+Next: **P4-S042**, localize radius-one divergence into the three local block equations or prove that it can remain remote while local raw-adjacent decisiveness survives.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
