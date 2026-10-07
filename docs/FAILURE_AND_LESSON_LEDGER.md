@@ -1438,3 +1438,64 @@ A_0:\kappa=0,\qquad A_1,A_2:\kappa\le1.
 \]
 
 The next obstruction is sharper: can future finite A evidence be made **uniform over both values of the current open sentinel** while preserving the future sentinel and a total one-hole fallback?
+
+
+## P4-S047 — current-hole uniformity failures and lessons
+
+### Failed assumption: block-free future A is automatically safe around the old hole
+
+P4-S046 removed same-block access for \(A_0\), and reduced \(A_1,A_2\) to one future non-sentinel bit. This does not control the outside traces of the rejecting computations.
+
+**Lesson:** future-target freshness cost and old-hole branch sensitivity are independent resources. Even \(\kappa=0\) may fail current-hole uniformity.
+
+### Positive lesson: safe old-row traces are automatically uniform
+
+For current raw role \(i\), only the rows in
+\[
+\operatorname{Dep}(i)=\{r:A_{ri}=1\}
+\]
+change with the unread old bit.
+
+If all finite rejection traces avoid those rows, the two old-hole simulations receive identical oracle answers and the same finite witness works in both branches.
+
+**Lesson:** syntactic old-hole support avoidance is a clean sufficient condition requiring no runtime modulus.
+
+### Positive lesson: two-branch future fixedness restores the automatic unit-flip theorem
+
+If every future target-coordinate computation is target-correct under both old-hole completions, changing the future raw candidate by \(A^{-1}e_r\) still changes only the computation's own input coordinate. Self-avoidance then gives the same finite rejection in both branches.
+
+**Lesson:** the P4-S046 \(0,1,1\) local costs survive an older open hole under an explicit branch-stability condition. Target correctness supplies that condition only on the actual branch.
+
+### Failed route: self-avoidance alone neutralizes an older raw hole
+
+The old hole changes rows in a different block from the future computation input. Syntactic self-avoidance says nothing about querying those old rows.
+
+**Lesson:** the alignment used by P4-S046 is special. Old-hole perturbations are ordinary off-input oracle perturbations for future computations.
+
+### Structural sharpness: one old row can gate every later low-cost A
+
+For any current raw role choose one virtual row which depends on it. Make every future local computation query that old row first, run a validated \(ACB\), \(CAC\), or \(CCA\) table when the answer is \(0\), and diverge when it is \(1\).
+
+On target \(0^\omega\) the future A witness and its P4-S046 cost remain visible. Under the alternate old-hole hypothesis every relevant future local computation diverges.
+
+**Lesson:** target correctness, finite use, self-avoidance, recurrent nontriple C and low local cost do not force any role-to-role current-hole-uniform edge. Pointwise finite use also does not force infinitely many future A witnesses outside the collision set.
+
+The model is structural only; its target is not computably random.
+
+### Failed route: asymmetric two-branch behavior reveals the current sentinel
+
+Both branch simulations are run from finite hypotheses. Seeing the \(h=0\) simulation halt and the \(h=1\) simulation diverge does not tell which hypothesis is actual.
+
+**Lesson:** nonuniformity is dependency information, not automatically source information. A direct raw-bit prediction needs finite evidence eliminating one current completion itself.
+
+### Failed route: c.e. edge existence automatically gives a computable path
+
+Individual finite CHU witnesses may be positively discoverable, but searching many prospective future sentinels in parallel can itself recreate the multiple-protected-hole problem.
+
+**Lesson:** retain the four levels: semantic edge, finite positive discovery, globally legal computable outgoing selection, infinite computable usable path.
+
+### New positive lesson: persistent old-hole sensitivity is the next exact source-side resource
+
+The structural countermodel can use one old row as a permanent gate. The committed source may have more rigidity, but none is yet proved.
+
+**Lesson:** P4-S048 should study semantic influence of one current raw-radius-one perturbation on later A-certificate computations, not return to generic support enumeration or reverse-dependency closure.
