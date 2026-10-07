@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S037",
+  "last_updated_session": "P4-S038",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -275,6 +275,35 @@
           "class_OH_iso_preserved": true,
           "next_question": "persistent-frontier retirement and effective backward-price stabilization",
           "next_session": "P4-S038",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_sixth_step_result": {
+          "session": "P4-S038",
+          "result": "PERSISTENT_ONE_JUMP_PRICES_CLASSIFIED_MULTIPLICATIVE_UNCERTAINTY_BUDGET_NORMALIZES_CE_RETIREMENT_AND_PURE_SENTINEL_GAIN_COSTS_EXACTLY_THE_SAME_PRODUCT",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "value_closure_separated_from_retirement": true,
+          "half_stake_price_process": "(1,1) -> (3/2,1/2) or (1/2,3/2), at most one jump",
+          "trigger_event_ce": true,
+          "permanent_nontrigger_coce": true,
+          "fixed_jump_stabilization_resources_collapse_to_trigger_decision": true,
+          "halting_set_reduction_claimed": false,
+          "actual_p4_s011_uniform_trigger_decision": false,
+          "actual_p4_s011_absolute_price_computable_cauchy_modulus": false,
+          "multiplicative_uncertainty_budget_sufficient": true,
+          "retirement_decision_required_under_budget": false,
+          "effective_tail_modulus_required_under_budget": false,
+          "supermartingale_to_martingale_cover": true,
+          "pure_correct_prediction_gain_cost_identity": true,
+          "stake_decay_resolves_actual_witness": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "same-source raw one-hole simulation of c.e.-persistent coded claims under the displayed three-bit recoding",
+          "next_session": "P4-S039",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
@@ -1336,8 +1365,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S038",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack persistent-frontier claim retirement and effective backward-price stabilization in the recoded P4-S011 schedule, using the P4-S037 rolling-renewal theorem as the positive boundary.",
+  "recommended_next_session": "P4-S039",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: move from ordinary raw-martingale compilation to same-source raw one-hole simulation of the c.e.-persistent coded P4-S011 claims under the displayed three-bit recoding; begin with the exact one-raw-hole linear-algebraic state and its cross-block transport.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
