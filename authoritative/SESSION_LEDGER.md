@@ -1732,3 +1732,44 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S039, same-source raw one-hole simulation of c.e.-persistent coded P4-S011 claims under the displayed three-bit recoding.
+
+## P4-S039 — affine one-hole states, local autoreduction codes and singleton completion
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: ebf18e6ef13c1a684b0164811b7a13cc2bdf576c
+
+Scope: sustained Phase-4 one-hole normalization; direct same-source raw one-hole simulation under the displayed three-bit recoding.
+
+Results:
+- verified the raw one-hole affine state \(u=a+hAe_i\);
+- computed exact answerable virtual rows for each omitted raw coordinate;
+- proved a virtual unit sentinel requires \(2,2,3\) raw unresolved coordinates;
+- proved cross-block raw-hole reopening cannot algebraically transport an old virtual ambiguity;
+- defined the actual three-computation local \(M\)-consistency code \(C_B\);
+- proved \(d_H(C_B)\ge2\) from syntactic autoreduction self-avoidance;
+- proved every such code for the displayed matrix fixes at least one raw coordinate after \(A^{-1}\);
+- proved two enumerated codewords already give a finite raw-coordinate certificate;
+- characterized the larger three-bit raw-hyperplane class by \(p^TA\) unit and \(A^{-1}p\ne p\);
+- isolated the exact preselected-target trichotomy: finite rejection / second self-consistent endpoint / divergence-only singleton completion;
+- proved finite rejection yields a P4-S012-style raw self-avoiding predictor;
+- proved local sibling totality of the finite 24-computation block family yields an actual same-source raw one-hole destroyer;
+- did not establish that local sibling totality holds for the actual P4-S011 witness;
+- did not construct a raw one-hole destroyer for the actual \(X\);
+- did not prove \(X\in OH\), OH non-invariance, or \(R_2\subsetneq OH\).
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Records:
+- phase4/P4-S039_MATHEMATICS.md
+- phase4/P4-S039_CLOSE.md
+- phase4/P4-S039_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: P4-S040, online c.e. local-code completion and raw-adjacent companion obstruction under a preselected raw sentinel.
