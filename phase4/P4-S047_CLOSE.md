@@ -34,6 +34,9 @@ Scope: current-hole-uniform future Case-A certification and old-hole outside-sup
 - therefore proved no nonempty role-only CHU transition matrix is forced by the retained abstract hypotheses;
 - showed finite use does not force infinitely many future visible A candidates outside the old-hole collision set;
 - proved failure of CHU does not itself reveal the current unread bit, because both old-hole branches are counterfactual simulations;
+- proved any finite wrong/nonbinary autoreduction equation under one old-hole completion eliminates that completion and predicts the current sentinel;
+- built a canonical global-refutation one-hole scan which dovetails all equations under both hole hypotheses;
+- proved hypothetical \(X\in OH\) forces that scan eventually to reach a false raw-radius-one completion which is a partial fixed point of \(M\), so every defined equation is correct and only divergence can hide the false branch;
 - refined the usable certification graph to CHU edges and proved an infinite computable CHU usable path would imply
   \[
   X\notin OH;
@@ -63,7 +66,7 @@ The sharp structural obstruction is:
 \text{one old hole-dependent virtual row can gate every later low-cost A witness}.
 \]
 
-The next source-side problem is therefore **persistent old-hole sensitivity**: determine whether the actual committed computably random wtt-autoreducible source lets one old raw perturbation remain semantically essential for infinitely many later A certificates, or whether that sensitivity can be effectively escaped and converted into CHU usable edges.
+The next source-side problem is therefore **persistent partial-fixed-point old-hole sensitivity**: determine whether the actual committed computably random wtt-autoreducible source lets one old raw perturbation remain semantically essential for infinitely many later A certificates, or whether that sensitivity can be effectively escaped and converted into CHU usable edges.
 
 ## Records
 
