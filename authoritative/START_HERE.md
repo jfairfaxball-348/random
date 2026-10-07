@@ -467,3 +467,22 @@ No actual raw destroyer for \(X\) and no \(X\in OH\) proof is obtained. Hence no
 Next session: **P4-S040**, attack the c.e. local-code / raw-adjacent companion boundary directly. Do not return to backward-price normalization or the frozen P4-S015–P4-S031 bankroll line by default.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Latest mathematics — P4-S040
+
+P4-S040 is complete and validated. The sustained target remains whether (R_2=OH).
+
+The P4-S039 local sibling-totality hypothesis has been weakened materially. For a raw target, the raw-adjacent companion is now called **decisive** when it is either locally self-consistent or is finitely refuted by one wrong/nonbinary halt. If all three raw directions are decisive on every reached synchronized block, three total computable raw one-hole scans suffice: Case A gives a correct all-in sentinel wager, Case B closes the sentinel at zero stake, and the minimum-distance-two local code law forces at least one Case-A direction per block. Infinite pigeonhole then makes one fixed scan succeed. No rejection-time bound or completion of the whole eight-word local code is needed.
+
+Case B does not itself provide a prospective handoff: raw-adjacent endpoints differ only at the current sentinel, so every raw coordinate they certify has already been read. A second prospective sentinel cannot remain permanently reserved while the current one stalls, because a complete transcript with two permanent holes would violate the global one-hole condition.
+
+The surviving local obstruction is Case C. Divergence-only failure has no finite certificate. Additional outside (M(n))-equations can provide more c.e. refutations, but a wtt use bound gives finite forward use for each fixed computation, not a computably finite reverse closure of all computations that may inspect the changed block.
+
+The committed P4-S011 authority does not establish raw-adjacent decisiveness for the actual machine. Hence no actual raw destroyer for (X), no (Xin OH) proof, no OH non-invariance theorem and no (R_2subsetneq OH) claim is made. (OH^{iso}) remains the comparison class.
+
+Next session: **P4-S041**, attack finite-perturbation refutability / raw-adjacent decisiveness for the actual wtt-autoreduction mechanism. Test whether a target-equivalent self-avoiding wtt normal form can eliminate divergence-only raw-adjacent companions without imposing full sibling totality.
+
+Do not return to backward-price normalization, the frozen P4-S015–P4-S031 bankroll line, or ambiguity mass.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
