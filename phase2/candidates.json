@@ -673,11 +673,12 @@
           "OH_noninvariance_witness": false,
           "R2_proper_subset_OH_claimed": false,
           "class_OH_iso_preserved": true,
-          "next_question": "two-raw-bit square: false old partial neighbour versus future raw-adjacent perturbation, and whether the actual source forces a positive finite square constraint",
+          "next_question": "two-raw-bit square / partial-fixed-point star: test whether the actual source imposes a positive finite constraint linking false-neighbour target fixedness to the doubly perturbed raw-adjacent branch",
           "next_session": "P4-S049",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
-          "novelty_claimed": false
+          "novelty_claimed": false,
+          "family_R_doubly_perturbed_partial_fixed_point_web": true
         }
       },
       "phase4_k2_mathematics": {
