@@ -2134,3 +2134,44 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: **P4-S049**, the two-raw-bit square / partial-fixed-point star.
+## P4-S049 — square column shielding and finite-tenure escape obstruction
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: ab8136c67eb772821b1fcc40a17e3b877ad32119
+
+Scope: two-raw-bit square / partial-fixed-point star at a P4-S047 trapped old-hole epoch.
+
+Results:
+- formalized finite pair refutation and proved the generic positive row/column elimination laws;
+- proved **actual-column shielding**: at an unresolved old epoch, the actual-future column consists of \(Y\), a total fixed point, and \(Z\), a global partial fixed point, so neither corner can be finitely wrong/nonbinary;
+- deduced the source-specific one-refutation theorem
+  \[
+  \text{one finite square refutation}\Longrightarrow\text{future raw-bit prediction};
+  \]
+- proved every actual future Case-\(A_j\) rejection already supplies such a refutation, independently of whether the false fourth corner is finite-refuted, locally self-consistent, or divergence-only;
+- proved paired partial-fixed first-contact closure only where both corner computations halt, recovering the P4-S041 \(011/101\) two-cycles and \(111\) cycle shapes under full two-corner halting;
+- showed a genuine false-row local Case-B corner forces P4-S041 role-switch refutations, which become alternate future-bit predictions at the trapped old epoch;
+- proved a no-refutation square has all four corners as global partial fixed points;
+- defined legal finite-tenure square reservation policies which keep the old sentinel as the sole permanent hole and consume every future reservation after a finite timeout;
+- proved infinitely many caught square refutations at one trapped old sentinel yield a computable one-hole destroyer and \(X\notin OH\);
+- under hypothetical \(X\in OH\), proved the algorithm-relative obstruction that every computable finite-tenure square reservation policy catches only finitely many refutations at the first trapped old epoch;
+- built a sharper structural \(0^\omega\) full-star model with total unperturbed row bases and all three future raw-adjacent neighbours in both old rows global partial fixed points;
+- recorded that the full-star model is non-random and deliberately lacks the actual-A premise;
+- obtained no infinite effective square escape and did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S049_MATHEMATICS.md
+- phase4/P4-S049_VALIDATION.md
+- phase4/P4-S049_CLOSE.md
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: **P4-S050**, effective activation of the one-refutation square theorem without semantic knowledge of the trapped epoch.
