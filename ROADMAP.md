@@ -732,3 +732,33 @@ X\in OH\Longrightarrow
 The surviving sensitivity is therefore divergence-only: every defined equation on the false neighbour is correct.
 
 This sharpens P4-S048 to persistent partial-fixed-point old-hole sensitivity rather than arbitrary collision.
+
+## P4-S048 — partial-neighbour role kernels and partial-fixed-point star
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+
+P4-S048 starts from the P4-S047 unresolved-epoch false completion \(Z\), which is a global partial fixed point. Future target equations now have only trace-safe, trace-sensitive/value-fixed, or divergence-sensitive behavior; any divergence-sensitive target trace contacts the old changed support.
+
+Partial fixedness sharpens the P4-S042 support lasso: after old-support contact only old-support divergence or a correct-halting dependency cycle remains. Finite wrong-output refutation has already been removed by the global-refutation scan.
+
+For the canonical P4-S046 low-cost certificates, the false-neighbour target-equation burden is exactly
+\[
+F_0=\{q_0,q_1,q_2\},\qquad
+F_1=\{q_0\},\qquad
+F_2=\{q_1\},
+\]
+plus a logically separate false-branch raw-adjacent rejection.
+
+Two structural families prove independence. Family F keeps the raw-adjacent rejection positive while one listed target equation diverges recurrently through a fixed old row. Family R makes \(Z\) a total global fixed point while every false raw-adjacent candidate diverges. Moreover each Family-R doubly perturbed candidate is itself a global partial fixed point, producing an infinite partial-fixed-point star.
+
+A total computable canonical escape operator would still yield an infinite CHU path and \(X\notin OH\), but no such operator is established for the committed source.
+
+No separation is proved. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S049**, attack the two-raw-bit square / partial-fixed-point star and test whether the actual committed source forces any positive finite relation between the false-neighbour target equations and the doubly perturbed raw-adjacent branch.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
