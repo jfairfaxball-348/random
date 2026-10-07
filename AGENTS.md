@@ -767,3 +767,32 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S046**, attack future A-certificate access cost. Determine whether the actual committed autoreduction provides infinitely many prospective A certificates whose evidence can be acquired while preserving the future raw target, or isolate the exact one-hole certification-access obstruction.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Mathematics checkpoint — P4-S046 (not a gate review)
+
+P4-S046 attacks live future-A certificate access rather than certificate timing.
+
+For the displayed three-bit recoding,
+\[
+A^{-1}e_0=110,\qquad A^{-1}e_1=101,\qquad A^{-1}e_2=111.
+\]
+Each of these raw candidates changes only one virtual coordinate \(q_r\). Because the committed autoreduction syntactically avoids its input, the candidate input-\(q_r\) computation is identical to the correct target computation and therefore finitely refutes the flipped candidate.
+
+This yields the source-specific local-cost theorem
+\[
+A_0:\kappa=0,\qquad A_1:\kappa\le1,\qquad A_2:\kappa\le1.
+\]
+Thus no actual Case-A witness needs the old two-non-sentinel local exposure. The only extra obstruction to block-free \(A_1/A_2\) is the common raw diagonal \(011\), virtual \(110\).
+
+Block-local \(CAC/CCA\) gadgets on \(0^\omega\) show cost one is sharp in the finite positive certificate system and is independent of the P4-S045 timing-only obstruction.
+
+The global gap remains: a block-free future certificate can still have outside raw support containing the sentinel currently being kept open. Hence block-free is not automatically one-hole-safe.
+
+No \(X\in OH\), \(X\notin OH\), OH non-invariance or \(R_2\subsetneq OH\) theorem is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S047**, current-hole-uniform future A certification and outside-support collision.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
