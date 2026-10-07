@@ -1135,3 +1135,24 @@ The correct surviving distinction is **effective retirement/stabilization**. P4-
 Correct positive guard: effective fresh-frontier renewal is sufficient, and effective Cauchy stabilization of absolute persistent-savings prices is sufficient more generally.
 
 Correct negative guard: compiler failure still does not prove OH non-invariance. The recoded source is only known to be computably random, not in (OH).
+
+
+## FL-085 — one-jump retirement effectivity and positive hedge cost are different resources
+
+Session: P4-S038
+Date: 2026-10-07
+Status: **DURABLE ONE-HOLE NORMALIZATION LESSON**
+
+The P4-S037 phrase “non-effective retirement/backward-price stabilization” splits into two sharply different routes.
+
+For the actual value-closed P4-S011 persistent claim, the half-stake normalized price is not a complicated limit. It is exactly \((1,1)\) until a binary halt appears and then jumps once to \((3/2,1/2)\) or its reversal. Because the jump has fixed positive size, a computable deadline, eventual-constancy modulus, Cauchy modulus, exact limiting price, or a second semidecision for permanent nonretirement all decide whether the jump ever occurs. The actual recoded witness cannot provide that decision uniformly: if it did, P4-S037 would compile its successful half-stake witness to a raw martingale on the settled computably random source.
+
+The correct positive escape is not a weaker retirement oracle. It is **prepaid uncertainty**. An unresolved stake of magnitude \(r\) has two possible triggered price vectors, and the exact minimal positive orientation-free superhedge costs the factor \(1+r\). If the cumulative product of those factors has a computable finite bound, one can carry enough reserve through c.e.-only retirement and obtain a computable raw supermartingale, then a martingale cover.
+
+For the pure correct-prediction sentinel mechanism this escape is unavailable exactly when it matters: its target capital grows by the same product \(\prod(1+r_e)\). Thus the positive hedge cost and the virtual winning resource coincide multiplicatively.
+
+Correct guard: do not respond by shrinking stakes and hoping for a second-order error. The unresolved backward-price error is first order in \(r_e\).
+
+Correct next move: the actual witness cannot be normalized by an ordinary raw martingale without contradicting \(X\in CR\). To advance the sustained \(R_2=OH\) target, test direct **raw one-hole** simulation of the coded persistent claims instead.
+
+Compiler failure still does not prove \(X\in OH\) or OH non-invariance.
