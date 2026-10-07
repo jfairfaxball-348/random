@@ -411,11 +411,15 @@ No retirement deadline, trigger decision, convergence modulus or tail modulus is
 
 ### Theorem 10 — multiplicative-budget persistent-frontier normalization
 
-Assume the finite raw/virtual transitions outside the persistent claims are computable as in the P4-S037 frontier construction, and assume Definition 9. Then every successful computable virtual martingale whose unresolved persistent stakes have magnitudes \(r_e\) can be dominated by one total computable raw supermartingale, and therefore by one total computable raw martingale.
+Assume the finite raw/virtual transitions outside the persistent claims are computable as in the P4-S037 frontier construction, and assume Definition 9. Apply the P4-S036 persistent-savings transform first. If the original unresolved fractional stake at claim \(e\) has magnitude at most \(r_e\), the transformed stake has magnitude at most \(r_e\) as well: stopped summands wager zero and active summands retain the original fractional wager, so the aggregate fraction is a capital-weighted contraction.
+
+Then every successful computable virtual martingale in this class yields one total computable raw supermartingale, and therefore one total computable raw martingale, which succeeds on the same raw source.
 
 In particular, persistent retirement may remain only c.e.
 
 **Proof.**
+Write \(c\) for the persistent-savings capital. It tends to infinity after sufficiently late stages on every path where the original martingale is unbounded, and once a savings threshold is locked it stays locked through all later continuations.
+
 Let
 
 \[
@@ -464,7 +468,7 @@ Since \(A_e\ge1\), every target frontier satisfies
 S\ge c.
 \]
 
-Thus if the virtual capital is unbounded along the target, so is \(S\). The exact supermartingale-to-martingale conversion of §5.4 gives one total computable nonnegative rational raw martingale which also succeeds. ∎
+Persistent savings makes \(c\to\infty\) along a successful target and makes the locked capital survive any arbitrarily long persistent waiting interval. Hence \(S\) is unbounded (indeed tends through arbitrarily large permanent floors) at the persistent frontiers and during unresolved waits. The exact supermartingale-to-martingale conversion of §5.4 gives one total computable nonnegative rational raw martingale which also succeeds. ∎
 
 This strictly extends P4-S037 fresh renewal as a compiler hypothesis: retirement need not be decidable or occur in a computably finite transition.
 
