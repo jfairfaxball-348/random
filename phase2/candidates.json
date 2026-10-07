@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S046",
+  "last_updated_session": "P4-S047",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S046",
-      "record_path": "phase4/P4-S046_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S047",
+      "record_path": "phase4/P4-S047_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -590,6 +590,43 @@
           "class_OH_iso_preserved": true,
           "next_question": "current-hole-uniform future A certification and outside-support collision",
           "next_session": "P4-S047",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_fifteenth_step_result": {
+          "session": "P4-S047",
+          "result": "CURRENT_HOLE_BRANCHING_SAFE_TRACE_AND_TWO_BRANCH_FIXEDNESS_SUFFICIENT_OLD_ROW_GATING_STRUCTURALLY_BLOCKS_UNIFORMITY",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "current_hole_completions_formalized": true,
+          "safe_rows": [
+            "role0:none",
+            "role1:u0",
+            "role2:u1"
+          ],
+          "safe_trace_CHU_sufficient": true,
+          "two_branch_future_fixedness_CHU_sufficient": true,
+          "conditional_local_costs": "A0=0; A1<=1 using future x2; A2<=1 using future x1",
+          "old_row_gated_structural_countermodel": true,
+          "structural_target": "0^omega",
+          "gated_patterns": [
+            "ACB",
+            "CAC",
+            "CCA"
+          ],
+          "universal_role_transition_forced": false,
+          "finite_use_collision_escape_forced": false,
+          "CHU_failure_predicts_old_hole": false,
+          "infinite_computable_CHU_path_implies_X_not_in_OH": true,
+          "actual_CHU_path_constructed": false,
+          "actual_raw_one_hole_destroyer_constructed": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "persistent old-hole sensitivity of future A certificates",
+          "next_session": "P4-S048",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
@@ -1651,8 +1688,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S047",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack current-hole-uniform future A certification. Use the P4-S046 one-bit local-cost theorem, branch prospective future certificates over both values of the current open sentinel, and test whether outside-support collisions can be avoided while preserving the future sentinel and a total one-hole fallback. Do not reopen generic timing-modulus, bankroll/backward-price, ordinary martingale-compilation, ambiguity-mass, general totalization or local-status-enumeration routes.",
+  "recommended_next_session": "P4-S048",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack persistent old-hole sensitivity for future A-certificate computations. Use P4-S047 current-hole branching, safe-trace and two-branch-fixedness criteria, and determine whether the actual committed source lets one old raw-radius-one perturbation remain an essential gate for infinitely many later A witnesses or whether that influence is effectively escapable into CHU usable edges. Do not reopen generic reverse-dependency closure, certificate-time bounds, bankroll/backward-price, ordinary martingale compilation, ambiguity mass, general totalization or local status enumeration.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
