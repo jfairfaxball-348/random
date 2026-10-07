@@ -572,3 +572,26 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S045**, use source-specific facts about the actual computably random wtt-autoreducible \(Y\) to test whether Case-A certificate times have enough selector thickness to force one computable moving-reservation scan to harvest infinitely many A witnesses.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Latest mathematics — P4-S045
+
+P4-S045 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+A moving-reservation selector is now exact. It chooses a raw role before status is known, keeps the current sentinel until its own A/B certificate, cycles through transient prospective future blocks, and freezes the one active at certificate time. The ambient A set, the reservation stream and the event-time-selected target subsequence are distinct objects.
+
+The exact positive resource is event-time selector thickness. If one computable faithful selector avoids C and reaches A infinitely often, its Case-A wagers give an actual raw one-hole destroyer, hence \(X\notin OH\). C-free A-cofinite lane recurrence is sufficient, while bounded gaps, density, bare finite-lane concentration and computable-subsequence recurrence do not control the certificate-time-selected subsequence.
+
+The structural negative result now covers any prescribed uniformly computable countable family of faithful selectors. A computable finite-use self-avoiding model on \(0^\omega\) using only \(CCA/CAC\) can trap every prescribed family member while retaining visible A and \(h(b)=2b+2\).
+
+The countable theorem has a sharp limit: after a computable-target model is built, finite A certificates can be enumerated and a new selector can target them using finite known certificate windows. Hence there is no universal computable-target evasion model with infinitely many visible A witnesses.
+
+For the actual \(X\), the missing resource is therefore **live-source certification access**. Future A evidence depends on finite noncomputable source values; acquiring those values may consume or protect the prospective target and recreate the one-hole conflict.
+
+No separation is proved. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S046**, determine whether prospective Case-A evidence for the actual committed autoreduction can be obtained without opening the future raw target, and whether such freshness-preserving certification edges can be chained into one selector.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
