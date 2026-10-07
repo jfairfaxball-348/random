@@ -629,7 +629,6 @@ Next: P4-S040 on online c.e. local-code completion and raw-adjacent companions. 
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 
-
 ## Mathematics checkpoint — P4-S040 (not a gate review)
 
 P4-S040 continues the sustained one-hole normalization programme.
@@ -644,13 +643,14 @@ The two-solution arm does not hand off the sentinel prospectively: raw-adjacent 
 
 The surviving local effectivity obstruction is divergence-only Case C. Extra outside autoreduction equations may produce more c.e. refutations, but the wtt use bound does not give a finite reverse dependency closure.
 
-The actual P4-S011 machine is not known to satisfy raw-adjacent decisiveness. No actual raw destroyer for (X), no (Xin OH), no OH non-invariance and no (R_2subsetneq OH) result is proved.
+The actual P4-S011 machine is not known to satisfy raw-adjacent decisiveness. No actual raw destroyer for \(X\), no \(X\in OH\), no OH non-invariance and no \(R_2\subsetneq OH\) result is proved.
 
 The inclusions remain
-[
-MLRsubseteq R_2subseteq OH^{iso}subseteq OHsubsetneq CR.
-]
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
 
 Next: **P4-S041**, test finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual wtt autoreduction. Do not return to the frozen bankroll line, backward-price normalization or ambiguity mass.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
