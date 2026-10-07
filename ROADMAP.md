@@ -762,3 +762,32 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S049**, attack the two-raw-bit square / partial-fixed-point star and test whether the actual committed source forces any positive finite relation between the false-neighbour target equations and the doubly perturbed raw-adjacent branch.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## P4-S049 — square column shielding and finite-tenure capture
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+
+P4-S049 analyzes the two-raw-bit square at a semantically unresolved P4-S047 old-hole epoch.
+
+The decisive source-specific fact is **actual-column shielding**. The two corners with the actual future raw bit are \(Y\), a total fixed point, and the false old completion \(Z\), a global partial fixed point. Hence neither can have a finite wrong/nonbinary equation. Therefore any finite square refutation must lie in the wrong future-bit column:
+
+\[
+\boxed{\text{one finite square refutation}\Longrightarrow\text{future-bit prediction}.}
+\]
+
+In particular, an actual future Case-\(A_j\) raw-adjacent rejection already predicts that future raw bit. A false fourth-corner rejection is not required for this one-shot prediction, although local Case B in the fourth corner can force useful P4-S041 role-switch refutations.
+
+The theorem does not yet give an infinite computable escape. The premise that the old epoch is genuinely unresolved is not positively recognizable. If the old sentinel remains open, every future target must be reserved only transiently on a globally legal no-event branch.
+
+P4-S049 formalizes finite-tenure square reservation and proves that infinitely many caught square refutations at one trapped old sentinel yield \(X\notin OH\). Consequently, under hypothetical \(X\in OH\), every computable finite-tenure reservation policy catches only finitely many refutations at the first trapped epoch.
+
+A no-refutation square has all four corners globally partial fixed. A sharper structural \(0^\omega\) model realizes recurrent full two-row partial-fixed stars, so self-avoidance and partial fixedness alone do not force a square event.
+
+No separation is proved. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S050**, effective activation of the one-refutation square theorem without semantic knowledge of the trapped epoch.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
