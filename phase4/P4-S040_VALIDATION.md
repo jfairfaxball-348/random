@@ -8,8 +8,8 @@ Status: **VALIDATED**
 
 ## Repository and scope checks
 
-- Immediately before the first P4-S040 write, live `main` was exactly `a2902d7aed904f0fcf36693cf7da6105a1f6ab34`, the final P4-S039 outgoing checkpoint.
-- The comparison of that hash with live `main` was `identical`, with zero commits ahead or behind.
+- Immediately before the first P4-S040 write, live main was exactly a2902d7aed904f0fcf36693cf7da6105a1f6ab34, the final P4-S039 outgoing checkpoint.
+- The comparison of that hash with live main was identical, with zero commits ahead or behind.
 - No P4-S040 mathematics record existed. The only prior P4-S040 repository hit was the forward prompt written by P4-S039.
 - P4-S001 through P4-S039, the selected CAND-01 authority, the sustained post-P4-S031 pivot, and the required P4-S032 through P4-S039 records were read.
 - All validated mathematics through P4-S039 is preserved.
@@ -24,21 +24,21 @@ Status: **VALIDATED**
 
 ### 1. Raw-adjacent acceptance/refutation is positively visible and target-self-avoiding
 
-Fix a block (B), raw target coordinate (i), and the two raw completions determined after the other two raw coordinates have been read.
+Fix a block \(B\), raw target coordinate \(i\), and the two raw completions determined after the other two raw coordinates have been read.
 
-Each completion gives a finite virtual assignment (winmathbb F_2^3).
+Each completion gives a finite virtual assignment \(w\in\mathbb F_2^3\).
 
-For a candidate (w):
+For a candidate \(w\):
 
 - acceptance is witnessed by the three finite correct halts
-  [
-  M^{Y[Bleftarrow w]}(q_r)downarrow=w_r;
-  ]
+  \[
+  M^{Y[B\leftarrow w]}(q_r)\downarrow=w_r;
+  \]
 - finite refutation is witnessed by one finite wrong or nonbinary halt.
 
 Both are c.e. events.
 
-The current raw sentinel is not queried in order to simulate them. Every virtual value inside (B) is supplied from the finite candidate assignment. Every requested virtual value outside (B) depends only on raw coordinates outside (B), because the recoding is a direct product of three-bit blocks. Those values can be exposed as zero-stake raw fillers.
+The current raw sentinel is not queried in order to simulate them. Every virtual value inside \(B\) is supplied from the finite candidate assignment. Every requested virtual value outside \(B\) depends only on raw coordinates outside \(B\), because the recoding is a direct product of three-bit blocks. Those values can be exposed as zero-stake raw fillers.
 
 Thus the status test is a genuine target-self-avoiding finite-information process.
 
@@ -46,9 +46,9 @@ The wtt use bound is used only correctly: each finite halt has finite oracle use
 
 ### 2. The trichotomy is exhaustive
 
-On the actual target block (v), all three computations halt correctly, so (v) is accepted.
+On the actual target block \(v\), all three computations halt correctly, so \(v\) is accepted.
 
-For the raw-adjacent companion (v+c_i), exactly one of the following occurs:
+For the raw-adjacent companion \(v+c_i\), exactly one of the following occurs:
 
 1. some computation halts wrong/nonbinary — finite refutation;
 2. all three halt correctly — acceptance;
@@ -62,21 +62,21 @@ Raw-adjacent decisiveness means only that Case C is absent.
 
 The P4-S039 code law gives
 
-[
-d_H(C_B)ge2.
-]
+\[
+d_H(C_B)\ge2.
+\]
 
 The raw flip columns are
 
-[
-c_0=111,qquad c_1=011,qquad c_2=101.
-]
+\[
+c_0=111,\qquad c_1=011,\qquad c_2=101.
+\]
 
-If all three companions were accepted, then both (v+c_0) and (v+c_1) would be in (C_B), yet
+If all three companions were accepted, then both \(v+c_0\) and \(v+c_1\) would be in \(C_B\), yet
 
-[
+\[
 (v+c_0)+(v+c_1)=c_0+c_1=100,
-]
+\]
 
 whose Hamming weight is one. Contradiction.
 
@@ -88,7 +88,7 @@ No completion of the whole eight-word code is used.
 
 Each scan performs only finite work between source queries:
 
-1. advance a fixed dovetail of the 24 candidate simulations for a finite number of machine steps;
+1. advance a fixed dovetail of the 24 candidate simulations for finitely many machine steps;
 2. inspect the finite simulation state for newly visible acceptance/refutation events;
 3. if its own pair has just resolved, query its still-fresh sentinel;
 4. otherwise query the next deterministic fresh filler.
@@ -105,11 +105,11 @@ The scans initially read different pairs of raw coordinates in the current targe
 
 Therefore the simulation schedule itself does not depend on knowing the withheld bit or on choosing the actual block assignment.
 
-Outside (B), all three scans see the same target raw source. They use the same deterministic outside-filler order. Hence after the same number of outside-filler rounds they have supplied exactly the same outside virtual oracle values to all 24 simulations.
+Outside \(B\), all three scans see the same target raw source. They use the same deterministic outside-filler order. Hence after the same number of outside-filler rounds they have supplied exactly the same outside virtual oracle values to all 24 simulations.
 
 The positive status of every finite candidate is therefore visible after the same outside-filler round in all three scans.
 
-One scan can close its sentinel earlier than another. That adds one query inside (B) but does not alter the outside oracle values or the outside-round count.
+One scan can close its sentinel earlier than another. That adds one query inside \(B\) but does not alter the outside oracle values or the outside-round count.
 
 Once all three target pairs have classified, every scan has closed its own sentinel and hence knows the whole block. Their outside queried sets are identical. The finite prefix-restoration sweep is therefore identical, and the next fresh block is common.
 
@@ -117,10 +117,10 @@ This validates the synchronization claim.
 
 ### 6. Every complete transcript has at most one hole
 
-Fix one scan (S^i).
+Fix one scan \(S^i\).
 
 **Own pair never resolves.**  
-The sentinel (x_i^{(B)}) remains unread. The other two raw coordinates of (B) were already queried. The scan continues enumerating every fresh coordinate outside (B). Hence the complete transcript omits exactly the sentinel.
+The sentinel \(x_i^{(B)}\) remains unread. The other two raw coordinates of \(B\) were already queried. The scan continues enumerating every fresh coordinate outside \(B\). Hence the complete transcript omits exactly the sentinel.
 
 **Own pair resolves, but synchronization never finishes.**  
 The sentinel is consumed. The scan continues enumerating all remaining fresh fillers. Hence the transcript is exhaustive.
@@ -134,15 +134,15 @@ Thus the global one-hole condition is verified on all branches, including branch
 
 At each output stage the scan queries one fresh source coordinate, and its identity is a computable function of earlier output bits.
 
-For any output word (	au) of length (m), the induced query sequence consists of (m) distinct source coordinates. The preimage of ([	au]) imposes exactly (m) independent fair-bit equations.
+For any output word \(\tau\) of length \(m\), the induced query sequence consists of \(m\) distinct source coordinates. The preimage of \([\tau]\) imposes exactly \(m\) independent fair-bit equations.
 
-Hence its measure is (2^{-m}).
+Hence its measure is \(2^{-m}\).
 
 Every constructed scan is therefore fair-coin preserving.
 
 ### 8. The target martingales succeed
 
-On (X), the actual raw endpoint is accepted.
+On \(X\), the actual raw endpoint is accepted.
 
 In Case A, the alternate endpoint is finitely refuted, so the accepted endpoint is the actual one. The all-in sentinel wager is correct.
 
@@ -154,10 +154,9 @@ That scan's computable martingale holds on all fillers and Case-B sentinels and 
 
 Thus under raw-adjacent decisiveness,
 
-[
-X
-otin OH.
-]
+\[
+X\notin OH.
+\]
 
 ### 9. Raw-adjacent decisiveness is genuinely weaker as a local halting requirement
 
@@ -167,40 +166,37 @@ The P4-S040 condition permits divergence in rejected companions and in all irrel
 
 A concrete self-avoiding local partial table shows the logical separation.
 
-Let the actual block be (000). Write the three local partial output functions as functions of the two *other* bits, which enforces self-avoidance.
+Let the actual block be \(000\). Write the three local partial output functions as functions of the two other bits, which enforces self-avoidance.
 
-Choose:
+Choose
 
-[
-f_0(0,0)=0,quad f_0(0,1)=0,quad f_0(1,1)=0,
-]
+\[
+f_0(0,0)=0,\quad f_0(0,1)=0,\quad f_0(1,1)=0,
+\]
 
-with (f_0(1,0)) undefined;
+with \(f_0(1,0)\) undefined;
 
-[
-f_1(0,0)=0,quad f_1(0,1)=0,
-]
+\[
+f_1(0,0)=0,\quad f_1(0,1)=0,
+\]
 
 with the remaining values optional/undefined; and
 
-[
+\[
 f_2(0,0)=0,
-]
+\]
 
-with, in particular, (f_2(1,1)) undefined.
+with, in particular, \(f_2(1,1)\) undefined.
 
-Then (000) is accepted.
+Then \(000\) is accepted.
 
 The raw-adjacent companions are:
 
-- (111): (f_0(1,1)=0
-e1), so it is finitely refuted;
-- (011): (f_1(0,1)=0
-e1), so it is finitely refuted;
-- (101): (f_0(0,1)=0
-e1), so it is finitely refuted.
+- \(111\): \(f_0(1,1)=0\ne1\), so it is finitely refuted;
+- \(011\): \(f_1(0,1)=0\ne1\), so it is finitely refuted;
+- \(101\): \(f_0(0,1)=0\ne1\), so it is finitely refuted.
 
-All three directions are decisive, while the (q_2)-computation on the (111) candidate diverges. Hence local sibling totality fails.
+All three directions are decisive, while the \(q_2\)-computation on the \(111\) candidate diverges. Hence local sibling totality fails.
 
 This validates that Theorem 5 uses materially weaker local completion data.
 
@@ -208,15 +204,15 @@ No claim is made that this table is the actual P4-S011 machine.
 
 ### 10. The Case-B same-block handoff obstruction is exact
 
-Two raw-adjacent endpoints differ by exactly (e_i) in raw coordinates.
+Two raw-adjacent endpoints differ by exactly \(e_i\) in raw coordinates.
 
 Therefore they agree exactly on the other two raw coordinates, and those were already read before classification.
 
 For the displayed matrix this matches the virtual pair certificates:
 
-- (c_0=111): the pair certifies (x_1,x_2);
-- (c_1=011): the pair certifies (x_0,x_2);
-- (c_2=101): the pair certifies (x_0,x_1).
+- \(c_0=111\): the pair certifies \(x_1,x_2\);
+- \(c_1=011\): the pair certifies \(x_0,x_2\);
+- \(c_2=101\): the pair certifies \(x_0,x_1\).
 
 No positively certified raw coordinate from the pair is still unread.
 
@@ -224,8 +220,7 @@ Thus the P4-S039 two-codeword certificate cannot by itself become the next prosp
 
 ### 11. The global no-double-reservation lemma is exact and appropriately limited
 
-If one complete scan transcript leaves sentinel (j) unread forever and another coordinate (k
-e j) were also never queried, that transcript would omit at least two raw coordinates.
+If one complete scan transcript leaves sentinel \(j\) unread forever and another coordinate \(k\ne j\) were also never queried, that transcript would omit at least two raw coordinates.
 
 The scan fibre would then contain at least four raw sources, contradicting global one-hole.
 
@@ -253,13 +248,13 @@ For any **fixed finite** set of input indices, additional companion computations
 
 But a wtt use bound is forward information:
 
-[
-nmapsto u(n).
-]
+\[
+n\mapsto u(n).
+\]
 
-It bounds the oracle coordinates used by each fixed (M(n)).
+It bounds the oracle coordinates used by each fixed \(M(n)\).
 
-It does not bound the set of all inputs (n) whose computations may inspect one of the finitely changed block coordinates. Infinitely many (n) may have use extending beyond that block.
+It does not bound the set of all inputs \(n\) whose computations may inspect one of the finitely changed block coordinates. Infinitely many \(n\) may have use extending beyond that block.
 
 Therefore the record supplies no computably finite reverse dependency closure whose total verification would settle global companion consistency.
 
@@ -271,29 +266,27 @@ The committed P4-S011 authority supplies target correctness, syntactic self-avoi
 
 It does not say that every raw-adjacent companion is either accepted or finitely refuted on the P4-S040 synchronized blocks.
 
-Therefore Theorem 5 cannot be applied unconditionally to the actual (X).
+Therefore Theorem 5 cannot be applied unconditionally to the actual \(X\).
 
 The settled facts remain
 
-[
-Xin CR,qquad H(X)=Y
-otin OH.
-]
+\[
+X\in CR,\qquad H(X)=Y\notin OH.
+\]
 
 P4-S040 proves neither
 
-[
-X
-otin OH
-]
+\[
+X\notin OH
+\]
 
 for the actual committed witness nor
 
-[
-Xin OH.
-]
+\[
+X\in OH.
+\]
 
-No OH non-invariance and no strict (R_2subsetneq OH) conclusion follows.
+No OH non-invariance and no strict \(R_2\subsetneq OH\) conclusion follows.
 
 ## Validation disposition
 
@@ -307,9 +300,9 @@ The precise surviving obstruction is divergence-only raw-adjacent partiality. Ca
 
 The sustained equation
 
-[
-R_2=OH;?
-]
+\[
+R_2=OH\;?
+\]
 
 remains unresolved.
 
