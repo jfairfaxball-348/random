@@ -518,7 +518,13 @@ This computes a strictly increasing sequence
 
 of already certified A targets.
 
-A faithful scan can use \(B_{b_e}\) as its next target and choose the pre-certified role \(i_e\). On the computable structural target the A certificate is guaranteed to appear, so every epoch closes correctly and the scan proceeds forever with infinitely many A wagers. On arbitrary transcripts, if a selected status fails to resolve, the usual background sweep leaves only its current sentinel, so the scan remains globally one-hole.
+Because \(Z\) and \(N\) are computable, the finite certificate time of each enumerated A pair is also computable once that pair is found. Build a faithful moving-reservation scan as follows.
+
+At target \(B_{b_e}\), choose the pre-certified role \(i_e\). Arrange the reservation schedule so that the next pre-certified block \(B_{b_{e+1}}\) is active throughout the known finite target certificate window for \(B_{b_e}\). On \(Z\), the A certificate appears inside that window, so \(B_{b_{e+1}}\) is frozen and becomes the next target.
+
+On an arbitrary off-target transcript, if the expected certificate has not appeared by the end of that finite window, consume \(B_{b_{e+1}}\) at zero stake and continue with ordinary transient farther reservations while keeping only the current sentinel permanent. Thus the scan remains globally one-hole even when the structural-target timing fails off target.
+
+On \(Z\), every epoch closes correctly and the scan proceeds forever with infinitely many A wagers.
 
 Thus a post-construction computable selector escapes every proposed universal evasion model having infinitely many visible A blocks. ∎
 
