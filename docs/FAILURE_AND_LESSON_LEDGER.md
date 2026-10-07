@@ -1156,3 +1156,23 @@ Correct guard: do not respond by shrinking stakes and hoping for a second-order 
 Correct next move: the actual witness cannot be normalized by an ordinary raw martingale without contradicting \(X\in CR\). To advance the sustained \(R_2=OH\) target, test direct **raw one-hole** simulation of the coded persistent claims instead.
 
 Compiler failure still does not prove \(X\in OH\) or OH non-invariance.
+
+## FL-086 — exact coded-hole rank and same-source vulnerability are different questions
+
+Session: P4-S039
+Date: 2026-10-07
+Status: **DURABLE ONE-HOLE NORMALIZATION LESSON**
+
+A virtual unit sentinel under the displayed three-bit source recoding cannot be represented by one omitted raw coordinate. The exact raw support costs are \(2,2,3\), and a fresh raw hole in a later block cannot transport the old affine ambiguity.
+
+That exact-simulation obstruction is not a vulnerability obstruction.
+
+For the actual P4-S011 autoreduction \(M\), the simultaneous locally correct three-bit assignments form a c.e. binary code of minimum Hamming distance at least two. For the displayed matrix every such code fixes some raw coordinate after \(A^{-1}\). Thus the finite algebra is positively informative: if the local code can be completed, a raw bit is available.
+
+The remaining trap is **c.e. singleton completion under a preselected raw target**. For the two affine hypotheses determined by withholding one raw coordinate, the alternate endpoint may be finitely rejected, fully self-consistent, or non-self-consistent only because a sibling computation diverges. A wtt use bound controls oracle locations but does not decide this last halting question.
+
+Correct guard: do not infer \(X\in OH\) from the \(2,2,3\) exact-simulation cost, and do not infer a raw destroyer merely because the full local code semantically fixes a coordinate. A one-hole stake must choose its raw target before reading it and must have a finite positive reason to progress.
+
+Positive boundary: local sibling totality of the finite 24-computation block family makes the consistency code computable and yields a genuine same-source raw one-hole destroyer.
+
+Correct next move: study online extraction from the c.e. local code / raw-adjacent companion relation, not another raw-martingale pricing compiler.
