@@ -595,3 +595,34 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S046**, determine whether prospective Case-A evidence for the actual committed autoreduction can be obtained without opening the future raw target, and whether such freshness-preserving certification edges can be chained into one selector.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Latest mathematics — P4-S046
+
+P4-S046 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+The live certificate problem now has a sharp local theorem. Target correctness and syntactic self-avoidance imply that the three raw differences
+\[
+110,\qquad101,\qquad111
+\]
+which correspond to one-coordinate virtual flips are automatically finitely rejected.
+
+Consequently every actual Case-A raw prediction has same-block freshness cost at most one:
+\[
+A_0:\kappa=0,\qquad
+A_1:\kappa\le1,\qquad
+A_2:\kappa\le1.
+\]
+The common raw diagonal \(011\), virtual difference \(110\), is the only extra finite-rejection obstruction to block-free \(A_1/A_2\).
+
+Explicit block-local \(CAC/CCA\) structural gadgets show that exact cost one can recur with visible A and nontriple \(C_0\). Thus same-block access is a real obstruction distinct from certificate-time delay.
+
+The remaining problem is global one-hole compatibility. Even a cost-zero future certificate can require outside source support containing the current open sentinel. The new target is therefore **current-hole-uniform future A certification**.
+
+No separation is proved. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S047**, branch future certificates over both values of the current open sentinel and determine whether one-hole-safe certification edges recur effectively.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
