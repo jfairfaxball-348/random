@@ -310,7 +310,7 @@
         },
         "one_hole_normalization_seventh_step_result": {
           "session": "P4-S039",
-          "result": "ONE_RAW_HOLE_IS_AN_AFFINE_ONE_BIT_STATE_LOCAL_AUTOREduction_CODES_FIX_A_RAW_COORDINATE_LOCAL_SIBLING_TOTALITY_YIELDS_A_RAW_ONE_HOLE_DESTROYER_AND_CE_SINGLETON_COMPLETION_REMAINS",
+          "result": "ONE_RAW_HOLE_IS_AN_AFFINE_ONE_BIT_STATE_LOCAL_AUTOREDUCTION_CODES_FIX_A_RAW_COORDINATE_LOCAL_SIBLING_TOTALITY_YIELDS_A_RAW_ONE_HOLE_DESTROYER_AND_CE_SINGLETON_COMPLETION_REMAINS",
           "target_equation": "R_2 = OH ?",
           "target_resolved": false,
           "one_raw_hole_affine_state": "u = a + h A e_i",
