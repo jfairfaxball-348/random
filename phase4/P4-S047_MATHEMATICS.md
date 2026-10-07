@@ -5,7 +5,7 @@ Session: P4-S047
 Incoming checkpoint: 751ce6dbf35c2ea4e34e02280e31ddeaab8871d1
 Scope: Phase 4 — Mathematics; sustained one-hole normalization after coded recoding
 
-Result: **CURRENT-HOLE BRANCHING IS FINITE AND EFFECTIVE: THE UNREAD OLD SENTINEL GIVES EXACTLY TWO COUNTERFACTUAL SOURCE COMPLETIONS, WITH SAFE CURRENT VIRTUAL ROWS \(\varnothing,\{u_0\},\{u_1\}\) FOR RAW ROLES \(0,1,2\). A FUTURE SLICE CERTIFICATE IS AUTOMATICALLY CURRENT-HOLE-UNIFORM WHEN ITS FINITE REJECTION TRACES AVOID THE HOLE-DEPENDENT OLD ROWS. MORE GENERALLY, TWO-BRANCH FUTURE FIXEDNESS RESTORES THE P4-S046 AUTOMATIC UNIT-FLIP REJECTIONS IN BOTH OLD-HOLE BRANCHES, SO \(A_0,A_1,A_2\) RETAIN LOCAL COST \(0,1,1\) UNDER A PRECISE BRANCH-FIXEDNESS HYPOTHESIS. SELF-AVOIDANCE ALONE DOES NOT FORCE THIS. FOR EVERY CURRENT RAW ROLE AND EVERY FUTURE A ROLE THERE IS A COMPUTABLE FINITE-USE SYNTACTICALLY SELF-AVOIDING STRUCTURAL \(0^\omega\) MODEL WHICH GATES THE FUTURE A WITNESS THROUGH ONE OLD HOLE-DEPENDENT VIRTUAL ROW: THE TRUE BRANCH HAS THE SAME VISIBLE A AND THE SAME P4-S046 LOCAL COST, WHILE THE ALTERNATE OLD-HOLE BRANCH MAKES EVERY RELEVANT FUTURE LOCAL COMPUTATION DIVERGE. THUS LOW LOCAL COST CAN COEXIST WITH UNAVOIDABLE OLD-HOLE DEPENDENCE, NO ROLE-ONLY CURRENT-HOLE-UNIFORM TRANSITION MATRIX IS FORCED, AND FINITE USE DOES NOT FORCE INFINITELY MANY FUTURE A CANDIDATES OUTSIDE THE OLD-HOLE COLLISION SET. AN INFINITE COMPUTABLE PATH OF CURRENT-HOLE-UNIFORM USABLE EDGES WOULD STILL GIVE \(X\notin OH\), BUT NO SUCH PATH IS FORCED FOR THE COMMITTED SOURCE. FAILURE OF UNIFORMITY DOES NOT ITSELF EXPOSE THE CURRENT BIT OR PROVE \(X\in OH\).**
+Result: **CURRENT-HOLE BRANCHING IS FINITE AND EFFECTIVE: THE UNREAD OLD SENTINEL GIVES EXACTLY TWO COUNTERFACTUAL SOURCE COMPLETIONS, WITH SAFE CURRENT VIRTUAL ROWS \(\varnothing,\{u_0\},\{u_1\}\) FOR RAW ROLES \(0,1,2\). A FUTURE SLICE CERTIFICATE IS AUTOMATICALLY CURRENT-HOLE-UNIFORM WHEN ITS FINITE REJECTION TRACES AVOID THE HOLE-DEPENDENT OLD ROWS. MORE GENERALLY, TWO-BRANCH FUTURE FIXEDNESS RESTORES THE P4-S046 AUTOMATIC UNIT-FLIP REJECTIONS IN BOTH OLD-HOLE BRANCHES, SO \(A_0,A_1,A_2\) RETAIN LOCAL COST \(0,1,1\) UNDER A PRECISE BRANCH-FIXEDNESS HYPOTHESIS. SELF-AVOIDANCE ALONE DOES NOT FORCE THIS. FOR EVERY CURRENT RAW ROLE AND EVERY FUTURE A ROLE THERE IS A COMPUTABLE FINITE-USE SYNTACTICALLY SELF-AVOIDING STRUCTURAL \(0^\omega\) MODEL WHICH GATES THE FUTURE A WITNESS THROUGH ONE OLD HOLE-DEPENDENT VIRTUAL ROW: THE TRUE BRANCH HAS THE SAME VISIBLE A AND THE SAME P4-S046 LOCAL COST, WHILE THE ALTERNATE OLD-HOLE BRANCH MAKES EVERY RELEVANT FUTURE LOCAL COMPUTATION DIVERGE. THUS LOW LOCAL COST CAN COEXIST WITH UNAVOIDABLE OLD-HOLE DEPENDENCE, NO ROLE-ONLY CURRENT-HOLE-UNIFORM TRANSITION MATRIX IS FORCED, AND FINITE USE DOES NOT FORCE INFINITELY MANY FUTURE A CANDIDATES OUTSIDE THE OLD-HOLE COLLISION SET. AN INFINITE COMPUTABLE PATH OF CURRENT-HOLE-UNIFORM USABLE EDGES WOULD STILL GIVE \(X\notin OH\), BUT NO SUCH PATH IS FORCED FOR THE COMMITTED SOURCE. MERE FAILURE OF UNIFORMITY DOES NOT ITSELF EXPOSE THE CURRENT BIT OR PROVE \(X\in OH\). HOWEVER ANY FINITE WRONG/NONBINARY EQUATION UNDER ONE OLD-HOLE COMPLETION ELIMINATES THAT COMPLETION. A CANONICAL GLOBAL-REFUTATION ONE-HOLE SCAN THEREFORE SHOWS THAT HYPOTHETICAL \(X\in OH\) MUST EVENTUALLY REACH A FALSE RAW-RADIUS-ONE COMPLETION WHICH IS A PARTIAL FIXED POINT OF \(M\): EVERY HALT IS CORRECT AND ONLY DIVERGENCE CAN HIDE THE FALSE BRANCH.**
 
 ## Authority, uniqueness and frozen scope
 
@@ -583,6 +583,132 @@ No such elimination follows from the mere statement
 
 Therefore P4-S047 obtains no direct computable-randomness contradiction from branch nonuniformity and does not reopen a generic martingale compiler.
 
+
+## 10A. Global branch refutation predicts the current sentinel
+
+The preceding guard can be sharpened into a source-side extraction theorem.
+
+### Definition 10A — partial fixed-point completion
+
+For a current raw completion \(h\), call \(Y^{[h]}\) a **partial fixed point** of \(M\) when, for every input \(n\),
+
+\[
+M^{Y^{[h]}}(n)\downarrow
+\quad\Longrightarrow\quad
+M^{Y^{[h]}}(n)=Y^{[h]}(n)\in\{0,1\}.
+\]
+
+Thus every defined equation is correct. Divergence is allowed.
+
+The actual completion is a total fixed point because \(M^Y(n)=Y(n)\) for every \(n\).
+
+### Lemma 10B — finite branch refutation exposes the old bit
+
+Suppose, while raw sentinel \(s=(b,i)\) is unread, there are \(h\in\{0,1\}\) and an input \(n\) such that
+
+\[
+M^{Y^{[h]}}(n)\downarrow
+\]
+
+with either a nonbinary output or an output different from \(Y^{[h]}(n)\).
+
+Then \(h\) is not the actual current raw bit. Hence
+
+\[
+X(s)=1-h.
+\]
+
+Moreover this conclusion is positively discoverable without querying \(s\).
+
+#### Proof
+
+The actual branch is \(Y\), and target correctness gives
+
+\[
+M^Y(n)\downarrow=Y(n)\in\{0,1\}.
+\]
+
+Therefore an \(h\)-branch wrong/nonbinary halt proves that branch cannot be the actual source completion.
+
+To discover the event, dovetail the two candidate computations. When a simulation queries the old block, answer from the finite \(h\)-hypothesis. Every other virtual oracle value can be obtained from raw coordinates outside \(s\). The expected bit \(Y^{[h]}(n)\) is also computable from the same legal data: if \(n\) lies in the old block use the finite completion; otherwise its raw support is disjoint from \(s\).
+
+Thus no live query of the current sentinel is required. ∎
+
+This is strictly stronger than observing that one future A-certificate search succeeds and another diverges. The latter may contain no wrong equation for either current completion.
+
+### Theorem 10C — canonical global-refutation one-hole scan
+
+There is a total computable adaptive no-repeat one-hole scan \(S_{\rm ref}\) with the following target behavior.
+
+At each epoch:
+
+1. choose the least fresh raw coordinate \(s\) as the current sentinel;
+2. query no value of \(s\);
+3. dovetail, for both \(h=0,1\) and all inputs \(n\), the computations
+   \[
+   M^{Y^{[h]}}(n);
+   \]
+4. answer old-block virtual queries from the finite \(h\)-hypothesis and acquire every other required raw value live;
+5. simultaneously perform a least-fresh zero-stake sweep of all raw coordinates other than \(s\);
+6. if Lemma 10B produces a finite refutation of branch \(h\), bet all current capital on
+   \[
+   X(s)=1-h,
+   \]
+   query \(s\), and start the next epoch at the least fresh coordinate.
+
+If no branch refutation ever appears, the current epoch continues forever and the sweep queries every raw coordinate except \(s\).
+
+Hence every complete transcript omits at most one raw coordinate.
+
+On the actual \(X\), at most the false branch can be finitely refuted. Every wager made by \(S_{\rm ref}\) is therefore correct.
+
+If every target epoch resolves, the associated computable output martingale doubles once per epoch and succeeds.
+
+Consequently
+
+\[
+X\in OH
+\Longrightarrow
+\text{the target run of }S_{\rm ref}\text{ eventually reaches an unresolved epoch}.
+\]
+
+At that unresolved epoch the false raw-radius-one completion is a partial fixed point of \(M\).
+
+#### Proof
+
+Computability and no-repeat follow by caching every queried raw coordinate and interleaving the universal dovetail with the least-fresh sweep.
+
+If an epoch never resolves, the sweep eventually consumes every raw coordinate other than the sentinel, so the resulting complete transcript has exactly one hole.
+
+If an epoch resolves, the sentinel is consumed and the least-fresh choice ensures progress. On an infinite sequence of resolved epochs every coordinate is eventually queried.
+
+Fair-coin preservation is the settled no-repeat scan fact: every output cylinder fixes the same number of distinct fair source bits.
+
+Lemma 10B makes every nonzero wager correct. If all epochs resolve, capital doubles infinitely often. Therefore a source in \(OH\) cannot have all epochs resolve.
+
+At the first unresolved target epoch, neither \(h\)-completion has any finite wrong/nonbinary equation. The actual completion is total correct. Hence the other, false completion is a partial fixed point. ∎
+
+### Corollary 10D — the surviving old-hole sensitivity is divergence-only at the global equation level
+
+Along the canonical refutation scan, a hypothetical
+
+\[
+X\in OH
+\]
+
+forces a current raw-radius-one neighbour \(Z\) of \(Y\) such that
+
+\[
+M^Z(n)\downarrow\Longrightarrow M^Z(n)=Z(n)
+\]
+
+for every \(n\), while \(M^Z\) may be partial.
+
+Thus finite wrong-halt sensitivity is harvestable. The genuinely surviving source-side obstruction is a false completion which is globally self-consistent wherever defined and can differ from the actual source only through divergence / nontermination of equations.
+
+This does not prove \(X\in OH\). It gives a sharper necessary obstruction under that hypothesis.
+
+
 ## 11. The current-hole-uniform certification graph
 
 Refine the P4-S046 usable certification graph.
@@ -719,7 +845,7 @@ A hypothetical \(X\in OH\) can survive this line only if every computable attemp
 
 ## 14. Next bounded target
 
-P4-S048 should attack **persistent old-hole sensitivity on the actual committed source**, not repeat generic support enumeration.
+P4-S048 should attack **persistent partial-fixed-point old-hole sensitivity on the actual committed source**, not repeat generic support enumeration.
 
 For a current sentinel \(s\), classify future A computations according to whether the two old-hole completions:
 
