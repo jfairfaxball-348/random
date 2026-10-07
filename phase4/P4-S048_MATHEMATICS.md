@@ -436,8 +436,13 @@ Thus one fixed old row can remain the first-contact divergence gate for infinite
 4. The target branch still has recurrent visible \(A_j\) with local cost \(0,1,1\).
 5. On the false old-hole branch, every local computation on the future raw-adjacent candidate \(x^{(c)}+e_j\) diverges.
 6. Hence \(R_j^{Z_*}(c)\) fails purely by candidate-level divergence on every designated future block.
+7. Each doubly perturbed oracle
+   \[
+   Z_{*,c,j}=Z_*\oplus c_j^{(c)}
+   \]
+   is itself a global partial fixed point: every input in the perturbed future block diverges, while every halt outside that block remains correct.
 
-Therefore two-branch fixedness of the false neighbour does not force compatible two-branch raw-adjacent A rejection.
+Therefore two-branch fixedness of the false neighbour does not force compatible two-branch raw-adjacent A rejection. In fact one total fixed false neighbour can have infinitely many distinct future one-raw-flip partial-fixed neighbours even though the corresponding actual-branch candidates are finitely refuted.
 
 #### Construction
 
@@ -506,7 +511,7 @@ Target correctness, syntactic self-avoidance, computable finite use, global part
 
 Family F shows that one fixed old changed row may gate infinitely many listed target equations while the old support itself is already closed into a correct cycle.
 
-Family R shows something strictly different: even a false neighbour which is a total global fixed point need not preserve the raw-adjacent future A rejection.
+Family R shows something strictly different: even a false neighbour which is a total global fixed point need not preserve the raw-adjacent future A rejection. Moreover its recurrent doubly perturbed raw-adjacent candidates form an infinite partial-fixed-point star around that total false neighbour.
 
 Both models are structural only. Their target is computable, not computably random. They do not settle the committed source.
 
