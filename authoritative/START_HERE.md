@@ -551,3 +551,24 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S044**, formalize the computable wtt horizon and test whether it yields a finite fresh-lane/online-selector theorem converting ambient recurrent A witnesses into witnesses reached by one computable one-hole scan.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Latest mathematics — P4-S044
+
+P4-S044 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+The actual wtt use bound now gives a precise positive fact. For block \(B_b\), all source values that can affect any local raw-adjacent A/B/C test lie below one computable raw horizon \(h(b)\). Once those values are exposed, no future source bit matters to the local test.
+
+What remains is not value dependence but time. A sibling wrong halt or acceptance may still appear arbitrarily late. A globally one-hole scan cannot protect both the current unresolved sentinel and one fixed future sentinel for that entire unbounded wait on a Case-C continuation. One must eventually be consumed. Hence a moving reservation can keep the scan legal, but the next target remains selected by certificate time.
+
+The dependency intervals \(I_b=[b,h(b))\) have a finite computable lane cover exactly when their overlap depth is uniformly bounded. Wtt finiteness alone does not force this, and countably many lanes do not turn ambient recurrence into scan-reachable recurrence.
+
+A structural finite-use \(0^\omega\) model realizes unbounded horizon overlap together with recurrent nontriple C and visible A witnesses, so no finite-lane or finite-race selector theorem follows from machine geometry alone.
+
+No separation is proved. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S045**, use source-specific facts about the actual computably random wtt-autoreducible \(Y\) to test whether Case-A certificate times have enough selector thickness to force one computable moving-reservation scan to harvest infinitely many A witnesses.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
