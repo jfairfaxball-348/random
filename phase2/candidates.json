@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S045",
+  "last_updated_session": "P4-S046",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S045",
-      "record_path": "phase4/P4-S044_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S046",
+      "record_path": "phase4/P4-S046_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -549,6 +549,47 @@
           "class_OH_iso_preserved": true,
           "next_question": "one-hole-compatible future A-certificate access and pre-certification for the actual committed autoreduction",
           "next_session": "P4-S046",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_fourteenth_step_result": {
+          "session": "P4-S046",
+          "result": "CASE_A_SAME_BLOCK_FRESHNESS_COST_AT_MOST_ONE_COMMON_011_DIAGONAL_CONTROLS_BLOCK_FREE_A1_A2",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "certificate_support_formalized": true,
+          "local_freshness_cost_formalized": true,
+          "automatic_unit_virtual_flip_rejections": true,
+          "automatic_raw_differences": [
+            "110",
+            "101",
+            "111"
+          ],
+          "A0_block_free": true,
+          "A1_local_cost_upper": 1,
+          "A2_local_cost_upper": 1,
+          "case_A_cost_two_needed": false,
+          "common_block_free_obstruction": "raw 011 / virtual 110 diagonal",
+          "exact_cost_one_structural_gadgets": [
+            "CAC",
+            "CCA"
+          ],
+          "structural_target": "0^omega",
+          "support_only_A_forced": false,
+          "same_block_access_independent_of_timing": true,
+          "B_assisted_A0_local_cost_reduction": false,
+          "block_free_implies_open_hole_safe": false,
+          "certification_graph_defined": true,
+          "infinite_computable_usable_path_implies_raw_destroyer": true,
+          "actual_usable_path_constructed": false,
+          "actual_raw_one_hole_destroyer_constructed": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "current-hole-uniform future A certification and outside-support collision",
+          "next_session": "P4-S047",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
@@ -1610,8 +1651,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S046",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack future Case-A certificate access cost for the actual recoded P4-S011 source. Determine whether prospective A evidence can be acquired without consuming or indefinitely protecting the future raw target, and whether such one-hole-compatible certification edges compose into an infinite selector. Do not return to generic certificate-time bounds, the frozen bankroll/backward-price routes, ordinary raw-martingale compilation, ambiguity mass, general radius-one totalization or local status enumeration.",
+  "recommended_next_session": "P4-S047",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: attack current-hole-uniform future A certification. Use the P4-S046 one-bit local-cost theorem, branch prospective future certificates over both values of the current open sentinel, and test whether outside-support collisions can be avoided while preserving the future sentinel and a total one-hole fallback. Do not reopen generic timing-modulus, bankroll/backward-price, ordinary martingale-compilation, ambiguity-mass, general totalization or local-status-enumeration routes.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
