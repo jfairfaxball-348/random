@@ -1293,3 +1293,53 @@ For each fixed recurrent C direction, legal nontriple patterns can alternately e
 The P4-S041 pairwise law is complete and P4-S040 synchronization is no longer the issue.
 
 **Lesson:** future work should use the actual computable wtt horizon to test whether recurrent A witnesses can be placed on a computable fresh lane or reached by a transient one-hole-compatible race. Failure of such selectors remains an obstruction, not a proof of \(X\in OH\).
+
+## P4-S044 — value-horizon selector failures and lessons
+
+### Failed route: finite wtt use gives a fixed next fresh block
+
+The use bound does close all source-value dependence for a local A/B/C test, but it does not bound the time at which a finite A/B certificate appears.
+
+**Lesson:** a wtt value horizon is not a certificate-time horizon.
+
+### Failed route: protect one future block while waiting forever on the current sentinel
+
+On a no-event continuation, protecting the current sentinel and a different future sentinel forever would leave at least two holes.
+
+**Lesson:** either the current role or the fixed future target must be abandoned at finite time. Moving reservations are legal, but they make the next target event-time dependent.
+
+### Failed route: finite use implies finitely many fresh lanes
+
+For \(I_b=[b,h(b))\), finitely many lanes exist exactly when interval-overlap depth is uniformly bounded. Each \(h(b)\) being finite does not imply this.
+
+**Lesson:** \(h(b)=2b+2\) is already a computable finite-use unbounded-overlap geometry. Do not infer a finite coloring from pointwise finiteness.
+
+### Failed route: countably many lanes recover recurrence
+
+A computable countable lane decomposition always exists, but an infinite recurrent set may meet each lane only finitely often.
+
+**Lesson:** countable pigeonhole is invalid here. A real concentration/thickness hypothesis is needed.
+
+### Failed route: burn support at zero stake but preserve it as a later target
+
+A legal local computation may request a future \(u_2\) value, which on a fresh raw block can require all three raw coordinates.
+
+**Lesson:** support reuse is opportunistic, not forced by the use cap.
+
+### Failed route: transient two- or three-sentinel races beat Case C without a time bound
+
+On the all-C continuation, all but at most one candidate must eventually be consumed. Those finite consumption times can be outrun by arbitrarily delayed finite A certificates using the same bounded oracle values.
+
+**Lesson:** temporary extra unread coordinates do not supply a rate-free selector theorem.
+
+### Structural sharpness
+
+A computable finite-use self-avoiding model on \(0^\omega\) can prepend ignored far \(u_2\) queries to the P4-S043 nontriple \(C_0\) gadgets. This makes the genuine horizon \(h(b)=2b+2\) while preserving visible A witnesses and finite-family trapping.
+
+**Lesson:** finite use, self-avoidance, recurrent nontriple C and visible A do not by themselves force a fresh-lane selector.
+
+### New positive lesson: the remaining issue is certificate-time selector thickness
+
+The value footprint is no longer the mystery.
+
+**Lesson:** future work must use source-specific structure—especially computable randomness and target-total wtt autoreducibility—to ask whether late sibling A certificates can systematically evade every computable moving-reservation selector. Failure to prove such thickness remains an obstruction, not a proof of \(X\in OH\).
