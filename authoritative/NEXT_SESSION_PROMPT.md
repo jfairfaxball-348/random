@@ -1,197 +1,263 @@
-# Next Session Prompt — P4-S038
+# Next Session Prompt — P4-S039
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S038. Treat committed repository state as authoritative. Pin live main at the exact P4-S037 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S038 is unique, and read P4-S001 through P4-S037, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, phase4/P4-S032_MATHEMATICS.md, phase4/P4-S033_MATHEMATICS.md, phase4/P4-S034_MATHEMATICS.md, phase4/P4-S035_MATHEMATICS.md, phase4/P4-S036_MATHEMATICS.md, and phase4/P4-S037_MATHEMATICS.md.
+Run only Phase 4 — Mathematics session P4-S039. Treat committed repository state as authoritative. Pin live main at the exact P4-S038 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S039 is unique, and read P4-S001 through P4-S038, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, phase4/P4-S032_MATHEMATICS.md, phase4/P4-S033_MATHEMATICS.md, phase4/P4-S034_MATHEMATICS.md, phase4/P4-S035_MATHEMATICS.md, phase4/P4-S036_MATHEMATICS.md, phase4/P4-S037_MATHEMATICS.md, and phase4/P4-S038_MATHEMATICS.md.
 
 ## Sustained Phase-4 target — one-hole normalization after coded recoding
 
-Freeze all validated mathematics through P4-S037. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence unless it becomes necessary for the theorem below.
+Freeze all validated mathematics through P4-S038. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence unless it becomes necessary for the theorem below.
 
 Retain
-[
-R_2={xin CR:	ext{every total computable fair-coin-preserving global-k=2 map sends }x	ext{ to }CR},
-]
-[
-OH={xin CR:	ext{every total computable adaptive no-repeat one-hole scan sends }x	ext{ to }CR},
-]
+
+\[
+R_2=\{x\in CR:\text{every total computable fair-coin-preserving global-}k=2\text{ map sends }x\text{ to }CR\},
+\]
+
+\[
+OH=\{x\in CR:\text{every total computable adaptive no-repeat one-hole scan sends }x\text{ to }CR\},
+\]
+
 and
-[
-OH^{iso}={xin CR:	ext{every computable fair-coin-preserving homeomorphism }H	ext{ sends }x	ext{ into }OH}.
-]
+
+\[
+OH^{iso}=\{x\in CR:\text{every computable fair-coin-preserving homeomorphism }H\text{ sends }x\text{ into }OH\}.
+\]
 
 The current inclusions remain
-[
-MLRsubseteq R_2subseteq OH^{iso}subseteq OHsubsetneq CR.
-]
+
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
 
 The displayed repeated three-bit source recoding remains
-[
-u_0=x_0oplus x_2,qquad
-u_1=x_0oplus x_1,qquad
-u_2=x_0oplus x_1oplus x_2.
-]
 
-P4-S034 reduces destruction through this (H) to unbounded gain on spoiled stages. P4-S035 isolates infinite cross-block delayed choice. P4-S036 proves arbitrary computably finite closed packets harmless and selects backward fair pricing. P4-S037 now removes the two simplest infinite-component obstructions.
+\[
+u_0=x_0\oplus x_2,\qquad
+u_1=x_0\oplus x_1,\qquad
+u_2=x_0\oplus x_1\oplus x_2,
+\]
 
-1. P4-S037 formalizes a finite open-claim frontier containing only finite computable data: active spoiled claims, finite virtual control state, already raw-known parities, and the next unopened blocks. No eventual halt/divergence or limiting price is hidden in the state.
+with inverse
 
-2. **Effective fresh-frontier renewal is sufficient.** If a computably finite transition retires all old claims and hands off only to new virtually unseen fair parities, the normalized continuation price averages to one and disappears exactly from the previous backward step.
+\[
+x_0=u_0\oplus u_1\oplus u_2,\qquad
+x_1=u_0\oplus u_2,\qquad
+x_2=u_1\oplus u_2.
+\]
 
-3. Combined with the P4-S036 persistent-savings martingale, this produces one total computable raw martingale. No uniform positive lower bound or price-ratio bound is needed.
+Let \(Y\) be the settled P4-S011 computably random wtt-autoreducible source, let \(D\) be its one-hole destroyer, and put
 
-4. The explicit P4-S035 one-pending-parity directed ray therefore normalizes. Its finite-horizon normalized backward price vector stabilizes after one backward renewal step.
+\[
+X=H^{-1}(Y).
+\]
 
-5. The concrete P4-S036 rank-one infinite overlap architecture also normalizes. Hence neither a directed infinite ray nor an infinite symmetrized interaction component is by itself the obstruction.
+Settled facts remain
 
-6. Bounded open-claim width plus finite computable frontier state is not sufficient. The recoded P4-S011 witness has only one active nonzero sentinel claim at a time.
+\[
+X\in CR,\qquad H(X)=Y\notin OH.
+\]
 
-7. Uniform positivity and bounded local price ratios are also insufficient. Replacing the P4-S011 all-in sentinel wager by fixed fractional stake (1/2) still succeeds on the target, while the locally triggered price vector is of ((3/2,1/2))-type and has condition number at most (3).
+The missing source-side statement is whether \(X\in OH\).
 
-8. The P4-S011 wtt use bound makes each sentinel's **source-value dependence** finite. It does not make claim retirement effective. After the finite value-use frontier is exposed, a fixed sibling computation can remain open through arbitrarily many irrelevant fillers; finite simulation cannot certify divergence.
+## P4-S038 boundary to retain
 
-9. At event level the P4-S011 claim process is acyclic and has no recurrent claim cycle. The committed abstract autoreduction does not force a classification of the coarse block quotient as a directed ray rather than overlapping finite closures, and P4-S037 shows that graph distinction is not decisive anyway.
+P4-S038 closes the most direct persistent-price refinements.
 
-10. More generally, effective Cauchy stabilization of the **absolute** backward prices of the P4-S036 persistent-savings martingale is sufficient for a raw compiler.
+1. After a P4-S011 sentinel's computable wtt value-use frontier is exhausted, all source values affecting the fixed computation are known, but claim retirement may remain only c.e.
 
-11. No computably random (Xin OH) with (H(X)
-otin OH) is proved. For the recoded P4-S011 source only (Xin CR) is established. No (R_2subsetneq OH) conclusion is available.
+2. For the half-stake witness the normalized persistent price is exactly
 
-## P4-S038 bounded task — persistent-frontier retirement and the c.e. price jump
+\[
+(1,1)\longrightarrow(3/2,1/2)
+\]
 
-Attack only the persistent single-claim obstruction selected by P4-S037.
+or its reversal, with at most one jump.
 
-### 1. Formalize source-value closure versus claim retirement
+3. For any fixed positive jump, a computable retirement deadline, eventual-constancy modulus, Cauchy modulus, exact limiting price, or semidecision of permanent nontriggering collapses to deciding whether the jump ever occurs.
 
-For one recoded P4-S011 epoch, work after the computable wtt value-use frontier has been exhausted.
+4. The actual recoded P4-S011 family has no such uniform trigger/nontrigger decision or stabilization modulus. Its absolute persistent-savings backward prices also have no uniform computable Cauchy modulus. No halting-set completeness claim is made.
 
-Separate exactly:
+5. A distinct positive compiler is available. If unresolved fractional stakes satisfy a computable finite multiplicative uncertainty budget
 
-- all source bits which can affect the oracle computation have already been fixed;
-- the sentinel parity may already be raw-determined;
-- the virtual controller still has not seen a halting computation;
-- future filler **values** are irrelevant to the computation;
-- but future finite simulation time may reveal a halt.
+\[
+\prod_{e<n}(1+r_e)\le K,
+\]
 
-Define the persistent frontier without smuggling in whether the fixed computation eventually halts.
+then the worst possible orientation can be prepaid, giving a total computable raw supermartingale and hence a martingale cover even when retirement is only c.e.
 
-State precisely what it means for the claim's value-dependence to be closed while its retirement time remains only c.e.
+6. For pure all-correct sentinel gain the target growth is the same product. Thus shrinking \(r_e\to0\) cannot simultaneously preserve unbounded pure sentinel success and make the universal positive unresolved-orientation cost finite.
 
-### 2. Derive the exact half-stake finite-horizon price process
+7. The actual fixed half-stake P4-S011 witness has both target gain and minimal orientation-free hedge cost \((3/2)^n\), so it lies outside both P4-S037 fresh renewal and P4-S038 finite uncertainty-budget normalization.
 
-Use the P4-S037 half-stake sentinel martingale.
+8. No proof of \(X\in OH\) is obtained. No OH non-invariance or \(R_2\subsetneq OH\) conclusion is available.
 
-For a fixed persistent frontier state and raw-known sentinel sign (z), compute the finite-horizon backward price as the allowed simulation horizon grows.
+## P4-S039 bounded task — same-source one-hole simulation of the coded persistent predictor
 
-On a branch where no halt has yet been witnessed the price is initially (1). If a halt with prediction sign (a) becomes visible, the price changes to
-[
-1+rac12az.
-]
+Attack only the source-side question for the displayed three-bit recoding.
 
-Track the full two-coordinate vector:
-[
-(1,1)quadlongrightarrowquad(3/2,1/2)
-]
-up to coordinate order.
+Do **not** try to compile the actual P4-S011 win into an ordinary computable raw martingale on \(X\). That would contradict the settled fact \(X\in CR\). A positive result this session must instead construct a raw **one-hole scan/stake witness** on \(X\), or an exact P4-S012 target-visible self-avoiding raw stake functional from which such a witness follows.
 
-Determine exactly which parts are c.e., co-c.e., left-c.e., right-c.e., computable in the halting decision, or computable after normalization. Do not replace the actual vector by a generic noncomputable martingale-limit example.
+### 1. Formalize the local one-raw-hole linear algebra
 
-### 3. Test whether one-jump structure is enough for a compiler
+Write the block map as \(u=Ax\) over \(\mathbb F_2\). Its raw-coordinate flip columns are
 
-The persistent price vector has an extremely simple shape: at most one nontrivial jump, fixed magnitude, bounded ratio, width one.
+\[
+\Delta_{x_0}u=(1,1,1),\qquad
+\Delta_{x_1}u=(0,1,1),\qquad
+\Delta_{x_2}u=(1,0,1).
+\]
 
-Try to construct a total raw martingale despite the absence of a stabilization modulus. Test, in particular:
+No raw coordinate flip is a unit virtual-coordinate flip.
 
-- a two-account hedge for the two possible eventual orientations;
-- upper/lower price envelopes;
-- delayed commitment until the c.e. halt is seen;
-- computable supermartingale-to-martingale normalization if available under the exact repository convention;
-- persistent-savings domination of the unresolved (1/2) price gap;
-- a rolling mixture over finite simulation horizons.
+For each possible omitted raw coordinate, compute exactly what a raw transcript determines:
 
-Any positive result must produce one total computable raw martingale and must be checked against the settled fact that the recoded P4-S011 source (X) is computably random while the virtual half-stake witness succeeds. If a proposed compiler would contradict that fact, identify exactly which totality/fairness/success step fails.
+- with \(x_0\) omitted, all three \(u_i\) share one unresolved affine bit, while their pairwise differences are known;
+- with \(x_1\) omitted, \(u_0\) is known and \(u_1,u_2\) share one unresolved bit;
+- with \(x_2\) omitted, \(u_1\) is known and \(u_0,u_2\) share one unresolved bit.
 
-### 4. Quantify the non-effective stabilization if the compiler fails
+Formalize this as an affine one-bit state, not just a Hamming-distance observation.
 
-A negative result should be exact.
+Determine which virtual queries can be answered without consuming the raw hole and which force the hole to move or close.
 
-Determine whether the actual recoded P4-S011 family forces one of the following, uniformly over reachable persistent frontier states:
+### 2. Test exact pivot migration across blocks
 
-- no total computable eventual-constancy modulus for the one-jump price vector;
-- no computable Cauchy modulus for the absolute persistent-savings backward prices;
-- no computable decision of whether the price ever leaves ((1,1));
-- or a stronger reduction showing that any such modulus would compute forbidden sibling-halting/retirement information.
+A raw one-hole scan may consume its current omitted coordinate and later withhold a new fresh coordinate, just as the P4-S011 virtual sentinel migrates.
 
-Do not assert a halting-set reduction unless it follows from the committed autoreduction or from a new exact construction. The abstract P4-S011 witness is fixed but not assumed universal.
+Test whether the affine unresolved bit in one three-bit block can be transferred to a fresh raw coordinate in another block while:
 
-### 5. Identify the weakest positive retirement hypothesis
+- answering every virtual filler value actually needed by the P4-S011 controller;
+- preserving no-repeat raw access;
+- keeping at most one omitted raw coordinate on every complete transcript;
+- and never using the future raw betting bit before the raw stake depending on it has been fixed.
 
-Test the following in increasing weakness and state the weakest exact sufficient condition obtained:
+If possible, give a total computable pivot-migration algorithm.
 
-- a computable retirement deadline;
-- a computable eventual-price stabilization modulus;
-- a computable Cauchy modulus for absolute backward prices;
-- an effectively summable bound on unresolved price error;
-- a computable semidecision pair for both retirement and permanent nonretirement;
-- any weaker one-sided condition which still makes the optional projection total and computable.
+If impossible, isolate the exact rank/cut invariant that blocks migration.
 
-Separate presentation strength from actual compiler strength. If two hypotheses collapse to the same computability resource, prove the collapse.
+### 3. Use the actual wtt autoreduction, not a generic predictor
 
-### 6. Test stake-size decay versus retirement uncertainty
+For a P4-S011 virtual sentinel \(u_j\), the committed machine \(M^Y(j)\) avoids coordinate \(u_j\) but may query other virtual coordinates in the same three-bit block.
 
-P4-S037 used a fixed half-stake only to show bounded ratios are insufficient.
+Track those same-block queries exactly under \(H^{-1}\).
 
-Now test whether shrinking the uncertain sentinel stake (r_e	o0) can make unresolved backward-price error effectively summable while preserving virtual success, for example under
-[
-sum_e r_e=infty
-]
-but an appropriate computable error budget.
+Do not assume that “\(M\) avoids \(u_j\)” means its raw simulation avoids one \(x_i\). The inverse flip of one virtual coordinate changes two or three raw bits.
 
-If this yields a positive normalization theorem, state it without reopening the old ticket/reserve programme. If it yields an exact obstruction, identify the threshold between cumulative virtual gain and unresolved source-side pricing error.
+Determine whether a finite family of the three virtual autoreduction computations in one block can be combined to solve or predict one raw coordinate without querying that raw coordinate.
 
-Do not confuse this with P4-S015–P4-S031 skipped-wager bankroll accounting; the object here is the backward price of a persistent open claim.
+### 4. Test a blockwise raw self-avoiding predictor
 
-### 7. Revisit the actual recoded P4-S011 witness only through this pricing lens
+For each raw coordinate \(x_i\) of a block, try to construct a partial computation which:
 
-Use the wtt use bound only as established finite value-dependency data.
+- is total on the actual \(X\) at infinitely many fresh target positions;
+- predicts a favoured raw bit/stake before querying that bit;
+- never queries the target raw coordinate during its own computation;
+- uses only finite data with a computable use bound where available;
+- and yields unbounded target gain after the P4-S012 least-fresh conversion.
 
-Determine whether the actual witness has enough effective retirement information to satisfy any positive hypothesis from this session. If not, state exactly what fails.
+It is enough to obtain a signed fractional stake functional; error-free bit prediction is not required unless the construction naturally gives it.
 
-Do not infer (Xin OH) from the failure of a compiler.
+If a direct coordinate predictor fails, identify exactly which unresolved affine bit causes the circularity.
 
-### 8. Source-side separation guard
+### 5. Test simultaneous equations from the three virtual predictors
+
+Because
+
+\[
+x_0=u_0\oplus u_1\oplus u_2,\qquad
+x_1=u_0\oplus u_2,\qquad
+x_2=u_1\oplus u_2,
+\]
+
+individual virtual self-predictions may combine even when none pulls back alone.
+
+For one raw block, expose the finite dependency graph among the three computations
+
+\[
+M(u_0),\quad M(u_1),\quad M(u_2)
+\]
+
+after translating every virtual oracle query through the recoding.
+
+Test whether a finite algebraic fixed-point / elimination procedure can determine one \(x_i\) while leaving \(x_i\) unread.
+
+Distinguish:
+
+- a solvable finite system;
+- a one-bit circular system that can be carried to another block;
+- and a genuinely persistent circularity requiring two or more raw holes.
+
+### 6. Construct a raw one-hole destroyer if the pivot closes positively
+
+If the preceding analysis yields a target-visible raw self-avoiding stake functional on \(X\), apply the settled P4-S012 conversion carefully.
+
+Produce one total computable adaptive no-repeat raw scan whose every transcript omits at most one raw coordinate and one computable output martingale which succeeds on its transcript of \(X\).
+
+Then conclude only
+
+\[
+X\notin OH.
+\]
+
+This would show that the current recoded P4-S011 source is **not** an OH non-invariance witness. It would not prove \(R_2=OH\) in general.
+
+### 7. If simulation fails, prove the narrowest exact obstruction
+
+A negative result must be structural, not merely “the coding mixes bits”.
+
+Candidate exact obstructions include:
+
+- no unit vector occurs in the raw-hole ambiguity columns;
+- every exact simulation of a virtual unit sentinel requires raw ambiguity rank at least two at some finite cut;
+- same-block autoreduction dependencies force a circular affine bit which cannot be migrated through one raw hole;
+- or a computable cutwidth/rank invariant of the repeated block system.
+
+Prove the strongest statement actually supported by the committed \(M\). Do not infer \(X\in OH\) from failure of this particular compiler.
+
+### 8. Distinguish exact transcript simulation from vulnerability simulation
+
+P4-S033 already proved that \(D\circ H\) is not literally a raw one-hole scan.
+
+P4-S039 does not need to reproduce the same transcript map. It only needs a possibly different raw one-hole scan which destroys \(X\).
+
+Therefore, if exact simulation of the virtual transcript fails, continue testing whether the virtual prediction information can be rearranged into a different raw target-winning stake process.
+
+Conversely, do not treat fibre Hamming distance alone as proof that no same-source vulnerability exists.
+
+### 9. Source-side separation guard
 
 An actual OH non-invariance theorem still requires
-[
-Xin OH,qquad H(X)
-otin OH.
-]
 
-The second statement is available because (H(X)=Y) is destroyed by P4-S011. The missing statement remains (Xin OH).
+\[
+X\in OH,\qquad H(X)\notin OH.
+\]
 
-If the persistent-price analysis directly yields a source-side route to (Xin OH), pursue it. Otherwise do not return to the frozen bankroll sequence merely because source robustness remains open.
+The second statement is available. The first is not.
 
-### 9. Preserve the sustained reduction
+If this session constructs a raw one-hole destroyer on \(X\), the current source is eliminated as a separation candidate.
 
-P4-S032 null-ambiguity preservation remains available for arbitrary destructive global-k=2 maps. Do not return to ambiguity mass as an invariant.
-
-Do not reopen the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence.
+If this session proves only that the natural pullback/simulation fails, preserve the guard: \(X\in OH\) remains unproved.
 
 ### 10. Required session outcome
 
 The output should be one of:
 
-- a persistent-frontier normalization theorem strictly extending P4-S037 fresh renewal;
-- full OH invariance for the displayed (H);
-- a rigorous OH non-invariance witness;
-- or the sharpest exact non-effective retirement/backward-price obstruction that selects P4-S039.
+- a total raw one-hole destroyer for the actual recoded P4-S011 source \(X\);
+- a same-source one-hole simulation theorem for a materially larger class of finite linear recodings;
+- a rigorous finite-rank/affine obstruction showing why the actual P4-S011 predictor cannot be pulled back through one raw hole by the tested mechanisms;
+- or, only if it follows directly from this analysis, a genuine proof that \(X\in OH\) and hence an OH non-invariance witness.
 
-The sustained question remains whether
-[
-R_2=OH.
-]
+The sustained question remains
 
-If no OH non-invariance witness is proved, preserve (OH^{iso}) as the comparison class and state separation status explicitly.
+\[
+R_2=OH\;?
+\]
+
+If no OH non-invariance witness is proved, preserve \(OH^{iso}\) as the comparison class and state separation status explicitly.
+
+P4-S032 null-ambiguity preservation remains available. Do not return to ambiguity mass as an invariant.
+
+Do not reopen the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence.
 
 Preserve PA-0001 as **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 unchanged. Make no novelty, openness, prior-art, Gate-4, publication or outreach claim. Continue original mathematics only.
 
