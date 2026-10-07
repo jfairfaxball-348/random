@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S041",
+  "last_updated_session": "P4-S042",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S041",
-      "record_path": "phase4/P4-S041_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S042",
+      "record_path": "phase4/P4-S042_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -404,6 +404,39 @@
           "class_OH_iso_preserved": true,
           "next_question": "localization of raw-radius-one divergence into the three local block equations versus genuinely remote partiality",
           "next_session": "P4-S042",
+          "blocker": null,
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+          "novelty_claimed": false
+        },
+        "one_hole_normalization_tenth_step_result": {
+          "session": "P4-S042",
+          "result": "REMOTE_DIVERGENCE_HAS_FINITE_TARGET_TRACE_CONTACT_BUT_CAN_TERMINATE_IN_CORRECT_LOCAL_CYCLES_WHILE_OH_SURVIVAL_FORCES_RECURRENT_LOCAL_CASE_C",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "remote_divergence_target_trace_contacts_changed_support": true,
+          "support_lasso_outcomes": [
+            "finite_local_refutation",
+            "local_divergence",
+            "correct_local_dependency_cycle"
+          ],
+          "minimal_use_forces_well_founded_descent": false,
+          "support_011_correct_cycle": "q1<->q2",
+          "support_101_correct_cycle": "q0<->q2",
+          "support_111_correct_cycle": "two-cycle-with-tail or oriented three-cycle",
+          "explicit_remote_partiality_countermodel": true,
+          "countermodel_local_status": "A0,B1,B2",
+          "remote_partiality_compatible_with_full_local_decisiveness": true,
+          "pairwise_status_law_strengthened": false,
+          "uniform_target_equivalent_localization_from_committed_data": false,
+          "X_in_OH_implies_arbitrarily_late_local_case_C": true,
+          "X_in_OH_implies_fixed_direction_case_C_infinitely_often": true,
+          "actual_raw_one_hole_destroyer_constructed": false,
+          "recoded_p4_s011_source_in_OH": false,
+          "OH_noninvariance_witness": false,
+          "R2_proper_subset_OH_claimed": false,
+          "class_OH_iso_preserved": true,
+          "next_question": "recurrent fixed-direction local Case C, asynchronous finite-family raw scans, and whether OH survival forces recurrent triple Case C",
+          "next_session": "P4-S043",
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
@@ -1465,8 +1498,8 @@
       ]
     }
   ],
-  "recommended_next_session": "P4-S041",
-  "recommended_next_scope": "Phase 4 mathematics on CAND-01: test finite-perturbation refutability / raw-adjacent decisiveness for the actual P4-S011 wtt autoreduction, including whether a target-equivalent self-avoiding wtt normal form eliminates divergence-only raw-adjacent companions without imposing full sibling totality.",
+  "recommended_next_session": "P4-S043",
+  "recommended_next_scope": "Phase 4 mathematics on CAND-01: exploit the recurrent fixed-direction local Case-C obstruction forced by any surviving X in OH; classify recurrent A/B/C patterns under the pairwise raw-adjacent laws and test finite-family/asynchronous raw one-hole scans that progress through visible A/B directions without waiting for the recurrent C direction, aiming either to force recurrent triple Case C or to destroy X.",
   "gate2_readiness": {
     "session": "P2-S005",
     "result": "READY_FOR_FORMAL_GATE2_REVIEW",
