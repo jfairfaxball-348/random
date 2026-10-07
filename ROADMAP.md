@@ -617,3 +617,36 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S045**, on certificate-time selector thickness for the actual computably random wtt-autoreducible source after source-value closure.
+
+## P4-S045 — selector thickness, countable prescribed-family obstruction, and live certification access
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 55b203879c3c4ab6cfa88cc32f6dee6dc57d9259
+
+Scope: certificate-time selector thickness after the P4-S044 source-value horizon.
+
+Results:
+- formalized faithful moving-reservation selectors and separated ambient A sets, reservation streams and event-time-selected target subsequences;
+- defined exact selector thickness and proved it yields an actual raw one-hole destroyer;
+- proved C-free A-cofinite lane recurrence and finite possible-index coverage with clock domination are sufficient;
+- ruled out bounded gaps, density, bare finite-union lane concentration and computable-subsequence recurrence as standalone thickness principles;
+- proved the post-value-closure certificate clock is future-blind and found no direct computable-randomness prediction from systematic delay alone;
+- strengthened the structural diagonalization to every member of any prescribed uniformly computable countable faithful-selector family;
+- retained the structural target \(0^\omega\), recurrent nontriple \(C_0\), visible A and genuine \(h(b)=2b+2\);
+- proved a universal computable-target selector-evasion model of this form is impossible: post-construction finite A certificates are c.e. and yield a new finite-window selector;
+- isolated the committed-source gap as live acquisition of finite A-certificate support while preserving future-target freshness;
+- showed recurrent \(C_0\) two-selector failure already follows from role alternation, delayed A and the one-hole fallback, without support consumption;
+- showed the B arm in \(ACB/ABC\) has no generic timing control over \(A_0\);
+- did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S045_MATHEMATICS.md
+- phase4/P4-S045_CLOSE.md
+- phase4/P4-S045_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S046**, future A-certificate access cost and one-hole-compatible pre-certification for the actual committed autoreduction.
