@@ -1915,3 +1915,43 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S044**, online selector / fresh-block reachability using the actual computable wtt horizon.
+
+## P4-S044 — wtt value horizons and certificate-time fresh-target obstruction
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: dfd593bd3d0e2bc68d9b2e2097b31c5dbc443c17
+
+Scope: solve or sharpen the P4-S043 online selector / fresh-block reachability gap using the actual computable wtt use horizon.
+
+Results:
+- verified live main exactly at the P4-S043 outgoing tip and confirmed P4-S044 was unused;
+- read P4-S001 through P4-S043, selected CAND-01 authority, the post-P4-S031 pivot, and the required special-focus records;
+- computed the uniform local raw source-value horizon from the P4-S027 strict wtt cap;
+- proved all local A/B positive certificates are source-value closed below that horizon, while certificate time remains unbounded;
+- proved a globally one-hole scan cannot retain both the current unresolved sentinel and one fixed future sentinel throughout a no-event continuation;
+- formalized moving transient reservations and isolated certificate-time endogeneity of the next target;
+- proved finite horizon lanes exist exactly under bounded interval-overlap depth;
+- proved wtt finiteness does not force a finite lane cover and countable lanes do not suffice by pigeonhole;
+- showed support blocks can be completely consumed by legal \(u_2\) support queries;
+- proved a finite transient race has no rate-free A/B discovery guarantee;
+- revisited recurrent \(C_0\) and asymmetric \(ACB/ABC\) without obtaining a stronger reachability theorem;
+- built a computable finite-use structural \(0^\omega\) countermodel with genuine horizon \(h(b)=2b+2\), unbounded overlap, recurrent nontriple \(C_0\), visible A and finite-family selector/race failure;
+- sharpened the necessary selector obstruction under a hypothetical \(X\in OH\);
+- did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S044_MATHEMATICS.md
+- phase4/P4-S044_VALIDATION.md
+- phase4/P4-S044_CLOSE.md
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: **P4-S045**, certificate-time selector thickness for the actual computably random wtt-autoreducible source.
