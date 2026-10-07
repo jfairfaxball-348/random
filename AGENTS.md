@@ -608,3 +608,23 @@ with \(R_2=OH\) unresolved.
 Next: P4-S039 should stop trying to compile the actual witness into an ordinary raw martingale and instead test direct same-source raw one-hole simulation under the three-bit recoding. The P4-S015–P4-S031 bankroll sequence remains frozen.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Mathematics checkpoint — P4-S039 (not a gate review)
+
+P4-S039 continues the sustained one-hole normalization programme.
+
+For the displayed three-bit recoding, a single omitted raw coordinate leaves an affine rank-one virtual state \(u=a+hAe_i\). A literal virtual unit hole costs \(2,2,3\) raw unresolved coordinates, so exact virtual-sentinel transport is impossible through one raw hole.
+
+The source-side simultaneous equations are stronger. For each block, the actual committed autoreduction \(M\) defines a c.e. local consistency code \(C_B\). Self-avoidance gives \(d_H(C_B)\ge2\). For the displayed matrix, every such code fixes at least one raw coordinate. Two enumerated codewords already give a finite coordinate certificate.
+
+For a preselected raw sentinel, however, the alternate affine endpoint may be finitely rejected, may also be self-consistent, or may fail only by divergence. Local sibling totality collapses this effectivity gap and yields a genuine raw one-hole destroyer, but the committed P4-S011 wtt data do not establish that totality.
+
+The inclusions remain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR,
+\]
+with \(R_2=OH\) unresolved.
+
+Next: P4-S040 on online c.e. local-code completion and raw-adjacent companions. The P4-S015–P4-S031 bankroll sequence and the P4-S038 backward-price route remain closed as default directions.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
