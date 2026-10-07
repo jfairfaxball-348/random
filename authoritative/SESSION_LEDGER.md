@@ -1774,7 +1774,6 @@ Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S040, online c.e. local-code completion and raw-adjacent companion obstruction under a preselected raw sentinel.
 
-
 ## P4-S040 — raw-adjacent decisiveness and online singleton completion
 
 Date: 2026-10-07
@@ -1784,7 +1783,7 @@ Incoming checkpoint: a2902d7aed904f0fcf36693cf7da6105a1f6ab34
 Scope: sustained Phase-4 one-hole normalization; online c.e. local-code extraction under one raw sentinel.
 
 Results:
-- formalized raw-adjacent companions (Xleftrightarrow Xoplus e_j) as virtual differences (Ae_i);
+- formalized raw-adjacent companions \(X\leftrightarrow X\oplus e_j\) as virtual differences \(Ae_i\);
 - defined c.e. local acceptance and finite refutation for the two affine endpoints;
 - isolated **raw-adjacent decisiveness** as absence of the divergence-only Case-C arm;
 - proved raw-adjacent decisiveness in all three directions on every reached synchronized block suffices for a same-source raw one-hole destroyer;
@@ -1797,15 +1796,15 @@ Results:
 - proved global one-hole geometry forbids a second permanent prospective sentinel while the current one remains open;
 - isolated divergence-only Case C as the surviving local no-finite-certificate obstruction;
 - showed finite families of waiting/abandonment policies have no rate-free guarantee from the committed data;
-- showed additional outside (M(n))-equations may add c.e. refutations but the wtt use bound does not provide a computably finite reverse dependency closure;
+- showed additional outside \(M(n)\)-equations may add c.e. refutations but the wtt use bound does not provide a computably finite reverse dependency closure;
 - did not establish raw-adjacent decisiveness for the actual P4-S011 machine;
-- did not construct an actual raw one-hole destroyer for (X);
-- did not prove (Xin OH), OH non-invariance or (R_2subsetneq OH).
+- did not construct an actual raw one-hole destroyer for \(X\);
+- did not prove \(X\in OH\), OH non-invariance or \(R_2\subsetneq OH\).
 
 Retained:
-[
-MLRsubseteq R_2subseteq OH^{iso}subseteq OHsubsetneq CR.
-]
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
 
 Records:
 - phase4/P4-S040_MATHEMATICS.md
@@ -1817,3 +1816,4 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S041, finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual P4-S011 wtt autoreduction.
+
