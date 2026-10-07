@@ -158,6 +158,29 @@ The session correctly obtains no direct computable-randomness contradiction from
 
 **Status: VALID.**
 
+
+## 8A. Global branch-refutation scan
+
+For a candidate current completion \(h\), every expected bit \(Y^{[h]}(n)\) can be computed without reading the old raw sentinel: old-block values are supplied from the finite \(h\)-completion and all other raw support is disjoint from the sentinel.
+
+Therefore a finite wrong/nonbinary equation
+
+\[
+M^{Y^{[h]}}(n)\downarrow\ne Y^{[h]}(n)
+\]
+
+positively eliminates completion \(h\), because target correctness forbids such an equation on the actual branch.
+
+The proposed universal dovetail is computable. Caching prevents repeated raw queries. A concurrent least-fresh sweep guarantees that an unresolved epoch queries every raw coordinate except its sentinel. If a refutation appears, the predicted sentinel is queried and a fresh epoch begins.
+
+Thus the scan is total, adaptive, no-repeat and globally one-hole on every complete transcript.
+
+On the target every nonzero wager is correct. If all epochs resolve, the output martingale doubles infinitely often. Hence hypothetical \(X\in OH\) forces an unresolved epoch, at which the false raw-radius-one completion has no wrong/nonbinary equation anywhere: it is a partial fixed point of \(M\).
+
+This conclusion is stronger than the mere statement that CHU failure does not expose a bit. It precisely separates harvestable finite branch refutation from divergence-only self-consistent branch sensitivity.
+
+**Status: VALID.**
+
 ## 9. CHU certification graph
 
 The CHU usable-edge definition includes:
