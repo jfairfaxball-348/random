@@ -855,3 +855,29 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S049**, study the two-raw-bit square / partial-fixed-point star, especially whether actual-source structure can force positive finite rejection at the fourth corner or otherwise yield old-bit prediction or CHU escape.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## Mathematics checkpoint — P4-S049 (not a gate review)
+
+P4-S049 resolves the finite logic of the two-raw-bit square at a genuinely trapped P4-S047 old-hole epoch.
+
+The actual future-bit column consists of the target \(Y\) and the false old completion \(Z\). Since \(Y\) is total fixed and \(Z\) is partial fixed, that column admits no finite wrong/nonbinary refutation. Hence:
+
+\[
+\boxed{\text{any finite square refutation predicts the future raw bit}.}
+\]
+
+This is stronger than generic two-row column elimination: one refutation is enough once the old epoch is semantically trapped. Every actual future Case-A raw-adjacent rejection is already such a certificate; a false fourth-corner rejection is not needed for one-shot prediction.
+
+Paired partial-fixed cycle arguments remain conditional on both corner computations halting. A local Case-B fourth corner forces the retained P4-S041 role-switch refutations.
+
+The effective gap is now activation/capture. The trapped-epoch premise is not finitely recognizable, and a legal scan may reserve a future target only transiently while the old sentinel stays open. Infinitely many caught square refutations at one trapped old sentinel would yield \(X\notin OH\). Thus hypothetical \(X\in OH\) forces every computable finite-tenure square-reservation policy to catch only finitely many refutations at the first trapped epoch.
+
+A structural full-star model on \(0^\omega\) shows that both old rows can have all three future raw-adjacent neighbours globally partial fixed. It is not a randomness witness and lacks the actual-A premise.
+
+No \(X\in OH\), \(X\notin OH\), OH non-invariance or \(R_2\subsetneq OH\) theorem is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S050**, effective activation of the one-refutation square theorem without a semantic trap oracle.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
