@@ -544,3 +544,22 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S042**, on localization of raw-radius-one divergence into the three local block equations versus genuinely remote partiality.
+
+## P4-S042 — remote divergence lasso and recurrent Case-C boundary
+
+Status: **COMPLETED / VALIDATED**.
+
+P4-S042 proves that every radius-one remote divergence contacts the changed support on the finite halting target trace, but that this does not imply local Case C. Correct local halts can pass the dependency around the changed support and close into the P4-S041 two-/three-cycle structures. A concrete computable countermodel realizes remote partiality in all three directions with local status \((A_0,B_1,B_2)\).
+
+The important source-side sharpening is:
+\[
+X\in OH\Longrightarrow
+\text{local Case C occurs on arbitrarily late blocks},
+\]
+and therefore some fixed raw direction is Case C infinitely often.
+
+This replaces the one-off radius-one localization problem by a recurrence problem.
+
+Next bounded session: **P4-S043** — classify recurrent fixed-direction Case-C patterns and test asynchronous finite-family raw scans that harvest visible A/B directions without waiting for the recurrent C direction. Aim first to decide whether \(X\in OH\) would force infinitely many triple-C blocks.
+
+No novelty, Gate-4 or publication work is authorized.
