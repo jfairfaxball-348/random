@@ -1058,3 +1058,30 @@ A guaranteed finite abandonment policy is rejected as a destroyer mechanism beca
 Decision: keep the current source candidate alive only through the online selector / fresh-block reachability problem. Run P4-S044 on the actual wtt use horizon and whether it supplies a finite fresh-lane or transient-race selector theorem.
 
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+
+## P4-S044 — use horizons close source-value dependence but not certificate-time reachability
+
+Date: 2026-10-07
+Decision type: Phase-4 mathematics checkpoint
+Status: **VALIDATED**
+
+The P4-S043 online-selector obstruction is sharpened using the actual wtt resource.
+
+For each three-bit block \(B_b\), the strict computable wtt cap gives a uniform raw source-value horizon
+\[
+V(b)=\max_{r<3}U(3b+r),\qquad
+h(b)=\max\{b+1,\lceil V(b)/3\rceil\}.
+\]
+All six raw-adjacent endpoint computations are source-value closed below this horizon, including divergent computations.
+
+Decision: do **not** treat this as a fresh-target horizon. After source-value closure, positive A/B evidence can still appear after arbitrarily long internal computation. If the current unresolved sentinel and a fixed future sentinel were both protected until that event, a no-event continuation would have two permanent holes. One must be consumed at finite time. Moving reservations preserve global one-hole legality but make the next target depend on certificate time.
+
+The interval family \(I_b=[b,h(b))\) has a finite computable lane cover exactly under uniformly bounded overlap. A bare computable wtt use function does not force this condition, and a countable lane cover is not enough to invoke infinite pigeonhole.
+
+The programme also does not adopt finite transient races as a solution: on the all-C continuation all but at most one prospective sentinel must be consumed, creating finite abandonment times that arbitrarily late finite A certificates can miss.
+
+A computable finite-use structural \(0^\omega\) model with genuine horizon \(h(b)=2b+2\), recurrent nontriple \(C_0\) and visible A witnesses shows these failures are realizable from the abstract machine data.
+
+Decision: move P4-S045 to source-specific **certificate-time selector thickness**. Test whether computable randomness and target-total wtt autoreducibility constrain delayed sibling A certificates enough to defeat every moving-reservation evasion pattern.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
