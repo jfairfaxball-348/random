@@ -718,3 +718,29 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S044**, attack online role selection and fresh-block reachability using the actual computable wtt use horizon.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Mathematics checkpoint — P4-S044 (not a gate review)
+
+P4-S044 resolves what the actual wtt use horizon does and does not buy for the online-selector problem.
+
+With the P4-S027 strict use cap \(U\), block \(B_b\) has computable source-value horizon
+\[
+V(b)=\max_{r<3}U(3b+r),\qquad
+h(b)=\max\{b+1,\lceil V(b)/3\rceil\}.
+\]
+Every raw-adjacent local A/B certificate uses source values only below this horizon. Divergence still has no time bound: after all required source values are known, a finite wrong/accepting halt may appear arbitrarily late.
+
+This leaves a sharp reservation dichotomy. A globally one-hole scan cannot keep both an unresolved current sentinel and a different fixed future sentinel unread throughout a no-event continuation. One must be consumed at finite time. Consuming the current sentinel can miss a late certificate; consuming the future sentinel destroys the fixed target. Moving transient reservations are legal, but the next target is then selected by certificate time.
+
+The horizon intervals \(I_b=[b,h(b))\) admit finitely many computable lanes exactly when their overlap depth is uniformly bounded. Bare wtt finiteness does not force this; \(h(b)=2b+2\) is a computable finite-use structural example with unbounded overlap. Countably many lanes are not enough for infinite pigeonhole.
+
+Finite transient multi-sentinel races and support-block reuse do not remove the no-rate issue from the retained hypotheses. A computable finite-use structural model on \(0^\omega\) realizes recurrent nontriple \(C_0\), visible A witnesses, genuine unbounded horizon overlap and finite-family selector failure.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance or \(R_2\subsetneq OH\) theorem is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S045**, test certificate-time selector thickness using source-specific information from the actual computably random wtt-autoreducible \(Y\), rather than the already-settled value horizon.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
