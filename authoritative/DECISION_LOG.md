@@ -1129,3 +1129,36 @@ Decision: do not identify block-free certification with global one-hole compatib
 Decision: move P4-S047 to **current-hole-uniform future A certification**: branch prospective evidence over both values of the current sentinel and test whether usable collision-free certification edges can be selected infinitely often.
 
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+
+
+## P4-S047 — old-hole uniformity is a branch-stability resource, not a local-cost consequence
+
+Date: 2026-10-07
+Decision type: Phase-4 mathematics checkpoint
+Status: **VALIDATED**
+
+P4-S047 formalizes the unresolved current sentinel as exactly two finite counterfactual raw completions. For the displayed recoding the safe old-block virtual rows are
+
+\[
+\operatorname{Safe}(0)=\varnothing,\qquad
+\operatorname{Safe}(1)=\{u_0\},\qquad
+\operatorname{Safe}(2)=\{u_1\}.
+\]
+
+Decision: distinguish syntactic old-hole independence from branch uniformity. A finite future rejection trace which avoids the hole-dependent old rows is automatically valid in both old-hole branches, but a trace may touch those rows and still be harmless if both finite branch simulations give compatible evidence.
+
+Decision: adopt **two-branch future fixedness** as a second exact sufficient resource. If the three future target computations halt with the same target-correct values under both old-hole completions, syntactic self-avoidance restores the P4-S046 automatic \(A^{-1}e_r\) rejections in both branches. The P4-S046 local costs \(0,1,1\) then remain available provided the raw-adjacent A rejection itself also survives both branches.
+
+Decision: do not infer two-branch fixedness from target correctness. The counterfactual old-hole completion is a raw-radius-one perturbation, and the retained P4-S041/P4-S042 theory explicitly permits partiality and remote dependence there.
+
+Decision: retain the structural old-row-gating theorem. For every current raw role and every future A role, a computable finite-use syntactically self-avoiding \(0^\omega\) model can gate all future local computations through one old hole-dependent virtual row. The actual branch retains visible \(A_0\), \(A_1\), or \(A_2\) with the P4-S046 local cost, while the alternate old-hole branch diverges before any finite rejection. The patterns \(ACB,CAC,CCA\) suffice.
+
+Therefore no nonempty role-only current-hole-uniform transition matrix, and no infinite collision-escape recurrence, follows from target correctness, self-avoidance, finite use, recurrent nontriple C and the P4-S046 local-cost theorem alone.
+
+Decision: do not treat branch nonuniformity as a prediction of the old sentinel. Both \(h=0,1\) simulations are counterfactual computations from the same observed data. A source-bit prediction requires finite elimination of one current completion itself.
+
+An infinite computable path of current-hole-uniform usable edges would still yield \(X\notin OH\), but no such path is obtained for the committed source.
+
+Next: **P4-S048**, persistent old-hole sensitivity of future A-certificate computations on the actual source. Test whether one current raw-radius-one perturbation can remain semantically essential for infinitely many later A witnesses without exposing the current bit, or whether its influence is effectively escapable into CHU usable edges.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
