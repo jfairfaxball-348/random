@@ -670,3 +670,37 @@ X\in OH\Longrightarrow
 \]
 
 At such a trap every defined equation is correct; only divergence remains as old-hole sensitivity. P4-S048 is correspondingly narrowed to persistent partial-fixed-point sensitivity and whether it can continue to gate later A certificates.
+
+## Latest mathematics — P4-S048
+
+P4-S048 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+At an unresolved P4-S047 global-refutation epoch, the false raw-radius-one completion \(Z\) is a global partial fixed point. This removes finite wrong-output sensitivity from future target equations: they are trace-safe, trace-sensitive but value-fixed, or divergence-sensitive. Every divergence-sensitive target trace has finite contact with the old changed support.
+
+The P4-S042 support lasso correspondingly sharpens to two arms only:
+\[
+\text{old-support divergence}
+\quad\text{or}\quad
+\text{correct-halting old-support cycle}.
+\]
+
+For the canonical P4-S046 low-cost future A packages, the false-neighbour target-equation requirements reduce exactly to
+\[
+F_0=\{q_0,q_1,q_2\},\qquad
+F_1=\{q_0\},\qquad
+F_2=\{q_1\}.
+\]
+These requirements are separate from false-branch raw-adjacent rejection.
+
+Two sharp structural families show neither kernel forces the other. Family F preserves finite raw-adjacent rejection while one listed equation diverges recurrently through a fixed old row. Family R makes \(Z\) a total fixed point while the false raw-adjacent candidate remains divergence-only; every such doubly perturbed oracle is itself a global partial fixed point. Hence one false total fixed neighbour can sit at the centre of an infinite partial-fixed-point star.
+
+A total computable canonical partial-neighbour escape operator would give an infinite CHU path and \(X\notin OH\). No such operator is obtained for the committed source. No \(X\in OH\) theorem is obtained either.
+
+Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S049**, analyze the two-raw-bit square / partial-fixed-point star and test whether the actual committed source forces a positive finite constraint at the doubly perturbed corner.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
