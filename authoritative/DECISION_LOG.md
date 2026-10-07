@@ -1085,3 +1085,23 @@ A computable finite-use structural \(0^\omega\) model with genuine horizon \(h(b
 Decision: move P4-S045 to source-specific **certificate-time selector thickness**. Test whether computable randomness and target-total wtt autoreducibility constrain delayed sibling A certificates enough to defeat every moving-reservation evasion pattern.
 
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+
+## P4-S045 — move from certificate-time thickness to live certification access
+
+Date: 2026-10-07
+
+Decision: adopt **faithful moving-reservation selector** as the precise version of the P4-S044 architecture. The selector keeps the current sentinel until its own A/B event, cycles through transient future blocks, and freezes the block active when the event appears. The ambient A set, reservation stream and event-selected targets remain separate.
+
+Decision: use **event-time selector thickness** as the exact positive condition. A C-free A-cofinite computable lane is sufficient, as is finite possible-index coverage coupled to certificate-time domination. Do not treat bounded gaps, positive density, finite-union lane concentration or recurrence on computable subsequences as substitutes without a theorem connecting them to the actual selected indices.
+
+Decision: do not infer a computable-randomness contradiction merely from late certificates. After P4-S044 value closure, the finite certificate clock is determined by already exposed source data and internal computation and has no syntactic dependence on later reservation-block bits. A betting contradiction needs an additional coupling to an unread bit.
+
+Decision: retain the new structural theorem. Any prescribed uniformly computable countable family of faithful moving-reservation selector schemes can be trapped by one computable finite-use self-avoiding \(0^\omega\) model using \(CCA/CAC\), visible A, no triple C, and genuine \(h(b)=2b+2\).
+
+Decision: do **not** promote that theorem to all computable selectors. On a computable target, finite A certificates are c.e. after construction. A new computable selector can enumerate certified A targets and, using their computable target certificate times, reserve each next target only through the required finite window. Thus universal computable-target evasion with infinitely many visible A witnesses is impossible.
+
+Decision: the sustained source-side obstruction is now **live-source certification access**. For the committed noncomputable \(X\), prospective A evidence requires finite source values that a live scan must query. Future work should test whether those values can be obtained without consuming or indefinitely protecting the prospective raw target.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+
+Next: P4-S046, future A-certificate access cost.
