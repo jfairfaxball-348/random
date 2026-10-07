@@ -1508,3 +1508,46 @@ A universal dovetail over both current-hole completions can test every autoreduc
 **Lesson:** finite branch refutability is harvestable by a total one-hole scan. Under hypothetical \(X\in OH\), the canonical search must eventually be trapped by a false raw-radius-one **partial fixed point**: every halt is correct and the only remaining source of branch distinction is divergence.
 
 This narrows the next problem from arbitrary old-hole sensitivity to persistent divergence-only sensitivity of partial fixed-point neighbours.
+
+## P4-S048 — partial-neighbour divergence lessons
+
+### Failed route: partial fixedness forces eventual future fixedness
+
+It does not. Family F closes the old changed support into a correct dependency cycle while one fixed old row remains the first-contact gate for a required listed future equation on every designated block.
+
+**Lesson:** correctness wherever defined supplies no well-founded descent and no bound on recurrent divergence.
+
+### Positive reduction: the canonical target-equation burden is finite and role-specific
+
+The P4-S046 low-cost packages need only
+\[
+F_0=\{q_0,q_1,q_2\},\qquad
+F_1=\{q_0\},\qquad
+F_2=\{q_1\}.
+\]
+
+**Lesson:** full three-equation two-branch fixedness is stronger than necessary for \(A_1,A_2\).
+
+### Failed route: totality of the false neighbour forces the false raw-adjacent rejection
+
+Family R makes the false neighbour a total global fixed point, so every automatic unit-flip rejection survives, while the doubly perturbed raw-adjacent candidate makes every local computation diverge.
+
+**Lesson:** target-equation fixedness and raw-adjacent rejection are independent kernels. The fourth corner of the two-raw-bit square is not controlled by the \(Z\)-corner.
+
+### Stronger structural lesson: a partial-fixed-point star is possible
+
+In Family R each false raw-adjacent doubly perturbed oracle is itself a global partial fixed point. Infinitely many such future perturbations can surround one false total fixed neighbour while the corresponding actual-branch candidates are finitely rejected.
+
+**Lesson:** even an infinite local web of partial fixed points is structurally compatible with the retained finite-use/self-avoidance data.
+
+### Failed route: persistent divergence directly predicts the old bit
+
+Divergence is not c.e. Seeing one branch halt leaves open that the other is merely slower.
+
+**Lesson:** retain the P4-S047 positive-information guard. Only finite elimination of a completion predicts the current bit.
+
+### Failed route: semantic finiteness of bad candidates gives effective escape
+
+A finite source-relative divergence set need not come with a computable last-bad bound or one-hole-safe way to select beyond it.
+
+**Lesson:** effective escape must be supplied by a terminating computable procedure returning a legal CHU edge, not by semantic cofinality.
