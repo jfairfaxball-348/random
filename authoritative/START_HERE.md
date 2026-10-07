@@ -704,3 +704,32 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S049**, analyze the two-raw-bit square / partial-fixed-point star and test whether the actual committed source forces a positive finite constraint at the doubly perturbed corner.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+## Latest mathematics — P4-S049
+
+P4-S049 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+At a genuinely unresolved P4-S047 old-hole epoch, every future two-raw-bit square has a **shielded actual-future column**. Its two corners are \(Y\), a total fixed point, and the false old completion \(Z\), a global partial fixed point. Therefore neither corner can have a finite wrong/nonbinary equation.
+
+It follows that
+\[
+\boxed{\text{one finite square refutation already predicts the future raw bit}.}
+\]
+
+In particular, an actual future Case-\(A_j\) raw-adjacent rejection is enough for one-shot future prediction; a false fourth-corner rejection is not required. If the fourth corner is genuinely local Case B, the P4-S041 pairwise law gives useful role-switch refutations in alternate raw directions.
+
+The remaining obstruction is effective, not square-logical. The fact that an old epoch is truly unresolved is not positively recognizable. While its old sentinel remains open, a globally legal scan may keep a future target only transiently.
+
+P4-S049 proves that a computable finite-tenure reservation policy which catches infinitely many square refutations at one trapped old sentinel gives a one-hole destroyer and \(X\notin OH\). Consequently, under hypothetical \(X\in OH\), every such computable policy catches only finitely many refutations at the first trapped epoch.
+
+A square with no global refutation has all four corners as global partial fixed points. A structural \(0^\omega\) full-star model realizes this recurrently in both old rows, showing that partial fixedness alone does not force a square event.
+
+No effective infinite square escape is obtained, and neither \(X\in OH\) nor \(X\notin OH\) is proved.
+
+Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S050**, attack effective activation of the one-refutation square theorem without semantic knowledge of the trapped epoch, using only positive finite square events and globally legal one-hole fallback.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
