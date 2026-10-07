@@ -2036,3 +2036,51 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: **P4-S047**, current-hole-uniform future A certification and outside-support collision.
+
+
+## P4-S047 — current-hole branching and old-row-gated nonuniformity
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 751ce6dbf35c2ea4e34e02280e31ddeaab8871d1
+
+Scope: current-hole-uniform future A certification and outside-support collision under the sustained one-hole normalization programme.
+
+Results:
+- verified live main at the exact P4-S046 outgoing checkpoint and confirmed P4-S047 was unused;
+- read P4-S001 through P4-S046, CAND-01 authority, the post-S031 pivot and required special-focus records;
+- formalized exactly two counterfactual source completions at the current raw hole;
+- computed the safe current virtual rows:
+  \[
+  \operatorname{Safe}(0)=\varnothing,\quad
+  \operatorname{Safe}(1)=\{u_0\},\quad
+  \operatorname{Safe}(2)=\{u_1\};
+  \]
+- defined current-hole-uniform finite slice certificates and separated semantic existence, positive discovery and computable indefinite selection;
+- proved safe old-row traces are automatically uniform across the two current-hole hypotheses;
+- defined two-branch future fixedness and proved it restores the P4-S046 automatic \(A^{-1}e_r\) rejections under both hole completions;
+- obtained conditional CHU local access \(A_0:0\), \(A_1:\le1\), \(A_2:\le1\);
+- showed the future \(A_1/A_2\) cross-read itself is independent of the older hole;
+- formalized old-hole collision and genuine nonuniformity classes;
+- constructed a computable finite-use syntactically self-avoiding structural \(0^\omega\) old-row-gated model for every current-role/future-role pair;
+- retained \(ACB,CAC,CCA\) as the future patterns, including block-free \(A_0\) and exact-cost-one \(A_1/A_2\);
+- proved no universal role-only CHU transition matrix and no collision-escape recurrence follow from the retained abstract hypotheses;
+- proved branch nonuniformity alone does not predict the actual current hole value;
+- refined the usable certification graph to CHU edges and retained the theorem that an infinite computable CHU usable path implies \(X\notin OH\);
+- obtained no such path and did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S047_MATHEMATICS.md
+- phase4/P4-S047_VALIDATION.md
+- phase4/P4-S047_CLOSE.md
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: **P4-S048**, persistent old-hole sensitivity of future A-certificate computations on the actual committed source.
