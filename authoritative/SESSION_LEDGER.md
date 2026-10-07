@@ -1886,3 +1886,32 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S043**, recurrent fixed-direction Case C and asynchronous harvesting of visible A/B directions.
+## P4-S043 — asynchronous one-role extraction and recurrent-selector obstruction
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 9027605cad65de83cca6ae23e7986cf41ceb9424
+
+Scope: recurrent fixed-direction local Case C and asynchronous harvesting under the sustained one-hole normalization target.
+
+Results:
+- proved the P4-S041 pairwise implications are the complete local finite-table status law, with exactly 14 realizable triples;
+- classified the exact fixed-\(C_0\), fixed-\(C_1\) and fixed-\(C_2\) pattern lists;
+- proved a total computable asynchronous one-role one-hole scan theorem strictly extending P4-S040;
+- showed selected C is absorbing but selected A/B can close immediately without other-direction synchronization;
+- isolated ambient recurrence versus scan-reachable recurrence;
+- proved guaranteed finite abandonment returns the scan to exhaustive k=1 preservation;
+- constructed a computable finite-use structural countermodel trapping every prescribed finite family of pure wait-for-own-status role policies while using no triple-C block;
+- did not force recurrent triple C;
+- did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S043_MATHEMATICS.md
+- phase4/P4-S043_VALIDATION.md
+- phase4/P4-S043_CLOSE.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S044**, online selector / fresh-block reachability using the actual computable wtt horizon.
