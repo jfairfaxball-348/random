@@ -1012,3 +1012,32 @@ No uniform target-equivalent totalization is licensed by the wtt use bound: the 
 Decision: keep the present source alive only on the narrower raw-radius-one localization question. Run P4-S042 on whether remote radius-one divergence must propagate into the local block family or can coexist with local decisiveness.
 
 No \(X\in OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+
+## P4-S042 — remote divergence does not localize per witness; OH survival forces recurrent local Case C
+
+Date: 2026-10-07
+Decision type: Phase-4 mathematics checkpoint
+Status: **VALIDATED**
+
+The P4-S041 raw-radius-one boundary is sharpened.
+
+If a radius-one companion diverges at any input while the target computation halts, the finite target trace must query the changed support. Iterating this finite first-contact information inside the support yields a lasso whose semantic endpoints are: finite local refutation, local divergence, or a correct local dependency cycle.
+
+The third endpoint cannot be removed by minimal-use reasoning. A computable finite-use self-avoiding countermodel has remote divergence in all three raw directions with local status vector
+\[
+(A_0,B_1,B_2).
+\]
+Thus remote partiality can remain genuinely remote while P4-S040 local decisiveness survives.
+
+The programme therefore does not adopt a target-equivalent localization normal form.
+
+A separate tail argument gives the source-side recurrence requirement:
+\[
+X\in OH\Longrightarrow
+\text{infinitely many local Case-C block-direction pairs}.
+\]
+By finite pigeonhole, some fixed raw direction is Case C on infinitely many blocks. Otherwise one can start the P4-S040 construction after the final Case-C block and obtain a raw one-hole destroyer.
+
+Decision: keep the current source candidate alive only through the recurrent fixed-direction Case-C regime. P4-S043 should test whether nontriple recurrent Case-C blocks can still be exploited asynchronously, potentially sharpening the necessary obstruction to recurrent triple Case C.
+
+No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
