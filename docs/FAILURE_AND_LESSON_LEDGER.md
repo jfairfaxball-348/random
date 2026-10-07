@@ -1343,3 +1343,55 @@ A computable finite-use self-avoiding model on \(0^\omega\) can prepend ignored 
 The value footprint is no longer the mystery.
 
 **Lesson:** future work must use source-specific structure—especially computable randomness and target-total wtt autoreducibility—to ask whether late sibling A certificates can systematically evade every computable moving-reservation selector. Failure to prove such thickness remains an obstruction, not a proof of \(X\in OH\).
+
+## P4-S045 — selector-thickness and live-certification failures and lessons
+
+### Failed route: cofinite or dense ambient A automatically makes moving reservations succeed
+
+A faithful selector does not choose a generic member of the ambient A set. It chooses the reservation active at the current certificate time.
+
+One early C exception on an otherwise A-cofinite lane can trap the scan. Bounded gaps or positive density can also be missed forever if certificate times repeatedly land on complementary reservation indices.
+
+**Lesson:** the correct property is event-time selector thickness. Ambient density requires a clock-coupling theorem before it is useful.
+
+### Failed route: recurrence on every computable subsequence controls the actual selected targets
+
+The target subsequence of a computable scan need not be computable independently of the source. It can depend on finite source values and partial-computation halting times.
+
+**Lesson:** prove source-independent computability of the selected sequence before applying any theorem that quantifies only over computable subsequences.
+
+### Failed route: systematic late A certificates contradict computable randomness directly
+
+After the P4-S044 value horizon is closed, finite certificate timing depends only on already exposed finite source data and internal computation. It does not query later reservation-block bits.
+
+**Lesson:** delay alone provides no fresh bit prediction. A direct martingale argument needs an additional computable coupling from the clock to an unread source coordinate.
+
+### Failed route: the P4-S044 finite-family countermodel cannot scale beyond finitely many selectors
+
+For a prescribed uniformly computable countable family of faithful selector schemes, requirements can be handled sequentially. Each family member either is already C-trapped in the finite assigned prefix or eventually reaches an unassigned target, where \(CCA\) or \(CAC\) traps its preselected role.
+
+**Lesson:** the finite-family bound was not the sharp structural limit. Prescribed countable families can be diagonalized while preserving finite use, self-avoidance, visible A and \(h(b)=2b+2\).
+
+### Failed strengthening: diagonalize against every computable selector on the same computable target
+
+After the structural model is built, finite A certificates on a computable target are c.e. A post-construction selector can enumerate increasing certified A blocks and use the computable target certificate times to keep each future block reserved only for a finite known window.
+
+**Lesson:** a computable-target model with infinitely many visible A witnesses cannot defeat every computable selector. The escaping selector is endogenous to the completed model.
+
+### Failed route: two interleaved selectors automatically harvest recurrent nontriple \(C_0\)
+
+The patterns \(CAC\) and \(CCA\) can remain indistinguishable through any finite interaction while delaying their respective A witness. One role is A and the other C, but global one-hole fallback forces finite abandonment of at least one protected sentinel.
+
+**Lesson:** the exact obstruction is role alternation + certificate delay + global one-hole fallback. Support consumption is not needed.
+
+### Failed route: the visible B arm synchronizes the \(A_0\) clock
+
+In \(ACB\) or \(ABC\), finite internal dummy delays can move the A0 wrong halt arbitrarily later than the B certificate, or vice versa, without changing use, queries, outputs or status.
+
+**Lesson:** B visibility does not generically control A0 timing. Any useful coupling must be a special property of the actual committed autoreduction.
+
+### New positive lesson: the actual-source gap is certification access
+
+The structural post-construction escape works because \(0^\omega\) supplies all finite source values off-line.
+
+**Lesson:** the next task should ask where prospective A evidence must be read on the noncomputable \(X\). A future target is useful only if its A certificate can be learned without consuming or indefinitely protecting the coordinates needed to keep that block fresh.
