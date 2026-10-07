@@ -953,3 +953,32 @@ No actual raw destroyer for \(X\) is established and no \(X\in OH\) is establish
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
 
 Record: phase4/P4-S039_MATHEMATICS.md.
+
+
+## D-0062 — replace full local sibling totality by raw-adjacent decisiveness
+
+Session: P4-S040
+Date: 2026-10-07
+Type: Phase-4 mathematics theorem-selection refinement
+
+Decision/result: the P4-S039 positive same-source theorem does not need completion of all 24 local sibling computations.
+
+For a raw target direction (i), the raw-adjacent companion differs virtually by (Ae_i). Call it decisive when it is either locally self-consistent or finitely refuted by one wrong/nonbinary autoreduction halt.
+
+If all three raw directions are decisive on every reached synchronized block, three raw one-hole scans suffice. Case A yields a correct all-in wager; Case B yields a zero-stake closure. The local minimum-distance-two code law prevents all three companions from being accepted, so every block supplies at least one Case-A wager across the three scans. Infinite pigeonhole gives one fixed successful scan.
+
+This condition is materially weaker than full local sibling totality: a finitely refuted companion may have other divergent computations and unrelated local candidates may diverge.
+
+The Case-B two-codeword certificate is not a prospective handoff resource. Raw-adjacent endpoints differ only at the current raw sentinel, so every raw coordinate they certify has already been queried.
+
+Global one-hole geometry also forbids two permanent reservations: on a complete branch where the current sentinel is never queried, every other raw coordinate must eventually be queried.
+
+The sharp surviving local obstruction is therefore divergence-only Case C. Extra outside (M(n))-equations can only add c.e. finite refutations; the wtt use bound gives no computably finite reverse closure of all computations affected by the changed block.
+
+Decision for P4-S041: attack **finite-perturbation refutability** for the actual wtt-autoreduction presentation. Test whether a target-equivalent self-avoiding wtt normal form can make every raw-adjacent finite perturbation either another fixed point or finitely refutable without imposing full sibling totality.
+
+The actual P4-S011 machine is not known to satisfy the new decisiveness condition. No actual raw destroyer for (X), no (Xin OH), no OH non-invariance and no (R_2subsetneq OH) conclusion is made. (OH^{iso}) remains the comparison class.
+
+The P4-S015–P4-S031 bankroll sequence and P4-S037/P4-S038 backward-price route remain frozen as default directions. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 is unchanged; no novelty, prior-art, Gate-4, publication or outreach conclusion is made.
+
+Record: phase4/P4-S040_MATHEMATICS.md.
