@@ -563,3 +563,21 @@ This replaces the one-off radius-one localization problem by a recurrence proble
 Next bounded session: **P4-S043** — classify recurrent fixed-direction Case-C patterns and test asynchronous finite-family raw scans that harvest visible A/B directions without waiting for the recurrent C direction. Aim first to decide whether \(X\in OH\) would force infinitely many triple-C blocks.
 
 No novelty, Gate-4 or publication work is authorized.
+## P4-S043 — asynchronous one-role extraction and selector/reachability boundary
+
+Status: **COMPLETED / VALIDATED**.
+
+P4-S043 proves an asynchronous extension of P4-S040: a raw one-hole scan can act on its own A/B certificate and restart without synchronizing the other directions. Selected C remains an absorbing epoch.
+
+It also completes the local status combinatorics: exactly 14 A/B/C triples are realizable, with fixed-C lists
+\[
+C_0:CAA,CAC,CCA,CCC,\quad
+C_1:ACA,ACB,ACC,CCA,CCC,\quad
+C_2:AAC,ABC,ACC,CAC,CCC.
+\]
+
+The hoped-for deduction from recurrent nontriple C to recurrent triple C is not obtained. The new obstruction is online selection and fresh-block reachability: ambient recurrent A witnesses need not recur on one scan's endogenously selected fresh blocks. Guaranteed finite abandonment collapses to an exhaustive k=1 scan, while a prescribed finite family of pure wait policies can be structurally trapped without any triple-C block.
+
+Next bounded session: **P4-S044** — use the actual computable wtt horizon to test finite fresh-lane decompositions, transient multi-sentinel races and other online selector mechanisms capable of reaching infinitely many nontriple A witnesses.
+
+No novelty, Gate-4 or publication work is authorized.
