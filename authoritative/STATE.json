@@ -52,7 +52,7 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S048 on persistent old-hole sensitivity: determine whether the actual committed wtt-autoreduction lets one current raw-radius-one perturbation remain semantically essential for infinitely many later A-certificate computations, or whether that influence can be effectively escaped to produce current-hole-uniform usable edges.",
+  "next_transition": "Run P4-S048 on persistent partial-fixed-point old-hole sensitivity: use P4-S047's canonical global-refutation scan to isolate the false radius-one completions with no wrong finite equation, and determine whether their divergence-only influence on later A-certificate computations can persist indefinitely on the actual source or can be effectively escaped into current-hole-uniform usable edges.",
   "recommended_next_session": "P4-S048",
   "active_blocker": null,
   "candidate_selected": true,
@@ -1458,11 +1458,15 @@
       "OH_noninvariance_witness": false,
       "R2_proper_subset_OH_claimed": false,
       "class_OH_iso_preserved": true,
-      "next_question": "persistent old-hole sensitivity of future A-certificate computations on the actual committed source",
+      "next_question": "persistent partial-fixed-point old-hole sensitivity of future A-certificate computations on the actual committed source",
       "next_session": "P4-S048",
       "blocker": null,
       "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
-      "novelty_claimed": false
+      "novelty_claimed": false,
+      "global_branch_refutation_predicts_current_hole": true,
+      "canonical_global_refutation_one_hole_scan": true,
+      "X_in_OH_implies_reached_false_radius_one_partial_fixed_point": true,
+      "surviving_branch_sensitivity": "partial fixed point: every halt correct; divergence may remain"
     }
   },
   "phase4_k2_moving_hole_mathematics": {
