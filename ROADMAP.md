@@ -450,3 +450,35 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S039**, on same-source raw one-hole simulation of the c.e.-persistent coded P4-S011 claims under the displayed three-bit recoding.
+
+## P4-S039 — affine one-hole states and c.e. local autoreduction codes
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: ebf18e6ef13c1a684b0164811b7a13cc2bdf576c
+
+Scope: direct same-source raw one-hole simulation under the displayed three-bit recoding.
+
+Results:
+- formalized one omitted raw coordinate as the affine state \(u=a+hAe_i\);
+- computed exact virtual-unit raw-hole costs \(2,2,3\);
+- proved exact cross-block pivot migration cannot transport an old virtual sentinel through one raw hole;
+- defined the actual blockwise \(M\)-consistency code and proved its minimum Hamming distance is at least two;
+- proved every such code for the displayed matrix fixes some raw coordinate after \(A^{-1}\);
+- proved two visible local solutions already certify a raw coordinate;
+- characterized the larger three-bit raw-hyperplane matrix class by \(p^TA\) being a unit row and \(A^{-1}p\ne p\);
+- isolated the preselected-target trichotomy: finite rejection / second self-consistent endpoint / divergence-only singleton completion;
+- proved finite rejection yields a raw self-avoiding predictor;
+- proved local sibling totality yields an actual same-source raw one-hole destroyer;
+- did **not** establish local sibling totality for the committed P4-S011 machine, construct an actual raw destroyer for \(X\), prove \(X\in OH\), prove OH non-invariance, or prove \(R_2\subsetneq OH\).
+
+Records:
+- phase4/P4-S039_MATHEMATICS.md
+- phase4/P4-S039_CLOSE.md
+- phase4/P4-S039_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S040**, on online c.e. local-code completion and raw-adjacent companion obstruction under a preselected raw sentinel.
