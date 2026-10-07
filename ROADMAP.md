@@ -650,3 +650,35 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S046**, future A-certificate access cost and one-hole-compatible pre-certification for the actual committed autoreduction.
+
+## P4-S046 — one-bit future-A certification cost
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 99b628d62895fb3c98e7c31545b818580b0b884d
+
+Scope: future Case-A certificate support and raw freshness cost for the recoded P4-S011 source.
+
+Results:
+- formalized finite rejection support, slice certificates and same-block freshness cost;
+- used target correctness plus syntactic self-avoidance to prove automatic rejection of raw differences \(110,101,111\);
+- proved \(A_0\) is block-free, \(A_1\) costs at most one raw bit \(x_2\), and \(A_2\) costs at most one raw bit \(x_1\);
+- eliminated local cost two for all actual Case-A witnesses;
+- isolated raw \(011\) / virtual \(110\) as the common obstruction to block-free \(A_1/A_2\);
+- built exact-cost-one block-local \(CAC/CCA\) structural gadgets;
+- separated same-block access from P4-S045 certificate-time delay;
+- showed the \(ACB/ABC\) B arm cannot reduce \(A_0\)'s already-zero local cost;
+- showed block-free certification need not be one-hole-safe because outside support may hit the current sentinel;
+- defined usable certification edges and proved an infinite computable usable path would imply \(X\notin OH\);
+- obtained no such path and did not decide \(X\in OH\).
+
+Records:
+- phase4/P4-S046_MATHEMATICS.md
+- phase4/P4-S046_VALIDATION.md
+- phase4/P4-S046_CLOSE.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S047**, current-hole-uniform future A certification and outside-support collision.
