@@ -1773,3 +1773,47 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S040, online c.e. local-code completion and raw-adjacent companion obstruction under a preselected raw sentinel.
+
+
+## P4-S040 — raw-adjacent decisiveness and online singleton completion
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: a2902d7aed904f0fcf36693cf7da6105a1f6ab34
+
+Scope: sustained Phase-4 one-hole normalization; online c.e. local-code extraction under one raw sentinel.
+
+Results:
+- formalized raw-adjacent companions (Xleftrightarrow Xoplus e_j) as virtual differences (Ae_i);
+- defined c.e. local acceptance and finite refutation for the two affine endpoints;
+- isolated **raw-adjacent decisiveness** as absence of the divergence-only Case-C arm;
+- proved raw-adjacent decisiveness in all three directions on every reached synchronized block suffices for a same-source raw one-hole destroyer;
+- constructed three synchronized total computable adaptive no-repeat scans and checked the global one-hole condition on stalled, partially completed and infinitely completing transcripts;
+- proved fair-coin preservation of each scan;
+- proved the minimum-distance-two local code law forces at least one Case-A finite-rejection direction on each fully decisive block;
+- used infinite pigeonhole to obtain one fixed computable output martingale which doubles infinitely often;
+- proved the new condition is materially weaker than P4-S039 full 24-computation local sibling totality;
+- proved Case-B raw-adjacent certificates are retroactive and cannot provide a fresh same-block handoff sentinel;
+- proved global one-hole geometry forbids a second permanent prospective sentinel while the current one remains open;
+- isolated divergence-only Case C as the surviving local no-finite-certificate obstruction;
+- showed finite families of waiting/abandonment policies have no rate-free guarantee from the committed data;
+- showed additional outside (M(n))-equations may add c.e. refutations but the wtt use bound does not provide a computably finite reverse dependency closure;
+- did not establish raw-adjacent decisiveness for the actual P4-S011 machine;
+- did not construct an actual raw one-hole destroyer for (X);
+- did not prove (Xin OH), OH non-invariance or (R_2subsetneq OH).
+
+Retained:
+[
+MLRsubseteq R_2subseteq OH^{iso}subseteq OHsubsetneq CR.
+]
+
+Records:
+- phase4/P4-S040_MATHEMATICS.md
+- phase4/P4-S040_CLOSE.md
+- phase4/P4-S040_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: P4-S041, finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual P4-S011 wtt autoreduction.
