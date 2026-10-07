@@ -796,3 +796,30 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S047**, current-hole-uniform future A certification and outside-support collision.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Mathematics checkpoint — P4-S047 (not a gate review)
+
+P4-S047 resolves the finite mechanics of the currently open old sentinel.
+
+There are exactly two counterfactual raw completions. Under the displayed recoding their safe current virtual rows are
+\[
+\operatorname{Safe}(0)=\varnothing,\qquad
+\operatorname{Safe}(1)=\{u_0\},\qquad
+\operatorname{Safe}(2)=\{u_1\}.
+\]
+
+A future finite rejection trace which avoids every hole-dependent old row is automatically valid in both branches. A second positive criterion is **two-branch future fixedness**: if the future target-coordinate computations remain target-correct under both old-hole completions, self-avoidance restores the P4-S046 automatic unit-flip rejections in both branches. Under compatible two-branch raw-adjacent rejection the local costs remain \(0,1,1\).
+
+These criteria are not forced by the retained abstract hypotheses. A computable finite-use syntactically self-avoiding structural \(0^\omega\) model can, for every current role and future A role, query one old hole-dependent virtual row before each future local computation. On the true branch it realizes \(ACB,CAC\), or \(CCA\) with the P4-S046 local cost; on the alternate hole branch all relevant future computations diverge. Thus no role-only CHU transition matrix or finite-use collision-escape recurrence is forced.
+
+Failure of uniformity alone does not reveal the old bit: both hole branches are counterfactual simulations. A finite elimination of one current completion would be a stronger resource.
+
+No \(X\in OH\), \(X\notin OH\), OH non-invariance or \(R_2\subsetneq OH\) theorem is obtained. Retain
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+Next: **P4-S048**, attack persistent old-hole sensitivity on the actual committed source, especially the distinction between finite wrong-halt branch refutation and divergence-only branch sensitivity.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
