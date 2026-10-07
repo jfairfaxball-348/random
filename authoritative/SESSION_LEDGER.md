@@ -2095,3 +2095,42 @@ P4-S047 strengthening:
   \text{some reached false raw-radius-one completion is a partial fixed point of }M;
   \]
 - therefore narrowed the surviving old-hole obstruction to divergence-only sensitivity on a globally self-consistent partial neighbour.
+
+## P4-S048 — partial-neighbour role kernels and recurrent divergence gates
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: caba6f96b665e067661750e40e08164fb959968c
+
+Scope: persistent partial-fixed-point old-hole sensitivity.
+
+Results:
+- classified future target equations under the false partial neighbour as trace-safe, value-fixed sensitive, or divergence-sensitive;
+- sharpened the old-support lasso to exactly local divergence or a correct-halting cycle;
+- reduced canonical low-cost false-neighbour fixedness to
+  \[
+  F_0=\{q_0,q_1,q_2\},\quad F_1=\{q_0\},\quad F_2=\{q_1\};
+  \]
+- separated those lists from false-branch raw-adjacent rejection;
+- built recurrent Family F with a global partial-fixed false neighbour, one fixed old-row divergence gate, and surviving raw-adjacent rejection;
+- built recurrent Family R with a false total fixed neighbour but divergence-only doubly perturbed raw-adjacent candidates;
+- observed that every Family-R doubly perturbed candidate is itself a global partial fixed point, giving an infinite partial-fixed-point star;
+- proved a total computable canonical partial-neighbour escape operator would yield an infinite CHU path and \(X\notin OH\);
+- retained only an algorithm-relative obstruction under hypothetical \(X\in OH\);
+- obtained no CHU path and did not decide \(X\in OH\) or \(X\notin OH\).
+
+Records:
+- phase4/P4-S048_MATHEMATICS.md
+- phase4/P4-S048_VALIDATION.md
+- phase4/P4-S048_CLOSE.md
+
+Retained:
+\[
+MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
+\]
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Blocker requiring owner/external action: **NONE**.
+
+Recommended next bounded session: **P4-S049**, the two-raw-bit square / partial-fixed-point star.
