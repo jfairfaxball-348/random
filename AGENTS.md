@@ -628,3 +628,29 @@ with \(R_2=OH\) unresolved.
 Next: P4-S040 on online c.e. local-code completion and raw-adjacent companions. The P4-S015–P4-S031 bankroll sequence and the P4-S038 backward-price route remain closed as default directions.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Mathematics checkpoint — P4-S040 (not a gate review)
+
+P4-S040 continues the sustained one-hole normalization programme.
+
+P4-S039's full local sibling-totality hypothesis is no longer the positive boundary. For each raw target, it is enough that the raw-adjacent companion be **decisive**: either all three local autoreduction equations accept it, or one equation finitely refutes it by a wrong/nonbinary halt.
+
+If all three raw directions are decisive on every reached synchronized block, three total computable raw one-hole scans progress with no rejection-time bound. Case A gives a correct all-in raw wager and Case B gives a zero-stake closure. The minimum-distance-two local code law prevents all three companions from being accepted, so every block has a Case-A direction; by pigeonhole one fixed scan wins infinitely often.
+
+This is materially weaker than full 24-computation sibling totality. Rejected companions may have other divergent computations and unrelated local candidates need not halt.
+
+The two-solution arm does not hand off the sentinel prospectively: raw-adjacent endpoints differ only in the current raw target, so every raw coordinate they certify has already been read. Global one-hole geometry also forbids keeping a second prospective sentinel permanently open while the first unresolved search stalls.
+
+The surviving local effectivity obstruction is divergence-only Case C. Extra outside autoreduction equations may produce more c.e. refutations, but the wtt use bound does not give a finite reverse dependency closure.
+
+The actual P4-S011 machine is not known to satisfy raw-adjacent decisiveness. No actual raw destroyer for (X), no (Xin OH), no OH non-invariance and no (R_2subsetneq OH) result is proved.
+
+The inclusions remain
+[
+MLRsubseteq R_2subseteq OH^{iso}subseteq OHsubsetneq CR.
+]
+
+Next: **P4-S041**, test finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual wtt autoreduction. Do not return to the frozen bankroll line, backward-price normalization or ambiguity mass.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
