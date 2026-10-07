@@ -419,3 +419,34 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Owner/external blocker: **NONE**.
 
 Recommended next session: **P4-S038**, on persistent-frontier retirement and effective backward-price stabilization in the recoded P4-S011 schedule.
+
+
+## P4-S038 — persistent one-jump pricing and multiplicative uncertainty budgets
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: edae61899419825b2aa7610aa600e2804e9b8d1d
+
+Scope: persistent-frontier retirement and c.e. backward-price stabilization for the sustained \(R_2=OH\) target.
+
+Results:
+- separated computable finite source-value closure from only-c.e. claim retirement in the actual P4-S011 epoch;
+- derived the exact half-stake finite-horizon price process \((1,1)\to(3/2,1/2)\) or \((1/2,3/2)\), with at most one jump;
+- classified the trigger as c.e., permanent nontriggering as co-c.e., and the vector as a computable one-mind-change approximation;
+- proved that, for a fixed positive jump, computable deadlines, stabilization moduli, Cauchy moduli, exact limiting prices and two-sided retirement semidecisions all collapse to the trigger/nontrigger decision;
+- proved the actual recoded P4-S011 family has no such uniform decision or modulus, and its absolute persistent-savings prices have no uniform computable Cauchy modulus;
+- isolated the exact positive orientation-free hedge factor \(1+r\);
+- proved a new persistent-frontier normalization theorem from a computable finite multiplicative uncertainty budget \(\prod_{e<n}(1+r_e)\le K\), with no retirement decision or tail modulus required;
+- proved the pure all-correct sentinel target gain and the minimal orientation-free hedge cost are the same product, so stake decay cannot preserve unbounded pure sentinel gain while making the unresolved cost finite;
+- did **not** prove \(X\in OH\), OH non-invariance, or \(R_2\subsetneq OH\).
+
+Records:
+- phase4/P4-S038_MATHEMATICS.md
+- phase4/P4-S038_CLOSE.md
+- phase4/P4-S038_VALIDATION.md
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S039**, on same-source raw one-hole simulation of the c.e.-persistent coded P4-S011 claims under the displayed three-bit recoding.
