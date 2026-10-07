@@ -451,3 +451,19 @@ No \(X\in OH\) is proved, so no OH non-invariance or \(R_2\subsetneq OH\) claim 
 Next session: **P4-S039**, attack direct same-source one-hole simulation of the persistent coded claims under the displayed three-bit recoding, beginning with the finite linear algebra of one raw hole per block. Do not resume the frozen P4-S015–P4-S031 bankroll line by default.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+## Latest mathematics — P4-S039
+
+P4-S039 is complete and validated. The sustained target remains whether \(R_2=OH\).
+
+One raw hole in the displayed three-bit block is exactly an affine one-bit state. Exact reproduction of a virtual unit sentinel requires \(2,2,3\) raw holes depending on the virtual coordinate, so literal pivot transport through one raw hole fails.
+
+The three actual P4-S011 autoreduction equations nevertheless contain more source-side information. Their locally self-consistent three-bit assignments form a minimum-distance-two binary code, and for the displayed recoding every such code fixes at least one raw coordinate. If all finite local sibling computations halt, this can be turned into a genuine same-source raw one-hole destroyer.
+
+The actual wtt witness does not supply that sibling totality. For a preselected raw target, the alternate affine hypothesis can be finitely rejected, fully self-consistent, or non-self-consistent only through divergence. The surviving issue is therefore effective completion of a c.e. local consistency code, not finite linear rank alone.
+
+No actual raw destroyer for \(X\) and no \(X\in OH\) proof is obtained. Hence no OH non-invariance or \(R_2\subsetneq OH\) claim is made.
+
+Next session: **P4-S040**, attack the c.e. local-code / raw-adjacent companion boundary directly. Do not return to backward-price normalization or the frozen P4-S015–P4-S031 bankroll line by default.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
