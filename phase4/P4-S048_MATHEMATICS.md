@@ -9,15 +9,15 @@ Result: **AT AN UNRESOLVED GLOBAL-REFUTATION EPOCH, THE FALSE RAW-RADIUS-ONE COM
 
 ## Authority, uniqueness and frozen scope
 
-Live \`main\` was pinned at
+Live `main` was pinned at
 
 \[
 \texttt{caba6f96b665e067661750e40e08164fb959968c},
 \]
 
-the exact P4-S047 outgoing checkpoint. There was no mismatch. Direct path inspection showed that \`phase4/P4-S048_MATHEMATICS.md\` did not exist, so P4-S048 was unused.
+the exact P4-S047 outgoing checkpoint. There was no mismatch. Direct path inspection showed that `phase4/P4-S048_MATHEMATICS.md` did not exist, so P4-S048 was unused.
 
-P4-S001 through P4-S047, the required CAND-01 authority, \`phase4/P4_RESEARCH_PIVOT_AFTER_S031.md\`, and P4-S032 through P4-S047 were read at the pinned state, with special attention to P4-S011, P4-S012, P4-S027 and P4-S039 through P4-S047.
+P4-S001 through P4-S047, the required CAND-01 authority, `phase4/P4_RESEARCH_PIVOT_AFTER_S031.md`, and P4-S032 through P4-S047 were read at the pinned state, with special attention to P4-S011, P4-S012, P4-S027 and P4-S039 through P4-S047.
 
 All validated mathematics through P4-S047 is frozen. The ticket/reserve/frontier/recycling sequence, backward-price route, ordinary raw-martingale compilation, ambiguity mass, generic radius-one totalization, generic reverse-dependency closure, and the previously closed local-enumeration/timing/same-block-cost routes are not reopened.
 
