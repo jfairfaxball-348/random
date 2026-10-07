@@ -1851,3 +1851,38 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: P4-S042, localization of raw-radius-one divergence into the local block equations versus remote partiality compatible with local decisiveness.
+
+## P4-S042 — target-trace contact and recurrent local Case C
+
+Date: 2026-10-07
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: f14170a6275cafc23d672b3598ace83f0258cd78
+
+Scope: localize raw-radius-one divergence for the recoded P4-S011 autoreduction without reopening the frozen bankroll, backward-price, ordinary raw-martingale or ambiguity-mass routes.
+
+Results:
+- proved finite target-trace contact with the changed support for every divergent radius-one companion equation;
+- proved the support-lasso classification: finite local refutation, local divergence, or correct local dependency cycle;
+- showed minimal wtt use gives no well-founded descent;
+- constructed an explicit computable self-avoiding finite-use countermodel with remote divergence in all three raw directions and local status \((A_0,B_1,B_2)\);
+- retained the exact P4-S041 pairwise law and showed remote divergence does not strengthen it by finite evidence;
+- obtained no uniform target-equivalent localization compiler from the tested resources;
+- proved
+  \[
+  X\in OH\Rightarrow\text{arbitrarily late local Case C},
+  \]
+  hence some fixed raw direction is Case C on infinitely many blocks;
+- did not decide \(X\in OH\) or \(X\notin OH\) for the committed source.
+
+Records:
+- phase4/P4-S042_MATHEMATICS.md
+- phase4/P4-S042_VALIDATION.md
+- phase4/P4-S042_CLOSE.md
+
+State reconciliation: authoritative/STATE.json had inherited top-level progress fields lagging at P4-S037 despite later committed mathematics. P4-S042 synchronized those fields and imported the already committed structured S038–S042 one-hole records without changing prior mathematical content.
+
+PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+
+Owner/external blocker: **NONE**.
+
+Recommended next session: **P4-S043**, recurrent fixed-direction Case C and asynchronous harvesting of visible A/B directions.
