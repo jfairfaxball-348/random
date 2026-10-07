@@ -1,12 +1,12 @@
-# Next Session Prompt — P4-S042
+# Next Session Prompt — P4-S043
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run only Phase 4 — Mathematics session P4-S042. Treat committed repository state as authoritative. Pin live main at the exact P4-S041 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S042 is unique, and read P4-S001 through P4-S041, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, phase4/P4-S032_MATHEMATICS.md through phase4/P4-S041_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S039, P4-S040 and P4-S041.
+Run only Phase 4 — Mathematics session P4-S043. Treat committed repository state as authoritative. Pin live main at the exact P4-S042 outgoing checkpoint reported by the preceding session, reconcile any mismatch, confirm P4-S043 is unique, and read P4-S001 through P4-S042, the required CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md, and phase4/P4-S032_MATHEMATICS.md through phase4/P4-S042_MATHEMATICS.md, with special attention to P4-S011, P4-S012, P4-S039, P4-S040, P4-S041 and P4-S042.
 
 ## Sustained Phase-4 target — one-hole normalization after coded recoding
 
-Freeze all validated mathematics through P4-S041. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, or ambiguity mass unless the theorem below genuinely requires them.
+Freeze all validated mathematics through P4-S042. Do not return to the P4-S015–P4-S031 ticket/reserve/frontier/recycling sequence, the P4-S037/P4-S038 backward-price route, ordinary raw-martingale compilation, ambiguity mass, or general radius-one totalization unless the theorem below genuinely requires them.
 
 Retain
 
@@ -49,10 +49,18 @@ A=
 \end{pmatrix},
 \]
 
-and columns
+columns
 
 \[
-c_0=111,\qquad c_1=011,\qquad c_2=101.
+c_0=111,\qquad c_1=011,\qquad c_2=101,
+\]
+
+and supports
+
+\[
+S_0=\{q_0,q_1,q_2\},\qquad
+S_1=\{q_1,q_2\},\qquad
+S_2=\{q_0,q_2\}.
 \]
 
 Let \(Y\) be the settled P4-S011 computably random wtt-autoreducible source, \(M\) its committed syntactically self-avoiding wtt autoreduction, \(D\) its one-hole destroyer, and
@@ -69,158 +77,61 @@ X\in CR,\qquad H(X)=Y\notin OH.
 
 The missing source-side statement remains whether \(X\in OH\).
 
-## P4-S041 boundary to retain
+## P4-S042 boundary to retain
 
-P4-S041 proves the finite-perturbation totality collapse:
+P4-S042 proves the exact target-trace contact theorem.
 
-> If \(M\) halts on every input for every finite perturbation of \(Y\), then the computable wtt use bound makes every finite answer pattern below the use halt, so \(M\) compiles to a truth-table autoreduction of \(Y\).
-
-The retained P4-S011 source authority excludes computably random truth-table-autoreducibility. Therefore some finite perturbation of \(Y\) causes divergence.
-
-Transporting finite perturbations through the invertible recoding defines the minimal raw divergence radius
+If a radius-one companion
 
 \[
-\rho=\min\{|F|:(\exists n)\ M^{Y^F}(n)\uparrow\}.
+Z_i=Y\oplus\chi_{S_i}
 \]
 
-P4-S041 proves
+has
 
 \[
-\rho\ge2\Longrightarrow X\notin OH,
+M^{Z_i}(n)\uparrow
 \]
 
-because totality of every single-raw-bit companion implies P4-S040 raw-adjacent decisiveness everywhere.
-
-Therefore
+while
 
 \[
-X\in OH\Longrightarrow\rho=1.
+M^Y(n)\downarrow=Y(n),
 \]
 
-Do not reverse this implication.
+then the finite target computation must query at least one coordinate of \(S_i\). Its first changed-coordinate query is a finite positive dependency witness.
 
-Raw-radius-one divergence does not by itself give P4-S040 Case C. It may occur only at an outside equation \(M(n)\), or a companion may have a divergent equation while another local equation already gives a finite wrong/nonbinary refutation.
+Following only such justified target-trace contacts gives a **support lasso**. Once inside \(S_i\), a reached changed-coordinate computation can:
 
-P4-S041 also proves the finite-difference dependency-cycle theorem. For genuine fixed-point companions, every changed coordinate depends on another changed coordinate. The raw-adjacent supports satisfy:
+1. halt wrong/nonbinary, giving finite local Case A;
+2. diverge, giving local partiality and Case C iff no other local refutation exists; or
+3. halt correctly, in which case self-avoidance forces a first-difference edge to another changed coordinate.
+
+The third arm can close into the exact P4-S041 cycles:
 
 \[
-011:\ q_1\leftrightarrow q_2,
+S_1:\ q_1\leftrightarrow q_2,
 \]
 
 \[
-101:\ q_0\leftrightarrow q_2,
+S_2:\ q_0\leftrightarrow q_2,
 \]
 
-while \(111\) has a two-cycle with a tail or an oriented three-cycle as its canonical first-difference graph.
+and on \(S_0\) a two-cycle with a tail or an oriented three-cycle.
 
-These are positive Case-B structures, not finite Case-C certificates.
+Therefore remote divergence need not localize to local Case C.
 
-Finally, if A/B/C denote the P4-S040 local status of raw directions,
+P4-S042 gives an explicit computable finite-use self-avoiding countermodel on target \(0^\omega\) in which one outside equation diverges in all three raw directions while the local status vector is
 
 \[
-B_0\Rightarrow A_1,A_2,\qquad
-B_1\Rightarrow A_0,\qquad
-B_2\Rightarrow A_0.
+(A_0,B_1,B_2).
 \]
 
-Hence a block with no finite rejection is necessarily triple Case C, with shared local divergences at the pairwise single-difference equations. No finite stage certifies that triple-C outcome.
+Thus remote partiality can coexist with complete P4-S040 local decisiveness. This countermodel is structural only; its target is not computably random and it does not decide the committed source.
 
-## P4-S042 bounded task — localize raw-radius-one divergence
+Minimal input, minimal wtt use and first-contact position do not provide a well-founded descent to local divergence.
 
-Attack only the gap between “some equation diverges on a single-raw-bit companion” and “one of the three block equations is divergence-only Case C”.
-
-Do not return to general totalization or ordinary martingale pricing.
-
-### 1. Formalize remote versus local radius-one partiality
-
-Fix one raw coordinate \(j=(B,i)\) and let
-
-\[
-Z=Y^{\{j\}}.
-\]
-
-Distinguish:
-
-- **local partiality:** \(M^Z(q_r)\uparrow\) for some \(q_r\in B\);
-- **remote partiality:** \(M^Z(n)\uparrow\) for some \(n\notin B\);
-- **local Case C:** at least one local block equation diverges and every local equation which halts is correct for \(Z\);
-- **decisive despite partiality:** some equation may diverge, but one local equation finitely refutes \(Z\), so P4-S040 still classifies the companion as Case A.
-
-Do not conflate these.
-
-### 2. Use the halting target trace of a divergent companion equation
-
-Suppose
-
-\[
-M^Z(n)\uparrow,\qquad M^Y(n)\downarrow=Y(n).
-\]
-
-The target computation is finite and has a definite query trace.
-
-Ask whether divergence after changing only the support
-
-\[
-S_i=\operatorname{supp}(c_i)
-\]
-
-forces the target trace to query at least one coordinate in \(S_i\).
-
-Prove the exact statement. In particular, if the target computation never queries \(S_i\), the two computations see identical answers and must behave identically, contradicting divergence.
-
-Then identify the first queried changed coordinate and what this says about the dependency of the remote divergence on the block.
-
-### 3. Build a divergence dependency relation
-
-For a radius-one raw companion \(Z\), define a relation from a divergent input \(n\) to changed coordinates or to further inputs only when the relation is justified by finite target traces.
-
-Test whether one can follow a finite chain from any remote divergent equation back to one of the changed block inputs \(q_r\).
-
-Do not assume a computably finite reverse dependency closure. The relation must be oriented using information actually supplied by halting target computations.
-
-Determine whether minimality of \(n\), minimal wtt use, or minimal target-trace contact produces a well-founded descent.
-
-If no well-founded measure exists, isolate the exact obstruction.
-
-### 4. Test localization by minimal use
-
-Let \(u(n)\) be the computable wtt use bound.
-
-Among all divergent inputs for a fixed radius-one companion, choose one with minimal use \(u(n)\), if this helps.
-
-The target trace must contact a changed coordinate.
-
-Ask whether the contacted changed coordinate \(q_r\) can itself diverge under \(Z\), or whether its companion computation may halt correctly and pass the perturbation onward through another queried changed coordinate.
-
-Use the P4-S041 finite dependency-cycle theorem when the local computation halts correctly.
-
-The goal is to decide whether a minimal-use remote divergence can terminate only in:
-
-- a local Case-C divergence;
-- a finite local refutation;
-- or a genuine cycle of correct local halts that leaves divergence remote.
-
-### 5. Exploit the exact support sizes
-
-Treat separately:
-
-\[
-S_1=\{q_1,q_2\},\qquad
-S_2=\{q_0,q_2\},\qquad
-S_0=\{q_0,q_1,q_2\}.
-\]
-
-For the two-coordinate supports, accepted local companions force a two-cycle.
-
-Ask whether this rigid cycle makes remote divergence impossible, or merely means the outside divergent computation can depend on the already-closed two-cycle.
-
-For the three-coordinate support, compare the two-cycle-with-tail and three-cycle cases.
-
-Do not infer global fixed-pointhood from local cycle acceptance.
-
-### 6. Use the pairwise raw-adjacent law aggressively
-
-Retain
+Retain the pairwise status law
 
 \[
 B_0\Rightarrow A_1,A_2,\qquad
@@ -228,94 +139,183 @@ B_1\Rightarrow A_0,\qquad
 B_2\Rightarrow A_0.
 \]
 
-Try to strengthen it when a direction has remote divergence.
+No stronger finite-evidence law follows merely from remote divergence.
 
-Examples to test:
-
-- can remote partiality in direction 1 coexist with \(B_1\), hence force \(A_0\);
-- can remote partiality occur in all three directions while some directions remain A or B locally;
-- does absence of any A still force explicit shared local divergence exactly as in P4-S041;
-- can one obtain a finite rejection in one direction from a remote divergence trace in another without negative information?
-
-Any strengthened status law should be exact and finite-evidence based.
-
-### 7. Test target-equivalent localization normal forms, not totalization
-
-The normal-form goal is now weaker.
-
-Do not try to make every radius-one companion total.
-
-Ask whether \(M\) can be replaced uniformly by a target-equivalent syntactically self-avoiding wtt \(M'\) such that any radius-one divergence affecting \(M'\) is localized to a changed block equation, while finite local rejections remain allowed.
-
-Potential operations:
-
-- duplicate an outside equation into a changed block equation without querying that block input itself;
-- redirect finite target traces through a block coordinate;
-- use tagged compositions which preserve syntactic self-avoidance;
-- choose a canonical lowest-use divergent dependency if such a choice can be made positively;
-- or prove that any localization compiler would still require negative divergence information.
-
-Any \(M'\) must be computable uniformly from committed data. Do not use \(Y\) as a noncomputable program parameter.
-
-### 8. Test whether remote partiality is harmless for P4-S040
-
-P4-S040 needs only local decisiveness.
-
-It is possible in principle that \(M\) has unavoidable radius-one divergence somewhere but every raw-adjacent companion is still locally A or B.
-
-If this can be proved for the committed mechanism, apply P4-S040 fully and conclude
+The main new source-side theorem is the **persistent local Case-C necessity**:
 
 \[
-X\notin OH.
+X\in OH
+\Longrightarrow
+\text{arbitrarily late local Case-C block-direction pairs}.
 \]
 
-Do not stop at the observation that remote divergence exists.
+Indeed if local Case C occurred only below a finite block cutoff, a delayed-start P4-S040 three-scan construction would run entirely on decisive blocks and destroy \(X\).
 
-Conversely, if remote divergence can coexist with local Case C, state exactly what additional hypothesis is needed to force persistent Case C on reached synchronized blocks.
-
-### 9. Separate one witness from enough witnesses
-
-A theorem that some single raw perturbation has local Case C is not enough by itself to defeat the P4-S040 three-scan theorem on infinitely many reached blocks.
-
-Distinguish:
-
-- one radius-one divergent perturbation;
-- one local Case-C direction;
-- a Case-C direction on infinitely many fresh blocks;
-- enough Case-C directions to block every finite-family synchronized raw scan;
-- persistent Case C for every target-equivalent presentation.
-
-Do not infer stronger recurrence from a single witness.
-
-### 10. Preserve the source-side separation guard
-
-An OH non-invariance theorem still requires
+Hence
 
 \[
-X\in OH,\qquad H(X)=Y\notin OH.
+X\in OH
+\Longrightarrow
+(\exists i\in\{0,1,2\})\,
+C_i\text{ occurs on infinitely many raw blocks}.
 \]
 
-Only the second statement is settled.
+Do not reverse this implication. Recurrent Case C is necessary for this candidate source to lie in \(OH\), not sufficient.
 
-If P4-S042 obtains local decisiveness everywhere, invoke P4-S040 and conclude only
+## P4-S043 bounded task — exploit recurrent fixed-direction local Case C
+
+Attack only the recurrent local obstruction forced by the surviving \(X\in OH\) branch.
+
+Do not return to one-off remote divergence localization.
+
+### 1. Fix the recurrent direction
+
+Assume for contradiction-testing purposes that some fixed direction \(i\) is Case C on infinitely many arbitrarily late fresh blocks.
+
+Treat separately \(i=0,1,2\).
+
+Use the P4-S041 pairwise law to enumerate the exact possible local status patterns on a block with \(C_i\).
+
+In particular check explicitly:
+
+- \(C_0\) forbids every Case B direction, so the only patterns are
+  \[
+  (C,A,A),\ (C,A,C),\ (C,C,A),\ (C,C,C);
+  \]
+- for \(C_1\), direction \(0\) cannot be B and any \(B_2\) forces \(A_0\);
+- symmetrically for \(C_2\).
+
+Do not infer recurrence of any pattern merely from recurrence of \(C_i\); use finite pigeonhole only where justified.
+
+### 2. Separate nontriple-C recurrence from triple-C recurrence
+
+Every recurrent \(C_i\)-block which is not triple C has at least one visible Case-A direction.
+
+Ask whether infinitely many such blocks can already be exploited by a finite family of total raw one-hole scans.
+
+The desired sharpening is:
+
+\[
+X\in OH\Longrightarrow
+\text{triple Case C occurs infinitely often},
+\]
+
+but prove it only if the scan geometry really supports it.
+
+If the implication fails, isolate the exact pattern that survives.
+
+### 3. Remove unnecessary all-three synchronization
+
+P4-S040 waited until all three direction statuses were visible before restoring a synchronized fresh-block boundary.
+
+That was convenient under global decisiveness but is now too strong.
+
+Test whether a scan whose own direction reaches Case A or B can close its sentinel and move to a new fresh block without waiting for another direction known only semantically to be Case C.
+
+Potential mechanisms:
+
+- independent block schedules for the three sentinel roles;
+- finite families indexed by role/status pattern;
+- deterministic restoration to the first completely fresh block above the scan's own queried prefix;
+- zero-stake consumption of already exposed block coordinates;
+- restarting after a visible Case-A wager without learning the status of the stalled companion.
+
+Every proposed scan must remain everywhere total, computable, no-repeat and globally one-hole.
+
+Do not silently reserve a second permanent hole.
+
+### 4. Test whether visible Case A can outrun recurrent Case C
+
+Suppose a fixed direction \(i\) is recurrently C, while on infinitely many of those blocks another direction \(j\) is A.
+
+A direction-\(j\) scan has a finite positive rejection witness on each such block.
+
+Ask whether it can encounter infinitely many of those A blocks before ever becoming trapped at a \(C_j\) block.
+
+If not, characterize the obstruction as a recurrence/interleaving problem rather than a local effectivity problem.
+
+Do not use an infinite family of scans as though one member were computably selectable. Existence arguments over a countable computable family are allowed only when a genuine mathematical pigeonhole/tail argument identifies that some fixed member succeeds.
+
+### 5. Use the stronger constraints when \(C_0\) recurs
+
+On a \(C_0\) block, no direction is Case B.
+
+Therefore every nontriple \(C_0\) block has Case A in direction 1 or 2.
+
+Test whether this two-role structure yields a cleaner asynchronous extraction theorem.
+
+If infinitely many \(C_0\)-blocks are nontriple, finite pigeonhole gives infinitely many \(A_1\) or infinitely many \(A_2\) among those blocks. The missing issue is not correctness but whether one total one-hole scan can reach infinitely many of those witnesses without stalling earlier.
+
+Resolve that exact issue.
+
+### 6. Analyze recurrent \(C_1\) and \(C_2\)
+
+For recurrent \(C_1\) or \(C_2\), a Case-B companion in the opposite two-support direction forces \(A_0\).
+
+Determine whether those visible \(A_0\) events can be harvested by a raw-coordinate-0 scan without requiring the recurrent C direction to resolve.
+
+Separate:
+
+- \(C_1\) with \(B_2\);
+- \(C_2\) with \(B_1\);
+- mixed A/C patterns;
+- triple C.
+
+### 7. If triple C is forced, exploit its shared divergences
+
+Retain from P4-S041 that triple C gives shared local divergences
+
+\[
+M^{Z_0}(q_0)=M^{Z_1}(q_0)\uparrow,
+\]
+
+and
+
+\[
+M^{Z_0}(q_1)=M^{Z_2}(q_1)\uparrow.
+\]
+
+If P4-S043 proves infinitely many triple-C blocks are necessary, examine only then whether these shared divergences give a new cross-block one-hole resource.
+
+Do not assume divergence is positively detectable.
+
+The goal at this stage is structural recurrence, not totalization.
+
+### 8. Test finite-family role switching, not noncomputable selection
+
+A finite family of scans may be used if all members are explicitly computable and a finite pigeonhole argument proves one succeeds.
+
+It is not enough to say “choose the direction that is eventually A infinitely often” if constructing that chosen scan would require noncomputable knowledge.
+
+Prefer a fixed finite family whose members differ only by computable initial role or restart schedule.
+
+### 9. Preserve the distinction between necessary obstruction and OH membership
+
+Even if recurrent triple Case C is proved necessary, that does not establish
+
+\[
+X\in OH.
+\]
+
+To prove \(X\in OH\), every total computable one-hole destroyer would have to be excluded.
+
+Conversely, if asynchronous A/B harvesting produces one raw one-hole destroyer for the committed \(X\), conclude only
 
 \[
 X\notin OH,
 \]
 
-eliminating this source as a separation candidate.
+eliminating this source as an OH non-invariance candidate.
 
-If P4-S042 localizes some divergence to Case C, \(X\in OH\) still does not follow unless all one-hole destroyers are excluded.
-
-### 11. Required session outcome
+### 10. Required session outcome
 
 The output should be one of:
 
-- a theorem that every raw-radius-one divergent companion necessarily has local Case C or finite local refutation, with the exact branch classification;
-- a theorem that radius-one divergence can remain genuinely remote while all three local block equations are decisive, followed by P4-S040 if this holds for the committed source;
-- a target-equivalent self-avoiding wtt localization normal form;
-- a well-founded/minimal-use dependency theorem sharply reducing remote divergence to the block support;
-- a construction/obstruction showing why remote divergence cannot be localized from the committed data;
+- a theorem that recurrent fixed-direction Case C with infinitely many nontriple blocks still yields a raw one-hole destroyer, forcing recurrent triple Case C under \(X\in OH\);
+- a stronger theorem that any recurrent Case-C pattern allowed by the pairwise law is still exploitable, hence \(X\notin OH\);
+- an explicit asynchronous/role-switching finite-family scan theorem strictly extending P4-S040;
+- a sharp obstruction showing why visible Case-A witnesses on recurrent Case-C blocks cannot be harvested by any tested finite-family synchronization scheme;
+- a structural classification of the recurrent status patterns that any surviving \(X\in OH\) must realize;
 - or, only if it follows directly, an actual proof of \(X\notin OH\) or \(X\in OH\).
 
 The sustained question remains
@@ -328,6 +328,6 @@ If no OH non-invariance witness is proved, preserve \(OH^{iso}\) as the comparis
 
 P4-S032 null-ambiguity preservation remains available. Do not return to ambiguity mass as an invariant.
 
-Preserve PA-0001 as **UNRESOLVED_UNDER_INSPECTED_EVIDENCE** and DEF-0020 unchanged. Make no novelty, openness, prior-art, Gate-4, publication or outreach claim. Continue original mathematics only.
+Preserve PA-0001 as UNRESOLVED_UNDER_INSPECTED_EVIDENCE and DEF-0020 unchanged. Make no novelty, openness, prior-art, Gate-4, publication or outreach claim. Continue original mathematics only.
 
 Record, validate and synchronize useful work, commit it, verify remote main, report the exact outgoing hash, and provide the next prompt if no blocker exists.
