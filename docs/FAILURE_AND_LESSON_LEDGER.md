@@ -1177,7 +1177,6 @@ Positive boundary: local sibling totality of the finite 24-computation block fam
 
 Correct next move: study online extraction from the c.e. local code / raw-adjacent companion relation, not another raw-martingale pricing compiler.
 
-
 ## P4-S040 lesson — positive pairs are visible, but divergence-only companions block online completion
 
 **Successful weakening:** full local sibling totality is unnecessary. It is enough that each raw-adjacent companion be positively decisive: either locally self-consistent or finitely refuted by one wrong/nonbinary halt. Under this condition three synchronized raw one-hole scans yield a same-source destroyer.
@@ -1192,10 +1191,11 @@ Correct next move: study online extraction from the c.e. local code / raw-adjace
 
 **Sharp surviving obstruction:** Case C. Once the actual endpoint is positively accepted, an unresolved companion can still later be finitely rejected, later become accepted, or diverge forever. No finite stage certifies the divergence-only alternative.
 
-**Outside-equation lesson:** additional (M(n))-equations can produce more c.e. rejection witnesses, but the wtt use bound is forward per-input information. It does not make the reverse dependency set of all inputs that may inspect the changed block computably finite.
+**Outside-equation lesson:** additional \(M(n)\)-equations can produce more c.e. rejection witnesses, but the wtt use bound is forward per-input information. It does not make the reverse dependency set of all inputs that may inspect the changed block computably finite.
 
-**Guard:** failure of these online Case-C compilers does not prove (Xin OH). The actual P4-S011 machine is not known to satisfy raw-adjacent decisiveness, so no actual raw destroyer, OH non-invariance or (R_2subsetneq OH) conclusion is available.
+**Guard:** failure of these online Case-C compilers does not prove \(X\in OH\). The actual P4-S011 machine is not known to satisfy raw-adjacent decisiveness, so no actual raw destroyer, OH non-invariance or \(R_2\subsetneq OH\) conclusion is available.
 
 Next session: **P4-S041**, test finite-perturbation refutability / raw-adjacent decisiveness normal forms for the actual wtt autoreduction. Do not return to backward-price normalization, the frozen P4-S015–P4-S031 bankroll line, or ambiguity mass.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
