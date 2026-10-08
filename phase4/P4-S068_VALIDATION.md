@@ -2,12 +2,12 @@
 
 Date: 2026-10-08
 Session: P4-S068
-Incoming authoritative live \`main\`: \`2fb48831de500cebff79f8f34337f5dbaeb09ffb\`
+Incoming authoritative live `main`: `2fb48831de500cebff79f8f34337f5dbaeb09ffb`
 Disposition: **VALIDATED EXACT CONTROLLER-SPECIFIC FINITE GATE-CYLINDER COMPRESSION; NO VERIFIED ACTUAL-X GATE RECURRENCE**
 
 ## Authority and uniqueness — PASS
 
-Latest GitHub commit on live \`main\` matched the required P4-S067 outgoing SHA. At that checkpoint P4-S068 mathematics was absent (404), \`STATE.json\` named S067 last completed, S068 recommended, active session null, active blocker null. Checked P3-S007 selection, P3-S008 Gate-3 PASS, post-S031 pivot and the ordered P4-S001–S067 mathematics record set, focusing on S008/S011/S012/S027/S033/S039/S041/S044–S067.
+Latest GitHub commit on live `main` matched the required P4-S067 outgoing SHA. At that checkpoint P4-S068 mathematics was absent (404), `STATE.json` named S067 last completed, S068 recommended, active session null, active blocker null. Checked P3-S007 selection, P3-S008 Gate-3 PASS, post-S031 pivot and the ordered P4-S001–S067 mathematics record set, focusing on S008/S011/S012/S027/S033/S039/S041/S044–S067.
 
 ## Finite closure law — PASS
 
