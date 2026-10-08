@@ -696,3 +696,12 @@ A combined old/square scan earns factor 2 or 4/3 per positive exit. Infinite exe
 The unconditional hedge **resets the old sentinel**. Repeated passive refutations against one trapped old s are not repeated completed pair hedges, and no infinite cross-epoch capture policy for the committed X has been proved.
 
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. Next: P4-S051 on positive multi-square capture across reset. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## P4-S051 — cross-target reset-free escrow (2026-10-08)
+
+Records: [mathematics](P4-S051_MATHEMATICS.md), [validation](P4-S051_VALIDATION.md), [close](P4-S051_CLOSE.md).
+
+Two positively refuted old/future square atoms with opposite old rows and distinct unread future targets exclude a future-only tuple. A fair sequential 4/3 payoff on the two future bits needs no old-sentinel query. A concrete finite-window escrow scan is everywhere total, no-repeat, fair-coin preserving and globally one-hole safe; same-target opposite rows can instead provide an immediate 2x target-only wager.
+
+By P4-S008, infinite gains at one fixed permanently omitted old sentinel cannot occur on a computably random source. No source-specific infinite cross-epoch capture/turnover is established. X in OH, X not in OH, and R_2=OH remain unresolved. Next P4-S052: certified cash-out and repeated turnover; PA-0001 unresolved; DEF-0020 unchanged.
