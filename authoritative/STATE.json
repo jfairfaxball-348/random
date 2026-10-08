@@ -52,7 +52,7 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S070: test actual fixed-M and endogenous-X closure geometry for weighted timeliness bounds controlling late deficit d_L(p) against eventual b(p), with gamma=(b-d_L)2^-c and no actual reset recurrence proved.",
+  "next_transition": "Run P4-S070 on the owner-directed post-P4-S069 GLOBAL CODED-HOLE strategic pivot: test the displayed H preservation of OH on every CR raw source; seek same-source normalization or a rigorous global obstruction; treat R_2=OH^iso as a separate subsequent structural axis. Freeze S001–S069 and park routine S057–S069 local certificate/hazard refinements.",
   "recommended_next_session": "P4-S070",
   "active_blocker": null,
   "candidate_selected": true,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S068",
-    "next_session": "P4-S069",
+    "last_session": "P4-S069",
+    "next_session": "P4-S070",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S068_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S068_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S068_VALIDATION.md",
+    "latest_record": "phase4/P4-S069_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S069_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S069_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -2038,7 +2038,9 @@
       "novelty_claimed": false,
       "owner_external_blocker": null,
       "validation_record": "phase4/P4-S068_VALIDATION.md"
-    }
+    },
+    "current_research_pivot": "phase4/P4_STRATEGIC_PIVOT_AFTER_S069.md",
+    "current_research_target": "GLOBAL_SAME_SOURCE_CODED_HOLE_HOMEOMORPHIC_OH_PRESERVATION_TEST"
   },
   "phase4_k2_moving_hole_mathematics": {
     "session": "P4-S009",
