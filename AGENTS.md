@@ -881,3 +881,12 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S050**, effective activation of the one-refutation square theorem without a semantic trap oracle.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Live Phase-4 P4-S050 checkpoint
+
+P4-S050 validates a computable fair sequential forbidden-atom hedge. One finite refutation of raw square (a,beta) while s,t unread earns terminal 4/3 on every allowed pair after querying both s then t. No semantic trapped-epoch premise. The global finite-tenure controller closes both on a hedge, or timeouts t at zero stake while keeping old s. The combined old/square controller gains 2 or 4/3 at each positive exit; infinite executed exits imply X not in OH.
+
+Critical guard: a single pair exclusion does **not** guarantee profit from querying only the future t while s remains unqueried. The unconditional hedge therefore resets s and cannot be repeated indefinitely against one trapped old sentinel. Passive square events, including semantic actual-A refutations, are not automatically executed captures. Under X in OH every fixed combined policy has only finitely many positive exits and a policy-relative final persistent old sentinel. No infinite capture schedule, X in OH, X not in OH, OH non-invariance or R_2 proper-subset OH was proved.
+
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. Next P4-S051: multi-square positive escrow and effective capture across resets. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.

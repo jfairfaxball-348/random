@@ -2175,3 +2175,25 @@ PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 unchanged. Pha
 Blocker requiring owner/external action: **NONE**.
 
 Recommended next bounded session: **P4-S050**, effective activation of the one-refutation square theorem without semantic knowledge of the trapped epoch.
+
+
+## P4-S050 — Forbidden-pair hedge and globally legal square exits
+
+Date: 2026-10-08
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 9d03117f2674bd0a942634520ff4bed0890f5e1b
+Scope: Phase 4 mathematics on CAND-01; one-hole normalization after coded recoding.
+
+- Proved every finite wrong/nonbinary square computation positively excludes one raw pair on every epoch, without semantic trap knowledge.
+- Proved an exact fair two-bit forbidden-pair hedge: first s-query capitals 2/3 or 4/3, then t-query capitals (0,4/3) or (4/3,4/3), guaranteeing terminal factor 4/3 on the three allowed atoms.
+- Constructed total computable fair-coin-preserving no-repeat globally one-hole-safe finite-tenure square-exit and combined old-branch/square-exit protocols.
+- Proved infinitely many executed positive exits yield one computable output martingale succeeding, hence X not in OH.
+- Under hypothetical X in OH, showed every fixed combined policy has finitely many exits and ends at an algorithm-dependent old sentinel with no old-branch refutation and no further timely square capture.
+- Proved a single excluded pair does not support a universal strict gain on either individual bit alone. Unconditional square hedge consumes and resets the old sentinel.
+- Did not prove infinite cross-epoch executed capture on X and decided neither X in OH nor X not in OH.
+
+Records: phase4/P4-S050_MATHEMATICS.md, phase4/P4-S050_VALIDATION.md, phase4/P4-S050_CLOSE.md.
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
+PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.
+Blocker requiring owner/external action: **NONE**.
+Next bounded session: **P4-S051**, square capture across old-sentinel reset.

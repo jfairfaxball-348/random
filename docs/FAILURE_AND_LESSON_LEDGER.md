@@ -1551,3 +1551,24 @@ Divergence is not c.e. Seeing one branch halt leaves open that the other is mere
 A finite source-relative divergence set need not come with a computable last-bad bound or one-hole-safe way to select beyond it.
 
 **Lesson:** effective escape must be supplied by a terminating computable procedure returning a legal CHU edge, not by semantic cofinality.
+
+
+## P4-S050 — passive square capture versus completed fair hedge
+
+### Blocked inference: one forbidden atom predicts the future bit on an arbitrary old epoch
+
+A finite wrong/nonbinary square witness eliminates only the pair (a,beta). Without a trapped-epoch shield or a second same-column refutation, the other old row leaves both future values possible.
+
+**Lesson:** unconditional exploitation is via a *two-bit* conditional-expectation hedge, terminal multiplier 4/3, not by an unjustified individual-bit prediction.
+
+### Blocked inference: a single pair exclusion can finance infinitely many bets while old s remains unread
+
+If s=1-a, both t=0 and t=1 remain allowed. A fair t-only wager cannot guarantee a strict gain on both. The valid two-bit hedge consumes s, so an executed capture resets the old epoch. An arbitrary passive scan collecting infinitely many square refutations against one unopened s is not the same as a scan executing infinitely many pair hedges.
+
+**Lesson:** the new capture problem is *cross-epoch* and retains the certificate-time obstruction. Theorem P4-S050-5 applies only to active, executed, globally one-hole-safe square exits.
+
+### Blocked inference: finite wtt use or infinitely many actual A blocks forces successful capture
+
+Value horizons bound which bits a computation may request, not when its finite wrong halt is discovered relative to timeout. After each successful pair hedge the protected old coordinate changes.
+
+**Lesson:** no X in OH, X not in OH or R_2/ OH separation conclusion follows from the absence of a known capture policy.

@@ -1245,3 +1245,18 @@ Decision: retain the P4-S049 structural full-star model showing that both old ro
 Next: **P4-S050**, attack effective activation of the one-refutation square theorem without a semantic trap oracle, using only positive finite square events and globally legal one-hole fallback.
 
 No \(X\in OH\), unconditional \(X\notin OH\), OH non-invariance, \(R_2\subsetneq OH\), novelty, openness, Gate-4, publication or outreach conclusion is made.
+
+
+## P4-S050 — finite positive pair-hedge activation
+
+Decision: a finite square refutation is a one-pair exclusion **on every old epoch**. Two-bit conditional-expectation betting provides a fair computable exact 4/3 terminal gain on the other three pairs without an old-trap oracle.
+
+Decision: use globally one-hole-safe finite-tenure square exits. A caught pair refutation triggers s-then-t queries and resets the old sentinel; a timeout consumes t but retains s. Optionally combine finite old-branch refutation exits with correct doubled wagers.
+
+Decision: infinite *executed* captured pair exits or infinite combined positive exits under a single computable legal scan imply X not in OH. Do not confuse with passive repeated events sharing a permanent unread old s.
+
+Decision: a single forbidden pair cannot guarantee a strict one-bit gain without further positive information; consuming s to realize the unconditional hedge incurs a reset cost.
+
+Decision: under hypothetical X in OH, every fixed computable combined policy makes finitely many positive exits and eventually persists at a policy-dependent old s with no finite old-branch refutation and no timely square captures. Do not infer semantic absence of later A blocks, a uniform capture clock, or X in OH.
+
+Next: **P4-S051**, test positive multi-square escrow and repeated captures after reset. Preserve R_2 subseteq OH^iso subseteq OH and all unsettled separation guards.

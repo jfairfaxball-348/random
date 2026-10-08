@@ -791,3 +791,12 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S050**, effective activation of the one-refutation square theorem without semantic knowledge of the trapped epoch.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Phase-4 checkpoint — P4-S050 (not a gate review)
+
+The forbidden-pair square hedge is confirmed: one finite excluded two-bit atom yields an exact fair sequential gain 4/3 when both raw coordinates are still unread, with no semantic trapped-epoch premise. Finite-tenure square-exit and combined old/square protocols are total, computable, fair and globally at most one-hole. Infinitely many executed exits force X not in OH.
+
+The price is a reset: the unconditional hedge consumes the current old sentinel. One excluded atom is insufficient for guaranteed strict one-bit gain while that old sentinel stays unread. Infinite effective captures across restarted epochs have not been established for the committed source. Under hypothetical X in OH, each policy has finitely many positive exits and a persistent no-capture/no-old-refutation final epoch; no global semantic timing bound follows.
+
+Next **P4-S051**: positive multi-square capture across reset. No R_2 versus OH separation. Phase 4 OPEN, Phase 5 CLOSED. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged.

@@ -733,3 +733,18 @@ MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 Next: **P4-S050**, attack effective activation of the one-refutation square theorem without semantic knowledge of the trapped epoch, using only positive finite square events and globally legal one-hole fallback.
 
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Current mathematics checkpoint — P4-S050 (2026-10-08)
+
+P4-S050 proves that finite square refutation of a raw pair (a,beta) is sufficient for a fair two-query forbidden-atom hedge, *without recognizing a trapped old epoch*. The exact terminal payoff is zero on (a,beta) and 4/3 on each of the other three atoms. Query s first with capital 2/3 or 4/3; then query t with capitals 0,4/3 or zero stake. Actual source capital gains 4/3 at every completed pair hedge.
+
+The fully specified finite-tenure square-exit controller is a total computable no-repeat fair-coin-preserving one-hole scan. Timeout consumes t and keeps s; a successful two-bit hedge consumes both and restarts. A combined old-branch/square controller has correct gains 2 or 4/3 per positive exit. Infinite executed exits imply X not in OH.
+
+The key new boundary is **old-sentinel reset**: one excluded pair cannot guarantee strict gain on t alone while leaving s unread. The unconditional pair hedge consumes s. Infinite semantic actual-A refutations at one trapped old sentinel do not automatically imply infinite effective captures *across renewed sentinels*. Under hypothetical X in OH, every fixed combined policy has finitely many exits and ends with a persistent, old-refutation-free s and no further timely square captures; this is algorithm-relative.
+
+No infinite executed-capture schedule for the committed X, no X in OH, no unconditional X not in OH and no OH non-invariance are established.
+
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
+Next: **P4-S051**, finite positive multi-square capture and reset-sensitive escrow.
+PA-0001 **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.

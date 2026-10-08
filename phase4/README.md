@@ -683,3 +683,16 @@ Records:
 PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**. DEF-0020 is unchanged. The P4-S015–P4-S031 bankroll line remains frozen.
 
 Recommended next session: **P4-S038**, on persistent-frontier claim retirement and effective backward-price stabilization.
+
+
+## P4-S050 — forbidden-pair hedge and one-hole square exits (2026-10-08)
+
+Records: [mathematics](P4-S050_MATHEMATICS.md), [validation](P4-S050_VALIDATION.md), [close](P4-S050_CLOSE.md).
+
+A single finite positive square refutation excludes a two-bit atom on every epoch. The exact sequential fair hedge pays zero there and 4/3 at each of the other three atoms, with no trapped-epoch assumption. A total computable no-repeat fair-coin-preserving one-hole scan can execute the hedge and consume both raw bits, or timeout transient future t and retain old s.
+
+A combined old/square scan earns factor 2 or 4/3 per positive exit. Infinite executed exits imply X not in OH. Under X in OH each computable combined policy eventually has one persistent old s, no finite old-branch refutation, and no further timely captured square event. The obstruction is algorithm-relative.
+
+The unconditional hedge **resets the old sentinel**. Repeated passive refutations against one trapped old s are not repeated completed pair hedges, and no infinite cross-epoch capture policy for the committed X has been proved.
+
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. Next: P4-S051 on positive multi-square capture across reset. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.

@@ -356,3 +356,12 @@ Thus bounded frontier width, finite state, graph rank, directed-ray status and b
 No OH non-invariance witness is proved and (OH^{iso}) remains the comparison class.
 
 Next: **P4-S038**, attack persistent claim retirement in the actual recoded P4-S011 schedule. The P4-S015–P4-S031 bankroll line remains frozen.
+
+
+## Current mathematics checkpoint — P4-S050
+
+The one-hole normalization programme now has an unconditional *finite* two-bit betting result. A finite square-refutation certificate excludes one raw pair even if the current old sentinel's trap status is unknown. A fair sequential hedge queries old bit s then future bit t and guarantees a terminal capital gain 4/3 on the actual pair. A computable one-hole-safe square-exit controller can execute this hedge, consume both coordinates, and restart. Infinite executed captures or combined old/square exits would prove X not in OH.
+
+The remaining difficulty is capture **after reset**: each hedge consumes s, so the same trapped sentinel cannot underwrite arbitrarily many unconditional hedges. No effective infinite-capture theorem for the committed source and no X in OH / X not in OH conclusion have been obtained. Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
+
+See phase4/P4-S050_MATHEMATICS.md; next P4-S051 addresses multi-square positive escrow and reset-sensitive capture. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.

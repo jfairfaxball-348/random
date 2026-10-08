@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S049",
+  "last_completed_session": "P4-S050",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S049 on the two-raw-bit square / partial-fixed-point star isolated by P4-S048: compare Y, the false old partial neighbour Z, a future raw-adjacent A perturbation, and the combined old-plus-future perturbation; test whether the committed source forces any positive finite constraint yielding branch refutation, old-bit prediction, or effective CHU escape.",
-  "recommended_next_session": "P4-S050",
+  "next_transition": "Run P4-S051 on positive multi-square information and effective capture across old-sentinel resets; test globally legal one-hole-safe repeated square exits, while keeping passive captures distinct from executed hedges and retaining the certificate-time obstruction.",
+  "recommended_next_session": "P4-S051",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S049",
-    "next_session": "P4-S050",
+    "last_session": "P4-S050",
+    "next_session": "P4-S051",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S049_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S049_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S049_VALIDATION.md",
+    "latest_record": "phase4/P4-S050_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S050_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S050_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -1537,6 +1537,57 @@
       "class_OH_iso_preserved": true,
       "next_question": "effective activation of the one-refutation square theorem without a semantic trap oracle",
       "next_session": "P4-S050",
+      "blocker": null,
+      "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "novelty_claimed": false
+    },
+    "one_hole_normalization_eighteenth_step_result": {
+      "session": "P4-S050",
+      "result": "FINITE_PAIR_REFUTATION_GIVES_EXACT_FAIR_FOUR_THIRDS_TWO_BIT_HEDGE_WITHOUT_TRAP_ORACLE_GLOBAL_ONE_HOLE_SQUARE_EXITS_AND_RESET_COST",
+      "target_equation": "R_2 = OH ?",
+      "target_resolved": false,
+      "pair_exclusion_positively_ce": true,
+      "forbidden_pair_hedge_terminal_payoff": [
+        0,
+        "4/3",
+        "4/3",
+        "4/3"
+      ],
+      "sequential_s_branch_capitals": [
+        "2/3",
+        "4/3"
+      ],
+      "sequential_t_branch_capitals": [
+        [
+          "0",
+          "4/3"
+        ],
+        [
+          "4/3",
+          "4/3"
+        ]
+      ],
+      "trap_premise_for_hedge": false,
+      "globally_legal_square_exit_scan": true,
+      "first_old_sentinel_consumed_on_pair_exit": true,
+      "finite_tenure_timeout_consumes_only_future_t": true,
+      "combined_positive_exit_factors": [
+        "2",
+        "4/3"
+      ],
+      "infinite_executed_square_exits_imply_X_not_in_OH": true,
+      "infinite_combined_positive_exits_imply_X_not_in_OH": true,
+      "single_excluded_atom_universal_one_bit_gain_without_more_evidence": false,
+      "passive_infinite_capture_alone_proves_X_not_in_OH": false,
+      "X_in_OH_implies_each_combined_policy_finitely_many_exits": true,
+      "X_in_OH_final_persistent_sentinel_obstruction_algorithm_relative": true,
+      "cross_epoch_infinite_capture_constructed": false,
+      "recoded_p4_s011_source_in_OH": false,
+      "OH_noninvariance_witness": false,
+      "R2_proper_subset_OH_claimed": false,
+      "class_OH_iso_preserved": true,
+      "next_question": "Can finite positive multi-square data yield an effective computable sequence of executed captures across successive old-sentinel resets, without an old-trap oracle?",
+      "next_session": "P4-S051",
       "blocker": null,
       "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "novelty_claimed": false

@@ -339,3 +339,10 @@ A simple globally k=2 fair-coin singleton-spine comb shows that the required que
 This is not a Gate-4 decision and not a novelty finding. PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; the pre-Phase-4 Gate-3 guard, P4-S001 through P4-S008 and DEF-0020 are preserved; no claim is made for k>2. Phase 4 remains OPEN and Phase 5 CLOSED.
 
 Record: phase4/P4-S009_MATHEMATICS.md.
+
+
+## Mathematics checkpoint — P4-S050 (not a gate review)
+
+P4-S050 established the exact fair forbidden-pair 4/3 sequential hedge and a total globally one-hole-safe finite-tenure square-exit controller. Infinite executed square/old positive exits would give a computable one-hole destroyer. The committed X is not shown to yield infinitely many timely captures across successive old-sentinel resets. Under hypothetical X in OH each combined policy has only finitely many positive exits and a policy-dependent final persistent sentinel. No separation and no X in OH conclusion are made.
+
+Gate 3 remains PASS, Phase 4 OPEN and Phase 5 CLOSED. No Gate-4 review occurred. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
