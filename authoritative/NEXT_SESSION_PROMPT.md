@@ -1,43 +1,23 @@
-# Next Session Prompt — P4-S070
+# Next Session Prompt — P4-S071
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run **ONLY Phase 4 — Mathematics session P4-S070**. Pin LIVE remote `main` to the exact **post-P4-S069 strategic-pivot outgoing SHA reported in the immediately preceding handoff**, not the older P4-S069 mathematics outgoing SHA `84dc214685144887df3b1bbdcc0e258392ef1e97`. Reconcile any discrepancy; confirm uniqueness, no owner/external blocker and Phase 4 OPEN. Read P4-S001–P4-S069, P3-S007 CAND-01 selection, P3-S008 Gate-3 PASS, the post-S031 pivot and **phase4/P4_STRATEGIC_PIVOT_AFTER_S069.md**, plus authoritative state/ledgers. Emphasize P4-S008, S011, S012, S027, S032, S033, S039–S044, S052–S057 and S065–S069.
+Run **ONLY Phase 4 — Mathematics session P4-S071**.
 
-## Frozen mathematical authority
+Pin LIVE remote main at the **exact P4-S070 outgoing SHA reported in the preceding verified handoff**. Reconcile any mismatch, verify that S071 is unused, and inspect P4-S001–S070, P3-S007 CAND-01 selection, P3-S008 Gate-3 PASS, both Phase-4 pivots, and the S070 mathematics/validation/close. Emphasize S008/S011/S012/S027/S032–S044/S052–S057/S065–S070.
 
-Preserve every validated result unchanged:
+Freeze every validated result. Retain
 \[
 MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 \]
-Retain the committed computably random Y, the EXACT unchanged syntactically self-avoiding globally use-clipped wtt autoreduction M, the explicit repeated-block computable fair-coin homeomorphism
-\[
-H(x)_{3b}=x_{3b}\oplus x_{3b+2},\quad
-H(x)_{3b+1}=x_{3b}\oplus x_{3b+1},\quad
-H(x)_{3b+2}=x_{3b}\oplus x_{3b+1}\oplus x_{3b+2},
-\]
-and X=H^{-1}(Y)\in CR with H(X)=Y\notin OH. The questions X\in OH, R_2=OH, OH invariance under H, and R_2=OH^{iso} are **UNRESOLVED**.
+Preserve the original computably random Y, exact self-avoiding globally use-clipped wtt autoreduction M, the committed repeated three-bit H with A=[101;110;111], and X=H^{-1}(Y) in CR, with H(X)=Y notin OH. X in OH, H-pres, R_2=OH, R_2=OH^{iso}, and homeomorphism invariance of OH remain unresolved.
 
-P4-S033 proves that R_2 is invariant under all computable fair-coin-preserving homeomorphisms and that OH^{iso}=OH iff OH is invariant under all of them. It exhibits the non-scan destructive coded-hole map D\circ H, but the **same-source** raw one-hole vulnerability of X is unresolved. P4-S039–S044 isolate coded one-hole support, Case A/B/C finite decision versus divergence-only partiality, and the global one-permanent-hole constraint. P4-S057–S069 finite source-specific certificate/hazard results remain frozen and are NOT the default next target.
+**Controlling new P4-S070 theorem.** The following are equivalent: (i) OH is preserved by H; (ii) OH is preserved by every computably supported XOR shear S_E, acting as (a,b,c)->(a,b xor c,c) on every block indexed by computable E; (iii) OH is preserved by every computable per-block member of GL(3,F_2). Identity H^{-1}Q_E H=S_E and H^7=id provide the reduction. Define OH^{lin3} as robustness under those block-linear recodings; H-pres iff OH^{lin3}=OH. This is an equivalence, NOT a proof of preservation or nonpreservation.
 
-## New bounded target: GLOBAL same-source coded-hole obstruction
+**Primary bounded task:** investigate preservation/nonpreservation of OH under supported *two-coordinate* shears, starting with a specific computable selection E (all blocks or a simple decidable infinite/co-infinite set). Seek either a legal same-source total computable global one-hole no-repeat scan/martingale compilation for any shear-mediated destroyer, or a genuine computably random z in OH with S_E(z) not in OH. The virtual third-coordinate hole has two-bit raw support; distinguish impossibility of literal factorization from global failure of same-source extraction. Confront c.e. positive witnesses versus divergence-only Case C and the prohibition on two permanently omitted raw coordinates on ANY transcript. If neither side closes, establish one sharper, rigorously global preservation criterion, reduction or impossibility result beyond S070's group equivalence.
 
-Investigate the particular displayed H first, at the quantifier level:
-\[
-\boxed{(\forall z\in CR)\ [\,z\in OH\Longrightarrow H(z)\in OH\,].}
-\tag{H-pres}
-\]
+Do NOT resume finite S057–S069 clock/hazard/controller work automatically, or old ticket/frontier/backward-pricing routes. If any S057 controller is invoked, retain exact four paired globally clipped M traces, prospective deadlines, real zero-stake fillers, true t/u ZERO timeout release and mandatory non-s sweep WITHOUT resetting old s, global total fair no-repeat one-hole fibres, and one forbidden ZERO/seven 8/7 terminal fair payoffs. Do not transfer generic or sibling results to committed X or infer actual recurrences.
 
-Seek a proof, a CR counterexample, or ONE rigorous global structural reduction/obstruction that materially bears on the truth of (H-pres), using P4-S033/S039–S044. The key phenomenon is whether total computable raw one-hole scans can exploit a hidden virtual coordinate encoded across two/three raw bits when candidate resolution is c.e./partial and a second permanent raw hole is forbidden.
+Keep R_2=OH^{iso} explicitly secondary and separate. Do not claim that even positive H-pres implies R_2=OH or OH^{iso}=OH. Preserve PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE and DEF-0020; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach claims.
 
-**Outcome tests:** A proof of (H-pres) implies X\notin OH, since H(X)=Y\notin OH, but does NOT alone show R_2=OH. A counterexample z\in OH with H(z)\notin OH (not necessarily z=X) proves R_2\subsetneq OH because R_2 is H-invariant. These are conditional logical consequences, NOT established outcomes. Do not conflate one particular H with all homeomorphisms; do not mistake literal map-level scan factorization (already refuted) for same-source witness normalization.
-
-Secondary, not compulsory for P4-S070: investigate R_2\stackrel{?}{=}OH^{iso} as the global normal-form theorem. Its equality would NOT automatically imply R_2=OH without the additional OH^{iso}=OH property.
-
-**Explicitly stop repeating local finite work by default.** Do not seek another bound on P4-S068/S069 `a(p),b(p),d_L(p),c(p),gamma(p)`, a prospective tenure, hazard, renewal, reserve or timeout count unless its necessity for a stated global theorem is first proved. Do not derive source-X recurrence from eventual M^Y halting, potential sibling cylinders, measure-typical sources, or a retrospective runtime. Preserve all P4-S057 controller safeguards if invoked: least unread old s, least wholly unread t/u/v, four clipped paired M traces, positive prospective L, mandatory actual filler output steps, only ordinary pre-consumption certificate gates, every timeout t/u ZERO release plus a non-s sweep WITHOUT old reset, global total fair no-repeat one-hole fibres, exactly one forbidden ZERO and seven 8/7 payoffs with fair intermediate ledger.
-
-## Governance, validation and close
-
-PA-0001 remains **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**, DEF-0020 unchanged, Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN and Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach claim. This strategic directive changed NO validated mathematics.
-
-Perform ONLY P4-S070 mathematics; document the strongest rigorously justified result or a precise unsolved global obstruction, validate it, synchronize authoritative files, commit, independently verify remote main and report the exact outgoing SHA. Supply P4-S071 prompt ONLY if no owner or external blocker exists.
+Record/validate one bounded P4-S071 result; synchronize authority, commit, independently verify remote main and report exact outgoing SHA. Give next prompt only if no owner/external blocker.
