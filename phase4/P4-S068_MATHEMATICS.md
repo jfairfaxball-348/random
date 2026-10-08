@@ -2,13 +2,13 @@
 
 Date: 2026-10-08
 Session: P4-S068
-Incoming live remote \`main\`: \`2fb48831de500cebff79f8f34337f5dbaeb09ffb\`
+Incoming live remote `main`: `2fb48831de500cebff79f8f34337f5dbaeb09ffb`
 Scope: Phase 4 — Mathematics ONLY
 Disposition: **VALIDATED CONTROLLER-SPECIFIC VALUE-CLOSURE CERTIFICATE MULTIPLICITY IDENTITY AND PERMANENT-CR-STALL WEIGHTED CAPACITY; NO VERIFIED ACTUAL-X RECURRENCE OR INFINITE PROFITABLE EXITS**
 
 ## 0. Authority, objects, uniqueness
 
-At entry the most recent GitHub commit on \`main\` was exactly the required outgoing P4-S067 commit. The P4-S068 mathematics path returned 404 at that checkpoint; \`authoritative/STATE.json\` named P4-S067 completed and P4-S068 next, with no owner/external blocker. Read the 67 mathematics records in session order (S001–S067), with focused examination of S008/S011/S012/S027/S033/S039/S041, S044–S067, the selected CAND-01 P3-S007 decision, P3-S008 Gate-3 PASS, the post-S031 Phase-4 pivot and the authoritative session and state records. Frozen mathematics is unchanged.
+At entry the most recent GitHub commit on `main` was exactly the required outgoing P4-S067 commit. The P4-S068 mathematics path returned 404 at that checkpoint; `authoritative/STATE.json` named P4-S067 completed and P4-S068 next, with no owner/external blocker. Read the 67 mathematics records in session order (S001–S067), with focused examination of S008/S011/S012/S027/S033/S039/S041, S044–S067, the selected CAND-01 P3-S007 decision, P3-S008 Gate-3 PASS, the post-S031 Phase-4 pivot and the authoritative session and state records. Frozen mathematics is unchanged.
 
 Retain
 \[
