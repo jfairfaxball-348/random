@@ -2351,3 +2351,14 @@ Status: **COMPLETED / VALIDATED**. Incoming main: e9876660b088938600700fb16317e8
 - Conditional infinite ACTUAL wins on CR X imply for each prospective computable B and every sufficiently late epoch start e some j among the next 64ceil(log_2(m_e+2)) epochs has ACTUAL W_j>=B(j,p_j). This local individual-profile spacing constraint does not follow here by a new computable global finite horizon; no infinite X renewal established.
 - P4-S008/P4-S052/P4-S053/P4-S056–P4-S060 and all earlier mathematics frozen. X in OH and R_2=OH unresolved. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach.
 Records: phase4/P4-S061_MATHEMATICS.md; phase4/P4-S061_VALIDATION.md; phase4/P4-S061_CLOSE.md. Owner/external blocker: NONE. Next P4-S062.
+
+## P4-S062 — near-critical actual-source local overrun-spacing sharpness (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming main: 72f7a29b9f09c0f650d20d1dd7a14cfb2557f4b5.
+- Uniform clopen finite prompt-block tests from each valid length-m epoch history aggregate into ONE length-selected event of mass <=(7/8)^k(m).
+- If computable rational a(m)->infinity and sum_m a(m)(7/8)^k(m) has a computable tail, an exactly fair nonnegative rational source martingale forbids infinitely many such events on CR.
+- K_62(m)=ceil(26ceil(log_2(m+2))/5) and a(m)=ceil(log_2(m+2))+1 satisfy this by exact 2^5*7^26<8^26. Conditional on infinitely many ACTUAL completed nonzero winning old resets, for every prospective total computable B, all sufficiently late e have some j in [e,e+K_62(m_e)) with W_j>=B(j,p_j). This improves P4-S061's 64-log window.
+- Independent abstract triple survival events of the same exact mass demonstrate only the mass-portfolio subcritical boundary, NOT a committed-M/T_L counterexample or X-specific optimality.
+- No infinite actual winning was established. Every earlier mathematical and phase/governance guard preserved; X in OH and R_2=OH unresolved; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
+Records: phase4/P4-S062_MATHEMATICS.md; phase4/P4-S062_VALIDATION.md; phase4/P4-S062_CLOSE.md. Owner/external blocker: NONE. Next P4-S063.
+

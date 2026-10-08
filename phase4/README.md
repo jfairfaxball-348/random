@@ -785,3 +785,10 @@ Every m completed total finite-tenure reservations of unchanged success-gated T_
 Records: [mathematics](P4-S061_MATHEMATICS.md), [validation](P4-S061_VALIDATION.md), [close](P4-S061_CLOSE.md).
 
 Each finite valid epoch-start transcript h admits a clopen k-success test with total prospective reservation budgets B and source mass <=2^(-|h|)(7/8)^k. A computably summable portfolio over all histories proves that, if committed CR X has infinitely many ACTUALLY completed profitable old turnovers, every sufficiently late reached epoch e has an individual completed W_j>=B(j,p_j) among the next K(m_e)=64ceil(log_2(m_e+2)) epochs, for every total computable B. This new local spacing restriction does NOT establish actual infinite renewal or decide X in OH / R_2=OH. Preserve P4-S057–P4-S060, class chain and governance; Phase 4 OPEN, Phase 5 CLOSED. Next P4-S062.
+
+## P4-S062 — sharp near-critical conditional local spacing (2026-10-08)
+
+Records: [mathematics](P4-S062_MATHEMATICS.md), [validation](P4-S062_VALIDATION.md), [close](P4-S062_CLOSE.md).
+
+One finite clopen B-prompt test per emitted epoch-start OUTPUT length gives a weighted martingale whenever sum_m a(m)(7/8)^k(m) converges effectively with a(m)->infinity. The exact inequality 2^5*7^26<8^26 proves K_62(m)=ceil(26ceil(log_2(m+2))/5), replacing P4-S061's 64ceil(log_2(m+2)) with a strictly shorter necessary individual-overrun window, CONDITIONAL on actual infinite profitable old renewals on CR X. Disjoint independent triple tests show only a sharp limit of the stand-alone mass method, not legal infinite T_L renewal. No actual infinite win, X in OH, or R_2=OH established. Phase 4 OPEN, Phase 5 CLOSED; all earlier mathematics preserved. Next P4-S063.
+
