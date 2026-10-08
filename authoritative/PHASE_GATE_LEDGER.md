@@ -436,3 +436,8 @@ Mathematics checkpoint ONLY. Every computably supported two-coordinate XOR shear
 ## P4-S072 — late-wager online fair settlement; gates unchanged (2026-10-08)
 
 Mathematics checkpoint ONLY. Positive fair credit-pivot settlement gives L*F=d_m A_m, h=(L+F)/2>=sqrt(d_m A_m), and preservation whenever a faithful online registrar has pending product bounded away from zero. If a z in OH were destroyed while admitting such a registrar, pending inventory must approach zero along high virtual capital. Late cross-block fair credit example and impossibility of universal pre-c exact forecast validated; no general supported-shear preservation, no OH separator. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No owner/external blocker; P4-S073 next.
+
+
+## P4-S073 — shared-pivot joint-price mathematics; gates unchanged (2026-10-08)
+
+Mathematics ONLY: conditional globally legal bundled fair-price normalization L F Pi=d A, h_2>=sqrt(d A/Pi), and third-account financiable ratio h_3>=(d A Q/Pi)^(1/3). Naive product of two individually fair wagers fails if their common-pivot correlation alpha beta is nonzero; a fixed computable repeated four-block pair *can* prepay joint price at a real c filler and obtain one raw fair martingale e>=d/4. This does NOT establish arbitrary shear or H preservation, X in OH or R_2=OH. Gate 3 PASS, Gate 4 NOT REVIEWED; Phase 4 OPEN, Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; no gate/policy/publication/outreach change. Blocker NONE; P4-S074 next.
