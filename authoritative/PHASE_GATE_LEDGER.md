@@ -412,3 +412,7 @@ Keep MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR, Y/M/H/X, X i
 ## P4-S066 — mathematics-only checkpoint (2026-10-08)
 
 Gate status unchanged in P4-S066: Gate 3 PASS; Phase 4 OPEN; Gate 4 NOT REVIEWED; Phase 5 CLOSED. P4-S066 is a mathematics checkpoint only, not a gate review.
+
+## P4-S067 — unchanged Gate-3/Phase-4 status (2026-10-08)
+
+Mathematics-only checkpoint. First-positive-gate finite leaf tree yields a quantified necessary short-depth capacity restriction on every permanent CR old-sentinel stall; clock padding of a distinct alternative M shows no extensional runtime-to-hazard inference. No committed X recurrence or R_2=OH determination. Gate 3 PASS; Phase 4 OPEN; Gate 4 NOT reviewed; Phase 5 CLOSED. PA-0001 and DEF-0020 unchanged. Next P4-S068; blocker NONE.

@@ -1384,3 +1384,7 @@ Decision: preserve all frozen mathematics and real success-gated T_L. Adopt actu
 ## P4-S066 — mathematics-only checkpoint (2026-10-08)
 
 No policy or Gate-4 decision in P4-S066; validated mathematics-only necessary pathwise-hazard obstruction, with source-X recurrence unresolved. Prior decisions and CAND-01 selection unchanged.
+
+## P4-S067 — mathematics-only local gate-leaf capacity (2026-10-08)
+
+No new policy/gate decision. Retain all earlier decisions. The actual controller's finite first-gate leaf-depth capacity law is a necessary obstruction on hypothetical CR permanent stalls; no committed-X hazard divergence/recurrence verified. A padded alternative-program clock countermodel is NOT a modification of committed M. Gate 3 PASS; Phase 4 OPEN; Phase 5 CLOSED; PA-0001/DEF-0020 unchanged. Next P4-S068; no blocker.
