@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S059",
+  "last_completed_session": "P4-S060",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S060 on source-verified high-degree-compatible genuine Pi^0_2 success-gated renewal or a further actual-source obstruction; preserve P4-S057/P4-S058/P4-S059 barriers.",
-  "recommended_next_session": "P4-S060",
+  "next_transition": "Run P4-S061 to seek source-verified infinitary four-run renewal or a genuinely new individual-W_e profile obstruction beyond computable finite-horizon recoding; retain P4-S057–P4-S060.",
+  "recommended_next_session": "P4-S061",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S059",
-    "next_session": "P4-S060",
+    "last_session": "P4-S060",
+    "next_session": "P4-S061",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S059_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S059_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S059_VALIDATION.md",
+    "latest_record": "phase4/P4-S060_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S060_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S060_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -1801,6 +1801,21 @@
       "validation_record": "phase4/P4-S059_VALIDATION.md",
       "close_record": "phase4/P4-S059_CLOSE.md",
       "next_session": "P4-S060"
+    },
+    "k2_success_gated_reservation_count_result": {
+      "session": "P4-S060",
+      "result": "CONDITIONAL_EVENTUAL_DOMINANCE_OF_CUMULATIVE_ACTUAL_TIMEOUT_RESERVATIONS",
+      "unchanged_controller": "P4-S057_T_L",
+      "computable_finite_reservation_output_bound": true,
+      "reservation_n_win_events_uniformly_clopen": true,
+      "measure_bound": "(7/8)^n",
+      "source_cr_infinitely_often_computable_reservation_horizon_possible": false,
+      "hypothetical_infinite_success_implies_dominant_real_miss_sums": true,
+      "corollary_of_p4_s059": true,
+      "logically_independent_of_p4_s059": false,
+      "actual_infinite_wins_verified": false,
+      "x_in_oh_resolved": false,
+      "r2_equals_oh_resolved": false
     }
   },
   "phase4_k2_moving_hole_mathematics": {

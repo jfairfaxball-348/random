@@ -2334,3 +2334,12 @@ Status: **COMPLETED / VALIDATED**. Incoming main: 10f192447d8d24ad3c54669366bdc1
 - If infinitely many actually completed wins occur, total X-computable nth-win times eventually dominate ALL total computable h(n). P4-S011's Y already computes a dominating all-trigger time, so highness of X/Y does not establish/exclude actual T_L renewal.
 - All earlier work frozen, including P4-S057 W_e prospective budget overruns and P4-S058 effective F-sigma barrier. No X/OH or R_2=OH classification; no source-verified infinite progress.
 Records: phase4/P4-S059_MATHEMATICS.md; phase4/P4-S059_VALIDATION.md; phase4/P4-S059_CLOSE.md. Guards unchanged; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED. Owner/external blocker: NONE. Next P4-S060.
+
+## P4-S060 — cumulative real missed-reservation dominance (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming main: af79af780bdfb28f5f883b0c8bcb5d2b8b19eed1.
+- Exact unchanged success-gated T_L has an effective uniform output-bit bound b(m) through m completed finite-tenure reservations on EVERY raw input. D_{n,m}, n completed NONZERO winning 8/7 turnovers by m complete reservations, is uniformly computably clopen with lambda(D_{n,m})<=(7/8)^n.
+- On any CR source and any total computable reservation budget h(n), D_{n,h(n)} holds at only finitely many n (P4-S059 applied to b∘h).
+- Conditional infinite actual wins on committed X imply A_n(X)=n+S_n(X), S_n=sum_{e<n}W_e the count of completed zero-stake t/u-release TIMEOUT reservations. S_n eventually dominates every total computable f(n). This is an operational corollary of P4-S059, not a logically independent obstruction or a verified infinite-winning sequence.
+- No X in OH, X not in OH, R_2=OH or OH non-invariance finding. STATUS.md P4-S057 display corrected. All prior mathematics/guards frozen.
+Records: phase4/P4-S060_MATHEMATICS.md; phase4/P4-S060_VALIDATION.md; phase4/P4-S060_CLOSE.md. Gate 3 PASS; Phase 4 OPEN, Phase 5 CLOSED; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach. Owner/external blocker: NONE. Next P4-S061.
