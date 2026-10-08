@@ -1299,3 +1299,16 @@ Decision: escrow does not beat the P4-S050 first-refutation reset in earliest LO
 Decision: an abstract computable c.e. delayed-publication model can provide two opposite-old-row sound wrong-future exclusions AFTER the release of every spent prospective target and thereby defeat timely capture on a computable reference input. This is NOT a construction or no-go theorem for the committed M/Y/X. No actual-source infinite promptness, X in OH, X not in OH, R_2=OH or OH non-invariance established.
 
 Next P4-S054 on an actual-M finite-stage promptness invariant or stronger necessary arrival law. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach finding.
+
+
+## P4-S054 — actual autoreduction cube certificate and partial clock
+
+Decision: retain the exact H recoding. Flipping future raw x0 and x1 in one fresh block changes ONLY virtual q=3b. The target-correct syntactically self-avoiding M^Y(q) therefore finitely refutes the corresponding virtual-unit-flip completion, EVEN in the presence of a distinct old unread s held at its actual value. This is an actual-M/X forced positive finite witness, unlike an arbitrary c.e. publication calendar.
+
+Decision: expose the third block bit and every source value in the computable raw wtt use frontier except protected s,t,u, then symmetrically test all eight synthetic cube corners. The first wrong-output clock sigma(p) is partial computable from the exposed finite p and finite on every X-derived state. Its domain is NOT all sibling transcripts and it has no established total computable bound or effective deadline.
+
+Decision: a verified forbidden raw 3-bit corner justifies the exact sequential fair (s,t,u) terminal table 0 on the corner and 8/7 everywhere else. The gain consumes s. This does NOT give opposed-old-row squares, a reset-free 4/3 escrow, or a generic one-bit future prediction.
+
+Decision: a fully computable finite-window controller mandatorily releases t,u, keeps s after timeout, and resets s only on a witnessed profitable 8/7 cube; it is globally total, no-repeat, fair-coin preserving and at most one-hole. Profitable exit at p is exactly sigma(p)<=L(p), and infinite executed old resets would witness X not in OH, conditionally. Under hypothetical X in OH every total computable controller in this cube family has a final old s with every later witnessed positive sigma(p) finite but strictly L(p)<sigma(p). This is a sharper actual-source necessary latency law, NOT a proof of X in OH or of R_2=OH.
+
+Next P4-S055: test whether source-reached partial clock totalization is possible under globally legal, genuinely branchwise-avoidable fresh-coordinate tenure, or derive a sharper non-domination obstruction. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach decision.

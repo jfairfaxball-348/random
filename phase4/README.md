@@ -725,3 +725,14 @@ A total computable success-gated finite-window escrow controller is globally fai
 The first refutation already permits the P4-S050 local two-bit reset at the same 4/3 factor; escrow does not accelerate this first profitable reset and shielded epochs deny its oriented 8/3 upgrade. Yet changed future epochs prevent global domination. An eventual profitable old turnover on all continuations of a reached prefix is a computably searchable finite bar; universal old-reset across epochs gives a CR-preserving computable isomorphism without any prior uniform clock bound. An explicitly scoped COMPUTABLE ABSTRACT certificate calendar supplies strong eventual wrong-future witnesses only after every release; it is not an actual M or CR counterexample. X in OH and R_2=OH remain unresolved.
 
 Next P4-S054 on source-specific promptness/capture law. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## P4-S054 — actual M-cube witnesses and pure certificate latency (2026-10-08)
+
+Records: [mathematics](P4-S054_MATHEMATICS.md), [validation](P4-S054_VALIDATION.md), [close](P4-S054_CLOSE.md).
+
+The actual Y/M/H/X source forces at least one positive wrong-output certificate in an eight-corner raw cube at every value-closed future block: flipping raw x0,x1 together flips exactly one virtual input q, and the self-avoiding target M^Y(q) then finitely refutes that counterfactual corner. The computable use frontier can be fully exposed without reading old s or future t,u. The first wrong-halt clock sigma is partial computable from this finite transcript and halts at each actual X-derived cube, but no total computable stage bound follows.
+
+A timely cube exclusion licenses an exact fair 8/7 s,t,u old-reset hedge. A globally legal total computable finite-window cube controller succeeds in a reservation precisely when sigma is within its chosen finite tenure. Infinitely many profitable old turnovers would give X not in OH, conditionally. Under hypothetical X in OH every such policy has a final old sentinel and infinitely many value-closed cubes with L<sigma<infinity. The pure timing obstruction is source-specific but does not prove capture or X in OH.
+
+Next P4-S055: test total computable domination of the source-reached partial cube clock under genuinely legal branchwise-avoidable scheduling, or sharpen its necessary obstruction. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.

@@ -2254,3 +2254,21 @@ Records: phase4/P4-S053_MATHEMATICS.md; phase4/P4-S053_VALIDATION.md; phase4/P4-
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 Owner/external blocker: **NONE**.
 Next P4-S054: source-specific finite-stage promptness or sharper source-side capture obstruction.
+
+
+## P4-S054 — source-specific cube-witness clock and finite-window capture (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 66da740a0132fd376d7d367e1dd26fb80cfa5e06
+
+- Independently checked exact incoming live main and P4-S054 uniqueness; read P4-S001–P4-S053 mathematics, selected CAND-01 authority, pivot, and late mathematics.
+- Proved an M/Y/X-specific finite certificate law: a fresh raw pair (x0,x1) flipped together becomes one virtual unit flip e_q, so the target-correct syntactically self-avoiding M(q) finitely rejects the true-old/both-future-flipped corner of an eight-corner cube. Its finite source-value support is computably exposed in advance without consuming protected s,t,u.
+- Defined partial computable first wrong-halt clock sigma(p) of the finite value-closed cube. Sigma is finite at every actual X-derived such state but not known total on all transcript states, and finite wtt use supplies no computable timing modulus.
+- A positive forbidden cube atom licenses a correct exact fair 8/7 three-bit old-reset hedge. A computable bounded-simulation finite-tenure controller with mandatory future timeouts is everywhere total, no-repeat, fair-coin preserving and globally one-hole.
+- A reservation is successfully captured exactly when sigma(p)<=its computable tenure L. Infinitely many executed profitable old turnovers would imply X not in OH, conditionally only.
+- Under hypothetical X in OH every such fixed total policy has finitely many resets and a final unread s; each subsequent value-closed X-derived cube satisfies L(p)<sigma(p)<infinity. No claim that X in OH or R_2=OH has been proved.
+
+Records: phase4/P4-S054_MATHEMATICS.md; phase4/P4-S054_VALIDATION.md; phase4/P4-S054_CLOSE.md.
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
+Owner/external blocker: **NONE**.
+Next session: **P4-S055** — source-reached partial clock effectivization or a sharper computable-tenure latency barrier.
