@@ -1,7 +1,7 @@
 # P4-S068 Close — gate-certificate multiplicity and recurrence
 
 Date: 2026-10-08
-Incoming checkpoint: \`2fb48831de500cebff79f8f34337f5dbaeb09ffb\`
+Incoming checkpoint: `2fb48831de500cebff79f8f34337f5dbaeb09ffb`
 Phase: 4 — Mathematics ONLY
 Status: **COMPLETED / VALIDATED BOUNDED MATHEMATICAL ADVANCE**
 
@@ -32,4 +32,4 @@ Freeze all previous mathematics including P4-S008/S052/S053/S056–S067 and the 
 
 ## Forward
 
-No owner or external blocker. P4-S069 is recommended for a bounded investigation of **actual-M source-reached closure multiplicity recurrence** or a sharper actual-program timing/geometry barrier, without modifying T_L or confusing finite sibling cylinders with actual successful gates. See \`P4-S068_MATHEMATICS.md\` and \`P4-S068_VALIDATION.md\`.
+No owner or external blocker. P4-S069 is recommended for a bounded investigation of **actual-M source-reached closure multiplicity recurrence** or a sharper actual-program timing/geometry barrier, without modifying T_L or confusing finite sibling cylinders with actual successful gates. See `P4-S068_MATHEMATICS.md` and `P4-S068_VALIDATION.md`.
