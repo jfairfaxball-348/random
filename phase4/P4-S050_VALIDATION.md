@@ -22,6 +22,7 @@ Disposition: **PASS — conditional results only**
 - Timeout always releases t, while preserving s; positive square exit queries s then t; positive old exit consumes s and zero-stake releases t.
 - In infinitely many exits the least-unread old sentinels are all eventually consumed. In finitely many exits, the final epoch's least-unread sweep consumes all coordinates except possibly its s. Hence global <=1 omitted coordinate and global fibre size <=2. PASS.
 - Adaptive no-repeat scanning gives fair-coin output cylinders of measure 2^{-m}; decisions are computable from the finite transcript. PASS.
+- Concrete scheduler check: global round N increases, per-reservation tenure L(e,k)=2^{e+k+2} is finite, every round executes bounded first-N simulations, support/sweep output rounds alternate, and timeouts consume t. The mandatory sweep and unbounded N guarantee old-witness eventual detection in a final no-exit epoch without claiming square-certificate timing control. PASS.
 
 ## Success and limiting quantifiers
 - Each executed captured square gives factor 4/3; each positively refuted old branch gives factor 2. All other wagers have factor 1. Infinite exits force unbounded capital for the *single fixed computable* output martingale. PASS.
