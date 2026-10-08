@@ -1260,3 +1260,16 @@ Decision: a single forbidden pair cannot guarantee a strict one-bit gain without
 Decision: under hypothetical X in OH, every fixed computable combined policy makes finitely many positive exits and eventually persists at a policy-dependent old s with no finite old-branch refutation and no timely square captures. Do not infer semantic absence of later A blocks, a uniform capture clock, or X in OH.
 
 Next: **P4-S051**, test positive multi-square escrow and repeated captures after reset. Preserve R_2 subseteq OH^iso subseteq OH and all unsettled separation guards.
+
+
+## P4-S051 — opposite-row escrow and turnover boundary
+
+Decision: adopt the future-only rule: two finite positive raw-square refutations against opposite old values at distinct unread future targets exclude a joint future tuple. Fair two-target hedging guarantees 4/3 without reading old s. No semantic trap oracle is used.
+
+Decision: opposite-row same-target exclusions at one future value predict that future bit. Generally a target-only universal strict hedge exists exactly when some future tuple has no compatible old-bit completion; all certificates confined to one old row are insufficient.
+
+Decision: finite multi-square escrow windows can be globally one-hole safe even while s,t,u are temporarily protected, provided each transient future is consumed by execution or a computable timeout. Use bounded simulations and fresh zero-stake support/sweep queries.
+
+Decision: by P4-S008, a computably random source cannot sustain infinite successful reset-free escrows while a single fixed old sentinel stays permanently omitted. Thus the committed X still requires effective unbounded old-sentinel turnover for any same-source destroyer. Infinite timely opposed-row captures and certified turnovers have not been established.
+
+Next **P4-S052**: finite escrow gain coupled to old-sentinel cash-out and repeated effective turnover. Retain PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged, X in OH and R_2=OH unresolved. No novelty, openness, prior-art, Gate-4, publication or outreach finding.
