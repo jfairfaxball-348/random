@@ -416,3 +416,8 @@ Gate status unchanged in P4-S066: Gate 3 PASS; Phase 4 OPEN; Gate 4 NOT REVIEWED
 ## P4-S067 — unchanged Gate-3/Phase-4 status (2026-10-08)
 
 Mathematics-only checkpoint. First-positive-gate finite leaf tree yields a quantified necessary short-depth capacity restriction on every permanent CR old-sentinel stall; clock padding of a distinct alternative M shows no extensional runtime-to-hazard inference. No committed X recurrence or R_2=OH determination. Gate 3 PASS; Phase 4 OPEN; Gate 4 NOT reviewed; Phase 5 CLOSED. PA-0001 and DEF-0020 unchanged. Next P4-S068; blocker NONE.
+
+
+## P4-S068 — unchanged gates after closure-multiplicity mathematics (2026-10-08)
+
+Mathematics-only checkpoint. The true P4-S057 four-run success-gated next-reservation hazard compresses to gamma(p)=a(p)/2^c(p), counting timely positive finite value-closure assignments; CR permanent stalls satisfy the corresponding summable weighted multiplicity restriction. There is no verified actual-X hazard divergence, infinite real old reset, X in OH determination or R_2=OH determination. The incoming checkpoint matched P4-S067, the session was unique, and mathematics, validation and close are recorded. **Gate 3 PASS; Phase 4 OPEN; Gate 4 NOT REVIEWED; Phase 5 CLOSED.** PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No novelty/openness/prior-art/Gate-4/publication/outreach claim. Next P4-S069, no owner/external blocker.
