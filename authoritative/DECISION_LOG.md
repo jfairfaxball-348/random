@@ -1312,3 +1312,14 @@ Decision: a verified forbidden raw 3-bit corner justifies the exact sequential f
 Decision: a fully computable finite-window controller mandatorily releases t,u, keeps s after timeout, and resets s only on a witnessed profitable 8/7 cube; it is globally total, no-repeat, fair-coin preserving and at most one-hole. Profitable exit at p is exactly sigma(p)<=L(p), and infinite executed old resets would witness X not in OH, conditionally. Under hypothetical X in OH every total computable controller in this cube family has a final old s with every later witnessed positive sigma(p) finite but strictly L(p)<sigma(p). This is a sharper actual-source necessary latency law, NOT a proof of X in OH or of R_2=OH.
 
 Next P4-S055: test whether source-reached partial clock totalization is possible under globally legal, genuinely branchwise-avoidable fresh-coordinate tenure, or derive a sharper non-domination obstruction. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach decision.
+
+
+## P4-S055 — paired clock, target-runtime non-domination, and source-selected slow blocks
+
+Decision: the P4-S054 eight counterfactual cubes form four exact M(q)-trace pairs because jointly flipping raw t,u changes ONLY virtual q and the clipped M(q) syntactically avoids q. A halt in any pair gives a positive wrong-output certificate at one mate. Hence sigma equals the min ordinary halting clock over four representatives, still PARTIAL away from X.
+
+Decision: T_Y(q), the halting time of M^Y(q), is total Y-computable and not eventually dominated by any total computable function, since such domination would yield a forbidden tt-autoreduction of CR Y. This source-runtime obstruction does NOT imply any corresponding sigma non-domination: an off-source representative may halt early.
+
+Decision: the explicit four-run finite-window scan remains globally fair, total, no-repeat and one-hole, using compulsory temporary releases and exactly fair 8/7 old-reset payoffs. Under hypothetical X in OH, every computable q-only tenure b has a final old sentinel and infinitely many source-selected distinct q_k with max(1,b(q_k))<sigma(p_k)<=T_Y(q_k). Neither infinite capture nor X in OH nor R_2=OH is established.
+
+Next P4-S056: test actual source-reached minimum-clock frequent promptness under legally changing fresh-block supports. Freeze P4-S008, P4-S052, P4-S053 and earlier mathematics. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach finding.

@@ -736,3 +736,12 @@ The actual Y/M/H/X source forces at least one positive wrong-output certificate 
 A timely cube exclusion licenses an exact fair 8/7 s,t,u old-reset hedge. A globally legal total computable finite-window cube controller succeeds in a reservation precisely when sigma is within its chosen finite tenure. Infinitely many profitable old turnovers would give X not in OH, conditionally. Under hypothetical X in OH every such policy has a final old sentinel and infinitely many value-closed cubes with L<sigma<infinity. The pure timing obstruction is source-specific but does not prove capture or X in OH.
 
 Next P4-S055: test total computable domination of the source-reached partial cube clock under genuinely legal branchwise-avoidable scheduling, or sharpen its necessary obstruction. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## P4-S055 — four-run cube-clock normalization and slow target traces (2026-10-08)
+
+Records: [mathematics](P4-S055_MATHEMATICS.md), [validation](P4-S055_VALIDATION.md), [close](P4-S055_CLOSE.md).
+
+Pairing raw cube corners by flipping t,u together changes only virtual q, which M(q) never queries. Four representative clipped computations thus suffice exactly for the previous eight-corner wrong-halt clock, and a binary halt identifies the wrong mate. On X, the first-certificate clock is finite and bounded above by the true target-runtime T_Y(q). The Y-computable target-runtime cannot have a total computable eventual bound because this would make CR Y truth-table autoreducible. This is NOT a clock bound or non-domination theorem for the smaller sigma.
+
+The legal four-run finite-window controller still consumes old s only after a sound 8/7 hedge and releases t,u at finite timeout. Under hypothetical X in OH every computable q-only clock b has a final sentinel and infinitely many distinct fresh q_k with max(1,b(q_k))<sigma(p_k)<=T_Y(q_k). The policy-dependent latency obstruction does not settle X in OH or R_2=OH. Next P4-S056, test source-specific promptness/thickness for the four-run minimum. PA-0001 unresolved, DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED.

@@ -2272,3 +2272,20 @@ Records: phase4/P4-S054_MATHEMATICS.md; phase4/P4-S054_VALIDATION.md; phase4/P4-
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN; Phase 5 CLOSED.
 Owner/external blocker: **NONE**.
 Next session: **P4-S055** — source-reached partial clock effectivization or a sharper computable-tenure latency barrier.
+
+
+## P4-S055 — paired cube-clock normal form and source-runtime obstruction (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 3f5fa3271f0313cbcd881603cdaff005e8aa3e9b
+
+- Verified authoritative live main, unused P4-S055, Phase 4 authorization, prior mathematics P4-S001–P4-S054 and selected CAND-01 research pivot.
+- Proved four representative simulations suffice EXACTLY for the retained eight-corner wrong-output clock: matched pairs differ only at the unqueried virtual target q, so each finite halt visibly forbids one raw cube atom.
+- Source-reached sigma equals the four-run minimum clock, is finite and <=T_Y(q). No total computable bound for sigma is supplied.
+- Proved full target-runtime T_Y is not eventually computably dominated: such a bound would yield a forbidden truth-table autoreduction of the computably random Y.
+- Certified exact total computable four-run finite-window old-reset scan, with genuine value closure, mandatory t/u timeout, correct fair 8/7 payoffs and global one-hole fibres.
+- Under hypothetical X in OH, every computable q-indexed tenure b has a final old s and infinitely many fresh targets q_k with max(1,b(q_k))<sigma(p_k)<=T_Y(q_k). This is conditional and algorithm-relative, not a classification.
+
+Records: phase4/P4-S055_MATHEMATICS.md; phase4/P4-S055_VALIDATION.md; phase4/P4-S055_CLOSE.md.
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR; Y/M/H/X; unresolved X in OH and R_2=OH. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+Owner/external blocker: **NONE**. Next **P4-S056**, test source-reached four-run minimum-clock promptness/thickness.
