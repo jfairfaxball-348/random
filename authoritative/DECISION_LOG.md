@@ -1323,3 +1323,18 @@ Decision: T_Y(q), the halting time of M^Y(q), is total Y-computable and not even
 Decision: the explicit four-run finite-window scan remains globally fair, total, no-repeat and one-hole, using compulsory temporary releases and exactly fair 8/7 old-reset payoffs. Under hypothetical X in OH, every computable q-only tenure b has a final old sentinel and infinitely many source-selected distinct q_k with max(1,b(q_k))<sigma(p_k)<=T_Y(q_k). Neither infinite capture nor X in OH nor R_2=OH is established.
 
 Next P4-S056: test actual source-reached minimum-clock frequent promptness under legally changing fresh-block supports. Freeze P4-S008, P4-S052, P4-S053 and earlier mathematics. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach finding.
+
+
+## P4-S056 — exact compulsory-reset four-run latency law
+
+Decision: retain the P4-S055 equality sigma=minimum ordinary halting time of four representative clipped M(q) traces and the finite actual-X certificate law 0<sigma(p)<=T_Y(q). The full target runtime's hyperimmunity does not transfer to sigma by pointwise comparison.
+
+Decision: choose one entirely fresh raw block for each epoch, complete the finite wtt value support while keeping s,t,u unread, compute any total L(e,p), and simulate four traces only to that finite deadline. On a positive wrong/nonbinary halt, execute the exact fair 8/7 forbidden-triple hedge. On timeout, consume s,t,u all at zero stake rather than retaining s. All branches terminate; the least-unread s is consumed each epoch, so the scan is a computable fair-coin-preserving homeomorphism.
+
+Decision: on the committed computably random X, this **compulsory-reset** controller can have only finitely many executed profitable cube captures; otherwise its total computable fair output martingale wins on a computably random computable-isomorphic image. Hence ANY total computable positive L eventually falls STRICTLY below sigma on every subsequent X-derived value-closed epoch of its own forced-reset schedule, at distinct fresh q_e. This is an actual-source result **without X in OH**; it is not a source-independent universal sigma dominance statement.
+
+Decision: a bounded all-valuation four-run BAR(r) is decidable for supplied finite r, but a globally total computable renewable fresh-block certified-BAR provider on every forced-reset X epoch cannot exist. C.e. positive proof search does not itself give a total prospective tenure.
+
+Decision: success-gated timeout retains s and is not in the isomorphism regime. The new anti-promptness result MUST NOT be transferred to it. P4-S008, P4-S052 and P4-S053 preserved. X in OH and R_2=OH remain unresolved.
+
+Next P4-S057 on the gap between compulsory-reset and success-gated renewal, not more forced-reset thickness. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach claim.

@@ -745,3 +745,12 @@ Records: [mathematics](P4-S055_MATHEMATICS.md), [validation](P4-S055_VALIDATION.
 Pairing raw cube corners by flipping t,u together changes only virtual q, which M(q) never queries. Four representative clipped computations thus suffice exactly for the previous eight-corner wrong-halt clock, and a binary halt identifies the wrong mate. On X, the first-certificate clock is finite and bounded above by the true target-runtime T_Y(q). The Y-computable target-runtime cannot have a total computable eventual bound because this would make CR Y truth-table autoreducible. This is NOT a clock bound or non-domination theorem for the smaller sigma.
 
 The legal four-run finite-window controller still consumes old s only after a sound 8/7 hedge and releases t,u at finite timeout. Under hypothetical X in OH every computable q-only clock b has a final sentinel and infinitely many distinct fresh q_k with max(1,b(q_k))<sigma(p_k)<=T_Y(q_k). The policy-dependent latency obstruction does not settle X in OH or R_2=OH. Next P4-S056, test source-specific promptness/thickness for the four-run minimum. PA-0001 unresolved, DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## P4-S056 — compulsory-old-reset four-run anti-promptness (2026-10-08)
+
+Records: [mathematics](P4-S056_MATHEMATICS.md), [validation](P4-S056_VALIDATION.md), [close](P4-S056_CLOSE.md).
+
+A finite value-closure, four-run, least-unread-s controller consuming s,t,u after BOTH positive 8/7 cube hedge and finite no-certificate timeout is total, no-repeat and a fair-coin-preserving computable homeomorphism. On the committed X in CR, infinite timely positive exits would make a computable output martingale unbounded despite computable-isomorphism preservation; impossible. Consequently for every total computable finite L(e,p) its own compulsory-reset source schedule has only finitely many positive captures, and eventually L(e,p_e)<sigma(p_e)<=T_Y(q_e) at fresh distinct targets. This is source-specific and UNCONDITIONAL on X in OH, but it DOES NOT transfer to success-gated retention of s on timeout.
+
+Fixed-r all-valuation four-run BAR certificates are finitely decidable, yet no globally total renewable fresh verified-BAR provider can cover all forced-reset X epochs. No theorem about frequent timely gains on a success-gated schedule, X in OH, or R_2=OH follows. Freeze prior mathematics, including P4-S008/P4-S052/P4-S053; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED. Next P4-S057 — effective branchwise-avoidable renewal boundary.

@@ -1,31 +1,33 @@
-# Next Session Prompt — P4-S056
+# Next Session Prompt — P4-S057
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run ONLY Phase 4 — Mathematics session P4-S056. Treat committed repository state as authoritative. Pin live main at the exact P4-S055 outgoing checkpoint reported after P4-S055, reconcile any mismatch and confirm P4-S056 uniqueness. Read P4-S001–P4-S055 mathematics, CAND-01 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md and all subsequent records, emphasizing P4-S008, P4-S011, P4-S012, P4-S027, P4-S033, P4-S039, P4-S041 and P4-S044–P4-S055.
+Run ONLY Phase 4 — Mathematics session P4-S057. Treat committed repository state as authoritative. Pin live main at the EXACT P4-S056 outgoing SHA independently reported on completion; reconcile mismatch and confirm P4-S057 uniqueness. Read P4-S001–P4-S056, required CAND-01 selection authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md and later mathematics, emphasizing P4-S008, P4-S011, P4-S012, P4-S027, P4-S033, P4-S039, P4-S041 and P4-S044–P4-S056.
 
 ## Sustained target
 
-Freeze all validated mathematics through P4-S055. Retain
+Freeze all validated mathematics through P4-S056. Retain
+
 \[
 MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 \]
-Keep the committed computably random Y, syntactically self-avoiding use-clipped wtt autoreduction M, repeated-block computable fair-coin homeomorphism H and X=H^{-1}(Y). H(X)=Y is not in OH. Both X in OH and R_2=OH remain unresolved.
 
-## P4-S055 retained results
+Keep the committed computably random Y, syntactically self-avoiding use-clipped wtt autoreduction M, repeated-block homeomorphism H, X=H^{-1}(Y), H(X)=Y not in OH. X in OH and R_2=OH remain unresolved.
 
-- For fresh raw t=3b,u=3b+1,v=3b+2 and q=3b, the paired cube corners (a,beta,gamma) and (a,1-beta,1-gamma) differ only at virtual q. Syntactic self-avoidance makes the clipped M(q) traces IDENTICAL while the required q-bits differ.
-- The eight-corner wrong-output first-certificate clock sigma(p) EQUALS the minimum halting time of FOUR representative partial runs (a,0,c), a,c in {0,1}. Any halting representative identifies a wrong cube mate. This equality holds for every finite value-closed p, not only X. On actual X, sigma(p) is finite and <=T_Y(q), the actual M^Y(q) halting time.
-- T_Y(q) is total and Y-computable but has NO total computable eventual upper bound: one would produce a truth-table autoreduction of computably random Y, contradicting the retained P4-S041 boundary. This is NOT a proof that the smaller sigma clock is non-dominated.
-- For every total finite tenure L(e,k,p), the four-run zero-stake value-closure controller is everywhere-total, no-repeat, fair-coin preserving and globally one-hole. It releases both temporary future bits on timeout, consumes old s ONLY on a pre-consumption positive certificate, and earns exactly 8/7 on a timely three-bit forbidden-atom hedge. Its reservation succeeds iff sigma(p)<=L.
-- Hypothetical X in OH implies that for EVERY total computable q-only positive tenure b, the corresponding scan has a final s and infinitely many distinct later q_k with max(1,b(q_k))<sigma(p_k)<=T_Y(q_k). This is an algorithm-relative, source-selected *necessary* latency escape, not a proof of X in OH.
+## Retained P4-S056 result
 
-## Bounded task — source-specific minimum-clock thickness
+- P4-S055's eight-corner cube certificate clock sigma equals the minimum ordinary halting clock of four representative M(q) traces, and on every X-derived fully value-closed cube satisfies 0<sigma(p)<=T_Y(q)<infinity.
+- For ANY total computable positive tenure L(e,p), the controller which consumes the least-unread old sentinel s after EACH finite bounded four-run reservation, on success OR timeout, is an exhaustive total computable fair-coin-preserving adaptive permutation. On a positive event its fair s,t,u hedge gains exactly 8/7 on X; on timeout it consumes s,t,u at zero stake.
+- Since X is computably random and this compulsory-reset scan is a computable measure-preserving isomorphism, only finitely many of its epochs have sigma(p_e)<=L(e,p_e). Thus, without assuming X in OH, EVENTUALLY every epoch in that specific source-selected forced-reset schedule has L(e,p_e)<sigma(p_e)<=T_Y(q_e), at distinct fresh q_e tending to infinity.
+- An all-valuation four-run BAR(r) is finitely decidable once r and a legal block are supplied; no everywhere-total computable renewable fresh-block BAR supplier for all forced-reset epochs can exist. It is NOT proved that sigma is slow on EVERY schedule, or that a success-gated finite-tenure schedule succeeds infinitely.
+- Crucial distinction: P4-S055 success-gated controller retains old s on a timeout and may have a permanently omitted s on a sibling; P4-S056's unconditional slow-tail theorem CANNOT be transferred by treating that scan as an isomorphism. Under hypothetical X in OH the P4-S055 success-gated controller retains its conditional final-sentinel slow-clock escape.
 
-Investigate whether the actual FOUR-run minimum partial clock admits an EFFECTIVE frequently prompt or thickness property on a single legal evolving fresh-block schedule, even though the complete M^Y(q) runtime is hyperimmune. In particular, distinguish (i) on-source halting of one of four representatives, (ii) a source-free total computable pre-consumption tenure, and (iii) infinitely many actually executed positive old resets. Alternatively establish an exact further restriction on prompt representatives along every computable fresh-block controller, explicitly tracking the dependency of q_k on the source and controller.
+## Bounded P4-S057 task — bridge or separate the renewal geometries
 
-Give exact computable block/sentinel schedulers, use-closure reads, finite positive witness traces, bounded machine clocks, mandatory future releases, fair 8/7 transitions and globally one-hole fibres. Keep timeout and no-repeat legality on ALL sibling sources. Never infer capture from finite wtt use, source-oracle runtimes, a retrospective certificate, increasing finite windows or hypothetical semantic shielding. Preserve P4-S008 persistent-hole, P4-S052 shielded-old and P4-S053 all-transcript-reset-bar theorems.
+Investigate a source-specific, operationally checkable minimum-clock *branchwise-avoidable renewal* condition for success-gated (old s retained after failure) fresh-block schedules, or prove a sharper actual-source obstruction that genuinely survives retaining s. In either case distinguish finite positive on-source halts, uniformly total computable pre-consumption tenure, and infinitely many EXECUTED fair old-reset gains.
 
-Do not reopen the frozen ticket/reserve/frontier, backward-price or general compiler programmes without mathematical necessity. Preserve PA-0001 as UNRESOLVED_UNDER_INSPECTED_EVIDENCE and DEF-0020 unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach claims. Phase 4 OPEN and Phase 5 CLOSED.
+Give exact least-unread sentinel and wholly-unread block schedulers, finite wtt value closure, four capped representative traces, bounded simulation time, mandatory t,u timeout releases, no repeat, fair-coin preservation, global one-hole fibres and exact 8/7 ledger. Do not obtain an unconditional anti-promptness assertion merely by switching secretly to compulsory old reset. Do not import retrospective witnesses, oracle runtime bounds, finite-use timing, increasing timeouts, semantic trapped-epoch tests, or hypothetical catalogue thickness. Preserve P4-S008 persistent-hole obstruction, P4-S052 shielded-old restriction and P4-S053 all-transcript reset-bar theorem.
 
-Record and validate mathematics; synchronize authoritative records; commit; independently verify remote main; report exact outgoing hash and supply P4-S057 prompt ONLY if no owner/external blocker exists.
+Do not reopen the frozen ticket/frontier, backward-price or general compiler lines unless mathematically essential. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach claims. Phase 4 OPEN, Phase 5 CLOSED.
+
+Record and validate the mathematics, synchronize authoritative records, commit, independently verify remote main, report exact outgoing SHA and provide a P4-S058 prompt if no owner/external blocker exists.

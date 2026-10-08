@@ -1598,3 +1598,18 @@ Blocked inference: the semantically shielded old branch will eventually yield a 
 Blocked inference: force old s to reset at every timeout in order to guarantee renewed captures. Such uniformly exhaustive least-unread scans are computable measure-preserving isomorphisms and cannot destroy CR.
 
 **Lesson:** only branchwise-avoidable, timely executed successful turnovers could help; zero-stake consumption after an executed gain does not ensure the next gain. Late witnesses are not captured profits.
+
+
+## P4-S056 — compelled old reset blocks effective four-run thickness on X
+
+### Blocked inference: source-specific finite sigma forces frequent promptness even with compulsory old release
+
+The actual target M^Y(q) halts and guarantees at least one of the four synthetic representatives halts on every X-derived value-closed cube. Nevertheless any total computable pre-consumption clock on a controller which consumes old s at **every** epoch, including timeouts, produces only finitely many timely cube certificates on X. Otherwise infinitely many sound 8/7 hedges would yield a computable martingale win on a computable isomorphic image of CR X.
+
+**Lesson:** the problem is not merely finding a computable timeout; even transcript-dependent total timeouts are eventually outpaced on their OWN compulsory-reset X schedules. This is an unconditional source-specific anti-promptness law, not hyperimmunity of sigma on a fixed q list.
+
+### Blocked inference: the unconditional law also prohibits success-gated renewal
+
+A success-gated controller does NOT consume old s when future t,u expire. Its sibling branches can omit s forever; it is only globally one-hole, not a computable isomorphism. P4-S008 excludes infinite profits with one persistently omitted s on CR X, but does not imply the compulsory-reset theorem for a moving successfully consumed sentinel.
+
+**Lesson:** any genuine success-gated obstruction must retain its branchwise avoidability, and any positive theorem must show infinitely many actual executed pre-consumption reset wagers. Finite BAR(r) decidability or retrospective eventual halts alone is not a renewal mechanism.

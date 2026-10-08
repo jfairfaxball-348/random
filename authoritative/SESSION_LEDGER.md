@@ -2289,3 +2289,20 @@ Incoming checkpoint: 3f5fa3271f0313cbcd881603cdaff005e8aa3e9b
 Records: phase4/P4-S055_MATHEMATICS.md; phase4/P4-S055_VALIDATION.md; phase4/P4-S055_CLOSE.md.
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR; Y/M/H/X; unresolved X in OH and R_2=OH. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 Owner/external blocker: **NONE**. Next **P4-S056**, test source-reached four-run minimum-clock promptness/thickness.
+
+
+## P4-S056 — compulsory-reset minimum-clock anti-promptness on X (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 727d31976c7bb69f91f06040e2751549ec1382f7
+
+- Verified live main exactly and P4-S056 uniqueness; reviewed P4-S001–P4-S055 mathematics, CAND-01 authority, research pivot and later records.
+- Constructed a concrete bounded four-trace full-value-closure scan, with least-unread old s, least entirely unread future three-bit block, positive forbidden-atom certification before s,t,u consumption, and exact fair 8/7 sequential hedge.
+- Unlike P4-S055 success-gating, compulsory old s release at BOTH positive exit and zero-stake timeout makes the scan exhaustive on every source and hence a computable fair-coin-preserving isomorphism.
+- **Unconditional actual-source obstruction:** for ANY total computable positive L(e,p), only finitely many X-derived compulsory-reset epochs satisfy sigma(p_e)<=L(e,p_e). Eventually all selected fresh q_e have L(e,p_e)<sigma(p_e)<=T_Y(q_e)<infinity; distinct q_e tend to infinity. No hypothesis X in OH is needed.
+- Supplied a fixed-finite-state all-valuation decidable bounded BAR(r) witness and ruled out an everywhere-total computable renewable certified-BAR supplier covering all forced-reset epochs of X. This does not rule out genuine success-gated thickness.
+- Three levels kept distinct: eventual four-run halt, total pre-consumption tenure, infinitely many actually executed correct 8/7 old turnovers. No X in OH, X not in OH, R_2=OH or sigma global non-domination claimed.
+
+Records: phase4/P4-S056_MATHEMATICS.md; phase4/P4-S056_VALIDATION.md; phase4/P4-S056_CLOSE.md.
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR, Y/M/H/X, P4-S008/P4-S052/P4-S053. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+Owner/external blocker: **NONE**. Next **P4-S057** on source-specific success-gated branchwise-avoidable renewal.
