@@ -890,3 +890,12 @@ P4-S050 validates a computable fair sequential forbidden-atom hedge. One finite 
 Critical guard: a single pair exclusion does **not** guarantee profit from querying only the future t while s remains unqueried. The unconditional hedge therefore resets s and cannot be repeated indefinitely against one trapped old sentinel. Passive square events, including semantic actual-A refutations, are not automatically executed captures. Under X in OH every fixed combined policy has only finitely many positive exits and a policy-relative final persistent old sentinel. No infinite capture schedule, X in OH, X not in OH, OH non-invariance or R_2 proper-subset OH was proved.
 
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. Next P4-S051: multi-square positive escrow and effective capture across resets. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Live Phase-4 P4-S051 checkpoint
+
+P4-S051 proves that two finite square refutations with opposite old-bit hypotheses and distinct unread future targets eliminate one future-only pair. A computable fair t-then-u hedge then gains 4/3 without consuming old s. Finite protected escrow windows are globally one-hole legal when both future targets are released by positive exit or timeout; same-target opposite-row refutations can double on t alone. The exact finite target-projection criterion characterizes when a target-only guaranteed hedge exists.
+
+Critical limitation: P4-S008 forbids infinite successful reset-free escrow gains at one permanently omitted s on any computably random source. No infinite effective turnover/capture sequence is established on committed X, and X in OH and R_2=OH remain unresolved. Next P4-S052: certified escrow cash-out across old-sentinel turnovers.
+
+PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
