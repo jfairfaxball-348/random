@@ -748,3 +748,14 @@ No infinite executed-capture schedule for the committed X, no X in OH, no uncond
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
 Next: **P4-S051**, finite positive multi-square capture and reset-sensitive escrow.
 PA-0001 **UNRESOLVED_UNDER_INSPECTED_EVIDENCE**; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Current mathematics checkpoint — P4-S051 (2026-10-08)
+
+P4-S051 validates **opposite-old-row cross-target escrow**. With s,t,u unread and distinct future targets, finite positive Ref(s,t;a,beta) and Ref(s,u;1-a,gamma) exclude future tuple (beta,gamma) without knowing old s. The t-then-u fair hedge has terminal payoff 0 there and 4/3 on the other three atoms, without consuming s. Same-target opposite-row refutations can predict a future bit. The exact finite target projection criterion is emptiness of the compatible-old-bit set A(v) for at least one future tuple.
+
+An explicit bounded-window controller is total, no-repeat, fair-coin preserving and at most one-hole on every transcript, temporarily reserving s,t,u before compulsory release of the futures. P4-S008 forbids infinitely many successful reset-free gains on one permanently omitted s on any computably random source. Infinitely many profitable certified old-sentinel turnovers have not been established on X.
+
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. X=H^{-1}(Y) in CR, H(X)=Y not in OH, X in OH unresolved; R_2=OH unresolved. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+Next **P4-S052**: certified escrow cash-out and effective repeated sentinel turnover. Read authoritative/NEXT_SESSION_PROMPT.md. Always verify live main.
