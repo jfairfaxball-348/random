@@ -2378,3 +2378,12 @@ Status: **COMPLETED / VALIDATED**. Incoming live main: a6ed2b8e7bc60342201b3b1f3
 - No infinite actual renewals verified. All P4-S001–P4-S063 theorems, exact timeout/no-old-reset protocol, fair one-hole geometry, Y/M/H/X and class inclusions preserved. X in OH and R_2=OH unresolved. PA-0001/DEF-0020 unchanged; Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED; no novelty, openness, prior-art, Gate-4, publication or outreach claim.
 
 Records: phase4/P4-S064_MATHEMATICS.md; phase4/P4-S064_VALIDATION.md; phase4/P4-S064_CLOSE.md. Owner/external blocker: NONE. Next P4-S065.
+
+## P4-S065 — actual persistent-timeout transition dependence (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming main 53f6c0cc6c261fedca98c00cafddd3663c14e7db.
+- Computably clopen first-n genuine completed timeout/no-gate RAW events A_(h,n) at each reached epoch; exact q_n and effectively closed F_h with conditional mass q_infty.
+- Rational survival-frontier AVERAGED next-gate hazard c_n=1-q_(n+1)/q_n; q_infty>0 iff sum c_n finite for all q_n>0.
+- If a CR source truly stays forever, P4-S058 gives q_infty>0, summable hazard and finite deficits delta_h^B>=q_infty>0; positive class may contain SOME CR source but does not select committed X.
+- Zero q_infty at EVERY actual X-reached epoch WOULD imply infinite actual sound 8/7 gates; this is UNVERIFIED. Preserve Y/M/H/X, chain, all P4-S001–P4-S064, no-old-reset timeout, and Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED; PA-0001/DEF-0020 unchanged, no Gate-4/novelty/openness/prior-art/publication/outreach.
+Records: phase4/P4-S065_MATHEMATICS.md; phase4/P4-S065_VALIDATION.md; phase4/P4-S065_CLOSE.md. Owner/external blocker NONE; next P4-S066.

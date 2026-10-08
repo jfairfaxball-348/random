@@ -1666,3 +1666,9 @@ Blocked inference: a large exact computable first-gate probability g_h^B supplie
 Positive mathematical consequence: an actually reached length-m epoch which completes B real t/u zero-stake releases and non-s sweeps without old reset lies in the clopen complementary no-gate event of exact conditional mass delta=1-g. A computably summable portfolio forbids infinitely many such events on CR X when delta<=(m+2)^-3. Thus, ONLY conditional on genuinely infinite profitable renewals, every sufficiently late P4-S062 K_62 window has a completed W-overrun at a source-reached epoch with computably measured delta>(m+2)^-3.
 
 Lesson: this is an exact finite-gate dependence/deficit obstruction with a source martingale, not a source-verified renewal certificate. Do not upgrade the computational ability to audit delta or the eventual finite M^Y halt to an infinite actual executed 8/7 profit assertion; preserve every preconsumption, timeout-without-old-reset and global one-hole guard.
+
+## P4-S065 — survival-frontier averaging is not a source-X gate certificate
+
+Blocked inference: a non-summable *purported* gate series, finite conditional g or P4-S064 delta, highness, abstract Pi^0_2 membership, or retrospective M^Y runtime yields an ACTUAL positive future gate. Only the exact finite-tree RAW no-gate survival q_n determines the controller-specific frontier-averaged c_n; the average integrates over ALL off-X histories and is not a pathwise X probability.
+
+Positive obstruction: forever-stalled CR source at h lies in effectively closed F_h, forcing q_infty>0 and summable c_n by P4-S058; all B deficits then have a positive (not necessarily computable) floor. Zero q_infty at every X-reached h would force infinite real gates but was NOT proved. Preserve true timeout zero-stake t/u release, non-s sweep, NO old reset, prospective deadlines and sound pre-consumption certificates.
