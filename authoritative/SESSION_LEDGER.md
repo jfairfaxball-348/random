@@ -2343,3 +2343,11 @@ Status: **COMPLETED / VALIDATED**. Incoming main: af79af780bdfb28f5f883b0c8bcb5d
 - Conditional infinite actual wins on committed X imply A_n(X)=n+S_n(X), S_n=sum_{e<n}W_e the count of completed zero-stake t/u-release TIMEOUT reservations. S_n eventually dominates every total computable f(n). This is an operational corollary of P4-S059, not a logically independent obstruction or a verified infinite-winning sequence.
 - No X in OH, X not in OH, R_2=OH or OH non-invariance finding. STATUS.md P4-S057 display corrected. All prior mathematics/guards frozen.
 Records: phase4/P4-S060_MATHEMATICS.md; phase4/P4-S060_VALIDATION.md; phase4/P4-S060_CLOSE.md. Gate 3 PASS; Phase 4 OPEN, Phase 5 CLOSED; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach. Owner/external blocker: NONE. Next P4-S061.
+
+## P4-S061 — logarithmic local overruns after reached epoch starts (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming main: e9876660b088938600700fb16317e80a7dfe72d7.
+- Finite k-success B-prompt shadow from any computable reached epoch-prefix h is clopen, with mass <=2^(-|h|)(7/8)^k. All h,k are assembled into ONE computable rational source martingale.
+- Conditional infinite ACTUAL wins on CR X imply for each prospective computable B and every sufficiently late epoch start e some j among the next 64ceil(log_2(m_e+2)) epochs has ACTUAL W_j>=B(j,p_j). This local individual-profile spacing constraint does not follow here by a new computable global finite horizon; no infinite X renewal established.
+- P4-S008/P4-S052/P4-S053/P4-S056–P4-S060 and all earlier mathematics frozen. X in OH and R_2=OH unresolved. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach.
+Records: phase4/P4-S061_MATHEMATICS.md; phase4/P4-S061_VALIDATION.md; phase4/P4-S061_CLOSE.md. Owner/external blocker: NONE. Next P4-S062.

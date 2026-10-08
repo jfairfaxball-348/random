@@ -779,3 +779,9 @@ For the unchanged actual success-gated four-run controller, C_{n,m} (n genuinely
 Records: [mathematics](P4-S060_MATHEMATICS.md), [validation](P4-S060_VALIDATION.md), [close](P4-S060_CLOSE.md).
 
 Every m completed total finite-tenure reservations of unchanged success-gated T_L finish within computably bounded emitted bits b(m), by an effective finite decision tree over all source branches. D_{n,m} of n completed profitable 8/7 turnovers within m reservations is uniformly computably clopen, lambda(D_{n,m})<=(7/8)^n. On CR X, for any total computable reservation horizon h(n), only finitely many D_{n,h(n)} occur. Conditional infinite actual profits force the cumulative REAL zero-stake timeout reservation count S_n=sum_{e<n}W_e(X) eventually to dominate every total computable f. This follows from P4-S059 via b(m) and is an OPERATIONAL corollary, not independent of that theorem or a positive infinite-renewal result. Frozen P4-S057–P4-S059, X in OH and R_2=OH unresolved; PA-0001/DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED. Next P4-S061.
+
+## P4-S061 — local logarithmic renewal-budget overrun spacing (2026-10-08)
+
+Records: [mathematics](P4-S061_MATHEMATICS.md), [validation](P4-S061_VALIDATION.md), [close](P4-S061_CLOSE.md).
+
+Each finite valid epoch-start transcript h admits a clopen k-success test with total prospective reservation budgets B and source mass <=2^(-|h|)(7/8)^k. A computably summable portfolio over all histories proves that, if committed CR X has infinitely many ACTUALLY completed profitable old turnovers, every sufficiently late reached epoch e has an individual completed W_j>=B(j,p_j) among the next K(m_e)=64ceil(log_2(m_e+2)) epochs, for every total computable B. This new local spacing restriction does NOT establish actual infinite renewal or decide X in OH / R_2=OH. Preserve P4-S057–P4-S060, class chain and governance; Phase 4 OPEN, Phase 5 CLOSED. Next P4-S062.
