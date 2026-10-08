@@ -2197,3 +2197,24 @@ Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
 PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.
 Blocker requiring owner/external action: **NONE**.
 Next bounded session: **P4-S051**, square capture across old-sentinel reset.
+
+
+## P4-S051 — Reset-free cross-row multi-square escrow
+
+Date: 2026-10-08
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 96bfc1d1cfb351e14eb874202ff1858b0e0709aa
+Scope: Phase 4 mathematics on CAND-01; positive multi-square capture after coded recoding.
+
+- Read P4-S001–P4-S050, CAND-01 authority and active P4 pivot; incoming main matched and P4-S051 was unique.
+- Proved opposite old-row square refutations at distinct unread future t,u exclude a future-only tuple. Exact fair t-then-u hedge guarantees 4/3 while keeping s unread.
+- Classified same-target opposite-row and after-consumption orientation evidence; established finite target projection criterion A(v)=empty.
+- Defined computable finite-window multisquare escrow with bounded symmetric simulations, support queues, compulsory zero-stake sweep and timeouts; global totality, fair coin, no repeat and one-hole bound hold.
+- Infinite *executed* profitable exits would give X not in OH, conditionally. P4-S008 forbids infinitely many profitable reset-free gains in a single permanently omitted old-sentinel epoch on any CR source.
+- No proof of infinite timely captures, effective old-sentinel turnovers, X in OH, X not in OH, or R_2=OH.
+
+Records: phase4/P4-S051_MATHEMATICS.md, phase4/P4-S051_VALIDATION.md, phase4/P4-S051_CLOSE.md.
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
+PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.
+Blocker requiring owner/external action: **NONE**.
+Recommended next session: **P4-S052**, finite escrow cash-out and certified old-sentinel turnover.
