@@ -2368,3 +2368,13 @@ Records: phase4/P4-S062_MATHEMATICS.md; phase4/P4-S062_VALIDATION.md; phase4/P4-
 
 CONDITIONAL on infinitely many ACTUAL profitable old resets on committed CR X, for each total computable prospective B, every sufficiently late 2J(m_e)-epoch window (J=ceil(log_2(m+2))) either has W_j>=B(j,p_j) or strictly more than J(m_e) robust exits. The proof uses an effective finite-clopen portfolio bounded by sum_j(j+1)(3/4)^j. One-J all-fragile B-prompt windows are likewise excluded eventually. These MARKED laws do not replace the P4-S062 W-only K_62 law, and no infinitely executed profitable renewal is verified. All exact fresh-block, paired-trace, clipped, pre-consumption, timeout no-old-reset, fair ledger, global one-hole and earlier frozen theorem guards stand. X in OH and R_2=OH unresolved. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED; no Gate-4 or novelty/publication claim. No blocker; next P4-S064.
 
+## P4-S064 — source-reached finite-gate deficit and overrun overlap (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming live main: a6ed2b8e7bc60342201b3b1f38fb596a569d24a0.
+- Exact total prospective B-gate partition: no gate delta=1-g, forbidden zero g/8, fragile 8/7 g/8, robust 8/7 3g/4; old-flip preserves first gate/no-gate membership until old consumption.
+- For total computable a(m)->infinity and effectively summable a(m)r(m), one RAW computable rational fair martingale forbids infinitely many reached output-length-m epochs with B completed real zero-stake timeouts AND exact delta_h<=r(m). Each event is clopen, with mass <=r(m).
+- Explicit r(m)=(m+2)^-3, a(m)=m+2 gives a computable tail; on CR X sufficiently late ACTUAL B-overruns have delta>(m+2)^-3.
+- CONDITIONAL on infinitely many actual profitable old resets, each sufficiently late P4-S062 K_62(m_e) window contains an actual W_j>=B(j,p_j) coincident with an auditable gate deficit > (m_j+2)^-3. P4-S063's marked alternative overrun arms retain their own lengths and can be similarly tagged.
+- No infinite actual renewals verified. All P4-S001–P4-S063 theorems, exact timeout/no-old-reset protocol, fair one-hole geometry, Y/M/H/X and class inclusions preserved. X in OH and R_2=OH unresolved. PA-0001/DEF-0020 unchanged; Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED; no novelty, openness, prior-art, Gate-4, publication or outreach claim.
+
+Records: phase4/P4-S064_MATHEMATICS.md; phase4/P4-S064_VALIDATION.md; phase4/P4-S064_CLOSE.md. Owner/external blocker: NONE. Next P4-S065.
