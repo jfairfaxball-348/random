@@ -426,3 +426,8 @@ Mathematics-only checkpoint. The true P4-S057 four-run success-gated next-reserv
 ## P4-S069 — fixed-program latency-defect mathematics; gates unchanged (2026-10-08)
 
 Phase-4 mathematics ONLY. Genuine next-gate closure hazard gamma=a/2^c now has exact eventual-minus-late fixed-M decomposition a=b-d_L. On a hypothetical permanent CR-X stall all sufficiently late bounded-closure reservations have a=0 and d_L=b>=1, so no semantic eventual-certificate count gives a timely-gate lower bound without deadline control. The original q-avoiding M's full autoreduction locus is null/meagre under fair measure/category, also after H recoding; it nevertheless contains CR X. Positive survivor-frontier mass is not source-X-specific evidence. No X recurrence, infinite positive real reset, X in OH, or R_2=OH decision. Retain all P4-S001–S068 mathematics, Y/M/H/X and unchanged T_L legality; PA-0001/DEF-0020 unchanged. **Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED.** No novelty/openness/prior-art/publication/outreach claims. Next P4-S070, blocker NONE.
+
+
+## P4-S071 — same-source shear extraction, gates unchanged (2026-10-08)
+
+Mathematics checkpoint ONLY. Every computably supported two-coordinate XOR shear admits a uniform fair total global one-hole source-side evaluator and a martingale copy losing at most exp(B_m) to genuinely later spoiled w wagers. Conditional preservation for bounded/summable exposure and necessary unbounded exposure for any OH separator are proved. No unrestricted H/shear preservation, R_2=OH classification or X membership. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No owner/external blocker; P4-S072 next.

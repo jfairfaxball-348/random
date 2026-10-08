@@ -1,8 +1,8 @@
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.
-Last completed session: **P4-S068 (COMPLETED / VALIDATED)**.
-Next recommended session: **P4-S069**. Owner/external blocker: **NONE**.
+Last completed session: **P4-S071 (COMPLETED / VALIDATED)**.
+Next recommended session: **P4-S072**. Owner/external blocker: **NONE**.
 
 Gate 1 P1-S014 PASS; Gate 2 P2-S006 PASS; Gate 3 P3-S008 PASS. Phase 4 OPEN; Phase 5 CLOSED; Gate 4 NOT reviewed. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
 
@@ -33,3 +33,8 @@ P4-S068 (validated): for the unchanged success-gated four-run T_L, the c(p) new 
 **COMPLETED / VALIDATED; Phase 4 Mathematics only.** Pinned post-S069 strategic-pivot remote main at 32b4fce1400cf5f38d23732bc24d32d71bb213ca; P4-S070 unique. The committed triple matrix A has A^7=I. For every computable block set E, conjugating the selective swap of positions 1 and 2 by H yields the selective two-coordinate XOR shear S_E: (a,b,c)->(a,b xor c,c). By S033 OH invariance under computable signed coordinate permutations, H-preservation is equivalent to preservation under **all** such supported shears; uniform finite Gaussian-elimination words upgrade that to preservation under **every computable blockwise GL(3,F_2) matrix sequence**. The intermediate class OH^{lin3} of robustness after all those blockwise recodings satisfies R_2 subseteq OH^{iso} subseteq OH^{lin3} subseteq OH, and H-pres iff OH^{lin3}=OH. This is a new globally quantified equivalence, NOT a proof that any of these equalities holds. A supported-shear OH counterexample, if found, would prove R_2 proper-subset OH; none is exhibited. If H-pres is proved later, committed X notin OH follows from H(X)=Y notin OH. X in OH, H-pres, R_2=OH, R_2=OH^{iso} unresolved. Case-C divergence and exact one-hole all-transcript restriction remain; S057–S069 hazards not reactivated.
 
 Preserve all previous mathematics, original Y/M/H/X, S057 true t/u ZERO timeout release and mandatory non-s sweep WITHOUT old reset, exact clipped four traces and seven 8/7/one ZERO outcomes. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach claim. No owner/external blocker. Next P4-S071 tests supported-shear OH preservation globally. Records: phase4/P4-S070_MATHEMATICS.md, phase4/P4-S070_VALIDATION.md, phase4/P4-S070_CLOSE.md.
+
+
+## P4-S071 — supported-shear same-source exposure theorem (2026-10-08)
+
+**COMPLETED / VALIDATED; not shear preservation or strict separation.** For every computable block set E, a virtual global one-hole scan after S_E admits a globally fair total one-hole RAW observer on the identical source: genuine zero-stake c filler then b for parity, and silent later c when pre-read. Uniform rational e copies fresh wagers and obeys e_{n(m)}>=d_m exp(-B_m), where B_m sums the absolute fractional stakes at skipped virtual c wagers. For z in OH, any successful virtual observer must incur unbounded B_m and log d_m<=C+B_m. A 276,480-case finite audit checked the two-block accounting, not the infinitary proof. No X in OH, H-pres, R_2=OH, R_2=OH^iso or arbitrary homeomorphism invariance result. S001–S070 and Y/M/H/X/S057 exact controller unchanged; PA-0001/DEF-0020 unchanged, Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. Blocker NONE; P4-S072 next. See P4-S071 mathematics/validation/close.
