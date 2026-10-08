@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": 2,
-  "last_updated_session": "P4-S050",
+  "last_updated_session": "P4-S051",
   "status": "PHASE4_SELECTED_CANDIDATE_ACTIVE",
   "status_vocabulary": [
     "RETAIN_PROVISIONAL",
@@ -94,8 +94,8 @@
         "COV-0013"
       ],
       "introduced_in": "P2-S001",
-      "last_reviewed_in": "P4-S050",
-      "record_path": "phase4/P4-S050_MATHEMATICS.md",
+      "last_reviewed_in": "P4-S051",
+      "record_path": "phase4/P4-S051_MATHEMATICS.md",
       "novelty_status": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "literature_status": "PRIMARY_PRIOR_ART_ATTACK_P3_S001_COMPLETE",
       "original_proof_work_performed": true,
@@ -715,6 +715,33 @@
           "blocker": null,
           "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
           "novelty_claimed": false
+        },
+        "one_hole_normalization_eighteenth_step_result": {
+          "session": "P4-S050",
+          "result": "ONE_FINITE_SQUARE_REFUTATION_GIVES_TWO_RAW_BIT_FOUR_THIRDS_GAIN_BUT_CONSUMES_OLD_SENTINEL",
+          "single_forbidden_pair_sequential_fair_gain": "4/3",
+          "pair_hedge_reads_old_sentinel": true,
+          "global_one_hole_safe_square_exit_controller": true,
+          "infinite_executed_square_exits_proved_on_committed_X": false,
+          "next_session": "P4-S051",
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
+        },
+        "one_hole_normalization_nineteenth_step_result": {
+          "session": "P4-S051",
+          "result": "OPPOSITE_OLD_ROW_CROSS_TARGET_REFUTATIONS_GIVE_RESET_FREE_TWO_TARGET_FOUR_THIRDS_HEDGE_WITH_FIXED_SENTINEL_BARRIER",
+          "target_equation": "R_2 = OH ?",
+          "target_resolved": false,
+          "positive_cross_row_two_target_escrow_hedge": true,
+          "old_sentinel_consumed_by_hedge": false,
+          "finite_multisquare_controller_total_fair_one_hole_safe": true,
+          "fixed_sentinel_infinite_wins_incompatible_with_CR": true,
+          "source_X_infinite_cross_epoch_capture_proved": false,
+          "X_in_OH_proved": false,
+          "X_not_in_OH_proved": false,
+          "OH_noninvariance_witness": false,
+          "novelty_claimed": false,
+          "next_session": "P4-S052",
+          "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE"
         }
       },
       "phase4_k2_mathematics": {
