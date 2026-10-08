@@ -365,3 +365,10 @@ The one-hole normalization programme now has an unconditional *finite* two-bit b
 The remaining difficulty is capture **after reset**: each hedge consumes s, so the same trapped sentinel cannot underwrite arbitrarily many unconditional hedges. No effective infinite-capture theorem for the committed source and no X in OH / X not in OH conclusion have been obtained. Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
 
 See phase4/P4-S050_MATHEMATICS.md; next P4-S051 addresses multi-square positive escrow and reset-sensitive capture. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## Current mathematics checkpoint — P4-S051
+
+Finite positive **cross-target** square evidence gives a new reset-free hedge: if two raw-square refutations with opposite old-sentinel hypotheses are obtained at two distinct unread future coordinates, their joint forbidden future atom yields a fair 4/3 terminal gain on the two future coordinates while old s stays unread. A finite protected closure window is globally one-hole safe with mandatory timeout release.
+
+This does not yield an infinite destroyer automatically. P4-S008 prohibits infinitely many successful gains while one fixed old hole remains omitted on a computably random source. To prove X not in OH, the programme still needs a computable policy with infinitely many timely gains across old-sentinel turnover. X in OH and R_2=OH remain unresolved; Phase 4 OPEN and Phase 5 CLOSED. Next P4-S052 investigates positively certified escrow cash-out / sentinel turnover.
