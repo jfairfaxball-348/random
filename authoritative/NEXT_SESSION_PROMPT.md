@@ -2,7 +2,7 @@
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run ONLY Phase 4 — Mathematics P4-S069. Pin live remote \`main\` at the EXACT P4-S068 outgoing checkpoint recorded in the P4-S068 close report; reconcile discrepancies, confirm uniqueness, and read P4-S001–P4-S068, CAND-01 P3-S007 selection, P3-S008 Gate-3 PASS, the Phase-4 post-S031 research pivot and subsequent mathematics. Emphasize P4-S008, S011, S012, S027, S033, S039, S041, and S044–S068.
+Run ONLY Phase 4 — Mathematics P4-S069. Pin live remote `main` at the EXACT P4-S068 outgoing checkpoint recorded in the P4-S068 close report; reconcile discrepancies, confirm uniqueness, and read P4-S001–P4-S068, CAND-01 P3-S007 selection, P3-S008 Gate-3 PASS, the Phase-4 post-S031 research pivot and subsequent mathematics. Emphasize P4-S008, S011, S012, S027, S033, S039, S041, and S044–S068.
 
 Freeze:
 \[
