@@ -368,3 +368,8 @@ P4-S057's success-gated four-run actual scan either makes finitely many positive
 P4-S058's n completed WINNING 8/7 exit cylinders G_n are uniformly c.e. open and satisfy lambda(G_n)<=(7/8)^n. No finite raw prefix can force infinitely many profitable exits, and no effective closed/F-sigma sufficient safety class can contain the committed CR X. The effective Pi^0_2 winning renewal condition has NOT been verified for X. Existing one-hole geometry and exact four-run capital remain unchanged.
 
 These are mathematics checkpoints, not Gate 4, novelty or openness findings. Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE and DEF-0020 unchanged.
+
+
+## P4-S059 mathematics checkpoint — NOT a gate review (2026-10-08)
+
+P4-S059 proves uniformly computably clopen finite-output-horizon winning events C_{n,m} bounded by (7/8)^n, and the CR-source obstruction: for each total computable h(n), only finitely many C_{n,h(n)} occur on committed X. Hypothetical infinite winning implies an X-computable nth-win time dominating every total computable h, compatible with the already high P4-S011 source degree. Infinite X-renewal, X in OH and R_2=OH remain unresolved. P4-S057/P4-S058 frozen. No Gate-4 action, novelty, openness or outreach determination. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Gate 3 PASS; Phase 4 OPEN; Phase 5 CLOSED.

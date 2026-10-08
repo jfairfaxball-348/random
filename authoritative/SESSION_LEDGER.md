@@ -2324,3 +2324,13 @@ Status: **COMPLETED / VALIDATED**. Incoming main: e81c35684eec65d172eece421e1ff1
 - All P4-S001–P4-S057 frozen, especially P4-S008/P4-S052/P4-S053/P4-S056/P4-S057; Y/M/H/X and MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR retained. X in OH and R_2=OH remain open. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach claims.
 Records: phase4/P4-S058_MATHEMATICS.md; phase4/P4-S058_VALIDATION.md; phase4/P4-S058_CLOSE.md.
 Owner/external blocker: **NONE**. Next: **P4-S059** — genuinely infinitary renewal-progress beyond effective F-sigma safety.
+
+
+## P4-S059 — computable-horizon escape for success-gated renewal (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming main: 10f192447d8d24ad3c54669366bdc1896a82636e.
+- For unchanged T_L, every C_{n,m} of n completed winning 8/7 exits within m output bits is uniformly computably clopen and lambda(C_{n,m})<=(7/8)^n.
+- For EVERY total computable h(n), computably random X belongs to C_{n,h(n)} at only finitely many n, by computably convergent weighted finite-event source martingales and rationalization.
+- If infinitely many actually completed wins occur, total X-computable nth-win times eventually dominate ALL total computable h(n). P4-S011's Y already computes a dominating all-trigger time, so highness of X/Y does not establish/exclude actual T_L renewal.
+- All earlier work frozen, including P4-S057 W_e prospective budget overruns and P4-S058 effective F-sigma barrier. No X/OH or R_2=OH classification; no source-verified infinite progress.
+Records: phase4/P4-S059_MATHEMATICS.md; phase4/P4-S059_VALIDATION.md; phase4/P4-S059_CLOSE.md. Guards unchanged; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED. Owner/external blocker: NONE. Next P4-S060.

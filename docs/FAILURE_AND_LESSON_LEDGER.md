@@ -1627,3 +1627,10 @@ Blocked inference: a positive wrong-output certificate is an actual winning term
 Blocked inference: a raw finite prefix, or effectively closed (even countably unioned) source safety class, can force infinitely many profitable 8/7 turnovers on CR X. The uniformly c.e. open event G_n of n completed winning exits has probability at most (7/8)^n, so no finite cylinder forces all gains. An effectively closed class included in all G_n is null and excludes every CR source; likewise effective F-sigma suppliers.
 
 **Lesson:** any actual-X renewal supplier must use genuine infinitary progress beyond effective F-sigma safety, with concrete timely source-reached witnesses. Effective G-delta syntax alone does not establish membership of X, and no computably selectable avoiding sibling follows from the measure argument.
+
+
+## P4-S059 — no computably scheduled finite-output-horizon infinite progress on CR X
+
+Blocked inference: arbitrarily late but finite source-specific correct certificates imply the nth genuine completed 8/7 old turnover occurs promptly along some total computable global output schedule infinitely often. For every computable h(n), the finite clopen event C_{n,h(n)} has measure <=(7/8)^n and its infinitely-often occurrence on CR X would be defeated by a computable rational source martingale. Hence even infinitely-often computable OUTPUT-horizon promptness is impossible, and any hypothetical infinite n-th winning-time function dominates every computable function eventually.
+
+Lesson: finite operational Pi^0_2 progress has no effective rate on the committed CR source; its membership cannot be inferred from eventual M halting, high Turing degree, or P4-S057 unbounded missed reservations. The original P4-S011 Y all-trigger scan already has a dominant time function, so this new obstruction is compatible with the retained source; actual infinite T_L gains remain unproved.

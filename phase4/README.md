@@ -766,3 +766,10 @@ The globally legal actual four-run controller retains least-unread s after timeo
 Records: [mathematics](P4-S058_MATHEMATICS.md), [validation](P4-S058_VALIDATION.md), [close](P4-S058_CLOSE.md).
 
 The raw event G_n of n completed WINNING 8/7 old turnovers is uniformly c.e. open, with lambda(G_n)<=(7/8)^n from exact fair preservation and martingale maximality. Every finite raw source prefix has a continuation failing some large renewal target. The effective G-delta infinite-winning class is null; no effectively closed or effective F-sigma subset contains computably random X. This does not prohibit a genuinely Pi^0_2 renewal process on X and does not prove its existence. P4-S008, P4-S052, P4-S053, P4-S056 and P4-S057 remain frozen; X in OH and R_2=OH unresolved. PA-0001 and DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. Next P4-S059.
+
+
+## P4-S059 — effective finite-horizon escape (2026-10-08)
+
+Records: [mathematics](P4-S059_MATHEMATICS.md), [validation](P4-S059_VALIDATION.md), [close](P4-S059_CLOSE.md).
+
+For the unchanged actual success-gated four-run controller, C_{n,m} (n genuinely completed winning 8/7 old turnovers within m output bits) is uniformly computably clopen and has fair measure <=(7/8)^n. For every total computable output horizon h(n), computably random X reaches C_{n,h(n)} only finitely often: a rational computable martingale mixes the clopen conditional probabilities with a computable geometric tail. Thus hypothetical infinite winning on X requires its X-computable nth-win time to eventually dominate every computable function. The retained P4-S011 all-trigger scan already forces high degree for the Y/X source, so this is no solution of actual-X renewal. No infinite gains, X in OH, R_2=OH or OH non-invariance proved. P4-S057/P4-S058 frozen, PA-0001/DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. Next P4-S060.
