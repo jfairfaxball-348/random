@@ -346,3 +346,10 @@ Record: phase4/P4-S009_MATHEMATICS.md.
 P4-S050 established the exact fair forbidden-pair 4/3 sequential hedge and a total globally one-hole-safe finite-tenure square-exit controller. Infinite executed square/old positive exits would give a computable one-hole destroyer. The committed X is not shown to yield infinitely many timely captures across successive old-sentinel resets. Under hypothetical X in OH each combined policy has only finitely many positive exits and a policy-dependent final persistent sentinel. No separation and no X in OH conclusion are made.
 
 Gate 3 remains PASS, Phase 4 OPEN and Phase 5 CLOSED. No Gate-4 review occurred. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
+
+
+## Mathematics checkpoint — P4-S051 (not a gate review)
+
+P4-S051 validates a reset-free two-target 4/3 hedge from two positive square refutations against opposite old-bit hypotheses and distinct fresh targets, with an exact finite target-projection criterion and a total one-hole-safe finite-window escrow controller. P4-S008 rules out infinite profit at one permanently unqueried old sentinel on a computably random source; effective fresh captures across infinitely many old-sentinel turnovers remain unproved.
+
+This is not a Gate-4 decision, nor an openness, novelty, literature, publication or outreach finding. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED. Mathematics record: phase4/P4-S051_MATHEMATICS.md.
