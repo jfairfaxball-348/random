@@ -800,3 +800,12 @@ The forbidden-pair square hedge is confirmed: one finite excluded two-bit atom y
 The price is a reset: the unconditional hedge consumes the current old sentinel. One excluded atom is insufficient for guaranteed strict one-bit gain while that old sentinel stays unread. Infinite effective captures across restarted epochs have not been established for the committed source. Under hypothetical X in OH, each policy has finitely many positive exits and a persistent no-capture/no-old-refutation final epoch; no global semantic timing bound follows.
 
 Next **P4-S051**: positive multi-square capture across reset. No R_2 versus OH separation. Phase 4 OPEN, Phase 5 CLOSED. PA-0001 unresolved under inspected evidence; DEF-0020 unchanged.
+
+
+## Phase-4 checkpoint — P4-S051 (not a gate review)
+
+Two positively refuted pairs (a,beta) at old/future (s,t) and (1-a,gamma) at (s,u), with all three raw bits unread, exclude the joint future-only tuple (beta,gamma). A fair t-then-u wager guarantees 4/3 on the actual committed source **without reading old s**. Same-target opposite-row exclusions double on the one future bit. The finite projection rule for arbitrary positive target exclusions is exact.
+
+A bounded-simulation protected two-square escrow controller is total, no-repeat, fair and globally at most one-hole, even though its finite protected window temporarily reserves s,t,u. Timely certificates remain essential. P4-S008 additionally rules out infinitely many profitable escrows at a single permanently omitted s on a computably random source. Hence reset-free *finite* gains are not a same-source infinite-win construction; infinitely many effective old-sentinel turnovers remain unproved.
+
+Next: **P4-S052**, coupling finite escrow gain to positive old-sentinel cash-out/turnover. No X in OH, X not in OH or R_2=OH resolution. PA-0001 unresolved under inspected evidence, DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED.
