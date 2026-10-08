@@ -372,3 +372,12 @@ See phase4/P4-S050_MATHEMATICS.md; next P4-S051 addresses multi-square positive 
 Finite positive **cross-target** square evidence gives a new reset-free hedge: if two raw-square refutations with opposite old-sentinel hypotheses are obtained at two distinct unread future coordinates, their joint forbidden future atom yields a fair 4/3 terminal gain on the two future coordinates while old s stays unread. A finite protected closure window is globally one-hole safe with mandatory timeout release.
 
 This does not yield an infinite destroyer automatically. P4-S008 prohibits infinitely many successful gains while one fixed old hole remains omitted on a computably random source. To prove X not in OH, the programme still needs a computable policy with infinitely many timely gains across old-sentinel turnover. X in OH and R_2=OH remain unresolved; Phase 4 OPEN and Phase 5 CLOSED. Next P4-S052 investigates positively certified escrow cash-out / sentinel turnover.
+
+
+## Current mathematics checkpoint — P4-S053 (2026-10-08)
+
+P4-S053 defines a finite-trace checkable pre-consumption two-refutation promptness condition for a computable adaptive-tenure success-gated escrow scan. If it holds at every consecutively reached epoch on the committed X, infinitely many fair profitable old turnovers follow and X not in OH. No such capture has been established on X. The first escrow refutation already admits a local P4-S050 4/3 old-reset hedge; escrow changes possible later epochs but does not accelerate this first positive payoff. Shielded-old epochs still have only the unorientable 4/3 exit.
+
+A reached epoch whose old turnover is unavoidable on all continuations has a computably searchable finite positive-turnover bar; all-transcript eventual old reset at every epoch gives an exhaustive CR-preserving computable isomorphism. An ABSTRACT computable certificate-publication model can delay all positive wrong-future evidence until AFTER every finite reservation expires. The model does not realize the committed M or a computably random source, and proves no source classification.
+
+Freeze earlier validated results. Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR, and Y/M/H/X. X in OH and R_2=OH unresolved. Next **P4-S054**. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.

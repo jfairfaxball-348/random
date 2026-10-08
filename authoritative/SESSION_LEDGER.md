@@ -2237,3 +2237,20 @@ Records: phase4/P4-S052_MATHEMATICS.md, phase4/P4-S052_VALIDATION.md, phase4/P4-
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 Owner/external blocker: **NONE**.
 Next P4-S053: branchwise-avoidable timely cross-epoch capture.
+
+
+## P4-S053 — effective escrow promptness and finite-window latency (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: 255c83c9e7638d91c452447a9525ec7de135c127
+
+- A globally legal total computable one-hole scan with arbitrary total computable finite L/K reservation clocks has a mechanically checkable finite positive opposed-row two-target prompt-escrow trace. If every consecutively reached epoch on X has such a timely trace, successful old turnovers multiply completed capital by 4/3 indefinitely, so X not in OH; NO such trace condition is proved for X.
+- The first positive escrow refutation already licenses a P4-S050 one-refutation two-bit reset with the same 4/3 locally guaranteed multiplier, but the controllers are not globally schedule-equivalent. On shielded epochs only the unorientable 4/3 cash-out is possible.
+- A computable positive-turnover bar at a reached epoch either has an infinite avoiding continuation or a computably searchable finite common exit deadline. All-transcript eventual old reset at every epoch yields an exhaustive computable effective isomorphism and preserves CR.
+- A computable abstract late-publication model on NONRANDOM 0^omega gives every spent target two eventually sound false-future old-row refutations, all published after mandatory release. This defeats a fixed success-gated finite-window scheduler despite unlimited passive positive evidence. It is NOT a witness for committed M or X.
+- Growing adaptive timeouts, c.e. witnesses, wtt finite use and semantic actual-A recurrence do not prove actual promptness; X in OH, X not in OH, OH non-invariance and R_2=OH remain unresolved.
+
+Records: phase4/P4-S053_MATHEMATICS.md; phase4/P4-S053_VALIDATION.md; phase4/P4-S053_CLOSE.md.
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+Owner/external blocker: **NONE**.
+Next P4-S054: source-specific finite-stage promptness or sharper source-side capture obstruction.

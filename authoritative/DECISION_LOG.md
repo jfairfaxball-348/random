@@ -1286,3 +1286,16 @@ Decision: at a semantically shielded old epoch, Y/Z prohibit all positive square
 Decision: mandatory transient-future timeout with old s retained is globally one-hole legal. Old s may be consumed at zero stake **after a positive escrow**; automatically resetting old s on every timeout on all continuations instead gives exhaustive computable isomorphism. Infinite *executed* profitable turnovers would establish X not in OH, but they remain unproved. Under hypothetical X in OH each fixed success-gated controller has finitely many exits and final s; passive late witnesses may remain.
 
 Next P4-S053, effective branchwise-avoidable pre-consumption certificate capture. No separation, novelty, openness, Gate-4, publication or outreach conclusions.
+
+
+## P4-S053 — prompt escrow arrival versus all-transcript reset bars
+
+Decision: adopt the explicit finite-execution-trace promptness condition, quantified over both certificate discovery and actual unconsumed fresh supports, as a conditional sufficient criterion for infinitely many profitable cross-epoch old turnovers. An adaptive computable finite timeout remains finite on every reached transcript; it does NOT certify the condition on the committed X.
+
+Decision: an eventual positive-turnover event on every continuation of a reached prefix is an effective finite bar, with a computably searchable uniform common deadline. Eventual old consumption at every reachable epoch on all continuations gives an exhaustive computable isomorphism, even without a prescribed reset clock. Genuine branchwise avoidance remains necessary for a potentially destroying success-gated controller.
+
+Decision: escrow does not beat the P4-S050 first-refutation reset in earliest LOCAL positive 4/3 payoff. It can alter future epoch support, so no global dominance is asserted. The shielded old epoch permits only the unoriented 4/3 escrow cash-out, not the 8/3 old orientation.
+
+Decision: an abstract computable c.e. delayed-publication model can provide two opposite-old-row sound wrong-future exclusions AFTER the release of every spent prospective target and thereby defeat timely capture on a computable reference input. This is NOT a construction or no-go theorem for the committed M/Y/X. No actual-source infinite promptness, X in OH, X not in OH, R_2=OH or OH non-invariance established.
+
+Next P4-S054 on an actual-M finite-stage promptness invariant or stronger necessary arrival law. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach finding.

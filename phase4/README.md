@@ -714,3 +714,14 @@ Records: [mathematics](P4-S052_MATHEMATICS.md), [validation](P4-S052_VALIDATION.
 After a cross-row 4/3 escrow, two of the three surviving future tuples positively orient old s, allowing extra fair 2x cash-out (8/3 total). The double nonmatch leaves s unconstrained, allowing only zero-stake old consumption on those witnesses. At a P4-S049 shielded old epoch every finite refutation has wrong future value and the actual escrow outcome is precisely that unoriented double nonmatch.
 
 A total finite-window success-gated escrow controller mandatorily releases temporary futures and consumes old s after a positive exit. Infinite executed profitable turnovers would show X not in OH, but no infinite timely capture on X is established. Always forcing old reset on all transcripts would be a CR-preserving computable permutation. Next P4-S053, branchwise-avoidable effective cross-epoch capture. PA-0001 unresolved, DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED.
+
+
+## P4-S053 — adaptive finite-window promptness and the latency barrier (2026-10-08)
+
+Records: [mathematics](P4-S053_MATHEMATICS.md), [validation](P4-S053_VALIDATION.md), [close](P4-S053_CLOSE.md).
+
+A total computable success-gated finite-window escrow controller is globally fair, no-repeat and one-hole safe, with mandatory old/future support discipline and transient future releases. Its finite positive trace requires opposed-old-row refutations at two distinct fresh future targets to be discovered before both deadlines. If this pre-consumption promptness holds at each consecutively reached epoch on X, infinitely many executed profitable turnovers follow and X not in OH. This target condition is NOT established.
+
+The first refutation already permits the P4-S050 local two-bit reset at the same 4/3 factor; escrow does not accelerate this first profitable reset and shielded epochs deny its oriented 8/3 upgrade. Yet changed future epochs prevent global domination. An eventual profitable old turnover on all continuations of a reached prefix is a computably searchable finite bar; universal old-reset across epochs gives a CR-preserving computable isomorphism without any prior uniform clock bound. An explicitly scoped COMPUTABLE ABSTRACT certificate calendar supplies strong eventual wrong-future witnesses only after every release; it is not an actual M or CR counterexample. X in OH and R_2=OH remain unresolved.
+
+Next P4-S054 on source-specific promptness/capture law. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.
