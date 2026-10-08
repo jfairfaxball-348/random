@@ -1393,3 +1393,8 @@ No new policy/gate decision. Retain all earlier decisions. The actual controller
 ## P4-S068 — mathematics-only closure-gate multiplicity (2026-10-08)
 
 No policy, candidate-selection or gate decision. For the unchanged P4-S057 controller, after the c-bit finite use closure, filler-bit values are inert for certificate decisions, so gamma(p)=a(p)/2^c(p) where a counts genuinely timely positive closure assignments. Every CR permanent stall has sum_n a(p_n)/2^c(p_n)<infinity; no committed X recurrence/lower bound or repeated actual gate established. Preserve Y/M/H/X, all Phase-4 results, PA-0001 and DEF-0020. Gate 3 PASS, Phase 4 OPEN, Gate 4 NOT REVIEWED and Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach inference. Next P4-S069; blocker NONE.
+
+
+## P4-S069 — mathematics-only eventual/late closure certificate separation (2026-10-08)
+
+Decision: no gate, policy, candidate selection, prior-art or publication change. Record fixed ORIGINAL M/T_L certificate partition a=b-d_L; retain actual-X lateness on every true timeout, the CR permanent-stall bounded-closure complete-lateness necessity, and the null/meagre exact-original-M autoreduction target locus and generic CR survivor warning. Do not infer real X hazard divergence from b, c, sibling potentials, null-locus measure, or retrospective halts. Every frozen P4-S001–S068 theorem, Y/M/H/X, t/u ZERO timeout release plus non-s sweep WITHOUT old reset, and exact 8/7/zero one-hole fair scan remain unchanged. X in OH, X not in OH and R_2=OH unresolved. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach claim. No blocker; next P4-S070.

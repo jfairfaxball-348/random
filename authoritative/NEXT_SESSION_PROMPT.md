@@ -1,30 +1,21 @@
-# Next Session Prompt — P4-S069
+# Next Session Prompt — P4-S070
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run ONLY Phase 4 — Mathematics P4-S069. Pin live remote `main` at the EXACT P4-S068 outgoing checkpoint recorded in the P4-S068 close report; reconcile discrepancies, confirm uniqueness, and read P4-S001–P4-S068, CAND-01 P3-S007 selection, P3-S008 Gate-3 PASS, the Phase-4 post-S031 research pivot and subsequent mathematics. Emphasize P4-S008, S011, S012, S027, S033, S039, S041, and S044–S068.
+Run ONLY Phase 4 — Mathematics session P4-S070. Pin live remote main to the EXACT P4-S069 outgoing SHA reported in the P4-S069 completion response, reconcile any discrepancy, confirm P4-S070 uniqueness, and read mathematics P4-S001–P4-S069, P3-S007 CAND-01 selection, P3-S008 Gate-3 PASS, the Phase-4 post-S031 pivot and authoritative ledgers. Emphasize P4-S008/S011/S012/S027/S033/S039/S041 and P4-S044–S069.
 
-Freeze:
+Freeze the entire validated chain
 \[
 MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
 \]
-Preserve fixed computably random Y, the exact syntactically self-avoiding globally use-clipped wtt autoreduction M (unchanged implementation), repeated-block homeomorphism H, and computably random X=H^{-1}(Y), with H(X)=Y not in OH. **X in OH and R_2=OH remain UNRESOLVED.**
+Preserve the original computably random Y, unchanged syntactically self-avoiding globally use-clipped wtt autoreduction M, three-bit repeated-block computable fair-coin homeomorphism H and X=H^{-1}(Y). The questions X in OH and R_2=OH remain UNRESOLVED.
 
-Retain P4-S066 pathwise source-specific local hazard summability, P4-S067 finite first-gate output leaf count and shortest-depth capacity, and P4-S068's exact TRUE controller-specific value-closure formula. For each valid next-reservation start p of the P4-S057 success-gated four-run T_L, let c(p) be the number of newly queried raw value-closure bits (v and all outside clipped-use inputs), A(p) the finite set of those closure assignments that induce an ordinary paired-M positive wrong-output/nonbinary halt by the **prospective finite** tenure chosen AFTER closure, and a(p)=|A(p)|. Later filler values outside clipped use are causally inert for timely positive-gate decisions. Thus
-\[
-\gamma(p)=a(p)\,2^{-c(p)}.
-\]
-On any computably random permanently stalled genuine old-sentinel epoch with actual endogenous p_n,
-\[
-\sum_n a(p_n)\,2^{-c(p_n)}<\infty,\qquad
-\#\{n:a(p_n)>0,\ c(p_n)\le K\}\le B2^K
-\]
-for a finite source-dependent B, all K. This is an exact necessary multiplicity/cylinder-capacity condition; **no actual X-specific recurrence or divergence verified**.
+Retain P4-S068's exact positive gate closure hazard gamma(p)=a(p)2^{-c(p)} and P4-S066's finite sum of the REAL local hazards along every hypothetical permanent CR stall. Retain the P4-S069 fixed-program partition: b(p) closure assignments admit an EVENTUAL four-paired-M ordinary positive halt, d_L(p) admit one only STRICTLY AFTER their OWN prospective finite L, and a=b-d_L; hence gamma=(b-d_L)/2^c. At an actual-X timeout the true closure assignment lies in the LATE set. On any hypothetical actual-X permanent stall, for each fixed K eventually every stage with c<=K has a=0 and d_L=b>=1; finite partial sums of eventual gate mass and late deficit differ by at most the CR hazard bound. The SAME M's full-autoreduction locus E_X is null and meagre but contains the CR X; unconditioned positive-survivor-frontier probability cannot be substituted for conditioned X-specific halting/timeliness.
 
-**Bounded target:** Determine whether the particular committed M and actual X-dependent least-unread fresh-block schedule force sufficiently many source-reached finite positive closure assignments, or sufficiently small c(p_n), on every hypothetical permanent stall to violate the weighted-summability law. Alternatively rigorously isolate a further fixed-program/actual-source obstruction to proving such recurrence, beyond S067's alternative-program padding. The committed M is specified through an existence theorem and clipping normal form, not through a displayed executable machine index and computable Y; do not claim numeric actual-X testing without that evidence. Avoid reading potential sibling cylinders as actual gates, or future eventual M^Y halting as a bound on prospective L.
+**Bounded target:** Examine the committed M and exact true-X endogenous least-wholly-unread fresh-block/value-closure read-set geometry for a genuine, source-specific constraint on d_L(p_n) relative to b(p_n) and c(p_n). Seek a rigorously justified weighted TIMELY multiplicity lower bound that breaks the permanent-stall gamma summability, or a sharper fixed-M impossibility/obstruction. Do not use alternative-program padding, infer target halting time bounds from finiteness, equate eventual certificates with timely gates, appeal to a measure-positive CR sibling as if it satisfied M, or assume c_n has any unproved recurrence.
 
-**Keep the EXACT true controller:** least unread old s; least wholly unread block t/u/v disjoint from s; zero-stake v/frontier closure; globally clipped M uses; precisely four paired representative traces; total prospective positive L; ONLY ordinary wrong-output/nonbinary positive certificates before protected consumption; post-closure fillers as real output steps. Every timeout must release t,u at ZERO stake and perform the mandatory least-unread non-s sweep WITHOUT resetting s. Preserve global totality/no-repeat/fair coin/one-hole fibres, exact fair intermediate wager and one forbidden ZERO/seven 8/7 terminal atoms. Keep P4-S008/S052/S053/S056–S068 frozen. Do not reopen ticket/frontier, backward-price or generic compiler work absent mathematical necessity.
+Keep the UNCHANGED P4-S057 four-run success-gated controller T_L: the least unread old s, least wholly unread t/u/v block disjoint from s, complete v and clipped-use outside value closure, four virtual-q-flip paired M(q) traces, positive prospective finite L AFTER closure, and only ordinary wrong-output/nonbinary positive pre-consumption certificates. Post-closure filler output STEPS remain mandatory and their values are inert for bounded M decisions. On every actual timeout t,u release at ZERO stake, followed by the mandatory least-unread NON-s sweep, WITHOUT resetting old s. Positive gates only use the exact fair three-bit hedge with one forbidden ZERO atom and seven 8/7 payoffs, preserving all intermediate martingale equalities. Global totality, no-repeat, fair coin and one-hole fibres are mandatory. Keep source-X hazard divergence distinct from infinitely EXECUTED profitable resets.
 
-Maintain strict distinctions between eventual M^Y halting, finite clipped values, finite prospective deadlines, actual X-specific divergent closure-cylinder hazards and infinitely many executed profitable 8/7 old resets. PA-0001 stays UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED, Gate 4 NOT reviewed. No novelty/openness/prior-art/publication/outreach claims.
+PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. No novelty, openness, prior-art, publication or outreach claims. Do not reopen the old ticket/reserve, backward-pricing or generic radius-one branches without demonstrated necessity.
 
-Record and validate mathematics, synchronize authoritative files, commit, independently verify remote main and report exact outgoing SHA. Supply a P4-S070 prompt only if no owner or external blocker exists.
+Record and validate mathematics, synchronize authoritative files, commit, independently verify remote main and report exact outgoing SHA. Provide a next prompt only if no owner/external blocker exists.
