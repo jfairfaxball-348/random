@@ -431,3 +431,8 @@ Phase-4 mathematics ONLY. Genuine next-gate closure hazard gamma=a/2^c now has e
 ## P4-S071 — same-source shear extraction, gates unchanged (2026-10-08)
 
 Mathematics checkpoint ONLY. Every computably supported two-coordinate XOR shear admits a uniform fair total global one-hole source-side evaluator and a martingale copy losing at most exp(B_m) to genuinely later spoiled w wagers. Conditional preservation for bounded/summable exposure and necessary unbounded exposure for any OH separator are proved. No unrestricted H/shear preservation, R_2=OH classification or X membership. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No owner/external blocker; P4-S072 next.
+
+
+## P4-S072 — late-wager online fair settlement; gates unchanged (2026-10-08)
+
+Mathematics checkpoint ONLY. Positive fair credit-pivot settlement gives L*F=d_m A_m, h=(L+F)/2>=sqrt(d_m A_m), and preservation whenever a faithful online registrar has pending product bounded away from zero. If a z in OH were destroyed while admitting such a registrar, pending inventory must approach zero along high virtual capital. Late cross-block fair credit example and impossibility of universal pre-c exact forecast validated; no general supported-shear preservation, no OH separator. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No owner/external blocker; P4-S073 next.

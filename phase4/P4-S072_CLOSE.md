@@ -1,0 +1,13 @@
+# P4-S072 Close — fair future-pivot settlement and inventory obstruction
+
+Date: 2026-10-08
+Incoming exact remote main: \`3a588efd41939b1f2c193fd877bbdbab61e38bf0\`
+Status: **COMPLETED / VALIDATED CONDITIONAL MATHEMATICS; UNRESTRICTED SHEAR PRESERVATION UNRESOLVED**
+
+For every computable supported shear S_E, any total virtual global one-hole T and rational d, retain the S071 globally one-hole same-source P. If a TOTAL ONLINE registrar prices each nontrivial spoiled w multiplier at one distinct real fresh raw pivot with strictly positive computable rational factors averaging to one, then the S071 live-copy martingale L and registrar martingale F obey L_{n(m)} F_{n(m)}=d_m A_m on each faithful source. Here A_m is the exact positive product of credits placed but not yet settled by their virtual w requests. The SINGLE raw martingale h=(L+F)/2 satisfies h>=sqrt(d_m A_m). Thus effective or source-verified positive lower bounds on A_m transfer virtual success to the same raw OH-observer, while any true OH separator admitting such a registrar must have A_m approaching zero along virtual success peaks IN ADDITION to S071's unbounded spoiled-stake exposure.
+
+Genuinely late cross-block virtual stake choice is sometimes harmless: virtual pair schedule v_even,u_odd,w_even,u_even,v_odd,w_odd, with w_even stake ±1/2 decided by later u_odd, has no all-branch exact pre-c forecaster, but the later fresh a_odd pivot carries a fair 1/2-versus-3/2 wager. At most one credit is pending; 128 two-block assignments (all-block and alternating support) passed a finite factor audit. It proves a restricted certificate theorem, NOT a universal pre-pricing algorithm, full shear invariance, or separation.
+
+All earlier validated mathematics including S034–S036 and S070–S071, original CR Y, globally use-clipped self-avoiding M, repeated three-bit H, CR X=H^-1(Y), with H(X)=Y notin OH, are frozen. X in OH, H-pres, R_2=OH, R_2=OH^iso and general homeomorphism invariance remain unresolved. S057–S069 finite controllers were not restarted; if revisited preserve four paired clipped traces, prospective deadlines, REAL fillers, ZERO-stake t/u timeout release, mandatory non-s sweep WITHOUT old-sentinel reset and seven 8/7 / one ZERO terminal ledger. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach claims. No owner/external blocker.
+
+Next P4-S073: investigate multi-claim/shared-pivot fair settlement and effective aggregate open-inventory downside; do not infer a counterexample from compiler failure. R_2=OH^iso remains separate.

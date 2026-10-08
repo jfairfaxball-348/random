@@ -1,8 +1,8 @@
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.
-Last completed session: **P4-S071 (COMPLETED / VALIDATED)**.
-Next recommended session: **P4-S072**. Owner/external blocker: **NONE**.
+Last completed session: **P4-S072 (COMPLETED / VALIDATED)**.
+Next recommended session: **P4-S073**. Owner/external blocker: **NONE**.
 
 Gate 1 P1-S014 PASS; Gate 2 P2-S006 PASS; Gate 3 P3-S008 PASS. Phase 4 OPEN; Phase 5 CLOSED; Gate 4 NOT reviewed. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
 
@@ -38,3 +38,8 @@ Preserve all previous mathematics, original Y/M/H/X, S057 true t/u ZERO timeout 
 ## P4-S071 — supported-shear same-source exposure theorem (2026-10-08)
 
 **COMPLETED / VALIDATED; not shear preservation or strict separation.** For every computable block set E, a virtual global one-hole scan after S_E admits a globally fair total one-hole RAW observer on the identical source: genuine zero-stake c filler then b for parity, and silent later c when pre-read. Uniform rational e copies fresh wagers and obeys e_{n(m)}>=d_m exp(-B_m), where B_m sums the absolute fractional stakes at skipped virtual c wagers. For z in OH, any successful virtual observer must incur unbounded B_m and log d_m<=C+B_m. A 276,480-case finite audit checked the two-block accounting, not the infinitary proof. No X in OH, H-pres, R_2=OH, R_2=OH^iso or arbitrary homeomorphism invariance result. S001–S070 and Y/M/H/X/S057 exact controller unchanged; PA-0001/DEF-0020 unchanged, Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. Blocker NONE; P4-S072 next. See P4-S071 mathematics/validation/close.
+
+
+## P4-S072 — online fair settlement of late supported-shear wagers (2026-10-08)
+
+**COMPLETED / VALIDATED CONDITIONAL MATHEMATICS; not universal shear preservation.** Live incoming main matched exactly `3a588efd41939b1f2c193fd877bbdbab61e38bf0`; P4-S072 unique. Retain S071 globally legal same-source raw one-hole evaluator P. For any total computable positive FAIR one-credit-per-real-pivot registrar faithful to the spoiled virtual w wagers, the rational live-copy martingale L and credit martingale F satisfy **L_{n(m)} F_{n(m)} = d_m A_m**, where A_m is the product of pending credit factors. The single rational source martingale h=(L+F)/2 obeys h>=sqrt(d_m A_m). On z in OH virtual success requires pending inventory A_m to approach ZERO along capital peaks; bounded inventory downside forces preservation for this registrar subclass. An all/alternating-shear two-block schedule v_even,u_odd,w_even,u_even,v_odd,w_odd has genuinely late cross-block stake choice, no possible exact pre-c universal stake forecast, but a later fresh u_odd pivot carries a fair 1/2 vs 3/2 credit; 128 assignment sanity audit PASSED. This is NOT general shear preservation, X in OH, R_2=OH or R_2=OH^iso. S034–S036 and S071 earlier results frozen. S057–S069 finite hazard work NOT reopened; retain original Y/M/H/X and exact four clipped traces / prospective deadlines / REAL fillers / t/u ZERO timeout release / mandatory non-s sweep WITHOUT old reset / seven 8/7 + one ZERO. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, publication or outreach claim. Blocker NONE; next P4-S073 to test multi-claim/shared-pivot pricing and effective pending inventory. Records: `phase4/P4-S072_MATHEMATICS.md`, `phase4/P4-S072_VALIDATION.md`, `phase4/P4-S072_CLOSE.md`.

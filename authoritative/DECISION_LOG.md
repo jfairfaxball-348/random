@@ -1413,3 +1413,8 @@ Disposition: VALIDATED Phase-4 mathematical result only. H preserves OH iff all 
 ## P4-S071 — mathematics-only supported-shear exposure normalization, no gate decision (2026-10-08)
 
 Disposition: accept validated conditional global same-source criterion e_{n(m)}>=d_m exp(-B_m) for every computable supported shear, with an explicit globally legal raw one-hole scan. Any putative OH shear separator needs unbounded total absolute late spoiled-w stake; this is only a necessary obstruction, NOT a proof of full preservation or a CR-in-OH counterexample. P4-S034–S036 earlier general spoiled-wager results remain authoritative. Frozen Y/M/H/X and entire S057 controller unchanged. No selection, prior-art, novelty or Gate-4 decision. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED; PA-0001/DEF-0020 unchanged. No owner/external blocker; next P4-S072.
+
+
+## P4-S072 — conditional online late-shear pricing, no gate decision (2026-10-08)
+
+Disposition: validated mathematics only. S071 global raw scan plus a total computable positive rational fair credit registrar produces two source martingales L,F, with L*F=d*A (unsettled-credit product A) and single martingale h=(L+F)/2>=sqrt(d*A). A faithful registrar with pending downside bounded cannot witness supported-shear destruction of OH; otherwise small open inventory is necessary. Genuine future-bit stake dependence prevents an exact pre-c stake forecast but can admit later fair settlement. This does NOT decide H/shear invariance, X in OH, R_2=OH or R_2=OH^iso. All prior mathematics frozen. Gate 3 PASS, Gate 4 NOT REVIEWED, PA-0001/DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED; no novelty/prior-art/publication decision. Blocker NONE; next P4-S073.
