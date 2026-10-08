@@ -1379,3 +1379,8 @@ Decision: retain the actual P4-S057–P4-S063 four-run T_L with old-sentinel ret
 ## P4-S065 — permanent-old transition hazard obstruction, NOT Gate 4 (2026-10-08)
 
 Decision: preserve all frozen mathematics and real success-gated T_L. Adopt actual nested no-gate timeout survival q_n and rational frontier-averaged hazards c_n=1-q_(n+1)/q_n. A genuinely forever-stalled CR source requires positive-mass effectively closed F_h and summable hazards, plus positive all-B no-gate deficit floor; zero-survival at all actually reached X epoch starts would ensure infinitely many real correct 8/7 old resets, but is NOT VERIFIED. No equality R_2=OH, separation, or X in OH decision. PA-0001, DEF-0020, Y/M/H/X, Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED and no Gate-4/novelty/openness/prior-art/publication/outreach preserved. Next P4-S066; no blocker.
+
+
+## P4-S066 — mathematics-only checkpoint (2026-10-08)
+
+No policy or Gate-4 decision in P4-S066; validated mathematics-only necessary pathwise-hazard obstruction, with source-X recurrence unresolved. Prior decisions and CAND-01 selection unchanged.

@@ -407,3 +407,8 @@ Decision: retain the actual P4-S057–P4-S063 four-run T_L with old-sentinel ret
 If a CR source ACTUALLY remains stuck forever at reached h, P4-S058 forces q_infty>0, hence summable global survivor-frontier hazards and a positive possibly noncomputable lower bound delta_h^B=q_B>=q_infty for ALL finite B. Positive F_h contains SOME CR source and old-bit flip preserves/bisects its mass, but does NOT show X is stuck. ONLY CONDITIONALLY on UNVERIFIED q_infty(h)=0 at EVERY X-reached epoch, CR avoidance and correct M^Y positive certificates would force infinitely many actual 8/7 old resets. No L or source-specific verification is supplied. Preserve P4-S008, P4-S052, P4-S053, P4-S056–P4-S064 and ALL prior mathematics; least unread old s, least wholly unread disjoint t/u/v, clipped four paired traces, total prospective L, no reset on timeout, fair no-repeat one-hole fibres and one forbidden zero/seven 8/7 ledger.
 
 Keep MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR, Y/M/H/X, X in OH and R_2=OH unresolved; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED. No novelty/openness/prior-art/Gate-4/publication/outreach claim. Blocker NONE; next P4-S066.
+
+
+## P4-S066 — mathematics-only checkpoint (2026-10-08)
+
+Gate status unchanged in P4-S066: Gate 3 PASS; Phase 4 OPEN; Gate 4 NOT REVIEWED; Phase 5 CLOSED. P4-S066 is a mathematics checkpoint only, not a gate review.
