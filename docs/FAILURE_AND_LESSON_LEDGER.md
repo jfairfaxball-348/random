@@ -1572,3 +1572,14 @@ If s=1-a, both t=0 and t=1 remain allowed. A fair t-only wager cannot guarantee 
 Value horizons bound which bits a computation may request, not when its finite wrong halt is discovered relative to timeout. After each successful pair hedge the protected old coordinate changes.
 
 **Lesson:** no X in OH, X not in OH or R_2/ OH separation conclusion follows from the absence of a known capture policy.
+
+
+## P4-S051 — joint future hedge without old consumption, and permanent-hole limitation
+
+Blocked inference refined: one forbidden square atom cannot produce a universal gain from only its future bit. But two positively excluded atoms against opposite values of a common unread old s at *distinct* unread future targets t,u do exclude one future-only tuple, yielding a fair 4/3 hedge without querying s.
+
+**Lesson:** the exact effective finite-information target-only condition is a forbidden projected future tuple A(v)=empty, not a forced single future bit. Multiple refutations confined to the same old row do not suffice.
+
+Blocked inference: infinitely many reset-free escrow opportunities at one permanently omitted s would prove new nonconservation on a CR source. P4-S008 already rules this out: any computably random source's winning one-hole scan must query every raw coordinate eventually.
+
+**Lesson:** a valid finite fair escrow payoff, a timely positive *executed* capture, and a computable infinite series of certified old-sentinel turnovers are distinct requirements. Finite windows do not bridge the certificate-time gap by themselves.
