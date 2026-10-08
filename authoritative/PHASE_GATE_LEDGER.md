@@ -353,3 +353,10 @@ Gate 3 remains PASS, Phase 4 OPEN and Phase 5 CLOSED. No Gate-4 review occurred.
 P4-S051 validates a reset-free two-target 4/3 hedge from two positive square refutations against opposite old-bit hypotheses and distinct fresh targets, with an exact finite target-projection criterion and a total one-hole-safe finite-window escrow controller. P4-S008 rules out infinite profit at one permanently unqueried old sentinel on a computably random source; effective fresh captures across infinitely many old-sentinel turnovers remain unproved.
 
 This is not a Gate-4 decision, nor an openness, novelty, literature, publication or outreach finding. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED. Mathematics record: phase4/P4-S051_MATHEMATICS.md.
+
+
+## Mathematics checkpoint — P4-S052 (not a gate review)
+
+P4-S052 proves the exact two-target escrow to old cash-out table (surviving terminal factors 8/3, 8/3, 4/3), and that at a P4-S049 shielded old epoch every square refutation hypothesizes a false future value, precluding the specified positive old orientations. A concrete total computable finite-window success-gated controller is fair, no-repeat and globally one-hole; infinite executed profitable turnovers would yield X not in OH but are unproved for X. Forcing finite old resets on all transcripts gives CR-preserving computable isomorphism.
+
+This is not Gate 4. Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; no novelty, openness, prior-art, publication or outreach claim.

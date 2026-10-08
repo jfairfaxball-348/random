@@ -759,3 +759,12 @@ An explicit bounded-window controller is total, no-repeat, fair-coin preserving 
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. X=H^{-1}(Y) in CR, H(X)=Y not in OH, X in OH unresolved; R_2=OH unresolved. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 
 Next **P4-S052**: certified escrow cash-out and effective repeated sentinel turnover. Read authoritative/NEXT_SESSION_PROMPT.md. Always verify live main.
+
+
+## Current mathematics checkpoint — P4-S052 (2026-10-08)
+
+Exact two-target escrow cash-out: two of three surviving future outcomes positively orient old s for fair doubled old betting (8/3 combined); double nonmatch supports 4/3 and zero-stake old turnover. At a P4-S049 shielded old epoch, actual-future square corners are Y/Z with Z globally partial fixed; all finite refutations use false future values and every actual cross-row escrow lands in the unoriented case. No positive finite wrong-output old-orientation certificate of the specified kinds occurs. This is semantic, not a computable trap oracle.
+
+A total finite-window bounded-simulation cash-out controller mandatorily releases transient t/u and consumes old s after profitable escrow, preserving global one-hole legality. Infinite profitable *executed* cross-epoch captures would show X not in OH but are not proved on committed X. Globally forcing old reset after finite time on all transcripts instead makes an exhaustive computable isomorphism and preserves CR. P4-S008 prohibits infinitely many reset-free wins at a permanently omitted fixed s on CR.
+
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. Next P4-S053: branchwise-avoidable effective turnover capture. X in OH and R_2=OH unresolved. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.

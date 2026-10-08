@@ -2218,3 +2218,22 @@ Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR.
 PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED.
 Blocker requiring owner/external action: **NONE**.
 Recommended next session: **P4-S052**, finite escrow cash-out and certified old-sentinel turnover.
+
+
+## P4-S052 — Escrow cash-out and shielded-old turnover barrier
+
+Date: 2026-10-08
+Status: **COMPLETED / VALIDATED**
+Incoming checkpoint: a157f51f8c57b851a2f4bc3d32696109255df51b
+
+- Exact cross-row escrow cash-out table: two surviving target outcomes orient old s for extra fair 2x (combined 8/3), third unorientable from two exclusions (4/3 and zero-stake old consumption).
+- Sound positive old-orientation rules from same-row/same-target refutations, matched observed future and old-only finite wrong-halt traces.
+- P4-S049 shielded-old actual-future column prevents matching square refutations and all specified old wrong-output orientation; executed future escrows there land in unoriented outcome.
+- Total computable finite-window bounded-simulation success-gated cash-out scan is fair, no-repeat and globally one-hole, with mandatory future timeouts and zero-stake sweep.
+- Infinite executed profitable turnovers would show X not in OH; their existence on X remains unproved. All-transcript finite old reset makes an exhaustive CR-preserving permutation.
+- No X in OH, X not in OH or R_2=OH conclusion.
+
+Records: phase4/P4-S052_MATHEMATICS.md, phase4/P4-S052_VALIDATION.md, phase4/P4-S052_CLOSE.md.
+Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+Owner/external blocker: **NONE**.
+Next P4-S053: branchwise-avoidable timely cross-epoch capture.

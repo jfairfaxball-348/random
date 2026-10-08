@@ -1273,3 +1273,16 @@ Decision: finite multi-square escrow windows can be globally one-hole safe even 
 Decision: by P4-S008, a computably random source cannot sustain infinite successful reset-free escrows while a single fixed old sentinel stays permanently omitted. Thus the committed X still requires effective unbounded old-sentinel turnover for any same-source destroyer. Infinite timely opposed-row captures and certified turnovers have not been established.
 
 Next **P4-S052**: finite escrow gain coupled to old-sentinel cash-out and repeated effective turnover. Retain PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged, X in OH and R_2=OH unresolved. No novelty, openness, prior-art, Gate-4, publication or outreach finding.
+
+
+## P4-S052 — old-sentinel cash-out and effective turnover guard
+
+Decision: two opposite-old-row, different-target exclusions support 4/3 future escrow. Exactly two surviving future tuples positively orient the old s and support an additional fair double (combined 8/3); the double nonmatch leaves both old rows possible (4/3 with zero-stake old consumption).
+
+Decision: old-value evidence must be a finite positive same-row/same-target complementary refutation, an observed target matching a refuted value, a finite old-only wrong halt, or an independently proved equivalent. A late witness can orient a still-unread s but not retrospectively stake an observed t/u.
+
+Decision: at a semantically shielded old epoch, Y/Z prohibit all positive square refutations of actual-future-value corners. No matching old orientation survives; every actual opposed-row escrow takes the unorientable outcome. No semantic shielding oracle is available to the controller.
+
+Decision: mandatory transient-future timeout with old s retained is globally one-hole legal. Old s may be consumed at zero stake **after a positive escrow**; automatically resetting old s on every timeout on all continuations instead gives exhaustive computable isomorphism. Infinite *executed* profitable turnovers would establish X not in OH, but they remain unproved. Under hypothetical X in OH each fixed success-gated controller has finitely many exits and final s; passive late witnesses may remain.
+
+Next P4-S053, effective branchwise-avoidable pre-consumption certificate capture. No separation, novelty, openness, Gate-4, publication or outreach conclusions.

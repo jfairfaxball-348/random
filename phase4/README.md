@@ -705,3 +705,12 @@ Records: [mathematics](P4-S051_MATHEMATICS.md), [validation](P4-S051_VALIDATION.
 Two positively refuted old/future square atoms with opposite old rows and distinct unread future targets exclude a future-only tuple. A fair sequential 4/3 payoff on the two future bits needs no old-sentinel query. A concrete finite-window escrow scan is everywhere total, no-repeat, fair-coin preserving and globally one-hole safe; same-target opposite rows can instead provide an immediate 2x target-only wager.
 
 By P4-S008, infinite gains at one fixed permanently omitted old sentinel cannot occur on a computably random source. No source-specific infinite cross-epoch capture/turnover is established. X in OH, X not in OH, and R_2=OH remain unresolved. Next P4-S052: certified cash-out and repeated turnover; PA-0001 unresolved; DEF-0020 unchanged.
+
+
+## P4-S052 — escrow cash-out and success-gated turnover (2026-10-08)
+
+Records: [mathematics](P4-S052_MATHEMATICS.md), [validation](P4-S052_VALIDATION.md), [close](P4-S052_CLOSE.md).
+
+After a cross-row 4/3 escrow, two of the three surviving future tuples positively orient old s, allowing extra fair 2x cash-out (8/3 total). The double nonmatch leaves s unconstrained, allowing only zero-stake old consumption on those witnesses. At a P4-S049 shielded old epoch every finite refutation has wrong future value and the actual escrow outcome is precisely that unoriented double nonmatch.
+
+A total finite-window success-gated escrow controller mandatorily releases temporary futures and consumes old s after a positive exit. Infinite executed profitable turnovers would show X not in OH, but no infinite timely capture on X is established. Always forcing old reset on all transcripts would be a CR-preserving computable permutation. Next P4-S053, branchwise-avoidable effective cross-epoch capture. PA-0001 unresolved, DEF-0020 unchanged, Phase 4 OPEN, Phase 5 CLOSED.

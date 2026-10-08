@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S051",
+  "last_completed_session": "P4-S052",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S052 on converting finite reset-free cross-row escrow gains into an effective sequence of positively certified old-sentinel turnovers; respect the P4-S008 permanent-sentinel obstruction and certificate-time gap.",
-  "recommended_next_session": "P4-S052",
+  "next_transition": "Run P4-S053 on branchwise-avoidable effective cross-epoch escrow capture, preserving P4-S052 shielded-old no-orientation and always-reset permutation boundaries.",
+  "recommended_next_session": "P4-S053",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S051",
-    "next_session": "P4-S052",
+    "last_session": "P4-S052",
+    "next_session": "P4-S053",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S051_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S051_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S051_VALIDATION.md",
+    "latest_record": "phase4/P4-S052_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S052_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S052_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -1624,6 +1624,23 @@
       "blocker": null,
       "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
       "novelty_claimed": false
+    },
+    "p4_s052_escrow_cashout": {
+      "session": "P4-S052",
+      "result": "ESCROW_OLD_CASHOUT_TRICHOTOMY_AND_SHIELDED_OLD_NO_ORIENTATION",
+      "cashout_surviving_multipliers": [
+        "8/3",
+        "8/3",
+        "4/3"
+      ],
+      "shielded_old_positive_orientation": false,
+      "global_one_hole_cashout_controller": true,
+      "infinite_executed_turnover_on_X_proved": false,
+      "x_in_oh_resolved": false,
+      "r2_equals_oh_resolved": false,
+      "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+      "def0020_unchanged": true,
+      "validation_record": "phase4/P4-S052_VALIDATION.md"
     }
   },
   "phase4_k2_moving_hole_mathematics": {

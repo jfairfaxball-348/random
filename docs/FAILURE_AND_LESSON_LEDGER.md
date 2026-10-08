@@ -1583,3 +1583,18 @@ Blocked inference refined: one forbidden square atom cannot produce a universal 
 Blocked inference: infinitely many reset-free escrow opportunities at one permanently omitted s would prove new nonconservation on a CR source. P4-S008 already rules this out: any computably random source's winning one-hole scan must query every raw coordinate eventually.
 
 **Lesson:** a valid finite fair escrow payoff, a timely positive *executed* capture, and a computable infinite series of certified old-sentinel turnovers are distinct requirements. Finite windows do not bridge the certificate-time gap by themselves.
+
+
+## P4-S052 — finite cash-out is not executable infinite renewal
+
+Blocked inference: two opposed-row future refutations always certify the value of old s after a successful 4/3 escrow. In the double-nonmatch surviving future outcome both old rows remain possible, so fair old betting cannot guarantee gain; it can only consume s at zero stake, absent new positive evidence.
+
+**Lesson:** the exact finite cash-out multipliers are 8/3,8/3,4/3, not uniformly 8/3.
+
+Blocked inference: the semantically shielded old branch will eventually yield a *matching* refuted future value or old-only wrong-output certificate. Both actual-future square corners are Y/Z fixed/partial-fixed, so no refutation can occur in that future column; at such an epoch actual escrow success always lands in the unoriented double nonmatch.
+
+**Lesson:** profitable finite future-only escrow and certified positive old orientation are distinct, even where passive positive square witnesses are abundant.
+
+Blocked inference: force old s to reset at every timeout in order to guarantee renewed captures. Such uniformly exhaustive least-unread scans are computable measure-preserving isomorphisms and cannot destroy CR.
+
+**Lesson:** only branchwise-avoidable, timely executed successful turnovers could help; zero-stake consumption after an executed gain does not ensure the next gain. Late witnesses are not captured profits.
