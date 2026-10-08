@@ -1,35 +1,17 @@
-# Next Session Prompt — P4-S058
+# Next Session Prompt — P4-S059
 
 Continue the Fairfax-Ball Randomness Research Programme in https://github.com/jfairfaxball-348/random.
 
-Run ONLY Phase 4 — Mathematics session P4-S058. Treat committed repository state as authoritative. Pin live main at the EXACT P4-S057 outgoing SHA independently reported at completion, reconcile any mismatch, and confirm P4-S058 is unique. Read P4-S001–P4-S057 mathematics, CAND-01 selection and Gate-3 authority, phase4/P4_RESEARCH_PIVOT_AFTER_S031.md and all later mathematics records, emphasizing P4-S008, P4-S011, P4-S012, P4-S027, P4-S033, P4-S039, P4-S041 and P4-S044–P4-S057.
+Run ONLY Phase 4 — Mathematics session P4-S059. Pin live main at the EXACT P4-S058 outgoing SHA reported upon completion, reconcile any discrepancy, and confirm P4-S059 uniqueness. Read P4-S001–P4-S058 mathematics, CAND-01 selection/Gate-3 authority, the post-S031 research pivot and all later mathematics; emphasize P4-S008, P4-S011, P4-S012, P4-S027, P4-S033, P4-S039, P4-S041, P4-S044–P4-S058.
 
-## Sustained mathematics
+Freeze all validated mathematics. Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR, the committed computably random Y, syntactically self-avoiding globally use-clipped wtt autoreduction M, three-bit repeated-block homeomorphism H and computably random X=H^{-1}(Y), with H(X)=Y not in OH. X in OH and R_2=OH remain unresolved.
 
-Freeze all validated results through P4-S057. Retain
-\[
-MLR\subseteq R_2\subseteq OH^{iso}\subseteq OH\subsetneq CR.
-\]
-Keep the committed computably random Y, syntactically self-avoiding globally use-clipped wtt autoreduction M, the three-bit repeated-block fair-coin homeomorphism H and X=H^{-1}(Y) in CR. H(X)=Y not in OH; X in OH and R_2=OH remain unresolved.
+P4-S057: for each actual success-gated total computable four-run controller T_L retaining old s after every failed fresh-block reservation, either finitely many profitable old resets, or infinitely many resets with W_e exceeding EVERY total computable prospective epoch-start budget B(e,p_e) at infinitely many successful epochs. Do NOT transfer P4-S056 compulsory-reset promptness to this schedule.
 
-## Retained P4-S057 finding
+P4-S058: let G_n be the uniformly c.e. raw open set of n COMPLETED WINNING 8/7 old turnovers; lambda(G_n)<=(7/8)^n. Thus every finite raw cylinder has a sibling continuation which fails a sufficiently high level. The infinite-winning class is the effective G-delta intersection G_n; it may contain computably random sources, but this is UNVERIFIED for committed X. Every effectively closed subset of the infinite-winning class is null and has no CR member; likewise every effectively F-sigma sufficient safety class. This is not a source-verified positive thickness condition. All mandatory t/u releases, non-s sweeps, value closures and exact global one-hole/fairness safeguards remain.
 
-The P4-S055 clock sigma is the minimum ordinary halting clock of four capped representative computations; every X-derived, fully value-closed (s,t,u) cube has 0<sigma<=T_Y(q)<infinity. P4-S056 establishes unconditional eventual L<sigma only along EACH compulsory-old-reset controller's OWN X-reached schedule; never transfer that claim wholesale to success-gated timeouts.
+Bounded P4-S059 investigation: seek an operationally computably checkable, genuinely Pi^0_2 progress condition NOT reducible to a raw effectively F-sigma winning safety class, and test whether it can be VERIFIED on the actual committed source-reached M/Y/X reservation process with unbounded W_e. Alternatively prove a source-specific further obstruction beyond the effective safety barrier. For any proposed positive condition give explicit finite positive verification protocol, least-unread s, entirely unread t/u/v block, finite wtt raw value closure, four clipped representative traces, prospective total computable tenure, compulsory zero-stake t/u and sweep timeout releases, fair 0/8/7 s,t,u hedge, no-repeat, fair-coin preservation and at most one global hole on ALL branches. Separate eventual M^Y(q) halting, prospective machine-step protection, and infinitely many executed gains. Do not use a retrospective witness, semantic trap oracle, global old reset or compulsion of an all-branch reset bar as a positive result.
 
-P4-S057 specifies a globally total computable, no-repeat, fair-coin preserving, global-one-hole **success-gated** four-run scan: each reservation uses the least unread s and least entirely unread fresh block B_b outside s's block, observes v and closes every required wtt raw value outside {s,t,u}, checks four representative M(q) traces for only total computable finite L(e,k,p), then hedges s,t,u with the exact fair terminal table (0,8/7,...,8/7) and consumes old s on positive certificate; on timeout t,u and one least non-sentinel sweep coordinate are released at zero stake, but old s is retained. All sibling paths remain legal. On X, positive old resets gain 8/7.
+Preserve P4-S008 fixed-sentinel obstruction, P4-S052 shielded-old restriction, P4-S053 reset-bar theorem, P4-S056 compulsory-reset anti-promptness, P4-S057 renewal-budget law, and P4-S058 effective-F-sigma obstruction. Do not reopen ticket/frontier/recycling, backward-price or general compiler investigations without necessity. PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach claims. Phase 4 OPEN, Phase 5 CLOSED.
 
-For each fixed tenure L, let W_e be the actual number of expired finite fresh-block reservations at epoch e before its first positive old turnover, when one occurs. P4-S057 proves the **actual-source dichotomy**: either only finitely many positive old turnovers occur on committed CR X, OR, if infinitely many occur, then FOR EVERY total computable positive epoch-start budget B(e,p_e), infinitely many successful epochs satisfy W_e>=B(e,p_e). The proof starts a B-compulsory-reset *shadow* after a hardcoded hypothetical last over-budget finite prefix; only the shadow is an effective isomorphism, so no illegal transfer of P4-S056 is made to the true success-gated scan. This rules out eventual computably bounded miss gaps on an infinite-success X-tail; it DOES NOT establish whether there are infinitely many successes.
-
-Preserve P4-S008's fixed persistent-hole obstruction, P4-S052 shielded-old no-orientation restriction and P4-S053 all-continuation reset-bar theorem.
-
-## Bounded P4-S058 task — beyond unbounded miss necessity
-
-Investigate a genuine **source-effective, branchwise-avoidable unbounded-renewal** condition (using concrete finite traces, not semantic future advice) sufficient for infinitely many actually executed successful 8/7 old resets on committed X, or prove a sharper source-specific obstruction compatible with arbitrarily many timeouts before success. In particular ask whether an adaptive computable controller can obtain positive cube certificates at infinitely many source-reached fresh blocks despite the P4-S057 requirement that profitable epochs outrun every computable prospective bound on the number of missed reservations.
-
-Track exact source-dependent epoch/reservation indices, prospective L(e,k,p), elapsed time versus machine-step clocks, and W_e. Distinguish: (i) target M^Y(q) eventual halting / sigma finite, (ii) fully total finite pre-consumption tenure with compulsory t,u timeout release and no raw reuse, and (iii) infinitely many completed positive s,t,u hedges. Recheck exact H pairing, value closure, four representative traces, fair conditional 8/7 capital, fair-coin conservation and ALL transcript one-hole fibres, including permanent-hole siblings.
-
-Do NOT claim B can be chosen after seeing W_e, do NOT treat the shadow controller as the actual success-gated process, and do NOT infer reset promptness from mere c.e. certificate availability, bounded wtt use, increasing windows, a semantic trapped-source detector or a generic retrospective witness. Do not reopen the frozen ticket/frontier/recycling, backward-price or general compiler work without mathematical necessity.
-
-PA-0001 remains UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No novelty, openness, prior-art, Gate-4, publication or outreach determinations. Phase 4 OPEN; Phase 5 CLOSED.
-
-Record and validate mathematics, synchronize all authoritative records, commit, independently verify remote main and report exact outgoing SHA. Provide a P4-S059 prompt if no owner/external blocker.
+Record, validate, synchronize authority, commit, independently verify remote main and report exact outgoing SHA. Supply P4-S060 prompt only if no owner/external blocker.

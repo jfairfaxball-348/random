@@ -754,3 +754,15 @@ Records: [mathematics](P4-S056_MATHEMATICS.md), [validation](P4-S056_VALIDATION.
 A finite value-closure, four-run, least-unread-s controller consuming s,t,u after BOTH positive 8/7 cube hedge and finite no-certificate timeout is total, no-repeat and a fair-coin-preserving computable homeomorphism. On the committed X in CR, infinite timely positive exits would make a computable output martingale unbounded despite computable-isomorphism preservation; impossible. Consequently for every total computable finite L(e,p) its own compulsory-reset source schedule has only finitely many positive captures, and eventually L(e,p_e)<sigma(p_e)<=T_Y(q_e) at fresh distinct targets. This is source-specific and UNCONDITIONAL on X in OH, but it DOES NOT transfer to success-gated retention of s on timeout.
 
 Fixed-r all-valuation four-run BAR certificates are finitely decidable, yet no globally total renewable fresh verified-BAR provider can cover all forced-reset X epochs. No theorem about frequent timely gains on a success-gated schedule, X in OH, or R_2=OH follows. Freeze prior mathematics, including P4-S008/P4-S052/P4-S053; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Phase 4 OPEN, Phase 5 CLOSED. Next P4-S057 — effective branchwise-avoidable renewal boundary.
+
+## P4-S057 — unbounded success-gated renewal misses (2026-10-08)
+
+Records: [mathematics](P4-S057_MATHEMATICS.md), [validation](P4-S057_VALIDATION.md), [close](P4-S057_CLOSE.md).
+
+The globally legal actual four-run controller retains least-unread s after timeout and mandatorily releases t/u plus a non-s sweep. On CR X, infinite profitable old turnover would require W_e to overrun every total computable prospective epoch-start miss budget infinitely often; only a counterfactual finite-prefix compulsory-reset shadow is an effective isomorphism. Existence of infinite turnover is not established.
+
+## P4-S058 — effective safety renewal obstruction (2026-10-08)
+
+Records: [mathematics](P4-S058_MATHEMATICS.md), [validation](P4-S058_VALIDATION.md), [close](P4-S058_CLOSE.md).
+
+The raw event G_n of n completed WINNING 8/7 old turnovers is uniformly c.e. open, with lambda(G_n)<=(7/8)^n from exact fair preservation and martingale maximality. Every finite raw source prefix has a continuation failing some large renewal target. The effective G-delta infinite-winning class is null; no effectively closed or effective F-sigma subset contains computably random X. This does not prohibit a genuinely Pi^0_2 renewal process on X and does not prove its existence. P4-S008, P4-S052, P4-S053, P4-S056 and P4-S057 remain frozen; X in OH and R_2=OH unresolved. PA-0001 and DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. Next P4-S059.

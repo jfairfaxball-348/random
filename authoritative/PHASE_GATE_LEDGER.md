@@ -360,3 +360,11 @@ This is not a Gate-4 decision, nor an openness, novelty, literature, publication
 P4-S052 proves the exact two-target escrow to old cash-out table (surviving terminal factors 8/3, 8/3, 4/3), and that at a P4-S049 shielded old epoch every square refutation hypothesizes a false future value, precluding the specified positive old orientations. A concrete total computable finite-window success-gated controller is fair, no-repeat and globally one-hole; infinite executed profitable turnovers would yield X not in OH but are unproved for X. Forcing finite old resets on all transcripts gives CR-preserving computable isomorphism.
 
 This is not Gate 4. Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; no novelty, openness, prior-art, publication or outreach claim.
+
+## Mathematics checkpoint — P4-S057 and P4-S058 (NOT gate reviews)
+
+P4-S057's success-gated four-run actual scan either makes finitely many positive old resets on CR X or, conditional on infinite resets, has infinitely many W_e overruns of EVERY total computable prospective epoch-start budget. Its finite-prefix compulsory-reset shadow is not the actual scanner.
+
+P4-S058's n completed WINNING 8/7 exit cylinders G_n are uniformly c.e. open and satisfy lambda(G_n)<=(7/8)^n. No finite raw prefix can force infinitely many profitable exits, and no effective closed/F-sigma sufficient safety class can contain the committed CR X. The effective Pi^0_2 winning renewal condition has NOT been verified for X. Existing one-hole geometry and exact four-run capital remain unchanged.
+
+These are mathematics checkpoints, not Gate 4, novelty or openness findings. Gate 3 PASS, Phase 4 OPEN, Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE and DEF-0020 unchanged.

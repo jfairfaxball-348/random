@@ -1613,3 +1613,17 @@ The actual target M^Y(q) halts and guarantees at least one of the four synthetic
 A success-gated controller does NOT consume old s when future t,u expire. Its sibling branches can omit s forever; it is only globally one-hole, not a computable isomorphism. P4-S008 excludes infinite profits with one persistently omitted s on CR X, but does not imply the compulsory-reset theorem for a moving successfully consumed sentinel.
 
 **Lesson:** any genuine success-gated obstruction must retain its branchwise avoidability, and any positive theorem must show infinitely many actual executed pre-consumption reset wagers. Finite BAR(r) decidability or retrospective eventual halts alone is not a renewal mechanism.
+
+## P4-S057 — renewal gaps cannot be prospectively capped on an infinite-winning CR tail
+
+Blocked inference: retaining old s after each timeout makes increasing finite windows enough to guarantee eventually bounded misses. For the actual success-gated T_L, a hypothetical eventually bounded W_e under any total computable epoch-start B creates an effective compulsory-reset shadow after a hard-coded finite prefix, whose infinitely profitable isomorphic image contradicts CR X. The shadow alone consumes s on the budget exhaustion; actual missed reservations retain s.
+
+**Lesson:** if infinite success occurs, missed-reservation counts defeat every prospective computable epoch-start budget infinitely often; this does not show that success occurs.
+
+## P4-S058 — finite safety certificates do not force unlimited renewal on CR X
+
+Blocked inference: a positive wrong-output certificate is an actual winning terminal payoff on every sibling. Only the SEVEN winning hedge leaves count; the forbidden leaf pays 0. Counting raw positive discoveries alone invalidates the 8/7 probability estimate.
+
+Blocked inference: a raw finite prefix, or effectively closed (even countably unioned) source safety class, can force infinitely many profitable 8/7 turnovers on CR X. The uniformly c.e. open event G_n of n completed winning exits has probability at most (7/8)^n, so no finite cylinder forces all gains. An effectively closed class included in all G_n is null and excludes every CR source; likewise effective F-sigma suppliers.
+
+**Lesson:** any actual-X renewal supplier must use genuine infinitary progress beyond effective F-sigma safety, with concrete timely source-reached witnesses. Effective G-delta syntax alone does not establish membership of X, and no computably selectable avoiding sibling follows from the measure argument.

@@ -1338,3 +1338,11 @@ Decision: a bounded all-valuation four-run BAR(r) is decidable for supplied fini
 Decision: success-gated timeout retains s and is not in the isomorphism regime. The new anti-promptness result MUST NOT be transferred to it. P4-S008, P4-S052 and P4-S053 preserved. X in OH and R_2=OH remain unresolved.
 
 Next P4-S057 on the gap between compulsory-reset and success-gated renewal, not more forced-reset thickness. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach claim.
+
+## P4-S057 — no computable prospective miss-budget bound on hypothetical infinite success
+
+Decision: preserve the true success-gated L-clock controller, with mandatory temporary t/u releases, least-unread non-s sweep, and no old reset at timeout. On CR X, any hypothetical infinite winning epoch sequence has W_e >= B(e,p_e) at infinitely many epochs for EACH total computable epoch-start B. Proved by a finite-prefix compulsory-reset effective-isomorphism shadow, never by misapplying P4-S056 to actual T_L. No infinite success proved.
+
+## P4-S058 — effective finite winning cylinders and no closed safety supplier for CR
+
+Decision: distinguish positive M wrong-output certificates from completed WINNING 8/7 exit leaves on arbitrary inputs. The raw finite winning-level G_n is uniformly c.e. open with fair-coin bound lambda(G_n)<=(7/8)^n. Every finite raw prefix has an infinite extension avoiding sufficiently many winning resets; no algorithm to find that extension is supplied. The actual infinite-winning class is effective Pi^0_2 and null; a computably random source can in principle belong to such a class. No effective closed, or effective F-sigma, subcondition sufficient for infinite gains can contain CR X: each effectively closed subset is null and has a computable-martingale defeat. This is a safety-style obstruction not a success-gated timing bound or an existence theorem. Preserve P4-S057, P4-S056, P4-S053, P4-S052 and P4-S008; X in OH and R_2=OH unresolved. No Gate-4 or prior-art decision.

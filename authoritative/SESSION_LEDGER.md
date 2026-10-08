@@ -2306,3 +2306,21 @@ Incoming checkpoint: 727d31976c7bb69f91f06040e2751549ec1382f7
 Records: phase4/P4-S056_MATHEMATICS.md; phase4/P4-S056_VALIDATION.md; phase4/P4-S056_CLOSE.md.
 Retain MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR, Y/M/H/X, P4-S008/P4-S052/P4-S053. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 Owner/external blocker: **NONE**. Next **P4-S057** on source-specific success-gated branchwise-avoidable renewal.
+
+## P4-S057 — success-gated finite-renewal misses (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming main: 142104e6f727c3986872a0413c925e9fc5bb9009.
+- Explicit source-reached least-unread-s four-run controller with wholly unread t/u/v, finite wtt value closure, prospective L, mandatory t/u releases plus non-s sweep after timeout, old s retained until positive 8/7 reset; fair, total, no-repeat and globally one-hole.
+- On CR X, either finitely many gains or infinitely many success epochs and, for EVERY total computable epoch-start miss budget B(e,p_e), infinitely many W_e>=B(e,p_e). Finite-prefix forced-reset shadow proves the conditional law only; actual controller remains success-gated.
+- No source-verified infinite capture; X in OH and R_2=OH unresolved.
+Records: phase4/P4-S057_MATHEMATICS.md; phase4/P4-S057_VALIDATION.md; phase4/P4-S057_CLOSE.md. Guards unchanged; Phase 4 OPEN, Phase 5 CLOSED. Owner/external blocker: NONE.
+
+## P4-S058 — effective closed safety barrier and winning-renewal cylinders (2026-10-08)
+
+Status: **COMPLETED / VALIDATED**. Incoming main: e81c35684eec65d172eece421e1ff1b75b1979d2.
+- Retained full P4-S057 four-run actual scan and exact fair 0/8/7 winning/losing capital transitions, global fair coin, no-repeat, at most one omitted raw bit and compulsory temporary releases.
+- Defined uniformly c.e. open raw G_n requiring n genuinely COMPLETED winning 8/7 old turnovers; proved lambda(G_n)<=(7/8)^n. Every finite source prefix has an infinite sibling avoiding sufficiently many wins, but no effective avoiding branch is inferred.
+- Infinite gains on committed X iff X in effective Pi^0_2 intersection G_n; this is NOT verified. Any effective closed or effective F-sigma subset of this winning class excludes CR sources, via computable martingale on shrinking clopen approximations. The result concerns effective safety suppliers, not arbitrary Pi^0_2 source-progress.
+- All P4-S001–P4-S057 frozen, especially P4-S008/P4-S052/P4-S053/P4-S056/P4-S057; Y/M/H/X and MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR retained. X in OH and R_2=OH remain open. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, Gate-4, publication or outreach claims.
+Records: phase4/P4-S058_MATHEMATICS.md; phase4/P4-S058_VALIDATION.md; phase4/P4-S058_CLOSE.md.
+Owner/external blocker: **NONE**. Next: **P4-S059** — genuinely infinitary renewal-progress beyond effective F-sigma safety.
