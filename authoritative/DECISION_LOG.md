@@ -1388,3 +1388,8 @@ No policy or Gate-4 decision in P4-S066; validated mathematics-only necessary pa
 ## P4-S067 — mathematics-only local gate-leaf capacity (2026-10-08)
 
 No new policy/gate decision. Retain all earlier decisions. The actual controller's finite first-gate leaf-depth capacity law is a necessary obstruction on hypothetical CR permanent stalls; no committed-X hazard divergence/recurrence verified. A padded alternative-program clock countermodel is NOT a modification of committed M. Gate 3 PASS; Phase 4 OPEN; Phase 5 CLOSED; PA-0001/DEF-0020 unchanged. Next P4-S068; no blocker.
+
+
+## P4-S068 — mathematics-only closure-gate multiplicity (2026-10-08)
+
+No policy, candidate-selection or gate decision. For the unchanged P4-S057 controller, after the c-bit finite use closure, filler-bit values are inert for certificate decisions, so gamma(p)=a(p)/2^c(p) where a counts genuinely timely positive closure assignments. Every CR permanent stall has sum_n a(p_n)/2^c(p_n)<infinity; no committed X recurrence/lower bound or repeated actual gate established. Preserve Y/M/H/X, all Phase-4 results, PA-0001 and DEF-0020. Gate 3 PASS, Phase 4 OPEN, Gate 4 NOT REVIEWED and Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach inference. Next P4-S069; blocker NONE.
