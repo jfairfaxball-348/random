@@ -1749,3 +1749,14 @@ A correct self-avoiding predictor on infinitely many computably chosen coordinat
 ## P4-S080 — an existentially fixed object cannot carry a membership proof (2026-10-09)
 
 Lesson: before attacking a property of a committed object, check what the record actually fixes. Y was fixed only existentially, so 'z0=R(X) in OH' for the committed Y is a theorem only if it holds for every admissible (Y,M). P4-S080 exhibits an admissible pair (chained-substitution spreading, block-avoiding autoreduction) with H^{-1}(Y1) notin OH; hence the membership arm pursued implicitly since S039 cannot be proved from the record, and the nonmembership arm is exactly the universal statement U(H). S039–S079 conditional results ('if X in OH then ...') remain valid as necessary conditions for any U(H) counterexample but are not evidence that X is in OH. Do not infer OH membership from failure of a sufficient vulnerability test. Separation work needs an OH certificate for a non-MLR sequence, which the programme does not yet have; proving OH=MLR instead would imply KLR=MLR (QST-0001).
+
+
+## P4-S081 — bounded hole budgets are free; certification needs a genuinely unbounded-width or timing obstruction (2026-10-09)
+
+Lesson 1: before designing a non-MLR OH candidate whose non-randomness is visible only to strategies that hold two or more coordinates (for example c.e. test components closed under single-coordinate flips), check Theorem A. Any strategy that postpones uniformly boundedly many coordinates reduces to a one-hole strategy: colour the held intervals online and split the log-capital. Such candidates are therefore not in OH. The flip-closed idea failed for exactly this reason: a 2-hole strategy reads the enumeration's structure, for example the centre of a Hamming ball.
+
+Lesson 2: the certification construction (sparse windows with late-revealed c.e.-family content, placed away from held coordinates) failed at two exact points. (i) Choosing window positions from the random background leaks information about held coordinates. (ii) Strategies place blind fill bets on window content before revelation, and controlling them needs a content-selection rule compatible with a small c.e. family and with qualifying late stages the construction does not control. Recorded as the exact obstruction for P4-S082, not as a refutation.
+
+Lesson 3: left-c.e. CR non-MLR reals give only one-sided c.e. certificates (bit value 1). This yields neither OH exploitation nor OH certification.
+
+Lesson 4: an audit check placed one step too early (before the scan's own pulls) produced a false failure. Check invariants at the point of the construction where they are claimed.
