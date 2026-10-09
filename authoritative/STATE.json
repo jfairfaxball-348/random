@@ -2040,7 +2040,7 @@
       "validation_record": "phase4/P4-S068_VALIDATION.md"
     },
     "current_research_pivot": "phase4/P4_STRATEGIC_PIVOT_AFTER_S069.md",
-    "current_research_target": "SHEAR_LATE_SPOILED_STAKE_SAME_SOURCE_PRE_PRICING_VS_EFFECTIVE_PARTIALITY",
+    "current_research_target": "OH_CERTIFICATION_GATE_NON_MLR_OH_MEMBER_OR_PROOF_OF_U_H",
     "p4_s070_global_linear_reduction": {
       "session": "P4-S070",
       "result": "H_PRESERVATION_EQUIVALENT_TO_ALL_COMPUTABLY_SUPPORTED_XOR_SHEARS_AND_ALL_COMPUTABLE_BLOCKWISE_GL3_PRESERVATION",
@@ -2535,7 +2535,7 @@
     "session": "P4-S080",
     "incoming_main": "670bfaed2351827f8a1f6c57c42574c60f094dd0",
     "status": "VALIDATED_RECORD_LEVEL_DECISION_OF_PRIMARY_TARGET_FORM_U_H_UNRESOLVED",
-    "theorem": "The record fixes (Y,M) only existentially; a chained-substitution spreading of any admissible pair is admissible, has a block-avoiding autoreduction, and every computable blockwise recoding of it (including H^{-1}) is wtt-autoreducible hence outside OH. Therefore z0=R(X) in OH is not derivable from the record, and X notin OH is established exactly when U(H): H^{-1}(Y') notin OH for every computably random wtt-autoreducible Y'.",
+    "theorem": "The record fixes (Y,M) only existentially; a chained-substitution spreading of any admissible pair is admissible, has a block-avoiding autoreduction, and every computable blockwise recoding of it (including H^{-1}) is wtt-autoreducible hence outside OH. Therefore z0=R(X) in OH is not derivable from the record, and X notin OH follows from the record exactly when U(H) holds (U(H) is unresolved, so X notin OH is NOT established): H^{-1}(Y') notin OH for every computably random wtt-autoreducible Y'.",
     "record_fixes_Y_existentially": true,
     "admissible_model_with_H_inverse_outside_OH": true,
     "membership_arm_derivable_from_record": false,
@@ -2566,6 +2566,15 @@
     "phase_4": "OPEN",
     "phase_5": "CLOSED",
     "next_session": "P4-S081",
-    "owner_external_blocker": null
+    "owner_external_blocker": null,
+    "adversarial_verification": {
+      "workflow_run": "wf_e0fad3b4-c24",
+      "skeptics": 6,
+      "verdicts": "all holds_with_minor_fixes",
+      "fatal_issues": 0,
+      "mathematical_major_issues": 0,
+      "fixes_applied": true
+    },
+    "closeout_merge_to_main_required": true
   }
 }

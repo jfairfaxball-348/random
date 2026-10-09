@@ -13,7 +13,7 @@ This script only checks the finite combinatorics those proofs rely on:
      partially defined predictors N on a finite W, the chained-substitution predictor
      M_V never reads its own V-block and returns the correct V-bit; the derived raw
      predictor for X1=H^{-1}(V) never reads its own raw block and is correct.
-  4. Role refutation (Proposition 6): for every target in-block query pattern and every
+  4. Role refutation (Proposition 5; a bookkeeping sanity check only): for every target in-block query pattern and every
      raw role r, the false single-hole candidate Y xor a_r is refuted by equation q
      whenever q is in supp(a_r) and the target computation at q queries no other
      coordinate of supp(a_r).
@@ -93,20 +93,33 @@ def toy_trial(U, nblocks):
     used_sorted = sorted(used)
     W = {m: random.randint(0, 1) for m in used_sorted}
     # synthetic clipped self-avoiding predictor N(i): query list inside [0,U(i)] minus {i}
-    qsets = {}
+    qsets, alts = {}, {}
     for i in used_sorted:
         cand = [m for m in used_sorted if m <= U(i) and m != i]
         qsets[i] = random.sample(cand, min(len(cand), random.randint(0, 4)))
+        alts[i] = random.sample(cand, min(len(cand), random.randint(0, 4)))
     def N(i, oracle, log):
-        # adaptive: second query depends on first answer; diverges (None) on some off-target patterns
+        # genuinely adaptive: after the first query, the remaining query list is qsets[i][1:]
+        # if the first answer agrees with W, and the alternative list alts[i] otherwise;
+        # some off-target branches diverge (None).
         acc = 0
         qs = list(qsets[i])
-        for t, m in enumerate(qs):
+        if not qs:
+            return W[i]
+        m0 = qs[0]
+        assert m0 != i and m0 <= U(i)
+        b0 = oracle(m0); log.append(m0)
+        acc ^= b0 ^ W[m0]
+        if b0 != W[m0]:
+            if i % 3 == 0:
+                return None  # divergence on a sibling
+            qs = list(alts[i])
+        else:
+            qs = qs[1:]
+        for m in qs:
             assert m != i and m <= U(i)
             b = oracle(m); log.append(m)
             acc ^= b ^ W[m]
-            if t == 0 and b != W[m] and (i % 3 == 0):
-                return None  # divergence on a sibling
         return W[i] ^ acc
     tau = {}
     for n, (i, j, k) in enumerate(triples):
