@@ -1,8 +1,8 @@
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.
-Last completed session: **P4-S075 (COMPLETED / VALIDATED)**.
-Next recommended session: **P4-S076**. Owner/external blocker: **NONE**.
+Last completed session: **P4-S077 (COMPLETED / VALIDATED)**.
+Next recommended session: **P4-S078**. Owner/external blocker: **NONE**.
 
 Gate 1 P1-S014 PASS; Gate 2 P2-S006 PASS; Gate 3 P3-S008 PASS. Phase 4 OPEN; Phase 5 CLOSED; Gate 4 NOT reviewed. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
 
@@ -64,3 +64,8 @@ S037 ALREADY proves preservation under effective fresh-frontier renewal, which a
 ## P4-S076 — multistage genuine-filler financing (2026-10-09)
 
 **VALIDATED CONDITIONAL MATHEMATICS, not general H/shear preservation.** Incoming main `f93ab90520175c51f1a36d3a903c8c1feedd6aff`; S076 unique. For three spoiled w claims sharing a later genuinely fresh a pivot, prior fair real c financing has price ladder p0=p1=1, p2=1+q²C0C1, p3=1+q²(C0C1+C0C2+C1C2). G/p3 at a completes exact fair telescoping. At q=1/2,C0=C1=+1, last-c fair child factors 7/5 and 3/5 require earlier p2=5/4, resolving only S075's restricted last-c obstruction. General positive finite Doob prices work for m>=3, including S036 stopped-savings D=hat d. An explicit globally exhaustive S071 supported all/even-shear virtual permutation has m_i=i+3 spoiled w claims per rolling group, next-group a pivot, true c fillers, silent w, and full zero-stake cleanup. Its first early c wager is 1 while previous virtual capital is not yet raw-known; all later pre-bit wagers are computable. One total positive fair raw e satisfies e(after real a pivot)=hat d(after corresponding group w) at cofinal mirror cuts on every raw path; virtual success transfers even though q_i→1 and the DIRECT interim e/d=(1-q_i)^m_i→0 on a compatible path. Inventory unbounded but individual claim retirement computably finite; S037 not strengthened. Exact Fraction audit 2048 endpoint checks/zero errors; finite scan audit 108 distinct raw reads each all/even support with zero holes. All S001–S075, original CR Y/unchanged clipped self-avoiding wtt M/repeated H/X=H^-1(Y), S073 LFΠ=dA and financing bound, S074 3/16, S037 and S075 preserved. X in OH, H/shear preservation, R₂=OH, R₂=OH^iso and general invariance unresolved; R₂=OH^iso separate. S057 controller rules frozen/not invoked. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach claim. Blocker NONE; next P4-S077. Files phase4/P4-S076_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _MULTISTAGE_AUDIT.py.
+
+
+## P4-S077 — current checkpoint
+
+P4-S077 (2026-10-09): DIRECT global OH test. A computable fair homeomorphism supported on ANY given finite raw coordinate set F preserves OH. For EVERY virtual global one-hole scan T and computable martingale d, a raw scan preloads F as genuine zero-stake bits, silently resolves only finitely many virtual-F queries, and reads every other virtual query as a fresh raw bit; one positive fair raw e satisfies (d+1)/2 ≤ 2^|F| e at all associated virtual cuts. No effective claim retirement or negative sibling-halt certificate is assumed. Thus finite supported S_E universally preserve OH; supports E,E' differing finitely have equivalent preservation status. Infinite H/shears and X∈OH, R₂=OH, R₂=OH^iso UNRESOLVED, since the 2^|F| bound cannot be passed to growing F. 256 raw assignments/2048 checks zero errors. Original Y/M/H/X and S037/S073–S076 unchanged; S057 untouched. PA-0001/DEF-0020 unchanged, Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED; no novelty/prior-art/publication claim, blocker NONE. See phase4/P4-S077_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md. Next P4-S078: GLOBAL infinite-support same-source invariance/separation only.
