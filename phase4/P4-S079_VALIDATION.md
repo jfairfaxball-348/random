@@ -1,0 +1,16 @@
+# P4-S079 VALIDATION — unit-column raw scans on six committed intermediates
+
+Date: 2026-10-09. Incoming live main exactly a1f942bc4de29b4c9ae52f41a9e5b44cb1946534; 78 complete earlier triplets, zero S079 files. Selected CAND-01, Gate-3 authority and both pivots unchanged. P4-S078 mathematics/validation/close and the controlling S011/S012, S033/S037/S070/S071/S077 reviewed.
+
+**PASS** for Theorem 1 (global restricted-sentinel one-hole extraction), Theorem 2 (unit-column criterion for the fixed Y and M), and unconditional z1 through z6 nonmembership in OH. **NOT a universal S preservation/nonpreservation result; NOT a proof of X in/out of OH or R2=OH.**
+
+1. Every oracle computation of derived P_j omits raw j on ALL oracle branches: M syntactically omits virtual q, and a unit column guarantees all other virtual responses are independent of j; final xor g also omits j. No target-specific halting oracle.
+2. J_i is an infinite decidable residue class in each i=1,...,6; smallest unread J_i exists after every finite raw transcript. Every query is genuinely fresh.
+3. The finite-state next-query rule is total on EVERY transcript: at each filler step run an explicitly bounded simulation. Divergence and nonbinary outputs cause no waiting; genuine fillers continue indefinitely.
+4. If a target-independent branch stalls in one epoch, its least-fresh non-sentinel fillers read EVERY raw coordinate except that sentinel. If epochs trigger infinitely often, each successful epoch is followed by a genuine zero-stake query at the globally least unread raw coordinate; infinitely many such sweeps exhaust ALL coordinates. This extra sweep is indispensable for sparse sentinel classes. No branch has two holes.
+5. Adaptive output prefix of length n imposes exactly n fresh independent input-bit constraints, proving fair coin on every cylinder. d_J wagers zero on real filler/sweep bits; before each sentinel it puts factors 2/0 on the computably visible predicted outcome. The martingale identity is exact at all nodes.
+6. On the fixed z_i, finite correct M^Y(q) computations are eventually visible using raw fillers avoiding j, so every epoch closes and its sentinel is predicted correctly. d_J doubles at every target epoch, proving failure of OH for each z_i in CR.
+7. Exact audit reproduced H=[101;110;111], the seven remaining B_i row matrices, their column weights, the all-8-input identities, unit-coordinate independence for every selected j, and absence of a unit column for B0. z6's B6 is exactly S. The audit only covers finite algebra; no infinite randomness or one-hole assertion is inferred from exhaustive finite enumeration.
+8. Logical boundary: z0=R(X) has no unit-column certificate. Its membership is equivalent to X membership by signed permutation invariance, and is still unknown. The only conditional potential OH exit among the S078 three pairs is now z0 to z1.
+
+No results were revised: original Y and M (globally clipped) and H/X frozen. S037, S057, S073–S078 unchanged, S057 not invoked. No further price/inventory investigation. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. Owner/external blocker NONE. No novelty, openness, prior-art, publication or outreach claim.
