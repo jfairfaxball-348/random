@@ -33,8 +33,11 @@ If the phase is not open, do not perform the substantive task.
 Before ending:
 1. validate changed records;
 2. synchronize `STATE.json`, gate ledger, decisions, blockers and failure ledger;
-3. create a concise session close record;
-4. commit and verify the remote checkpoint;
-5. identify the next bounded task.
+3. create a concise session close record; unless an owner/external blocker exists, it must contain the full copy-ready next-session prompt, identical to `authoritative/NEXT_SESSION_PROMPT.md`;
+4. commit atomically, push the session branch, merge it into `main` (fast-forward when possible, otherwise a merge commit; never rewrite `main` history) and push `main`;
+5. independently verify the remote checkpoint (e.g. `git ls-remote origin refs/heads/main`) equals the outgoing SHA;
+6. identify the next bounded task.
 
-If an active blocker requires owner/external action, report the concrete request and give **no next-session prompt**. Otherwise provide a copy-ready next-session prompt consistent with live authority.
+Steps 4–5 are mandatory (owner direction recorded after P4-S080): a session is not closed while its work exists only on a side branch. If the merge or push cannot be completed, report that as the blocker, with the exact failing step.
+
+If an active blocker requires owner/external action, report the concrete request and give **no next-session prompt**. Otherwise the final report must state the verified outgoing `main` SHA and reproduce the copy-ready next-session prompt consistent with live authority.

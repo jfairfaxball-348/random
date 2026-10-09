@@ -62,6 +62,8 @@ Phase 4 alone authorizes new mathematical investigation. Lean formalisation and 
 
 Follow `docs/SESSION_PROTOCOL.md`. Work only within the bounded authorized phase/session. Before closeout, synchronize state, decisions, claims, blockers and lessons and verify the remote checkpoint.
 
+Standing owner direction (recorded after P4-S080): every closeout must commit, push the session branch, merge into `main` and push `main`, then independently verify the remote `main` SHA. The close record and the final report must contain the full copy-ready next-session prompt, unless an owner/external blocker exists.
+
 If a blocker requires John's decision, communication, account action or other external input, state the exact blocker and required action and output **no next-session prompt**. A next-session prompt means the next task is immediately runnable.
 
 Do not contact mathematicians, editors, journals, arXiv or other third parties without explicit authorization.
