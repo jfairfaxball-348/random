@@ -1433,3 +1433,8 @@ Disposition: Phase-4 VALIDATED conditional mathematics ONLY. In an explicitly no
 ## P4-S075 — conditional mathematics, no new candidate/gate decision (2026-10-09)
 
 Accept the effective two-fresh-bit settlement-mirror pricing/savings theorem on S074's nonclosed rolling chain with q_i->1 and vanishing all-checkpoint escrow floor, and the precise three-claim single-last-filler financing obstruction. This is NOT a new preservation class beyond S037 effective fresh renewal for the computably retiring example, nor any H/supported-shear theorem or actual-X classification. Original Y/M/H/X, S073/S074, exact S057 controller all frozen. Gate 3 PASS, Gate 4 NOT REVIEWED; Phase 4 OPEN, Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged. No novelty, openness, prior-art, publication or outreach decision. No owner/external blocker; P4-S076 is next.
+
+
+## P4-S076 — conditional multistage pricing, no gate/candidate decision (2026-10-09)
+
+Accept only a total positive sequential fair pre-fresh-c Doob financing and later genuine fresh a settlement for specified all/even S071 shared-pivot spoiled w bundles (m_i=i+3 rolling, with cofinal S036 savings mirrors and no uniform direct interim floor). S075 last-c-only obstruction remains correct. S037 effective renewal is not strengthened to genuinely non-effectively retiring claims. No X∈OH, H/shear invariance, R₂=OH, R₂=OH^iso or unrestricted homeomorphism conclusion. All previous results and original Y/M/H/X, S057 exact controller frozen. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE, DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty/openness/prior-art/publication/outreach decision. No blocker; P4-S077 next.
