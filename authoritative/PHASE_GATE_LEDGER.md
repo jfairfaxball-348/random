@@ -441,3 +441,8 @@ Mathematics checkpoint ONLY. Positive fair credit-pivot settlement gives L*F=d_m
 ## P4-S073 — shared-pivot joint-price mathematics; gates unchanged (2026-10-08)
 
 Mathematics ONLY: conditional globally legal bundled fair-price normalization L F Pi=d A, h_2>=sqrt(d A/Pi), and third-account financiable ratio h_3>=(d A Q/Pi)^(1/3). Naive product of two individually fair wagers fails if their common-pivot correlation alpha beta is nonzero; a fixed computable repeated four-block pair *can* prepay joint price at a real c filler and obtain one raw fair martingale e>=d/4. This does NOT establish arbitrary shear or H preservation, X in OH or R_2=OH. Gate 3 PASS, Gate 4 NOT REVIEWED; Phase 4 OPEN, Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; no gate/policy/publication/outreach change. Blocker NONE; P4-S074 next.
+
+
+## P4-S074 — effective rolling shared-pivot joint price; gates unchanged (2026-10-09)
+
+Phase-4 mathematics ONLY; a genuinely infinite nonclosed linked chain with two spoiled w claims per group admits a total pre-bit price-financing Q on earlier REAL c fillers and normalized F at later fresh raw a pivots. Because Q,F raw bets are disjoint, e=QF is fair and e=d A(Q/Pi)>=(1-q)²(1-q²)d at all virtual stages; half-stake sharp coefficient 3/16. 4096 exact-rational sign cases/159744 checkpoints passed, zero discrepancies. This does NOT establish arbitrary shear/H preservation, OH classification of committed X, R_2=OH, R_2=OH^iso or any Gate-4 readiness. All S001–S073 and original Y/M/H/X frozen. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. No publication/outreach/novelty/prior-art action. No owner/external blocker; P4-S075 next.

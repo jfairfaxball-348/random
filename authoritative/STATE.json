@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S073",
+  "last_completed_session": "P4-S074",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 1,
     "authors": 75
   },
-  "next_transition": "Run P4-S074 on computably prepaid aggregate fair prices for nonclosed infinite overlap of spoiled shear claims; freeze S001-S073 including joint price pi, L F Pi=d A, Q-financed bound and exact 4-block shared-pivot extraction. No universal supported shear or H preservation or X in OH inference.",
-  "recommended_next_session": "P4-S074",
+  "next_transition": "Run P4-S075: seek effective price-escrow savings/stopping beyond uniform A(Q/Pi) positive floors on infinite overlap, preserving S074 exact rolling construction and S073 LF Pi=d A identity. No general supported-shear/H preservation or X in OH inference.",
+  "recommended_next_session": "P4-S075",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S073",
-    "next_session": "P4-S074",
+    "last_session": "P4-S074",
+    "next_session": "P4-S075",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S073_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S073_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S073_VALIDATION.md",
+    "latest_record": "phase4/P4-S074_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S074_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S074_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -2360,5 +2360,25 @@
     "r2_equals_oh_iso_resolved": false,
     "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
     "validation_record": "phase4/P4-S073_VALIDATION.md"
+  },
+  "phase4_s074_rolling_price_escrow": {
+    "session": "P4-S074",
+    "status": "VALIDATED_CONDITIONAL_ROLLING_ESCROW_THEOREM",
+    "incoming_main": "71ad3437aa4a0c9f22b0567a9c12da8b07812409",
+    "scope": "all/even supported XOR shears, fixed rational q in (0,1), nonclosed infinite rolling two-claim common-pivot chain",
+    "result": "G_i_AND_PI_i_PREPAID_AT_GENUINE_C_FILLER; DISJOINT_RAW_F_AND_Q_GIVE_E_EQUALS_dA_Q_OVER_PI",
+    "all_virtual_checkpoint_bound": "e >= (1-q)^2 (1-q^2) d",
+    "half_stake_sharp_bound": "e >= 3d/16",
+    "chain_has_empty_spoiled_frontier_after_start": false,
+    "block_aligned_finite_closed_packetization": false,
+    "exact_assignment_checks": 4096,
+    "exact_virtual_checkpoint_checks": 159744,
+    "finite_assignment_discrepancies": 0,
+    "full_shear_preservation_resolved": false,
+    "committed_X_in_OH_resolved": false,
+    "r2_equals_oh_resolved": false,
+    "r2_equals_oh_iso_resolved": false,
+    "prior_art_disposition": "UNRESOLVED_UNDER_INSPECTED_EVIDENCE",
+    "validation_record": "phase4/P4-S074_VALIDATION.md"
   }
 }
