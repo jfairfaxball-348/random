@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P4-S011",
+  "session": "P4-S082",
   "records": [
     {
       "id": "THM-0001",
@@ -2125,6 +2125,60 @@
         "The source theorem is an autoreducibility result, not a finite-fibre measure-preserving-map theorem.",
         "The P4-S011 k=2 conversion is programme mathematics and must not be attributed to the source.",
         "Do not strengthen wtt autoreducibility to truth-table autoreducibility."
+      ]
+    },
+    {
+      "id": "THM-0077",
+      "name": "Injective randomness is strictly weaker than Martin-Löf randomness",
+      "statement": "There is a real A that is injective random but not Martin-Löf random.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "injective randomness: no partial computable non-monotonic betting strategy whose betting order is given by a partial computable injection h (non-adaptive) and whose stake function is partial computable succeeds",
+        "Martin-Löf randomness is DEF-0002"
+      ],
+      "direction": "separation/existence",
+      "source_support": [
+        {
+          "source": "SRC-0069",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 6; Section 3 (proof read in part)"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0012",
+        "DEF-0002"
+      ],
+      "relations": [],
+      "cautions": [
+        "The strategies are non-adaptive with partial stake functions; the theorem says nothing about adaptive total strategies of bounded postponement width (OH).",
+        "Do not identify injective randomness with KL randomness; QST-0001 remains open in the inspected sources."
+      ]
+    },
+    {
+      "id": "THM-0078",
+      "name": "Permutation randomness is strictly weaker than Martin-Löf randomness",
+      "statement": "There is a real A that is permutation random but not Martin-Löf random; the proof builds A together with a left-c.e. (effective) martingale succeeding on it, using expected (monotonized) martingales of slow-but-sure permutation strategies and a case distinction for partiality.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "permutation randomness: no betting strategy with a partial computable permutation order (non-adaptive) and partial computable stake function succeeds",
+        "Martin-Löf randomness is DEF-0002"
+      ],
+      "direction": "separation/existence",
+      "source_support": [
+        {
+          "source": "SRC-0069",
+          "evidence": "PROOF_INSPECTED",
+          "pointer": "Theorem 7; Section 2 (Lemmas 8-11, Sections 2.4-2.6)"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0012",
+        "DEF-0002"
+      ],
+      "relations": [],
+      "cautions": [
+        "Stake functions are partial; the source states that with total permutation and total stake the notion collapses to computable randomness.",
+        "The P4-S082 consistency-potential adaptation to adaptive bounded-width strategies is programme mathematics and must not be attributed to the source."
       ]
     }
   ]

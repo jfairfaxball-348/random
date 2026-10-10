@@ -1760,3 +1760,14 @@ Lesson 2: the certification construction (sparse windows with late-revealed c.e.
 Lesson 3: left-c.e. CR non-MLR reals give only one-sided c.e. certificates (bit value 1). This yields neither OH exploitation nor OH certification.
 
 Lesson 4: an audit check placed one step too early (before the scan's own pulls) produced a false failure. Check invariants at the point of the construction where they are claimed.
+
+
+## P4-S082 — control the expected capital over all completions, not the placement of hidden windows (2026-10-10)
+
+Lesson 1: the S081 §7 obstruction came from the design, not from OH. Building a non-ML-random member against an independent random background forced the two problems (independence; blind bets). Fixing sparse bits so that a consistency potential (the capital-weighted mass of transcripts still consistent with the fixed bits) never increases, and then selecting the sequence by compactness, avoids both problems. Before declaring a construction obstruction intrinsic, try the expected-martingale/compactness template from the literature on restricted non-monotonic randomness (SRC-0069).
+
+Lesson 2: in such potential arguments, isolate the single place where the strategy class matters. Here it is the split-weight (cost) bound, Lemmas 3.1–3.2. The monotonicity, domination and refinement lemmas hold for every total computable fair map. This shows exactly which extensions are open: unbounded width (Example E1), non-block homeomorphisms (Example E3) and globally ≤2-to-1 maps (Proposition 6.2 gap).
+
+Lesson 3: a construction controlled against blockwise recodings as well produces witnesses robust under those recodings (Theorem 5.1). A separation witness for R₂⊊OH must therefore come from structure that the potential does not control, not from sparse fixing alone.
+
+Lesson 4: when an induction invariant has the form Φ < 2−2^{−i}, check the base case: the initial value equals 2−2^{1}, so the invariant must be non-strict before each stage.

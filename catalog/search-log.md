@@ -555,3 +555,15 @@ Primary-source queries/rechecks:
 - Gács–Hoyrup–Rojas, *Randomness on Computable Probability Spaces — A Dynamical Point of View*, arXiv:0902.1939 — current primary page rechecked only as adjacent dynamical-typicality context already recorded as SRC-0012.
 
 Outcome: no new source ID or theorem record was required. The recheck supports significance vocabulary for the component axes but supplies no exact CAND-02 theorem and no novelty/open-status upgrade.
+
+## P4-S082 — 2026-10-10 — decision-relevant calibration for the OH-certification construction
+
+Purpose: Phase-4 mathematics support only. Before attempting a non-ML-random member of OH, check whether primary literature on restricted non-monotonic randomness already separates a comparable notion from MLR, and what technique it uses. This is not a novelty or openness search.
+
+Queries (web): "Kastermans Lempp comparing notions of randomness injective randomness"; "Bienvenu Hölzl Kräling Merkle separations of non-monotonic randomness notions"; "Kolmogorov-Loveland randomness total versus partial strategies equivalent"; "permutation randomness weaker than Martin-Löf randomness".
+
+New records:
+- **SRC-0069 — Kastermans and Lempp, _Comparing notions of randomness_ (author preprint).** Full preprint text read: definitions, Theorems 6–7, the Section 2 proof in full and the Section 3 proof in part. Recorded THM-0077 (injective random, not MLR; STATEMENT_INSPECTED) and THM-0078 (permutation random, not MLR; PROOF_INSPECTED). Both notions use non-adaptive orders and partial stake functions. The final published venue was not verified and is not recorded.
+- **SRC-0070 — Bienvenu, Hölzl, Kräling and Merkle, _Separations of non-monotonic randomness notions_, CCA 2009, OASIcs 11, 71–82.** Landing-page metadata and abstract only (ABSTRACT_INSPECTED).
+
+Outcome: no inspected statement concerns adaptive total strategies of bounded postponement width, so OH∖MLR is not obtained from the literature. P4-S082 proves it separately by adapting the expected-martingale/compactness technique (phase4/P4-S082_MATHEMATICS.md). No openness, priority or difficulty inference is drawn. QST-0001 is unchanged.

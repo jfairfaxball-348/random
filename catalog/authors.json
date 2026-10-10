@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P4-S011",
+  "session": "P4-S082",
   "records": [
     {
       "id": "AUT-0001",
@@ -328,7 +328,8 @@
       ],
       "source_ids": [
         "SRC-0018",
-        "SRC-0067"
+        "SRC-0067",
+        "SRC-0070"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -632,7 +633,8 @@
         "SRC-0038",
         "SRC-0054",
         "SRC-0057",
-        "SRC-0061"
+        "SRC-0061",
+        "SRC-0070"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -1140,6 +1142,58 @@
       "source_ids": [
         "SRC-0067",
         "SRC-0068"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0076",
+      "name": "Bart Kastermans",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0069"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0077",
+      "name": "Steffen Lempp",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0069"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0078",
+      "name": "Rupert Hölzl",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0070"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0079",
+      "name": "Thorsten Kräling",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "algorithmic-randomness"
+      ],
+      "source_ids": [
+        "SRC-0070"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "session": "P4-S011",
-  "checked_on": "2026-10-05",
+  "session": "P4-S082",
+  "checked_on": "2026-10-10",
   "records": [
     {
       "id": "SRC-0001",
@@ -4286,6 +4286,125 @@
         "A wtt reduction is a Turing reduction by an oracle machine with a computable bound on use.",
         "An autoreduction computes the sequence from itself without querying the current input.",
         "Theorem 6.9: there exists a sequence that is computably random and wtt-autoreducible."
+      ]
+    },
+    {
+      "id": "SRC-0069",
+      "title": "Comparing notions of randomness",
+      "authors": [
+        "Bart Kastermans",
+        "Steffen Lempp"
+      ],
+      "author_ids": [
+        "AUT-0076",
+        "AUT-0077"
+      ],
+      "year": 2008,
+      "source_type": "preprint",
+      "doi": null,
+      "arxiv": null,
+      "stable_locator": "http://kasterma.net/papers/injrandom-hr.pdf",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "martin-lof-randomness",
+        "permutation-randomness",
+        "injective-randomness"
+      ],
+      "aliases_search_terms": [
+        "Kastermans Lempp comparing notions of randomness",
+        "injective randomness weaker than Martin-Lof",
+        "permutation randomness weaker than Martin-Lof",
+        "expected martingale monotonizing nonmonotonic"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0077",
+        "THM-0078"
+      ],
+      "questions": [
+        "QST-0001"
+      ],
+      "priority_relevance": "Method calibration for P4-S082: the expected-martingale / average-operator / compactness construction of a non-ML-random real random for restricted non-monotonic strategies. P4-S082 adapts the method to adaptive bounded-width total strategies; the adaptation is programme mathematics and is not attributed to the source.",
+      "notes": "Author preprint (PDF on the first author's homepage; search metadata date 2008-08-22). The full preprint text was read in P4-S082: abstract, introduction and definitions, Section 2 (permutation randomness: Lemmas 8-11, partiality, construction and verification) in full, and Section 3 (injective randomness: types, average operator, partiality, construction, verification) in part. The final published version and venue were NOT verified in this session and are not recorded. Strategies in the source's injective/permutation notions use non-adaptive (computable injection/permutation) betting orders and PARTIAL computable stake functions. The introduction states, without proof in the inspected text, that total permutation randomness (permutation and stake both total) coincides with computable randomness, and restates the KL=MLR question (QST-0001) as open.",
+      "inspected_material": [
+        "full author preprint text"
+      ],
+      "pointers": [
+        "Section 1.1 definitions; Question 5; Theorems 6-7",
+        "Section 2.3 Lemma 8 (expected martingale), Lemma 9 (slow-but-sure), Lemmas 10-11",
+        "Section 2.5-2.6 construction and verification",
+        "Section 3.2 average operator, Lemmas 14-17; Section 3.5 compactness verification"
+      ],
+      "cross_links": [
+        "SRC-0018",
+        "SRC-0070"
+      ],
+      "checked_on": "2026-10-10",
+      "exact_relevance": "Supplies the closest inspected separation technique (non-adaptive partial non-monotonic randomness strictly weaker than MLR). Its notions are incomparable with OH's total adaptive bounded-width strategies, so it does not by itself yield OH\\MLR nonempty.",
+      "inspected_claims": [
+        "Theorem 6: there is a real which is injective random but not Martin-Lof random.",
+        "Theorem 7: there is a real which is permutation random but not Martin-Lof random.",
+        "Injective and permutation randomness are defined with partial computable stake functions and computable injections/permutations as betting orders.",
+        "Introduction: total permutation randomness coincides with computable randomness (stated without proof in the inspected text).",
+        "Question 5 (KL randomness versus ML randomness) is stated as open."
+      ]
+    },
+    {
+      "id": "SRC-0070",
+      "title": "Separations of Non-monotonic Randomness Notions",
+      "authors": [
+        "Laurent Bienvenu",
+        "Rupert Hölzl",
+        "Thorsten Kräling",
+        "Wolfgang Merkle"
+      ],
+      "author_ids": [
+        "AUT-0039",
+        "AUT-0078",
+        "AUT-0079",
+        "AUT-0019"
+      ],
+      "year": 2009,
+      "source_type": "conference_paper",
+      "doi": "10.4230/OASIcs.CCA.2009.2260",
+      "arxiv": null,
+      "stable_locator": "https://doi.org/10.4230/OASIcs.CCA.2009.2260",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "martin-lof-randomness",
+        "permutation-randomness",
+        "injective-randomness"
+      ],
+      "aliases_search_terms": [
+        "Bienvenu Holzl Kraling Merkle separations non-monotonic randomness",
+        "Miller Nies non-adaptive strategies classification"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [
+        "QST-0001"
+      ],
+      "priority_relevance": "Calibration only: confirms the Kastermans-Lempp separations for the Miller-Nies non-adaptive notions and announces a strength classification of those notions.",
+      "notes": "6th International Conference on Computability and Complexity in Analysis (CCA'09), OASIcs 11 (2009), pp. 71-82, Schloss Dagstuhl. Dagstuhl landing page metadata and abstract inspected in P4-S082. The abstract states that Miller and Nies introduced non-adaptive non-monotonic notions, that Kastermans and Lempp showed these differ from Martin-Lof randomness, and that the paper obtains a complete classification of those notions by order of strength via initial-segment Kolmogorov complexity results. The classification itself was not inspected.",
+      "inspected_material": [
+        "Dagstuhl DROPS landing page metadata and abstract"
+      ],
+      "pointers": [
+        "OASIcs 11, pp. 71-82; abstract"
+      ],
+      "cross_links": [
+        "SRC-0069",
+        "SRC-0018"
+      ],
+      "checked_on": "2026-10-10",
+      "exact_relevance": "Abstract-level confirmation that the Miller-Nies non-adaptive notions are separated from MLR; it concerns non-adaptive strategies only.",
+      "inspected_claims": [
+        "Kastermans and Lempp showed the Miller-Nies non-adaptive notions differ from Martin-Lof randomness.",
+        "The paper obtains a complete classification of these notions by order of strength (classification not inspected)."
       ]
     }
   ]

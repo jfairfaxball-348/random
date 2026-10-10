@@ -1,3 +1,40 @@
+# P4-S082 CLOSE — consistency potentials; OH-certification gate passed
+
+Date: 2026-10-10. Incoming remote main `a6557f24867e48f5ac018f9865896993e74cc443` (the P4-S081 outgoing SHA) pinned; P4-S082 unique; incoming prompt identical to `authoritative/NEXT_SESSION_PROMPT.md`. **VALIDATED. The certification gate is PASSED: OH∖MLR ≠ ∅. The north star (R₂=OH) and U(H) are unresolved.**
+
+**Calibration.** SRC-0069 (Kastermans–Lempp preprint; STATEMENT_INSPECTED, with the §2 proof read) and SRC-0070 (Bienvenu–Hölzl–Kräling–Merkle, CCA 2009; ABSTRACT_INSPECTED) are recorded, with THM-0077 and THM-0078. Their notions are non-adaptive with partial stakes, so they are incomparable with OH. Only their expected-martingale and compactness method is adapted. No novelty, priority or openness inference is drawn.
+
+**Consistency potential (§2).** For any total computable fair map G, martingale d and partial assignment σ, Ψ(σ,m) = 2^{|σ|}E_λ[X_m·1(G⁻¹[G(z)↾m] meets [σ])]. It is non-increasing in m, it dominates the [σ]-conditional expected capital, and averaging over the value of a new coordinate k gives exactly Ψ(σ) + γ(σ,k). Here γ is the capital-weighted split weight of k.
+
+**Cost bounds (§3).** For one-hole scans, the split weights of coordinates below the frontier sum to at most Ψ (h·Ψ for h-hole scans). The same holds for one-hole scans of computable finite-block recodings, with candidates in distinct blocks.
+
+**Theorem 4.4 (certification gate PASSED).** OH∖MLR ≠ ∅.
+* Guessed runs (Π⁰₂ validity) add weighted strategies and fix 2i+2 bits at stage i. Each fixed bit is a minimal-split-weight coordinate, set to the potential-minimizing value, and Φ < 2 is kept throughout.
+* The 2^{i+1} runs form a Martin-Löf test.
+* Compactness yields z in the null closed set S with every savings capital bounded.
+* The witness is ≤_T ∅‴.
+* Both S081 §7 obstruction halves are bypassed, not repaired: there is no random background, and blind bets are controlled by the potential.
+
+**Theorem 5.1.** There is z∉MLR with K(z)∈OH for every computable finite-block recoding K, so H(z)∈OH and z∈OH^{lin3}. Potential-built witnesses cannot separate OH from its blockwise images.
+
+**Theorem 6.1, Proposition 6.2, Examples E1–E3.**
+* Theorem 6.1 is a general cheap-coordinate criterion.
+* Example E1 shows that unbounded width breaks the accounting, so nothing follows about TKLR, KLR or QST-0001.
+* For globally ≤2-to-1 maps, the counting potential makes fixing free and moves all cost to tracking (fresh-split weight).
+* The exact gap for R₂: (a) transient fresh splits converge to the persistent part without a computable modulus; (b) potential-minimizing fixings can concentrate untracked double-fibre mass.
+
+**Landscape (§7.2).** MLR ⊊ OH. Moreover R₂=MLR ⇒ R₂⊊OH, and R₂=OH ⇒ R₂∖MLR≠∅. So deciding R₂ versus MLR is now a sharp sub-question of the north star. S080 Corollary 7(b)'s route via OH=MLR is closed.
+
+**Validation.** The exact finite audit passes. Structured adversarial self-review corrected the base case of the invariant (made non-strict) and simplified one proof step. No multi-agent review was run.
+
+**Frozen.** P4-S001–S081; original Y/M/H/X; S037; S057 (not invoked); S070–S081. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, publication or outreach claim. Owner/external blocker NONE.
+
+Files: phase4/P4-S082_MATHEMATICS.md, phase4/P4-S082_VALIDATION.md, phase4/P4-S082_POTENTIAL_AUDIT.py, this close record; catalog/sources.json, theorems.json, authors.json, search-log.md.
+
+Next session: **P4-S083**.
+
+## Next-session prompt (copy-ready; identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S083 — R₂ versus MLR: the consistency potential against all globally ≤2-to-1 maps, or R₂ = MLR
 
 Continue the Fairfax-Ball Randomness Research Programme, ONLY Phase 4 Mathematics, in https://github.com/jfairfaxball-348/random. Pin independently verified live remote main to the exact P4-S082 outgoing SHA; reconcile discrepancies and confirm P4-S083 uniqueness. Review P4-S001–S082 mathematics, especially S007 (width-two skeleton c(n)), S008, S011/S012, S032/S033, S070, S078, S080, S081 (Theorem A, Corollaries A1–A6, Theorem B) and S082 (Lemmas 2.1–2.4, 3.1–3.2, Theorems 4.4, 5.1, 6.1, Proposition 6.2, Examples E1–E3, §7 trichotomy), together with S082 validation and close, CAND-01, the Gate-3 PASS, both Phase-4 pivots, and SRC-0069/SRC-0070 at their recorded access levels.
