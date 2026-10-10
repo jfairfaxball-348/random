@@ -1,3 +1,17 @@
+# P4-S086 CLOSE — global no-single-observer and rank-one impossibility
+
+Date 2026-10-10. Phase 4 Mathematics ONLY. Incoming independently pinned remote main: 453439b56f4bcf44b8539974969f0bed1a59773f, exactly P4-S085 outgoing (verified also by commit parent metadata). P4-S086 files absent and session branch unused at entry. Session branch phase4/P4-S086-mathematics created from that exact incoming commit.
+
+**Result:** Theorem 1 applies THM-0007 no-randomness-from-nothing and THM-0035 ML conservation to show that every total computable fair F maps SOME CR non-MLR source to a CR output (indeed every y∈CR\MLR has such a source preimage). No single width-two filtration, with any collection of output computable martingales, covers CR\MLR. Theorem 3 rules out ANY finite/countable/arbitrary family of observers factoring through a common F by forward-CR-preserving output maps, with one common CR non-MLR survivor. Computable fair output homeomorphic recodings collapse to one exact CR-vulnerability set. Written validation in P4-S086_VALIDATION.md.
+
+**Not proved:** R₂=MLR, MLR⊊R₂, a universal genuinely independent width-two pair, or one source in R₂\MLR. Quantifier order ∀F∃x_F is not swapped; the rank-one theorem does not address independent observation pairs. R₂=OH^iso, U(H), X∈OH, fixed-S preservation remain separate. This is an impossibility for a genuine broad *method family*, not a universal no-go for Route A.
+
+**Frozen:** All Phase 4 S001–S085 mathematics; S083 R₂⊊OH, S084 full predictable-error/ML-null/balanced two-sheet results, S085 c(n) global width-two characterization; original CR Y, use-clipped self-avoiding wtt M, repeated H (A=[101;110;111]), X=H⁻¹(Y). Literature levels unchanged; source theorem applied from SRC-0015 THM-0007 and THM-0038 at STATEMENT_INSPECTED, no source upgraded. SRC-0071 journal remains METADATA_ONLY and R_tot=MLR a programme preprint deduction. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, priority, publication or outreach claim. Owner/external blocker: NONE.
+
+**Atomic close mechanism:** one new Git tree/commit with parent the verified P4-S085 main, advanced first onto phase4/P4-S086-mathematics, then non-force fast-forwarded onto main; outgoing SHA is the hash of this closeout's atomic commit, independently checked against remote GitHub refs/heads/main during close. (A self-referential outgoing hash cannot be embedded in its own commit.) Next P4-S087.
+
+## Full copy-ready P4-S087 prompt (identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S087 — Genuine two-observer universality or a simultaneous R₂ survivor
 
 Continue the Fairfax-Ball Randomness Research Programme at https://github.com/jfairfaxball-348/random. Run ONLY Phase 4 Mathematics session P4-S087.

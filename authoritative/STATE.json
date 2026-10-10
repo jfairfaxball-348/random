@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S085",
+  "last_completed_session": "P4-S086",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 79
   },
-  "next_transition": "P4-S086: decide R2 versus MLR by true universality of globally width-two fair dyadic filtrations or an actual non-MLR R2 survivor. S085 gave only the exact bounded-width filtration criterion and a one-bit posterior support obstruction; R2 versus MLR remains unresolved.",
-  "recommended_next_session": "P4-S086",
+  "next_transition": "P4-S087: try genuinely independent universal globally width-two observations or one simultaneous CR non-MLR source surviving ALL width-two fair maps; P4-S086 globally ruled out single observers and every CR-preserving rank-one output-factor family without deciding R2 versus MLR.",
+  "recommended_next_session": "P4-S087",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -2798,5 +2798,36 @@
     "validation_record": "phase4/P4-S085_VALIDATION.md",
     "close_record": "phase4/P4-S085_CLOSE.md",
     "next_session": "P4-S086"
+  },
+  "phase4_s086_global_rank_one_no_go": {
+    "session": "P4-S086",
+    "date": "2026-10-10",
+    "incoming_main": "453439b56f4bcf44b8539974969f0bed1a59773f",
+    "status": "VALIDATED_GLOBAL_SINGLE_OBSERVER_AND_RANK_ONE_NO_GO_R2_VS_MLR_UNRESOLVED",
+    "source_dependencies": [
+      "THM-0002",
+      "THM-0007",
+      "THM-0035",
+      "THM-0038"
+    ],
+    "single_fair_observer_universal_for_CR_minus_MLR": false,
+    "every_CR_nonMLR_output_has_some_CR_nonMLR_preimage_for_every_fair_map": true,
+    "rank_one_CR_preserving_output_factor_family_universal": false,
+    "arbitrary_independent_width_two_pair_ruled_out": false,
+    "R2_equals_MLR_proved": false,
+    "strict_MLR_subset_R2_proved": false,
+    "quantifier_swap_claimed": false,
+    "original_Y_M_H_X_unchanged": true,
+    "source_access_unchanged": true,
+    "S084_predictable_error_conditions_unchanged": true,
+    "mathematics_record": "phase4/P4-S086_MATHEMATICS.md",
+    "validation_record": "phase4/P4-S086_VALIDATION.md",
+    "close_record": "phase4/P4-S086_CLOSE.md",
+    "next_session": "P4-S087",
+    "owner_external_blocker": null,
+    "gate_3": "PASS",
+    "gate_4": "NOT_REVIEWED",
+    "phase_4": "OPEN",
+    "phase_5": "CLOSED"
   }
 }

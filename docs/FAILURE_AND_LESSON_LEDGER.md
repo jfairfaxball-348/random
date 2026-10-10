@@ -1790,3 +1790,11 @@ Phase 4 mathematics ONLY. Proved: predictable selection of infinitely many outpu
 ## P4-S085 — universality compilation limitation (2026-10-10)
 
 Route A failed to turn the SRC-0071 unbounded-fibre universal strategies into globally ≤2-to-1 maps: changing only the computable output martingale or conjugating with input/output homeomorphisms cannot change fibre cardinality. The correct global test is the uniformly effective c(n) two-prefix width condition at EVERY output cell, not just near a selected non-MLR sequence. Route B failed to exhibit a non-MLR x avoiding all global width-two filtration/martingale pairs; a computably random resolution-error stream at S083 T* is only a necessary condition. The exact equivalence in S085 is an honest reduction and does not decide R₂ vs MLR or rule out all universal bounded-width strategies.
+
+## P4-S086 — single-observer and common-output-factor dead ends (2026-10-10)
+
+Failure A: A putative universal width-two filtration cannot be repaired just by adding a universal list of output martingales. By THM-0007 and THM-0035, every total computable fair F has some CR\MLR preimage of each prescribed CR\MLR output; every output computable martingale remains bounded there.
+
+Failure B: Multiple distinct-looking observations F_i=Q_i∘F do not overcome this when each Q_i preserves CR. One non-MLR CR preimage of a fixed CR non-MLR output through F survives the ENTIRE family; for computable fair output homeomorphisms their vulnerability sets coincide exactly.
+
+Lesson: source-side partition incompatibility is necessary for any universal finite pair, not sufficient; output relabelling is inadequate even when the original observer already has global two-fibre width. Avoid the quantifier error ∀F∃x_F => ∃x∀F. The genuine R₂=MLR versus MLR⊊R₂ problem remains. Existing prior-art observation of non-universality of one sequence-set strategy in SRC-0071's inspected preprint is respected; no novelty/prior-art claim. All guards intact.

@@ -1,12 +1,12 @@
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.
-Last completed session: **P4-S085 (COMPLETED / VALIDATED; width-two universality reformulated; R₂ VS MLR UNRESOLVED)**.
-Next recommended session: **P4-S086**. Owner/external blocker: **NONE**.
+Last completed session: **P4-S086 (COMPLETED / VALIDATED; global single-observer and rank-one family no-go; R₂ VS MLR UNRESOLVED)**.
+Next recommended session: **P4-S087**. Owner/external blocker: **NONE**.
 
 Gate 1 P1-S014 PASS; Gate 2 P2-S006 PASS; Gate 3 P3-S008 PASS. Phase 4 OPEN; Phase 5 CLOSED; Gate 4 NOT reviewed. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
 
-Freeze MLR subseteq R_2 subseteq OH^iso subseteq OH proper-subset CR and committed CR Y, exact self-avoiding globally clipped wtt program M, repeated-block H and CR X=H^-1(Y), H(X)=Y not in OH. X in OH and R_2=OH UNRESOLVED.
+Current frozen landscape: MLR=R_tot subseteq R_fin subseteq R_k subseteq R_2 subseteq OH^iso proper-subset OH^blk subseteq OH^lin3 subseteq OH=OH_h=R_k^scan proper-subset CR (k>=2); P4-S083 proved R_2 proper-subset OH. Committed CR Y, exact self-avoiding globally clipped wtt M, repeated-block H, CR X=H^-1(Y), and H(X)=Y not in OH are frozen. X in OH, R_2 versus MLR, R_2 versus OH^iso, U(H) and fixed-S preservation remain unresolved.
 
 P4-S065: finite actual-timeout survival/frontier c_n. P4-S066: every permanent CR old-sentinel stall has summable transcript-local gate hazards gamma(p_n). P4-S067: finite computable gate-decision prefix-free leaves G(p), gamma(p)=sum 2^-|w|, d(p)=shortest gate-leaf depth. Every permanently stalled CR source satisfies sum_n2^-d(p_n)<infinity and uniform short-gate capacity # {n:d(p_n)<=K}<=C 2^K for some finite source-dependent C. An alternate **padded**, NOT committed, M-program shows extensional target-halting properties alone cannot force finite prospective gate hazards. NO verification of gamma divergence on actual X, infinite real profitable resets, X in OH or R_2=OH.
 
@@ -140,3 +140,7 @@ Next: P4-S084, decide R₂ versus MLR. Files: phase4/P4-S083_MATHEMATICS.md, _VA
 ## P4-S084 — predictable T* errors and balanced a.e. two-sheet destruction (2026-10-10)
 
 Phase 4 mathematics ONLY. Proved: predictable selection of infinitely many output bits of a computably random sequence yields a computably random prediction-error stream (frequency of mistakes 1/2). Hence a putative R₂ survivor with infinitely many S083 T* resolutions needs an entire CR error stream, not one wrong guess. Anti-consistency cylinders give λ(E_Q)≤2^(−Q−3); an exact restart martingale shows infinitely many T* resolutions occur only on an effectively ML-null input class. Consequently S083's UNCHANGED k=2 fair destroyer G=F_T*∘D′ has exactly two equal-conditional-weight preimages for almost every output, while still destroying an exceptional computably random singleton-fibre z∈OH^blk∖MLR. This refines the existing proof R₂⊊OH, NOT the still-unresolved R₂=MLR versus MLR⊊R₂. Finite sanity audit 8,201 checks, no infinitary computational claim. All original Y/M/H/X, P4-S001–S083, S037/S057, Gate-3 PASS, PA-0001, DEF-0020 frozen; Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No new literature access, novelty, openness or publication assertions. Next P4-S085: bounded-fibre universality or high-entropy R₂ survivor. Records in phase4/P4-S084_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _EXTRACTION_AUDIT.py.
+
+## P4-S086 — single-channel universality excluded
+
+P4-S086 (2026-10-10), mathematics ONLY: global impossibility for one fair observer and ALL observer families differing only by CR-preserving output postprocessing. Theorem 1 (from catalogued SRC-0015/THM-0007 no randomness from nothing + THM-0035 ML conservation): every y∈CR\MLR has a CR\MLR preimage under each total computable fair F. Thus even all computable output martingales cannot make one width-two filtration universal on CR\MLR. Theorem 3: if F_i=Q_i∘F with every Q_i CR-preserving, a SINGLE CR\MLR source survives ALL F_i; for fair computable homeomorphic Q_i all vulnerability sets are identical. This is a genuine GLOBAL method impossibility, not a no-go for independent pairs, and does not swap ∀F∃x for ∃x∀F or decide R₂ vs MLR. S083/S084/S085 and all Y/M/H/X frozen. SRC-0015 and other literature at recorded evidence levels only. PA-0001/DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED; owner/external blocker NONE. Next P4-S087; phase4/P4-S086_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md.
