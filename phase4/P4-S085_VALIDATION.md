@@ -1,0 +1,15 @@
+# P4-S085 VALIDATION — global width-two filtration criterion
+
+2026-10-10; incoming remote GitHub main `2a481595f6c35bec361a84da4648c9a5d0bfc282`. Main/ref and P4-S084 outgoing SHA agree; branch search and phase4 directory showed no P4-S085 records before branch creation. Phase 4 OPEN; Gate 3 PASS.
+
+**Theorem 1 written-proof check — PASS.** Computable total Cantor maps have uniformly effectively clopen inverse images of output cylinders, and their measures are dyadic computable. Width W(n,m) is decidable at each finite m. For fixed n the tree of cells touching three distinct n-prefix cylinders is finitely branching and prefix-closed. If all levels have such a cell, König's lemma plus nested compact sets produces three different points in one fibre; contradiction. A search for the first qualifying m yields a genuinely total computable c(n) **only under the at-most-two-fibre hypothesis**. Three preimages refute c(n) at their separating n. No computable global selection of either sheet is inferred.
+
+**Corollary 2 written-proof check — PASS.** Conditional support at each qualifying output cell has at most two n-prefix values; the Shannon entropy upper bound is 1 bit regardless of weights. Entropy >1 is a sufficient rejection of that precise filtration, not a universal obstruction to other filtrations.
+
+**Theorem 3 written-proof check — PASS as an exact characterization, NOT a decision.** The identity filtration ensures the unconditional CR requirement. Other width-two filtrations correspond bijectively at map level to globally ≤2-to-1 total computable fair maps. Enumerating all computable output martingales yields exactly the original R₂ tests. A fixed universal ML test expresses the two alternatives by their correct quantifier order. A universal *finite pair* is only sufficient, not necessary.
+
+**Toy formula audit — PASS by symbolic calculation (not evidence for the infinitary theorem).** Identity: W(n,m)=2^max(n−m,0). Left shift (n≥1): W(n,m)=2^(1+max(n−m−1,0)). Even-position projection: W(n,m)=2^(n−min(m,ceil(n/2))), persistent >2 when n≥4. Each is fair; the third has infinitely many preimages. These examples distinguish posterior *support*, not just a.e. conditional entropy.
+
+**Scope limitations.** No arbitrary non-MLR x was destroyed by a provably global-k2 map; no R₂ non-MLR x was constructed; no theorem rules out ALL bounded-width universal strategies. S084 predictable-extraction only gives a necessary high-entropy condition; it is not treated as sufficient. Status remains R₂=MLR versus MLR⊊R₂ UNRESOLVED. Recorded SRC levels unchanged; SRC-0071 programme deduction not upgraded. Original Y/M/H/X, S001–S084, PA-0001 and DEF-0020 frozen. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No new publication, novelty, priority or openness claim.
+
+**Protocol check.** Records and prompt must be one atomic commit on the session branch and merged by non-force fast-forward/merge into main; outgoing remote main must be independently re-read. No owner/external blocker on entry.

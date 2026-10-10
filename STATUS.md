@@ -1,8 +1,8 @@
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.
-Last completed session: **P4-S084 (COMPLETED / VALIDATED; S083 destroyer balanced two-to-one a.e.; R₂ VS MLR UNRESOLVED)**.
-Next recommended session: **P4-S085**. Owner/external blocker: **NONE**.
+Last completed session: **P4-S085 (COMPLETED / VALIDATED; width-two universality reformulated; R₂ VS MLR UNRESOLVED)**.
+Next recommended session: **P4-S086**. Owner/external blocker: **NONE**.
 
 Gate 1 P1-S014 PASS; Gate 2 P2-S006 PASS; Gate 3 P3-S008 PASS. Phase 4 OPEN; Phase 5 CLOSED; Gate 4 NOT reviewed. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
 
