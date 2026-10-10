@@ -1,3 +1,50 @@
+# P4-S089 CLOSE — halving survivor theorem, two-frame structure, spectral barrier and the rigid three-core
+
+Date 2026-10-10. Phase 4 Mathematics ONLY.
+
+**Entry checks.**
+* Incoming independently pinned remote main: `0009e00dff9d75b70539e513e544f4b89b8040f4`. This is the P4-S088 atomic close commit; its parent `c820588…` is the P4-S087 outgoing SHA.
+* P4-S089 files were absent and the session was unused at entry.
+* Session branch: `claude/p4-s089-e0-breaking-efncvi`.
+
+**Result.** R₂ versus MLR is NOT decided, and (A′) is NOT decided. Proved:
+* **Theorem 1 (halving survivor theorem).** Any halving-dispersible class of width-two strategies has a common survivor z ∈ CR∖MLR.
+  * Halving-dispersible means relatively small capital-weighted separation of the in-state double-fibre pairs by some balanced clopen split, linear or not.
+  * The split is found by a single-candidate Σ⁰₁ search. P4-S087 Theorem 4 and P4-S088 Theorem C are instances.
+* **Proposition 2.** On fresh windows, FD₂^{K_mix} ∪ FD₂^{K′_mix} acts through two order-four groups of solution-space translations (data by S_W(a), controls by S′_W(b)). The K_mix holds 0 and 1 generate all S(a)-translations.
+* **Theorem 3 (spectral barrier).** For causal partner involutions, fresh functions split into signed level operators. A uniform gap forbids almost-invariant balanced splits of orbit states and violates the hypothesis of Theorem 1.
+* **Lemma 4 / Corollary 4.1 (no local frustration).** Short frustrated cycles have summable mass, so rigidity of a causal family can only be global.
+* **Proposition 5.2 (invariance–neutralization dichotomy).** The absolute neutralization budget is bounded; the normalized one is not, and the minimizing rule favours pair concentration.
+* **Corollary 5.1, conditional on Conjecture R.** The two-frame union is not halving-dispersible, via the CR-preserving three-core {U₀, U₁, U′₀}. This is a mechanism barrier only.
+* **EXPERIMENT (labelled, not theorems).**
+  * Three-core top signed level eigenvalues lie in [0.9737, 0.9762] at levels 12–20.
+  * The window-only gap is ≈ 0.077.
+  * The three-core has no frustrated cycles of length ≤ 9 at levels 9–14.
+  * The dihedral core is non-rigid (eigenvalues 1 or cos(π/L) → 1).
+  * Conjecture R is OPEN.
+* Validation: `phase4/P4-S089_VALIDATION.md`. The audit `phase4/P4-S089_HALVING_AUDIT.py` prints `ALL P4-S089 AUDITS PASS` (143,921 checks). The P4-S088 audit still passes.
+
+**Not proved.**
+* R₂ = MLR or MLR ⊊ R₂.
+* Conjecture R.
+* A survivor for FD₂^{K_mix} ∪ FD₂^{K′_mix}, for all causal frames, or for OH^iso.
+* R₂ ⊊ R₂^{cdz}.
+* A universal width-two family.
+* A global impossibility for potential/fixing methods.
+* No quantifier swap of P4-S086 is claimed.
+
+**Frozen.**
+* All S001–S088 mathematics and the original Y/M/H/X.
+* Literature at recorded access levels; nothing was fetched, and no expander or strong-ergodicity literature was used.
+* PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
+* Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
+
+No novelty, openness, priority, publication or outreach claim. Owner/external blocker: NONE.
+
+**Atomic close mechanism.** One commit on the session branch with parent the verified P4-S088 main. It is pushed, then fast-forwarded non-force onto main, and the remote `refs/heads/main` is independently re-read. The outgoing SHA is the hash of this close commit; a commit cannot embed its own hash. Next: P4-S090.
+
+## Full copy-ready P4-S090 prompt (identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S090 — Rigidity or neutralization: prove Conjecture R, or an absolute-accounting survivor, or a readable-neutralization impossibility
 
 Continue the Fairfax-Ball Randomness Research Programme at https://github.com/jfairfaxball-348/random. Run ONLY Phase 4 Mathematics session P4-S090.

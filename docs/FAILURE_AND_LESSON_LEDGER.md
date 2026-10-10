@@ -1816,3 +1816,15 @@ Failure B (S083-type separation R₂⊊R₂^cdz): a nonlinear self-reading obser
 Failure C (Route A): partners of non-MLR points under computable fair involutions are again non-MLR, so the S087 race symmetry persists for nonlinear tail codes. No universal family was obtained.
 
 Lesson: frame straightening (co-dispersibility in one frame) is the wrong invariant. It fails for the CR-preserving G_asym (FD) and for the CR-preserving translation family (DZ), and it is unnecessary for a common survivor (Theorem C). The operative invariant is the joint supply of fresh halvings almost invariant under the dominant partner involutions of all active observers. That supply exists for countable-coset (affine-frame) ambiguity and is open for nonlinear frames. Do not present frame-straightening of CR-preserving maps as progress on R₂ versus MLR. Do not over-read Proposition D: its fixed-hold witnesses preserve CR. All guards intact.
+
+## P4-S089 — overriding R₂ versus MLR target not closed (2026-10-10)
+
+Failure A ((A′) two-frame instance): almost-invariant fresh halvings for FD₂^{K_mix} ∪ FD₂^{K′_mix} were sought through the exact structure of Proposition 2 (solution-space translation groups). Numerically, the three-involution core {ψ₀, ψ₁, ψ′₀} has a stable signed-level gap (top eigenvalues in [0.9737, 0.9762] at levels 12–20), so by Theorem 3 no such halvings exist if Conjecture R holds. A survivor for the union was not obtained, and Conjecture R was not proved.
+
+Failure B (rigidity proof): the natural local certificate (every vertex on a bounded frustrated cycle) is impossible for any finite causal family (Lemma 4), and none occurs at levels 9–14. A proof of Conjecture R needs global expansion; none was found.
+
+Failure C ((B′) global impossibility): the rigid core consists of CR-preserving fixed-hold maps, so it is never universal. Proposition 5.2(i) shows that an accounting charging absolute separated mass would not be blocked by it. No impossibility for potential methods against infinitely resolving self-readers was proved.
+
+Failure D ((C′) R₂ ⊊ R₂^cdz): a class-separated Theorem C construction plus a selector-frame self-reader whose pairs are separated by odd block-union parities is defeated by a fixed-difference CDZ₂ observer mimicking the selector frame on a positive-probability selector event. The resolution step is not available. Not proved.
+
+Lesson: the (A′) almost-invariance mechanism is exact (Theorem 1) but can be blocked by rigidity even of harmless maps (Theorem 3), and causal rigidity is never local (Lemma 4). The decision-relevant split is invariance versus neutralization (Proposition 5.2). Rigidity excludes invariance, and neutralization is what self-reading observers read. Future survivor attempts need absolute (paid-once) accounting with Σ⁰₁ choices; future Route-A attempts need to show that neutralization is always readable.
