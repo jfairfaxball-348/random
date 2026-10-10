@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P4-S082",
+  "session": "P4-S083",
   "records": [
     {
       "id": "THM-0001",
@@ -2179,6 +2179,86 @@
       "cautions": [
         "Stake functions are partial; the source states that with total permutation and total stake the notion collapses to computable randomness.",
         "The P4-S082 consistency-potential adaptation to adaptive bounded-width strategies is programme mathematics and must not be attributed to the source."
+      ]
+    },
+    {
+      "id": "THM-0079",
+      "name": "A universal pair of sequence-set betting strategies",
+      "statement": "For every Martin-Löf test there are two computable sequence-set betting strategies (each step splits the current clopen cell into two clopen halves of equal measure) such that every sequence failing the test is predicted by at least one of them; no single computable sequence-set strategy is universal.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "computable sequence-set betting strategies (SRC-0071 Definition 2.6)",
+        "Martin-Löf tests (DEF-0002)"
+      ],
+      "direction": "characterization of MLR by a finite family of strategies",
+      "source_support": [
+        {
+          "source": "SRC-0071",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 1; Lemmas 3.1-3.3 (proofs read); journal version METADATA_ONLY"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0002",
+        "DEF-0064"
+      ],
+      "relations": [],
+      "cautions": [
+        "Unrefereed preprint at the inspected level; SRC-0060 calls it claimed.",
+        "The strategies' cells need not shrink to finite sets: the induced total fair maps have unbounded fibres; nothing about R_fin or R_2 follows.",
+        "P4-S083 Proposition 1.1 (R_tot = MLR) is a programme deduction, not a source statement."
+      ]
+    },
+    {
+      "id": "THM-0080",
+      "name": "Rute's chain MLR -> endomorphism random -> automorphism random -> KL random",
+      "statement": "On fair-coin Cantor space every Martin-Löf random is endomorphism random, every endomorphism random is automorphism random, and every automorphism random is Kolmogorov-Loveland random; endomorphism randomness is characterized by balanced, equivalently exhaustive, computable betting strategies.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "a.e.-computable measure-preserving morphisms (SRC-0060 Section 7)"
+      ],
+      "direction": "implications",
+      "source_support": [
+        {
+          "source": "SRC-0060",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 10.4 (proof read), Corollary 10.5, (10.1)"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0064",
+        "DEF-0066",
+        "DEF-0012",
+        "DEF-0002"
+      ],
+      "relations": [],
+      "cautions": [
+        "Morphisms are a.e.-computable, not everywhere total.",
+        "Whether any implication reverses is QST-0002 (SOURCE-STATED OPEN in 2016)."
+      ]
+    },
+    {
+      "id": "THM-0081",
+      "name": "KL betting strategies lose the betting game on open sets",
+      "statement": "For each Kolmogorov-Loveland betting strategy there is a computable bound such that for every k there is an effective open set of measure < 2^-k containing a sequence on which every KL strategy keeps its maximal capital below its bound.",
+      "hypotheses": [
+        "fair-coin Cantor space",
+        "computable non-monotonic betting strategies"
+      ],
+      "direction": "limitation of a strategy class",
+      "source_support": [
+        {
+          "source": "SRC-0019",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Theorem 1 (statement), Definition 3.1, Lemma 3.2 statement"
+        }
+      ],
+      "related_definitions": [
+        "DEF-0012"
+      ],
+      "relations": [],
+      "cautions": [
+        "Single-goal open-set property; it does not decide KLR=MLR (QST-0001) and is used in P4-S083 only as framing."
       ]
     }
   ]

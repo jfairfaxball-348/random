@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S012",
+  "session": "P4-S083",
   "records": [
     {
       "id": "DEF-0001",
@@ -2226,6 +2226,34 @@
         "This is a parameterized schema, not a characterization of every instance.",
         "The identification of CAND-03 with Low^star(CR,CR) is definition-level. No intrinsic characterization of that specific instance is asserted by SRC-0064 in the passages inspected.",
         "Do not replace uniform relativization by ordinary oracle-relative computable randomness; ordinary Low(CR,CR) has a different resource convention."
+      ]
+    },
+    {
+      "id": "DEF-0066",
+      "name": "Automorphism randomness",
+      "object_domain": "point x of fair-coin Cantor space",
+      "effective_resources": "all a.e.-computable measure-preserving automorphisms T and computable non-monotonic betting strategies",
+      "framework": "KL randomness of all automorphism images",
+      "measure_assumptions": "fair-coin Cantor space",
+      "relativization": "not applicable",
+      "aliases": [
+        "automorphism random"
+      ],
+      "formal_summary": "x is automorphism random iff T(x) is Kolmogorov-Loveland random for every a.e.-computable measure-preserving automorphism T of (2^omega, lambda).",
+      "equivalent_characterizations": [],
+      "relationships": [
+        "Endomorphism random implies automorphism random implies KL random (SRC-0060 (10.1))."
+      ],
+      "source_support": [
+        {
+          "source": "SRC-0060",
+          "evidence": "STATEMENT_INSPECTED",
+          "pointer": "Section 10, definition before (10.1)"
+        }
+      ],
+      "cautions": [
+        "Automorphisms are a.e.-computable, not everywhere-total homeomorphisms.",
+        "Do not identify with OH^iso: OH^iso uses total computable fair homeomorphisms and one-hole scans; automorphism randomness is contained in OH^iso because KLR is contained in OH, but no converse is known."
       ]
     }
   ]

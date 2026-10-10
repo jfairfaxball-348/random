@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P1-S001",
+  "session": "P4-S083",
   "records": [
     {
       "id": "QST-0001",
@@ -20,6 +20,26 @@
       "related_definitions": [
         "DEF-0002",
         "DEF-0012"
+      ]
+    },
+    {
+      "id": "QST-0002",
+      "question": "Does any implication in Martin-Löf random -> endomorphism random -> automorphism random -> Kolmogorov-Loveland random reverse?",
+      "status": "SOURCE-STATED OPEN",
+      "source_stating_status": "SRC-0060",
+      "evidence_year": 2016,
+      "status_statement": "SRC-0060 Question 10.8 asks whether any implication in (10.1) reverses; its footnote 11 reports Petrovic's claim (SRC-0071) that would make endomorphism randomness equal to MLR.",
+      "later_status_check_performed": false,
+      "later_status_sources": [],
+      "later_status_evidence_year": null,
+      "later_status_note": "No later status check was made in P4-S083; SRC-0071 and SRC-0019 bear on the first implication only as recorded.",
+      "checked_on": "2026-10-10",
+      "current_status_note": "Recorded at source-stated level only; no openness inference is drawn by the programme.",
+      "related_definitions": [
+        "DEF-0064",
+        "DEF-0066",
+        "DEF-0012",
+        "DEF-0002"
       ]
     }
   ]

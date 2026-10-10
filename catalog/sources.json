@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P4-S082",
+  "session": "P4-S083",
   "checked_on": "2026-10-10",
   "records": [
     {
@@ -1131,7 +1131,7 @@
       "doi": "10.1016/j.tcs.2025.115177",
       "arxiv": "2403.19817",
       "stable_locator": "https://doi.org/10.1016/j.tcs.2025.115177",
-      "access_level": "ABSTRACT_INSPECTED",
+      "access_level": "STATEMENT_INSPECTED",
       "topics": [
         "kolmogorov-loveland-randomness",
         "martin-lof-randomness",
@@ -1144,27 +1144,38 @@
         "Kolmogorov-Loveland betting 2025"
       ],
       "definitions": [],
-      "theorems": [],
+      "theorems": [
+        "THM-0081"
+      ],
       "questions": [
         "QST-0001"
       ],
       "priority_relevance": "Recent status-check source explicitly continuing to describe KLR=MLR as a major open problem.",
-      "notes": "2025 publisher abstract inspected as a later-status check. This supports the status record; it does not establish that no 2026 resolution exists beyond the documented search.",
+      "notes": "2025 publisher abstract inspected as a later-status check. This supports the status record; it does not establish that no 2026 resolution exists beyond the documented search. P4-S083 read the arXiv:2403.19817v2 text: abstract, introduction (classes previously shown equivalent to MLR each contain finitely many strategies that win on small effective open sets; Shen's van Lambalgen pair of atomless general betting strategies), Definitions 2.1-2.4, Theorem 1 (main theorem) and Definition 3.1 (betting game on open sets), Lemma 3.2 statement. The journal version itself was not re-inspected; the reference list gives Petrovic, A universal pair of 1/2-betting strategies, Inf. Comput. 281 (2021) 104703.",
       "inspected_material": [
         "publisher abstract",
-        "arXiv abstract"
+        "arXiv abstract",
+        "P4-S083: arXiv:2403.19817v2 introduction, Sections 2-3 definitions and statements"
       ],
       "pointers": [
-        "Theoretical Computer Science 1037 (2025), 115177"
+        "Theoretical Computer Science 1037 (2025), 115177",
+        "Theorem 1 (main theorem)",
+        "Definition 3.1 (betting game on open sets)",
+        "Introduction: finite universal sets for broader classes; Shen's van Lambalgen pair"
       ],
       "cross_links": [
-        "SRC-0018"
+        "SRC-0018",
+        "SRC-0060",
+        "SRC-0071",
+        "SRC-0072"
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-10",
       "exact_relevance": "Recent status-check source explicitly continuing to describe KLR=MLR as a major open problem.",
       "inspected_claims": [
         "2025 abstract: explicitly states whether KLR equals MLR remains a major open problem.",
-        "Abstract: KL betting strategies lack a finite-strategy property used for broader betting classes that induce MLR."
+        "Abstract: KL betting strategies lack a finite-strategy property used for broader betting classes that induce MLR.",
+        "Theorem 1: for each KL betting strategy there is a computable bound and, for all k, an effective open set of measure < 2^-k containing a sequence on which every KL strategy stays below its bound.",
+        "Introduction: for general, exhaustive (atomless), balanced and half-betting strategy classes, finitely many strategies win on sequences in small effective open sets; KL strategies lack this property."
       ]
     },
     {
@@ -3777,40 +3788,56 @@
         "randomness preserved endomorphism"
       ],
       "definitions": [
-        "DEF-0064"
+        "DEF-0064",
+        "DEF-0066"
       ],
       "theorems": [
-        "THM-0071"
+        "THM-0071",
+        "THM-0080"
       ],
-      "questions": [],
+      "questions": [
+        "QST-0002"
+      ],
       "priority_relevance": "Primary source introducing endomorphism randomness and explicitly showing that computable randomness is not preserved by unrestricted a.e.-computable measure-preserving endomorphisms.",
-      "notes": "Published as Mathematical Logic Quarterly 62(4-5) (2016), 335-366. P3-S001 statement-inspected arXiv:1203.5535v4 at the morphism definition, Definition 10.1, Proposition 10.2, Theorem 10.4 and Corollary 10.7. This source supplies the closest named preservation framework found for CAND-01, but its morphisms are a.e.-computable and no finite-fibre bound is imposed. It does not settle the exact everywhere-total globally k-to-one candidate.",
+      "notes": "Published as Mathematical Logic Quarterly 62(4-5) (2016), 335-366. P3-S001 statement-inspected arXiv:1203.5535v4 at the morphism definition, Definition 10.1, Proposition 10.2, Theorem 10.4 and Corollary 10.7. This source supplies the closest named preservation framework found for CAND-01, but its morphisms are a.e.-computable and no finite-fibre bound is imposed. It does not settle the exact everywhere-total globally k-to-one candidate. P4-S083 read Section 10 of arXiv:1203.5535v4 in full: Definition 10.1, Proposition 10.2, Definition 10.3 (balanced and exhaustive betting strategies), Theorem 10.4 with its proof (endomorphism random iff no balanced, equivalently no exhaustive, computable betting strategy succeeds), Corollaries 10.5-10.7 (endomorphism random implies KL random; CR not preserved by endomorphisms), the chain (10.1) MLR -> endomorphism random -> automorphism random -> KL random, Question 10.8, and footnote 11 (Petrovic's claimed pair of balanced strategies, which the source says would imply endomorphism randomness = MLR).",
       "inspected_material": [
         "Wiley publication metadata/abstract",
         "arXiv:1203.5535v4 full HTML statements",
         "morphism definition in Section 7",
         "Definition 10.1 and Proposition 10.2",
-        "Theorem 10.4 and Corollary 10.7"
+        "Theorem 10.4 and Corollary 10.7",
+        "P4-S083: arXiv:1203.5535v4 Section 10 full text including proof of Theorem 10.4, Corollaries 10.5-10.7, (10.1), Question 10.8, footnote 11"
       ],
       "pointers": [
         "Section 7 morphism definition: a.e.-computable and measure-preserving",
         "Definition 10.1: endomorphism randomness",
         "Proposition 10.2: atomless-space morphism characterization",
-        "Corollary 10.7: computable randomness is not preserved by endomorphisms"
+        "Corollary 10.7: computable randomness is not preserved by endomorphisms",
+        "Definition 10.3: balanced and exhaustive betting strategies",
+        "Corollary 10.5: endomorphism random implies KL random",
+        "(10.1) and Question 10.8: MLR -> ER -> AR -> KLR, does any implication reverse?",
+        "footnote 11: Petrovic's claimed universal pair of balanced strategies"
       ],
       "cross_links": [
         "SRC-0011",
         "SRC-0015",
-        "SRC-0061"
+        "SRC-0019",
+        "SRC-0061",
+        "SRC-0071"
       ],
-      "checked_on": "2026-10-04",
+      "checked_on": "2026-10-10",
       "exact_relevance": "Primary prior art for the unrestricted endomorphism-preservation formulation surrounding CAND-01.",
       "inspected_claims": [
         "A morphism is an a.e.-computable measure-preserving map; an endomorphism is a morphism from a computable probability space to itself.",
         "Endomorphism randomness requires T(x) to be computably random for every endomorphism T.",
         "On atomless computable probability spaces, endomorphism randomness can equivalently be phrased using all morphisms into fair-coin Cantor space.",
         "Computable randomness is not preserved by unrestricted endomorphisms.",
-        "No global finite-cardinality fibre bound or effective inverse-branch requirement appears in the inspected endomorphism-randomness definition."
+        "No global finite-cardinality fibre bound or effective inverse-branch requirement appears in the inspected endomorphism-randomness definition.",
+        "Definition 10.3: a betting strategy is balanced if it only bets on events of conditional probability 1/2, exhaustive if the measure of the information set along every infinite outcome chain tends to 0.",
+        "Theorem 10.4 (atomless spaces): endomorphism random iff no balanced computable betting strategy succeeds iff no exhaustive computable betting strategy succeeds.",
+        "Corollary 10.5: on fair-coin Cantor space every endomorphism random is Kolmogorov-Loveland random.",
+        "(10.1): Martin-Lof random -> endomorphism random -> automorphism random -> Kolmogorov-Loveland random; Question 10.8 asks whether any implication reverses.",
+        "Footnote 11: Petrovic has claimed two balanced betting strategies such that one succeeds on every non-MLR real, which would imply endomorphism randomness equals MLR."
       ]
     },
     {
@@ -4405,6 +4432,108 @@
       "inspected_claims": [
         "Kastermans and Lempp showed the Miller-Nies non-adaptive notions differ from Martin-Lof randomness.",
         "The paper obtains a complete classification of these notions by order of strength (classification not inspected)."
+      ]
+    },
+    {
+      "id": "SRC-0071",
+      "title": "A pair of universal sequence-set betting strategies",
+      "authors": [
+        "Tomislav Petrović"
+      ],
+      "author_ids": [
+        "AUT-0022"
+      ],
+      "year": 2015,
+      "source_type": "preprint",
+      "doi": null,
+      "arxiv": "1210.5968",
+      "stable_locator": "https://arxiv.org/abs/1210.5968",
+      "access_level": "STATEMENT_INSPECTED",
+      "topics": [
+        "sequence-set-betting",
+        "half-betting",
+        "martin-lof-randomness",
+        "nonmonotonic-betting",
+        "universal-strategies"
+      ],
+      "aliases_search_terms": [
+        "sequence-set betting strategy",
+        "half-betting strategies universal pair",
+        "1/2-betting strategies",
+        "Petrovic universal pair"
+      ],
+      "definitions": [],
+      "theorems": [
+        "THM-0079"
+      ],
+      "questions": [],
+      "priority_relevance": "Calibration for P4-S083: two computable sequence-set (half-betting) strategies cover every non-ML-random sequence. Converted in P4-S083 Proposition 1.1 (programme deduction) into: robustness under all total computable fair maps equals MLR. The maps have unbounded fibres; nothing about bounded fibres follows.",
+      "notes": "arXiv:1210.5968v9 (22 Dec 2015) full text read in P4-S083, including Definitions 2.1-2.7, Theorem 1 and the proofs of Lemmas 3.1-3.3. Unrefereed preprint; SRC-0060 footnote 11 describes the result as claimed. A journal version, Petrovic, A universal pair of 1/2-betting strategies, Information and Computation 281 (2021) 104703, is recorded at METADATA_ONLY level from the reference list of SRC-0019; it was not inspected and its identity with the preprint is not verified.",
+      "inspected_material": [
+        "arXiv:1210.5968v9 full text"
+      ],
+      "pointers": [
+        "Definition 2.6: sequence-set betting strategy (level-i cells of measure 2^-i)",
+        "Theorem 1: universal pair",
+        "Lemmas 3.1-3.3 (grids, granular tests, conversion)",
+        "Introduction: no single computable sequence-set strategy is universal"
+      ],
+      "cross_links": [
+        "SRC-0060",
+        "SRC-0019",
+        "SRC-0072"
+      ],
+      "checked_on": "2026-10-10",
+      "exact_relevance": "Unbounded-fibre benchmark for CAND-01: R_tot = MLR (P4-S083 Proposition 1.1).",
+      "inspected_claims": [
+        "Theorem 1: for a Martin-Lof test M there are two computable sequence-set betting strategies S0, S1 such that every sequence failing M fails S0 or S1.",
+        "A sequence-set betting strategy partitions the current clopen cell into two clopen halves of equal measure at each step.",
+        "No single computable sequence-set betting strategy predicts all non-Martin-Lof random sequences."
+      ]
+    },
+    {
+      "id": "SRC-0072",
+      "title": "Betting strategies with bounded splits",
+      "authors": [
+        "Tomislav Petrović"
+      ],
+      "author_ids": [
+        "AUT-0022"
+      ],
+      "year": 2022,
+      "source_type": "preprint",
+      "doi": null,
+      "arxiv": "2212.14279",
+      "stable_locator": "https://arxiv.org/abs/2212.14279",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "kolmogorov-loveland-randomness",
+        "nonmonotonic-betting",
+        "martin-lof-randomness"
+      ],
+      "aliases_search_terms": [
+        "bounded splits betting strategies",
+        "pair of KL strategies non-MLR bounded"
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Navigation only: restrictions on how many positions a pair of KL strategies bets on prevent universality.",
+      "notes": "arXiv abstract page (v1, 29 Dec 2022) read in P4-S083. No result used.",
+      "inspected_material": [
+        "arXiv abstract page"
+      ],
+      "pointers": [
+        "abstract: Conditions I and II"
+      ],
+      "cross_links": [
+        "SRC-0019",
+        "SRC-0071"
+      ],
+      "checked_on": "2026-10-10",
+      "exact_relevance": "Calibration vocabulary for bounded-width/bounded-split betting; not used in any proof.",
+      "inspected_claims": [
+        "Abstract: under either of two bounded-split conditions a pair of KL betting strategies cannot win on every non-MLR sequence."
       ]
     }
   ]

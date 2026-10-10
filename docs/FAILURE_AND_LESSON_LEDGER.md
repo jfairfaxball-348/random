@@ -1771,3 +1771,14 @@ Lesson 2: in such potential arguments, isolate the single place where the strate
 Lesson 3: a construction controlled against blockwise recodings as well produces witnesses robust under those recodings (Theorem 5.1). A separation witness for R₂⊊OH must therefore come from structure that the potential does not control, not from sparse fixing alone.
 
 Lesson 4: when an induction invariant has the form Φ < 2−2^{−i}, check the base case: the initial value equals 2−2^{1}, so the invariant must be non-strict before each stage.
+
+
+## P4-S083 — a hole that covers every candidate cannot be avoided by candidate choice (2026-10-10)
+
+Lesson 1: S082's construction defeats every raw one-hole scan because it can always fix a coordinate outside the held one, and the potential then chooses the value adversarially. A scan whose single held bit is coded over an entire raw tail (one-hole scan of the prefix-difference homeomorphism D′) is never avoided. It does not need to predict the value: it waits until the construction has chosen and reads the choice off a simulated run. When a potential argument handles a class only through candidate avoidance, test the class against holes whose difference sets contain every admissible candidate.
+
+Lesson 2: in a separation, the adversary is the analyst's ally, not an opponent. To show OH ⊄ R₂ it was enough to keep the S082 guarantees against raw scans and to make one specific coded-hole scan win. The only new difficulty was fooling by spurious guessed runs. Disjoint position classes per guess made each fooling event a fresh cylinder of measure 2^{−r}, which compactness can exclude.
+
+Lesson 3: before attacking a "bounded resource vs MLR" question, calibrate against the unbounded version in the literature. Petrović's universal pair of sequence-set strategies shows R_tot = MLR, so fibre-boundedness is exactly the resource at stake in R₂ versus MLR.
+
+Lesson 4: exact fixing-martingales (the savings potential β; the counting potential Π_∞ for ≤2-to-1 maps) exist for every total fair map. The difficulty of such constructions is never "cost" in the true potential, only the computability of the choices. Guessing a left-c.e. potential to precision 2^{−ℓ} costs about ℓ bits, which cancels the compression of ℓ fixed bits.

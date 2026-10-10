@@ -1,8 +1,8 @@
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.
-Last completed session: **P4-S082 (COMPLETED / VALIDATED; OH-CERTIFICATION GATE PASSED: OH∖MLR ≠ ∅; NORTH STAR UNRESOLVED)**.
-Next recommended session: **P4-S083**. Owner/external blocker: **NONE**.
+Last completed session: **P4-S083 (COMPLETED / VALIDATED; NORTH STAR DECIDED NEGATIVELY: R₂ ⊊ OH via a tail-coded k=2 destroyer of some z∈OH^{blk}∖MLR; R₂ VERSUS MLR UNRESOLVED)**.
+Next recommended session: **P4-S084**. Owner/external blocker: **NONE**.
 
 Gate 1 P1-S014 PASS; Gate 2 P2-S006 PASS; Gate 3 P3-S008 PASS. Phase 4 OPEN; Phase 5 CLOSED; Gate 4 NOT reviewed. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
 
@@ -106,3 +106,33 @@ P4-S082 (2026-10-10): THE OH-CERTIFICATION GATE IS PASSED. This is a Phase-4 mat
 * **Frozen.** Original Y/M/H/X; S001–S081; S037; S057 (not invoked); S070–S081. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. No novelty/open/prior-art/publication/outreach claim. Owner/external blocker NONE.
 
 Next: P4-S083, decide R₂ versus MLR. Files: phase4/P4-S082_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _POTENTIAL_AUDIT.py.
+
+
+## P4-S083 — tail-coded holes; north star decided negatively, R₂ ⊊ OH (2026-10-10)
+
+P4-S083 (2026-10-10): THE NORTH STAR R₂ = OH IS DECIDED NEGATIVELY. This is a Phase-4 mathematical result, NOT Gate 4.
+* **Theorem 3.8.** There is a computably random, non-Martin-Löf-random z (≤_T ∅‴) with K(z)∈OH for every computable finite-block recoding K, while D′(z)∉OH. Here D′ is the computable fair homeomorphism D′(z)₀ = z₀, D′(z)ᵢ = zᵢ⊕zᵢ₋₁.
+* **The destroyer.** G = F_{T*}∘D′ is a total computable fair-coin-preserving map with all fibres of size ≤ 2, and G(z)∉CR. Hence z∈OH^{blk}∖R₂.
+* **Mechanism (tail-coded holes).** A one-hole scan of D′(z) holding v_q knows z↾q exactly and the raw tail up to one global complement, so any single absolute tail value determines v_q.
+  * The construction is S082 §5 with candidates taken from pairwise disjoint classes C_{ε↾(i+1)}.
+  * T* waits, holding the least unread virtual bit, until a completed guessed run that is consistent below q shows r = q+2m+4 relatively consistent fixes in [q,∞). It then predicts v_q all-in.
+  * A wrong prediction forces anti-consistency on all r fixes, and class separation bounds this fooling set W by ⅛ of every [σ*_j].
+  * Compactness with L_e = 2+4/w_e selects z∈S∖(O∪W).
+  * Raw holes cannot do this: the potential always fixes a coordinate outside a raw hole, but every candidate above q lies inside a tail-coded hole.
+* **Corollaries.**
+  * R₂ ⊊ OH, R_k ⊊ OH (all k ≥ 2) and R_fin ⊊ OH.
+  * OH^iso ⊊ OH^{blk}: OH is not invariant under computable fair homeomorphisms.
+  * Raw one-hole normalization (the P4-S032 target) fails.
+  * The S082 trichotomy loses case (γ). R₂ versus MLR (α: R₂ = MLR, collapse; β: MLR ⊊ R₂ ⊊ OH) is now the decisive CAND-01 question, and it remains OPEN.
+* **Calibration.**
+  * SRC-0060 §10 (Rute) read in full: endomorphism and automorphism randomness, the chain (10.1), Question 10.8 (recorded as QST-0002, SOURCE-STATED OPEN, 2016), and footnote 11.
+  * SRC-0071 (Petrović, sequence-set strategies; preprint STATEMENT_INSPECTED with proofs read, journal version METADATA_ONLY), THM-0079.
+  * SRC-0019 upgraded to STATEMENT_INSPECTED, THM-0081. SRC-0072 ABSTRACT_INSPECTED. THM-0080 and DEF-0066.
+  * Proposition 1.1, a programme deduction: robustness under ALL total computable fair maps equals MLR (R_tot = MLR). These maps have unbounded fibres, so bounded fibre size is exactly what separates R₂ from MLR.
+  * No novelty, priority or openness inference.
+* **Analysis (§7.1).** The exact savings potential β is a fixing-martingale for every total fair map, so the only obstruction to potential constructions is computable choice.
+* **Audit.** The exact finite audit passes (tail algebra; toy class-separated runs and T* with the exact fooling equivalence; an exact ≤2 fibre count on 2¹⁴ prefixes; the ⅛ series). The frozen S082 audit was re-run and passes.
+* **Unresolved.** R₂ vs MLR, R₂ vs OH^iso, OH^iso vs MLR, R_fin vs R₂, U(H), X∈OH, fixed-S preservation, block-H invariance of OH, TKLR∖MLR, QST-0001.
+* **Frozen.** Original Y/M/H/X; S001–S082; S037; S057 (not invoked); S070–S082. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. No novelty/open/prior-art/publication/outreach claim. Owner/external blocker NONE.
+
+Next: P4-S084, decide R₂ versus MLR. Files: phase4/P4-S083_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _SEPARATION_AUDIT.py.

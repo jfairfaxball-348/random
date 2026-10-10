@@ -1,3 +1,44 @@
+# P4-S083 CLOSE — tail-coded holes; north star decided negatively (R₂ ⊊ OH)
+
+Date: 2026-10-10. Incoming remote main `d789bf0e0b743f9c49c6419d6fffe2639d74c060` (the P4-S082 outgoing SHA) was pinned, P4-S083 was confirmed unique, and the incoming prompt is `authoritative/NEXT_SESSION_PROMPT.md`.
+
+**VALIDATED. The north star R₂ = OH is DECIDED NEGATIVELY: R₂ ⊊ OH. R₂ versus MLR, the incoming primary target, remains unresolved and is now the decisive CAND-01 question.**
+
+**Theorem 3.8 (tail-coded separation).** There is a computably random, non-Martin-Löf-random z, computable from ∅‴, such that K(z)∈OH for every computable finite-block recoding K, but D′(z)∉OH. Here D′(z)₀ = z₀, D′(z)ᵢ = zᵢ⊕zᵢ₋₁ is a computable fair homeomorphism. G = F_{T*}∘D′ is a total computable fair-coin-preserving map with all fibres of size ≤ 2, and G(z)∉CR. On z itself the fibre of G is a singleton.
+
+**Mechanism.**
+* A one-hole scan of D′(z) holding v_q knows z↾q exactly and the raw tail up to one global complement. So any single absolute tail value determines v_q (Lemma 2.1).
+* The S082 §5 construction is rerun with stage-i candidates in pairwise disjoint classes C_{ε↾(i+1)}. It still defeats every raw and block-recoded one-hole scan.
+* T* holds the least unread virtual bit and waits until a completed guessed run that is consistent below q shows r = q+2m+4 relatively consistent fixes at or above q. It then predicts v_q all-in. It never needs to predict the potential's value choices; it reads them off.
+* A wrong prediction forces anti-consistency on all r fixes. Class separation makes the fooling set W at most ⅛ of every [σ*_j]. Compactness with L_e = 2+4/w_e gives z∈S∖(O∪W).
+
+**Consequences.**
+* R₂ ⊊ OH, R_k ⊊ OH (all k ≥ 2) and R_fin ⊊ OH.
+* OH^iso ⊊ OH^{blk}: OH is not homeomorphism-invariant.
+* Raw one-hole normalization (the P4-S032 target) fails.
+* The S082 trichotomy loses case (γ). Remaining: R₂ = MLR (collapse) or MLR ⊊ R₂ ⊊ OH.
+
+**Calibration.**
+* SRC-0060 §10 (Rute) read in full; QST-0002 records Rute's Question 10.8 (SOURCE-STATED OPEN, 2016).
+* SRC-0071 (Petrović, universal pair of sequence-set strategies; preprint with proofs read; journal version metadata only) yields, as a programme deduction, Proposition 1.1: R_tot = MLR (all total computable fair maps, unbounded fibres). So fibre-boundedness is exactly the resource behind R₂ versus MLR.
+* SRC-0019 upgraded; SRC-0072 abstract only; THM-0079–0081, DEF-0066.
+* No novelty, priority or openness inference.
+
+**Analysis.** The savings potential β (and Π_∞ for ≤2-to-1 maps) is an exact fixing-martingale for every total fair map, so the only obstruction to potential constructions is computable choice (§7.1).
+
+**Validation.** The exact finite audit passes, and the frozen S082 audit was re-run and passes. Structured adversarial self-review found no fatal issue. Class separation was added in the first draft to close a fooling loophole, and catalogue IDs were reconciled. No multi-agent review was run.
+
+**Frozen.** P4-S001–S082; original Y/M/H/X; S037; S057 (not invoked); S070–S082. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty, openness, prior-art, publication or outreach claim. Owner/external blocker NONE.
+
+**Files.**
+* phase4/P4-S083_MATHEMATICS.md, phase4/P4-S083_VALIDATION.md, phase4/P4-S083_SEPARATION_AUDIT.py, this close record.
+* catalog/sources.json, theorems.json, definitions.json, questions.json, authors.json, search-log.md.
+* Authoritative records and ledgers.
+
+Next session: **P4-S084**.
+
+## Next-session prompt (copy-ready; identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S084 — R₂ versus MLR after the tail-coded separation: is bounded-fibre robustness just Martin-Löf randomness?
 
 Continue the Fairfax-Ball Randomness Research Programme, ONLY Phase 4 Mathematics, in https://github.com/jfairfaxball-348/random.

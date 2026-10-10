@@ -1071,3 +1071,29 @@ Theorem 5.1: some z∉MLR has K(z)∈OH for every computable finite-block recodi
 New landscape: MLR ⊊ OH = OH_h = R_k^scan; OH^{blk}∖MLR ≠ ∅. R₂=MLR would give R₂⊊OH, deciding the north star negatively; R₂=OH would require R₂∖MLR ≠ ∅. Calibration sources SRC-0069 (Kastermans–Lempp; STATEMENT_INSPECTED, §2 proof read) and SRC-0070 (BHKM CCA 2009; ABSTRACT_INSPECTED), with THM-0077/0078, are recorded; their non-adaptive partial notions are incomparable with OH, and only their method is adapted. No novelty, priority or openness inference.
 
 R₂=OH, R₂=OH^iso, R₂ vs MLR, U(H), X∈OH and fixed-S preservation remain UNRESOLVED. Original Y/M/H/X, S001–S081, S037, S057 (not invoked) and S070–S081 are frozen. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. No novelty/open/prior-art/publication/outreach claim. Owner/external blocker NONE. Next P4-S083: decide R₂ versus MLR. Files: phase4/P4-S082_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _POTENTIAL_AUDIT.py.
+
+## Mathematics checkpoint — P4-S083 (not a gate review)
+
+P4-S083 (2026-10-10): **THE NORTH STAR R₂ = OH IS DECIDED NEGATIVELY.** This is a Phase-4 mathematical result, NOT Gate 4.
+
+Theorem 3.8: there is a computably random, non-ML-random z (≤_T ∅‴) with K(z)∈OH for every computable finite-block recoding K, but D′(z)∉OH, where D′(z)₀ = z₀, D′(z)ᵢ = zᵢ⊕zᵢ₋₁ is a computable fair homeomorphism. G = F_{T*}∘D′ is a total computable fair map with all fibres of size ≤ 2, and G(z)∉CR.
+
+The mechanism is the **tail-coded hole**. A one-hole scan of D′(z) holding v_q knows z↾q exactly and the raw tail up to one complement, so one absolute tail value determines v_q. T* holds the least unread virtual bit and waits until a completed guessed run (S082 §5 construction with candidates in pairwise disjoint classes C_{ε↾(i+1)}) shows r = q+2m+4 relatively consistent fixes in [q,∞). It then predicts v_q all-in. Fooling forces anti-consistency on all r fixes, and class separation bounds the fooling set by ⅛ of every [σ*_j]. Compactness with L_e = 2+4/w_e gives z.
+
+Consequences:
+* R₂ ⊊ OH, R_k ⊊ OH and R_fin ⊊ OH;
+* OH^iso ⊊ OH^{blk}, so OH is not homeomorphism-invariant;
+* raw one-hole normalization fails;
+* the S082 trichotomy loses (γ). **R₂ versus MLR is the decisive remaining CAND-01 question and is OPEN.**
+
+Calibration:
+* SRC-0060 §10: endomorphism and automorphism randomness; QST-0002 = Rute's Question 10.8, SOURCE-STATED OPEN (2016).
+* SRC-0071 (Petrović sequence-set strategies; preprint, proofs read; journal version metadata only) gives, as a programme deduction, R_tot = MLR (all total computable fair maps, with unbounded fibres).
+* SRC-0019 upgraded; SRC-0072 abstract only.
+* No novelty, priority or openness inference.
+
+Unresolved: R₂ vs MLR, R₂ vs OH^iso, OH^iso vs MLR, R_fin vs R₂, U(H), X∈OH, fixed-S preservation, block-H invariance of OH, TKLR∖MLR, QST-0001.
+
+Original Y/M/H/X, S001–S082, S037, S057 (not invoked) and S070–S082 are frozen. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
+
+Next: P4-S084. Record: phase4/P4-S083_MATHEMATICS.md.

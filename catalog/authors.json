@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P4-S082",
+  "session": "P4-S083",
   "records": [
     {
       "id": "AUT-0001",
@@ -362,10 +362,14 @@
       "name": "Tomislav Petrović",
       "topics": [
         "KL-randomness",
-        "nonmonotonic-betting"
+        "half-betting",
+        "nonmonotonic-betting",
+        "sequence-set-betting"
       ],
       "source_ids": [
-        "SRC-0019"
+        "SRC-0019",
+        "SRC-0071",
+        "SRC-0072"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },

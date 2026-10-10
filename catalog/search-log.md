@@ -567,3 +567,17 @@ New records:
 - **SRC-0070 — Bienvenu, Hölzl, Kräling and Merkle, _Separations of non-monotonic randomness notions_, CCA 2009, OASIcs 11, 71–82.** Landing-page metadata and abstract only (ABSTRACT_INSPECTED).
 
 Outcome: no inspected statement concerns adaptive total strategies of bounded postponement width, so OH∖MLR is not obtained from the literature. P4-S082 proves it separately by adapting the expected-martingale/compactness technique (phase4/P4-S082_MATHEMATICS.md). No openness, priority or difficulty inference is drawn. QST-0001 is unchanged.
+
+## P4-S083 — 2026-10-10 — calibration for R₂ versus MLR (bounded versus unbounded fibres)
+
+Purpose: Phase-4 mathematics support only. Before attacking R₂ versus MLR, check the nearest primary frameworks: endomorphism randomness and universal families of non-monotonic or set-splitting strategies. This is not a novelty or openness search.
+
+Queries (web): "Petrović sequence-set betting strategies Martin-Löf random pair universal"; "Petrović A universal pair of 1/2-betting strategies Information and Computation 2021". Fetched: arXiv:1203.5535 (abstract page and v4 PDF), arXiv:1210.5968 (abstract page and v9 PDF), arXiv:2403.19817 (abstract page and v2 PDF), arXiv:2212.14279 (abstract page and PDF; only the abstract was used).
+
+Records:
+- **SRC-0060 (update).** Rute §10 read in full: Definition 10.3, Theorem 10.4 with proof, Corollaries 10.5–10.7, (10.1), Question 10.8 and footnote 11. Added THM-0080, DEF-0066 (automorphism randomness) and QST-0002 (Question 10.8; SOURCE-STATED OPEN, 2016; no later status check).
+- **SRC-0071 (new).** Petrović, _A pair of universal sequence-set betting strategies_, arXiv:1210.5968v9. Full text read, including the proofs of Lemmas 3.1–3.3; recorded THM-0079. The journal version (Inf. Comput. 281 (2021) 104703) is recorded at METADATA_ONLY level, from the reference list of SRC-0019.
+- **SRC-0019 (update).** Petrović, _KL betting strategies lose the betting game on open sets_ (TCS 2025). The arXiv v2 introduction, definitions and Theorem 1 statement were read; upgraded to STATEMENT_INSPECTED; recorded THM-0081.
+- **SRC-0072 (new).** Petrović, _Betting strategies with bounded splits_, arXiv:2212.14279; ABSTRACT_INSPECTED.
+
+Outcome: Proposition 1.1 of phase4/P4-S083_MATHEMATICS.md deduces R_tot = MLR (robustness under all total computable fair maps) from SRC-0071. The inspected sources contain no statement about bounded-fibre maps, so R₂ versus MLR is not obtained from the literature. No openness, priority or difficulty inference is drawn. QST-0001 is unchanged.
