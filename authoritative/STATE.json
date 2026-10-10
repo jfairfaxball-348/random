@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S083",
+  "last_completed_session": "P4-S084",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 79
   },
-  "next_transition": "Run P4-S084 to decide R2 versus MLR, the decisive CAND-01 collapse question after P4-S083 decided the north star negatively (R2 proper-subset OH via the tail-coded k=2 destroyer F_{T*} o D' of some z in OH^blk\\MLR). Either construct z in R2\\MLR (first z in OH^iso\\MLR, defeating coded-hole scans including self-referential tail-coded scans), or prove R2=MLR (or OH^iso=MLR) by orienting coded holes with ML tests, or prove a sharp structural separation theorem. Do not attempt a record-only proof of z0 in OH, and do not resume finite financing, residue tables, unit-column enumeration or multi-hole variants.",
-  "recommended_next_session": "P4-S084",
+  "next_transition": "P4-S085: decide R2 versus MLR by universal bounded-fibre destruction or a high-entropy non-MLR R2 survivor; S084 proved predictable CR error-stream barrier and a.e. balanced two-sheet structure of S083 destroyer.",
+  "recommended_next_session": "P4-S085",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S083",
-    "next_session": "P4-S084",
+    "last_session": "P4-S084",
+    "next_session": "P4-S085",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S083_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S083_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S083_VALIDATION.md",
+    "latest_record": "phase4/P4-S084_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S084_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S084_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -2040,7 +2040,7 @@
       "validation_record": "phase4/P4-S068_VALIDATION.md"
     },
     "current_research_pivot": "phase4/P4_STRATEGIC_PIVOT_AFTER_S069.md",
-    "current_research_target": "DECIDE_R2_VERSUS_MLR_AFTER_NORTH_STAR_DECIDED_NEGATIVELY",
+    "current_research_target": "DECIDE_R2_VERSUS_MLR_BOUNDED_FIBRE_UNIVERSALITY_OR_HIGH_ENTROPY_SURVIVOR",
     "p4_s070_global_linear_reduction": {
       "session": "P4-S070",
       "result": "H_PRESERVATION_EQUIVALENT_TO_ALL_COMPUTABLY_SUPPORTED_XOR_SHEARS_AND_ALL_COMPUTABLE_BLOCKWISE_GL3_PRESERVATION",
@@ -2753,5 +2753,30 @@
       "fixes_applied": true
     },
     "closeout_merge_to_main_required": true
+  },
+  "phase4_s084_balanced_two_sheet_resolution": {
+    "session": "P4-S084",
+    "incoming_main": "4cb2a8b5b6a3a8b527704c3ee89b3a49c9d191ad",
+    "status": "VALIDATED_STRUCTURAL_THEOREMS_R2_VERSUS_MLR_UNRESOLVED",
+    "predictable_CR_error_stream": true,
+    "frequency_half_if_infinite_resolutions": true,
+    "infinitely_resolving_inputs_effectively_ML_null": true,
+    "tail_bound": "lambda(E_Q)<=2^(-Q-3)",
+    "existing_s083_destroyer_exactly_two_to_one_ae": true,
+    "conditional_two_sheet_weights": [
+      0.5,
+      0.5
+    ],
+    "existing_s083_singleton_destroyer_unchanged": true,
+    "R2_vs_MLR_resolved": false,
+    "north_star_R2_OH_refuted_in": "P4-S083",
+    "finite_audit_checks": 8201,
+    "original_Y_M_H_X_unchanged": true,
+    "prior_art_claim": false,
+    "mathematics_record": "phase4/P4-S084_MATHEMATICS.md",
+    "validation_record": "phase4/P4-S084_VALIDATION.md",
+    "close_record": "phase4/P4-S084_CLOSE.md",
+    "next_session": "P4-S085",
+    "owner_external_blocker": null
   }
 }

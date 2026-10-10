@@ -1,3 +1,13 @@
+# P4-S084 CLOSE — predictable errors and balanced a.e. two-sheet destroyer
+
+Incoming main: 4cb2a8b5b6a3a8b527704c3ee89b3a49c9d191ad. Date: 2026-10-10; Phase 4 Mathematics ONLY. Theorem 1 (predictable extraction), Corollary 2 (R2 error-stream CR and 1/2 frequency), Lemmas 3.1–3.2 (geometric tail and restart martingale), Theorem 3 (effective null infinite-resolution locus) and Corollary 4 (UNCHANGED S083 destroyer has two equally weighted preimages a.e.) validated at written-proof level. Finite audit passed 8201 checks; finite checks are not the infinitary proof.
+
+DECISIVE QUESTION UNRESOLVED: R2=MLR or MLR proper-subset R2. S083 R2 proper-subset OH frozen. R2 versus OH^iso, R_fin versus R2, U(H), X in OH and other open matters frozen. Original Y/M/H/X unchanged; no new literature or novelty claims; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 untouched; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. Owner/external blocker NONE.
+
+GitHub connector atomic commit/ref fast-forward and independent GitHub remote-ref check replace unavailable local git ls-remote (container DNS). Next: P4-S085.
+
+## Full copy-ready next prompt (identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S085 — R2 versus MLR: bounded-fibre universality or high-entropy survivor
 
 Continue the Fairfax-Ball Randomness Research Programme at https://github.com/jfairfaxball-348/random. Run ONLY Phase 4 Mathematics session P4-S085.

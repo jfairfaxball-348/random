@@ -1,8 +1,8 @@
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.
-Last completed session: **P4-S083 (COMPLETED / VALIDATED; NORTH STAR DECIDED NEGATIVELY: R₂ ⊊ OH via a tail-coded k=2 destroyer of some z∈OH^{blk}∖MLR; R₂ VERSUS MLR UNRESOLVED)**.
-Next recommended session: **P4-S084**. Owner/external blocker: **NONE**.
+Last completed session: **P4-S084 (COMPLETED / VALIDATED; S083 destroyer balanced two-to-one a.e.; R₂ VS MLR UNRESOLVED)**.
+Next recommended session: **P4-S085**. Owner/external blocker: **NONE**.
 
 Gate 1 P1-S014 PASS; Gate 2 P2-S006 PASS; Gate 3 P3-S008 PASS. Phase 4 OPEN; Phase 5 CLOSED; Gate 4 NOT reviewed. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
 
@@ -136,3 +136,7 @@ P4-S083 (2026-10-10): THE NORTH STAR R₂ = OH IS DECIDED NEGATIVELY. This is a 
 * **Frozen.** Original Y/M/H/X; S001–S082; S037; S057 (not invoked); S070–S082. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. No novelty/open/prior-art/publication/outreach claim. Owner/external blocker NONE.
 
 Next: P4-S084, decide R₂ versus MLR. Files: phase4/P4-S083_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _SEPARATION_AUDIT.py.
+
+## P4-S084 — predictable T* errors and balanced a.e. two-sheet destruction (2026-10-10)
+
+Phase 4 mathematics ONLY. Proved: predictable selection of infinitely many output bits of a computably random sequence yields a computably random prediction-error stream (frequency of mistakes 1/2). Hence a putative R₂ survivor with infinitely many S083 T* resolutions needs an entire CR error stream, not one wrong guess. Anti-consistency cylinders give λ(E_Q)≤2^(−Q−3); an exact restart martingale shows infinitely many T* resolutions occur only on an effectively ML-null input class. Consequently S083's UNCHANGED k=2 fair destroyer G=F_T*∘D′ has exactly two equal-conditional-weight preimages for almost every output, while still destroying an exceptional computably random singleton-fibre z∈OH^blk∖MLR. This refines the existing proof R₂⊊OH, NOT the still-unresolved R₂=MLR versus MLR⊊R₂. Finite sanity audit 8,201 checks, no infinitary computational claim. All original Y/M/H/X, P4-S001–S083, S037/S057, Gate-3 PASS, PA-0001, DEF-0020 frozen; Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No new literature access, novelty, openness or publication assertions. Next P4-S085: bounded-fibre universality or high-entropy R₂ survivor. Records in phase4/P4-S084_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _EXTRACTION_AUDIT.py.

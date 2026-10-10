@@ -1097,3 +1097,7 @@ Unresolved: R₂ vs MLR, R₂ vs OH^iso, OH^iso vs MLR, R_fin vs R₂, U(H), X�
 Original Y/M/H/X, S001–S082, S037, S057 (not invoked) and S070–S082 are frozen. PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Phase 4 OPEN, Phase 5 CLOSED.
 
 Next: P4-S084. Record: phase4/P4-S083_MATHEMATICS.md.
+
+## Mathematics checkpoint — P4-S084 (not a gate review)
+
+P4-S084 (2026-10-10): Theorem 1 gives computable randomness of any infinite predictable-error selection from a CR output. Applied to S083's T*, any R₂ member with infinitely many resolutions must have a computably random error stream with limiting mistake frequency 1/2. The uniform tail event E_Q from S083's anti-consistency cylinders has measure at most 2^(−Q−3). An explicit restart martingale makes the infinite-resolution input locus effectively ML-null. The UNCHANGED S083 k=2 fair destroyer G=F_T*∘D′ therefore has exactly two equally weighted preimages on almost every output, but still destroys the original exceptional singleton-fibre witness. This strengthens S083 R₂⊊OH and does NOT settle R₂=MLR or MLR⊊R₂. Original Y/M/H/X and P4-S001–S083 frozen. PA-0001, DEF-0020, Gate-3 PASS unchanged; Gate 4 NOT REVIEWED; Phase 4 OPEN, Phase 5 CLOSED. Next P4-S085. Records in phase4/P4-S084_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md. No novelty, openness, literature-access or publication claim.
