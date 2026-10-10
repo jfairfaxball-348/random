@@ -1,3 +1,45 @@
+# P4-S088 CLOSE — asymmetric loci, translation pairs and the countable-coset survivor
+
+Date 2026-10-10. Phase 4 Mathematics ONLY.
+
+**Entry checks.**
+* Incoming independently pinned remote main: `c820588d2936d1a6fe28cee84fca86699e65610a`. This is the P4-S087 atomic close commit; its parent `7435c93…` is the P4-S086 outgoing SHA.
+* P4-S088 files were absent and the session was unused at entry.
+* Session branch: `claude/p4-s088-e0-breaking-b8ccnj`.
+
+**Result.** R₂ versus MLR is NOT decided. Proved:
+* **Theorem A.** F₂ admits positive-measure asymmetric double loci: the explicit G_asym has exact weights ¼, ¾ on a closed set of measure ≈ 0.5776.
+  * FD₂ frame straightening therefore fails for a single map (via P4-S087 Lemma 10).
+  * G_asym is harmless (P4-S003 clopen split), and a diluted copy lies in DZ₂.
+* **Theorem B.** For every computable frame J, some CR-preserving translation-pair map G_c (a one-hole scan after a linear frame) lies outside DZ₂^J. Every finite set of translation pairs straightens linearly. Co-dispersibility in one frame is not the right invariant.
+* **Theorem C.** One z ∈ CR∖MLR survives EVERY width-two map whose difference vectors occupy countably many cosets of the density-zero subgroup (CDZ₂).
+  * The class contains DZ₂, FD₂^K and all one-hole scans after every computable affine K, and every T∘D′∘J for affine J (S083's T*∘D′ included).
+  * It is not co-dispersible in any single frame. The mechanism is frame-free: fresh parities annihilate all dominant difference cosets.
+* **Corollaries.** R₂^{cdz}∖MLR ≠ ∅; R₂^{cdz} ⊊ R₂^{fd}; OH^{aff}∖MLR ≠ ∅; OH^{aff} ⊊ OH^{blk}; no family inside one CDZ₂^J is universal; the S084 error-stream requirement is met on all affine frames.
+* **Proposition D.** An explicit nonlinear two-frame instance (K_mix, K′_mix) with atomless difference cosets, at which both survivor mechanisms stop. It is a mechanism result only: its fixed-hold witnesses preserve CR.
+* **Frontier.** R₂ versus MLR is now located at nonlinear (uncountable-coset) E₀-breaking ambiguity in every frame.
+* Written validation is in `phase4/P4-S088_VALIDATION.md`. The finite audit `phase4/P4-S088_COSET_AUDIT.py` prints `ALL P4-S088 AUDITS PASS` (92,724 checks). The P4-S087 audit still passes.
+
+**Not proved.**
+* R₂ = MLR or MLR ⊊ R₂.
+* R₂ ⊊ R₂^{cdz}.
+* A survivor for FD₂^{K_mix} ∪ FD₂^{K′_mix}, or for OH^iso.
+* A universal width-two family.
+* Single-map DZ₂-straightening.
+* No quantifier swap of P4-S086 is claimed.
+
+**Frozen.**
+* All S001–S087 mathematics and the original Y/M/H/X.
+* Literature at recorded access levels; nothing was fetched.
+* PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
+* Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
+
+No novelty, openness, priority, publication or outreach claim. Owner/external blocker: NONE.
+
+**Atomic close mechanism.** One commit on the session branch with parent the verified P4-S087 main. It is pushed, then fast-forwarded non-force onto main, and the remote `refs/heads/main` is independently re-read. The outgoing SHA is the hash of this close commit; a commit cannot embed its own hash. Next: P4-S089.
+
+## Full copy-ready P4-S089 prompt (identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S089 — Nonlinear E₀-breaking ambiguity: almost-invariant halvings or a rigid universal family
 
 Continue the Fairfax-Ball Randomness Research Programme at https://github.com/jfairfaxball-348/random. Run ONLY Phase 4 Mathematics session P4-S089.

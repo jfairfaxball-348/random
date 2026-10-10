@@ -1806,3 +1806,13 @@ Failure A (Route A): coded-hole observers that read a universal ML test reduce t
 Failure B (Route B): the S082 counting potential is exact on tracked fixings and searchable without a modulus (obstacle (a) removed), but its overcount E (0 ≤ E ≤ A) can be exploited by self-referential observers. Such an observer inflates every unsearched child and concentrates un-overcounted capital on the searched one. Minimisation therefore stalls exactly at non-dispersible (E₀-breaking) ambiguity, e.g. tail codes.
 
 Lesson: dispersible ambiguity is harmless all at once (Theorem 4), and that is a genuine multi-observer no-go, strictly beyond S086's rank-one form. But tail codes beat it (Theorem 8: R₂⊊R₂^fd). Any decision of R₂ versus MLR must handle ambiguity that is non-dispersible in every computable frame. Do not re-prove S087 in another frame as progress. Do not confuse co-dispersibility in one frame with universality-avoidance for homeomorphism-closed families such as F₂. All guards intact.
+
+## P4-S088 — overriding R₂ versus MLR target not closed (2026-10-10)
+
+Failure A (Route B beyond affine frames): the Theorem C parity mechanism needs fresh functionals annihilating the dominant difference cosets of all active observers. For one-hole scans after nonlinear causal frames (K_mix, K′_mix), difference cosets are atomless, and every fresh parity separates one of the two pairs with probability ≥ ¼ (Proposition D). Nonlinear almost-invariant halvings were not constructed.
+
+Failure B (S083-type separation R₂⊊R₂^cdz): a nonlinear self-reading observer sees each constraint separate its candidates only with probability ≥ ¼. The S083 Lemma 3.6 resolution step then depends on uncontrolled control bits of the witness. Not completed.
+
+Failure C (Route A): partners of non-MLR points under computable fair involutions are again non-MLR, so the S087 race symmetry persists for nonlinear tail codes. No universal family was obtained.
+
+Lesson: frame straightening (co-dispersibility in one frame) is the wrong invariant. It fails for the CR-preserving G_asym (FD) and for the CR-preserving translation family (DZ), and it is unnecessary for a common survivor (Theorem C). The operative invariant is the joint supply of fresh halvings almost invariant under the dominant partner involutions of all active observers. That supply exists for countable-coset (affine-frame) ambiguity and is open for nonlinear frames. Do not present frame-straightening of CR-preserving maps as progress on R₂ versus MLR. Do not over-read Proposition D: its fixed-hold witnesses preserve CR. All guards intact.
