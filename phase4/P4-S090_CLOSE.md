@@ -1,3 +1,25 @@
+# P4-S090 close — nonlinear readable separation
+
+Date: 2026-10-10. Phase 4 Mathematics ONLY.
+
+**Entry.** Independently pinned incoming main: 560f8a1e16a69aaf98a6b8328bfc893b09398d30, the S089 atomic close, parent 0009e00dff9d75b70539e513e544f4b89b8040f4. Git and GitHub API agreed. S090 was unused; live open PRs: none. Session branch: phase4/P4-S090-mathematics.
+
+**Outcome: authorized alternative (C) proved.** Theorem 7 constructs a single z∈R₂^{cdz}∖MLR destroyed by G_*=F_T∘K_mix, where T is an everywhere-total, globally one-hole self-reading scan. Its target resolutions are all correct and infinite; the destructive fibre is singleton. Corollary 8 proves R₂⊊R₂^{cdz}, OH^iso⊊OH^aff and failure of K_mix-invariance for R₂^{cdz}.
+
+The proof restricts the CDZ₂ survivor to data-only parity constraints in disjoint positive-density stage pools. A conditional 1/4 separation estimate gives Pr(fewer than r readable constraints)≤2^r(7/8)^L. A control-only stall cover costs at most 1/32 relative to every true state; class-separated false readings cost at most 1/8. Compactness has the strict margin 27/8>2. No assumption of independent separation indicators or of an independently random final control sequence is made. The observer uses no validity oracle; only selection of the final witness uses V′.
+
+**Not proved.** R₂=MLR or MLR⊊R₂; Conjecture R; a survivor for the two-frame union; a universal width-two family; an impossibility for all guessed-run constructions; R₂=OH^iso. The remaining original-source and fixed-S questions stay separate.
+
+**Validation.** Written adversarial self-review in P4-S090_VALIDATION.md; 92,802 exact S090 checks passed. Frozen S088 (92,724) and S089 (143,921) audits passed. Finite checks supplement the infinite proof. No Lean, independent-agent verification or hosted CI success is claimed. No tracked workflow files and no hosted run for the incoming SHA were observed.
+
+**Authority synchronization.** STATE top-level and phase4_mathematics current pointers, gates, decisions, session/failure ledgers and entry summaries are synchronized. Previously stale scalar S084/S085 current pointers were corrected; historical findings were preserved. Source records and all S001–S089 mathematics are unchanged.
+
+**Frozen.** Original Y/M/H/X; all earlier results and recorded source-access levels; PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged; Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No novelty, external openness, priority, publication or outreach claim. Owner/external blocker: NONE.
+
+**Atomic delivery.** This record belongs to the single S090 session commit with parent the incoming SHA. Push the session branch, fast-forward main non-force, and independently read remote main. The outgoing SHA is the hash of this atomic close commit: a commit cannot contain its own hash. The final report supplies the observed SHA. No S091 mathematics is executed.
+
+## Full copy-ready P4-S091 prompt (identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S091 — Beyond data-only survival: defeat nonlinear self-readers or prove a global obstruction
 
 Continue the Fairfax-Ball Randomness Research Programme at https://github.com/jfairfaxball-348/random. Run ONLY Phase 4 Mathematics session P4-S091.
