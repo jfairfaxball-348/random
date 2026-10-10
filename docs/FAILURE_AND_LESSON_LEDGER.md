@@ -1798,3 +1798,11 @@ Failure A: A putative universal width-two filtration cannot be repaired just by 
 Failure B: Multiple distinct-looking observations F_i=Q_i∘F do not overcome this when each Q_i preserves CR. One non-MLR CR preimage of a fixed CR non-MLR output through F survives the ENTIRE family; for computable fair output homeomorphisms their vulnerability sets coincide exactly.
 
 Lesson: source-side partition incompatibility is necessary for any universal finite pair, not sufficient; output relabelling is inadequate even when the original observer already has global two-fibre width. Avoid the quantifier error ∀F∃x_F => ∃x∀F. The genuine R₂=MLR versus MLR⊊R₂ problem remains. Existing prior-art observation of non-universality of one sequence-set strategy in SRC-0071's inspected preprint is respected; no novelty/prior-art claim. All guards intact.
+
+## P4-S087 — overriding R₂ versus MLR target not closed (2026-10-10)
+
+Failure A (Route A): coded-hole observers that read a universal ML test reduce to entry-time races between z and its computable fair partners φ(z), which are again non-MLR. Bipartite involution families allow adversarial half-orbit always-lose enumerations. Non-bipartite families cap the all-loss fraction but force no computably detectable bias. No universal pair was obtained.
+
+Failure B (Route B): the S082 counting potential is exact on tracked fixings and searchable without a modulus (obstacle (a) removed), but its overcount E (0 ≤ E ≤ A) can be exploited by self-referential observers. Such an observer inflates every unsearched child and concentrates un-overcounted capital on the searched one. Minimisation therefore stalls exactly at non-dispersible (E₀-breaking) ambiguity, e.g. tail codes.
+
+Lesson: dispersible ambiguity is harmless all at once (Theorem 4), and that is a genuine multi-observer no-go, strictly beyond S086's rank-one form. But tail codes beat it (Theorem 8: R₂⊊R₂^fd). Any decision of R₂ versus MLR must handle ambiguity that is non-dispersible in every computable frame. Do not re-prove S087 in another frame as progress. Do not confuse co-dispersibility in one frame with universality-avoidance for homeomorphism-closed families such as F₂. All guards intact.

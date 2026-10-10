@@ -1,3 +1,39 @@
+# P4-S087 CLOSE — dispersed survivor and the E₀-breaking frontier
+
+Date 2026-10-10. Phase 4 Mathematics ONLY.
+
+**Entry checks.**
+* Incoming independently pinned remote main: `7435c93ec127f4fc2527a883917fb90784db4464`. This is the P4-S086 atomic close commit; its parent `453439b…` is the P4-S085 outgoing SHA.
+* P4-S087 files were absent and the session was unused at entry.
+* Session branch: `claude/p4-s087-two-observer-dxy96o`.
+
+**Result.** R₂ versus MLR is NOT decided; neither Route A nor Route B closed. Proved:
+* **Theorem 4 (dispersed survivor).** One z ∈ CR∖MLR survives EVERY width-two fair map whose double fibres a.s. have density-zero (in particular, finite) difference sets. The quantifier order is ∃z∀G over an infinite, non-rank-one class.
+* **Corollaries 6–7.** No family contained in a single computable frame's DZ₂^J is universal. One graded frame contains every one-hole scan of every K∘D′ʲ(z), so every T∘D′, together with all raw and block-recoded scans.
+* **Theorem 8.** R₂ ⊊ R₂^{fd}, via the tail-coded F_{T*}∘D′ ∉ FD₂.
+* **Proposition 9 and Lemma 10.** Homeomorphism closure of R₂^{fd}, and symmetric fibre weights for finite-difference maps.
+* **Frontier.** R₂ versus MLR now lies exactly at E₀-breaking (non-dispersible) binary ambiguity, present in every computable frame.
+* Written validation is in `phase4/P4-S087_VALIDATION.md`. The finite audit `phase4/P4-S087_DISPERSION_AUDIT.py` prints `ALL P4-S087 AUDITS PASS`.
+
+**Not proved.**
+* R₂ = MLR or MLR ⊊ R₂.
+* A universal width-two pair or family.
+* A survivor for all of F₂.
+* The frame-straightening question.
+* No quantifier swap of S086 is claimed.
+
+**Frozen.**
+* All S001–S086 mathematics and the original Y/M/H/X.
+* Literature at recorded access levels; nothing was fetched.
+* PA-0001 UNRESOLVED_UNDER_INSPECTED_EVIDENCE; DEF-0020 unchanged.
+* Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
+
+No novelty, openness, priority, publication or outreach claim. Owner/external blocker: NONE.
+
+**Atomic close mechanism.** One commit on the session branch with parent the verified P4-S086 main. It is pushed, then fast-forwarded non-force onto main, and the remote `refs/heads/main` is independently re-read. The outgoing SHA is the hash of this close commit; a commit cannot embed its own hash. Next: P4-S088.
+
+## Full copy-ready P4-S088 prompt (identical to authoritative/NEXT_SESSION_PROMPT.md)
+
 # P4-S088 — The E₀-breaking frontier: frame straightening or a homeomorphism-closed survivor
 
 Continue the Fairfax-Ball Randomness Research Programme at https://github.com/jfairfaxball-348/random. Run ONLY Phase 4 Mathematics session P4-S088.
