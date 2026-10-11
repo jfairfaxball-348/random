@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "session": "P4-S083",
-  "checked_on": "2026-10-10",
+  "session": "P4-S093",
+  "checked_on": "2026-10-11",
   "records": [
     {
       "id": "SRC-0001",
@@ -4534,6 +4534,107 @@
       "exact_relevance": "Calibration vocabulary for bounded-width/bounded-split betting; not used in any proof.",
       "inspected_claims": [
         "Abstract: under either of two bounded-split conditions a pair of KL betting strategies cannot win on every non-MLR sequence."
+      ]
+    },
+    {
+      "id": "SRC-0073",
+      "title": "Benign approximations and non-speedability",
+      "authors": [
+        "Rupert Hölzl",
+        "Philip Janicki"
+      ],
+      "author_ids": [
+        "AUT-0078",
+        "AUT-0080"
+      ],
+      "year": 2023,
+      "source_type": "preprint",
+      "doi": null,
+      "arxiv": "2303.11986",
+      "stable_locator": "https://arxiv.org/abs/2303.11986",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "left-ce-reals",
+        "speedability",
+        "martin-lof-randomness"
+      ],
+      "aliases_search_terms": [
+        "speedable left-c.e. numbers",
+        "regainingly approximable",
+        "nearly computable",
+        "non-speedable non-random left-c.e."
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Calibration only for the P4-S093 left-c.e. window-skip obligation; no priority or openness use.",
+      "notes": "arXiv abstract (v3, 15 Apr 2024) seen through a P4-S093 web-search excerpt. The excerpt states that the paper studies regainingly approximable and nearly computable left-computable numbers and holds the keys to Merkle and Titov's question whether, among left-computable numbers, Martin-Löf randomness is equivalent to non-speedability; the answer itself is reported in SRC-0074's introduction excerpt. Author homepage lists a Journal of Mathematical Logic version (metadata only). No result used in any proof.",
+      "inspected_material": [
+        "arXiv abstract excerpt via web search (P4-S093)"
+      ],
+      "pointers": [
+        "abstract"
+      ],
+      "cross_links": [
+        "SRC-0074"
+      ],
+      "checked_on": "2026-10-11",
+      "exact_relevance": "Indicates (with SRC-0074) that 'non-MLR implies speedable' fails for left-c.e. reals in general; whether such examples are computably random was not determined.",
+      "inspected_claims": [
+        "Abstract: constructs a non-computable number that is regainingly approximable and nearly computable, and a left-computable number that is nearly computable but not regainingly approximable, and uses this to answer an open question of Merkle and Titov on speedability versus Martin-Löf randomness."
+      ]
+    },
+    {
+      "id": "SRC-0074",
+      "title": "Speedability of computably approximable reals and their approximations",
+      "authors": [
+        "George Barmpalias",
+        "Nan Fang",
+        "Wolfgang Merkle",
+        "Ivan Titov"
+      ],
+      "author_ids": [
+        "AUT-0065",
+        "AUT-0081",
+        "AUT-0019",
+        "AUT-0082"
+      ],
+      "year": 2026,
+      "source_type": "preprint",
+      "doi": null,
+      "arxiv": "2603.26484",
+      "stable_locator": "https://arxiv.org/abs/2603.26484",
+      "access_level": "ABSTRACT_INSPECTED",
+      "topics": [
+        "left-ce-reals",
+        "speedability",
+        "martin-lof-randomness"
+      ],
+      "aliases_search_terms": [
+        "speedable approximation",
+        "d.c.e. reals speedability Martin-Löf",
+        "Solovay complete left-c.e."
+      ],
+      "definitions": [],
+      "theorems": [],
+      "questions": [],
+      "priority_relevance": "Calibration only for the P4-S093 left-c.e. window-skip obligation; no priority or openness use.",
+      "notes": "arXiv abstract (27 Mar 2026) and a short introduction excerpt seen through a P4-S093 web search. Search metadata also lists an Information and Computation 311 (2026) version (metadata only). The introduction excerpt states: Merkle and Titov asked whether all nonrandom left-c.e. reals are left-c.e. speedable; this was later answered in the negative by Hölzl and Janicki (SRC-0073). No result used in any proof.",
+      "inspected_material": [
+        "arXiv abstract and introduction excerpt via web search (P4-S093)"
+      ],
+      "pointers": [
+        "abstract",
+        "introduction, Remark 1.7 and Question 1 (excerpt)"
+      ],
+      "cross_links": [
+        "SRC-0073"
+      ],
+      "checked_on": "2026-10-11",
+      "exact_relevance": "States, at excerpt level, that not every nonrandom left-c.e. real is left-c.e. speedable; abstract states that for d.c.e. reals and approximations speedability is equivalent to non-Martin-Löf-randomness.",
+      "inspected_claims": [
+        "Abstract: for d.c.e. reals and d.c.e. approximations, being speedable is equivalent to not being Martin-Löf random; every computably approximable real has a speedable computable approximation.",
+        "Introduction excerpt: the question whether all nonrandom left-c.e. reals are left-c.e. speedable was answered negatively by Hölzl and Janicki."
       ]
     }
   ]

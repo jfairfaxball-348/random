@@ -1856,3 +1856,18 @@ Failed or incomplete routes, recorded precisely:
 5. Separation: designed fooling by mirror runs is an invariant split in disguise; for non-commuting involutions a family closed only under single images has a computably recognizable center, and closing it under the generated group is the S089 invariance problem; linearization by control conditioning (S091 Proposition 6) introduces value constraints that tail-coded readers separate. No convergent construction found.
 
 Lessons: every known destroyer of a CR∖MLR point is an orientation reader (Theorem 1 instance), so the decisive question is now GOL (structurally partner-excluding c.e. evidence for every CR∖MLR source) versus global entanglement of a survivor. External speedability-type literature for left-c.e. reals was considered but NOT used, because it is not catalogued at any access level. Process: a usage-limit interruption was handled by scratch commits on a side branch at the owner's instruction; the session still closes with one atomic commit.
+
+## P4-S093 — orientation as autoreducibility; failed and blocked routes (2026-10-11)
+
+Failed or incomplete routes, recorded precisely:
+
+1. **GOL by family shapes.** Theorem A shows that GOL in a frame is exactly Turing autoreducibility of the frame image. Failing-test-derived families give, at each hold, a derived Solovay test (ψ_h(V_{n(h)}))_h, which a non-MLR source may fail. No construction of a partner-excluding family from an arbitrary failing test was found. Race sub-tests remain circular, and universal tests remain entangled.
+2. **Left-c.e. Solovay exclusion of landing.** The landing sets have measure at most δ_h+2^{−N(h)} with δ_h non-increasing, so summability would give a computable modulus. The route is void for every non-computable source. An earlier "Σδ_h=∞ for MLR sources" corollary was recognised as trivial and withdrawn before recording.
+3. **Monotone transfer.** Making a source left-c.e. in some frame forces it to be Δ⁰₂. CR∖MLR contains sources ≡_T∅″, so monotone orientation cannot cover CR∖MLR.
+4. **Category counterexample to GOL.** 2-generics avoid AR^iso, but CR∖MLR is meager in itself (Lemma M), so the Baire argument cannot be run inside CR∖MLR.
+5. **Single-step forcing cost.** The specified-side bias can be 1: one all-in protected bet inside a tail-coded window, together with a Φ predicting the dead branch. Amortization handles non-adaptive bettors, but protected self-readers can align with the construction's own forcing windows. The Amortized Specified-Side Cost Lemma (ASSCL) remains unproved.
+
+Lessons:
+* Before attacking an open-ended lemma, identify its classical content. GOL turned out to be an autoreducibility statement whose proof would also decide part of a source-stated open question (QST-0002), which calibrates the equality route.
+* The first separation milestone (a CR∖MLR source outside AR^iso) is strictly weaker than survival, yet already meets the self-reader obstruction.
+* Literature on speedability is now catalogued at ABSTRACT_INSPECTED level (SRC-0073, SRC-0074) as calibration only.

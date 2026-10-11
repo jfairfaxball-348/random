@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "session": "P4-S083",
+  "session": "P4-S093",
   "records": [
     {
       "id": "AUT-0001",
@@ -329,7 +329,8 @@
       "source_ids": [
         "SRC-0018",
         "SRC-0067",
-        "SRC-0070"
+        "SRC-0070",
+        "SRC-0074"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -1001,7 +1002,8 @@
         "chaitin-omega"
       ],
       "source_ids": [
-        "SRC-0059"
+        "SRC-0059",
+        "SRC-0074"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -1184,7 +1186,8 @@
         "algorithmic-randomness"
       ],
       "source_ids": [
-        "SRC-0070"
+        "SRC-0070",
+        "SRC-0073"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     },
@@ -1198,6 +1201,42 @@
       ],
       "source_ids": [
         "SRC-0070"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0080",
+      "name": "Philip Janicki",
+      "topics": [
+        "left-ce-reals",
+        "speedability"
+      ],
+      "source_ids": [
+        "SRC-0073"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0081",
+      "name": "Nan Fang",
+      "topics": [
+        "left-ce-reals",
+        "speedability"
+      ],
+      "source_ids": [
+        "SRC-0074"
+      ],
+      "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
+    },
+    {
+      "id": "AUT-0082",
+      "name": "Ivan Titov",
+      "topics": [
+        "left-ce-reals",
+        "speedability"
+      ],
+      "source_ids": [
+        "SRC-0074"
       ],
       "navigation_note": "Association recorded only from catalogued literature; this is a research-navigation index, not a ranking."
     }

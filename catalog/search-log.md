@@ -581,3 +581,13 @@ Records:
 - **SRC-0072 (new).** Petrović, _Betting strategies with bounded splits_, arXiv:2212.14279; ABSTRACT_INSPECTED.
 
 Outcome: Proposition 1.1 of phase4/P4-S083_MATHEMATICS.md deduces R_tot = MLR (robustness under all total computable fair maps) from SRC-0071. The inspected sources contain no statement about bounded-fibre maps, so R₂ versus MLR is not obtained from the literature. No openness, priority or difficulty inference is drawn. QST-0001 is unchanged.
+
+## P4-S093 — 2026-10-11 — calibration for the orientation/autoreducibility route and the left-c.e. instance
+
+Purpose: Phase-4 mathematics support only. P4-S093 showed (Theorem A) that S092's Global Orientation Lemma is equivalent to Turing autoreducibility after a computable fair homeomorphism. It also reduced the left-c.e. instance to a window-skip (non-creeping) property of approximations. Two bounded searches checked whether the literature frames either question. This is not a novelty or openness search.
+
+Queries (web, via the session search tool):
+- "autoreducibility of random sequences Ebert Merkle Vollmer"; "Martin-Löf random not Turing autoreducible"; "computably random autoreducible sequence". Results were metadata and truncated abstract excerpts only (dblp listing; Ebert–Merkle–Vollmer, SIAM J. Comput. 32(6) (2003) 1542–1569, and MFCS 2000/2002 versions). No statement was read in full. No source record was created and nothing is used.
+- "speedable left-c.e. numbers Merkle Titov"; "benign approximations non-speedability Hölzl Janicki"; "non-speedable left-c.e. real not Martin-Löf random". New records SRC-0073 (Hölzl–Janicki, arXiv:2303.11986) and SRC-0074 (Barmpalias–Fang–Merkle–Titov, arXiv:2603.26484), both ABSTRACT_INSPECTED. SRC-0074 includes an introduction excerpt seen through the search tool.
+
+Outcome: at abstract/excerpt level, not every non-random left-c.e. real is left-c.e. speedable (SRC-0074 introduction excerpt, attributing the answer to SRC-0073). Whether such reals can be computably random, and whether speedability would yield window skips at the reader's reached holds, were not determined. Neither source is used in any proof. No openness, priority or difficulty inference is drawn. QST-0001 and QST-0002 are unchanged; QST-0002 is cited in P4-S093 Corollary A3 only at its recorded status.
