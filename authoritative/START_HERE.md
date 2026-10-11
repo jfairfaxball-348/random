@@ -2,6 +2,8 @@
 
 **Live checkpoint: P4-S091 completed; P4-S092 next.** S091 proves a scoped mixed-run bounded-concentration obstruction and identifies sharp failure under unbounded conditioning. R₂ versus MLR and Conjecture R remain unresolved. See authoritative/STATE.json and authoritative/NEXT_SESSION_PROMPT.md. Earlier session-specific next-step references below are historical.
 
+**Owner direction, 2026-10-11 — S092 NOT EXECUTED.** The next session must make a sustained attempt to prove R₂=MLR or construct z∈R₂∖MLR. Multiple internal proof gates, dependent obligations, substantive repairs and changes of route within S092 are authorized; the previous ONE bounded attack limit is superseded. A partial lemma is an intermediate result to apply, not a preselected stopping point. Programme phase gates and proof standards are unchanged. See authoritative/NEXT_SESSION_PROMPT.md for the full mandate.
+
 Repository: https://github.com/jfairfaxball-348/random
 
 ## Read in this order

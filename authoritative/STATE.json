@@ -52,7 +52,7 @@
     "questions": 2,
     "authors": 79
   },
-  "next_transition": "P4-S092: attack unbounded conditioned concentration toward R2=MLR or a full R2 non-MLR survivor. S091 proves a bounded-projection-defect mixed-run conditional-capital obstruction in both exact nonlinear frames; its unrestricted extension fails at sharp conditioning amplification. No further bounded-defect variant or fixed-frame separation as substitute.",
+  "next_transition": "P4-S092: sustained attempt to decide R2=MLR or construct a full R2 non-MLR survivor. Work through exact target quantifiers, candidate construction, central obstruction, substantive repairs, full-family closure, the opposite alternative if needed, and adversarial proof validation. Multiple internal proof gates and route changes are authorized within one session; no one-attack or one-lemma stopping rule. P4-S092 is NOT EXECUTED.",
   "recommended_next_session": "P4-S092",
   "active_blocker": null,
   "candidate_selected": true,
@@ -3012,5 +3012,20 @@
     "gate_4": "NOT_REVIEWED",
     "phase_4": "OPEN",
     "phase_5": "CLOSED"
+  },
+  "next_session_owner_direction": {
+    "date": "2026-10-11",
+    "status": "HANDOFF_AMENDED_ONLY_S092_NOT_EXECUTED",
+    "request_verbatim": "rewrite the next session prompt to be more aggressive in its attack on R2 Vs MLR. Give it more space to work through more gates and obligations. Ask it to genuinely attempt to resolve the central target",
+    "mathematics_checkpoint": "6633f88ba8a0826442618f5062cb2d74b83c9e86",
+    "supersedes": "P4-S092 handoff's ONE bounded GLOBAL attack limit",
+    "scope": "Sustained multi-gate proof attempt within Phase 4 session P4-S092; no S093 execution",
+    "primary_target": "Prove R2=MLR or construct z in R2 minus MLR",
+    "multiple_internal_proof_gates_authorized": true,
+    "substantive_repairs_and_route_changes_authorized": true,
+    "partial_result_not_preselected_endpoint": true,
+    "proof_standards_unchanged": true,
+    "programme_phase_gates_unchanged": true,
+    "next_prompt": "authoritative/NEXT_SESSION_PROMPT.md"
   }
 }
