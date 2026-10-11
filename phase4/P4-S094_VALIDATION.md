@@ -1,0 +1,9 @@
+# P4-S094 — adversarial validation
+
+2026-10-11. Written proof review plus offline exact Fraction audit; NOT Lean, peer review or hosted CI.
+
+Theorem 1: T queries virtual bit 0 only for h≥1 and never queries h; on [1] it halts at every h≥2, disproving all-P eventual divergence. The wrong subset A_h=[1]∩{x_h=1} has positive measure 1/4 and infinitely many free continuation bits. The protected d is nonnegative, rational, total, and martingale-fair with values 1/2 and 3/2 after its first bet. Savings representation A=d (<2), B=0 has integrable B∞. For P=full the S089 hit-cell potential is exactly 1 for every t. For any positive-measure clopen P′⊆A_h, at t′≥1 the S089 lower bound is 3/2, at t′=0 its hit-cell potential is 1/λ(P′)≥4. With weight w and ε=w/4 NO first alternative is possible for any h≥2 or any t′. Neither extra restriction t′≥t nor requiring further available coordinates rescues ASSCL. Conditional S093 Proposition S is not upgraded to a constructive proof.
+
+Theorem 2: only applies when T converges everywhere on P at unbounded holds. Compactness gives clopen wrong set. High-coordinate partners preserve P and finite raw prefixes. The mass equality and formula for the difference of f-integrals are exact. Dominated martingale convergence from the S087 savings form gives f∈L¹, and finite-cylinder approximation controls its ψ_h effect; S089 Ψ(P,t) majorizes the f-integral. At late s the wrong clopen hit-cell potential converges to its f-average. No effective selection claimed; no implication to all F₂.
+
+Local exact audit: Python 3 fractions.Fraction script P4-S094_ASSCL_AUDIT.py checks 441 inequalities across h=2..8, compatible wrong cylinders and all relevant prefix times. Output PASS. Finite evidence is ancillary to the universally quantified symbolic counterexample. No original witness, full target, independent validation, source retrieval or hosted CI claimed.

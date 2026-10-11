@@ -1871,3 +1871,7 @@ Lessons:
 * Before attacking an open-ended lemma, identify its classical content. GOL turned out to be an autoreducibility statement whose proof would also decide part of a source-stated open question (QST-0002), which calibrates the equality route.
 * The first separation milestone (a CR∖MLR source outside AR^iso) is strictly weaker than survival, yet already meets the self-reader obstruction.
 * Literature on speedability is now catalogued at ABSTRACT_INSPECTED level (SRC-0073, SRC-0074) as calibration only.
+
+## FL-088 — P4-S094: false ASSCL global-P dichotomy
+
+REFUTED. Partial self-reader T converges only in the expensive [1] cylinder; with a bounded identity savings martingale every wrong clopen substate costs at least 3w/2 against baseline w, while divergence is not universal over P. This invalidates ASSCL even without adaptive self-reading. Cheap divergent [0] exists in this particular counterexample; a fully effective repaired wrong-or-diverge substate theorem for arbitrary partial convergence loci is NOT proved. No AR-cover negation or full survivor follows. See P4-S094_MATHEMATICS.md.
