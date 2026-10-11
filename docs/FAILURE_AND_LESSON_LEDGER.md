@@ -1879,3 +1879,8 @@ REFUTED. Partial self-reader T converges only in the expensive [1] cylinder; wit
 ## FL-089 — P4-S095: dense-open convergence breaks local clopen divergence repair
 
 REFUTED: even granting a choice of cheap clopen state where a partial self-reader is wrong OR diverges, with no all-P divergence requirement, cannot guarantee success. A bounded rational identity savings martingale has initial hit potential 1, yet all clopen wrong states carry ≥16/13 at EVERY time; reader divergence lives in a positive-measure nowhere-dense Π⁰₁ set containing NO clopen state. PROVED complementary non-effective Π⁰₁ near-cheap wrong-or-diverge selection with positive mass and integrable cost. Missing: effective search, effective null-test coding for true guessed runs, and simultaneous all-F₂ capital preservation. No GOL counterexample or R₂ survivor results.
+
+
+## FL-090 — P4-S096: unpriced choice entropy and general-F₂ saturation gap
+
+REFUTED shortcuts: (1) conditional L¹ on Π⁰₁ P need not upper bound late S089 Ψ for non-injective G; G⁻¹G(P) saturation can be larger, as a fixed-bit deletion example shows. (2) Enumerating every possible h for a half-measure bad-selector is not ML-null: the union for Φ(h)=0 has measure ONE. (3) Oracle-selected nested positive Π⁰₁ classes shrinking geometrically need not contain only non-ML-random points. POSITIVE: uniformly indexed closed classes with known small upper mass admit effective clopen outer covers, and a universal integrable lsc savings envelope proves NON-EFFECTIVE common all-F₂ protection. MISSING: computable true-path indices, priced branch counts and ordinary ML test on the SAME source. No class inclusion or central outcome.

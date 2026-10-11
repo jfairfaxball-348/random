@@ -1,6 +1,6 @@
 # Authoritative Entry Point
 
-**Live checkpoint: P4-S095 completed; P4-S096 next.** S095 proved non-effective positive-measure Π⁰₁ wrong-or-diverge L¹ balance, and a dense-domain bounded-martingale counterexample to EVERY clopen cheap wrong-or-diverge repair. Neither AR-cover nor R₂ versus MLR is decided. See STATE and NEXT_SESSION_PROMPT.
+**Live checkpoint: P4-S096 completed; P4-S097 next.** S096 proved the closed-hit saturation limit, effective indexed Π⁰₁ outer covers and a NON-EFFECTIVE all-F₂ protected analytic diagonal that may still be MLR. R₂ versus MLR remains UNRESOLVED; see STATE and NEXT_SESSION_PROMPT.
 
 **Owner direction, 2026-10-11 (historical).** The sustained-attempt mandate for R₂ versus MLR (multiple internal proof gates, repairs and route changes within one session; no one-attack limit) was executed in P4-S092 and P4-S093 and is carried into the P4-S094 handoff. Programme phase gates and proof standards are unchanged.
 

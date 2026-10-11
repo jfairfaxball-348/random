@@ -1,6 +1,6 @@
 # Phase 4 — Mathematics records
 
-**Live checkpoint: P4-S094 completed; P4-S095 next.** S094 refuted S093's previously UNPROVED ASSCL as stated with an exact partial-reader identity-frame counterexample, and proved a restricted cheap-forcing boundary for readers total on a clopen state at arbitrarily high holds. R₂ vs MLR, GOL and Conjecture R remain UNRESOLVED; see STATE and NEXT_SESSION_PROMPT. Historical S093 notes below remain historical.
+**Live checkpoint: P4-S096 completed; P4-S097 next.** S096 proved the closed-hit saturation limit, effective indexed Π⁰₁ outer covers and a NON-EFFECTIVE all-F₂ protected analytic diagonal that may still be MLR. R₂ versus MLR remains UNRESOLVED; see STATE and NEXT_SESSION_PROMPT.
 
 Status: **OPEN** after formal Gate-3 PASS in P3-S008.
 
@@ -993,3 +993,7 @@ ASSCL FALSE AS STATED: the self-avoiding partial reader converges only in the ca
 ## P4-S095 outcome — 2026-10-11
 
 P4-S095 (2026-10-11) completed a sustained six-gate attempt at R₂ versus MLR and found NO equality proof or same-source R₂ non-MLR witness. Theorem A: an arbitrary partial self-avoiding reader admits effectively closed wrong-or-diverge subconditions with near-half measure and nearly preserved conditional L¹ capital, but no effective choice or ML-null coding. Theorem B: a bounded rational martingale and a dense-open partial reader with positive nowhere-dense Π⁰₁ divergence refute any all-clopen cheap wrong-or-diverge repair (Ψ≥16/13 versus baseline 1 at all times). Auxiliary exact finite audit 3,447 PASS; no hosted CI. Full target, AR-cover/GOL, ¬AR-cover and Conjecture R UNRESOLVED. Next P4-S096 pursues effective Π⁰₁ true-path/null coding or genuinely non-orientation F₂ equality. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. Records: phase4/P4-S095_MATHEMATICS.md, phase4/P4-S095_VALIDATION.md, phase4/P4-S095_CLOSE.md.
+
+
+## P4-S096 outcome — 2026-10-11
+P4-S096 (2026-10-11): six-gate mathematical attempt COMPLETED, but R₂=MLR and strict R₂∖MLR UNRESOLVED. PROVED closed hit Ψ limit over saturation G⁻¹G(P); homeomorphic existential late-Ψ repair; a legal two-to-one deletion example with Ψ=2 versus conditional L¹=1 at all times; effective clopen outer covers given indexed Π⁰₁ classes and certified upper mass; half-measure upper bound for each S095 closed bad selector; and a constant-predictor obstruction showing the union of all possible unpriced holds has measure one. PROVED NON-EFFECTIVE analytic common all-F₂ survival via f=Σw_e(2+B∞^e∘G_e) lsc integrable and nested wrong-or-diverge Π⁰₁ conditions. The common survivor MAY BE MLR, so no effective ML-null test or central finishing implication. Full S084, K_mix/K′_mix (preceding control) and non-scan F₂ covered only analytically. Auxiliary 120 exact finite sanity checks PASS, no hosted CI. No source access changes, Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. Next P4-S097 targets priced true-path effective null coding or a globally non-orientation equality destroyer. See phase4/P4-S096_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md, _INCOMING_HANDOFF.md.
