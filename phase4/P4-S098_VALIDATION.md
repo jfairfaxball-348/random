@@ -1,0 +1,15 @@
+# P4-S098 — validation and adversarial proof audit
+
+2026-10-11; incoming main 633a096fbaeba72a77fbcaf475639a63c820a6dd, sole parent f4cea88541192d11d2c6ed9959900d98d24d5ec8. S098 unused at entry; no competing branch/files or PRs. Hosted Actions runs/jobs 0; check-runs 0; commit statuses 0; .github/workflows absent; rulesets []; branch protection inaccessible (403). No hosted CI PASS claimed.
+
+**Theorem A proof dependencies:** uniform Π⁰₁ indices give computable clopen approximations P_{n,s}; the true intersection is null, so for any k some (n,s) has λ(P_{n,s})<2^{-2k}, found by decidable rational clopen mass comparison. If such cover is empty, the intersection is empty, which already proves the claim. Otherwise rational m_k(σ)=λ(C_k∩[σ])/(λ(C_k)2^{-|σ|}) is total normalized, fair, and ≤2^{|σ|}; the weight 2^{-k} yields an effectively convergent computable-real total martingale. Once [z↾t]⊆C_k, that term is >2^k. Rationalisation uses the standard recorded CR equivalence; no false assertion that an arbitrary computable-real series is rational-valued. No *computable modulus of decay* is used.
+
+**Theorem B dependency:** a computable stage bounding all level-n emissions permits an effective complete finite list, each promised index has known upper λ mass and S096 B1's halting cover search. Thus V_n is computable clopen, λV_n<2N_nq_n≤2^{-n}, and ∩V_n is Π⁰₁ null. If the final emission stage is NOT computably known, this inference fails; merely “≤N_n” does NOT imply effectively closed union. This distinction is essential to avoid incorrectly showing that every ML test excludes CR (false).
+
+**EQ audit:** π∘K globally total, fair on cylinders, and two-to-one on every y. Direct D-lift at source first bit proves CR-preservation, so this is no destroyer. S092 adaptive scan legality was inherited under exact no-repeat/all-fibres conditions, but global nonMLR coverage has not been shown. Symmetric ML tests orient neither side. Fixed-stake half-error drift negative; variable martingales need full S084 error-sequence proof; restarts must carry losses.
+
+**SEP audit:** S096 f remains abstract all-valid-pairs lsc L¹ envelope, with no effective enumeration. No emitted positive f-cheap true path, computable stage bound, or source-space paid tree exists. Cover constants factor 2 and branch N included. Ψ(P,0)=1/λP, saturation G⁻¹G(P), not P. Actual target proof absent.
+
+**Exact local finite audit:** phase4/P4-S098_COVER_AUDIT.py run in Python locally, PASS 1,072 rational assertions: 1,016 martingale fair-child identities (k=1..8, σ of length 0..6), 8 normalized roots, 8 growth values, 24 2Nq budgets, 16 wrong-hold union rational identities. This is not verification of the infinite theorem, independent reviewer, or hosted GitHub CI.
+
+**Disposition:** Theorems A/B PROVED; G_K preservation PROVED; final EQ and SEP UNRESOLVED; GOL/AR-cover UNRESOLVED; no change to prior class relations, source access, original Y/M/H/X, PA-0001/DEF-0020, Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.

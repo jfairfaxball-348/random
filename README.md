@@ -1,3 +1,5 @@
+**Live checkpoint: P4-S098 COMPLETED; P4-S099 next.** S098 proves the uniform Π⁰₁ null-chain and computably exhausted finite-branch Kurtz barriers; it does NOT prove R₂=MLR or a survivor in R₂∖MLR. See phase4/P4-S098_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md and authoritative/NEXT_SESSION_PROMPT.md. No hosted CI: zero runs/checks is not PASS. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
+
 # Fairfax-Ball Randomness Research Programme
 
 **Live checkpoint: P4-S096 completed; P4-S097 next.** S096 proved the closed-hit saturation limit, effective indexed Π⁰₁ outer covers and a NON-EFFECTIVE all-F₂ protected analytic diagonal that may still be MLR. R₂ versus MLR remains UNRESOLVED; see STATE and NEXT_SESSION_PROMPT.

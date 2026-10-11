@@ -1,3 +1,5 @@
+**Live checkpoint: P4-S098 COMPLETED; P4-S099 next.** S098 proves the uniform Π⁰₁ null-chain and computably exhausted finite-branch Kurtz barriers; it does NOT prove R₂=MLR or a survivor in R₂∖MLR. See phase4/P4-S098_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md and authoritative/NEXT_SESSION_PROMPT.md. No hosted CI: zero runs/checks is not PASS. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
+
 # Status
 
 Programme state: **PHASE 4 ACTIVE — MATHEMATICS**.

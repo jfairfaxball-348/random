@@ -1,3 +1,5 @@
+**Live checkpoint: P4-S098 COMPLETED; P4-S099 next.** S098 proves the uniform Π⁰₁ null-chain and computably exhausted finite-branch Kurtz barriers; it does NOT prove R₂=MLR or a survivor in R₂∖MLR. See phase4/P4-S098_MATHEMATICS.md, _VALIDATION.md, _CLOSE.md and authoritative/NEXT_SESSION_PROMPT.md. No hosted CI: zero runs/checks is not PASS. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
+
 **Live checkpoint: P4-S097 COMPLETED; P4-S098 next.** S097 proved an elementary online future-bit prediction trap and audited the genuine source-measure budget for uniformly indexed Π⁰₁ guessed-run tests. S096's non-effective all-F₂ protected survivor may be MLR; R₂ versus MLR remains UNRESOLVED. See phase4/P4-S097_MATHEMATICS.md, _VALIDATION.md and _CLOSE.md, and authoritative/NEXT_SESSION_PROMPT.md. No hosted CI: zero runs/checks is not PASS. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
 
 # Instructions for every agent
