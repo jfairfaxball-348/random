@@ -1,6 +1,6 @@
 # Authoritative Entry Point
 
-**Live checkpoint: P4-S094 completed; P4-S095 next.** S094 refuted S093's previously UNPROVED ASSCL as stated with an exact partial-reader identity-frame counterexample, and proved a restricted cheap-forcing boundary for readers total on a clopen state at arbitrarily high holds. R₂ vs MLR, GOL and Conjecture R remain UNRESOLVED; see STATE and NEXT_SESSION_PROMPT. Historical S093 notes below remain historical.
+**Live checkpoint: P4-S095 completed; P4-S096 next.** S095 proved non-effective positive-measure Π⁰₁ wrong-or-diverge L¹ balance, and a dense-domain bounded-martingale counterexample to EVERY clopen cheap wrong-or-diverge repair. Neither AR-cover nor R₂ versus MLR is decided. See STATE and NEXT_SESSION_PROMPT.
 
 **Owner direction, 2026-10-11 (historical).** The sustained-attempt mandate for R₂ versus MLR (multiple internal proof gates, repairs and route changes within one session; no one-attack limit) was executed in P4-S092 and P4-S093 and is carried into the P4-S094 handoff. Programme phase gates and proof standards are unchanged.
 

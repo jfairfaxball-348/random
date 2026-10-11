@@ -1875,3 +1875,7 @@ Lessons:
 ## FL-088 — P4-S094: false ASSCL global-P dichotomy
 
 REFUTED. Partial self-reader T converges only in the expensive [1] cylinder; with a bounded identity savings martingale every wrong clopen substate costs at least 3w/2 against baseline w, while divergence is not universal over P. This invalidates ASSCL even without adaptive self-reading. Cheap divergent [0] exists in this particular counterexample; a fully effective repaired wrong-or-diverge substate theorem for arbitrary partial convergence loci is NOT proved. No AR-cover negation or full survivor follows. See P4-S094_MATHEMATICS.md.
+
+## FL-089 — P4-S095: dense-open convergence breaks local clopen divergence repair
+
+REFUTED: even granting a choice of cheap clopen state where a partial self-reader is wrong OR diverges, with no all-P divergence requirement, cannot guarantee success. A bounded rational identity savings martingale has initial hit potential 1, yet all clopen wrong states carry ≥16/13 at EVERY time; reader divergence lives in a positive-measure nowhere-dense Π⁰₁ set containing NO clopen state. PROVED complementary non-effective Π⁰₁ near-cheap wrong-or-diverge selection with positive mass and integrable cost. Missing: effective search, effective null-test coding for true guessed runs, and simultaneous all-F₂ capital preservation. No GOL counterexample or R₂ survivor results.

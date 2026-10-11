@@ -1,0 +1,41 @@
+# P4-S095 close — closed bad-choice balance, dense reader obstruction; R₂ versus MLR OPEN
+
+2026-10-11. Exactly ONE Phase 4 CAND-01 Mathematics session. Incoming independently checked live main 4703cdf3c6cb88721771d49c05bcd32aef531985, parent f6733e313642001eb39998efb7dfe331da92261f; no intervening commits, open/recent PRs, workflow runs or checks; S095 unique. Session branch phase4/P4-S095-closed-bad-choice. Exact incoming prompt preserved in P4-S095_INCOMING_HANDOFF.md.
+
+**PROVED Theorem A:** for any partial self-avoiding Φ, computable fair frame K, positive Π⁰₁ P, and integrable protected density f, sufficiently high holds admit positive Π⁰₁ subconditions all of whose points are wrong or divergent, retaining almost half the measure and conditional L¹ average within arbitrary ε. This is NON-EFFECTIVE as to the choice of subcondition and cannot be substituted for S089's clopen hit-cell potential. **PROVED Theorem B:** a single bounded rational identity martingale and a self-avoiding reader converging on a dense open set with positive-measure nowhere-dense Π⁰₁ divergence defeat every clopen wrong-or-diverge cheap-substate repair. Every clopen wrong condition has Ψ≥16/13 versus initial Ψ=1 at ALL times and no nonempty clopen divergence state exists.
+
+Six central gates attempted. No effective non-MLR source was built: missing link is a uniformly effective guessed-run null cover with arithmetically chosen positive Π⁰₁ states and protected full strategy Ψ. Hence neither z∈CR∖MLR∖AR^iso, nor SEP's ∃z∀G∀d, nor EQ's ∀z∃G∃d is proven. GOL/AR-cover, R₂ versus MLR and Conjecture R remain UNRESOLVED. S093 ASSCL remains refuted by S094; S095 refutes a tempting weaker clopen fix only.
+
+Written adversarial validation is P4-S095_VALIDATION.md; exact auxiliary P4-S095_DENSE_READER_AUDIT.py PASS (3,447 checks), NOT infinite proof, hosted CI or independent review. Current state, gate, decision, session, failure and public pointers synchronized. No source access upgrade, new class inclusion, source retrieval, novelty, priority, publication or outreach. Original CR Y, unchanged globally clipped wtt M, repeated 3-bit H matrix rows 101/110/111, X=H⁻¹Y, all separate frozen questions maintained. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED. No owner/external blocker.
+
+One atomic S095 branch commit with S094 close as sole parent, then non-force fast-forward to main and independently verify resulting main SHA/parent. Commit SHA is not included inside its own tree.
+
+## Complete copy-ready P4-S096 prompt (verbatim, identical to authoritative/NEXT_SESSION_PROMPT.md)
+
+# P4-S096 — Turn closed bad-choice forcing into an effective non-MLR diagonal, or prove a global non-orientation destroyer
+
+Execute ONLY a NEW owner-invoked Phase 4 Mathematics P4-S096 in https://github.com/jfairfaxball-348/random. This is a complete FUTURE handoff; do NOT execute S096 in S095. Sustain a genuine attempt at the central target: prove R₂=MLR or construct one z∈R₂∖MLR. Do not substitute an attractive local theorem for a central finishing implication.
+
+## Entry, authority and boundaries
+
+Independently pin LIVE main to the P4-S095 sole atomic outgoing close SHA; reconcile its parent 4703cdf3c6cb88721771d49c05bcd32aef531985, intervening changes, open/recent PRs, existing S096 files/branches and actual hosted Actions workflow runs/jobs/statuses. Missing checks are NOT green. Read AGENTS, START_HERE, STATE, SESSION_PROTOCOL, CAND-01, Gate-3 PASS, both Phase-4 pivots, cumulative P4-S001–S095, with special attention to S011–S012, S082 §§2–6 including §6.3, S083–S084, S087 §6, S089 §1 and §5, S092–S095 proofs/validation/close and S095's exact dense-reader audit. Archive this entire fresh invocation verbatim.
+
+Preserve F₂ as everywhere-total computable fair Cantor self-maps with global fibres ≤2; R₂={z∈CR:∀G∈F₂ G(z)∈CR}. Freeze MLR=R_tot⊆R_fin⊆R_k⊆R₂⊆OH^iso⊊OH^aff⊊OH^blk⊆OH^lin3⊆OH=OH_h=R_k^scan⊊CR (k≥2); MLR⊊R₂^cdz⊆R₂^dz⊆R₂^fd; R₂⊊R₂^cdz⊊R₂^fd and R₂⊊OH. S093 ASSCL is REFUTED by S094. S095's dense-domain counterexample REFUTES even a local clopen wrong-or-diverge repair. S095's positive Π⁰₁ bad-selector balance is purely EXISTENTIAL in conditional L¹ cost, with NO computable selection, no S089 hit-potential extension, no effective ML-null coding and no witness. Do not upgrade it to a global theorem.
+
+## Six required central gates
+
+1. Write the finishing quantifiers: equality requires ∀z∈CR∖MLR ∃G∈F₂ ∃computable d succeeding on G(z). Separation requires ∃z∉MLR ∀G∈F₂ ∀computable d bounded on G(z). GOL/AR-cover would imply equality but might not be necessary; defeating GOL alone is insufficient for separation.
+
+2. Attack S095's specific missing effectiveness: on a positive-measure effectively closed condition P, the closed wrong-or-diverge subconditions P′ constructed using convergence-stage approximants exist and have near-preserved averages. Seek a uniform arithmetical true-path choice and a justified potential for arbitrary Π⁰₁ states preserving nonempty nested classes, a computable bounded-capital witness and an EFFECTIVE Martin-Löf test capturing every true construction branch. Explain whether the S082 guessed-run method works once clopen hit-cells are replaced by Π⁰₁ approximants. Distinguish existence with an oracle from an effective null cover.
+
+3. Actually attempt z∈CR∖MLR∖AR^iso. Meet every computable fair frame and self-avoiding partial reader, including the S095 dense-domain adversary, with wrong-or-diverge requirements at unbounded holds and a protected all-martingale capital bound. Verify validity guesses, relative conditional measures, branch counts, oracle coding, all finite parameters and compactness. Do not promote closed-selector existence or a mere ML-random diagonal to this milestone.
+
+4. If such a z is obtained, immediately attack FULL F₂ on the SAME source, including S084's entire predictable-error streams, all fractional one-hole strategies, both K_mix and K′_mix with the PRECEDING-control offset, and EVERY everywhere-total fair non-scan map with fibres globally ≤2. Establish the source-uniform all-map martingale bounds. No restricted-class survivor counts as R₂.
+
+5. If separation stalls, invest seriously in EQUALITY: either prove AR-cover from an arbitrary CR non-MLR source without universal-test partner symmetry or find non-orientation fair total width-two maps universally capturing the missing sources. Explicitly calculate what an output martingale gains across infinitely many wrong/false proposed bits and restarts. Test against S084's error theorem and the full global fibre condition; never assume orientation failure implies equality.
+
+6. Adversarially re-prove or refute proposed claims. Check small-time S089 normalization, bounded-vs-unbounded savings, arbitrarily dense partial domains, nonempty Π⁰₁ subclasses without clopen interior, L¹ invariance under high-coordinate frame partners, effective rather than oracle-dependent non-MLR coding, and ∃z∀G∀d. Label PROVED / CONDITIONAL / REFUTED / UNRESOLVED. No claim of modern openness, novelty, priority or publication without separate primary-source verification.
+
+Preserve original CR Y, globally use-clipped syntactically self-avoiding wtt M, repeated three-bit homeomorphism H (matrix rows 101,110,111) and X=H⁻¹(Y), as well as the separate R₂ versus OH^iso, U(H), X∈OH, fixed-S preservation and Conjecture R questions. No escrow/hazard/residue/unit-column/z₀/multi-hole detours, spectral numerical investigation, Lean, outreach or publication. All source IDs SRC-0015, 0019, 0028, 0060, 0069–0074 stay at their RECORDED access levels; SRC-0071 journal METADATA_ONLY and SRC-0073/74 ABSTRACT_INSPECTED. PA-0001/DEF-0020 frozen. Gate 3 PASS, Gate 4 NOT REVIEWED, Phase 4 OPEN, Phase 5 CLOSED.
+
+Close per docs/SESSION_PROTOCOL.md: synchronize state, gate, decision, session and failure ledgers, current pointers, mathematics, validation and close. Exactly one atomic S096 branch commit, non-force fast-forward/merge into main and independently verify outgoing remote SHA and sole/merge parent. If there is no genuine owner/external blocker, embed the COMPLETE next P4-S097 copy-ready prompt verbatim in the close and final report, identical to authoritative/NEXT_SESSION_PROMPT.md. STOP after S096.

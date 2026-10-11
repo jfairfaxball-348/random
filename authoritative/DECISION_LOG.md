@@ -1574,3 +1574,7 @@ Decision: record S093 as a completed sustained attempt that did NOT decide R₂ 
 ## D-0063 — S094 correction, Phase 4 maintained
 
 S094 formally refutes the previously UNPROVED ASSCL AS STATED. The S093 conditional Proposition S remains historically conditional but is no longer an available proof route. Theorem 2 is a conditional uniform-totality boundary, not a GOL counterexample. R₂ versus MLR and GOL unresolved; P4-S095 next, Gate 4 NOT REVIEWED and Phase 5 CLOSED.
+
+## P4-S095 — keep R₂ versus MLR as the central decision (2026-10-11)
+
+P4-S095 (2026-10-11) completed a sustained six-gate attempt at R₂ versus MLR and found NO equality proof or same-source R₂ non-MLR witness. Theorem A: an arbitrary partial self-avoiding reader admits effectively closed wrong-or-diverge subconditions with near-half measure and nearly preserved conditional L¹ capital, but no effective choice or ML-null coding. Theorem B: a bounded rational martingale and a dense-open partial reader with positive nowhere-dense Π⁰₁ divergence refute any all-clopen cheap wrong-or-diverge repair (Ψ≥16/13 versus baseline 1 at all times). Auxiliary exact finite audit 3,447 PASS; no hosted CI. Full target, AR-cover/GOL, ¬AR-cover and Conjecture R UNRESOLVED. Next P4-S096 pursues effective Π⁰₁ true-path/null coding or genuinely non-orientation F₂ equality. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. This is not an owner decision to change target, phase or source-access levels.
