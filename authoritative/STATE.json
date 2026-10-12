@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S104",
+  "last_completed_session": "P4-S105",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,9 +52,17 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "P4-S105 FUTURE_UNEXECUTED — owner-directed proof-first flagship assault, then mandatory five-session GO/NO-GO; no automatic S106",
-  "recommended_next_session": "P4-S105",
-  "active_blocker": null,
+  "next_transition": "OWNER_DECISION_REQUIRED_AFTER_S105_NO_GO_AUTOMATIC_FLAGSHIP",
+  "recommended_next_session": null,
+  "active_blocker": {
+    "id": "OWNER-S105-NEXT-DIRECTION",
+    "type": "OWNER_DECISION",
+    "session": "P4-S105",
+    "reason": "S100 mandatory five-session NO-GO; no central finish or proved smaller bridge; both speculative slots consumed.",
+    "required_action": "Choose independent A–C proof checking, a named global Phase4 pivot, or an explicitly reauthorized new flagship architecture.",
+    "recommended_action": "Independent checking of S101/S103 A–C with S102 source boundaries.",
+    "blocks": "Automatic next numbered session only; no phase closure or theorem retirement."
+  },
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
   "mathematical_investigation_authorized": true,
@@ -297,12 +305,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S102",
-    "next_session": "P4-S103",
+    "last_session": "P4-S105",
+    "next_session": null,
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S102_SOURCE_PROOF_DOSSIER.md",
-    "latest_close_record": "phase4/P4-S102_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S102_VALIDATION.md",
+    "latest_record": "phase4/P4-S105_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S105_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S105_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -2040,7 +2048,7 @@
       "validation_record": "phase4/P4-S068_VALIDATION.md"
     },
     "current_research_pivot": "phase4/P4-S100_CENTURY_AUDIT.md",
-    "current_research_target": "Reconstruct established S081–S083 proof package; R2 versus MLR remains flagship but not automatic proof-search default.",
+    "current_research_target": "EQ R₂=MLR / SEP one R₂ nonMLR point remain unresolved; automatic flagship refinement suspended pending owner research-direction decision.",
     "p4_s070_global_linear_reduction": {
       "session": "P4-S070",
       "result": "H_PRESERVATION_EQUIVALENT_TO_ALL_COMPUTABLY_SUPPORTED_XOR_SHEARS_AND_ALL_COMPUTABLE_BLOCKWISE_GL3_PRESERVATION",
@@ -3014,19 +3022,9 @@
     "phase_5": "CLOSED"
   },
   "next_session_owner_direction": {
-    "date": "2026-10-12",
-    "kind": "OWNER_DIRECTED_HANDOFF_AMENDMENT_NOT_SESSION",
-    "next_session": "P4-S105",
-    "objective": "Major theorem: prove R2=MLR or construct one nonMLR R2 survivor",
-    "proof_first": true,
-    "eq_and_sep_serious_attacks": true,
-    "internal_multiple_gates": true,
-    "go_no_go_at_close": true,
-    "s100_speculative_slot": "second_and_final",
-    "previous_close_prompt_historical": true,
-    "amendment_document": "phase4/P4-S105_OWNER_HANDOFF_AMENDMENT.md",
-    "s105_executed": false,
-    "no_automatic_s106": true
+    "status": "OWNER_DECISION_REQUIRED_NO_EXECUTABLE_HANDOFF",
+    "record": "phase4/P4-S105_DEPENDENCIES_AND_DECISION.md",
+    "no_automatic_S106": true
   },
   "phase4_s092_orientation_and_global_entanglement": {
     "session": "P4-S092",
@@ -3489,7 +3487,7 @@
     "validation": "phase4/P4-S103_VALIDATION.md",
     "close": "phase4/P4-S103_CLOSE.md"
   },
-  "current_research_target": "Aggressive original EQ/SEP proof search within ONE P4-S105; multi-architecture and dependent repairs, then mandatory GO/NO-GO.",
+  "current_research_target": "EQ R₂=MLR / SEP one R₂ nonMLR point remain unresolved; automatic flagship refinement suspended pending owner research-direction decision.",
   "phase4_s104_source_partition_gate": {
     "session": "P4-S104",
     "status": "COMPLETED",
@@ -3511,5 +3509,45 @@
     "hosted_ci": "ABSENT_NOT_PASS",
     "next_session": "P4-S105",
     "blocker": null
+  },
+  "phase4_s105_proof_first_and_decision": {
+    "session": "P4-S105",
+    "date": "2026-10-12",
+    "entry_main": "a26d4476901d67db9abda823547c52cfd52693e7",
+    "entry_parent": "350d2e39d738eab0b21e41b65784b8263881af1d",
+    "status": "COMPLETED_EQ_SEP_UNRESOLVED_NO_GO_AUTOMATIC_FLAGSHIP",
+    "architectures": [
+      "nonorientation_ticket_allocation",
+      "effective_all_F2_bank_and_priced_forcing",
+      "aggregate_bank_component_extraction"
+    ],
+    "finite_ticket_completion": "PROVED_INTERNAL_ONLY_FINITE_GAIN",
+    "effective_integrable_all_F2_protection": "PROVED_INTERNAL_ONE_WAY_B_FINITE_IMPLIES_R2",
+    "nonMLR_protected_point": "UNRESOLVED",
+    "recursive_all_source_gain": "UNRESOLVED",
+    "aggregate_extraction": "BLANKET_LEMMA_REFUTED_CR_RESTRICTED_VERSION_UNPROVED",
+    "eq": "UNRESOLVED",
+    "sep": "UNRESOLVED",
+    "central_bridge_credit": 0,
+    "speculative_sessions_since_S100": 2,
+    "max_speculative_sessions_through_S105": 2,
+    "five_session_decision": "NO_GO_AUTOMATIC_FLAGSHIP",
+    "A_B_C": "RETAINED_NO_FATAL_GAP_FOUND",
+    "source_access_unchanged": true,
+    "original_Y_M_H_X_unchanged": true,
+    "hierarchy_changed": false,
+    "finite_exact_checks": 1260,
+    "verification": "WRITTEN_SAME_AGENT_REVIEW_AND_LIMITED_FINITE_CHECKS_NOT_INDEPENDENT_FORMAL_PROOF",
+    "hosted_CI": "ABSENT_NOT_PASS",
+    "gate3": "PASS",
+    "gate4": "NOT_REVIEWED",
+    "phase4": "OPEN",
+    "phase5": "CLOSED",
+    "mathematics": "phase4/P4-S105_MATHEMATICS.md",
+    "validation": "phase4/P4-S105_VALIDATION.md",
+    "decision": "phase4/P4-S105_DEPENDENCIES_AND_DECISION.md",
+    "close": "phase4/P4-S105_CLOSE.md",
+    "next_session": null,
+    "owner_decision_checkpoint": true
   }
 }

@@ -1,0 +1,7 @@
+{
+  "session": "P4-S105",
+  "finite_checks": 1260,
+  "status": "PASS_LIMITED_EXACT_SANITY_ONLY",
+  "infinite_proof_certified": false,
+  "EQ_or_SEP_certified": false
+}

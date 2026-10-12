@@ -616,3 +616,8 @@ A–C survive a fresh internal adversarial check; no fatal gap or quarantine. So
 
 ## P4-S104 source-partition gate — no phase transition (2026-10-12)
 Mathematics legally constructs non-rank-one global width-two source partitions, but exact proposed computably scheduled coverage fails for every CR source; the unrestricted all-source bridge, EQ/SEP remain unresolved. Theorem dossier A–C unchanged. S104 uses 1 speculative session; S105 five-session review mandatory. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. No novelty or publication status change, no hosted CI PASS.
+
+
+## P4-S105 — Five-session allocation decision, NOT Gate4 (2026-10-12)
+
+NO-GO for automatic flagship EQ/SEP refinements under S100; both speculative slots used, no central theorem or proved smaller quantified bridge. Leading A–C dossier retained. Owner next-direction checkpoint; no executable S106 prompt. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. This decision changes research allocation, not phase gates, novelty or publication status. Hosted checks absent, NOT PASS.

@@ -1,0 +1,36 @@
+{
+  "session": "P4-S105",
+  "entry_sha": "a26d4476901d67db9abda823547c52cfd52693e7",
+  "incoming_prompt_sha256": "2d10e4a8e1224131974670c540498e6326293e837ad2ff9a6eb31d9b68645f63",
+  "checks": [
+    "all_repository_JSON_parse",
+    "state_gates_and_owner_checkpoint",
+    "incoming_prompt_exact_bytes",
+    "historical_math_unchanged",
+    "git_diff_whitespace",
+    "finite_audit_1260"
+  ],
+  "mode": "LOCAL_RECORD_AND_FINITE_SANITY_NOT_HOSTED_OR_INDEPENDENT_PROOF",
+  "files": [
+    "AGENTS.md",
+    "README.md",
+    "ROADMAP.md",
+    "authoritative/DECISION_LOG.md",
+    "authoritative/NEXT_SESSION_PROMPT.md",
+    "authoritative/PHASE_GATE_LEDGER.md",
+    "authoritative/SESSION_LEDGER.md",
+    "authoritative/START_HERE.md",
+    "authoritative/STATE.json",
+    "docs/FAILURE_AND_LESSON_LEDGER.md",
+    "phase4/P4-S105_CLOSE.md",
+    "phase4/P4-S105_DEPENDENCIES_AND_DECISION.md",
+    "phase4/P4-S105_ENTRY_EVIDENCE.json",
+    "phase4/P4-S105_FINITE_AUDIT.json",
+    "phase4/P4-S105_FINITE_AUDIT.py",
+    "phase4/P4-S105_INCOMING_HANDOFF.md",
+    "phase4/P4-S105_MATHEMATICS.md",
+    "phase4/P4-S105_VALIDATION.md",
+    "phase4/README.md"
+  ],
+  "outgoing_sha": "TO_BE_OBSERVED_AFTER_ATOMIC_COMMIT_NOT_SELF_REFERENTIAL"
+}
