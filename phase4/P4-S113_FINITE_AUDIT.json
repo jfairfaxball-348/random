@@ -1,0 +1,11 @@
+{
+  "session": "P4-S113",
+  "status": "PASS_FINITE_ONLY",
+  "clopen_trees": 65812,
+  "rooted_nonpruned_trees": 676,
+  "finite_assertions": 8493688,
+  "clopen_assertions": 8471380,
+  "nonpruned_assertions": 22308,
+  "script": "phase4/P4-S113_TAG_RIGIDITY_AUDIT.py",
+  "not_an_infinite_proof": true
+}

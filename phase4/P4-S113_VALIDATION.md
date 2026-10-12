@@ -1,0 +1,18 @@
+# P4-S113 — Independent-in-method same-agent adversarial validation
+
+Internal hostile pass only, NOT independent peer review or formal certification.
+
+1. Derive actual inverse count directly: the FIRST OUTPUT bit fixes initial input key a; intermediate values v must be 0w or 1w and fixed-key G_T multiplicities are h_a. No finite ghost trajectory counted as an actual inverse.
+2. Derive density separately by integrating conditional h_a lambda through the ordinary fair shift and reattaching input key. Density N/2 holds here, NOT for arbitrary noninjective P_a (S112 eq(6) and eq(7) separate).
+3. Reprove rigidity with an early post-exit following-bit stopping time: condition on suffix prefix through the earliest of the two read postbits. One branch then contributes signed f=+1/-1; if both first read simultaneously they contribute the SAME sign, not opposite. The other not-yet-read postbit averages to zero on its disjoint later-exit cylinders; infinite no-exit remainder has f=0. Therefore [0sigma] has nonfair price. No assumption that K has computable mass or no infinite boundary paths.
+4. Independent pointwise check: exact-two requires K first-bit-flip symmetric (else counts 1/3). Double-off histories must have opposite post-exit bits, contradicted by continuing after the earliest bit with that same bit; the second history ultimately exits by K symmetry. Thus exact-two fails on some ACTUAL infinite output.
+5. Edge cases: K full yields the deletion F_T(a b t)=a t, exactly two fair preimages. K empty, nonpruned dead-end T and fat boundary K remain governed by the full argument; no illegal output gap of a claimed fair map is allowed.
+6. For arbitrary finite coordinate erasures, explicitly permute the FIRST N input positions into removed positions followed by remaining positions in original order. Then use a legal tagged F_k source test L_G(sv)=sG(v); every output prefix has fair price, and fibres retain the same tag, hence never exceed k. Fixed-prefix ordinary rational martingale restriction is sufficient. This proves deletion, NOT insertion.
+7. Test the S112 chart mass hypotheses on BOTH sheets and zero sheets. S112 noncomputable halting D1 is a legal conserving F2 example; its noncomputability blocks a proof tactic, not DP2 itself. E-ISO corrects S111 homeomorphism caveat; source grades unchanged.
+8. R2 vs R_L1 needs SAME-source R_L1\R2. Unrestricted F2(R2) subset R2 is not implied by finite erasures or F2(R4) subset R2. No actual CR-double destroyer and no protected nonMLR all-F2 survivor was supplied.
+
+**Executable finite sanity:** phase4/P4-S113_TAG_RIGIDITY_AUDIT.py exhausts clopen K at 1–4 bit depths (65,812 cases; 8,471,380 assertions), and all 676 rooted possibly nonpruned height-three trees (22,308 assertions), detecting a fibre-count defect on every proper finite tree. TOTAL 8,493,688 PASS. This is finite sanity, NOT proof of the infinite stopping-bit argument or randomness hierarchy. See P4-S113_FINITE_AUDIT.json.
+
+ENTRY REMOTE: S112 commit 3092dd2abe916b961d7357addf93e8c67e877c8b, sole parent 7a3c1e331ddd39889c2c882f1dcddfd7e53367c4, tree 0237df759e0af4b00970f4accf67ab9d61e43592. PR #10 closed/merged, no open/recent competing PR or S113 branch. No committed workflow directory; Actions runs 0, check-runs 0, statuses 0 (combined pending); rulesets empty; protection endpoint 403 UNKNOWN and workflow collection connector-disallowed UNKNOWN. Hosted CI ABSENT_NOT_PASS. Postmerge evidence belongs to actual PR metadata and final report, never a precommitted self-referential SHA.
+
+Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. No source or phase upgrade.
