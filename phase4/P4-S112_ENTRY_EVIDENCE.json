@@ -1,0 +1,529 @@
+{
+  "observed_entry_main": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4",
+  "sole_parent": "909d72b806a14421ddc2df54dfa94cd359f244d1",
+  "tree": "608394f0c26d04b6b155095405f490e571ea6407",
+  "s111_pr": 9,
+  "observations": [
+    {
+      "endpoint": "pulls?state=all&per_page=100",
+      "result": [
+        {
+          "number": 9,
+          "title": "P4-S111: genuine same-source ramified hybrid exact-two quotients",
+          "state": "closed",
+          "merged_at": "2026-10-12T18:48:33Z",
+          "merge_commit_sha": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4",
+          "head": {
+            "ref": "phase4/P4-S111-coupled-ramified-hybrids",
+            "sha": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "909d72b806a14421ddc2df54dfa94cd359f244d1"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "P4-S110: persistent exact-two hybrid quotients and rational CR conservation",
+          "state": "closed",
+          "merged_at": "2026-10-12T17:31:43Z",
+          "merge_commit_sha": "909d72b806a14421ddc2df54dfa94cd359f244d1",
+          "head": {
+            "ref": "phase4/P4-S110-hybrid-two-track-audit",
+            "sha": "909d72b806a14421ddc2df54dfa94cd359f244d1"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "6dc2d1381792b45d69a437ffb6dad9f5aac86369"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "P4-S109: one-lookahead normal form and saturated-fibre randomness conservation",
+          "state": "closed",
+          "merged_at": "2026-10-12T16:49:15Z",
+          "merge_commit_sha": "6dc2d1381792b45d69a437ffb6dad9f5aac86369",
+          "head": {
+            "ref": "phase4/P4-S109-lookahead-normal-form",
+            "sha": "6dc2d1381792b45d69a437ffb6dad9f5aac86369"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "750a62d77efd2728c4db0dac224d0fb6d90f71cd"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "Owner amendment: expand future P4-S109 into deep multi-front research offensive",
+          "state": "closed",
+          "merged_at": "2026-10-12T16:21:45Z",
+          "merge_commit_sha": "750a62d77efd2728c4db0dac224d0fb6d90f71cd",
+          "head": {
+            "ref": "docs/P4-S109-ambitious-research-handoff",
+            "sha": "1e227d149f5f2a48eb8b2e6248865f2a0bba26c6"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "6c22d44de646102b12792bb8ac2db4bde1a49e95"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "P4-S108: exact-two tree-switch quotients, fat ramification, CR conservation",
+          "state": "closed",
+          "merged_at": "2026-10-12T16:02:14Z",
+          "merge_commit_sha": "6c22d44de646102b12792bb8ac2db4bde1a49e95",
+          "head": {
+            "ref": "phase4/P4-S108-tree-switch-ramification",
+            "sha": "b2bb15b0d12687b55ef9160a8ce6b0f7d89d08cb"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "c15e98bdd188f78479d4b2d2170a031ce8c3591e"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "P4-S107: Baire-one partner and exact-two ramification",
+          "state": "closed",
+          "merged_at": "2026-10-12T15:39:58Z",
+          "merge_commit_sha": "c15e98bdd188f78479d4b2d2170a031ce8c3591e",
+          "head": {
+            "ref": "phase4/P4-S107-partner-ramification",
+            "sha": "c15e98bdd188f78479d4b2d2170a031ce8c3591e"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "87191694a6fa58c8f088abfc7f80e55f10dd9e14"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "P4-S106: effective double-fibre strata and preservation boundary",
+          "state": "closed",
+          "merged_at": "2026-10-12T14:18:05Z",
+          "merge_commit_sha": "87191694a6fa58c8f088abfc7f80e55f10dd9e14",
+          "head": {
+            "ref": "phase4/P4-S106-double-fibre-strata",
+            "sha": "87191694a6fa58c8f088abfc7f80e55f10dd9e14"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/3"
+        },
+        {
+          "number": 2,
+          "title": "Owner research pivot: future S106 double-fibre preservation",
+          "state": "closed",
+          "merged_at": "2026-10-12T13:38:39Z",
+          "merge_commit_sha": "f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e",
+          "head": {
+            "ref": "docs/P4-S106-owner-research-pivot",
+            "sha": "f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "06480bea3053ea73268b94105bf88b1bcf2ccfa6"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/2"
+        },
+        {
+          "number": 1,
+          "title": "P4-S105: effective F2 protection and five-session NO-GO",
+          "state": "closed",
+          "merged_at": "2026-10-12T13:17:10Z",
+          "merge_commit_sha": "06480bea3053ea73268b94105bf88b1bcf2ccfa6",
+          "head": {
+            "ref": "phase4/P4-S105-proof-first-decision",
+            "sha": "06480bea3053ea73268b94105bf88b1bcf2ccfa6"
+          },
+          "base": {
+            "ref": "main",
+            "sha": "a26d4476901d67db9abda823547c52cfd52693e7"
+          },
+          "html_url": "https://github.com/jfairfaxball-348/random/pull/1"
+        }
+      ]
+    },
+    {
+      "endpoint": "branches?per_page=100",
+      "result": [
+        {
+          "name": "ccr-512282c4-k0bun8",
+          "commit": {
+            "sha": "d789bf0e0b743f9c49c6419d6fffe2639d74c060",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/d789bf0e0b743f9c49c6419d6fffe2639d74c060"
+          },
+          "protected": false
+        },
+        {
+          "name": "ccr-dd3e14c4-j9pfu2",
+          "commit": {
+            "sha": "4cb2a8b5b6a3a8b527704c3ee89b3a49c9d191ad",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/4cb2a8b5b6a3a8b527704c3ee89b3a49c9d191ad"
+          },
+          "protected": false
+        },
+        {
+          "name": "claude/eager-turing-k9qt6p",
+          "commit": {
+            "sha": "a6557f24867e48f5ac018f9865896993e74cc443",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/a6557f24867e48f5ac018f9865896993e74cc443"
+          },
+          "protected": false
+        },
+        {
+          "name": "claude/p4-s080-oh-source-6qifn1",
+          "commit": {
+            "sha": "b8017ed6f3090bcdd5bcbd5f4ceba8058cc7bacf",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/b8017ed6f3090bcdd5bcbd5f4ceba8058cc7bacf"
+          },
+          "protected": false
+        },
+        {
+          "name": "claude/p4-s087-two-observer-dxy96o",
+          "commit": {
+            "sha": "c820588d2936d1a6fe28cee84fca86699e65610a",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/c820588d2936d1a6fe28cee84fca86699e65610a"
+          },
+          "protected": false
+        },
+        {
+          "name": "claude/p4-s088-e0-breaking-b8ccnj",
+          "commit": {
+            "sha": "0009e00dff9d75b70539e513e544f4b89b8040f4",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/0009e00dff9d75b70539e513e544f4b89b8040f4"
+          },
+          "protected": false
+        },
+        {
+          "name": "claude/p4-s089-e0-breaking-efncvi",
+          "commit": {
+            "sha": "560f8a1e16a69aaf98a6b8328bfc893b09398d30",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/560f8a1e16a69aaf98a6b8328bfc893b09398d30"
+          },
+          "protected": false
+        },
+        {
+          "name": "claude/r2-mlr-global-orientation-wsout9",
+          "commit": {
+            "sha": "f6733e313642001eb39998efb7dfe331da92261f",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/f6733e313642001eb39998efb7dfe331da92261f"
+          },
+          "protected": false
+        },
+        {
+          "name": "docs/P4-S105-aggressive-flagship-owner-handoff",
+          "commit": {
+            "sha": "a26d4476901d67db9abda823547c52cfd52693e7",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/a26d4476901d67db9abda823547c52cfd52693e7"
+          },
+          "protected": false
+        },
+        {
+          "name": "docs/P4-S106-owner-research-pivot",
+          "commit": {
+            "sha": "f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e"
+          },
+          "protected": false
+        },
+        {
+          "name": "docs/P4-S109-ambitious-research-handoff",
+          "commit": {
+            "sha": "1e227d149f5f2a48eb8b2e6248865f2a0bba26c6",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/1e227d149f5f2a48eb8b2e6248865f2a0bba26c6"
+          },
+          "protected": false
+        },
+        {
+          "name": "docs/strengthen-r2-mlr-handoff",
+          "commit": {
+            "sha": "ec2c6ff1b5050b1b324d10b007843b1336bd7010",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/ec2c6ff1b5050b1b324d10b007843b1336bd7010"
+          },
+          "protected": false
+        },
+        {
+          "name": "main",
+          "commit": {
+            "sha": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7a3c1e331ddd39889c2c882f1dcddfd7e53367c4"
+          },
+          "protected": false
+        },
+        {
+          "name": "p1-s007-work",
+          "commit": {
+            "sha": "c0be7714c9a1d424575dd026a47b02c7a78b6044",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/c0be7714c9a1d424575dd026a47b02c7a78b6044"
+          },
+          "protected": false
+        },
+        {
+          "name": "p1-s010-work",
+          "commit": {
+            "sha": "9e303df060fb71be89966ef0fbeaea4bad6c68f7",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/9e303df060fb71be89966ef0fbeaea4bad6c68f7"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S084-mathematics",
+          "commit": {
+            "sha": "2a481595f6c35bec361a84da4648c9a5d0bfc282",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/2a481595f6c35bec361a84da4648c9a5d0bfc282"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S085-mathematics",
+          "commit": {
+            "sha": "453439b56f4bcf44b8539974969f0bed1a59773f",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/453439b56f4bcf44b8539974969f0bed1a59773f"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S086-mathematics",
+          "commit": {
+            "sha": "7435c93ec127f4fc2527a883917fb90784db4464",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7435c93ec127f4fc2527a883917fb90784db4464"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S090-mathematics",
+          "commit": {
+            "sha": "971b3ccef56fc5654c857a32e882342c80e325c2",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/971b3ccef56fc5654c857a32e882342c80e325c2"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S091-mathematics",
+          "commit": {
+            "sha": "6633f88ba8a0826442618f5062cb2d74b83c9e86",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/6633f88ba8a0826442618f5062cb2d74b83c9e86"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S092-mathematics",
+          "commit": {
+            "sha": "96b3a8a496de5994bb141f2cd0131b5db69a065c",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/96b3a8a496de5994bb141f2cd0131b5db69a065c"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S092-wip",
+          "commit": {
+            "sha": "e8fe49c7cfb20fb18e506203ca2b3ea9df261f15",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/e8fe49c7cfb20fb18e506203ca2b3ea9df261f15"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S094-asscl-partiality",
+          "commit": {
+            "sha": "4703cdf3c6cb88721771d49c05bcd32aef531985",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/4703cdf3c6cb88721771d49c05bcd32aef531985"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S095-closed-bad-choice",
+          "commit": {
+            "sha": "56082da9a1b805e47b2161bf46bac77df889c739",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/56082da9a1b805e47b2161bf46bac77df889c739"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S096-closed-saturation-effectivity",
+          "commit": {
+            "sha": "f4cea88541192d11d2c6ed9959900d98d24d5ec8",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/f4cea88541192d11d2c6ed9959900d98d24d5ec8"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S097-paid-choice-and-online-trap",
+          "commit": {
+            "sha": "633a096fbaeba72a77fbcaf475639a63c820a6dd",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/633a096fbaeba72a77fbcaf475639a63c820a6dd"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S098-kurtz-budget-nonorientation",
+          "commit": {
+            "sha": "7f4246c274fc24fd5ca0ec50cd6859609fa24e86",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7f4246c274fc24fd5ca0ec50cd6859609fa24e86"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S099-delayed-covers-schnorr-audit",
+          "commit": {
+            "sha": "a6324a26434d1b73bacd9708495e8b44a318bbee",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/a6324a26434d1b73bacd9708495e8b44a318bbee"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S100-century-audit",
+          "commit": {
+            "sha": "1a5be73a7f54731d9be6dcb8db00b06a30217394",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/1a5be73a7f54731d9be6dcb8db00b06a30217394"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S101-proof-dossier",
+          "commit": {
+            "sha": "4b6e9a0e85aab3fe293e80d18847c0ba6b8d3277",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/4b6e9a0e85aab3fe293e80d18847c0ba6b8d3277"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S102-primary-source-proofs",
+          "commit": {
+            "sha": "dbcf3f754deeb7bd06d2400b36a67eaff194e1cc",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/dbcf3f754deeb7bd06d2400b36a67eaff194e1cc"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S103-adversarial-audit",
+          "commit": {
+            "sha": "8e57d9994ba21c219e3d94ffe31024d1ce175bac",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/8e57d9994ba21c219e3d94ffe31024d1ce175bac"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S104-source-partition-gate",
+          "commit": {
+            "sha": "350d2e39d738eab0b21e41b65784b8263881af1d",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/350d2e39d738eab0b21e41b65784b8263881af1d"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S105-proof-first-decision",
+          "commit": {
+            "sha": "06480bea3053ea73268b94105bf88b1bcf2ccfa6",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/06480bea3053ea73268b94105bf88b1bcf2ccfa6"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S106-double-fibre-strata",
+          "commit": {
+            "sha": "87191694a6fa58c8f088abfc7f80e55f10dd9e14",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/87191694a6fa58c8f088abfc7f80e55f10dd9e14"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S107-partner-ramification",
+          "commit": {
+            "sha": "c15e98bdd188f78479d4b2d2170a031ce8c3591e",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/c15e98bdd188f78479d4b2d2170a031ce8c3591e"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S108-tree-switch-ramification",
+          "commit": {
+            "sha": "b2bb15b0d12687b55ef9160a8ce6b0f7d89d08cb",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/b2bb15b0d12687b55ef9160a8ce6b0f7d89d08cb"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S109-lookahead-normal-form",
+          "commit": {
+            "sha": "6dc2d1381792b45d69a437ffb6dad9f5aac86369",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/6dc2d1381792b45d69a437ffb6dad9f5aac86369"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S110-hybrid-two-track-audit",
+          "commit": {
+            "sha": "909d72b806a14421ddc2df54dfa94cd359f244d1",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/909d72b806a14421ddc2df54dfa94cd359f244d1"
+          },
+          "protected": false
+        },
+        {
+          "name": "phase4/P4-S111-coupled-ramified-hybrids",
+          "commit": {
+            "sha": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4",
+            "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7a3c1e331ddd39889c2c882f1dcddfd7e53367c4"
+          },
+          "protected": false
+        }
+      ]
+    },
+    {
+      "endpoint": "actions/workflows",
+      "result": {
+        "error": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+        "error_code": "INVALID_ARGUMENT"
+      }
+    },
+    {
+      "endpoint": "actions/runs?per_page=10",
+      "result": {
+        "total_count": 0,
+        "workflow_runs": []
+      }
+    },
+    {
+      "endpoint": "commits/7a3c1e331ddd39889c2c882f1dcddfd7e53367c4/check-runs",
+      "result": {
+        "total_count": 0,
+        "check_runs": []
+      }
+    },
+    {
+      "endpoint": "commits/7a3c1e331ddd39889c2c882f1dcddfd7e53367c4/status",
+      "result": {
+        "state": "pending",
+        "statuses": [],
+        "sha": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4",
+        "total_count": 0
+      }
+    },
+    {
+      "endpoint": "rulesets",
+      "result": []
+    },
+    {
+      "endpoint": "branches/main/protection",
+      "result": {
+        "error": "GitHub API error 403: {\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/branches/branch-protection#get-branch-protection\",\"status\":\"403\"}",
+        "error_code": "FORBIDDEN",
+        "error_data": {
+          "message": "Resource not accessible by integration",
+          "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+          "status": "403"
+        }
+      }
+    }
+  ],
+  "note": "GET responses normalized to relevant evidence fields; no inferred outgoing SHA, hosted pass or protection permission."
+}

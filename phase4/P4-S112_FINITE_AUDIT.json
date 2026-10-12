@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "finite_only": true,
+  "checks": {
+    "abstract_actual_inverse_count": 2304,
+    "relative_compatible_classification": 576,
+    "factorization": 384,
+    "coherent_mixing_exact_finite_price": 3066,
+    "noncommon_coherent_hybrid_finite_price": 3066,
+    "one_sided_zero_four_countermodel": 3066,
+    "common_mixing_involution": 12285,
+    "common_mixing_exit_invariance": 12285,
+    "relative_compatible_block_involution": 4095,
+    "common_mixing_prefix_consistency": 12282,
+    "actual_first_exit_inverse_formula": 696,
+    "delayed_enumeration_prefix_closed_tree": 8188,
+    "noncomputable_stratum_map_exact_finite_price": 4094,
+    "D1_prefix_ghost_last_exit": 4094,
+    "base_four_digit_recovery_gap": 10,
+    "prefix_free_halting_code": 45,
+    "closed_chart_disjoint_rank_sheets": 40320,
+    "closed_chart_total_mass_subtraction": 40320,
+    "closed_chart_pushforward_domination": 161280
+  },
+  "total_assertions": 312456,
+  "not_proved_by_script": [
+    "infinite_fibres",
+    "CR_conservation",
+    "R2_conservation",
+    "noncomputability",
+    "DP2",
+    "CP2",
+    "EQ",
+    "SEP"
+  ]
+}

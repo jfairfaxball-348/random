@@ -1,0 +1,31 @@
+# P4-S112 — Session close
+
+2026-10-12. ONE owner-invoked Phase4 session. Incoming prompt archived byte-identically in P4-S112_INCOMING_HANDOFF.md. Entry main 7a3c1e331ddd39889c2c882f1dcddfd7e53367c4, sole parent 909d72b806a14421ddc2df54dfa94cd359f244d1, tree 608394f0c26d04b6b155095405f490e571ea6407; S111 PR #9 merged non-force at the same atomic commit. No open PR or competing S112 branch/record at entry.
+
+
+
+## P4-S112 — Keyed transport, closed-chart mass and R2 preservation (2026-10-12)
+Full keyed fair-homeomorphic tree-switch deformation normal form and exact 0/1/2/3/4 inverse counts proved internally; coherent label mixing escapes the old pointwise-c condition but every member still preserves CR and R2. S111's additional CR-homeomorphism assumption is redundant by S001/S102 E-ISO, explicitly strengthened without changing historical proofs. Computable-measure closed double-inverse charts preserve CR, and a fair exactly-two halting-tree example has noncomputable D1 mass; automatic chart effectivity REFUTED. Tag-retaining tests prove prefix deletion of R2 and pointwise tree-switch/keyed-homeomorphism R2 conservation, not general iteration. Four-plus substantive fronts and same-agent independent-in-method hostile review completed; 312,456 finite assertions plus S111 replay 84,903 PASS, not infinite or external proof. General DP2/CP2/EQ/SEP, R2 versus R_L1 and unrestricted iteration unresolved. All frozen objects/A-C and historical source distinctions preserved; scoped new Lemmas15-16 proof use in S112 dependencies. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. No external blocker; next S113 FUTURE/UNEXECUTED. See phase4/P4-S112_MATHEMATICS.md, _VALIDATION.md, _DEPENDENCIES.md and _CLOSE.md. Hosted CI ABSENT_NOT_PASS.
+
+Integration plan: ONE atomic session branch commit based on entry main, PR and non-force main integration. This precommit record cannot contain its own outgoing SHA or manufacture postmerge evidence. Exact outgoing commit/tree/parents, PR and observed main/check status will be independently verified after mutation and recorded in the PR body and final report. No self-referential SHA is asserted here.
+
+No owner/external blocker; S113 PREPARED, NOT EXECUTED. No Lean, Palomar, Gate4, Phase5, manuscript, novelty campaign, contact or publication. Scoped primary Lemmas15-16 proof use is explicitly distinguished from unchanged historical access grades.
+
+## Full future S113 handoff — byte-identical to authoritative/NEXT_SESSION_PROMPT.md
+
+# P4-S113 — Nonhomeomorphic coupled transport or a full double-fibre theorem
+
+FUTURE, NOT EXECUTED IN S112. On ONE NEW explicit owner invocation execute exactly ONE ambitious Phase4 CAND-01 MATHEMATICS session in https://github.com/jfairfaxball-348/random. No S114, Gate4, Phase5, Lean, Palomar, manuscript, novelty campaign, outside contact or publication.
+
+ENTRY: independently pin LIVE main and reconcile S112's ACTUAL atomic branch commit, sole parent/tree, PR, non-force integration and observed final main. S112 ENTRY was 7a3c1e331ddd39889c2c882f1dcddfd7e53367c4, NOT its outgoing commit. Inventory intervening changes, open/recent PRs, competing S113 records/branches, actual workflow files/runs/jobs/check-runs/status contexts, rulesets and accessible protection. Missing CI=ABSENT_NOT_PASS; inaccessible protection=UNKNOWN. Read governing authority/state/protocol/source policy, Gate3/CAND-01, frozen S101-S103 A-C and S106-S112 mathematics, dependencies and validation. Verify S113 unused and Phase4 OPEN.
+
+AUDIT FIRST: reconstruct S112's full keyed inverse-count/density classification, relative Q=P1^-1 P0 normal form, E-ISO correction of S111's redundant homeomorphism hypothesis, closed computable-measure chart theorem including both rank masses and zero sheets, halting-tree D1 counterexample, and tag-retaining R2 deletion/iteration proof. Challenge infinite boundary paths and all-source quantifiers. Correct a real gap before relying on it.
+
+Pursue AT LEAST FOUR substantial fronts, following promising discoveries without a one-lemma cap:
+(A) Build G in F2 with an ACTUAL CR double source and a successful ordinary total rational output martingale, or prove a significant new impossibility. Homeomorphic keyed tree-switch deformations are now class-wide CR AND R2 conserving. Explore genuinely NONINJECTIVE key transports: enforce BOTH S112 equation (6) on EVERY output and measure equation (7) on EVERY cylinder. Target-level pairing, common destroyer duplication, or a null computable residual set is insufficient.
+(B) Prove general DP2/CP2 through certified computable-measure closed inverse charts, another source-price mechanism, or a full rational ghost-candidate compiler. Determine whether all actual CR double sources admit suitable inner certificates despite noncomputable canonical D_r masses; refute overbroad extensions with actual fair F2 maps. Never assume positive sheet weights or computable stopping costs.
+(C) Attack unsaturated four-state paired maps beyond the homeomorphic normal form: jointly certify global two-point fibres, fair prices, ramification and genuine source-wise betting. Seek a substantial classification or construction, not another conserving twist example.
+(D) Attack EQ R2=MLR with EVERY CR nonMLR source quantified, or SEP with ONE nonMLR source surviving ALL global F2 maps and ALL ordinary total rational martingales. Also test R2 versus R_L1 and unrestricted F2(R2) subset R2 using SAME-source witnesses; S112 proves iteration only for its stated class.
+(E) Freely explore promising alternative proof architectures and unexpected exact characterizations.
+
+Write complete symbolic proofs or first gaps, separate finite evidence from infinity proofs, perform independent-in-method hostile validation, archive this incoming prompt exactly, and synchronize mathematics/dependencies/failures/claims/state/ledgers. Preserve Y/M/H/X, DEF-0020/PA-0001, A-C and historical source-access distinctions. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. Make ONE atomic session branch commit, PR, verified non-force integration and independently checked outgoing SHA/tree/parents/PR/check evidence. Put one complete FUTURE S114 prompt byte-identically in the close and authoritative/NEXT_SESSION_PROMPT.md; DO NOT execute S114. Blocker protocol only for genuine owner/external input.
