@@ -1637,3 +1637,7 @@ Owner explicitly chose to set papers/publication goals aside and continue mathem
 
 ## D-P4-S106 — Pursue the boundary of genuine double fibres, not an assumed conservation theorem
 2026-10-12. Owner-selected discovery-first Phase4 pivot executed exactly once. A1–A4 prove effective Π1 inverse chart strata and CR preservation on locally clopen two-branch neighbourhoods; the potential failure loci are meagre boundaries, not demonstrably effectively null. For everywhere exactly-two maps a dense open region is safe, but CP2 and DP2 both remain UNRESOLVED; so do EQ and SEP. Preserve S105's historical NO-GO for automatic old flagship allocation, and carry a distinct S107 future boundary/surgery-or-transfer prompt. No gate/source/publication status change.
+
+
+## D-P4-S107 — Continue ramification mathematics, not publication (2026-10-12)
+The S107 Baire-one canonical partner theorem, exact-two source Ram=Disc(J), output K_G=G(Ram) correspondence, DP2 source-local collision necessity and full exactly-two composition no-padding were internally checked. No CP2/DP2/EQ/SEP closure: meagre discontinuities need not avoid computably random sources. S108 should pursue a genuinely fair exact-two ramified quotient or priced ordinary-CR exceptional-source transfer. Historical S105 automatic flagship NO-GO, original Y/M/H/X, source access, Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN and Phase5 CLOSED unchanged. Owner prioritises original research, not papers.
