@@ -1,0 +1,26 @@
+{
+  "session": "P4-S114",
+  "scope": "FINITE_SANITY_NOT_INFINITY_PROOF",
+  "row_types": {
+    "balanced": 16,
+    "hybrid": 48,
+    "folded": 6,
+    "total": 70
+  },
+  "depths_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "total_input_prefix_checks": 2044,
+  "example": "K=[0], G_T(a0t)=0t, G_T(a1bt)=1at",
+  "D1_measure": "1/2",
+  "outcome": "PASS_LOCAL_PYTHON_SANITY",
+  "infinite_results": "PROOF_ONLY_NOT_COMPUTATION"
+}
