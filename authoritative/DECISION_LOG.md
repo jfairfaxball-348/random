@@ -1618,3 +1618,8 @@ Fresh same-agent A–C proof audit finds no fatal error: own-transcript legality
 
 ## D-P4-S104 — Reject scheduled-gain coverage; enforce S105 strategic stop (2026-10-12)
 First S100-authorized speculative gate tried one actual ML-test-steered source-partition F₂ family, using S083 F and source triangular shears. Legal maps and disjoint double-fibre kernels do not reduce EQ. The proposed computably bounded gain bridge is FALSE for every CR source, and short-ticket activation is not invariant under equivalent ML-test presentations. Without schedules, the full quantified bridge is unproved, not a new smaller obligation. Record ZERO central score; NO automatic second local repair or perpetual flagship proof search. P4-S105 must apply five-session GO/NO-GO and decide consolidation/pause or owner-chosen pivot absent actual central finish/reduced bridge. No phase/gate/source/candidate/definition change.
+
+
+## D-OWNER-2026-10-12-S105 — Aggressive central-target S105 handoff amendment, no numbered session
+
+After S104 close, the owner directly requests that S105 spend its remaining S100 speculative slot on an ambitious, sustained, genuine attempt to prove EQ R₂=MLR or SEP one z∈R₂∖MLR, with multiple architectures and internal dependent repairs. This supersedes review-FIRST framing of the historical S104-to-S105 prompt but DOES NOT remove the mandatory S105 end-of-session five-session GO/NO-GO or permit an automatic S106. Do not rewrite the byte-identical S104 historical close; authoritative/NEXT_SESSION_PROMPT.md and phase4/P4-S105_OWNER_HANDOFF_AMENDMENT.md now govern the future invocation. No S105 work executed, no mathematical status/gate/source-access/novelty/publication change.

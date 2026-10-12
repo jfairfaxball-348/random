@@ -52,7 +52,7 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "P4-S105 — mandatory S101–S105 five-session GO/NO-GO strategy review (FUTURE_UNEXECUTED); no automatic S106",
+  "next_transition": "P4-S105 FUTURE_UNEXECUTED — owner-directed proof-first flagship assault, then mandatory five-session GO/NO-GO; no automatic S106",
   "recommended_next_session": "P4-S105",
   "active_blocker": null,
   "candidate_selected": true,
@@ -3013,7 +3013,21 @@
     "phase_4": "OPEN",
     "phase_5": "CLOSED"
   },
-  "next_session_owner_direction": "S100 selected proof consolidation for S101; no S101 executed. Follow five-session go/no-go policy in century audit.",
+  "next_session_owner_direction": {
+    "date": "2026-10-12",
+    "kind": "OWNER_DIRECTED_HANDOFF_AMENDMENT_NOT_SESSION",
+    "next_session": "P4-S105",
+    "objective": "Major theorem: prove R2=MLR or construct one nonMLR R2 survivor",
+    "proof_first": true,
+    "eq_and_sep_serious_attacks": true,
+    "internal_multiple_gates": true,
+    "go_no_go_at_close": true,
+    "s100_speculative_slot": "second_and_final",
+    "previous_close_prompt_historical": true,
+    "amendment_document": "phase4/P4-S105_OWNER_HANDOFF_AMENDMENT.md",
+    "s105_executed": false,
+    "no_automatic_s106": true
+  },
   "phase4_s092_orientation_and_global_entanglement": {
     "session": "P4-S092",
     "date": "2026-10-11",
@@ -3475,7 +3489,7 @@
     "validation": "phase4/P4-S103_VALIDATION.md",
     "close": "phase4/P4-S103_CLOSE.md"
   },
-  "current_research_target": "S105 GO/NO-GO strategy review; CB104-fast refuted, EQ/SEP unresolved.",
+  "current_research_target": "Aggressive original EQ/SEP proof search within ONE P4-S105; multi-architecture and dependent repairs, then mandatory GO/NO-GO.",
   "phase4_s104_source_partition_gate": {
     "session": "P4-S104",
     "status": "COMPLETED",
