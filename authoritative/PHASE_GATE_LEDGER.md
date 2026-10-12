@@ -638,3 +638,7 @@ Baire-one computably approximated partner, exact-two source Ram=Disc(J) and outp
 
 ## P4-S108 — Internal fat ramification theorem, NOT Gate4 (2026-10-12)
 Total computable fair everywhere-exactly-two G_T and exact two inverse source m+1-cylinders per output m-cylinder; Ram and K_G can have positive measure arbitrarily close to one and contain CR sources; G_T still preserves CR. The universal effective Schnorr-null Ram approach is mathematically REFUTED. DP2/CP2/EQ/SEP remain UNRESOLVED. S109 FUTURE; no review, novelty campaign, independent certification, formalisation or publication. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED; hosted CI ABSENT_NOT_PASS.
+
+
+## Owner-only FUTURE S109 prompt expansion — NOT a mathematics session or Gate4 review (2026-10-12)
+The owner amended the scope of the NEXT future P4-S109 prompt to allow an intensive multi-front research expedition, with substantial proof/counterexample work and exploration of unexpected mathematical insights. S109 not executed, S108 historical close unchanged. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; hosted CI absent NOT PASS.
