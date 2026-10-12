@@ -601,3 +601,6 @@ P4-S099 executed six mathematical proof gates with **neither EQ R₂=MLR nor SEP
 
 Comprehensive 99-session audit and strategic selection completed; original CAND-01 unchanged. Gate 1/2/3 PASS history preserved; Gate 4 NOT REVIEWED; Phase 4 OPEN, Phase 5 CLOSED. PA-0001 unresolved, DEF-0020 unchanged, Fairfax-Ball Randomness not defined. Mathematical certification gate in S082 is distinct from formal Gate 4. S100 does not establish novelty, modern openness, priority or publication readiness. Hosted Actions/checks absent, not PASS. Next P4-S101 consolidates established proofs; no Phase-5 work. Audit: phase4/P4-S100_CENTURY_AUDIT.md.
 
+## P4-S101 — Internal proof dossier checkpoint, NOT Gate 4 (2026-10-12)
+
+Selected A bounded-hole collapse, B block-surviving nonMLR source, C SAME-source tail destruction/R₂⊊OH internally reconstructed under declared source assumptions. No fatal programme-proof gap; no external certification or source-access upgrade. Mathematical proof reconstruction does not establish novelty or Gate-4 readiness. Gate 3 PASS; Gate 4 NOT REVIEWED; Phase 4 OPEN; Phase 5 CLOSED. PA-0001 unresolved, DEF-0020 unchanged. Next S102 primary-proof verification of E-ISO/E-WTT, future only. No hosted CI PASS.

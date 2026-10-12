@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S100",
+  "last_completed_session": "P4-S101",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "P4-S101 — reconstruct established bounded-hole/OH-survivor/tail-separation proof dossier (FUTURE_UNEXECUTED)",
-  "recommended_next_session": "P4-S101",
+  "next_transition": "P4-S102 — verify E-ISO/E-WTT primary proofs for the closed internal dossier (FUTURE_UNEXECUTED)",
+  "recommended_next_session": "P4-S102",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -3349,6 +3349,51 @@
     "validation_record": "phase4/P4-S100_VALIDATION.md",
     "close_record": "phase4/P4-S100_CLOSE.md",
     "next_session": "P4-S101",
+    "owner_external_blocker": null
+  },
+  "phase4_s101_proof_dossier": {
+    "session": "P4-S101",
+    "date": "2026-10-12",
+    "incoming_main": "1a5be73a7f54731d9be6dcb8db00b06a30217394",
+    "incoming_parent": "a6324a26434d1b73bacd9708495e8b44a318bbee",
+    "status": "COMPLETED_SELECTED_PACKAGE_CLOSED_UNDER_DECLARED_LITERATURE_ASSUMPTIONS",
+    "bounded_hole_collapse": "RECONSTRUCTED_INTERNAL_PROOF",
+    "block_recoded_nonMLR_survival": "RECONSTRUCTED_INTERNAL_PROOF",
+    "same_source_tail_separation": "RECONSTRUCTED_INTERNAL_PROOF",
+    "unresolved_internal_premises_in_A_B_C": 0,
+    "fatal_gap_found": false,
+    "literature_assumptions": [
+      "SRC-0015/THM-0038 STATEMENT_INSPECTED for isomorphism invariance",
+      "SRC-0067 ABSTRACT_INSPECTED / SRC-0068 STATEMENT_INSPECTED for separate k2 autoreducible foundation"
+    ],
+    "primary_proof_verification": "FUTURE_P4_S102",
+    "hierarchy_changed": false,
+    "new_EQ_or_SEP": false,
+    "source_access_unchanged": true,
+    "original_Y_M_H_X_unchanged": true,
+    "max_speculative_sessions_through_S105": 2,
+    "speculative_sessions_used_since_S100": 0,
+    "internal_dossier_deadline_S103": "MET_IN_S101",
+    "flagship_automatic_default": false,
+    "written_review": "SEPARATE_SAME_AGENT_ADVERSARIAL_PASS_NOT_EXTERNAL",
+    "original_exact_audits_replayed": [
+      "S081",
+      "S082",
+      "S083",
+      "S084"
+    ],
+    "targeted_exact_checks": 3115,
+    "hosted_CI": "ABSENT_NOT_PASS",
+    "gate_3": "PASS",
+    "gate_4": "NOT_REVIEWED",
+    "phase_4": "OPEN",
+    "phase_5": "CLOSED",
+    "dossier": "phase4/P4-S101_PROOF_DOSSIER.md",
+    "dependency_matrix": "phase4/P4-S101_CLAIM_DEPENDENCIES.md",
+    "review_obligations": "phase4/P4-S101_REVIEW_OBLIGATIONS.md",
+    "validation_record": "phase4/P4-S101_VALIDATION.md",
+    "close_record": "phase4/P4-S101_CLOSE.md",
+    "next_session": "P4-S102",
     "owner_external_blocker": null
   }
 }

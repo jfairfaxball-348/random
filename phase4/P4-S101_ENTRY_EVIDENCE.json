@@ -1,0 +1,321 @@
+{
+  "pulls?state=all&per_page=100": [],
+  "branches?per_page=100": [
+    {
+      "name": "ccr-512282c4-k0bun8",
+      "commit": {
+        "sha": "d789bf0e0b743f9c49c6419d6fffe2639d74c060",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/d789bf0e0b743f9c49c6419d6fffe2639d74c060"
+      },
+      "protected": false
+    },
+    {
+      "name": "ccr-dd3e14c4-j9pfu2",
+      "commit": {
+        "sha": "4cb2a8b5b6a3a8b527704c3ee89b3a49c9d191ad",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/4cb2a8b5b6a3a8b527704c3ee89b3a49c9d191ad"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/eager-turing-k9qt6p",
+      "commit": {
+        "sha": "a6557f24867e48f5ac018f9865896993e74cc443",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/a6557f24867e48f5ac018f9865896993e74cc443"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/p4-s080-oh-source-6qifn1",
+      "commit": {
+        "sha": "b8017ed6f3090bcdd5bcbd5f4ceba8058cc7bacf",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/b8017ed6f3090bcdd5bcbd5f4ceba8058cc7bacf"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/p4-s087-two-observer-dxy96o",
+      "commit": {
+        "sha": "c820588d2936d1a6fe28cee84fca86699e65610a",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/c820588d2936d1a6fe28cee84fca86699e65610a"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/p4-s088-e0-breaking-b8ccnj",
+      "commit": {
+        "sha": "0009e00dff9d75b70539e513e544f4b89b8040f4",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/0009e00dff9d75b70539e513e544f4b89b8040f4"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/p4-s089-e0-breaking-efncvi",
+      "commit": {
+        "sha": "560f8a1e16a69aaf98a6b8328bfc893b09398d30",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/560f8a1e16a69aaf98a6b8328bfc893b09398d30"
+      },
+      "protected": false
+    },
+    {
+      "name": "claude/r2-mlr-global-orientation-wsout9",
+      "commit": {
+        "sha": "f6733e313642001eb39998efb7dfe331da92261f",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/f6733e313642001eb39998efb7dfe331da92261f"
+      },
+      "protected": false
+    },
+    {
+      "name": "docs/strengthen-r2-mlr-handoff",
+      "commit": {
+        "sha": "ec2c6ff1b5050b1b324d10b007843b1336bd7010",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/ec2c6ff1b5050b1b324d10b007843b1336bd7010"
+      },
+      "protected": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "1a5be73a7f54731d9be6dcb8db00b06a30217394",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/1a5be73a7f54731d9be6dcb8db00b06a30217394"
+      },
+      "protected": false
+    },
+    {
+      "name": "p1-s007-work",
+      "commit": {
+        "sha": "c0be7714c9a1d424575dd026a47b02c7a78b6044",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/c0be7714c9a1d424575dd026a47b02c7a78b6044"
+      },
+      "protected": false
+    },
+    {
+      "name": "p1-s010-work",
+      "commit": {
+        "sha": "9e303df060fb71be89966ef0fbeaea4bad6c68f7",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/9e303df060fb71be89966ef0fbeaea4bad6c68f7"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S084-mathematics",
+      "commit": {
+        "sha": "2a481595f6c35bec361a84da4648c9a5d0bfc282",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/2a481595f6c35bec361a84da4648c9a5d0bfc282"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S085-mathematics",
+      "commit": {
+        "sha": "453439b56f4bcf44b8539974969f0bed1a59773f",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/453439b56f4bcf44b8539974969f0bed1a59773f"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S086-mathematics",
+      "commit": {
+        "sha": "7435c93ec127f4fc2527a883917fb90784db4464",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7435c93ec127f4fc2527a883917fb90784db4464"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S090-mathematics",
+      "commit": {
+        "sha": "971b3ccef56fc5654c857a32e882342c80e325c2",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/971b3ccef56fc5654c857a32e882342c80e325c2"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S091-mathematics",
+      "commit": {
+        "sha": "6633f88ba8a0826442618f5062cb2d74b83c9e86",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/6633f88ba8a0826442618f5062cb2d74b83c9e86"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S092-mathematics",
+      "commit": {
+        "sha": "96b3a8a496de5994bb141f2cd0131b5db69a065c",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/96b3a8a496de5994bb141f2cd0131b5db69a065c"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S092-wip",
+      "commit": {
+        "sha": "e8fe49c7cfb20fb18e506203ca2b3ea9df261f15",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/e8fe49c7cfb20fb18e506203ca2b3ea9df261f15"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S094-asscl-partiality",
+      "commit": {
+        "sha": "4703cdf3c6cb88721771d49c05bcd32aef531985",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/4703cdf3c6cb88721771d49c05bcd32aef531985"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S095-closed-bad-choice",
+      "commit": {
+        "sha": "56082da9a1b805e47b2161bf46bac77df889c739",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/56082da9a1b805e47b2161bf46bac77df889c739"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S096-closed-saturation-effectivity",
+      "commit": {
+        "sha": "f4cea88541192d11d2c6ed9959900d98d24d5ec8",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/f4cea88541192d11d2c6ed9959900d98d24d5ec8"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S097-paid-choice-and-online-trap",
+      "commit": {
+        "sha": "633a096fbaeba72a77fbcaf475639a63c820a6dd",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/633a096fbaeba72a77fbcaf475639a63c820a6dd"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S098-kurtz-budget-nonorientation",
+      "commit": {
+        "sha": "7f4246c274fc24fd5ca0ec50cd6859609fa24e86",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7f4246c274fc24fd5ca0ec50cd6859609fa24e86"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S099-delayed-covers-schnorr-audit",
+      "commit": {
+        "sha": "a6324a26434d1b73bacd9708495e8b44a318bbee",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/a6324a26434d1b73bacd9708495e8b44a318bbee"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S100-century-audit",
+      "commit": {
+        "sha": "1a5be73a7f54731d9be6dcb8db00b06a30217394",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/1a5be73a7f54731d9be6dcb8db00b06a30217394"
+      },
+      "protected": false
+    }
+  ],
+  "actions/workflows?per_page=100": {
+    "error": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "actions/runs?per_page=100": {
+    "total_count": 0,
+    "workflow_runs": []
+  },
+  "commits/1a5be73a7f54731d9be6dcb8db00b06a30217394/check-runs": {
+    "total_count": 0,
+    "check_runs": []
+  },
+  "commits/1a5be73a7f54731d9be6dcb8db00b06a30217394/status": {
+    "state": "pending",
+    "statuses": [],
+    "sha": "1a5be73a7f54731d9be6dcb8db00b06a30217394",
+    "total_count": 0,
+    "repository": {
+      "id": 1403084367,
+      "node_id": "R_kgDOU6FeTw",
+      "name": "random",
+      "full_name": "jfairfaxball-348/random",
+      "private": false,
+      "owner": {
+        "login": "jfairfaxball-348",
+        "id": 294537967,
+        "node_id": "U_kgDOEY5K7w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/294537967?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jfairfaxball-348",
+        "html_url": "https://github.com/jfairfaxball-348",
+        "followers_url": "https://api.github.com/users/jfairfaxball-348/followers",
+        "following_url": "https://api.github.com/users/jfairfaxball-348/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jfairfaxball-348/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jfairfaxball-348/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jfairfaxball-348/subscriptions",
+        "organizations_url": "https://api.github.com/users/jfairfaxball-348/orgs",
+        "repos_url": "https://api.github.com/users/jfairfaxball-348/repos",
+        "events_url": "https://api.github.com/users/jfairfaxball-348/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jfairfaxball-348/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/jfairfaxball-348/random",
+      "description": null,
+      "fork": false,
+      "url": "https://api.github.com/repos/jfairfaxball-348/random",
+      "forks_url": "https://api.github.com/repos/jfairfaxball-348/random/forks",
+      "keys_url": "https://api.github.com/repos/jfairfaxball-348/random/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/jfairfaxball-348/random/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/jfairfaxball-348/random/teams",
+      "hooks_url": "https://api.github.com/repos/jfairfaxball-348/random/hooks",
+      "issue_events_url": "https://api.github.com/repos/jfairfaxball-348/random/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/jfairfaxball-348/random/events",
+      "assignees_url": "https://api.github.com/repos/jfairfaxball-348/random/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/jfairfaxball-348/random/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/jfairfaxball-348/random/tags",
+      "blobs_url": "https://api.github.com/repos/jfairfaxball-348/random/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/jfairfaxball-348/random/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/jfairfaxball-348/random/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/jfairfaxball-348/random/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/jfairfaxball-348/random/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/jfairfaxball-348/random/languages",
+      "stargazers_url": "https://api.github.com/repos/jfairfaxball-348/random/stargazers",
+      "contributors_url": "https://api.github.com/repos/jfairfaxball-348/random/contributors",
+      "subscribers_url": "https://api.github.com/repos/jfairfaxball-348/random/subscribers",
+      "subscription_url": "https://api.github.com/repos/jfairfaxball-348/random/subscription",
+      "commits_url": "https://api.github.com/repos/jfairfaxball-348/random/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/jfairfaxball-348/random/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/jfairfaxball-348/random/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/jfairfaxball-348/random/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/jfairfaxball-348/random/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/jfairfaxball-348/random/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/jfairfaxball-348/random/merges",
+      "archive_url": "https://api.github.com/repos/jfairfaxball-348/random/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/jfairfaxball-348/random/downloads",
+      "issues_url": "https://api.github.com/repos/jfairfaxball-348/random/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/jfairfaxball-348/random/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/jfairfaxball-348/random/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/jfairfaxball-348/random/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/jfairfaxball-348/random/labels{/name}",
+      "releases_url": "https://api.github.com/repos/jfairfaxball-348/random/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/jfairfaxball-348/random/deployments"
+    },
+    "commit_url": "https://api.github.com/repos/jfairfaxball-348/random/commits/1a5be73a7f54731d9be6dcb8db00b06a30217394",
+    "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/1a5be73a7f54731d9be6dcb8db00b06a30217394/status"
+  },
+  "rulesets": [],
+  "branches/main/protection": {
+    "error": "GitHub API error 403: {\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/branches/branch-protection#get-branch-protection\",\"status\":\"403\"}",
+    "error_code": "FORBIDDEN",
+    "error_data": {
+      "message": "Resource not accessible by integration",
+      "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+      "status": "403"
+    }
+  },
+  "entry": {
+    "sha": "1a5be73a7f54731d9be6dcb8db00b06a30217394",
+    "parent": "a6324a26434d1b73bacd9708495e8b44a318bbee",
+    "tree": "e21231fed83ddc46fbc663551b20fecf74daeeef",
+    "source": "Independent GitHub branch read and local clone history",
+    "observed_date": "2026-10-12",
+    "workflow_files": "ABSENT in pinned git tree",
+    "hosted_CI": "ABSENT_NOT_PASS",
+    "branch_metadata": "protected false; administration protection details inaccessible"
+  }
+}
