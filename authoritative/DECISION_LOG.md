@@ -1610,3 +1610,7 @@ The S081–S083 selected A–C package is internally reconstructed without a fat
 ## D-P4-S102 — Discharge declared source assumptions at primary-proof level
 
 2026-10-12. The cited 2016 Rute Lemma8 is only a citation to 2015 original Rute Thm7.11 actual proof; source-specific access preserved. Original 2004 JSL article proof unavailable, coauthor 2007 primary thesis complete proof inspected; ONLY SRC-0068 upgraded to PROOF_INSPECTED. E-ISO/E-WTT hypotheses match S101 application; direct B/C imports neither E-WTT nor SRC-0071. No changed original objects/gates/central EQ or SEP claim. S103 is bounded adversarial A–C audit with journal correspondence attempt; 0 speculative flagship sessions used of maximum 2 through S105.
+
+## D-P4-S103 — Audited dossier survives; select bounded fallback for S104
+
+Fresh same-agent A–C proof audit finds no fatal error: own-transcript legality, partial emission syntax, EVERY-state 1/8 bound and SAME-source 7/2>2 compactness checked explicitly. No quarantine or hierarchy change. Original JSL proof remains inaccessible, not a mathematical falsifier or a required owner action. Source levels/objects/gates unchanged. S100 dossier target met; zero speculative flagships through S103. Select rank2 source-dependent non-orientation source-partition coverage for a separately invoked S104, with exactly one mechanism/bridge and no claimed advance until quantified gain/coverage actually proved. S105 must assess GO/NO-GO; no automatic sixth refinement. No S104 execution now.

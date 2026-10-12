@@ -1,0 +1,22 @@
+{
+  "P4-S081_COLOURING_AUDIT.py": {
+    "exit_code": 0,
+    "stdout": "Theorem A bookkeeping: PASS (60 scans, 9660 factor identities)\nCorollary A4 window scan: PASS (20 correct parity windows, capital 2^20)\nTheorem B even/odd factor split: PASS (40 one-hole scans on joins)\nALL P4-S081 AUDITS PASS\n",
+    "stderr": ""
+  },
+  "P4-S082_POTENTIAL_AUDIT.py": {
+    "exit_code": 0,
+    "stdout": "Lemmas 2.1, 2.2, 2.3, 3.1 (raw one-hole/two-hole/identity scans): (360, 400, 109, 40) checks PASS\nLemma 2.4 (savings transform): 300 paths PASS\nLemmas 2.1, 2.3, 3.2 (virtual scans through blockwise GL(3,2) recodings incl. A): (216, 24, 24) checks PASS\nFinite construction: fixed 4 coordinates; Phi after each stage = ['1/16', '3/64', '73/1920', '667413109/17539806080'] all < 2; good completion found: PASS\nExample E1 (unbounded width): Psi = 1 ; sum of costs k=1..7 = 25/8 > Psi: PASS (illustrates failure of Lemma 3.1 without bounded width)\nExample E2 (cumulative difference): ['1', '1', '2', '0'] split at sigma=empty, neutralized after one fixing: PASS\nALL P4-S082 AUDITS PASS\n",
+    "stderr": ""
+  },
+  "P4-S083_SEPARATION_AUDIT.py": {
+    "exit_code": 0,
+    "stdout": "Part 1 (tail-coded hole algebra): 120000 checks PASS\nPart 2 (toy class-separated runs: nesting + separation): 866 checks PASS\nPart 3 (T* on D'(z), toy threshold r=2): 3127 resolutions, 2804 correct, 323 fooled; wrong <=> anti-consistent selected fixes: 3127 equivalences PASS; 2414 selections of true-run prefixes, all correct; adversarial completion fooled T* 2 time(s)\nPart 4 (exact fibre count, 2^14 raw prefixes): 8192 transcripts, max preimages 2 PASS\nPart 5 (series): partial sum 0.125000000000 < 1/8 = closed form; compactness lower bound 7/2 > 2 PASS\nALL P4-S083 AUDITS PASS\n",
+    "stderr": ""
+  },
+  "P4-S101_BOUNDARY_AUDIT.py": {
+    "exit_code": 0,
+    "stdout": "PASS: 3115 exact finite block/refinement/budget checks; no infinitary certification\n",
+    "stderr": ""
+  }
+}
