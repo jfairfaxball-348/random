@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S105",
+  "last_completed_session": "P4-S106",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "OWNER_CHOSEN_PHASE4_DOUBLE_FIBRE_RESEARCH_PIVOT_P4_S106_FUTURE_UNEXECUTED",
-  "recommended_next_session": "P4-S106",
+  "next_transition": "OWNER_CHOSEN_PHASE4_EXCEPTIONAL_DOUBLE_BOUNDARY_RESEARCH_P4_S107_FUTURE_UNEXECUTED",
+  "recommended_next_session": "P4-S107",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S105",
-    "next_session": "P4-S106",
+    "last_session": "P4-S106",
+    "next_session": "P4-S107",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S105_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S105_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S105_VALIDATION.md",
+    "latest_record": "phase4/P4-S106_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S106_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S106_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -3015,13 +3015,11 @@
   },
   "next_session_owner_direction": {
     "date": "2026-10-12",
-    "status": "NEW_OWNER_RESEARCH_DIRECTION_FUTURE_S106_NOT_EXECUTED",
-    "owner_instruction_verbatim": "Forget the paper and publications.\n\nIf we were just looking to keep moving forward with research, lets keep digging.\n\nWhats the next session prompt",
-    "record": "phase4/P4_RESEARCH_DIRECTION_AFTER_S105.md",
-    "priority": "Original mathematics on bounded ambiguity; no publication-driven next task.",
-    "next_session": "P4-S106",
+    "status": "S106_COMPLETED_S107_FUTURE_NOT_EXECUTED",
+    "priority": "Original bounded-ambiguity mathematics, no publication",
+    "next_session": "P4-S107",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
-    "S105_historical_decision_preserved": true
+    "S105_historical_NO_GO_preserved": true
   },
   "phase4_s092_orientation_and_global_entanglement": {
     "session": "P4-S092",
@@ -3484,7 +3482,7 @@
     "validation": "phase4/P4-S103_VALIDATION.md",
     "close": "phase4/P4-S103_CLOSE.md"
   },
-  "current_research_target": "Preservation versus destruction on genuine double fibres (DP2/CP2), broader effective inverse structure; EQ/SEP retained as unresolved secondary headline questions.",
+  "current_research_target": "DP2/CP2 exceptional double-fibre boundary geometry and effective inverse preservation (owner-selected Phase4 research continuation); EQ/SEP remain unresolved.",
   "phase4_s104_source_partition_gate": {
     "session": "P4-S104",
     "status": "COMPLETED",
@@ -3559,9 +3557,38 @@
       "repeated_binary_observation_robustness"
     ],
     "owner_blocker_cleared": true,
-    "S106_executed": false,
+    "S106_executed": true,
     "publication_priority_deferred": true,
     "phase5_opened": false,
     "historical_S105_NO_GO_unchanged": true
+  },
+  "phase4_s106_double_fibre_strata": {
+    "session": "P4-S106",
+    "status": "COMPLETED_INTERNAL_PROOF_DP2_CP2_EQ_SEP_UNRESOLVED",
+    "entry_main": "f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e",
+    "entry_tree": "2b26eb1681957983e7854989d432c0f28806cf39",
+    "results": [
+      "UNIFORMLY_EFFECTIVELY_CLOSED_DOUBLE_OUTPUT_STRATA",
+      "TWO_COMPUTABLE_INVERSE_CHARTS_ON_EACH_STRATUM",
+      "CR_PRESERVATION_ON_INTERIOR_STRATA",
+      "MEAGRE_BOUNDARY_CONFINEMENT",
+      "DENSE_OPEN_SAFE_OUTPUT_LOCUS_FOR_EXACT_TWO",
+      "FINITE_FIBRE_COMPOSITION_TRANSPORT"
+    ],
+    "dp2": "UNRESOLVED",
+    "cp2": "UNRESOLVED",
+    "eq": "UNRESOLVED",
+    "sep": "UNRESOLVED",
+    "finite_audit_assertions": 16406,
+    "validation": "SAME_AGENT_ADVERSARIAL_WRITTEN_AND_LIMITED_EXACT_FINITE_NOT_FORMAL",
+    "hosted_CI": "ABSENT_NOT_PASS",
+    "gate3": "PASS",
+    "gate4": "NOT_REVIEWED",
+    "phase4": "OPEN",
+    "phase5": "CLOSED",
+    "math": "phase4/P4-S106_MATHEMATICS.md",
+    "validation_record": "phase4/P4-S106_VALIDATION.md",
+    "close": "phase4/P4-S106_CLOSE.md",
+    "next_session": "P4-S107"
   }
 }

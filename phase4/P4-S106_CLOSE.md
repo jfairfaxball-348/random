@@ -1,0 +1,39 @@
+# P4-S106 — Close: double-fibre strata and residual exceptional boundaries
+
+2026-10-12. ONE separately owner-invoked Phase4 mathematical session following the post-S105 owner pivot; no S107 executed. Entry main f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e, sole parent 06480bea3053ea73268b94105bf88b1bcf2ccfa6, entry tree 2b26eb1681957983e7854989d432c0f28806cf39. Incoming authoritative prompt archived byte-identically at phase4/P4-S106_INCOMING_HANDOFF.md.
+
+Internally proved: uniformly effectively closed double-output strata, two computable inverse charts conditional on a finite split parameter, local CR preservation over interiors, closed nowhere-dense boundary confinement, dense-open safe outputs for EXACTLY-two maps, and the fibre-multiplication robustness transport lemma. Pursued independent inverse-chart and double-partner-destroyer approaches with separate adversarial review; marker-deletion finite audit 16,406 PASS. Not a novel-status or externally verified theorem.
+
+**DP2 UNRESOLVED; CP2 UNRESOLVED; EQ R2=MLR UNRESOLVED; SEP one R2\MLR nonMLR source UNRESOLVED.** No false global CR-preservation inference. Old S105 NO-GO remains historical, new owner research direction continues. Original A–C/Y/M/H/X/CAND-01/DEF-0020/PA-0001/source access unchanged. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED.
+
+ONE atomic branch commit, PR and non-force main integration are performed after staging this record; the outgoing commit SHA cannot be embedded in its own committed content. Verify remote head/tree/parent and hosted evidence AFTER integration. Entry hosted workflow files absent, Actions runs 0, check-runs 0, status contexts 0, rulesets [], protection 403; absence is NOT CI PASS.
+
+## Complete FUTURE S107 prompt (not executed)
+
+# P4-S107 — Attack the exceptional double-fibre boundary: exact-two surgery or effective preservation
+
+FUTURE, UNEXECUTED DURING S106. On ONE NEW explicit owner invocation execute exactly ONE substantial Phase4 MATHEMATICS session P4-S107 in https://github.com/jfairfaxball-348/random. Owner direction after S105 remains original research, NOT publication. Do not execute S108, initiate Gate4, Phase5, manuscript, novelty campaign, Lean, Palomar, correspondence or outreach.
+
+ENTRY: Independently pin LIVE main to S106's actual integrated outgoing SHA, obtained from remote ref evidence, not a self-referential closeout. Verify S106 ONE atomic commit, parent/tree, PR and non-force merge/fast-forward. Reconcile intervening changes, open/recent PRs, competing S107 files/branches, actual Actions workflows/runs/jobs, check-runs/status contexts, rulesets and reachable protections; missing hosted checks are NOT green. Read AGENTS, START_HERE, STATE, charter, roadmap, SESSION_PROTOCOL and gate/source policy, CAND-01, Gate3, both Phase4 pivots, S100, S101–S105, owner amendment, and S106 mathematics/validation/failures. Preserve source access and original Y/M/H/X. Archive this exact incoming prompt; S107 must be unused and Phase4 OPEN.
+
+PRIMARY CHALLENGE: genuinely PROVE OR REFUTE separately
+DP2: every G∈F2 preserves CR at each ACTUAL double-fibre CR source;
+CP2: every G∈F2 with EXACTLY TWO preimages at EVERY output preserves CR everywhere.
+A DP2 counterexample needs ONE everywhere-total computable fair G with an ALL-output cap of two, one actual CR x, a distinct partner x' with G(x')=G(x), and an ordinary total rational computable output martingale succeeding on G(x). A CP2 counterexample must certify two preimages for EVERY output, not merely a.e. Neither proposition is resolved by S106. CP2 is weaker than DP2; do not conflate them. EQ R2=MLR and SEP one z∈R2\MLR remain open secondary headlines.
+
+S106 proves uniform effectively closed strata D_r of outputs with two inverses split by input precision r; over each D_r the lex-ordered inverses are computable with finite parameter r; on Int(D_r) local clopen injective slices preserve CR; every DP2 failure must lie in union boundaries ∂D_r, and for exactly-two maps the preserved-output set O_G=union Int(D_r) is dense open. These are internal proofs only. S004/S005 prevent deriving computable conditional masses, and meagreness does not exclude CR. Re-derive key dependencies and adversarially challenge the exact statements before extending them.
+
+PURSUE substantial DEPENDENT proof/counterexample routes, not arbitrary one-lemma stopping:
+
+A. Boundary geometry. Construct a computable fair width-two map with a genuinely double CR source whose output is on a non-open Π1 stratum boundary, and test whether an explicit output rational martingale succeeds. OR prove that CR sources cannot occupy the relevant boundary under an additional intrinsic EFFECTIVE hypothesis. Do not assume boundary nullity or computable measures. Quantify all output fibres and conditional weights; check every limit point and every source, not only generic samples. Attempt first an EXACTLY-two-all-outputs quotient so CP2 is seriously challenged.
+
+B. Effective inverse transfer. Investigate finite-chart partitions without globally computable clopen labels; look for a mathematically natural hypothesis strictly beyond S003/A3 (for example a computably controlled stratified exhaustion with exactly priced exceptional source sets). If proving preservation, deliver ONE total computable rational source martingale or a sound relative-measure transfer; do not substitute ML tests for CR or rely on computable last-injury stages. Challenge zero-weight genuine branches from S004 and noncomputable crossing masses S005.
+
+C. Structural construction from S083. Replace infinitely resolving singleton destruction with persistent width-two ambiguity while preserving output success. Prove exact dyadic cell prices, finite-use totality, all-output preimage cap, actual second partner and unbounded savings after losses/restarts. Reject simple π padding (four regular preimages), null-point graft (continuity), and S084 predictable-error shortcuts unless genuinely repaired.
+
+D. Repeated observations as a secondary route. Study F2(R2)⊆R2 and the composition transport F_j(R_jk)⊆R_k from S106; distinguish a nontrivial class theorem from the tautological fibre multiplication and from R2=MLR. Any counterexample to F2(R2)⊆R2 needs an ACTUAL z in R2 and all-map verification, not merely an F4 failure.
+
+At least TWO independent routes must receive serious attempted proofs, concrete repairs and a separate adversarial audit. Record every precise successful theorem, conditional lemma, failed bridge and counterexample model. Limited exact finite testing is welcome for an explicit candidate, but it cannot certify infinite quantifiers. Prefer a major complete result, including DP2/CP2/EQ/SEP if genuinely achieved, over many shallow local claims.
+
+CLOSE: write substantial S107 mathematics dossier, separate adversarial validation, dependency/failure and research assessment, update STATE, START_HERE, AGENTS, session/decision/gate/failure ledgers, close record and byte-identical archived incoming prompt. Explicitly classify DP2 and CP2 independently, and label all mathematics internally checked versus conjectural. Prepare a complete copy-ready FUTURE S108 handoff unless blocked, but DO NOT EXECUTE S108. One atomic branch commit, PR and non-force integration (fast-forward if possible, else true merge), independently re-read outgoing main SHA/tree/parents, PR and actual hosted checks. No CI is NOT PASS. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. STOP after S107.
+
