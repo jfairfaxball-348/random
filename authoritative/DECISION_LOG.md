@@ -1,3 +1,5 @@
+**P4-S111 DECISION (2026-10-12).** Close the S110 SAME-SOURCE structural coupling question constructively but do NOT claim paired CR destruction: near-full ramification plus infinite hybrids can conserve ALL CR. Next S112 explores exit-label mixing, non-conserving mass redistribution and unrestricted DP2/CP2/EQ/SEP. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; no owner blocker or publication.
+
 **P4-S110 DECISION (2026-10-12).** Continue Phase4 multi-front mathematical exploration; finite 48-type hybrid transitions are compatible with two ACTUAL inverse tracks and alone do NOT destroy CR. S111 must test same-source hybrid/ramification, universal DP2/CP2 and EQ/SEP. No owner blocker, publication or Gate4 transition.
 
 # Decision Log
