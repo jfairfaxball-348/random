@@ -1,0 +1,893 @@
+[
+  {
+    "session": "P4-S001",
+    "central_question": "k=1 injective base case",
+    "established": "PROVED computable fair homeomorphism and inverse, CR invariance",
+    "conditional_or_failed": "No class-wide inverse-use bound; compact injectivity defeats proposed noncomputable inverse",
+    "flagship_effect": "Closes original k=1 preservation",
+    "later_disposition": "Frozen foundation",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S002",
+    "central_question": "k=2 finite-valued inverse boundary",
+    "established": "PROVED descending clopen fibre names; isolation with advice; selector collision example",
+    "conditional_or_failed": "Finite fibres do not force total computable branches; examples still preserve CR",
+    "flagship_effect": "Opens effective inverse gap; no EQ/SEP",
+    "later_disposition": "Refined S003/S007, frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S003",
+    "central_question": "k=2 weighted-sheet and martingale-transfer boundary",
+    "established": "PROVED two-prefix lists, conditional-weight martingales, clopen two-sheet preservation",
+    "conditional_or_failed": "Computable sheet split supplied, not forced; filler completion pre-reveals bets",
+    "flagship_effect": "Positive subclass and exact list bound; no general preservation finish",
+    "later_disposition": "Frozen; width representation subsumed S085",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S004",
+    "central_question": "k=2 conditional-weight stopping boundary",
+    "established": "PROVED ML-level low-weight test, exact finite-stage lifts, vanishing-sheet map",
+    "conditional_or_failed": "Computable hitting measures/coherent lift absent; thin example not destroyer",
+    "flagship_effect": "Identifies stopping-effectivity gap; no EQ/SEP",
+    "later_disposition": "Frozen; effectivization refuted S005",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S005",
+    "central_question": "k=2 crossing-measure non-effectivity boundary",
+    "established": "PROVED noncomputable crossing measure and symmetric-count mass",
+    "conditional_or_failed": "Even effective clopen sheets do not compute hitting probabilities; example preserves CR",
+    "flagship_effect": "Kills automatic Schnorr/stopped-lift route",
+    "later_disposition": "Frozen counterexamples",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S006",
+    "central_question": "canonical lexicographic two-sheet complexity",
+    "established": "PROVED canonical effective Borel sheets and Baire-1 extrema; noncomputable masses",
+    "conditional_or_failed": "Canonical selectors need not be computable; revealing one mask collapses cohort",
+    "flagship_effect": "Blocks canonical-split/mask shortcut",
+    "later_disposition": "Frozen; skeleton refined S007",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S007",
+    "central_question": "k=2 delayed-coalescence inverse-tree boundary",
+    "established": "PROVED coherent width-two inverse skeleton and fixed-precision finite injury",
+    "conditional_or_failed": "No computable last injury, persistent branch mass or success transfer",
+    "flagship_effect": "One-bit support is genuine but not enough for preservation",
+    "later_disposition": "Frozen; S085 exact reformulation",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S008",
+    "central_question": "k=2 scan freshness and permutation-completion boundary",
+    "established": "PROVED fixed-sentinel permutation completion; CR scan wins only on singleton fibres",
+    "conditional_or_failed": "Moving consumed hole lacks computable consumption rate",
+    "flagship_effect": "Restricts viable destroyer geometry",
+    "later_disposition": "Frozen; realized S011",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S009",
+    "central_question": "k=2 singleton moving-hole deferred-wager boundary",
+    "established": "PROVED unavoidable sentinel implies searchable deadline and finite exact hedge",
+    "conditional_or_failed": "Target consumption without sibling consumption remains partial; finite horizons have no rate-free coverage",
+    "flagship_effect": "Isolates branchwise avoidability",
+    "later_disposition": "Frozen; comb completed S011",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S010",
+    "central_question": "k=2 branchwise-avoidable capped optional-projection boundary",
+    "established": "PROVED cap-2 optional projection can be noncomputable; legal least-fresh comb",
+    "conditional_or_failed": "Comb source-randomness not yet supplied; capital cap does not compute stopping",
+    "flagship_effect": "Closes geometry, leaves source premise",
+    "later_disposition": "Source premise closed S011",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S011",
+    "central_question": "adaptive c.e.-trigger singleton spine: exact k=2 non-conservation",
+    "established": "PROVED exact global k=2 fair scan destroys CR Y with singleton fibre",
+    "conditional_or_failed": "Uses recorded CR wtt-autoreducible existence; sibling partiality essential",
+    "flagship_effect": "Decides original k=2 nonconservation; hence R₂⊊CR",
+    "later_disposition": "Frozen leading theorem",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S012",
+    "central_question": "partial-predictor boundary and scan converse",
+    "established": "PROVED partial prediction/stake conversion and scan-order stake converse",
+    "conditional_or_failed": "Wtt bound unnecessary; arbitrary winning stakes do not imply all-correct bit autoreduction",
+    "flagship_effect": "Explains scan mechanism, not arbitrary F₂ converse",
+    "later_disposition": "Frozen; broader held normal form S081",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S013",
+    "central_question": "reachable-sentinel totality and finite-deadline preservation",
+    "established": "PROVED reachable-sentinel totality equals finite deadlines and yields exhaustive isomorphism",
+    "conditional_or_failed": "Requires convergence on every reachable sibling; Y lacks it",
+    "flagship_effect": "Positive preservation boundary",
+    "later_disposition": "Frozen; budgets relax assumption S014",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S014",
+    "central_question": "computably budgeted avoidance tails and one-martingale transfer",
+    "established": "PROVED finite uniform pathwise miss-budget transfer",
+    "conditional_or_failed": "Requires supplied total horizons and summable conditional misses; no necessity claim",
+    "flagship_effect": "Positive scan/martingale certificate, no EQ/SEP",
+    "later_disposition": "Frozen; weighted weakening S015",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S015",
+    "central_question": "stake-weighted skipped-wager loss budgets",
+    "established": "PROVED stake-weighted skipped-gain budget transfer, strict raw-budget relaxation",
+    "conditional_or_failed": "Computable majorants supplied; minimal loss envelope can be noncomputable",
+    "flagship_effect": "Refines sufficient preservation certificate",
+    "later_disposition": "Frozen; advance envelope eliminated S016",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S016",
+    "central_question": "incremental last-chance loss tickets",
+    "established": "PROVED incremental last-chance premium transfer and local fair-price minimality",
+    "conditional_or_failed": "Finite uniform premium-sum bound still required",
+    "flagship_effect": "Computable one-step accounting replaces advance envelope",
+    "later_disposition": "Frozen; fixed-stream reserve relaxation S017",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S017",
+    "central_question": "self-financing last-chance reserves",
+    "established": "PROVED coercive recycled-reserve transfer; strict fixed-stream weakening",
+    "conditional_or_failed": "Bare solvency insufficient; reserve must diverge with loss",
+    "flagship_effect": "Preservation certificate without absolute premium sum",
+    "later_disposition": "Frozen; effectivity analyzed S018",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S018",
+    "central_question": "effective coercivity modulus and cross-branch escape",
+    "established": "PROVED effective coercivity-modulus transfer; cross-branch semantic counterexample",
+    "conditional_or_failed": "Pathwise coercivity need not give any uniform floor modulus",
+    "flagship_effect": "Separates effective from semantic reserve control",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S019",
+    "central_question": "finite loss-properness versus effective loss bars",
+    "established": "PROVED halting-coded finite loss-properness with no computable majorant",
+    "conditional_or_failed": "Lower semicomputable finite b(K) is not effectively bounded",
+    "flagship_effect": "Refutes automatic effectivization",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S020",
+    "central_question": "zero-loss waiting versus searchable loss levels",
+    "established": "PROVED heartbeat no-go and searchable-loss-level sufficiency",
+    "conditional_or_failed": "Event frequency not amount progress; supplied witness modulus decides Reach",
+    "flagship_effect": "Sharp searchability boundary, no EQ/SEP",
+    "later_disposition": "Frozen; scale tests S021",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S021",
+    "central_question": "scale-tail effectivity versus shrinking-scale boundary attainment",
+    "established": "PROVED scale-tail effectivization; exact Reach can still code halting",
+    "conditional_or_failed": "Shrinking geometric approach can miss boundary attainment",
+    "flagship_effect": "Separates effective loss bounds from exact reachability",
+    "later_disposition": "Frozen; anti-Zeno repair S022/S023",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S022",
+    "central_question": "anti-Zeno boundary isolation versus exact loss-level searchability",
+    "established": "PROVED strict frontier certificates decide exact Reach",
+    "conditional_or_failed": "Boundary-complete certificates compile to old witness modulus; not strictly weaker effective power",
+    "flagship_effect": "Identifies redundant repair",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S023",
+    "central_question": "semantic anti-Zeno plus uniform effective tail convergence",
+    "established": "PROVED semantic anti-Zeno plus uniform effective tails gives compact strict gap",
+    "conditional_or_failed": "Uniformity indispensable; pointwise convergence not enough",
+    "flagship_effect": "Conditional positive search theorem",
+    "later_disposition": "Frozen; sharp pointwise failure S024",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S024",
+    "central_question": "pointwise tail convergence and the incompatible-branch comb",
+    "established": "PROVED oracle-uniform moduli compactify; pointwise effective comb has undecidable Reach",
+    "conditional_or_failed": "Separate branch moduli lack one global algorithm",
+    "flagship_effect": "Refutes pointwise replacement",
+    "later_disposition": "Frozen; continuous countermodel S025",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S025",
+    "central_question": "effective upper-semicontinuity and non-effective continuity obstruction",
+    "established": "PROVED effective upper caps equivalent to uniform tail control; semantic continuity no-go",
+    "conditional_or_failed": "Continuous anti-Zeno limit need not have effective upper-cap basis",
+    "flagship_effect": "Effectivity threshold sharpened",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S026",
+    "central_question": "one-sided integer-boundary caps and the completeness collapse",
+    "established": "PROVED boundary-complete c.e. caps collapse to decidable Reach",
+    "conditional_or_failed": "Integer-only representation weaker, but completeness restores same power",
+    "flagship_effect": "No new weaker effective mechanism",
+    "later_disposition": "Frozen, parked after S031",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S027",
+    "central_question": "bare bankroll for the P4-S011 destroyer",
+    "established": "PROVED use-clipped M gives bare reserve-one solvency for normalized destroyer",
+    "conditional_or_failed": "Bare reserve not coercive and does not imply preservation",
+    "flagship_effect": "Settled destruction survives solvency",
+    "later_disposition": "Frozen normalization of original M",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S028",
+    "central_question": "finite dependency frontiers and bare reserve demand",
+    "established": "PROVED finite dependency frontier sufficient for bare reserve; no-frontier deficit example",
+    "conditional_or_failed": "No finite reserve for constant-risk witness under any total horizon",
+    "flagship_effect": "Frontier is sufficient, not general invariant",
+    "later_disposition": "Necessity refuted S029",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S029",
+    "central_question": "finite dependency frontiers are not necessary for bare reserve",
+    "established": "PROVED no-frontier decaying-risk example with reserve 1/4",
+    "conditional_or_failed": "Summable premium mass pays; not a successful destroyer certificate",
+    "flagship_effect": "Finite frontiers not necessary for solvency",
+    "later_disposition": "Extended S030/S031, frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S030",
+    "central_question": "no-frontier self-financing recycling with divergent premiums",
+    "established": "PROVED no-frontier recycling with divergent premiums and reserve 3/4",
+    "conditional_or_failed": "Late-trigger terminalization in example; zero-payout deficits still obstruct",
+    "flagship_effect": "Solvency strictly broader than summable premiums",
+    "later_disposition": "Repeatable form S031",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S031",
+    "central_question": "repeatable no-frontier renewal by stake-scale contraction",
+    "established": "PROVED contracting stake renewal, reserve-one invariant, divergent premiums",
+    "conditional_or_failed": "Contraction not coercive destruction transfer",
+    "flagship_effect": "Completes local bankroll line; no new robustness decision",
+    "later_disposition": "Frozen; owner pivot stops automatic refinements",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S032",
+    "central_question": "finite-ambiguity reconnaissance and one-hole theorem selection",
+    "established": "PROVED MLR⊆R_fin, null ambiguity safe, arbitrarily small positive destructive mass, composition transport",
+    "conditional_or_failed": "No hereditary R₂ closure from binary factorization; one-hole normalization selected but unproved",
+    "flagship_effect": "Introduces robustness programme; settles ambiguity-mass boundary",
+    "later_disposition": "Normalization later refuted S083; other theorems frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S033",
+    "central_question": "first one-hole normalization step and the coded-hole obstruction",
+    "established": "PROVED R₂ homeomorphism invariance, signed-permutation OH invariance, coded D∘H destruction",
+    "conditional_or_failed": "Non-scan map and X∉R₂ do not prove X∈OH or all-source normalization",
+    "flagship_effect": "Creates separate OH^iso question",
+    "later_disposition": "Frozen; raw normalization refuted S083",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S034",
+    "central_question": "finite recoding invariance and the spoiled-parity obstruction",
+    "established": "PROVED finite-coordinate OH invariance and exhaustive support evaluator",
+    "conditional_or_failed": "Spoiled virtual stakes require unbounded gain for failure; repeated H unsettled",
+    "flagship_effect": "Global finite invariance, no infinite-H theorem",
+    "later_disposition": "Finite result recovered/strengthened S077",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S035",
+    "central_question": "determination-predictable spoiled stakes and infinite cross-block delay",
+    "established": "PROVED pre-pivot predictable spoiled-gain transfer and closed packet normalization",
+    "conditional_or_failed": "Knowing stake after seeing pivot invalid; bounded delay can form infinite ray",
+    "flagship_effect": "Conditional recoding safety",
+    "later_disposition": "Packet size relaxed S036; simple ray solved S037",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S036",
+    "central_question": "finite dependency closure, savings normalization and infinite-ray effectivity",
+    "established": "PROVED unbounded finite closed-packet compression with savings; rank/closure countermodels",
+    "conditional_or_failed": "Finite forward closure not computable closed packetization; bounded limits not effective prices",
+    "flagship_effect": "Clarifies effective retirement bridge",
+    "later_disposition": "Infinite-component examples normalized S037; boundary frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S037",
+    "central_question": "rolling frontier renewal and effective backward pricing",
+    "established": "PROVED effective fresh-frontier renewal/backward stabilization transfer",
+    "conditional_or_failed": "Uniformly effective price convergence and Doob consistency required; bounded ratios not enough",
+    "flagship_effect": "Infinite graph shape itself is not obstruction",
+    "later_disposition": "Frozen leading conditional compiler",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S038",
+    "central_question": "persistent retirement, one-jump prices and multiplicative uncertainty budgets",
+    "established": "PROVED one-jump retirement equivalences, nondecidability and multiplicative-budget transfer",
+    "conditional_or_failed": "Fixed stake gain/cost product identical; partial retirement remains",
+    "flagship_effect": "No cheap decay shortcut retaining unbounded pure gain",
+    "later_disposition": "Frozen, parked after S069",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S039",
+    "central_question": "affine one-hole states, local autoreduction codes and the singleton-completion obstruction",
+    "established": "PROVED affine hole geometry, local code hyperplane and target A/B/C trichotomy",
+    "conditional_or_failed": "Local sibling totality gives raw extraction; actual M lacks it",
+    "flagship_effect": "Positive conditional same-source theorem",
+    "later_disposition": "Weakened premise S040; no X classification",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S040",
+    "central_question": "raw-adjacent decisiveness and the online singleton-completion boundary",
+    "established": "PROVED raw-adjacent decisiveness suffices via three synchronized scans",
+    "conditional_or_failed": "Requires finite A/B decisions; divergence-only C unresolved, two permanent holds forbidden",
+    "flagship_effect": "Conditional X∉OH supplier",
+    "later_disposition": "Frozen; C/selector obstructions S041–S045",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S041",
+    "central_question": "finite-perturbation collapse, raw-radius-one partiality and finite dependency cycles",
+    "established": "PROVED finite-perturbation totality collapse, radius dichotomy and dependency cycles",
+    "conditional_or_failed": "Radius>1 gives X∉OH; radius-one partiality not necessarily local C",
+    "flagship_effect": "Necessary structure for hypothetical X∈OH",
+    "later_disposition": "Local gap sharpened S042",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S042",
+    "central_question": "target-trace contact, support lassos and persistent local Case C",
+    "established": "PROVED target-trace contact/lasso, remote partiality model and recurrent-C necessity",
+    "conditional_or_failed": "Remote divergence may end in correct local cycle; use rank need not descend",
+    "flagship_effect": "No automatic local refutation of X",
+    "later_disposition": "Frozen structural models, not CR witnesses",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S043",
+    "central_question": "asynchronous one-role extraction and the recurrent-selector obstruction",
+    "established": "PROVED one-role asynchronous extraction and 14 realizable local triples",
+    "conditional_or_failed": "Requires no trapped C and infinitely many selected A; finite families can be trapped",
+    "flagship_effect": "Selector recurrence gap explicit",
+    "later_disposition": "Countable-family model S045; frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S044",
+    "central_question": "wtt value horizons, moving reservations and the fresh-target obstruction",
+    "established": "PROVED value horizons, fixed-reservation dichotomy and finite-lane criterion",
+    "conditional_or_failed": "Certificate time unbounded; use cap does not bound overlap or fresh-target arrival",
+    "flagship_effect": "Value dependence not timeliness",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S045",
+    "central_question": "moving-reservation selector thickness and countable-family diagonalization",
+    "established": "PROVED selector-thickness extraction and prescribed countable-family structural diagonal",
+    "conditional_or_failed": "Universal computable-target evasion impossible; source-access gap remains",
+    "flagship_effect": "No verified live-X selector",
+    "later_disposition": "Frozen, policy-relative countermodels",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S046",
+    "central_question": "one-bit future-A certification cost",
+    "established": "PROVED target same-block certificate access costs 0/1/1 and sharp gadgets",
+    "conditional_or_failed": "Block-free certificate can depend on current old hole",
+    "flagship_effect": "Finite cost does not supply global CHU path",
+    "later_disposition": "Branch-uniformity tested S047",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S047",
+    "central_question": "current-hole branching, uniform certificates and old-row-gated nonuniformity",
+    "established": "PROVED safe-trace/branch-fixedness criteria and global-refutation scan",
+    "conditional_or_failed": "False old branch may gate every future certificate by divergence; role matrix not forced",
+    "flagship_effect": "Conditional CHU path remains unbuilt",
+    "later_disposition": "Frozen; partial-neighbour analysis S048",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S048",
+    "central_question": "partial-neighbour role kernels and recurrent divergence gates",
+    "established": "PROVED partial-fixed lasso/role kernel and independent recurrent gates",
+    "conditional_or_failed": "Effective escape gives CHU path; partial fixedness alone does not",
+    "flagship_effect": "No actual-X escape or membership",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S049",
+    "central_question": "square column shielding and finite-tenure escape obstruction",
+    "established": "PROVED shielded actual-column theorem and one-refutation future-bit prediction",
+    "conditional_or_failed": "Trapped old-epoch premise semantic; finite tenure can miss every late witness",
+    "flagship_effect": "Conditional square capture, no realised recurrence",
+    "later_disposition": "Trap-free hedge repair S050",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S050",
+    "central_question": "forbidden-pair hedge, globally legal square exits, and reset obstruction",
+    "established": "PROVED fair forbidden-pair 4/3 hedge and legal square exits",
+    "conditional_or_failed": "Infinite executed exits required; hedge consumes old and future coordinates",
+    "flagship_effect": "Useful local extraction, not X∉OH",
+    "later_disposition": "Frozen; reset-free escrow S051",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S051",
+    "central_question": "reset-free cross-row escrow and the fixed-sentinel limit",
+    "established": "PROVED opposed-row joint target hedge and projection criterion",
+    "conditional_or_failed": "Infinite profit while one fixed old hole persists impossible on CR",
+    "flagship_effect": "Reset-free finite payoff does not finish",
+    "later_disposition": "Cash-out analysed S052",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S052",
+    "central_question": "certified escrow cash-out and the shielded-old turnover barrier",
+    "established": "PROVED cash-out 8/3 versus 4/3 table and shielded no-orientation",
+    "conditional_or_failed": "Infinite timely profitable turnovers absent; universal forced resets yield k=1",
+    "flagship_effect": "Separates positive information from executable renewal",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S053",
+    "central_question": "effective cross-epoch promptness and the finite-window latency barrier",
+    "established": "PROVED trace-effective prompt-escrow supplier and delayed-publication countermodel",
+    "conditional_or_failed": "Requires both certificates before release; toy lateness not actual M counterexample",
+    "flagship_effect": "No source-effective recurrence theorem",
+    "later_disposition": "Actual cube premise S054",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S054",
+    "central_question": "actual autoreduction cube certificates and the source-specific latency law",
+    "established": "PROVED actual M cube certificate exists, partial clock, legal 8/7 hedge",
+    "conditional_or_failed": "Finite target-relative clock not a total tenure bound; infinite captures unproved",
+    "flagship_effect": "First source-specific certificate theorem",
+    "later_disposition": "Runtime reading refined/repaired S055",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S055",
+    "central_question": "paired cube clocks and the exact source-runtime obstruction",
+    "established": "PROVED four paired traces, σ=ρ≤T_Y, target runtime non-domination",
+    "conditional_or_failed": "Minimum may be much earlier than target trace; OH-based slow-window law conditional",
+    "flagship_effect": "Actual finite witnesses still not timely captures",
+    "later_disposition": "Frozen corrected clock form",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S056",
+    "central_question": "four-run minimum-clock anti-promptness under compulsory old reset",
+    "established": "PROVED compulsory-reset isomorphism and unconditional anti-promptness",
+    "conditional_or_failed": "Success-gated controller has different sibling geometry; no transfer of negative law",
+    "flagship_effect": "Rules out forced-reset supplier",
+    "later_disposition": "Frozen; operational distinction S057",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S057",
+    "central_question": "success-gated four-run renewal: the unbounded-miss-budget obstruction",
+    "established": "PROVED legal four-run success-gated controller and miss-budget dichotomy",
+    "conditional_or_failed": "Finite turnovers OR every computable budget overrun infinitely; infinite-success arm not established",
+    "flagship_effect": "No actual-X winning renewal",
+    "later_disposition": "Frozen exact timeout/sweep/no-old-reset rules",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S058",
+    "central_question": "source-specific unbounded-renewal thickness: effective safety barriers",
+    "established": "PROVED c.e. renewal-cylinder mass ≤(7/8)^n and effective safety barrier",
+    "conditional_or_failed": "No raw cylinder/closed safety supplier forces unlimited wins",
+    "flagship_effect": "Blocks simplistic infinitary certification",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S059",
+    "central_question": "actual-source infinitary renewal: computable finite-horizon escape",
+    "established": "PROVED computable output-horizon escape on CR X",
+    "conditional_or_failed": "Infinite renewal, if present, has no computable winning-time schedule",
+    "flagship_effect": "No verified actual infinite wins",
+    "later_disposition": "Operational cumulative form S060",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S060",
+    "central_question": "high-degree-compatible infinitary renewal: cumulative-miss dominance",
+    "established": "PROVED finite reservation trees and conditional dominant cumulative misses",
+    "conditional_or_failed": "Assumes infinitely many actual profitable resets; timing alone not bounded miss count",
+    "flagship_effect": "Necessary operational cost law",
+    "later_disposition": "Input SHA typo corrected in validation; mathematics frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S061",
+    "central_question": "actual-source logarithmic local spacing of prospective renewal-budget overruns",
+    "established": "PROVED conditional logarithmic local overrun-spacing law by effective portfolio",
+    "conditional_or_failed": "Infinite actual renewal not supplied; prompt bursts have computable measure cost",
+    "flagship_effect": "Sharpens necessary spacing only",
+    "later_disposition": "Near-critical refinement S062",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S062",
+    "central_question": "near-critical local overrun spacing and the exact mass-method boundary",
+    "established": "PROVED stronger conditional spacing and mass-only subcritical countermodel",
+    "conditional_or_failed": "Abstract independent event model not a valid infinite-renewal CR source",
+    "flagship_effect": "Shows limit of mass method, no source finish",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S063",
+    "central_question": "frozen-old-sentinel reflection and marked renewal kernel",
+    "established": "PROVED old-flip reflection and marked F/R/L finite gate kernel",
+    "conditional_or_failed": "Prompt-window recurrence and local laws conditional; untouched terminal fair bits essential",
+    "flagship_effect": "Controller-specific dependency exposed",
+    "later_disposition": "Complementary kernel S064",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S064",
+    "central_question": "source-reached finite-gate deficits and renewal dependence",
+    "established": "PROVED rare-timeout exclusion with exact actual gate weights",
+    "conditional_or_failed": "Infinite renewals imply deficit/overrun overlap; finite deficits do not cause progress",
+    "flagship_effect": "Source-reached necessity, not recurrence",
+    "later_disposition": "Frozen; survival frontier S065",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S065",
+    "central_question": "source-verified transition dependence beyond finite gate deficits",
+    "established": "PROVED positive permanent-stall frontier and survival/hazard dichotomy",
+    "conditional_or_failed": "q∞=0 at every reached epoch would force wins, but not shown on X",
+    "flagship_effect": "Typical survivor cannot certify exceptional X",
+    "later_disposition": "Pathwise localization S066",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S066",
+    "central_question": "actual-source localization of infinite-horizon gate hazards",
+    "established": "PROVED actual local hazard summability and positive timeout product at any CR stall",
+    "conditional_or_failed": "Actual-X hazard divergence unproved; global average not source-path hazard",
+    "flagship_effect": "Strong necessary condition, no X answer",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S067",
+    "central_question": "Source-specific testing of local gate-hazard summability",
+    "established": "PROVED short-gate capacity bound and alternative-program padding countermodel",
+    "conditional_or_failed": "Must keep original M; padding cannot decide original clocks",
+    "flagship_effect": "Semantic halting does not force timely leaf mass",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S068",
+    "central_question": "Actual-source gate-certificate multiplicity and recurrence",
+    "established": "PROVED γ=a·2^−c closure-cylinder identity and stalled-path summability",
+    "conditional_or_failed": "Actual multiplicity recurrence/divergence still unproved",
+    "flagship_effect": "Exact geometry/timing supplier remains conditional",
+    "later_disposition": "Latency decomposition S069",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S069",
+    "central_question": "Actual-source closure-certificate multiplicity and recurrence",
+    "established": "PROVED a=b−d_L, bounded-closure lateness saturation, fixed autoreduction locus null/meager",
+    "conditional_or_failed": "Eventual certificate mass can cancel lateness; typical CR frontier not E_X",
+    "flagship_effect": "Explains exhausted source-clock route",
+    "later_disposition": "Frozen; owner global pivot follows",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S070",
+    "central_question": "global coded-hole robustness: blockwise linear amplification theorem",
+    "established": "PROVED supported-shear/blockwise linear global equivalence and literal coded-hole geometry",
+    "conditional_or_failed": "Equivalent global H/shear preservation proposition unproved",
+    "flagship_effect": "New global reduction, no OH invariance decision",
+    "later_disposition": "Single fixed shear reduction S078",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S071",
+    "central_question": "supported-shear same-source scan extraction and spoiled-stake exposure",
+    "established": "PROVED all-source raw evaluator and exposure-bound same-source extraction",
+    "conditional_or_failed": "Bounded spoiled exposure gives preservation; unrestricted exposure may diverge",
+    "flagship_effect": "Conditional supported-shear preservation",
+    "later_disposition": "Settlement refinements S072–S076",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S072",
+    "central_question": "effective settlement of genuinely late spoiled shear wagers",
+    "established": "PROVED two-account online fair settlement with bounded inventory",
+    "conditional_or_failed": "Faithful registrar supplied; pre-c stake forecast not always available",
+    "flagship_effect": "Conditional compiler, not H preservation",
+    "later_disposition": "Joint correlated claims S073",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S073",
+    "central_question": "Multi-claim fair settlement and aggregate pending-inventory pricing",
+    "established": "PROVED aggregate joint-price identity and financed escrow extraction",
+    "conditional_or_failed": "Naive product of shared-pivot claims not fair; funding is premise",
+    "flagship_effect": "Corrects multi-claim accounting",
+    "later_disposition": "Explicit rolling financing S074",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S074",
+    "central_question": "Effective rolling price escrow over an infinite shared-pivot dependency chain",
+    "established": "PROVED rolling shared-pivot financed example and fixed-q positive floor",
+    "conditional_or_failed": "Closed finance boundary in example; not arbitrary retirement theorem",
+    "flagship_effect": "Demonstrates conditional method only",
+    "later_disposition": "Vanishing floor handled S075",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S075",
+    "central_question": "Effective settlement-mirror escrow savings without a uniform inventory floor",
+    "established": "PROVED savings settlement mirrors and exact single-last-filler obstruction",
+    "conditional_or_failed": "Requires real earlier funding/table availability; three claims not always one-filler priceable",
+    "flagship_effect": "Removes one example floor, no full invariance",
+    "later_disposition": "Multistage extension S076",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S076",
+    "central_question": "Multistage joint-price financing with unbounded overlapping spoiled inventory",
+    "established": "PROVED fresh multistage joint-price compiler with unbounded finite inventory",
+    "conditional_or_failed": "Computable table and fresh-order mean conditions supplied",
+    "flagship_effect": "Inventory width itself not obstruction",
+    "later_disposition": "Frozen; global pivot away from escrow S077",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S077",
+    "central_question": "Direct OH-invariance attack: finite-support global transfer and infinite-support obstruction",
+    "established": "PROVED all-observer finite-support OH transfer without retirement premise",
+    "conditional_or_failed": "Finite truncations do not prove repeated infinite H",
+    "flagship_effect": "Useful global finite result, no older north-star finish",
+    "later_disposition": "Subsumes finite-coordinate S034, frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S078",
+    "central_question": "Single infinite-support shear criterion and three-step committed-X witness reduction",
+    "established": "PROVED one-fixed-shear/H preservation equivalence and three candidate exits",
+    "conditional_or_failed": "Actual OH membership of candidates not supplied",
+    "flagship_effect": "Reduces question, does not decide it",
+    "later_disposition": "Six intermediates excluded S079",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S079",
+    "central_question": "Global unit-column raw one-hole extraction on the committed full-shear chain",
+    "established": "PROVED decidable-sentinel-family extraction and six intermediates outside OH",
+    "conditional_or_failed": "Original X/z0 still unclassified; compulsory sweep necessary",
+    "flagship_effect": "Eliminates two candidate exits, no separation",
+    "later_disposition": "Record-level U(H) reformulation S080",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S080",
+    "central_question": "The committed z0 question is a universal question: admissible-model underspecification, GL(3,2) classification and the OH-certification gate",
+    "established": "PROVED admissible-model limitation and GL(3,2) U(K) classification outside 18 matrices",
+    "conditional_or_failed": "U(H) universal missing question; alternate model not original Y",
+    "flagship_effect": "Certification gate correctly demands actual nonMLR OH member",
+    "later_disposition": "Gate passed S082; U(H) still unresolved",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S081",
+    "central_question": "Bounded-hole collapse, van Lambalgen for OH, and the sharpened OH-certification gate",
+    "established": "PROVED bounded-hole collapse, uniform OH join theorem, window-predictor exclusion",
+    "conditional_or_failed": "Uniform finite width and all-oracle totality required; certification not yet passed",
+    "flagship_effect": "Major scan-class structural theorem",
+    "later_disposition": "Frozen foundation for S082",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S082",
+    "central_question": "Consistency potentials: a computably random non-Martin-Löf-random sequence in OH",
+    "established": "PROVED common nonMLR OH and OH^blk survivor by consistency potentials",
+    "conditional_or_failed": "General F₂ cheap coordinate criterion absent; block recodings only",
+    "flagship_effect": "Passes OH certification, not R₂ survival",
+    "later_disposition": "Survivor engine extended S087/S088",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S083",
+    "central_question": "Tail-coded holes: OH is not homeomorphism-invariant, and R₂ ⊊ OH",
+    "established": "PROVED one OH^blk nonMLR source destroyed by tail-coded F₂ map; R₂⊊OH",
+    "conditional_or_failed": "Does not classify original X, OH^iso vs MLR or general H",
+    "flagship_effect": "Actually refutes older R₂=OH north star",
+    "later_disposition": "Frozen leading separation; a.e. refined S084",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S084",
+    "central_question": "Predictable errors and the balanced two-sheet tail-coded destroyer",
+    "established": "PROVED whole predictable-error stream CR and balanced a.e. S083 fibres",
+    "conditional_or_failed": "One wrong bit/frequency-only diagonal insufficient",
+    "flagship_effect": "Strong constraint on R₂ survivors, no EQ/SEP",
+    "later_disposition": "Frozen",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S085",
+    "central_question": "Exact width-two filtration universality test for R₂ versus MLR",
+    "established": "PROVED exact global width-two filtration criterion and one-bit entropy bound",
+    "conditional_or_failed": "Universal-test criterion restates target; existing unbounded fibres not repairable by relabeling",
+    "flagship_effect": "Exact representation, not universality proof",
+    "later_disposition": "Frozen",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S086",
+    "central_question": "Universal width-two filtrations or a genuinely R₂ non-MLR survivor",
+    "established": "PROVED no single fair universal observation and common-output-factor obstruction",
+    "conditional_or_failed": "∀F∃x_F not ∃x∀F; independent source partitions allowed",
+    "flagship_effect": "Rules out one family design, not EQ",
+    "later_disposition": "Frozen, stronger common survival S087",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S087",
+    "central_question": "Dispersible ambiguity: one simultaneous survivor for all finite-difference width-two observers, and the E₀-breaking frontier of R₂ versus MLR",
+    "established": "PROVED common DZ₂/FD₂ nonMLR survival and FD₂ source with tail destroyer",
+    "conditional_or_failed": "Dispersal in one frame not all-frame protection; sparse DZ pools invalid",
+    "flagship_effect": "R₂⊊R₂^fd and restricted strict intermediate classes",
+    "later_disposition": "Frozen; coset enlargement S088",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S088",
+    "central_question": "Asymmetric double loci, frame-free coset dispersal, and a survivor for all countable-coset width-two observers",
+    "established": "PROVED asymmetric double loci, CDZ₂ common survival, OH^aff⊊OH^blk",
+    "conditional_or_failed": "Validity/cosets not assumed effective; nonlinear two-frame survival unproved",
+    "flagship_effect": "Broader simultaneous theorem, no F₂ finish",
+    "later_disposition": "Selected CDZ₂ survivor defeated S090",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S089",
+    "central_question": "Almost-invariant halvings: the exact survivor mechanism, its spectral barrier for causal frames, and the rigid three-involution core of the two-frame instance",
+    "established": "PROVED general halving engine and conditional spectral barrier; EXPERIMENT finite gaps",
+    "conditional_or_failed": "Full halving-dispersibility and Conjecture R unproved; fixed holds harmless",
+    "flagship_effect": "Abstract survivor bridge precisely isolated",
+    "later_disposition": "Frozen; no numerical-to-infinite promotion",
+    "original_validation": "F; E separate"
+  },
+  {
+    "session": "P4-S090",
+    "central_question": "Nonlinear self-reading defeats countable-coset robustness",
+    "established": "PROVED one CDZ₂-protected nonMLR source with nonlinear K_mix destroyer",
+    "conditional_or_failed": "Uses data-only/free-control relative measure; not every constructed point destroyed",
+    "flagship_effect": "R₂⊊R₂^cdz and OH^iso⊊OH^aff",
+    "later_disposition": "Frozen leading restricted-family separation",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S091",
+    "central_question": "Mixed constraints: a bounded-concentration obstruction and its sharp limit",
+    "established": "PROVED bounded projection-concentration obstruction and finite amplification models",
+    "conditional_or_failed": "Unbounded defect can absorb stall bounds; arbitrary clopen states not excluded",
+    "flagship_effect": "Full-family extension still absent",
+    "later_disposition": "Frozen scoped theorem, not limit-point impossibility",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S092",
+    "central_question": "Partner orientation: a universal reader, the global entanglement condition, and one-sided orientation for left-c.e. sources",
+    "established": "PROVED legal orientation reader, global entanglement and left-c.e. soundness",
+    "conditional_or_failed": "GOL sufficient but unproved; universal test covers both partners",
+    "flagship_effect": "Equality route carried to exact orientation premise",
+    "later_disposition": "Classical equivalence S093",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S093",
+    "central_question": "Orientation is autoreducibility: the Global Orientation Lemma as a classical statement, its calibration, the left-c.e. window criterion, and the category/forcing obstructions",
+    "established": "PROVED every-hold orientation⇔frame autoreducibility, window criterion, category/cost laws",
+    "conditional_or_failed": "AR-cover unproved; ASSCL only conditional sketch; high-degree sources exclude left-c.e.-only cover",
+    "flagship_effect": "Calibrates EQ and weaker non-AR milestone",
+    "later_disposition": "ASSCL refuted S094; proved parts frozen",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S094",
+    "central_question": "Counterexample to ASSCL and the uniform-totality boundary",
+    "established": "PROVED ASSCL false as stated; existential uniform-totality cheapness boundary",
+    "conditional_or_failed": "Selective partial convergence can force expensive wrong side",
+    "flagship_effect": "Invalidates proposed non-AR construction premise, not SEP",
+    "later_disposition": "Frozen explicit correction of unproved S093 premise",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S095",
+    "central_question": "Closed bad-choice selection versus dense partial self-readers",
+    "established": "PROVED existential Π⁰₁ bad-choice balance and dense-domain clopen obstruction",
+    "conditional_or_failed": "No effective h/s, positivity/cost search or ML-null coding",
+    "flagship_effect": "Analytic forcing advances, effective finish absent",
+    "later_disposition": "Extended all-map analytically S096",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S096",
+    "central_question": "Closed saturation and the effective true-path obstruction",
+    "established": "PROVED closed-hit saturation, indexed outer-cover lemma, non-effective all-F₂ protection",
+    "conditional_or_failed": "Same point may be MLR; conditional L¹ is not Ψ; unpriced holds union full measure",
+    "flagship_effect": "Only all-map analytic envelope, no SEP",
+    "later_disposition": "Frozen; effective coding barriers S097–S099",
+    "original_validation": "W"
+  },
+  {
+    "session": "P4-S097",
+    "central_question": "Closed-choice entropy and the online-prediction trap",
+    "established": "PROVED online eventually correct future-bit prediction destroys CR; cover budget audit",
+    "conditional_or_failed": "True branch indices/emissions/positivity/f-cost absent",
+    "flagship_effect": "Rules out free labels/online fixing shortcut",
+    "later_disposition": "Frozen",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S098",
+    "central_question": "Delayed paid branches meet the effective-closed-null barrier; equality still lacks all-source coverage",
+    "established": "PROVED uniform closed null chains and computably exhausted finite covers exclude CR",
+    "conditional_or_failed": "Noncomputably completing c.e. family remains possible; π∘K harmless",
+    "flagship_effect": "Kurtz barrier, no flagship result",
+    "later_disposition": "Frozen",
+    "original_validation": "F"
+  },
+  {
+    "session": "P4-S099",
+    "central_question": "Delayed c.e. covers: a Schnorr-price barrier and positivity-validation impossibility; all-source EQ remains unresolved",
+    "established": "PROVED Schnorr measure barrier, Π⁰₁ positivity non-enumerability and two delayed-cover countermodels",
+    "conditional_or_failed": "Unknown completion/noncomputable measures not sufficient; actual f-protected path missing",
+    "flagship_effect": "No EQ/SEP; justifies comprehensive audit and allocation change",
+    "later_disposition": "Frozen route barriers, not central theorem",
+    "original_validation": "W"
+  }
+]

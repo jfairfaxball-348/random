@@ -1,0 +1,148 @@
+{
+  "independent_finite_and_integrity_checks": 1549,
+  "status": "PASS",
+  "limitations": "Finite accounting plus corpus integrity; written proofs establish infinitary claims. Same-agent separate validation, not independent referee, Lean or hosted CI.",
+  "original_replays": [
+    {
+      "session": "P4-S081",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S081_COLOURING_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "Theorem A bookkeeping: PASS (60 scans, 9660 factor identities)\nCorollary A4 window scan: PASS (20 correct parity windows, capital 2^20)\nTheorem B even/odd factor split: PASS (40 one-hole scans on joins)\nALL P4-S081 AUDITS PASS\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S082",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S082_POTENTIAL_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "Lemmas 2.1, 2.2, 2.3, 3.1 (raw one-hole/two-hole/identity scans): (360, 400, 109, 40) checks PASS\nLemma 2.4 (savings transform): 300 paths PASS\nLemmas 2.1, 2.3, 3.2 (virtual scans through blockwise GL(3,2) recodings incl. A): (216, 24, 24) checks PASS\nFinite construction: fixed 4 coordinates; Phi after each stage = ['1/16', '3/64', '73/1920', '667413109/17539806080'] all < 2; good completion found: PASS\nExample E1 (unbounded width): Psi = 1 ; sum of costs k=1..7 = 25/8 > Psi: PASS (illustrates failure of Lemma 3.1 without bounded width)\nExample E2 (cumulative difference): ['1', '1', '2', '0'] split at sigma=empty, neutralized after one fixing: PASS\nALL P4-S082 AUDITS PASS\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S083",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S083_SEPARATION_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "Part 1 (tail-coded hole algebra): 120000 checks PASS\nPart 2 (toy class-separated runs: nesting + separation): 866 checks PASS\nPart 3 (T* on D'(z), toy threshold r=2): 3127 resolutions, 2804 correct, 323 fooled; wrong <=> anti-consistent selected fixes: 3127 equivalences PASS; 2414 selections of true-run prefixes, all correct; adversarial completion fooled T* 2 time(s)\nPart 4 (exact fibre count, 2^14 raw prefixes): 8192 transcripts, max preimages 2 PASS\nPart 5 (series): partial sum 0.125000000000 < 1/8 = closed form; compactness lower bound 7/2 > 2 PASS\nALL P4-S083 AUDITS PASS\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S084",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S084_EXTRACTION_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "P4-S084 FINITE AUDIT PASS 8201\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S087",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S087_DISPERSION_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "Part 1 PASS: excess inequality; E=0 and sum gamma<=Psi for (a)-(c); tail-coded violations found: 8\nPart 2 PASS: split counts non-increasing along output branches\nPart 3 PASS: raw tail differences become finitely supported in the graded frame\nchecks: 8261\nALL P4-S087 AUDITS PASS\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S088",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S088_COSET_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "Part 1 G_asym: containers, fairness, weights 1/4-3/4 ok; lambda(A) ~ 0.5775761902\nPart 2 translation pairs and elimination frames ok\nPart 3 entropy inequality ok\nPart 4 coset dispersal functionals ok\nPart 5 affine potentials ok\ntotal checks: 92724\nALL P4-S088 AUDITS PASS\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S089",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S089_HALVING_AUDIT.py",
+        "--no-numeric"
+      ],
+      "returncode": 0,
+      "stdout": "Part 1 (Lemma 1.2) PASS 6200\nPart 2 (Proposition 2) PASS 137544\nPart 3 (Lemmas 3.1-3.2) PASS 143760\nPart 4 (Theorem 3 algebra) PASS 143843\nPart 5 (Lemma 4) PASS 143911\nALL P4-S089 AUDITS PASS (143911 checks)\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S090",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S090_READABILITY_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "algebra: 90112 exact checks PASS\nconditional_quarter: 741 exact checks PASS\nrepeated_bound: 48 exact checks PASS\nconditional_fooling: 1696 exact checks PASS\nbudgets: 205 exact checks PASS\nALL P4-S090 READABILITY CHECKS PASS (92802 checks; finite support only)\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S091",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S091_CONCENTRATION_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "projection_ranks PASS 5719\nmixed_prediction PASS 79447\nbiased_false_reading PASS 79540\nactual_stall_amplification PASS 79576\nconditional_quarter_and_tower PASS 79830\nbudgets PASS 79893\nALL P4-S091 EXACT AUDITS PASS (79893 checks; finite verification only)\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S092",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S092_ORIENTATION_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "103286 exact checks\nALL P4-S092 AUDITS PASS\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S093",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S093_AUTOREDUCIBILITY_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "checks: 72834\nALL P4-S093 AUDITS PASS\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S094",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S094_ASSCL_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "P4-S094 ASSCL finite audit PASS (441 exact inequalities)\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S095",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S095_DENSE_READER_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "P4-S095 local exact finite checks PASS (3447)\n",
+      "stderr": ""
+    },
+    {
+      "session": "P4-S098",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "phase4/P4-S098_COVER_AUDIT.py"
+      ],
+      "returncode": 0,
+      "stdout": "P4-S098 rational finite audit PASS: 1072 assertions\n",
+      "stderr": ""
+    }
+  ]
+}
