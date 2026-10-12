@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FINITE_SANITY_ONLY",
+  "assertions": 62379,
+  "groups": {
+    "H_level_bijection": 217,
+    "K_level_bijection": 441,
+    "blanket_compiler_countermodel": 11,
+    "candidate_labels": 2318,
+    "compiler_positivity": 2318,
+    "countermodel_output_gain": 1,
+    "dichotomy": 1159,
+    "exact_two_prefix_prices": 441,
+    "four_row_exhaustion": 71,
+    "held_label": 12672,
+    "hybrid_example": 1,
+    "normal_form_identity": 12672,
+    "prefix_consistency": 441,
+    "rational_compiler_identity": 2318,
+    "scan_no_repeat": 12672,
+    "scan_read_set": 12672,
+    "separated_survivors_force_balance": 1944,
+    "two_lookahead_prices": 9,
+    "two_row_exhaustion": 1
+  },
+  "balanced_four_state_tables": {
+    "0": 6,
+    "2": 48,
+    "4": 16
+  },
+  "not_proved_by_computation": [
+    "infinite_fibres",
+    "actual_CR_witness",
+    "DP2",
+    "CP2",
+    "EQ",
+    "SEP"
+  ]
+}

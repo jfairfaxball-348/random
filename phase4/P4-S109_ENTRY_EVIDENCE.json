@@ -1,0 +1,80 @@
+{
+  "session": "P4-S109",
+  "date": "2026-10-12",
+  "entry_main": "750a62d77efd2728c4db0dac224d0fb6d90f71cd",
+  "entry_tree": "6b78057da20ba25f433001b384e069635722f464",
+  "entry_parents": [
+    "6c22d44de646102b12792bb8ac2db4bde1a49e95",
+    "1e227d149f5f2a48eb8b2e6248865f2a0bba26c6"
+  ],
+  "S108_merge": {
+    "sha": "6c22d44de646102b12792bb8ac2db4bde1a49e95",
+    "parents": [
+      "c15e98bdd188f78479d4b2d2170a031ce8c3591e",
+      "b2bb15b0d12687b55ef9160a8ce6b0f7d89d08cb"
+    ],
+    "tree": "d1e6dc776400e25913a7a7ccb9129dd6492650e2"
+  },
+  "S108_atomic": {
+    "sha": "b2bb15b0d12687b55ef9160a8ce6b0f7d89d08cb",
+    "sole_parent": "c15e98bdd188f78479d4b2d2170a031ce8c3591e"
+  },
+  "intervening": "Owner amendment PR #6, atomic 1e227d149f5f2a48eb8b2e6248865f2a0bba26c6, then two-parent main merge; documentation-only",
+  "prs": [
+    {
+      "number": 6,
+      "state": "closed",
+      "merged_at": "2026-10-12T16:21:45Z",
+      "sha": "750a62d77efd2728c4db0dac224d0fb6d90f71cd"
+    },
+    {
+      "number": 5,
+      "state": "closed",
+      "merged_at": "2026-10-12T16:02:14Z",
+      "sha": "6c22d44de646102b12792bb8ac2db4bde1a49e95"
+    },
+    {
+      "number": 4,
+      "state": "closed",
+      "merged_at": "2026-10-12T15:39:58Z",
+      "sha": "c15e98bdd188f78479d4b2d2170a031ce8c3591e"
+    },
+    {
+      "number": 3,
+      "state": "closed",
+      "merged_at": "2026-10-12T14:18:05Z",
+      "sha": "87191694a6fa58c8f088abfc7f80e55f10dd9e14"
+    },
+    {
+      "number": 2,
+      "state": "closed",
+      "merged_at": "2026-10-12T13:38:39Z",
+      "sha": "f0b4e71b0d32b47aa44b620a9ff35d473fc12f3e"
+    },
+    {
+      "number": 1,
+      "state": "closed",
+      "merged_at": "2026-10-12T13:17:10Z",
+      "sha": "06480bea3053ea73268b94105bf88b1bcf2ccfa6"
+    }
+  ],
+  "open_prs": [],
+  "S109_mathematics_unused": true,
+  "competing_S109": [
+    "docs/P4-S109-ambitious-research-handoff (merged owner documentation only)"
+  ],
+  "workflow_definitions": [],
+  "hosted_runs": 0,
+  "jobs": "NONE_NO_RUNS",
+  "check_runs": 0,
+  "status_contexts": 0,
+  "hosted_CI": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "branch_protection": "UNKNOWN_403_INTEGRATION; branch metadata protected=false",
+  "workflow_collection": "UNKNOWN_CONNECTOR_URL_REJECTED; complete_tree_no_definitions",
+  "phase4": "OPEN",
+  "phase5": "CLOSED",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED",
+  "source_access_unchanged": true
+}

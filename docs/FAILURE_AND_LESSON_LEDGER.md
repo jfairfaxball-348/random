@@ -1937,3 +1937,13 @@ Session: P4-S108. An explicit total computable fair map with EXACTLY TWO inverse
 
 ## FL-094 — Uniform two-clopen-prefix budgets do NOT provide a global continuous partner
 Session: P4-S108. Every output length-m cylinder under G_T has exactly two preimage source length-(m+1) cylinders of total exact price 2^-m, yet the pairing changes indefinitely near positive-measure boundary[T]. J is discontinuous on two source copies of boundary[T]. A uniform finite-step 2-cell budget neither forces a clopen two-sheet partition nor an ordinary source-martingale lift. S004/S005 effective conditional-mass obstacles persist; next route requires non-tail-trivial fully priced coding or a new mass-free conservation argument.
+
+
+
+## P4-S109 — One-lookahead normal form and saturated-fibre conservation (2026-10-12)
+
+**P4-S109 COMPLETED — Internally proved saturated finite-lookahead CR conservation with a uniform rational compiler; restricted DP2/CP2 for ALL one-lookahead maps; complete H S K normal form and finite-fold/double versus infinite-fold/singleton classification; R_L1=C^tri with R2 subset R_L1 strictly subset C, using SAME S083 source. Exact-two use-two map REFUTES naive compiler extension. GENERAL DP2/CP2/EQ/SEP remain UNRESOLVED. 62,379 exact finite sanity checks PASS; same-agent hostile validation, no external/formal review. S110 FUTURE/UNEXECUTED. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; hosted CI ABSENT_NOT_PASS.** See phase4/P4-S109_MATHEMATICS.md, _VALIDATION.md, _DEPENDENCIES.md, _CLOSE.md and authoritative/NEXT_SESSION_PROMPT.md. Older checkpoint banners are historical.
+
+Four substantial fronts conducted under expanded owner handoff. Explicit ordinary rational compiler; complete finite and infinite proofs in dossier; 62,379 exact finite checks; separate same-agent hostile pass. General targets unchanged. Next S110: unsaturated paired reservoir/conservation, central restricted-class equality or full survivor, and correction audit. No S110 execution, external blocker, source-access change or phase transition.
+
+F109-1/2: finite-lookahead partnered eventual permutivity and the blanket gated compiler are REFUTED by exact-two use-two initial deletion plus adjacent swap. NonCR test path; map itself conserving. F109-3: padded identity defeats infinite-fold nullness. F109-4: paired one-lookahead destruction impossible for the WHOLE class. F109-5: hybrid four-state finite prices certify cap four, not two; all-output two persistent inverses unproved. F109-6/7: universal test orientation and full nonMLR protected survivor remain unresolved. See P4-S109_DEPENDENCIES.md for exact dispositions.

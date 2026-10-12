@@ -642,3 +642,11 @@ Total computable fair everywhere-exactly-two G_T and exact two inverse source m+
 
 ## Owner-only FUTURE S109 prompt expansion — NOT a mathematics session or Gate4 review (2026-10-12)
 The owner amended the scope of the NEXT future P4-S109 prompt to allow an intensive multi-front research expedition, with substantial proof/counterexample work and exploration of unexpected mathematical insights. S109 not executed, S108 historical close unchanged. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; hosted CI absent NOT PASS.
+
+
+
+## P4-S109 — One-lookahead normal form and saturated-fibre conservation (2026-10-12)
+
+**P4-S109 COMPLETED — Internally proved saturated finite-lookahead CR conservation with a uniform rational compiler; restricted DP2/CP2 for ALL one-lookahead maps; complete H S K normal form and finite-fold/double versus infinite-fold/singleton classification; R_L1=C^tri with R2 subset R_L1 strictly subset C, using SAME S083 source. Exact-two use-two map REFUTES naive compiler extension. GENERAL DP2/CP2/EQ/SEP remain UNRESOLVED. 62,379 exact finite sanity checks PASS; same-agent hostile validation, no external/formal review. S110 FUTURE/UNEXECUTED. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; hosted CI ABSENT_NOT_PASS.** See phase4/P4-S109_MATHEMATICS.md, _VALIDATION.md, _DEPENDENCIES.md, _CLOSE.md and authoritative/NEXT_SESSION_PROMPT.md. Older checkpoint banners are historical.
+
+Four substantial fronts conducted under expanded owner handoff. Explicit ordinary rational compiler; complete finite and infinite proofs in dossier; 62,379 exact finite checks; separate same-agent hostile pass. General targets unchanged. Next S110: unsaturated paired reservoir/conservation, central restricted-class equality or full survivor, and correction audit. No S110 execution, external blocker, source-access change or phase transition.

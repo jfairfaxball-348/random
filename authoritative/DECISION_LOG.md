@@ -1649,3 +1649,11 @@ Internally proved G_T exact-two fair tree-switch quotients, with fat ramificatio
 
 ## D-P4-S109-OWNER — Expand S109 into an intensive multi-front exploration (2026-10-12)
 This is DOCUMENTATION ONLY, NOT S109 execution. The owner expressly requests greater ambition and freedom than the S108 future S109 bounded challenge. New authoritative prompt requires at least three serious independent mathematical fronts, deep proof/counterexample repairs and adversarial validation, with freedom to invent/follow unexpected original research routes across CAND-01. DP2/CP2 and R₂=MLR/SEP remain major headlines without monopolizing other meaningful discoveries. This new owner direction is separate from S105's historically valid NO-GO for automatic previous flagship refinements. S108's completed proofs and close remain immutable; the superseded future prompt is preserved verbatim in phase4/P4-S109_SUPERSEDED_HANDOFF.md. S109 future, separately invoked; no S110, gate change, external novelty/publishing claim, Lean or Palomar.
+
+
+
+## P4-S109 — One-lookahead normal form and saturated-fibre conservation (2026-10-12)
+
+**P4-S109 COMPLETED — Internally proved saturated finite-lookahead CR conservation with a uniform rational compiler; restricted DP2/CP2 for ALL one-lookahead maps; complete H S K normal form and finite-fold/double versus infinite-fold/singleton classification; R_L1=C^tri with R2 subset R_L1 strictly subset C, using SAME S083 source. Exact-two use-two map REFUTES naive compiler extension. GENERAL DP2/CP2/EQ/SEP remain UNRESOLVED. 62,379 exact finite sanity checks PASS; same-agent hostile validation, no external/formal review. S110 FUTURE/UNEXECUTED. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; hosted CI ABSENT_NOT_PASS.** See phase4/P4-S109_MATHEMATICS.md, _VALIDATION.md, _DEPENDENCIES.md, _CLOSE.md and authoritative/NEXT_SESSION_PROMPT.md. Older checkpoint banners are historical.
+
+Four substantial fronts conducted under expanded owner handoff. Explicit ordinary rational compiler; complete finite and infinite proofs in dossier; 62,379 exact finite checks; separate same-agent hostile pass. General targets unchanged. Next S110: unsaturated paired reservoir/conservation, central restricted-class equality or full survivor, and correction audit. No S110 execution, external blocker, source-access change or phase transition.

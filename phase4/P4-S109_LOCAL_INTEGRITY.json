@@ -1,0 +1,111 @@
+{
+  "status": "PASS_LOCAL_RECORD_CHECKS",
+  "incoming_blob_sha": "f29350edec5f6722d19e859dc687cf3f37500555",
+  "archival_byte_identity": true,
+  "next_prompt_identical_in_close": true,
+  "phase_guards_preserved": true,
+  "finite_sanity_checks": 62379,
+  "not_hosted_CI": true,
+  "precommit_manifest": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 168266,
+      "git_blob_sha": "1e213a95e14ee889ad3048d94e54e6b2f3b7db9c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 114732,
+      "git_blob_sha": "3c5ca1185436df9d2b87cd07649f0702e1841846"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 137672,
+      "git_blob_sha": "8b8d8560b845a0105c40332896f2b6bc2f405ac5"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 62974,
+      "git_blob_sha": "dabf0d61f1cae55c4d59a859282d1f2c7c081bc2"
+    },
+    {
+      "path": "authoritative/START_HERE.md",
+      "bytes": 169694,
+      "git_blob_sha": "61effce2adbe375d740c330a31c71351df0eea08"
+    },
+    {
+      "path": "authoritative/STATE.json",
+      "bytes": 192673,
+      "git_blob_sha": "145b9cb5dc2910b0d7e0efdb3cb61d46a53aacce"
+    },
+    {
+      "path": "authoritative/NEXT_SESSION_PROMPT.md",
+      "bytes": 6202,
+      "git_blob_sha": "1dc83309f48596335e8058585e8e56e3f7be618b"
+    },
+    {
+      "path": "authoritative/SESSION_LEDGER.md",
+      "bytes": 275787,
+      "git_blob_sha": "14b86409d021c313c93aa444a1df1426e900d616"
+    },
+    {
+      "path": "authoritative/DECISION_LOG.md",
+      "bytes": 202429,
+      "git_blob_sha": "d49206298e47b8ce2ce40182a79e523254c10645"
+    },
+    {
+      "path": "authoritative/PHASE_GATE_LEDGER.md",
+      "bytes": 100332,
+      "git_blob_sha": "5ce188a199c8ecb63bca08777ce483f48be550b8"
+    },
+    {
+      "path": "docs/FAILURE_AND_LESSON_LEDGER.md",
+      "bytes": 216470,
+      "git_blob_sha": "0d8cf75a8cb4e340d2560a7a8e450b7226d13236"
+    },
+    {
+      "path": "phase4/README.md",
+      "bytes": 152688,
+      "git_blob_sha": "504578864602cc392c8cb8fb03f1227957606a3b"
+    },
+    {
+      "path": "phase4/P4-S109_CLOSE.md",
+      "bytes": 8981,
+      "git_blob_sha": "a31618c1e246666f56595cb0f5c3542cd3ca48db"
+    },
+    {
+      "path": "phase4/P4-S109_DEPENDENCIES.md",
+      "bytes": 2967,
+      "git_blob_sha": "535d6360764babaa26aef8ab00074f5580ee1601"
+    },
+    {
+      "path": "phase4/P4-S109_ENTRY_EVIDENCE.json",
+      "bytes": 2405,
+      "git_blob_sha": "b5b92af0bfb404d66cb0e8c2a87b5eeec3911075"
+    },
+    {
+      "path": "phase4/P4-S109_FINITE_AUDIT.json",
+      "bytes": 896,
+      "git_blob_sha": "08f51b9e7bec678bd1770b82b020f93eafb96648"
+    },
+    {
+      "path": "phase4/P4-S109_INCOMING_HANDOFF.md",
+      "bytes": 16501,
+      "git_blob_sha": "f29350edec5f6722d19e859dc687cf3f37500555"
+    },
+    {
+      "path": "phase4/P4-S109_LOOKAHEAD_AUDIT.py",
+      "bytes": 6800,
+      "git_blob_sha": "1d95dfde9c81ea969f56f0a52aad7b2cf62009b2"
+    },
+    {
+      "path": "phase4/P4-S109_MATHEMATICS.md",
+      "bytes": 25866,
+      "git_blob_sha": "ec8a561c851b4fba3555973d5304986ab8b51ba5"
+    },
+    {
+      "path": "phase4/P4-S109_VALIDATION.md",
+      "bytes": 6475,
+      "git_blob_sha": "a454cb90582ba67b66eec1767161f88fdaa2ab25"
+    }
+  ]
+}
