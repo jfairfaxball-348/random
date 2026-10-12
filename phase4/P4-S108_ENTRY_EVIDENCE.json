@@ -1,0 +1,22 @@
+{
+  "session": "P4-S108",
+  "entry_main": "c15e98bdd188f78479d4b2d2170a031ce8c3591e",
+  "entry_tree": "30460b23fccea2e0d1f42c0f15e3d07cacba4710",
+  "s107_commit_parent": "87191694a6fa58c8f088abfc7f80e55f10dd9e14",
+  "s107_pr": 4,
+  "s107_pr_merged": true,
+  "s107_integration": "non-force fast-forward",
+  "open_prs": 0,
+  "s108_records_at_entry": 0,
+  "actions_workflow_files": 0,
+  "actions_runs": 0,
+  "check_runs": 0,
+  "status_contexts": 0,
+  "hosted_CI": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "branch_protection": "INACCESSIBLE",
+  "branch_metadata_protected": false,
+  "source_access_unchanged": true,
+  "finite_prefix_assignments": 36840,
+  "outgoing_sha": "VERIFY_REMOTE_AFTER_INTEGRATION"
+}

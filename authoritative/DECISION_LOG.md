@@ -1641,3 +1641,7 @@ Owner explicitly chose to set papers/publication goals aside and continue mathem
 
 ## D-P4-S107 — Continue ramification mathematics, not publication (2026-10-12)
 The S107 Baire-one canonical partner theorem, exact-two source Ram=Disc(J), output K_G=G(Ram) correspondence, DP2 source-local collision necessity and full exactly-two composition no-padding were internally checked. No CP2/DP2/EQ/SEP closure: meagre discontinuities need not avoid computably random sources. S108 should pursue a genuinely fair exact-two ramified quotient or priced ordinary-CR exceptional-source transfer. Historical S105 automatic flagship NO-GO, original Y/M/H/X, source access, Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN and Phase5 CLOSED unchanged. Owner prioritises original research, not papers.
+
+
+## D-P4-S108 — Positive-measure exceptional geometry is compatible with complete CR preservation (2026-10-12)
+Internally proved G_T exact-two fair tree-switch quotients, with fat ramification and exceptional-output sets of measure arbitrarily near one and ACTUAL CR double-fibre sources. Abandon universal null or universal effective Schnorr-null exceptional-set approaches: explicit counterexamples now refute them. Retain S106/S107 meagre/Baire-one structure, but investigate non-tail-trivial loss and a genuine all-map martingale compiler. These constructions preserve CR and do NOT refute DP2 or CP2. Keep S105 historical automatic-NO-GO, owner research priority, Y/M/H/X, source status and Gate3 PASS/Gate4 NOT REVIEWED/Phase4 OPEN/Phase5 CLOSED. S109 future only.

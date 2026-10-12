@@ -634,3 +634,7 @@ Uniformly Π1 double-fibre strata, two finite-advice computable inverse branches
 
 ## P4-S107 — Internal partner ramification checkpoint; NOT Gate4 (2026-10-12)
 Baire-one computably approximated partner, exact-two source Ram=Disc(J) and output K_G=G(Ram), necessary local source collisions at any actual double-fibre CR destroyer, and universal twofold composition padding obstruction internally proved; no CP2, DP2, EQ or SEP resolution. Same-agent review and finite sanity checks, not hosted or external validation. S108 future. No source priority upgrade, formalisation or publication work. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED; hosted CI ABSENT_NOT_PASS.
+
+
+## P4-S108 — Internal fat ramification theorem, NOT Gate4 (2026-10-12)
+Total computable fair everywhere-exactly-two G_T and exact two inverse source m+1-cylinders per output m-cylinder; Ram and K_G can have positive measure arbitrarily close to one and contain CR sources; G_T still preserves CR. The universal effective Schnorr-null Ram approach is mathematically REFUTED. DP2/CP2/EQ/SEP remain UNRESOLVED. S109 FUTURE; no review, novelty campaign, independent certification, formalisation or publication. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED; hosted CI ABSENT_NOT_PASS.
