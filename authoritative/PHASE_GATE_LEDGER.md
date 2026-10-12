@@ -612,3 +612,7 @@ E-ISO original prior Rute arXiv:1203.5535v4 Thm7.11 proof and E-WTT original pri
 ## P4-S103 internal proof checkpoint — NOT Gate4 (2026-10-12)
 
 A–C survive a fresh internal adversarial check; no fatal gap or quarantine. Source-specific primary thesis/Rute proof evidence retained; JSL original-proof correspondence remains outstanding. No independent referee, novelty, manuscript or publication claim. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. EQ/SEP unresolved. Zero speculative flagships through S103; S104 bounded fallback future, S105 five-session GO/NO-GO required.
+
+
+## P4-S104 source-partition gate — no phase transition (2026-10-12)
+Mathematics legally constructs non-rank-one global width-two source partitions, but exact proposed computably scheduled coverage fails for every CR source; the unrestricted all-source bridge, EQ/SEP remain unresolved. Theorem dossier A–C unchanged. S104 uses 1 speculative session; S105 five-session review mandatory. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. No novelty or publication status change, no hosted CI PASS.

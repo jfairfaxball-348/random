@@ -1,0 +1,42 @@
+{
+  "session": "P4-S104",
+  "date": "2026-10-12",
+  "incoming_main": "8e57d9994ba21c219e3d94ffe31024d1ce175bac",
+  "incoming_parent": "dbcf3f754deeb7bd06d2400b36a67eaff194e1cc",
+  "incoming_tree": "89e63f1321cf79545ca6c2a495fe85298bbbb482",
+  "policy": "one atomic branch commit, non-force main fast-forward; no host CI pass",
+  "ref": {
+    "sha": "8e57d9994ba21c219e3d94ffe31024d1ce175bac"
+  },
+  "branches": [
+    {
+      "name": "main",
+      "sha": "8e57d9994ba21c219e3d94ffe31024d1ce175bac"
+    },
+    {
+      "name": "phase4/P4-S103-adversarial-audit",
+      "sha": "8e57d9994ba21c219e3d94ffe31024d1ce175bac"
+    }
+  ],
+  "tree": {
+    "truncated": false,
+    "existing_s104_paths": [],
+    "workflow_files": []
+  },
+  "workflows": {
+    "error": "NOT_FOUND: Error code: NOT_FOUND; Error: GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}"
+  },
+  "branch": {
+    "name": "main",
+    "sha": "8e57d9994ba21c219e3d94ffe31024d1ce175bac",
+    "protected": false
+  },
+  "incoming_prompt_blob_sha": "4d8aa1a5d278b4f1d66f2eeae1c5506d34eb7dda",
+  "pulls_all_states": [],
+  "actions_runs": 0,
+  "check_runs": 0,
+  "status_contexts": 0,
+  "rulesets": [],
+  "branch_protection_admin": "403 inaccessible",
+  "tested_toy_block_map_count": 256
+}
