@@ -52,7 +52,7 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "OWNER_RESEARCH_NONTAILTRIVIAL_EXACT_TWO_S109_FUTURE_UNEXECUTED",
+  "next_transition": "OWNER_AMBITIOUS_MULTIFRONT_P4_S109_FUTURE_UNEXECUTED",
   "recommended_next_session": "P4-S109",
   "active_blocker": null,
   "candidate_selected": true,
@@ -3015,11 +3015,14 @@
   },
   "next_session_owner_direction": {
     "date": "2026-10-12",
-    "status": "S106_COMPLETED_S107_FUTURE_NOT_EXECUTED",
-    "priority": "Original bounded-ambiguity mathematics, no publication",
-    "next_session": "P4-S107",
+    "status": "DOCUMENTATION_AMENDMENT_S109_FUTURE_NOT_EXECUTED",
+    "priority": "Deep original mathematical discovery with multiple serious proof/counterexample fronts, no publication",
+    "next_session": "P4-S109",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
-    "S105_historical_NO_GO_preserved": true
+    "amendment_record": "phase4/P4-S109_OWNER_HANDOFF_AMENDMENT.md",
+    "superseded_prompt": "phase4/P4-S109_SUPERSEDED_HANDOFF.md",
+    "last_completed_mathematics_session": "P4-S108",
+    "historical_S105_NO_GO_preserved": true
   },
   "phase4_s092_orientation_and_global_entanglement": {
     "session": "P4-S092",
@@ -3656,5 +3659,28 @@
     "dependencies": "phase4/P4-S108_DEPENDENCIES.md",
     "close": "phase4/P4-S108_CLOSE.md",
     "next_session": "P4-S109"
+  },
+  "phase4_s109_owner_amendment": {
+    "date": "2026-10-12",
+    "status": "OWNER_EXPANDED_FUTURE_PROMPT_ONLY_NO_MATHEMATICS_EXECUTION",
+    "prior_s109_prompt_archived_byte_identical": true,
+    "original_s108_close_unchanged": true,
+    "minimum_substantial_fronts": 3,
+    "fronts_not_ceiling": true,
+    "construction_and_conservation_required": true,
+    "emergent_research_allowed": true,
+    "session": "P4-S109",
+    "executed": false,
+    "owner_new_invocation_required": true,
+    "dp2": "UNRESOLVED",
+    "cp2": "UNRESOLVED",
+    "eq": "UNRESOLVED",
+    "sep": "UNRESOLVED",
+    "gate3": "PASS",
+    "gate4": "NOT_REVIEWED",
+    "phase4": "OPEN",
+    "phase5": "CLOSED",
+    "authoritative_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "amendment_record": "phase4/P4-S109_OWNER_HANDOFF_AMENDMENT.md"
   }
 }
