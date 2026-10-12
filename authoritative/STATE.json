@@ -52,17 +52,9 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "OWNER_DECISION_REQUIRED_AFTER_S105_NO_GO_AUTOMATIC_FLAGSHIP",
-  "recommended_next_session": null,
-  "active_blocker": {
-    "id": "OWNER-S105-NEXT-DIRECTION",
-    "type": "OWNER_DECISION",
-    "session": "P4-S105",
-    "reason": "S100 mandatory five-session NO-GO; no central finish or proved smaller bridge; both speculative slots consumed.",
-    "required_action": "Choose independent A–C proof checking, a named global Phase4 pivot, or an explicitly reauthorized new flagship architecture.",
-    "recommended_action": "Independent checking of S101/S103 A–C with S102 source boundaries.",
-    "blocks": "Automatic next numbered session only; no phase closure or theorem retirement."
-  },
+  "next_transition": "OWNER_CHOSEN_PHASE4_DOUBLE_FIBRE_RESEARCH_PIVOT_P4_S106_FUTURE_UNEXECUTED",
+  "recommended_next_session": "P4-S106",
+  "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
   "mathematical_investigation_authorized": true,
@@ -306,7 +298,7 @@
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
     "last_session": "P4-S105",
-    "next_session": null,
+    "next_session": "P4-S106",
     "original_mathematics_performed": true,
     "latest_record": "phase4/P4-S105_MATHEMATICS.md",
     "latest_close_record": "phase4/P4-S105_CLOSE.md",
@@ -2048,7 +2040,7 @@
       "validation_record": "phase4/P4-S068_VALIDATION.md"
     },
     "current_research_pivot": "phase4/P4-S100_CENTURY_AUDIT.md",
-    "current_research_target": "EQ R₂=MLR / SEP one R₂ nonMLR point remain unresolved; automatic flagship refinement suspended pending owner research-direction decision.",
+    "current_research_target": "Preservation versus destruction on genuine double fibres (DP2/CP2), broader effective inverse structure; EQ/SEP retained as unresolved secondary headline questions.",
     "p4_s070_global_linear_reduction": {
       "session": "P4-S070",
       "result": "H_PRESERVATION_EQUIVALENT_TO_ALL_COMPUTABLY_SUPPORTED_XOR_SHEARS_AND_ALL_COMPUTABLE_BLOCKWISE_GL3_PRESERVATION",
@@ -3022,9 +3014,14 @@
     "phase_5": "CLOSED"
   },
   "next_session_owner_direction": {
-    "status": "OWNER_DECISION_REQUIRED_NO_EXECUTABLE_HANDOFF",
-    "record": "phase4/P4-S105_DEPENDENCIES_AND_DECISION.md",
-    "no_automatic_S106": true
+    "date": "2026-10-12",
+    "status": "NEW_OWNER_RESEARCH_DIRECTION_FUTURE_S106_NOT_EXECUTED",
+    "owner_instruction_verbatim": "Forget the paper and publications.\n\nIf we were just looking to keep moving forward with research, lets keep digging.\n\nWhats the next session prompt",
+    "record": "phase4/P4_RESEARCH_DIRECTION_AFTER_S105.md",
+    "priority": "Original mathematics on bounded ambiguity; no publication-driven next task.",
+    "next_session": "P4-S106",
+    "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "S105_historical_decision_preserved": true
   },
   "phase4_s092_orientation_and_global_entanglement": {
     "session": "P4-S092",
@@ -3487,7 +3484,7 @@
     "validation": "phase4/P4-S103_VALIDATION.md",
     "close": "phase4/P4-S103_CLOSE.md"
   },
-  "current_research_target": "EQ R₂=MLR / SEP one R₂ nonMLR point remain unresolved; automatic flagship refinement suspended pending owner research-direction decision.",
+  "current_research_target": "Preservation versus destruction on genuine double fibres (DP2/CP2), broader effective inverse structure; EQ/SEP retained as unresolved secondary headline questions.",
   "phase4_s104_source_partition_gate": {
     "session": "P4-S104",
     "status": "COMPLETED",
@@ -3549,5 +3546,22 @@
     "close": "phase4/P4-S105_CLOSE.md",
     "next_session": null,
     "owner_decision_checkpoint": true
+  },
+  "phase4_research_direction_after_S105": {
+    "status": "DOCUMENTATION_AMENDMENT_NOT_NUMBERED_SESSION",
+    "lead_questions": [
+      "DP2: CR preservation at actual double fibres for all F2 maps",
+      "CP2: CR preservation for everywhere exactly-two-to-one fair computable maps"
+    ],
+    "alternatives": [
+      "effective_inverse_structure_preservation",
+      "destruction_with_genuine_second_preimage",
+      "repeated_binary_observation_robustness"
+    ],
+    "owner_blocker_cleared": true,
+    "S106_executed": false,
+    "publication_priority_deferred": true,
+    "phase5_opened": false,
+    "historical_S105_NO_GO_unchanged": true
   }
 }

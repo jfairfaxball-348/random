@@ -621,3 +621,8 @@ Mathematics legally constructs non-rank-one global width-two source partitions, 
 ## P4-S105 — Five-session allocation decision, NOT Gate4 (2026-10-12)
 
 NO-GO for automatic flagship EQ/SEP refinements under S100; both speculative slots used, no central theorem or proved smaller quantified bridge. Leading A–C dossier retained. Owner next-direction checkpoint; no executable S106 prompt. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. This decision changes research allocation, not phase gates, novelty or publication status. Hosted checks absent, NOT PASS.
+
+
+## Owner research direction after P4-S105 — documentation only (2026-10-12)
+
+Owner explicitly chose to set papers/publication goals aside and continue mathematical research. New future S106 lead: can genuine double fibres destroy CR? Treat DP2 source-specific double-fibre preservation and CP2 everywhere-exactly-two preservation separately; develop inverse-structure and actual counterexample approaches, with broader structural alternatives. This clears the owner next-direction blocker and supersedes the STOP notice for future execution, without rewriting S105's historical NO-GO or extending its expired five-session score. No numbered session executed in this amendment; S105 remains last completed and S106 FUTURE. No Gate4/Phase5/source/novelty/publication change. See phase4/P4_RESEARCH_DIRECTION_AFTER_S105.md and authoritative/NEXT_SESSION_PROMPT.md.
