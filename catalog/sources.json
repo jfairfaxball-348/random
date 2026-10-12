@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "session": "P4-S093",
-  "checked_on": "2026-10-11",
+  "session": "P4-S102",
+  "checked_on": "2026-10-12",
   "records": [
     {
       "id": "SRC-0001",
@@ -903,7 +903,7 @@
       ],
       "questions": [],
       "priority_relevance": "Primary modern source clarifying conservation and no-randomness-from-nothing across major notions.",
-      "notes": "Full arXiv paper statement-inspected. P1-S005 records the exact computable-measure Cantor-space integral-test definitions, a.e.-computable map convention, computable-randomness no-randomness-from-nothing theorem, computable-randomness isomorphism theorem, Schnorr failure, and both all-computable-measure and fair-coin maximality statements.",
+      "notes": "Full arXiv paper statement-inspected. P1-S005 records the exact computable-measure Cantor-space integral-test definitions, a.e.-computable map convention, computable-randomness no-randomness-from-nothing theorem, computable-randomness isomorphism theorem, Schnorr failure, and both all-computable-measure and fair-coin maximality statements. P4-S102 Lemma8 arXiv:1508.05082v2 is statement-only and cites ORIGINAL earlier Rute arXiv:1203.5535v4 Proposition7.6 and Theorem7.11; earlier author's actual proof (bounded tests/pulled-back cells) directly inspected. Status of SRC-0015 remains STATEMENT_INSPECTED.",
       "inspected_material": [
         "publisher/arXiv metadata and abstract",
         "full arXiv definitions, theorem, lemma, corollary and maximality statements"
@@ -919,7 +919,7 @@
       "cross_links": [
         "SRC-0007"
       ],
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-12",
       "exact_relevance": "Primary modern source clarifying conservation and no-randomness-from-nothing across major notions.",
       "inspected_claims": [
         "For a computable measure mu on Cantor space, the paper gives integral-test forms of mu-Martin-Löf, mu-computable and mu-Schnorr randomness.",
@@ -4243,7 +4243,7 @@
       ],
       "questions": [],
       "priority_relevance": "Mathematical ingredient for P4-S011: supplies a rec-random weak-truth-table-autoreducible source; P4-S011 separately proves the finite-fibre scan conversion.",
-      "notes": "Journal of Symbolic Logic 69(3) (2004), 862-878. Cambridge/JSL metadata and abstract inspected in P4-S011. The abstract states existence of a rec-random weak-truth-table-autoreducible set and contrasts it with the known impossibility of rec-random truth-table autoreducibility. DEF-0004 records recursive/rec-random terminology for computable randomness. This source does not state a finite-fibre map theorem.",
+      "notes": "Journal of Symbolic Logic 69(3) (2004), 862-878. Cambridge/JSL metadata and abstract inspected in P4-S011. The abstract states existence of a rec-random weak-truth-table-autoreducible set and contrasts it with the known impossibility of rec-random truth-table autoreducibility. DEF-0004 records recursive/rec-random terminology for computable randomness. This source does not state a finite-fibre map theorem. P4-S102 original JSL proof still inaccessible behind publisher access; no proof-level upgrade from thesis, though coauthor's separate full primary thesis proof has been inspected.",
       "inspected_material": [
         "Cambridge Core publication metadata and abstract"
       ],
@@ -4256,7 +4256,7 @@
         "SRC-0061",
         "SRC-0018"
       ],
-      "checked_on": "2026-10-05",
+      "checked_on": "2026-10-12",
       "exact_relevance": "Provides the computably random weak-truth-table-autoreducible source existence used in P4-S011.",
       "inspected_claims": [
         "There exists a rec-random set that is weak truth-table autoreducible.",
@@ -4277,7 +4277,7 @@
       "doi": null,
       "arxiv": null,
       "stable_locator": "https://archiv.ub.uni-heidelberg.de/volltextserver/7786/",
-      "access_level": "STATEMENT_INSPECTED",
+      "access_level": "PROOF_INSPECTED",
       "topics": [
         "computable-randomness",
         "autoreducibility",
@@ -4294,25 +4294,28 @@
       ],
       "questions": [],
       "priority_relevance": "Statement-level corroboration and exact reduction convention for the P4-S011 autoreducibility ingredient.",
-      "notes": "Heidelberg doctoral dissertation (2007). P4-S011 inspected the full-text wtt/autoreducibility definitions and Theorem 6.9. The thesis defines wtt reducibility as Turing reducibility with a computable use bound and autoreducibility by an oracle machine forbidden to query the current input. Theorem 6.9 states that there is a computably random wtt-autoreducible sequence.",
+      "notes": "Heidelberg doctoral dissertation (2007). P4-S011 inspected the full-text wtt/autoreducibility definitions and Theorem 6.9. The thesis defines wtt reducibility as Turing reducibility with a computable use bound and autoreducibility by an oracle machine forbidden to query the current input. Theorem 6.9 states that there is a computably random wtt-autoreducible sequence. P4-S102 DIRECTLY read full primary thesis proof §6.2 Theorem6.9, definitions §1.2, Remark2.25 and Remark6.1. The original JSL article itself was NOT inspected.",
       "inspected_material": [
         "full dissertation text",
         "Section 1.2 reducibility/autoreducibility definitions",
-        "Section 6.2 Theorem 6.9"
+        "Section 6.2 Theorem 6.9",
+        "P4-S102 full ORIGINAL theorem proof (https://d-nb.info/986400238/34, PDF pp73–75), wtt conventions (pp16–18), savings (p35), block lemma (pp65–67)"
       ],
       "pointers": [
         "Section 1.2, printed pp. 5-6",
-        "Section 6.2, Theorem 6.9, printed p. 61"
+        "Section 6.2, Theorem 6.9, printed p. 61",
+        "phase4/P4-S102_SOURCE_PROOF_DOSSIER.md"
       ],
       "cross_links": [
         "SRC-0067"
       ],
-      "checked_on": "2026-10-05",
+      "checked_on": "2026-10-12",
       "exact_relevance": "Fixes the partial-on-sibling oracle-machine semantics and explicitly states the computably-random wtt-autoreducible existence theorem used in P4-S011.",
       "inspected_claims": [
         "A wtt reduction is a Turing reduction by an oracle machine with a computable bound on use.",
         "An autoreduction computes the sequence from itself without querying the current input.",
-        "Theorem 6.9: there exists a sequence that is computably random and wtt-autoreducible."
+        "Theorem 6.9: there exists a sequence that is computably random and wtt-autoreducible.",
+        "Thm6.9 uses bounded finite martingale sum and savings, ≥3 admissible extensions, two-coordinate-distinct pair and target-total wtt autoreduction with no self query; no all-oracle halting premise."
       ]
     },
     {

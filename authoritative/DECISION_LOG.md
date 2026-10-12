@@ -1606,3 +1606,7 @@ PRIMARY S101: reconstruct a minimal complete internal S081–S083 theorem dossie
 ## P4-S101 — Close internal dossier, verify declared source foundations next (2026-10-12)
 
 The S081–S083 selected A–C package is internally reconstructed without a fatal proof gap or unresolved programme-mathematical premise. Explicit source assumptions and future checking obligations remain distinct from internal proof gaps. No change to CAND-01, hierarchy, PA-0001, DEF-0020 or original Y/M/H/X. S102 is internal primary-proof verification of E-ISO (SRC-0015) and E-WTT (SRC-0067/0068), not an automatic flagship attempt. S100 internal dossier target met before S103; speculative flagship budget used ZERO of at most TWO through S105. Non-orientation EQ fallback remains future and must meet the smaller-bridge condition. No Gate-4 review, Phase-5 opening, manuscript or contact.
+
+## D-P4-S102 — Discharge declared source assumptions at primary-proof level
+
+2026-10-12. The cited 2016 Rute Lemma8 is only a citation to 2015 original Rute Thm7.11 actual proof; source-specific access preserved. Original 2004 JSL article proof unavailable, coauthor 2007 primary thesis complete proof inspected; ONLY SRC-0068 upgraded to PROOF_INSPECTED. E-ISO/E-WTT hypotheses match S101 application; direct B/C imports neither E-WTT nor SRC-0071. No changed original objects/gates/central EQ or SEP claim. S103 is bounded adversarial A–C audit with journal correspondence attempt; 0 speculative flagship sessions used of maximum 2 through S105.
