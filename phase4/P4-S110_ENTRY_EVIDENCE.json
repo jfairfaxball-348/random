@@ -1,0 +1,23 @@
+{
+  "session": "P4-S110",
+  "entry_main": "6dc2d1381792b45d69a437ffb6dad9f5aac86369",
+  "entry_parent": "750a62d77efd2728c4db0dac224d0fb6d90f71cd",
+  "entry_tree": "c370cbee6cfd39283aa00dc126cda0ea98d9c70f",
+  "entry_S109_pr": 7,
+  "entry_S109_merged": true,
+  "entry_S109_merge_sha": "6dc2d1381792b45d69a437ffb6dad9f5aac86369",
+  "competing_S110_files": 0,
+  "competing_S110_branches": 0,
+  "open_prs": 0,
+  "recent_prs": 7,
+  "hosted_runs": 0,
+  "hosted_check_runs": 0,
+  "hosted_status_contexts": 0,
+  "ci": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "protection": "UNKNOWN_403",
+  "phase4": "OPEN",
+  "phase5": "CLOSED",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED"
+}

@@ -1,3 +1,5 @@
+**P4-S110 LESSON (2026-10-12).** FALSE: infinitely many 48-type hybrid rows force >2 actual inverses or CR destruction — output-adaptive hidden-key block swaps preserve EXACT two and conserve CR. FALSE: near-full ramification and infinite hybrid transitions cannot coexist in ONE exact-two bounded-use map — tagged gluing permits them on separate cones. STILL OPEN: ramified + hybrid at the SAME CR double source, generic unsaturated rational compiler, DP2/CP2, EQ/SEP and R2 vs R_L1. Preserve distinction between four finite prefix candidates and two actual infinite inverses. No source-access or phase-gate change.
+
 # Failure and Lesson Ledger
 
 Every phase must preserve material dead ends, including candidate collapses, false conjectures, counterexamples, novelty failures, search strategies that miss terminology, formalisation/specification mismatches, publication-policy dead ends and corrected programme claims.

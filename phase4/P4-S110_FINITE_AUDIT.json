@@ -1,0 +1,30 @@
+{
+  "status": "PASS_FINITE_SANITY_ONLY",
+  "assertions": 89088,
+  "groups": {
+    "all_nodes_exact_transition_shape": 762,
+    "block_martingale_positive": 85,
+    "consistency": 6120,
+    "distinct_keys": 1272,
+    "enough_lookahead": 75904,
+    "exact_four_prefix_prices": 1530,
+    "four_to_one_block_martingale": 85,
+    "global_inverse_prefix": 2544,
+    "image_surjective": 24,
+    "permutive_row_cardinality": 762
+  },
+  "policies": [
+    "always",
+    "never",
+    "dynamic"
+  ],
+  "not_proved_by_finite_computation": [
+    "fairness_for_all_infinite_outputs",
+    "exact_two_infinite_fibres",
+    "CR_conservation",
+    "DP2",
+    "CP2",
+    "EQ",
+    "SEP"
+  ]
+}
