@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S116",
+  "last_completed_session": "P4-S117",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "P4_S117_NONLINEAR_PAIRED_ESCAPE_OR_BOUNDED_LAG_COMPILER_FUTURE_UNEXECUTED",
-  "recommended_next_session": "P4-S117",
+  "next_transition": "P4_S118_SYNCHRONIZED_SINGLETON_GLUE_OR_PAIRED_RESERVOIR_COMPILER_FUTURE_UNEXECUTED",
+  "recommended_next_session": "P4-S118",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S116",
-    "next_session": "P4-S117",
+    "last_session": "P4-S117",
+    "next_session": "P4-S118",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S116_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S116_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S116_VALIDATION.md",
+    "latest_record": "phase4/P4-S117_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S117_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S117_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -2039,8 +2039,8 @@
       "owner_external_blocker": null,
       "validation_record": "phase4/P4-S068_VALIDATION.md"
     },
-    "current_research_pivot": "phase4/P4-S100_CENTURY_AUDIT.md",
-    "current_research_target": "Preservation versus destruction on genuine double fibres (DP2/CP2), broader effective inverse structure; EQ/SEP retained as unresolved secondary headline questions.",
+    "current_research_pivot": "phase4/P4_RESEARCH_DIRECTION_AFTER_S105.md",
+    "current_research_target": "Globally fair nonlinear paired destruction versus a coherent additive-two source compiler; synchronized singleton charts and posterior volatility; EQ/SEP and same-source hierarchy unresolved.",
     "p4_s070_global_linear_reduction": {
       "session": "P4-S070",
       "result": "H_PRESERVATION_EQUIVALENT_TO_ALL_COMPUTABLY_SUPPORTED_XOR_SHEARS_AND_ALL_COMPUTABLE_BLOCKWISE_GL3_PRESERVATION",
@@ -3497,7 +3497,7 @@
     "validation": "phase4/P4-S103_VALIDATION.md",
     "close": "phase4/P4-S103_CLOSE.md"
   },
-  "current_research_target": "General DP2/CP2 or actual nonregular paired CR destroyer beyond finite-state regular double strata; possible effective boundary extension; EQ/SEP universal quantifiers still unresolved.",
+  "current_research_target": "Globally fair nonlinear paired destruction versus a coherent additive-two source compiler; synchronized singleton charts and posterior volatility; EQ/SEP and same-source hierarchy unresolved.",
   "phase4_s104_source_partition_gate": {
     "session": "P4-S104",
     "status": "COMPLETED",
@@ -3960,6 +3960,68 @@
     "original_Y_M_H_X_preserved": true,
     "S101_S103_A_B_C_preserved": true,
     "next_session": "P4-S116",
+    "owner_external_blocker": null
+  },
+  "phase4_s116_finite_kernel_affine_reconstructed": {
+    "session": "P4-S116",
+    "status": "COMPLETED",
+    "summary_reconstructed_in": "P4-S117",
+    "reason": "Detailed optional per-session summary key absent at S117 entry; reconstructed from S116 committed mathematics and PR14 evidence without new S116 execution.",
+    "atomic_commit": "1e0203f74334996474ad3aa007c0acb4b13f1415",
+    "parent": "e397fe406e4cc61f0276cd257314694743f27011",
+    "tree": "634c0d412a49bed1051f7745d2688f2428d0bf84",
+    "pr": 14,
+    "results": [
+      "all_Rk_finite_kernel_fair_affine_preservation",
+      "affine_F2_empty_full_double_strata",
+      "bounded_additive_use_finite_posterior_floor"
+    ],
+    "mathematics": "phase4/P4-S116_MATHEMATICS.md",
+    "general_targets": "UNRESOLVED"
+  },
+  "phase4_s117_posterior_volatility_certificates": {
+    "session": "P4-S117",
+    "date": "2026-10-13",
+    "status": "COMPLETED_INTERNAL_RESTRICTED_RESULTS",
+    "entry_main": "1e0203f74334996474ad3aa007c0acb4b13f1415",
+    "entry_tree": "634c0d412a49bed1051f7745d2688f2428d0bf84",
+    "internally_proved": [
+      "rational_output_posterior_volatility_winner",
+      "eventual_one_cell_source_compiler",
+      "two_CR_additive_two_balanced_or_volatile_necessity",
+      "balanced_sheet_normalized_singleton_L1_destroyer_reduction",
+      "nonlinear_unbounded_adaptive_block_fair_exact_two_quotient",
+      "unbounded_block_savings_rational_compiler",
+      "all_Rk_adaptive_block_preservation",
+      "conditional_priced_injective_submeasure_conservation"
+    ],
+    "corrected_before_commit": [
+      "half_price_stability_forces_sibling_balance"
+    ],
+    "two_CR_preimage_destroyer_constructed": false,
+    "general_additive_two_compiler": "UNRESOLVED",
+    "dp2": "UNRESOLVED",
+    "cp2": "UNRESOLVED",
+    "eq": "UNRESOLVED",
+    "sep": "UNRESOLVED",
+    "R2_vs_RL1": "UNRESOLVED",
+    "F2_of_R2_subset_R2": "UNRESOLVED",
+    "finite_assertions": 11460,
+    "finite_checks_not_infinite_proof": true,
+    "review": "SAME_AGENT_INDEPENDENT_METHOD_NOT_EXTERNAL_FORMAL",
+    "mathematics": "phase4/P4-S117_MATHEMATICS.md",
+    "validation": "phase4/P4-S117_VALIDATION.md",
+    "dependencies": "phase4/P4-S117_DEPENDENCIES.md",
+    "close": "phase4/P4-S117_CLOSE.md",
+    "historical_Y_M_H_X_A_C_grades_preserved": true,
+    "hosted_ci": "ABSENT_NOT_PASS",
+    "branch_protection": "UNKNOWN_403",
+    "gate3": "PASS",
+    "gate4": "NOT_REVIEWED",
+    "phase4": "OPEN",
+    "phase5": "CLOSED",
+    "next_session": "P4-S118",
+    "next_session_executed": false,
     "owner_external_blocker": null
   }
 }

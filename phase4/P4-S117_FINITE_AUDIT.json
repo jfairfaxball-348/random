@@ -1,0 +1,18 @@
+{
+  "grade": "FINITE_SANITY_ONLY_NOT_INFINITY_OR_CR_PROOF",
+  "assertions": 11460,
+  "balanced_tables": 70,
+  "row_histogram": {
+    "(0, 0, 2, 2)": 6,
+    "(0, 1, 1, 2)": 48,
+    "(1, 1, 1, 1)": 16
+  },
+  "reservoir_depths": 5,
+  "normalization_depths": 4,
+  "nonlinear_block_lengths": [
+    3,
+    6,
+    9
+  ],
+  "result": "PASS"
+}

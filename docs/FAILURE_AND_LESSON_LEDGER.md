@@ -1,3 +1,7 @@
+## P4-S117 — Failed inferences and corrected half-price reasoning (2026-10-13)
+
+F117-1 output posterior variance winner is not a source pullback martingale. F117-2 CORRECTED before commit: stabilized half-price forces sibling half-price; the actual limitation is off-path descendants and ONE actual inverse inside each two-candidate sheet. F117-3 nonlinear adaptive bijective blocks remain conserving; nonbijective repairs need new global proofs. F117-4 computable dominated beta and lower density are separate supplied hypotheses, not consequences of a finite posterior floor. F117-5 two onto singleton charts cannot be duplicated without regular four-point fibres. F117-6 restricted protection is not all-F2 protection or effective nonMLR coding. F117-7 ordinary CR conservation is not unrestricted R2 iteration. See phase4/P4-S117_DEPENDENCIES.md.
+
 ## P4-S116 — Affine escape closes; bounded-lookahead posterior floor is not a compiler (2026-10-13)
 - Exact fair finite-kernel AFFINE quotients split into a computable fair homeomorphism and finite key deletion; even wildly variable memory and nonhomeomorphic keyed affine postmaps preserve all R_k, excluding these as real paired CR destroyers.
 - Each actual inverse of a globally fair additive-c map retains at least 2^-c conditional finite-cylinder source price. The first UNSUPPORTED inference is replacing this discrete local share by a coherent total rational source martingale or computable stopping/stratum mass; c>=2 remains open.

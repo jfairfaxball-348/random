@@ -1,0 +1,94 @@
+{
+  "session": "P4-S117",
+  "date": "2026-10-13",
+  "entry_main": "1e0203f74334996474ad3aa007c0acb4b13f1415",
+  "entry_tree": "634c0d412a49bed1051f7745d2688f2428d0bf84",
+  "actual_s116": {
+    "atomic_branch_commit": "1e0203f74334996474ad3aa007c0acb4b13f1415",
+    "parent": "e397fe406e4cc61f0276cd257314694743f27011",
+    "tree": "634c0d412a49bed1051f7745d2688f2428d0bf84",
+    "pr": 14,
+    "state": "CLOSED_MERGED",
+    "integration": "NONFORCE_FAST_FORWARD",
+    "evidence": "Independent branch main GET, PR collection/body and PR14 commits GET agree; local clone HEAD and tree agree."
+  },
+  "intervening_commits": [],
+  "open_recent_prs": [
+    {
+      "number": 14,
+      "state": "closed",
+      "head": "1e0203f74334996474ad3aa007c0acb4b13f1415",
+      "merge": "1e0203f74334996474ad3aa007c0acb4b13f1415"
+    },
+    {
+      "number": 13,
+      "state": "closed",
+      "head": "e397fe406e4cc61f0276cd257314694743f27011",
+      "merge": "e397fe406e4cc61f0276cd257314694743f27011"
+    },
+    {
+      "number": 12,
+      "state": "closed",
+      "head": "439960d7607e1d220bc068b411fbbd92749bb6fa",
+      "merge": "439960d7607e1d220bc068b411fbbd92749bb6fa"
+    },
+    {
+      "number": 11,
+      "state": "closed",
+      "head": "c2194cbf57e1ec5f6af48593e17e86ee575720bd",
+      "merge": "c2194cbf57e1ec5f6af48593e17e86ee575720bd"
+    },
+    {
+      "number": 10,
+      "state": "closed",
+      "head": "3092dd2abe916b961d7357addf93e8c67e877c8b",
+      "merge": "3092dd2abe916b961d7357addf93e8c67e877c8b"
+    },
+    {
+      "number": 9,
+      "state": "closed",
+      "head": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4",
+      "merge": "7a3c1e331ddd39889c2c882f1dcddfd7e53367c4"
+    },
+    {
+      "number": 8,
+      "state": "closed",
+      "head": "909d72b806a14421ddc2df54dfa94cd359f244d1",
+      "merge": "909d72b806a14421ddc2df54dfa94cd359f244d1"
+    },
+    {
+      "number": 7,
+      "state": "closed",
+      "head": "6dc2d1381792b45d69a437ffb6dad9f5aac86369",
+      "merge": "6dc2d1381792b45d69a437ffb6dad9f5aac86369"
+    },
+    {
+      "number": 6,
+      "state": "closed",
+      "head": "1e227d149f5f2a48eb8b2e6248865f2a0bba26c6",
+      "merge": "750a62d77efd2728c4db0dac224d0fb6d90f71cd"
+    },
+    {
+      "number": 5,
+      "state": "closed",
+      "head": "b2bb15b0d12687b55ef9160a8ce6b0f7d89d08cb",
+      "merge": "6c22d44de646102b12792bb8ac2db4bde1a49e95"
+    }
+  ],
+  "competing_S117_branches": [],
+  "competing_S117_files": [],
+  "workflow_files": [],
+  "workflow_collection": "UNKNOWN_CONNECTOR_DISALLOWED",
+  "actions_runs": 0,
+  "jobs": "NONE_NO_RUNS",
+  "check_runs": 0,
+  "status_contexts": 0,
+  "combined_status": "pending_WITH_ZERO_CONTEXTS",
+  "ci": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "branch_protection": "UNKNOWN_403",
+  "phase4": "OPEN",
+  "phase5": "CLOSED",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED"
+}
