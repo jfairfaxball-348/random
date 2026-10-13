@@ -1,3 +1,12 @@
+## P4-S126 — New failure/lesson register (2026-10-13)
+
+- **PAIR ≠ ONE:** on the same total fair additive-one everywhere-exact-two G_U, outputting BOTH distinct actual inverse streams is provably strictly harder in uniform randomized success than outputting ONE: exact pair a.s.-total = 1/3 and partial = 1/2; one-inverse a.s.-total = 1/2 and partial = 2/3. These require a CR K∩closure U boundary point; clopen trigger sets evade the assumption.
+- A total computable TWO-CANDIDATE HITTING list is not an exact list of all actual inverses, nor a sampled selector. A purported automatic exact-pair algorithm with guaranteed success >1/3 a.s.-total or >1/2 partial is refuted already by the S121 fat K map; supported computable measure need not exist.
+- The released bit c can be selected adversarially AFTER a finite event of early oracle decisions, because the trigger reads earlier output; using global density rather than local K-boundary proximity is unnecessary.
+- S125 permanent source-bit erasure belongs to EXCLUSIVE output cones, not overlap; overlapping actual same-key double erasure would add a third fibre. CR preservation of the foil disqualifies it from paired destruction.
+- The 1/4 posterior-grid CR-output stabilization cannot be applied to a putative Schnorr-random NONCR target. Finite-horizon conditional expectations cannot be relabelled coherent source accounts; 84 exact finite checks are sanity.
+- EQ, SEP, same-source R_L1\R2, arbitrary c2 rational compiler, DP2/CP2 and unrestricted F2 composition remain genuinely unproved. S127 future only.
+
 ## P4-S125 — New failures and calibrated lessons (2026-10-13)
 
 - Proper non-onto first-key ranges can overlap in a globally fair EXACT-TWO additive-two map while the map conserves CR; permanent c erasure on exclusive 00/11 cones does NOT combine with two infinitely resetting transient FOLD clocks on overlap to make an irreversible paired destroyer.
