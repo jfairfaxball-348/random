@@ -1,3 +1,7 @@
+## P4-S124 gate retention (2026-10-13)
+
+INTERNAL rational common-tail finite FOLD source capital and sharp unconditional partial randomized G_U inversion probability 2/3, not all-F2 c2/DP2/CP2 or EQ/SEP. Ordinary rational coherence established using computable-real mixture and rational buffered increments; not external/formal. Gated asynchronous FOLD construction is globally fair cap-two but safe and has disjoint output cones. All central tasks unresolved. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED, S125 FUTURE ONLY. 3,591 exact finite checks sanity only, hosted CI ABSENT_NOT_PASS, branch protection 403 UNKNOWN; frozen sources/objects unchanged.
+
 ## P4-S123 gate-status retention (2026-10-13)
 
 One owner-invoked Phase4 CAND-01 mathematics session. INTERNAL rational source martingale chart compiler extends S122 XOR normal form to TWO independently late fair computable homeomorphism clocks with effective clopen prefix stabilization; B123 sharp inverse candidate-hitting list and a.s.-total randomized 1/2 bound. NO general asynchronous noninvertible FOLD result, DP2/CP2, R2=MLR, R2\\MLR, SAME-SOURCE R_L1\\R2 or unrestricted iteration. 15+510 exact finite sanity checks, not formal/independent proof. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; S124 future not executed. Hosted CI ABSENT_NOT_PASS, protection 403 UNKNOWN; frozen objects and source access grades unchanged.

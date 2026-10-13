@@ -1,3 +1,11 @@
+## P4-S124 — Failure boundaries (2026-10-13)
+
+- Finite true FOLD/erase/insert/delete history, even with unknown noncomputable times and number, is CR-safe if source/output ultimately share the same tail. Compiler: M_l(u)=2^-l sum_{|v|=l}d(vu), bound <=2^|u|, shift activation T_(k,l), double dyadic computable-real coherent mix, explicit uniform tail bound and buffered child-difference rationalization to ONE total nonnegative rational martingale.
+- S123 countable fair-homeomorphism charts do NOT contain all safe noninvertible maps: fair shift doubles measure on each first-key cone while fair H preserves it; H(x)=shift(x) is null for every H, and countable union still null. No chart representation is not proof of destruction.
+- Randomized inverse selector may NONTERMINATE: S123 1/2 optimum is only almost-sure total. For dense G_U a partially terminating algorithm has EXACT sharp 2/3 UNCONDITIONAL uniform probability: first-bit emission p at a CR nonrelease y gives success there <=p, nearby triggered CR output <=1-p/2+epsilon; 2/3 guess+1/3 wait attains equality. Conditional-on-halting metrics differ.
+- Asynchronous two true FOLD clocks on disjoint output-tagged cones can be legal globally fair EXACT-TWO and still CR-conserving; serial untagged folds may give cap FOUR. No proper overlapping infinite-fold double-CR->NONCR construction, all-c2 compiler, DP2/CP2, EQ/SEP, same-source or iteration result.
+- 3,591 exact Fraction assertions finite sanity only; same-agent review not external/formal, hosted CI ABSENT_NOT_PASS, protection UNKNOWN. Source grades and Y/M/H/X/DEF-0020/PA-0001/S101–S103 unchanged.
+
 ## P4-S123 — Nonlinear chart/fold and inverse-set failure boundaries (2026-10-13)
 
 - F123-A: UNKNOWN late clocks do NOT obstruct a uniform ordinary rational compiler for effectively prefix-stabilizing COMPUTABLE FAIR HOMEOMORPHISMS, even with nonlinear source-controlled infinite block rearrangements. Apply stopped savings to get a persistent neighbourhood floor, then use exact rational nu(H([s])) for effectively clopen chart images. Genuine noninvertible FOLD rows remain outside.
