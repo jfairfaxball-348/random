@@ -1,3 +1,7 @@
+## P4-S125 gate retention (2026-10-13)
+
+One internal mathematics session, not a gate or novelty review. Exact-two fair c2 proper-overlap example with infinitely recurring asynchronous ghost FOLDs and genuine edge-only erased bits CONSERVES CR, hence no paired CR/nonCR counterexample. Local CR-boundary sharp 2/3 unconditional partial inversion theorem extends dense G_U to nondense U. General additive-two compiler, DP2/CP2, all-source EQ, SEP, SAME-SOURCE and unrestricted iteration unresolved. S126 FUTURE only. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. 1,020 exact finite checks sanity only; no hosted CI = ABSENT_NOT_PASS, protection 403 UNKNOWN; source grades/objects unchanged.
+
 ## P4-S124 gate retention (2026-10-13)
 
 INTERNAL rational common-tail finite FOLD source capital and sharp unconditional partial randomized G_U inversion probability 2/3, not all-F2 c2/DP2/CP2 or EQ/SEP. Ordinary rational coherence established using computable-real mixture and rational buffered increments; not external/formal. Gated asynchronous FOLD construction is globally fair cap-two but safe and has disjoint output cones. All central tasks unresolved. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED, S125 FUTURE ONLY. 3,591 exact finite checks sanity only, hosted CI ABSENT_NOT_PASS, branch protection 403 UNKNOWN; frozen sources/objects unchanged.

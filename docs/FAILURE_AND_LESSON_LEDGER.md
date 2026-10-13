@@ -1,3 +1,11 @@
+## P4-S125 — New failures and calibrated lessons (2026-10-13)
+
+- Proper non-onto first-key ranges can overlap in a globally fair EXACT-TWO additive-two map while the map conserves CR; permanent c erasure on exclusive 00/11 cones does NOT combine with two infinitely resetting transient FOLD clocks on overlap to make an irreversible paired destroyer.
+- FIBRE FIREWALL: for every cap-two G and every output y in G([0]) intersect G([1]), exactly one actual inverse in each key cone. Two actual inverse losses in one key cone would force >2 total fibres. This does not preclude temporary ghosts or a boundary witness.
+- Sharp UNCONDITIONAL 2/3 partial randomized G_U inverse selection needs just ONE CR point of K meeting closure U, not globally dense U; example nondense U=0V. In contrast clopen U allows total deterministic selection, so 2/3 is not unconditional over ALL c.e.-open triggers. S123 almost-surely total 1/2 remains distinct.
+- Oscillating additive-two 1/4-grid posterior on desired Schnorr-random NONCR target cannot be ruled out by eventual stabilization valid ONLY on CR outputs. Four changing-horizon conditional source projections are not one coherent rational martingale.
+- 1,020 finite exact cylinder assertions PASS only sanity. No genuine two-CR bad output, general c2 compiler, CP2/DP2, all-source EQ, SEP, R_L1 minus R2 or unrestricted iteration. SAME-AGENT review, CI ABSENT_NOT_PASS, protection UNKNOWN, no source/gate upgrade.
+
 ## P4-S124 — Failure boundaries (2026-10-13)
 
 - Finite true FOLD/erase/insert/delete history, even with unknown noncomputable times and number, is CR-safe if source/output ultimately share the same tail. Compiler: M_l(u)=2^-l sum_{|v|=l}d(vu), bound <=2^|u|, shift activation T_(k,l), double dyadic computable-real coherent mix, explicit uniform tail bound and buffered child-difference rationalization to ONE total nonnegative rational martingale.

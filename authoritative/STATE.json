@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S124",
+  "last_completed_session": "P4-S125",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "P4_S125_FUTURE_UNEXECUTED",
-  "recommended_next_session": "P4-S125",
+  "next_transition": "P4_S126_FUTURE_UNEXECUTED",
+  "recommended_next_session": "P4-S126",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -4250,5 +4250,41 @@
     "hosted_ci": "ABSENT_NOT_PASS",
     "protection": "UNKNOWN_403",
     "frozen_objects": "UNCHANGED"
+  },
+  "phase4_s125_overlap_local_threshold": {
+    "session": "P4-S125",
+    "status": "CLOSED_INTERNAL",
+    "entry_main": "519520e019903811c578314e5a043901f5fa1952",
+    "prior_pr": 22,
+    "prior_parent": "ed9410b9da23807c9d1c44ab6738f9cd9fee5d2e",
+    "prior_tree": "686d974f63509254c727a1df4cbb38d3076c208a",
+    "results": [
+      "exact_two_fair_additive_two_proper_range_overlap_conserving_example",
+      "edge_cone_true_erasure_and_infinite_asynchronous_overlap_ghosts",
+      "universal_overlap_actual_fibre_firewall",
+      "nondense_trigger_CR_boundary_sharp_partial_unconditional_two_thirds",
+      "clopen_trigger_deterministic_true_inverse_selector"
+    ],
+    "exact_finite_output_cylinder_checks": 1020,
+    "sanity_not_proof": true,
+    "review": "SAME_AGENT_INTERNAL_ONLY",
+    "all_c2_compiler": "UNRESOLVED",
+    "DP2_CP2": "UNRESOLVED",
+    "EQ_SEP": "UNRESOLVED",
+    "same_source": "UNRESOLVED",
+    "iteration": "UNRESOLVED",
+    "gate3": "PASS",
+    "gate4": "NOT_REVIEWED",
+    "phase4": "OPEN",
+    "phase5": "CLOSED",
+    "hosted_ci": "ABSENT_NOT_PASS",
+    "protection": "UNKNOWN_403",
+    "frozen_objects": "UNCHANGED",
+    "next_session": "P4-S126_FUTURE_UNEXECUTED",
+    "owner_external_blocker": null,
+    "mathematics": "phase4/P4-S125_MATHEMATICS.md",
+    "validation": "phase4/P4-S125_VALIDATION.md",
+    "dependencies": "phase4/P4-S125_DEPENDENCIES.md",
+    "close": "phase4/P4-S125_CLOSE.md"
   }
 }
