@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S124",
-    "next_session": "P4-S125",
+    "last_session": "P4-S126",
+    "next_session": "P4-S127",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S124_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S124_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S124_VALIDATION.md",
+    "latest_record": "phase4/P4-S126_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S126_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S126_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -3045,13 +3045,16 @@
     "phase_5": "CLOSED"
   },
   "next_session_owner_direction": {
-    "date": "2026-10-12",
-    "status": "S110_COMPLETED_S111_FUTURE_UNEXECUTED",
-    "priority": "Ambitious original multi-front proof/counterexample research, no publication",
-    "next_session": "P4-S111",
+    "date": "2026-10-13",
+    "status": "S126_COMPLETED_S127_FUTURE_UNEXECUTED_OWNER_HIERARCHY_AMENDMENT",
+    "priority": "Ambitious original 5-front finite-fibre randomness hierarchy mathematics; R2 vs R3, cap3 ghost circulation, composition R4, R_fin, general-k; retain R2=MLR",
+    "next_session": "P4-S127",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
-    "last_completed_mathematics_session": "P4-S110",
-    "historical_S105_NO_GO_preserved": true
+    "last_completed_mathematics_session": "P4-S126",
+    "owner_explicit_invocation_required": true,
+    "amendment_record": "phase4/P4-S127_OWNER_HIERARCHY_AMENDMENT.md",
+    "superseded_handoff": "phase4/P4-S127_SUPERSEDED_HANDOFF.md",
+    "no_S127_executed": true
   },
   "phase4_s092_orientation_and_global_entanglement": {
     "session": "P4-S092",
@@ -3514,7 +3517,7 @@
     "validation": "phase4/P4-S103_VALIDATION.md",
     "close": "phase4/P4-S103_CLOSE.md"
   },
-  "current_research_target": "Truly infinite non-tail-equivalent overlapping two-FOLD clocks, universal c2 coherent rational compiler or counterexample; direct EQ/SEP and same-source/iteration unresolved.",
+  "current_research_target": "Owner-directed P4-S127 FUTURE: five-front finite-fibre hierarchy R2 vs R3 (same-source strictness/equality; R3=MLR), true three-inverse use-two circulating spare, R2 vs R4 via F2 composition, finite threshold/R_fin, general-k structural theorems. Original R2=MLR remains live; no S127 results yet.",
   "phase4_s104_source_partition_gate": {
     "session": "P4-S104",
     "status": "COMPLETED",
@@ -4322,5 +4325,44 @@
     "validation": "phase4/P4-S126_VALIDATION.md",
     "dependencies": "phase4/P4-S126_DEPENDENCIES.md",
     "close": "phase4/P4-S126_CLOSE.md"
+  },
+  "phase4_s127_owner_hierarchy_amendment": {
+    "date": "2026-10-13",
+    "type": "OWNER_PROMPT_AMENDMENT_ONLY",
+    "execution_status": "P4-S127_FUTURE_UNEXECUTED",
+    "entry_main": "96300f82c849384427554fd297e6c880c3e42c81",
+    "entry_tree": "a83a6002f5cf2d4a27dd42ddaadfd261321136f9",
+    "entry_mathematics_commit": "96300f82c849384427554fd297e6c880c3e42c81",
+    "predecessor_PR": 24,
+    "archived_previous_prompt_sha": "44ac5db5eed1aa486a4bace12aa4d06075e38f3f",
+    "archived_previous_prompt": "phase4/P4-S127_SUPERSEDED_HANDOFF.md",
+    "authoritative_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "amendment_record": "phase4/P4-S127_OWNER_HIERARCHY_AMENDMENT.md",
+    "validation_record": "phase4/P4-S127_OWNER_HIERARCHY_VALIDATION.md",
+    "required_fronts": [
+      "R2_vs_R3_same_source_or_equality_and_R3_MLR",
+      "three_actual_inverse_four_cell_circulating_spare",
+      "F2_R2_iteration_and_R2_vs_R4",
+      "finite_threshold_and_Rfin",
+      "general_k_structural_mathematics"
+    ],
+    "last_completed_session": "P4-S126",
+    "phase4": "OPEN",
+    "phase5": "CLOSED",
+    "gate3": "PASS",
+    "gate4": "NOT_REVIEWED",
+    "hierarchy_claimed_proven": false,
+    "S127_executed": false,
+    "hosted_ci": "ABSENT_NOT_PASS",
+    "protection": "UNKNOWN_403",
+    "previous_owner_direction_archived": {
+      "date": "2026-10-12",
+      "status": "S110_COMPLETED_S111_FUTURE_UNEXECUTED",
+      "priority": "Ambitious original multi-front proof/counterexample research, no publication",
+      "next_session": "P4-S111",
+      "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+      "last_completed_mathematics_session": "P4-S110",
+      "historical_S105_NO_GO_preserved": true
+    }
   }
 }

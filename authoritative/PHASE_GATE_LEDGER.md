@@ -1,3 +1,7 @@
+## 2026-10-13 — OWNER S127 hierarchy prompt-only amendment (no new gate review)
+
+P4-S126 remains the last completed mathematics session. The still-UNEXECUTED S127 handoff now targets strictness/collapse of finite-fibre randomness hierarchy R₂/R₃/R₄/R_fin with five mandated proof-first fronts, replacing the historical S127 successor wording archived verbatim. NO mathematics result, novel hierarchy claim, formal verification or publication authorisation is produced by this amendment. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; Y/M/H/X, S101–S103 and source provenance unchanged. CI ABSENT_NOT_PASS; detailed protection 403 UNKNOWN.
+
 ## P4-S126 gate retention (2026-10-13)
 
 One internal mathematical session proves only the G_U local-CR-boundary EXACT PAIR recovery randomization optimum (a.s.-total 1/3, partial unconditional 1/2), not a general fair F2 capital compiler, DP2/CP2 or EQ/SEP. S124/S125 foils re-audited; all central research remains open. 84 exact finite tests are sanity only; no external/formal review. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; source grades/objects unchanged; hosted CI ABSENT_NOT_PASS, detailed protection UNKNOWN_403. S127 FUTURE only.
