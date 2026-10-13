@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S118",
+  "last_completed_session": "P4-S119",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "P4_S119_BOUNDARY_GLUE_OR_TRANSIENT_CAPITAL_FUTURE_UNEXECUTED",
-  "recommended_next_session": "P4-S119",
+  "next_transition": "P4_S120_FUTURE_UNEXECUTED",
+  "recommended_next_session": "P4-S120",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S118",
-    "next_session": "P4-S119",
+    "last_session": "P4-S119",
+    "next_session": "P4-S120",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S118_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S118_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S118_VALIDATION.md",
+    "latest_record": "phase4/P4-S119_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S119_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S119_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -4040,5 +4040,27 @@
     "next_session": "P4-S118",
     "next_session_executed": false,
     "owner_external_blocker": null
+  },
+  "phase4_s119_ghosts_stopping_clopen": {
+    "session": "P4-S119",
+    "entry_main": "01af89b20620d2c28b351a7ed15b9a44d3ec3026",
+    "completed": true,
+    "paired_fair_c2": "EXACT_TWO_CR_CONSERVING_COMPLEMENTARY_FOLDS",
+    "halting_fair_c1": "EXACT_STOP_PRICE_NONCOMPUTABLE_NOT_NO_COMPILER",
+    "globally_separated_exact_two": "COMPUTABLE_CLOPEN_SHEETS_CR_CONSERVATION",
+    "finite_sanity_assertions": 21471,
+    "DP2_CP2_EQ_SEP": "UNRESOLVED",
+    "hierarchy_iteration": "UNRESOLVED",
+    "gates": {
+      "gate3": "PASS",
+      "gate4": "NOT_REVIEWED",
+      "phase4": "OPEN",
+      "phase5": "CLOSED"
+    },
+    "frozen_objects_and_source_grades": "UNCHANGED",
+    "hosted_ci": "ABSENT_NOT_PASS",
+    "protection": "UNKNOWN_403",
+    "next_session": "P4-S120",
+    "next_session_executed": false
   }
 }
