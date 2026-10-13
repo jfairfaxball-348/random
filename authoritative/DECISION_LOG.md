@@ -1,3 +1,7 @@
+## 2026-10-13 — P4-S121 decision
+
+Continue proof-first paired observer/additive-two work; record C121 as a rigorous failure of universal computably supported ramification beta, not CP2 destruction. A121 masks and B121 CR-output prices do not solve central quantified EQ/SEP. Preserve all historical frozen objects/source grades; authorize only future S122 upon another owner request. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED.
+
 ## D-P4-S120 — Continue beyond finite-edit safe class (2026-10-13)
 
 The exact-two release-and-erase family realises arbitrary c.e.-open noncomputable stop prices and positive noncomputable ramification but admits ONE total rational finite-edit source compiler and preserves every R_k. Thus noncomputable stopping price/positive boundary/two actual CR inverses alone are NOT evidence for CP2 failure. Seek a nonlinear globally fair cap-two map whose action on CR sources genuinely escapes finite-edit orbit protection, or a universal coherent c2 compiler; sustain EQ/SEP and same-source/iteration attacks. General DP2/CP2/EQ/SEP unchanged. No owner blocker; Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. S121 future.
