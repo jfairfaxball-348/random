@@ -1,0 +1,22 @@
+{
+  "session": "P4-S115",
+  "entry_main": "439960d7607e1d220bc068b411fbbd92749bb6fa",
+  "entry_tree": "39dd98fa8910084839d3f6363bb41cf6f63c97d6",
+  "s114_branch_commit": "439960d7607e1d220bc068b411fbbd92749bb6fa",
+  "s114_parent": "c2194cbf57e1ec5f6af48593e17e86ee575720bd",
+  "s114_pr": 12,
+  "s114_integrated": true,
+  "s114_integration_method": "NONFORCE_FAST_FORWARD",
+  "phase4": "OPEN",
+  "s115_unused_at_entry": true,
+  "s115_competing_branches": 0,
+  "open_prs": 0,
+  "actions_runs": 0,
+  "check_runs": 0,
+  "status_contexts": 0,
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "branch_rulesets": [],
+  "branch_protection": "UNKNOWN_403",
+  "workflow_collection": "UNKNOWN_RESTRICTED",
+  "status_note": "combined pending with zero contexts is not CI success"
+}

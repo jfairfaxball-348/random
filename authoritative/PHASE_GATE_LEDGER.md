@@ -1,3 +1,5 @@
+**P4-S115 GATE STATUS (2026-10-13).** One INTERNAL Phase4 CAND-01 mathematics session: nonregular effective-core conditional DP2, computable-mass necessity, nonstationary hazards and exact-two perfect-null-boundary test. No full DP2/CP2/EQ/SEP or formal Gate4 evaluation. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. S116 future; hosted CI ABSENT_NOT_PASS.
+
 
 **P4-S114 GATE STATUS (2026-10-12).** Internally proved a restricted finite-state/regular-strata double-source preservation theorem, not unrestricted DP2/CP2, EQ/SEP, new novelty or a formal gate review. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; hosted CI ABSENT_NOT_PASS. S115 future only.
 

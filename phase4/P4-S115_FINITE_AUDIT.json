@@ -1,0 +1,71 @@
+{
+  "session": "P4-S115",
+  "kind": "FINITE_SANITY_NOT_INFINITE_PROOF",
+  "levels": 12,
+  "uniform_use_extra": 1,
+  "pass": true,
+  "level_rows": [
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      4,
+      4
+    ],
+    [
+      3,
+      8,
+      6
+    ],
+    [
+      4,
+      16,
+      12
+    ],
+    [
+      5,
+      32,
+      24
+    ],
+    [
+      6,
+      64,
+      48
+    ],
+    [
+      7,
+      128,
+      96
+    ],
+    [
+      8,
+      256,
+      192
+    ],
+    [
+      9,
+      512,
+      352
+    ],
+    [
+      10,
+      1024,
+      704
+    ],
+    [
+      11,
+      2048,
+      1408
+    ],
+    [
+      12,
+      4096,
+      2816
+    ]
+  ],
+  "test": "Every output m-cylinder has exactly two (m+1)-source cylinders; early key signature matches tree first-exit prefix.",
+  "review": "same_agent_only"
+}
