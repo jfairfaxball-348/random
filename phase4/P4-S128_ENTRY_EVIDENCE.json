@@ -1,0 +1,16 @@
+{
+  "session": "P4-S128",
+  "entry_main": "b52437666f74a7ed3b5424f197dc875d3fb6b1c8",
+  "entry_tree": "ad2daa762376afd88b6a37d659bc3afec4803c63",
+  "entry_parent": "ddc6afe4e1a9678d949b772fb36a4728a041dea2",
+  "prior_pr": 26,
+  "open_pr_at_entry": 0,
+  "competing_s128": false,
+  "workflow_runs": 0,
+  "check_runs": 0,
+  "status_contexts": 0,
+  "ci": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "protection": "UNKNOWN_INACCESSIBLE",
+  "date": "2026-10-13"
+}

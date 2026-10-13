@@ -1,3 +1,7 @@
+## 2026-10-13 — P4-S128 Phase4 continuation, no Gate4
+
+Exactly one internally researched session: globally fair additive-two exact-three rotating-surplus all-output transducer proven, general 2^c-1 and safe R_j conservation, pointwise finite unbounded observer, necessary F2∘F2 degree3 condition. Central randomness separations/equalities NOT proved. 5,114 rational finite checks sanity only. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED, CI ABSENT_NOT_PASS, protection UNKNOWN, frozen source grades intact. S129 FUTURE.
+
 ## 2026-10-13 — P4-S127 gate retention, five-front finite-fibre mathematics
 
 Internally proved only restricted T_k code/homeomorphism preservation, aligned-use fibre counting and vector posterior martingale, sharp multiplicative cap algebra and cross-level R_ab transfer. Central R2/R3/R4/R_fin questions OPEN; one local rotation row is NOT a globally legal circulating F3. 635 finite checks SANITY only, SAME-AGENT review not external/formal. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; CI ABSENT_NOT_PASS, detailed protection UNKNOWN; original evidence frozen. S128 future, unexecuted.

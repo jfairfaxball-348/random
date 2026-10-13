@@ -1,3 +1,13 @@
+## P4-S128 — corrected failed row, new global F3 and remaining obstruction (2026-10-13)
+
+- FAILED FIRST LINE: reducing sibling 3 A +1 C to 2 A +1 C FINITE cells; exact fair four-slot budget forbids it. Correct A SOLO+two A PAIR remain 3 A finite but only 2 A actual infinite inverse streams.
+- An indefinitely moving finite spare among three cones IS compatible with total globally fair additive-two and exactly three full inverse streams at EVERY output. Computable-spine case proven, no fourth actual path.
+- NOT a CR destroyer: actual spine inverses computable; every nonspine source/output finite-prefix-tail equivalent. Output q volatility at nonCR output is not source unrandomness.
+- A Schnorr random NONCR spine cannot be hardwired as a noncomputable transition oracle. Branching replacement is unresolved.
+- Degree three may factor through F2∘F2 (T3 does); factorization requires H-double fibres with one F-double and one F-single point per H pair, not automatically a global factorization.
+- Uniformly capped finite and pointwise-finite unbounded are DIFFERENT observer families (fair disjoint tau_n-code map), not known different randomness classes. Quantifier exchange across k still invalid.
+- Central R2/R3/R4/R_fin and R3=MLR questions all OPEN; same-agent review and 5,114 finite rational sanity checks are not external/formal certification.
+
 ## P4-S127 — Finite-fibre hierarchy failure register (2026-10-13)
 
 - EXACTLY THREE INVERSES DOES NOT IMPLY THREE CR INVERSES OF A NONCR OUTPUT. T3 erases prefix 0/10/11 and is globally fair c2, exact-three everywhere, yet preserves all R_j.

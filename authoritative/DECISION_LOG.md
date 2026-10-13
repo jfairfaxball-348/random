@@ -1,3 +1,7 @@
+## 2026-10-13 — P4-S128: global infinite triple circulation works, no destruction inference
+
+Accept internally proved all-output F3 computable-spine rotating ghost and corrected PAIR/SOLO sibling, general c, safe all-R_j transfer. S127's missing global sibling proof is now repaired IN THIS CLASS, not universally. Accept distinct fair pointwise-finite/unbounded observer and necessary factorization selector. Reject promotion to R2\R3, R3=MLR, R_fin threshold or arbitrary F3 composition. Future S129 to attack noncomputable branching/Schnorr-NONCR output and source-capital proof. Gates/status/source grades unchanged; no external/formal validation.
+
 ## 2026-10-13 — P4-S127: finite-k safe observers are not finite-k randomness separations
 
 Retain the central hierarchy problem: T_k produces exact-k fair inverse sheets but all-R_j conservation, while a local 2+1+1 rotating row cannot certify an all-output global cap-three transducer. Accept the sharp composition algebra and cross-level conservation, reject same-source and R_fin quantifier overreach. Next authorised FUTURE P4-S128: persistent genuine triple circulation with proof of full sibling fibres, or effective source-capital obstruction. No hierarchy strictness/equality or threshold promoted. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; CI ABSENT_NOT_PASS, protection UNKNOWN, frozen Y/M/H/X/source grades unchanged.

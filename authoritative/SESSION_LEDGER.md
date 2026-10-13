@@ -1,3 +1,7 @@
+## P4-S128 — completed 2026-10-13: globally fair exact-three perpetual ghost rotation
+
+Internal full all-output additive-two F3 rotating surplus construction including SAFE (3,0,1) sibling; general c, exactly 2^c-1 actual fibres, preserves all R_j. Pointwise finite unbounded fair U; degree-three factorization selector necessity. 5,114 exact finite cylinders SANITY ONLY. R2/R3/R4/R_fin hierarchy OPEN. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; same-agent review, CI ABSENT_NOT_PASS, protection UNKNOWN. S129 FUTURE NOT EXECUTED.
+
 ## P4-S127 — completed 2026-10-13: exact finite-k observers and compositional algebra
 
 INTERNAL five-front study: safe globally fair exactly-k T_k prefix-code observers, c2 three genuine inverse model and 2+1+1 cells, output ghost-volatility account, sharp multiplicative caps, cross-level F_b(R_ab)⊆R_a, all-R_j clopen code/homeomorphism conservation. Three-stream bad output, R2/R3/R4 strictness/equality, R3=MLR, finite threshold and R_fin survivor all OPEN. 635 exact finite checks sanity only; distinct-method same-agent review. S128 FUTURE, no Gate4; Gate3 PASS, Phase4 OPEN, Phase5 CLOSED, CI ABSENT_NOT_PASS, protection UNKNOWN.
