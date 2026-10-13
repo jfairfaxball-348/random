@@ -1,3 +1,11 @@
+## P4-S123 — Nonlinear chart/fold and inverse-set failure boundaries (2026-10-13)
+
+- F123-A: UNKNOWN late clocks do NOT obstruct a uniform ordinary rational compiler for effectively prefix-stabilizing COMPUTABLE FAIR HOMEOMORPHISMS, even with nonlinear source-controlled infinite block rearrangements. Apply stopped savings to get a persistent neighbourhood floor, then use exact rational nu(H([s])) for effectively clopen chart images. Genuine noninvertible FOLD rows remain outside.
+- F123-B: for two composed charts, the second late clock must fix A_t([s]) at its computed finite clopen depth L. Grouping second starts naively at |s| is unsupported. Both no-start atoms are retained.
+- F123-C: inverse selector failure does NOT imply absence of computable candidate inverse HITTING lists. G_U has size TWO, but never an all-CR uniformly genuine singleton or exact two-inverse list (S122). Random fair key picks attain probability 1/2; the optimal UNIFORM ceiling of 1/2 is proved only for ALMOST-SURELY TOTAL randomized oracle selectors. Algorithms with nontermination probability are not covered.
+- F123-D: S121 fat diagonal K still supports NO nonzero computable measure, despite individual density-one CR points and two-candidate oracle descriptions. No automatic computable beta.
+- F123-E: source-chart capital is not an all-additive-two compiler; posterior 1/4-grid stabilizes on CR outputs only, not on desired NONCR bad outputs. No paired two-CR bad-output witness or general DP2/CP2, EQ/SEP, same-source hierarchy, iteration theorem. Finite 15+510 audits are sanity only, hosted CI ABSENT_NOT_PASS, protection UNKNOWN.
+
 ## P4-S122 — Distinguish late XOR clock capital from source FOLD and uniform inverse selection (2026-10-13)
 
 - FALSE repair premise: two independently unknown XOR activation clocks cannot admit one rational capital account. A122 constructs an explicit exact finite-rational mixture using p_infty=1/2, p_t=2^-t-2 and grouped infinite tails; combines with S120 finite-edit mixture. All source-specific mask indices retain fixed positive weight. True obstruction remains genuine nonpermutative FOLD rows, not XOR flips.

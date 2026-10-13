@@ -1,3 +1,7 @@
+## P4-S123 gate-status retention (2026-10-13)
+
+One owner-invoked Phase4 CAND-01 mathematics session. INTERNAL rational source martingale chart compiler extends S122 XOR normal form to TWO independently late fair computable homeomorphism clocks with effective clopen prefix stabilization; B123 sharp inverse candidate-hitting list and a.s.-total randomized 1/2 bound. NO general asynchronous noninvertible FOLD result, DP2/CP2, R2=MLR, R2\\MLR, SAME-SOURCE R_L1\\R2 or unrestricted iteration. 15+510 exact finite sanity checks, not formal/independent proof. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; S124 future not executed. Hosted CI ABSENT_NOT_PASS, protection 403 UNKNOWN; frozen objects and source access grades unchanged.
+
 ## P4-S122 phase-gate retention (2026-10-13)
 
 Exactly ONE new owner-invoked Phase4 CAND-01 mathematics session. A122 two-clock **XOR** rational compiler and B122 CR-output uniform-inverse obstruction are restricted INTERNAL results, neither a globally general additive-two FOLD compiler nor CP2/DP2 failure. EQ R2=MLR and SEP still unresolved. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. Future S123 not executed; 2,044+127+31 finite checks only. Hosted CI ABSENT_NOT_PASS, branch-protection 403 UNKNOWN, rulesets empty; Y/M/H/X, frozen A-C and source grades unchanged.
