@@ -1,3 +1,7 @@
+## P4-S127 — completed 2026-10-13: exact finite-k observers and compositional algebra
+
+INTERNAL five-front study: safe globally fair exactly-k T_k prefix-code observers, c2 three genuine inverse model and 2+1+1 cells, output ghost-volatility account, sharp multiplicative caps, cross-level F_b(R_ab)⊆R_a, all-R_j clopen code/homeomorphism conservation. Three-stream bad output, R2/R3/R4 strictness/equality, R3=MLR, finite threshold and R_fin survivor all OPEN. 635 exact finite checks sanity only; distinct-method same-agent review. S128 FUTURE, no Gate4; Gate3 PASS, Phase4 OPEN, Phase5 CLOSED, CI ABSENT_NOT_PASS, protection UNKNOWN.
+
 ## Owner S127 handoff expansion (2026-10-13, FUTURE only)
 
 Next substantial session P4-S127 now targets finite-fibre hierarchy MLR⊆R_fin⊆⋯⊆R₄⊆R₃⊆R₂⊆CR, with flagship R₂ vs R₃ strictness/equality and R₃=MLR; a globally fair additive-use-two THREE-actual-inverse ghost-circulation design (four finite source cells); composition/iteration R₂ vs R₄; finite-level threshold and R_fin; and new general-k structure. Precise same-source universal lower-level survival and exact full-infinite fibres mandatory. **No hierarchy result established by this owner amendment.** Original R₂=MLR programme and S126 frozen achievements remain active. Authoritative full prompt supersedes archived old S127; last completed maths P4-S126. S127 FUTURE only. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED.

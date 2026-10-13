@@ -1,3 +1,13 @@
+## P4-S127 — Finite-fibre hierarchy failure register (2026-10-13)
+
+- EXACTLY THREE INVERSES DOES NOT IMPLY THREE CR INVERSES OF A NONCR OUTPUT. T3 erases prefix 0/10/11 and is globally fair c2, exact-three everywhere, yet preserves all R_j.
+- FOUR finite source cells do not mean four ACTUAL streams. At c2 T3 the fourth ghost is permanently in the 0 cone and killed at the next output stage. A local 2+1+1 rotation may produce sibling 3+0+1; without full infinite sibling pruning a cap-three claim is unsupported.
+- Source cone posterior volatility on CR outputs cannot rule out rotating spares along the specifically desired NONCR output. q and V_B are OUTPUT martingales, not source compilers.
+- Composition of two F2 observers can be F4 not F2: T2∘T2 exactly four inverses. Failure of F2(R2) closure would force SAME-SOURCE R2\R4, not conversely. Special T3 factorization does not prove universal F4 factorization.
+- Each finite R_k admitting a nonMLR survivor need not give one R_fin survivor; ∀k∃x_k versus ∃x∀k is invalid. Naive priority bank has no verified effective list of globally total fair finite-fibre maps, nor common-injury compactness.
+- All-R_j conservation for finite complete-code fair-homeomorphism sheets is a scoped no-go; does not establish R2=R3, R3=MLR or a general F3 compiler. 635 exact finite-cylinder assertions are SANITY, not a proof about arbitrary transducers.
+- Source grades, S101–S103 frozen A–C, original Y/M/H/X, Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED preserved.
+
 ## P4-S126 — New failure/lesson register (2026-10-13)
 
 - **PAIR ≠ ONE:** on the same total fair additive-one everywhere-exact-two G_U, outputting BOTH distinct actual inverse streams is provably strictly harder in uniform randomized success than outputting ONE: exact pair a.s.-total = 1/3 and partial = 1/2; one-inverse a.s.-total = 1/2 and partial = 2/3. These require a CR K∩closure U boundary point; clopen trigger sets evade the assumption.

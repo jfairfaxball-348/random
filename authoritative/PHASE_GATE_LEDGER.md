@@ -1,3 +1,7 @@
+## 2026-10-13 — P4-S127 gate retention, five-front finite-fibre mathematics
+
+Internally proved only restricted T_k code/homeomorphism preservation, aligned-use fibre counting and vector posterior martingale, sharp multiplicative cap algebra and cross-level R_ab transfer. Central R2/R3/R4/R_fin questions OPEN; one local rotation row is NOT a globally legal circulating F3. 635 finite checks SANITY only, SAME-AGENT review not external/formal. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; CI ABSENT_NOT_PASS, detailed protection UNKNOWN; original evidence frozen. S128 future, unexecuted.
+
 ## 2026-10-13 — OWNER S127 hierarchy prompt-only amendment (no new gate review)
 
 P4-S126 remains the last completed mathematics session. The still-UNEXECUTED S127 handoff now targets strictness/collapse of finite-fibre randomness hierarchy R₂/R₃/R₄/R_fin with five mandated proof-first fronts, replacing the historical S127 successor wording archived verbatim. NO mathematics result, novel hierarchy claim, formal verification or publication authorisation is produced by this amendment. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED; Y/M/H/X, S101–S103 and source provenance unchanged. CI ABSENT_NOT_PASS; detailed protection 403 UNKNOWN.
