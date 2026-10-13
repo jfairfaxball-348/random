@@ -1,3 +1,7 @@
+## P4-S122 phase-gate retention (2026-10-13)
+
+Exactly ONE new owner-invoked Phase4 CAND-01 mathematics session. A122 two-clock **XOR** rational compiler and B122 CR-output uniform-inverse obstruction are restricted INTERNAL results, neither a globally general additive-two FOLD compiler nor CP2/DP2 failure. EQ R2=MLR and SEP still unresolved. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. Future S123 not executed; 2,044+127+31 finite checks only. Hosted CI ABSENT_NOT_PASS, branch-protection 403 UNKNOWN, rulesets empty; Y/M/H/X, frozen A-C and source grades unchanged.
+
 ## P4-S121 phase gate retention (2026-10-13)
 
 Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. New A/B/C internal restricted results, NO universal c2 compiler, paired destroyer, EQ or SEP; S122 future ONLY. Hosted CI ABSENT_NOT_PASS; branch protection UNKNOWN.

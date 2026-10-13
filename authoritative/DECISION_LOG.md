@@ -1,3 +1,7 @@
+## 2026-10-13 — P4-S122 research decision
+
+CONTINUE proof-first CAND-01 Phase4, no gate/publication change. The unknown-clock/no-release objection to a *uniform rational* compiler is repaired for two independent computable late-start **XOR** families, even with infinitely many flips and arbitrary finite extras. It does not repair actual source-tree FOLD clocks. Dense exact-two release/erase examples refute uniform CR-domain inverse/posterior selection but still conserve every R_k; neither this obstruction nor the no-supported-computable-beta result implies CR destruction. Next attack must escape pointwise computable mask and finite-edit orbit normal forms, or genuinely compile/refute coupled FOLD rows and pursue all-source EQ/SEP. Original source grades/dossiers unchanged. No blocker. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. S123 FUTURE only.
+
 ## 2026-10-13 — P4-S121 decision
 
 Continue proof-first paired observer/additive-two work; record C121 as a rigorous failure of universal computably supported ramification beta, not CP2 destruction. A121 masks and B121 CR-output prices do not solve central quantified EQ/SEP. Preserve all historical frozen objects/source grades; authorize only future S122 upon another owner request. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED.
