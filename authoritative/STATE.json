@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S115",
+  "last_completed_session": "P4-S116",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -52,8 +52,8 @@
     "questions": 2,
     "authors": 82
   },
-  "next_transition": "P4_S116_EFFECTIVE_RAMIFICATION_DICHOTOMY_OR_PAIRED_DESTROYER_FUTURE_UNEXECUTED",
-  "recommended_next_session": "P4-S116",
+  "next_transition": "P4_S117_NONLINEAR_PAIRED_ESCAPE_OR_BOUNDED_LAG_COMPILER_FUTURE_UNEXECUTED",
+  "recommended_next_session": "P4-S117",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S115",
-    "next_session": "P4-S116",
+    "last_session": "P4-S116",
+    "next_session": "P4-S117",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S115_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S115_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S115_VALIDATION.md",
+    "latest_record": "phase4/P4-S116_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S116_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S116_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -2079,6 +2079,20 @@
       "validation_record": "phase4/P4-S071_VALIDATION.md",
       "next_session": "P4-S072",
       "owner_external_blocker": null
+    },
+    "affine_finite_kernel_result": {
+      "session": "P4-S116",
+      "result": "TOTAL_COMPUTABLE_FAIR_AFFINE_FINITE_KERNEL_MAPS_PRESERVE_EVERY_R_K",
+      "all_output_fibres": "KERNEL_COSETS",
+      "f2_strata": "EMPTY_OR_FULL",
+      "variable_unbounded_use_example": true,
+      "general_f2": "UNRESOLVED"
+    },
+    "bounded_use_price_result": {
+      "session": "P4-S116",
+      "result": "UNIFORM_ADDITIVE_C_FAIR_MAP_HAS_FINITE_POSTERIOR_INTEGER_MULTIPLES_OF_2^-C_WITH_ACTUAL_INVERSE_FLOOR_2^-C",
+      "does_not_prove": "COHERENT_COMPUTABLE_RATIONAL_MARTINGALE_COMPILER_FOR_C>=2",
+      "noncomputable_Dr_still_possible": true
     }
   },
   "phase4_k2_moving_hole_mathematics": {

@@ -1,3 +1,10 @@
+## P4-S116 — Affine escape closes; bounded-lookahead posterior floor is not a compiler (2026-10-13)
+- Exact fair finite-kernel AFFINE quotients split into a computable fair homeomorphism and finite key deletion; even wildly variable memory and nonhomeomorphic keyed affine postmaps preserve all R_k, excluding these as real paired CR destroyers.
+- Each actual inverse of a globally fair additive-c map retains at least 2^-c conditional finite-cylinder source price. The first UNSUPPORTED inference is replacing this discrete local share by a coherent total rational source martingale or computable stopping/stratum mass; c>=2 remains open.
+- S112's noncomputable D1 and S108's fat boundary defeat universal effective-null/measure certificates but remain pointwise finite-orbit preserving, not counterexamples to DP2.
+- Pointwise all-output inverse counts and global cylinder fairness must be proved SEPARATELY for nonlinear keyed transports. A repeated finite two-prefix or 48-hybrid row does not establish two actual infinite inverse paths.
+- R2 versus R_L1 requires a SAME source; composition of two F2 maps may multiply the cap. Central EQ/SEP not settled.
+
 ## P4-S115 — Effective boundary method is not universal (2026-10-13)
 F115-1 Power-of-two first-hit decidable tree provides nonregular fair EXACT-two map, but its perfect null boundary is CR-inaccessible and it conserves CR. Mere infinite memory/ramification not destruction.
 F115-2 C.e. open safe core V subset effectively closed D with null residual D\\V implies lambda(D) COMPUTABLE by rational upper/lower squeeze. Cannot silently apply to S112 noncomputable D1.

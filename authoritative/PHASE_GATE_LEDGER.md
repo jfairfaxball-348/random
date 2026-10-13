@@ -1,3 +1,5 @@
+**P4-S116 GATE STATUS (2026-10-13).** Internal mathematics established fair affine finite-kernel ALL-R_k preservation, bounded-delay rational posterior floor and a nonfinite-state explicit example. NOT unrestricted DP2/CP2/EQ/SEP, NOT formal Gate4 or novelty. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. S117 FUTURE ONLY; hosted CI ABSENT_NOT_PASS.
+
 **P4-S115 GATE STATUS (2026-10-13).** One INTERNAL Phase4 CAND-01 mathematics session: nonregular effective-core conditional DP2, computable-mass necessity, nonstationary hazards and exact-two perfect-null-boundary test. No full DP2/CP2/EQ/SEP or formal Gate4 evaluation. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. S116 future; hosted CI ABSENT_NOT_PASS.
 
 

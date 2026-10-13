@@ -1,0 +1,33 @@
+{
+  "session": "P4-S116",
+  "date": "2026-10-13",
+  "entry_main": "e397fe406e4cc61f0276cd257314694743f27011",
+  "entry_tree": "5f1a218e2fedff392c1eed93b27d53566cc2ed6d",
+  "actual_s115": {
+    "commit": "e397fe406e4cc61f0276cd257314694743f27011",
+    "parent": "439960d7607e1d220bc068b411fbbd92749bb6fa",
+    "pr": 13,
+    "pr_state": "CLOSED_MERGED",
+    "merge": "NONFORCE_FAST_FORWARD"
+  },
+  "remote_main_at_entry": "e397fe406e4cc61f0276cd257314694743f27011",
+  "s116_branch_present": false,
+  "s116_files_present": false,
+  "actions_workflows_directory": "ABSENT_404",
+  "actions_runs": 0,
+  "check_runs": 0,
+  "commit_status_contexts": 0,
+  "combined_status": "pending_WITH_ZERO_CONTEXTS",
+  "ci": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "branch_protection": "UNKNOWN_403",
+  "finite_sanity": {
+    "linear_q_output_depths": "1..8",
+    "power_tree_output_depths": "1..11",
+    "independent": "local python exhaustive prefix enumeration"
+  },
+  "phase": "4_OPEN",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED",
+  "phase5": "CLOSED"
+}
