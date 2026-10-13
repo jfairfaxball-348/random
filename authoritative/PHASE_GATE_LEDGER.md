@@ -1,3 +1,7 @@
+## P4-S120 gate preservation (2026-10-13)
+
+Phase4 CAND-01 intensive mathematics only. Gate3 PASS (P3-S008); Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. New exactly-two conserving stop/finite-edit compiler, positive noncomputable ramification and conditional priced beta do NOT authorize Gate4, Phase5, Lean, Palomar, manuscript or publication. S121 future unexecuted. No owner/external blocker; hosted CI ABSENT_NOT_PASS, protection endpoint 403 UNKNOWN.
+
 ## P4-S117 — Internal restricted mathematics; no gate review (2026-10-13)
 
 Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. Posterior and nonlinear block results and a conditional beta certificate are INTERNAL only. DP2/CP2/EQ/SEP and unrestricted hierarchy/iteration remain unresolved. Hosted CI ABSENT_NOT_PASS; no external/formal/novelty certification. Future S118 only.

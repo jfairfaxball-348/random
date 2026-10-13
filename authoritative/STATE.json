@@ -6,7 +6,7 @@
   "active_phase": 4,
   "active_phase_name": "Mathematics",
   "active_session": null,
-  "last_completed_session": "P4-S119",
+  "last_completed_session": "P4-S120",
   "research_started": true,
   "root_objective": "Determine whether a natural, novel, useful and publishable mathematical notion worthy of the name Fairfax-Ball Randomness can be established, and if so develop and publish it.",
   "phases": {
@@ -53,7 +53,7 @@
     "authors": 82
   },
   "next_transition": "P4_S120_FUTURE_UNEXECUTED",
-  "recommended_next_session": "P4-S120",
+  "recommended_next_session": "P4-S121",
   "active_blocker": null,
   "candidate_selected": true,
   "fairfax_ball_randomness_defined": false,
@@ -297,12 +297,12 @@
     "status": "OPEN",
     "opened_by": "P3-S008",
     "selected_candidate_id": "CAND-01",
-    "last_session": "P4-S119",
-    "next_session": "P4-S120",
+    "last_session": "P4-S120",
+    "next_session": "P4-S121",
     "original_mathematics_performed": true,
-    "latest_record": "phase4/P4-S119_MATHEMATICS.md",
-    "latest_close_record": "phase4/P4-S119_CLOSE.md",
-    "latest_validation_record": "phase4/P4-S119_VALIDATION.md",
+    "latest_record": "phase4/P4-S120_MATHEMATICS.md",
+    "latest_close_record": "phase4/P4-S120_CLOSE.md",
+    "latest_validation_record": "phase4/P4-S120_VALIDATION.md",
     "k1_result": {
       "session": "P4-S001",
       "result": "K1_FORCES_COMPUTABLE_MEASURE_PRESERVING_HOMEOMORPHISM_AND_CR_INVARIANCE",
@@ -2040,7 +2040,7 @@
       "validation_record": "phase4/P4-S068_VALIDATION.md"
     },
     "current_research_pivot": "phase4/P4_RESEARCH_DIRECTION_AFTER_S105.md",
-    "current_research_target": "Globally fair nonlinear paired destruction versus a coherent additive-two source compiler; synchronized singleton charts and posterior volatility; EQ/SEP and same-source hierarchy unresolved.",
+    "current_research_target": "Escape finite-coordinate-edit conservation to find legal paired two-CR destroyer or universal c2 compiler; direct EQ/SEP, same-source hierarchy and unrestricted iteration remain unresolved.",
     "p4_s070_global_linear_reduction": {
       "session": "P4-S070",
       "result": "H_PRESERVATION_EQUIVALENT_TO_ALL_COMPUTABLY_SUPPORTED_XOR_SHEARS_AND_ALL_COMPUTABLE_BLOCKWISE_GL3_PRESERVATION",
@@ -4061,6 +4061,29 @@
     "hosted_ci": "ABSENT_NOT_PASS",
     "protection": "UNKNOWN_403",
     "next_session": "P4-S120",
+    "next_session_executed": false
+  },
+  "phase4_s120_open_stopping_finite_edit": {
+    "session": "P4-S120",
+    "entry_main": "82ab73124a78dad7c20c7df416a6e0f307bbbbb8",
+    "completed": true,
+    "open_stop_realisability": "EVERY_CE_OPEN_EXACT_TWO_FAIR_ADDITIVE_ONE",
+    "finite_edit_source_compiler": "ONE_TOTAL_RATIONAL_MARTINGALE_ALL_FIXED_FINITE_FLIPS",
+    "fat_nonccomputable_ramification": "POSITIVE_NOWHERE_DENSE_NONCOMPUTABLE_D1_AND_ACTUAL_CR_SOURCES",
+    "priced_beta": "COMPUTABLE_DOMINATED_NONCLOPEN_SHEET_WITH_P_OVER_4_FLOOR",
+    "finite_sanity_assertions": 33011,
+    "DP2_CP2_EQ_SEP": "UNRESOLVED",
+    "same_source_hierarchy_iteration": "UNRESOLVED",
+    "gates": {
+      "gate3": "PASS",
+      "gate4": "NOT_REVIEWED",
+      "phase4": "OPEN",
+      "phase5": "CLOSED"
+    },
+    "frozen_objects_and_source_grades": "UNCHANGED",
+    "hosted_ci": "ABSENT_NOT_PASS",
+    "protection": "UNKNOWN_403",
+    "next_session": "P4-S121",
     "next_session_executed": false
   }
 }

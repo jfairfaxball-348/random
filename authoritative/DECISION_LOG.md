@@ -1,3 +1,7 @@
+## D-P4-S120 — Continue beyond finite-edit safe class (2026-10-13)
+
+The exact-two release-and-erase family realises arbitrary c.e.-open noncomputable stop prices and positive noncomputable ramification but admits ONE total rational finite-edit source compiler and preserves every R_k. Thus noncomputable stopping price/positive boundary/two actual CR inverses alone are NOT evidence for CP2 failure. Seek a nonlinear globally fair cap-two map whose action on CR sources genuinely escapes finite-edit orbit protection, or a universal coherent c2 compiler; sustain EQ/SEP and same-source/iteration attacks. General DP2/CP2/EQ/SEP unchanged. No owner blocker; Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED. S121 future.
+
 ## D-P4-S117 — Attack synchronized singleton charts and posterior volatility (2026-10-13)
 
 Continue owner-authorized Phase4 original research. S117 narrows the two-CR additive-two construction to volatile posterior paths or stabilized balanced 2+2 sheets; the latter normalize to two legal CR-destroying singleton L1 charts. This is not general DP2 and does not solve their global gluing. Arbitrary nonlinear bijective block schedules conserve all R_k; unbounded block CR compilers require savings. Supplied priced injective beta certificates are sufficient but not automatic. Prioritize an actual globally cap-two paired construction or coherent general capital accounting in S118, while sustaining full EQ/SEP and same-source hierarchy fronts. Original objects/A-C/grades/gates retained; no owner blocker.

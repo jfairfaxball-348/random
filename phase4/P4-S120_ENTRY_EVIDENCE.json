@@ -1,0 +1,23 @@
+{
+  "session": "P4-S120",
+  "entry_main": "82ab73124a78dad7c20c7df416a6e0f307bbbbb8",
+  "previous_session": "P4-S119",
+  "previous_atomic_commit": "82ab73124a78dad7c20c7df416a6e0f307bbbbb8",
+  "previous_parent": "01af89b20620d2c28b351a7ed15b9a44d3ec3026",
+  "previous_tree": "128852e8c91fc08240333353017147436c74d659",
+  "previous_pr": 17,
+  "previous_pr_merged": true,
+  "previous_nonforce_verified": true,
+  "competing_S120_branches": 0,
+  "competing_S120_paths": 0,
+  "hosted_actions_runs": 0,
+  "hosted_check_runs": 0,
+  "hosted_status_contexts": 0,
+  "hosted_CI": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "branch_protection": "UNKNOWN_403",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED",
+  "phase4": "OPEN",
+  "phase5": "CLOSED"
+}
