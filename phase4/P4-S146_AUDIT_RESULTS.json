@@ -1,0 +1,12 @@
+{
+  "session": "P4-S146",
+  "grade": "SAME_AGENT_FINITE_SANITY_ONLY",
+  "candidate_q_rows": 210,
+  "compatible_labelled_rows": 178,
+  "target_transitions": 7,
+  "exact_source_split_checks": 2001,
+  "method": "exhaustive 4-of-8 children and Fraction sibling arithmetic",
+  "result": "PASS",
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "central_hierarchy": "OPEN"
+}
