@@ -1,0 +1,44 @@
+{
+  "session": "P4-S136",
+  "date": "2026-10-14",
+  "entry_main": "547269229ae7a370e18f186d826e23c9abbf2e39",
+  "previous": {
+    "session": "P4-S135",
+    "authored_commit": "547269229ae7a370e18f186d826e23c9abbf2e39",
+    "sole_parent": "be7655c2d7120a7649a65cdc6dfe44cb8ce92099",
+    "tree": "45f7296c87d3e53c63f93b8d94e1966bbce56d0d",
+    "pr": 34,
+    "pr_merged": true,
+    "pr_integration": "NON_FORCE_FAST_FORWARD",
+    "changed_paths": 19
+  },
+  "entry_checks": {
+    "s136_preexisting": false,
+    "open_prs": 0,
+    "hosted_workflow_runs": 0,
+    "hosted_check_runs": 0,
+    "individual_statuses": 0,
+    "combined_status": "PENDING_NO_CONTEXTS",
+    "rulesets": [],
+    "branch_protection": "UNKNOWN_403",
+    "ci": "ABSENT_NOT_PASS"
+  },
+  "finite_audit": {
+    "depths": "0..12",
+    "output_cylinders": 8191,
+    "source_incidences": 32764,
+    "final_source_words": 16384,
+    "cumulative_active": 5130,
+    "cumulative_safe": 3061,
+    "depth13_active": 5109,
+    "depth13_safe": 3083,
+    "kind": "EXACT_INTEGER_FRACTION_SANITY_ONLY"
+  },
+  "gates": {
+    "Gate3": "PASS",
+    "Gate4": "NOT_REVIEWED",
+    "Phase4": "OPEN",
+    "Phase5": "CLOSED"
+  },
+  "outgoing": "MUST_VERIFY_AFTER_WRITING"
+}
