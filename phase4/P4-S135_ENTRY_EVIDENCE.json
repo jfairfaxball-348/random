@@ -1,0 +1,22 @@
+{
+  "session": "P4-S135",
+  "entry_main": "be7655c2d7120a7649a65cdc6dfe44cb8ce92099",
+  "s134_parent": "bb901e53261a8d4809b85ebaef506fcd85f9d5c2",
+  "s134_tree": "3235d70bc6e326eb9fd25593648e2e0525f1d287",
+  "s134_pr": 33,
+  "merged_nonforce": true,
+  "changed_paths": 18,
+  "open_prs": 0,
+  "competing_s135": 0,
+  "workflows": 0,
+  "workflow_runs": 0,
+  "check_runs": 0,
+  "statuses": 0,
+  "rulesets": [],
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "protection": "UNKNOWN_INACCESSIBLE",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED",
+  "phase4": "OPEN",
+  "phase5": "CLOSED"
+}

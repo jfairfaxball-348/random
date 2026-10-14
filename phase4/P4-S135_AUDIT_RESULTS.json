@@ -1,0 +1,9 @@
+{
+  "result": "PASS_SANITY_ONLY",
+  "levels": 12,
+  "output_cylinders": 8191,
+  "aligned_source_occurrences": 32764,
+  "active_nodes": 91,
+  "safe_nodes": 8100,
+  "last_source_words": 16384
+}

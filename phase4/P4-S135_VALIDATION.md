@@ -1,0 +1,10 @@
+# P4-S135 — hostile SAME-AGENT validation (not independent external)
+
+ENTRY independently observed main be7655c2d7120a7649a65cdc6dfe44cb8ce92099, S134 author commit sole parent bb901e53261a8d4809b85ebaef506fcd85f9d5c2 tree 3235d70bc6e326eb9fd25593648e2e0525f1d287; merged PR #33 head=merge SHA and one commit / 18 paths. No intervening main/competing S135 records or branches/open PR. No workflow files/runs/checks/status contexts; no rulesets; protection not accessible (UNKNOWN). Missing CI ABSENT_NOT_PASS.
+
+Row replay: FREE gives two ACTIVE A3/B1; forced (3,1) produces ACTIVE (2,2) and SAFE P2/S2; forced (2,2) gives ACTIVE (3,1) and SAFE P2/S2. All eight input children assigned exactly once at EACH stage. SAFE pair initially may not be siblings; one step later it is. Off-T actual degree3; on-T cofinal parent pruning gives one A and one B. T is computably perfect but null at mass 4^-j by level3j. Finite Fraction audit: PASS_SANITY_ONLY, depth12, 8191 output cylinders, 32764 occurrences, 91 ACTIVE, 8100 SAFE, 16384 input words final; not an infinite proof.
+
+SOURCE capital separately checked: for U_j=G^-1(T_(6j)), measure exactly2^-4j; for length-j input a, q_j(a)≤2^-3j; q_j(a)=0 branch holds at1; all other branches obey child-average and root1; W's delayed tail is exactly2^-|s|, so rational and a martingale; W(x|n)≥2^{2j} for any n≥6j+2 when G(x)∈T. First false inference of naive proof: OUTPUT d succeeds ⇒ SOURCE CR fails; invalid in general, but corrected by W here.
+
+Factorization: no fair clopen shift-tag ≠ no arbitrary outer H. Genuine degrees enforce outer H two-preimage (1,2) away from T and alternative (2) or (1,1) over T, not contradiction. S129 r=N−1 not applicable at degree2; S131 onto sheet assumption missing; S132/S133 tagged scopes preserved. Decorated fat patches preserve CR despite nonhomeomorphic finite fibres. Noncomputable α supplies noncomputable output/input, NOT randomness or R2. No all-F2 test verified for any candidate, no central equality or separation claim. SAME-AGENT proof review and finite audit only; no independent formal check.
+
