@@ -1,0 +1,7 @@
+# P4-S150 dependency and falsifier map
+
+A150 extends S149 arbitrary-use rational conditional bias decomposition with exact output-conditioned arithmetic under global fairness, independent of cap and relying only on finite dyadic cylinder counts, fair pushforward measure and positive p. B150 restates the S146/S147 seven transitions, 178 labelled allocations, sharp four-grandchild budget, and its finite-bank consequence. S117 reserve, S129 one-surplus, S135 oscillator, S139 E/S roadmap, S141 local folds, S145 price theorem, S147 source-local noncomputable prices, S148 forced rows and S149 A debt remain original-scoped and unchanged.
+
+FULL-MAP FALSIFIERS: identity under u(n)=n+1 for n>0 (fair degree 1, bias 1/2 at EVERY n>=1, yet CR preserving); adjacent bit swap (fair degree 1, infinitely forced but CR preserving); S011 actual legal F₂ destroys a CR source Y (NOT R₂); S135 locally nontrivial 3:1/2:2 oscillator yet CR conserving; S141 fat pockets with folding at R₂ benign sources. No false transfer from conull R₂ to null bad-output fibre, no selection oracle, no computable stopping price claim.
+
+Remaining FIRST universal algorithmic obligation: SAME SOURCE hidden-cell-to-one globally fair ≤2 COMPLETE-inverse observer/e, or ONE jointly verified R₂ survivor attacked by one globally fair complete-cap-three map. E-08/E-00/S-00 all OPEN. Frozen source grades/PA-0001, DEF-0020, Y/M/H/X, S101–S103 unchanged.

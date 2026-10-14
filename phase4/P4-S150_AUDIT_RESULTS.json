@@ -1,0 +1,25 @@
+{
+  "session": "P4-S150",
+  "date": "2026-10-14",
+  "entry_main": "249c81e5264ad2d96f134c3607991680c7a543f4",
+  "exact_fraction_assertions": 8532,
+  "maps": [
+    "identity",
+    "identity_overread",
+    "delete",
+    "swap",
+    "xor",
+    "majority"
+  ],
+  "labelled_rows": 178,
+  "proof_grade": "INTERNAL_SAME_AGENT",
+  "finite_test": "SANITY_ONLY",
+  "E08": "OPEN",
+  "E00": "OPEN",
+  "S00": "OPEN",
+  "hierarchy": "UNRESOLVED",
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "protection": "UNKNOWN_403",
+  "phase4": "OPEN",
+  "phase5": "CLOSED"
+}
