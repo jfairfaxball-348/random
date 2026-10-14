@@ -1,3 +1,7 @@
+## P4-S143 failure / lesson (2026-10-14)
+
+Two-inverse q_A posterior edge ratios telescope and are not a SOURCE detector. Exact finite-window output gains with an effectively COMPUTABLE B(k) can be converted into one TOTAL RATIONAL source martingale using clopen U_k, delayed conditional fractions and a finite geometric mixture, but such B does not follow from unbounded output success: S011 CR→nonCR legal F2 counterexample excludes universal effective deadlines. S135 oscillation refutes stationary 2:2 assumptions, S141 fat-K safe points refute fold positivity/smallness sufficiency, and conditional μ_A CR is not source CR. No E-08, E-00, S-00, hierarchy settlement or novelty claim; no independent review.
+
 ## P4-S142 failure / lesson (2026-10-14)
 
 Exact conditional μ_A prices and even two-way target CR equivalence along c2 two-inverse q=1/2/3 paths do NOT establish a SOURCE martingale or legal F2 simulator: G|A may remain many-to-one of positive measure. Output-favorable child cannot be selected after observing its bit, and sibling incidence matters; S135 full legal oscillation remains a countermodel to stationary 2:2 selectors only. Bare positive internal fold mass in every neighbourhood can diminish to zero along MLR/R2 fixed points in legal S141 F2 pocket P (classical density theorem), so neither positivity nor vanishing density alone forces bad image. Arbitrary-use positive-measure inverse disintegration and one-source S-09 budgets remain open. No novelty or phase promotion; same-agent checks only.

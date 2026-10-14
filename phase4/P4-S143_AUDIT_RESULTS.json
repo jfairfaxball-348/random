@@ -1,0 +1,10 @@
+{
+  "session": "P4-S143",
+  "scope": "FINITE_SANITY_ONLY",
+  "result": "PASS",
+  "transitions": 7,
+  "telescoping_walks": 5736,
+  "source_escrow_examples": 25,
+  "independent_review": false,
+  "hierarchy": "OPEN"
+}
