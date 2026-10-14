@@ -1,0 +1,17 @@
+{
+  "session": "P4-S147",
+  "entry_main": "c0bae5e4efb1454b2aca47eed64cfc58a2d501c3",
+  "predecessor_pr": 46,
+  "labelled_rows": 178,
+  "exact_rational_assertions": 33792,
+  "finite_sanity": "PASS_FINITE_ONLY",
+  "proof_review": "SAME_AGENT_ONLY",
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "protection": "UNKNOWN_403",
+  "rulesets": [],
+  "E08": "OPEN",
+  "E00": "OPEN",
+  "S00": "OPEN",
+  "R2_R3": "OPEN",
+  "next": "P4-S148_FUTURE_UNEXECUTED"
+}

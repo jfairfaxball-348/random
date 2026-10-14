@@ -1,0 +1,9 @@
+# P4-S147 — quantified obligations and invalid inferences
+
+- **A147.1 PROVED INTERNALLY (derived)**: ∀total fair computable G ∀total rational d ∀x∈CR [d wins on G(x) ⇒ ∀computable-clopen B∋x ∀total computable strictly increasing k_j : j↦λ(B∩G⁻¹E_(k_j)) is NOT uniformly computable]. No uniformity in selecting B from x; each B is a fixed finite code. This does not assert any individual price noncomputable.
+- **A147.2 NECESSARY**: for an alleged x∈R2 with G∈F3/d bad image, ∀s≺x ∀tau≺G(x), B=[s]∩G⁻¹[tau] has positive internal folding (S141) AND non-uniform computability of local threshold prices on every computable unbounded threshold subsequence (A147.1). This is NOT SUFFICIENT; S011 and S141 hostile controls apply.
+- **B147.1 PROVED FINITE**: at a q_A=1→2 transition and the next true bit, ∀t∈{1,2,3}, target A leaves t, sibling 4−t; for fixed labelled leaf partition, ∃nonnegative rational finite-tree martingale guaranteeing target factor a, sibling b iff t a+(4−t)b≤4. The target-only optimum 4/t requires prior knowledge of selected output child. It does not imply ∃total G-dependent F2/e.
+- **B147.2 UNRESOLVED**: ∀legal fair c2 cap3 G with 2 actual inverse points and rational d ∃total computable globally fair F2 of complete degree ≤2 and rational e ∀x∈R2 [d wins G(x)⇒e wins F2(x)]. Unknown-output-bit selection, effective activation and ALL-output degree/fairness are missing.
+- **E-00 OPEN**: ∀G∈F3∀x∈R2 G(x)∈CR (arbitrary computable use).
+- **S-00 OPEN**: ∃ONE G∈F3, ONE total rational d, ONE x∈R2: d wins on G(x), with every legal F2/e bounded on this SAME x.
+- **No transition**: Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED.
