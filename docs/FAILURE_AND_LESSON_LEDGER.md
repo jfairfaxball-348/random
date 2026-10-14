@@ -1,3 +1,7 @@
+## P4-S141 failure/lesson (2026-10-14)
+
+Scoped failed converse: even positive conditional source-INTERNAL double overlap inside every joint source/output cylinder does NOT entail any non-CR image. A globally legal fair additive1 cap2 map with dense tiny disjoint shift pockets fixes a positive-measure fat Π¹ closed set of MLR/R₂ points; the local source-fold necessary locus is not null. Correct source-local clopen μ_B cylinder prices are rational, but arbitrary many-to-one μ_B inverses defeat use of Rute a.e-isomorphism: do not assert universal fair morphism CR conservation. No active S-09 budgets or full E-08 same-source reduction. See S141 math/hostile.
+
 ## P4-S140 — proof and research failure controls (2026-10-14)
 - Conull singleton T requires a computable ambiguity-decay rate to preserve CR: FALSE; partial effective Π² inverse exists by compact-prefix search, E-ISO applies.
 - Partial J must be total to use Rute: FALSE; a.e computable inverse with Π² measure-one domain sufficient.

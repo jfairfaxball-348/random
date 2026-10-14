@@ -1,0 +1,8 @@
+# P4-S141 — dependency and falsifier ledger
+**A141 independent sufficiency chain:** computably clopen B -> rational computable μ_B and dominance μ_B≤λ/λ(B) -> μ_B-conull singleton G|B -> effective partial inverse via compact finite compatibility -> Rute Thm7.11 isomorphism -> μ_B-CR image -> explicit rational likelihood-ratio reserve martingale -> ordinary λ-CR image. This does NOT invoke F₂(R₂) closure.
+
+**Strict separation necessary chain:** x∈R₂⊂CR, y=G(x)∉CR -> ∀(s,τ) along (x,y), conditional μ_B-positive *internal* fibre ambiguity -> for each B, some pair of incompatible sub-cones with positive overlapping μ_B measure. This is only a topological/measure filter; no same-source F₂/e or d-G witness produced.
+
+**B141 countermodel:** computable dense disjoint clopen shift pockets of total measure≤1/8 -> P total fair additive1 F₂ -> fat Π¹ K fixed -> for every x∈K (joint μ_B ambiguity positive) AND K contains MLR. Thus retire “bi-local positive overlap alone forces bad y” and “necessary source-fold locus must be null.” Avoid treating source positivity as an effective selector.
+
+**Gap surviving S141:** Must exploit output martingale gains along a particular NONCR path, synchronized with INTERNAL non-injective local chart prices, so that either a legal total F₂/rational SAME-SOURCE strategy wins on the same x, OR a true priority construction certifies that every F₂/e stays bounded. Arbitrary-use nonlinear folding and dynamic c2 two-inverse 1↔2↔3 occupancy are not solved. S142 should seek a truly discriminating measurable/effective invariant, not more positive-fibre necessary tests alone.
