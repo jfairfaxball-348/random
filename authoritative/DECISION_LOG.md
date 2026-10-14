@@ -1,3 +1,7 @@
+## P4-S132 — discard clopen oscillatory and S131 nonfactorability routes (2026-10-14)
+
+D132-A accept proved conditional global c2 two-sheet 2:2 rigidity; do not claim unrestricted F2 theorem. D132-B reject finite clopen sheet permutation as c3 destroyer. D132-C certify S131 particular G is F2∘F2 via a half-mass computable single-inverse selector, not universal factorability. D132-D boundary-only patch modification impossible by continuity, but global fair conjugacy can move boundary harmlessly. D132-E central hierarchy unresolved; target genuine nonclopen dynamic fibres in S133. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED.
+
 ## P4-S131 — Abandon globally complete singleton-sheet destroyers, isolate overlap dynamics (2026-10-14)
 
 Decision D131-1: ACCEPT scoped two-actual inverse c2 1↔2↔3 occupancy necessity, no universal two-cell normalization. D131-2: ACCEPT a complete minimal-c3 all-output fair exactly-three map with changing sheet counts, thereby REJECT false extrapolation of S130 stationary no-go to root (3,3,2) itself; it is ALL CR safe. D131-3: ACCEPT full-onto injective clopen-sheet CR firewall under nonconstant q_B. Future destructive models must escape global clopen ONTO singleton sheets. D131-4: strength of harmless fat L_G improves from 7/8 to arbitrary ≥1−ε. D131-5: retain main hierarchy, factorization, iteration and R_fin bad-image questions unresolved. No owner blocker; S132 future, no Gate4 or publication.

@@ -1,0 +1,38 @@
+{
+  "session": "P4-S132",
+  "method": "local exact Fraction and direct finite source-prefix enumeration, SANITY ONLY",
+  "original_code_cylinders": 510,
+  "swapped_factor_output_cylinders": 254,
+  "swapped_factor_source_words": 4064,
+  "occupation_transition_rows": {
+    "1": [
+      [
+        1,
+        1
+      ]
+    ],
+    "2": [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "3": [
+      [
+        3,
+        3
+      ]
+    ]
+  },
+  "infinite_fibres_proved_by": "mathematical source-tag and selector argument, not finite tests",
+  "central_hierarchy_resolved": false,
+  "validation": "SAME_AGENT_ONLY"
+}
