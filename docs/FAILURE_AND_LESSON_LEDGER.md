@@ -1,3 +1,7 @@
+## P4-S142 failure / lesson (2026-10-14)
+
+Exact conditional μ_A prices and even two-way target CR equivalence along c2 two-inverse q=1/2/3 paths do NOT establish a SOURCE martingale or legal F2 simulator: G|A may remain many-to-one of positive measure. Output-favorable child cannot be selected after observing its bit, and sibling incidence matters; S135 full legal oscillation remains a countermodel to stationary 2:2 selectors only. Bare positive internal fold mass in every neighbourhood can diminish to zero along MLR/R2 fixed points in legal S141 F2 pocket P (classical density theorem), so neither positivity nor vanishing density alone forces bad image. Arbitrary-use positive-measure inverse disintegration and one-source S-09 budgets remain open. No novelty or phase promotion; same-agent checks only.
+
 ## P4-S141 failure/lesson (2026-10-14)
 
 Scoped failed converse: even positive conditional source-INTERNAL double overlap inside every joint source/output cylinder does NOT entail any non-CR image. A globally legal fair additive1 cap2 map with dense tiny disjoint shift pockets fixes a positive-measure fat Π¹ closed set of MLR/R₂ points; the local source-fold necessary locus is not null. Correct source-local clopen μ_B cylinder prices are rational, but arbitrary many-to-one μ_B inverses defeat use of Rute a.e-isomorphism: do not assert universal fair morphism CR conservation. No active S-09 budgets or full E-08 same-source reduction. See S141 math/hostile.
