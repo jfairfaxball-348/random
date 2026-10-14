@@ -1,0 +1,14 @@
+{
+  "result": "PASS_SANITY_ONLY",
+  "levels": 12,
+  "output_cylinders": 8191,
+  "aligned_source_occurrences": 32764,
+  "last_input_count": 16384,
+  "safe_states": 8178,
+  "even_spine": 7,
+  "odd_spine": 6,
+  "clopen_half_tag_mask_depth_1_2_3": 0,
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "review": "SAME_AGENT_INTERNAL",
+  "infinite_results": "SEPARATE_PROOFS"
+}
