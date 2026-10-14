@@ -1,0 +1,115 @@
+{
+  "label": "SANITY_ONLY_NOT_INFINITE_PROOF",
+  "s129_rows": [
+    {
+      "c": 2,
+      "rows": 70,
+      "switches": 32,
+      "forced_predictions": 64
+    },
+    {
+      "c": 3,
+      "rows": 12870,
+      "switches": 1536,
+      "forced_predictions": 9216
+    }
+  ],
+  "s129_fallback": {
+    "cylinders": 1022,
+    "fallback_events": 21
+  },
+  "s129_late_mixture": 255,
+  "variable_f3": [
+    {
+      "lower_degree": 1,
+      "high_degree": 3,
+      "tested_output_cylinders": 254
+    },
+    {
+      "lower_degree": 2,
+      "high_degree": 3,
+      "tested_output_cylinders": 254
+    }
+  ],
+  "fat_closed_boundary": {
+    "stage_table": [
+      {
+        "stage": 1,
+        "block_length": 4,
+        "new_patch_cylinders": 1,
+        "survivor_cylinders": 15,
+        "remaining_measure": "15/16"
+      },
+      {
+        "stage": 2,
+        "block_length": 9,
+        "new_patch_cylinders": 15,
+        "survivor_cylinders": 465,
+        "remaining_measure": "465/512"
+      },
+      {
+        "stage": 3,
+        "block_length": 15,
+        "new_patch_cylinders": 465,
+        "survivor_cylinders": 29295,
+        "remaining_measure": "29295/32768"
+      },
+      {
+        "stage": 4,
+        "block_length": 22,
+        "new_patch_cylinders": 29295,
+        "survivor_cylinders": 3720465,
+        "remaining_measure": "3720465/4194304"
+      }
+    ],
+    "lower_bound_infinite_boundary": "7/8",
+    "finite_patch_cylinders": 29776
+  },
+  "fat_boundary_cylinder_check": {
+    "checked_output_cylinders": 510,
+    "source_words": 87380,
+    "measure_test": "all_m_cylinders_have_2^m_preimages_at_input_level_2m"
+  },
+  "constant_sheet_divisibility_c3": [
+    {
+      "cells": 1,
+      "required_clopen_image_measure": "1",
+      "dyadic_possible": true
+    },
+    {
+      "cells": 2,
+      "required_clopen_image_measure": "1/2",
+      "dyadic_possible": true
+    },
+    {
+      "cells": 3,
+      "required_clopen_image_measure": "1/3",
+      "dyadic_possible": false
+    },
+    {
+      "cells": 4,
+      "required_clopen_image_measure": "1/4",
+      "dyadic_possible": true
+    },
+    {
+      "cells": 5,
+      "required_clopen_image_measure": "1/5",
+      "dyadic_possible": false
+    },
+    {
+      "cells": 6,
+      "required_clopen_image_measure": "1/6",
+      "dyadic_possible": false
+    },
+    {
+      "cells": 7,
+      "required_clopen_image_measure": "1/7",
+      "dyadic_possible": false
+    },
+    {
+      "cells": 8,
+      "required_clopen_image_measure": "1/8",
+      "dyadic_possible": true
+    }
+  ]
+}

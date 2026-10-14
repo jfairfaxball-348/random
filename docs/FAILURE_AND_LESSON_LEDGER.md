@@ -1,3 +1,13 @@
+## P4-S130 — repaired intuition, negative architectures and open obligations (2026-10-14)
+
+F130-1: EXACT-three-everywhere c2 cannot be substituted for cap-three; E_(1,3), E_(2,3) are total fair c2 F3 with exceptional 1/2 ACTUAL degree, but preserve ALL CR. The target same-source R2/nonCR witness is STILL missing.
+F130-2: a local 3:1 child row is NOT a legal target-preserving balanced-two source reduction. B129 needs 2:2 along the chosen stabilized two-cell cone; fallback otherwise modifies the target. Four finite cells can pack 4,3+1,2+2 even above fewer ACTUAL paths.
+F130-3: c3 exact-three means FIVE surplus cells. The tempting stationary all-output 3,3,2 root sheets, each singleton-fibred, contradict clopen image measure 1/3; all-output CONSTANT sheet sizes must be powers of two. Dynamic multisheet schedules not refuted.
+F130-4: pointwise-finite G need not have NULL local-unbounded-degree locus: construct effectively closed fat nowhere dense C, lambda(C)>=7/8, with finite-degree shift patches accumulating at ALL C points, G|C=identity. L_G=C meets MLR/R_fin and is NOT automatically thin. Presence of actual R_fin point in L_G does not produce a BAD image.
+F130-5: arbitrary inner F2 plus outer saturated c1 exact2 preserves CR on R2, but no F2(R2) image closure or general F3 factorization follows.
+F130-6: S129 one-surplus SOURCE bets and late exact rational mixture rechecked, no fatal found; no general transfer to lower fibre sizes or larger surplus. S131 must attack precise unclosed same-source/dynamic cases, not replay safe examples.
+F130-7: no single x in R2\\MLR or R_fin\\MLR established, no hierarchy equality/separation and no forall-k/exists-x exchange. Exact finite SANITY is NOT infinity or randomness proof.
+
 ## P4-S129 — Source compiler correction and boundary localization (2026-10-13/14)
 
 F129-1: noncomputable branching does not escape one-surplus source predictability; uniform delayed next-source-bit accounts defeat every infinitely rotating inverse. F129-2: at most one CR inverse alone does not imply R2 conservation; the stationary doubled side needs its normalized fair cap-two detector. F129-3: normalize by finite deletion/flips, not unproved R2 prefix insertion; alternatively retain the deleted tag in a direct cap-two source test. F129-4: a countable account mixture is exactly rational only after a coherent effective delay with constant unstarted tail. F129-5: exact-three c2 is one surplus, c3 exact-three is five surplus; never export the proof to all cap-three or all use. F129-6: pointwise finite does not imply local uniform cap; D129 leaves L_G unresolved. F129-7: no general F3 factorization, R2/R3 equality/separation, R2/R4 or all-finite survivor. See P4-S129_DEPENDENCIES.md and VALIDATION.md.
