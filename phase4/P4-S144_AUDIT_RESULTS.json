@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SANITY_ONLY",
+  "depths": 10,
+  "q_A_zero_ray": [
+    "3/4",
+    "3/4",
+    "1/2",
+    "3/4",
+    "3/4",
+    "1/2",
+    "3/4",
+    "3/4",
+    "1/2",
+    "3/4"
+  ],
+  "last_rows": 512,
+  "last_source_cells": 2048,
+  "infinite_proof": "NOT_CHECKED"
+}
