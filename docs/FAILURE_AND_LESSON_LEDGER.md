@@ -1,3 +1,7 @@
+## P4-S131 — first failed lines, scoped no-go and remaining adversarial fronts (2026-10-14)
+
+F131-1: S130 stationary (3,3,2) no-go does NOT prohibit a root (3,3,2) fair exact-three c3 observer. B131 builds one with all-output variable counts (2,4,2)/(4,2,2), but it is CR safe. F131-2: five surplus cells and varying tagged posterior do NOT imply a bad target; full-onto injective clopen singleton sheets admit an effective conditional-mu CR compiler, independently of count stationarity. F131-3: degree-two c2 target occupancy in two isolated cones has transitions 1->{1,2}, 2->{1,2,3}, 3->{2,3}; 3:1->1:3 direct reversal impossible, but 3:1/2:2 oscillation is legal locally and NOT a global F2 completion. F131-4: eventually 1/2 cone normalizers are conditional; finitely many balanced checkpoints do not supply a uniform last-injury stage. F131-5: arbitrary near-one measure L_G still does not create an R_fin bad image when the map fixes boundary. F131-6: triple example is not proved nonfactorable, iteration remains OPEN, CR inverse does not mean R2 inverse. F131-7: no quantifier swap or claim of R2=R3, R3=MLR, R2=MLR or a genuine survivor. 255/2040 Fraction checks are finite sanity, not infinite proof.
+
 ## P4-S130 — repaired intuition, negative architectures and open obligations (2026-10-14)
 
 F130-1: EXACT-three-everywhere c2 cannot be substituted for cap-three; E_(1,3), E_(2,3) are total fair c2 F3 with exceptional 1/2 ACTUAL degree, but preserve ALL CR. The target same-source R2/nonCR witness is STILL missing.

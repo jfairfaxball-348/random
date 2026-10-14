@@ -1,3 +1,7 @@
+## P4-S131 — SCOPED Phase4 mathematics only (2026-10-14)
+
+Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED. Nonstationary three-sheet full fair exact-three construction with no CR destruction; clopen onto-sheet CR firewall, 1↔2↔3 two-cone necessity, and arbitrarily fat harmless L_G. NONE settles R2/R3, R3/MLR, R2/MLR, F2(R2), R_fin or nonfactorability. Same-agent exact sanity only; no independent, novel, formal or publication claims. S132 FUTURE.
+
 ## P4-S130 — Scoped mathematics, NOT a Gate4 review (2026-10-14)
 
 Phase4 CAND-01 remains OPEN; Gate3 PASS, Gate4 NOT REVIEWED, Phase5 CLOSED. New INTERNAL results: globally fair cap-three degree 1/2 exceptions exist (CR safe); stationary singleton clopen-sector count requires a power of two; saturated additive-one outer composition CR firewall works for arbitrary inner F2; fair pointwise finite observer with lambda(L_G)>=7/8 and L_G meeting MLR/R_fin exists but preserves CR. Hence earlier D129 possible-nullity shortcut is explicitly refuted, WITHOUT a hierarchy separation. General R2/R3, R3/MLR, R2/MLR, all-finite bad image, iteration unresolved. Same-agent review and exact Fraction sanity only; NO gate, novelty, formalisation, source grade, outside review or Phase5 activity. Next S131 FUTURE.

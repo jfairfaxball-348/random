@@ -1,0 +1,55 @@
+{
+  "session": "P4-S131",
+  "kind": "SANITY_ONLY_NOT_INFINITE_PROOF",
+  "cylinders_exact": 255,
+  "source_prefix_cases": 2040,
+  "occupancy_m0": [
+    [
+      3,
+      3,
+      2
+    ]
+  ],
+  "occupancy_m1": [
+    [
+      3,
+      3,
+      2
+    ]
+  ],
+  "occupancy_m2_to_7": [
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      4,
+      2,
+      2
+    ]
+  ],
+  "local_two_cone_transition_rows": {
+    "1": {
+      "1": 40,
+      "2": 15
+    },
+    "2": {
+      "1": 16,
+      "2": 36,
+      "3": 16
+    },
+    "3": {
+      "2": 15,
+      "3": 40
+    }
+  },
+  "stationary_three_sheet_c3": [
+    [
+      2,
+      2,
+      4
+    ]
+  ],
+  "external_ci": "ABSENT_NOT_PASS"
+}
