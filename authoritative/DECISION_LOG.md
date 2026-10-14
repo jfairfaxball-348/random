@@ -1,3 +1,7 @@
+## P4-S133 — retire global clopen-sheet search as R2/R3 separator (2026-10-14)
+
+Accept internally A133 local c2 two-sheet 2:2 rigidity and image-boundary necessity; B133 universal c2 three-clopen-onto-sheet factorization and two-sheet conjugacy; D133 small-support but harmless fat-boundary surgery. Reject all attempts to infer unrestricted R2=R3, nonfactorability or R_fin bad image. PRIORITIZE genuine nonclopen boundary-coupled cap3 observers and same-source rational source detectors. All frozen claims/sources/gates untouched; S134 FUTURE only.
+
 ## P4-S132 — discard clopen oscillatory and S131 nonfactorability routes (2026-10-14)
 
 D132-A accept proved conditional global c2 two-sheet 2:2 rigidity; do not claim unrestricted F2 theorem. D132-B reject finite clopen sheet permutation as c3 destroyer. D132-C certify S131 particular G is F2∘F2 via a half-mass computable single-inverse selector, not universal factorability. D132-D boundary-only patch modification impossible by continuity, but global fair conjugacy can move boundary harmlessly. D132-E central hierarchy unresolved; target genuine nonclopen dynamic fibres in S133. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED.

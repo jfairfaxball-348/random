@@ -1,0 +1,19 @@
+{
+  "result": "PASS_SANITY_ONLY",
+  "g_cylinders": 510,
+  "f_cylinders": 510,
+  "source_prefixes": 2040,
+  "levels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "method": "exact source prefix enumeration and Fraction; mathematical proofs separate",
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "independent": "SAME_AGENT_ONLY"
+}

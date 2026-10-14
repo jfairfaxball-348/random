@@ -1,0 +1,23 @@
+{
+  "session": "P4-S133",
+  "entry_main": "16c0f8d8e4dd4ab39e29466a029a729c38ac0590",
+  "s132_authored_commit": "16c0f8d8e4dd4ab39e29466a029a729c38ac0590",
+  "s132_sole_parent": "917337721afcdd9c10c5e85d89dad0a04668ea39",
+  "s132_tree": "af2ada6db74eccff82c3a2878ca83f3a52cf12d8",
+  "s132_pr": 31,
+  "s132_merged": true,
+  "competing_s133_branches": 0,
+  "competing_s133_records": 0,
+  "open_prs": 0,
+  "actions_runs": 0,
+  "check_runs": 0,
+  "individual_statuses": [],
+  "workflow_files": 0,
+  "rulesets": [],
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "branch_protection": "UNKNOWN_403",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED",
+  "phase4": "OPEN",
+  "phase5": "CLOSED"
+}

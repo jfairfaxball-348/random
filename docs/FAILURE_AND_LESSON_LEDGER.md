@@ -1,3 +1,11 @@
+## P4-S133 — first failed proof lines and strategic decisions (2026-10-14)
+
+F133-A: the local two-cone row 3:1→2:2 forces a target sibling with FOUR old-majority cone cells and ZERO opposing cone cells. It cannot coexist with a clopen local onto-injective two-sheet cover; absent those hypotheses, local 3→2 remains possible and no universal source martingale follows.
+F133-B: globally clopen three ONTO singleton sheets under c2 cannot be a NONFACTORABLE F3: all such G admit exact half-mass computable selector and G=delete-bit∘F2. But absence of such a selector is NOT a proof of nonfactorability for arbitrary F3.
+F133-C: factoring H∘F with both in F2 is not F(R2)⊆R2 and does not establish R2=R3; all finite clopen-sheet examples here are CR safe. An x merely in CR is not an R2 witness; S101 source already destroyed by F2.
+F133-D: a fair homeomorphism supported on an arbitrarily small output cylinder can move positive-measure fat-boundary points only by modifying nearby patch behaviour as well; the entire postcomposition remains CR safe. Measure, movement and unbounded local degree are not enough for an R_fin destroyer.
+F133-E: S131's K selector depends on actual output bit 1 while S133's sheet relabel depends on bit 0; swapping these would invalidate the tagged price identity. A finite-row audit is not proof of infinite fibres. No novelty, formal or Gate4 upgrade.
+
 ## P4-S132 — first failed proof lines (2026-10-14)
 
 F132-A: a locally allowed 3->2 two-cone row is NOT a globally ONTO two-sheet row: its other-sheet sibling is empty; clopen full-sheet c2 observer must be eventually 2:2. F132-B: finite clopen sheet relabelling cannot break the S131 global onto-chart firewall; genuinely infinite accumulation remains unbuilt. F132-C: S131 minimal c3 triple is NOT nonfactorable; explicit fair cap2∘cap2 half-mass factor refutes that intuition, not generic F3 nonfactorability. F132-D: keeping dense-open patch action pointwise fixes the fat boundary by continuity; changed boundary requires changed nearby patches. F132-E: fair F2 factorization does NOT imply F2(R2) closure, and a CR source is NOT necessarily an R2 source; no actual SAME-SOURCE separation or R_fin witness. Finite audits sanity only.
