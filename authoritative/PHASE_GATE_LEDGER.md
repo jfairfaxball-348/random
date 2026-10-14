@@ -1,3 +1,10 @@
+## P4-S129 — One-surplus source compiler, same-source local reduction, and finite-cap locality (2026-10-13/14)
+
+Exactly ONE owner-invoked Phase4 session begun 13 October and resumed on explicit Continue on 14 October. Entry 7dba7e3303607c9b782adde7ba81d4682747b163; sole parent b52437666f74a7ed3b5424f197dc875d3fb6b1c8; tree fc0164a749adbd448d2ab0767f02731073f3221f; predecessor PR #27 one authored commit merged at that SHA. Incoming authority archived byte-identically. Internally proved A129 universal one-surplus source volatility and at-most-one-CR bad fibre; B129 R2-to-CR local detector and exact-three c2 no-separation; complete two-clock branching observer; restricted one-lookahead factorization obstruction; D129 local-cap R_fin theorem. Five-front mathematics and hostile SAME-AGENT review, finite SANITY checks recorded in audit JSON. General hierarchy/EQ/SEP/iteration/pointwise-finite preservation UNRESOLVED. S130 prepared FUTURE only. Phase4 OPEN; Gate3 PASS, Gate4 NOT REVIEWED, Phase5 CLOSED. No owner blocker; hosted CI ABSENT_NOT_PASS, protection UNKNOWN. Outgoing commit/PR/remote evidence to be independently verified at integration, not guessed from entry. Records: phase4/P4-S129_MATHEMATICS.md and companions.
+
+NO GATE REVIEW performed: Gate3 PASS retained; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED.
+
+
 ## 2026-10-13 — P4-S128 Phase4 continuation, no Gate4
 
 Exactly one internally researched session: globally fair additive-two exact-three rotating-surplus all-output transducer proven, general 2^c-1 and safe R_j conservation, pointwise finite unbounded observer, necessary F2∘F2 degree3 condition. Central randomness separations/equalities NOT proved. 5,114 rational finite checks sanity only. Gate3 PASS, Gate4 NOT REVIEWED, Phase4 OPEN, Phase5 CLOSED, CI ABSENT_NOT_PASS, protection UNKNOWN, frozen source grades intact. S129 FUTURE.

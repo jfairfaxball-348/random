@@ -1,0 +1,57 @@
+{
+  "session": "P4-S129",
+  "entry": "7dba7e3303607c9b782adde7ba81d4682747b163",
+  "entry_parent": "b52437666f74a7ed3b5424f197dc875d3fb6b1c8",
+  "entry_tree": "fc0164a749adbd448d2ab0767f02731073f3221f",
+  "predecessor_pr": {
+    "number": 27,
+    "head": "7dba7e3303607c9b782adde7ba81d4682747b163",
+    "merged": true,
+    "merged_at": "2026-10-13T18:11:10Z",
+    "merge_commit_sha": "7dba7e3303607c9b782adde7ba81d4682747b163",
+    "commits": 1
+  },
+  "open_prs": [],
+  "relevant_branches": [
+    {
+      "name": "main",
+      "commit": {
+        "sha": "7dba7e3303607c9b782adde7ba81d4682747b163",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7dba7e3303607c9b782adde7ba81d4682747b163"
+      },
+      "protected": false
+    },
+    {
+      "name": "phase4/P4-S128-triple-rotation-spine",
+      "commit": {
+        "sha": "7dba7e3303607c9b782adde7ba81d4682747b163",
+        "url": "https://api.github.com/repos/jfairfaxball-348/random/commits/7dba7e3303607c9b782adde7ba81d4682747b163"
+      },
+      "protected": false
+    }
+  ],
+  "workflow_runs": {
+    "total_count": 0,
+    "workflow_runs": []
+  },
+  "check_runs": {
+    "total_count": 0,
+    "check_runs": []
+  },
+  "individual_statuses": [],
+  "rulesets": [],
+  "protection": {
+    "error": "GitHub API error 403: {\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/branches/branch-protection#get-branch-protection\",\"status\":\"403\"}",
+    "error_code": "FORBIDDEN",
+    "error_data": {
+      "message": "Resource not accessible by integration",
+      "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+      "status": "403"
+    }
+  },
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "workflow_files": "ABSENT",
+  "workflow_list_api": "UNSUPPORTED_ENDPOINT_ERROR",
+  "continued_main_ls_remote": "7dba7e3303607c9b782adde7ba81d4682747b163",
+  "review": "SAME_AGENT_INTERNAL"
+}

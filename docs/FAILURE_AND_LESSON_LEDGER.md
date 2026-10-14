@@ -1,3 +1,8 @@
+## P4-S129 — Source compiler correction and boundary localization (2026-10-13/14)
+
+F129-1: noncomputable branching does not escape one-surplus source predictability; uniform delayed next-source-bit accounts defeat every infinitely rotating inverse. F129-2: at most one CR inverse alone does not imply R2 conservation; the stationary doubled side needs its normalized fair cap-two detector. F129-3: normalize by finite deletion/flips, not unproved R2 prefix insertion; alternatively retain the deleted tag in a direct cap-two source test. F129-4: a countable account mixture is exactly rational only after a coherent effective delay with constant unstarted tail. F129-5: exact-three c2 is one surplus, c3 exact-three is five surplus; never export the proof to all cap-three or all use. F129-6: pointwise finite does not imply local uniform cap; D129 leaves L_G unresolved. F129-7: no general F3 factorization, R2/R3 equality/separation, R2/R4 or all-finite survivor. See P4-S129_DEPENDENCIES.md and VALIDATION.md.
+
+
 ## P4-S128 — corrected failed row, new global F3 and remaining obstruction (2026-10-13)
 
 - FAILED FIRST LINE: reducing sibling 3 A +1 C to 2 A +1 C FINITE cells; exact fair four-slot budget forbids it. Correct A SOLO+two A PAIR remain 3 A finite but only 2 A actual infinite inverse streams.

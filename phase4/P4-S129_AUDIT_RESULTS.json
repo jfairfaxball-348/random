@@ -1,0 +1,58 @@
+{
+  "label": "SANITY_ONLY_NOT_INFINITE_PROOF",
+  "rows": [
+    {
+      "c": 2,
+      "rows": 70,
+      "switches": 32,
+      "forced_predictions": 64
+    },
+    {
+      "c": 3,
+      "rows": 12870,
+      "switches": 1536,
+      "forced_predictions": 9216
+    }
+  ],
+  "branching": [
+    {
+      "c": 2,
+      "clock": 0,
+      "cylinders": 2046,
+      "incidences": 8184,
+      "source_martingale_edges": 4092,
+      "active_switches": 5
+    },
+    {
+      "c": 2,
+      "clock": 1,
+      "cylinders": 2046,
+      "incidences": 8184,
+      "source_martingale_edges": 4092,
+      "active_switches": 4
+    },
+    {
+      "c": 3,
+      "clock": 0,
+      "cylinders": 510,
+      "incidences": 4080,
+      "source_martingale_edges": 2040,
+      "active_switches": 4
+    },
+    {
+      "c": 3,
+      "clock": 1,
+      "cylinders": 510,
+      "incidences": 4080,
+      "source_martingale_edges": 2040,
+      "active_switches": 3
+    }
+  ],
+  "normalized_fallback": {
+    "cylinders": 1022,
+    "fallback_events": 21
+  },
+  "late_mixture": {
+    "exact_mixture_nodes": 255
+  }
+}
