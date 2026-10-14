@@ -1,0 +1,10 @@
+{
+  "session": "P4-S145",
+  "scope": "toy exact finite arithmetic only, not proof",
+  "result": "PASS",
+  "fraction_assertions": 12276,
+  "local_transition_count": 7,
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "review": "SAME_AGENT_ONLY",
+  "central": "E-08 E-00 S-00 OPEN"
+}
