@@ -1,0 +1,7 @@
+# P4-S149 — dependencies and falsifiers
+
+S149 A149.1 uses only elementary effective uniform continuity on computable Cantor space, rational finite conditional source-bit distributions and backward dyadic martingale interpolation. It upgrades S148 fixed additive-use forced-gain bookkeeping. S117 gated source bets remain distinguished from an observer. S129 one-surplus rotation, S135 3:1<->2:2 oscillator, S139 E/S dependency map, S140 Rute E-ISO, S141 positive local folds, S145 effective computable-price escrow, S147 all-clopen local noncomputable stopping-price requirement and sharp two-step budget are all retained with original scope and provenance.
+
+FALSIFIERS: identity under excessive computable over-reading has rho forced despite preserving CR (schedule noncanonical). Adjacent-pair swap is fair with exactly one complete inverse over EVERY output, rho forced at infinitely many rows and CR conservation. S011 is a genuine fair F2 map destroying a CR source and exhibits local price/forced debt; its Y is NOT an R2 survivor. S135 c2 globally fair degree3/degree2 oscillator is CR-conserving and prevents static two-sheet inference. S141 benign fat-pocket F2 countercontrol shows local folding is insufficient.
+
+No transfer of a SOURCE martingale e into a FAIR F2 observer. No existential inference by intersecting conull R2 with a null bad-event preimage. No new source claims, source grades, DEF-0020 or PA-0001 changes; frozen Y/M/H/X and S101-S103 A-C untouched. E-08/E-00/S-00 OPEN.

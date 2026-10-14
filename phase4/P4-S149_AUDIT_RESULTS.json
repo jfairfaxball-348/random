@@ -1,0 +1,30 @@
+{
+  "session": "P4-S149",
+  "entry_main": "1fb31030ee5efb95f92b27e4f68ae2a4e22f95f0",
+  "entry_tree": "7a3670ae8deb90b2de11454b085272b4bafe06ce",
+  "predecessor_pr": 48,
+  "date": "2026-10-14",
+  "status": "SAME_AGENT_INTERNAL_FINITE_SANITY_ONLY",
+  "exact_fraction_assertions": 6774,
+  "examples": [
+    "identity",
+    "delete",
+    "swap",
+    "xor",
+    "majority",
+    "constant"
+  ],
+  "main_result": "ARBITRARY_COMPUTABLE_USE_BIAS_DEBT_DECOMPOSITION",
+  "cr_firewall": "SUMMABLE_LOCAL_BIAS_SUFFICIENT",
+  "f2_simulator": "NOT_CONSTRUCTED",
+  "R2_equals_R3": "OPEN",
+  "R2_strict_R3": "OPEN",
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "branch_protection": "UNKNOWN_403",
+  "workflow_listing": "UNKNOWN_URL_ALLOWLIST",
+  "rulesets": [],
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED",
+  "phase4": "OPEN",
+  "phase5": "CLOSED"
+}
