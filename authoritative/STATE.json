@@ -2040,7 +2040,7 @@
       "validation_record": "phase4/P4-S068_VALIDATION.md"
     },
     "current_research_pivot": "phase4/P4_RESEARCH_DIRECTION_AFTER_S105.md",
-    "current_research_target": "Beyond the S138 rational effective-inverse compiler: prove R2=R3 or build one same-source R2\\R3, prove R2=MLR or build one R2\\MLR, test arbitrary-use F3 uncomputable ambiguity rates and arbitrary factorization.",
+    "current_research_target": "S139 ONLY: unrestricted-depth reconnaissance of the precise missing obligations for R2=R3 or R2\\R3; quantify equality/separation, inventory S001–S138, construct E/S obligations, dependency DAG, hostile route triage and S140+ proof roadmap; NO proof or disproof attempts in S139.",
     "p4_s070_global_linear_reduction": {
       "session": "P4-S070",
       "result": "H_PRESERVATION_EQUIVALENT_TO_ALL_COMPUTABLY_SUPPORTED_XOR_SHEARS_AND_ALL_COMPUTABLE_BLOCKWISE_GL3_PRESERVATION",
@@ -3046,13 +3046,17 @@
   },
   "next_session_owner_direction": {
     "date": "2026-10-14",
-    "status": "S129_COMPLETED_S130_FUTURE_UNEXECUTED",
-    "next_session": "P4-S130",
+    "kind": "EXPLICIT_OWNER_POST_S138_REORIENTATION",
+    "status": "S138_COMPLETED_S139_FUTURE_UNEXECUTED",
+    "next_session": "P4-S139",
     "prompt": "authoritative/NEXT_SESSION_PROMPT.md",
-    "last_completed_mathematics_session": "P4-S129",
-    "owner_explicit_invocation_required": true,
-    "hierarchy_owner_amendment_record": "phase4/P4-S127_OWNER_HIERARCHY_AMENDMENT.md",
-    "priority": "Escape S129 one-surplus R2 conservation via variable-fibre cap-three targets of degree one/two or larger-use multiple-surplus exact-three observers; direct same-source R2/R3 reduction, R3/MLR, original R2/MLR, R2/R4 and R_fin locality remain live."
+    "directive_record": "phase4/P4-S139_OWNER_RECON_DIRECTIVE.md",
+    "intent": "EXHAUSTIVE_R2_VS_R3_GAP_RECONNAISSANCE_ONLY",
+    "no_arbitrary_milestone_stop": true,
+    "proof_or_disproof_attempts_in_S139": false,
+    "S140_execution": false,
+    "math_result_changes": false,
+    "historical_S138_CLOSE_preserved": true
   },
   "phase4_s092_orientation_and_global_entanglement": {
     "session": "P4-S092",
@@ -3515,7 +3519,7 @@
     "validation": "phase4/P4-S103_VALIDATION.md",
     "close": "phase4/P4-S103_CLOSE.md"
   },
-  "current_research_target": "Beyond the S138 rational effective-inverse compiler: prove R2=R3 or build one same-source R2\\R3, prove R2=MLR or build one R2\\MLR, test arbitrary-use F3 uncomputable ambiguity rates and arbitrary factorization.",
+  "current_research_target": "S139 ONLY: unrestricted-depth reconnaissance of the precise missing obligations for R2=R3 or R2\\R3; quantify equality/separation, inventory S001–S138, construct E/S obligations, dependency DAG, hostile route triage and S140+ proof roadmap; NO proof or disproof attempts in S139.",
   "phase4_s104_source_partition_gate": {
     "session": "P4-S104",
     "status": "COMPLETED",
