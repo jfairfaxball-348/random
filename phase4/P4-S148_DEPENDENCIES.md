@@ -1,0 +1,7 @@
+# P4-S148 — dependencies and falsifiers
+
+A148 relies only on fixed additive-use c and rational binary martingale identity, complementing S117's source gated ratio account. It makes explicit the forced/unpaid gain factor, but is NOT a fair-map F2 compiler. S129 one-surplus, S135 3:1↔2:2 global oscillator, S139 quantified roadmap, S140 E-ISO, S141 positive internal folding, S145 computably priced c.e.-open certificates, S146 178 labelled row count and S147 two-step exact price/folding hard core remain intact.
+
+Falsifier: H adjacent pair swap has forced rows of density 1/2 yet CR preservation and exactly one inverse for ALL outputs; therefore infinite forced frequency by itself is NOT destructive. S011 CR-but-F2-destroyed Y is NOT in R2. The next output bit beyond a 1→2 source-forced row is unknown until future source bits are read. Local priced event charts cannot assume computable REAL measures at a destroyed CR source; finite labelled rows do NOT imply all-output fibre cap.
+
+S101–S103 A–C, S102 original source proof grades, Y/M/H/X, DEF-0020 and PA-0001 remain frozen. E-08/E-00/S-00 and F2(R2) closure OPEN. Same-agent proof and finite sanity only, not novelty/formal/referee certification.

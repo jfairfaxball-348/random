@@ -1,0 +1,10 @@
+{
+  "session": "P4-S148",
+  "result": "FINITE_SANITY_PASS",
+  "rows": 178,
+  "fair_parent": 7832,
+  "budgets": 507,
+  "swap_levels": 12,
+  "not_infinite_proof": true,
+  "ci": "ABSENT_NOT_PASS"
+}
