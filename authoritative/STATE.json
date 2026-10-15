@@ -5494,5 +5494,28 @@
     "phase4": "OPEN",
     "phase5": "CLOSED",
     "next_prompt": "P4-S167_FUTURE_UNEXECUTED"
+  },
+  "phase4_owner_steer_2026_10_15_finite_hierarchy": {
+    "kind": "OWNER_ROADMAP_AND_PROMPT_STEER_NOT_MATHEMATICS_SESSION",
+    "status": "INSTALLED_S167_UNEXECUTED",
+    "date": "2026-10-15",
+    "record": "authoritative/OWNER_STEER_2026-10-15_FINITE_FIBRE_HIERARCHY.md",
+    "primary_target": "H1_R_FIN_EQUALS_MLR_OR_SINGLE_R_FIN_NOT_MLR_SURVIVOR",
+    "mathematical_notation": "R_fin is intersection of all R_k, as already defined in P4-S127",
+    "retained_targets": [
+      "H2_FIXED_FINITE_THRESHOLD",
+      "H3_STRICT_EVERY_FINITE_LEVEL",
+      "H4_POINTWISE_FINITE_VS_UNIFORMLY_BOUNDED_VS_COUNTABLE",
+      "H5_PRIME_COMPOSITE_AND_MODULAR_FIBRE_VARIANTS",
+      "E08_R2_EQUALS_R3_AND_S165_S166_A_SECTOR_DEFERRED"
+    ],
+    "prior_prompt_snapshot": "phase4/P4-S166_CLOSE.md",
+    "superseding_prompt": "authoritative/NEXT_SESSION_PROMPT.md",
+    "no_new_theorem": true,
+    "s166_results_frozen": true,
+    "gate3": "PASS",
+    "gate4": "NOT_REVIEWED",
+    "phase4": "OPEN",
+    "phase5": "CLOSED"
   }
 }
