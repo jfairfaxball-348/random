@@ -1,0 +1,9 @@
+# P4-S151 — dependencies, falsifiers, actionable gap
+
+A151.1 derives from S150 fairness and S149 finite computable rho, but adds a cross-clock tower/variance identity and exact KL data-processing direction. A151.2 shows S150 negative mean log/variance is maximized by *over-reading alone*. The results do not overturn S149 pathwise debt: at EACH chosen clock a CR bad-image witness must have unbounded compensating product, but its path is not controlled by population averages.
+
+Falsifiers: the full family F_f(a z)=f(a)z (2520 choices) legal cap-two, CR-preserving even when overread populations display maximum information penalty; identity/overread; adjacent swap; S011 legal F2 source destroyer; S135 globally fair c2 F3 q_A=3↔2 oscillator (CR-preserving); S141 cap-two dense benign folding. These distinguish population loss, local volatility, future-output choices and a winning SAME x.
+
+Adaptive escrow extension: S150 t*a+(4-t)*b≤4 at a finite two-bit level now holds after any a.s.-finite adaptive stop and ANY countable finite-capital nonnegative bank mixture IF both sides demand their floors. This blocks the *uniform hedge* model, not selective adaptive strategies or any general F2 observer. S145–S147 noncomputable infinite prices not bypassed by KL/rho.
+
+**First missing equality obligation E-08:** effective non-oracular chart/selection along the actual R2 source, giving at least one legal globally fair ≤2 complete-inverse F and rational output winner; verify EVERY cylinder and EVERY infinite fibre. **First missing unrestricted step E-00:** arbitrary computable use and effective stopped prices (or a price-free proof). **First missing strictness S-00:** jointly construct ONE legal F3,d and ONE x surviving all legal F2, not a null/conull set intersection. S129 remains a scoped positive c2 degree-three result. Frozen S101–S103 A–C, Y/M/H/X, DEF-0020, PA-0001/source evidence grades unchanged.

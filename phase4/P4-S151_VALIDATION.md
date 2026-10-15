@@ -1,0 +1,13 @@
+# P4-S151 — hostile validation and scope
+
+Entry main 3c0b023b742b64ff8b4ec3b619ef1f8f44037a74 (S150 PR #50, one authored parent 249c81e5264ad2d96f134c3607991680c7a543f4, tree ed494d3f68c8f25549914d2e479cab3696df1bd3, changed paths 20); no open PR or competing S151 branch/files on entry. Hosted runs=0, check-runs=0, individual commit statuses=0 (**ABSENT_NOT_PASS**); rulesets []; protection endpoint 403 **UNKNOWN_403**. No successful CI implied.
+
+A151.1 independently checked by tower property for two finite source sigma-algebras: E[rho_fine|coarse]=rho_coarse, variance difference exact; Jensen/relative entropy monotone. Valid for n-prefix-decision lengths, including arbitrary total computable use; no inverse caps. A151.2 follows by taking source read to include enough bits to determine NEXT output bit: fair half/half on EVERY output cone. No pathwise inference; intrinsic shortest clock may have zero variance while overread clock has maximum.
+
+B151.2 full-map control checked symbolically: f 8-to-4 balanced 2 per value, identity infinite tail, so EXACTLY 2 complete inverses and fair cylinder masses at all depths. Source martingale formula requires branch d(f(a))>0; otherwise d cannot grow on that output. At input lengths <=3 accounts 1; no hidden lookahead, noncomputable inverse or unproved CR closure. Enumerated 2520 f and 4 output prefixes; 93,240 exact Fraction assertions PASS SANITY ONLY. This does NOT assert the checked finite cases certify any other unknown globally specified observer.
+
+C151.1 stopping objection checked against nonnegative martingale optional stopping and Fatou; T a.s.-finite assumption is essential and the floor guarantee must hold on both E and E^c (almost surely). A countable bank mixture is mathematical only and can fail computable/rational totality; it is not itself an F2 observer. No statement that individual R2 sources obey population KL bounds.
+
+Controls: S011 genuine F2 CR destroyer refutes blanket conservation; S135 exact-fibre oscillator defeats static labeling; S141 benign folded neighbourhoods refute folding sufficiency; identity, adjacent swap, 2520 finite-block cap-two conservers refute unclocked variance-only claims. S117/S129 scoped budget/chart work and S145–S150 source prices remain intact. No comparison to original journal proof beyond S102; source grades unchanged.
+
+NO E-08 global R2-specific fair <=2 full inverse compiler; NO E-00 unrestricted; NO S-00 one-source separator; NO R2=R3 proof/counterexample; no Lean/Palomar/Gate4/novelty. SAME-AGENT theoretical review plus independently written exact arithmetic code; hosted CI absent, external independent validation absent.

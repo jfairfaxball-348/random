@@ -1,0 +1,11 @@
+{
+  "session": "P4-S151",
+  "method": "independent-in-method-exhaustive-balancing-and-Fraction",
+  "balanced_f2_prefix_tables": 2520,
+  "output_length_2_cone_cases": 10080,
+  "exact_fraction_assertions": 93240,
+  "finite_sanity": "PASS_SANITY_ONLY",
+  "infinite_fairness": "SYMBOLIC_PROOF_NOT_CODE",
+  "inverse_cap": "SYMBOLIC_PROOF_NOT_CODE",
+  "r2_r3": "OPEN"
+}
