@@ -1,0 +1,7 @@
+# P4-S163 — dependencies and killed shortcuts
+
+Depends on definition of computable randomness and its implication to Schnorr randomness; total computable fair maps preimage Schnorr tests; elementary regularity/separation for computable singular measures; S011's F2 CR destroyer; S135/S161/S162 singular phase source marginal work; S160 effective-L1+floor conditional finance; S158 late-reveal; S155 noncomputable fold mass; S141 benign folding; S117 paired reservoirs; frozen S101-S103.
+
+NEW scoped internal theorem: computable μ⊥λ admits effectively enumerable finite clopen separators with μ-conull COUNTABLE UNION of Schnorr-null charts, not necessarily a SINGLE effectively closed chart. This blocks singular-law genericity as R2 witness but not a μ-null exceptional Schnorr random output. The constructed all-output, additive-two, exact-THREE inverse PREFIX decoder shows singular tilt can be FULL SUPPORT and dense bad-output family, with wholly computable source selector finance, while being CR-conserving: no separator.
+
+FAILURES: Do not equate μ-a.e. with each output; full support is not lack of Schnorr-null concentration; a legal F3 non-CR OUTPUT does not entail destruction of a CR source; singular tilt alone is never sufficient to locate x∈R2. Conditional finite-selector mixture is not an F2 detector or necessity across all F3. A noncomputable limit of computable phase frequencies may break effective finance. E-08/E-00/S-00 and R2=R3 remain OPEN.
