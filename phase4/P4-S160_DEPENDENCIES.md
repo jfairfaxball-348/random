@@ -1,0 +1,7 @@
+# P4-S160 — dependencies, obstructions and next attack
+
+Positive dependencies: S159 exact rational smoothing of a computable source probability η into one rational measure; S158 exact first-one globally fair F2 late-reveal map and quarter-grid λ(A_N) bound; S135 globally fair additive-two F3 active oscillator with exact two true inverses over T and existing rational source W; S157 strong savings motivation. A160 replaces S159's all-output posterior uniform Cauchy/H2/cheap-price assumptions by GIVEN effective L1 output density and a pathwise conewise essential FLOOR, allowing actual 3:1↔2:2 q oscillation. It is not implied by bare F3/fibre cap.
+
+Negative dependencies: S159 singular μ_D positive rational tilt fails effective L1; source posterior λ/μ tails without terminal-density support remain ML-style. S117 paired reservoirs, S109 gated compiler, S129 one-surplus, S141 benign folding and S155 effective kernel/noncomputable degree-two mass remain inconclusive for E-08. S011 Y∉R2. No globally legal additional F2 detector, total G with coupled R2 survivor, or unconditional arbitrary-use E00.
+
+Next: attack singular or non-UI winning measures directly, search for a replacement winner on SAME nonCR output whose terminal conewise floor does hold, or construct genuinely NONUNIFORM source-specific stopping martingale / legal F2 observer. Quantify the full degree-two actual fibre and all global sibling fair cylinders. E-08, E-00, S-00 and R2=R3 OPEN.

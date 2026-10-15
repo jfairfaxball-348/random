@@ -1,0 +1,14 @@
+# P4-S160 — hostile mathematical validation, 2026-10-15
+
+Entry main 247e73d651e0d8553f04f28f4a72b749798ad0ff, tree 027688e43482f6cadea61f1b24589ba9d3d34500; exact prior S159 authored one-parent commit from 3bdd0e18269a6a63ef3bca472eb916c268420317, merged PR #59 direct expected-head non-force. No pre-existing S160 branch/record, no open PR, no Actions or check runs/individual statuses; hosted CI ABSENT_NOT_PASS, rulesets []; protection UNKNOWN_403. Internal SAME AGENT proofs only.
+
+1. η[s]=∫_[s]f∘G is computable REAL, NOT assumed rational: effective L1 error globally controls each individual source cylinder through exact pushforward fairness. Finite η_m needs known computable use u(m); no hidden oracle or infinite fibre enumeration.
+2. η source-child additivity exact, even if zero. Adding fair λ/2 creates ζ[sb]≥2^(-|s|-2), permits exact rational r_s. Rounding at 2^(-2n-8), relative error at most 2^(-n-6), product ≥31/32. Capital constant 31/64 is conservative and all parent averages exact.
+3. f may be undefined/infinite on output λ-null exceptional paths; its cone ESSENTIAL inf is meaningful. Global fair G means exceptions pull back to λ-null source sets. The proof does not assume pointwise f(G(x)) finite.
+4. At n=u(m), [x↾n] is contained in G⁻¹[y↾m]; no loss 2^(-(u(m)-m)) is incurred because the finance uses the terminal density rather than a single m-stage output likelihood. This does NOT establish the conewise floor for arbitrary D.
+5. In B, geometric L has E(L)=1, E f=1; D children exactly average. L1 error ∥f-D_m∥_1=2^(-(m+1)); essential floor at 0^m is (m+1)/2, and (m+1)/(m+2)≥2/3 for m≥1. The constructed D is UI but f is NOT required to be total pointwise computable at 0∞.
+6. C uses ∫(f−K)_+=2^(-(k+1)), not a λ-based tail automatically transferred to arbitrary μ_D; explicit f is essential. The μ_D bound for A_(2j+1) holds even if A_N itself has undecidable infinite-event membership. The bound is a measure inequality, NOT a source CR test.
+7. S159 singular D* has finite means1 but almost-sure limit1/2; exact L1 convergence would force limit integral1, contradiction. Its positive values alone do not establish effective UI. No false theorem applied to that control.
+8. S135 GLOBAL fairness/complete actual inverse cap3 imported as previously internally proven; S158 GLOBAL fairness/complete actual inverse cap2 likewise. Audit scripts check only finite first-one images/D splits, not all of S135 infinite proof.
+9. Bad y=0∞ has effectively closed null preimage; its inverse source fails CR independently. There is no R2 survivor, no E-08 or E-00 general solution, no R2=R3 conclusion.
+10. Python Fraction standalone finite audit checks all D parent splits levels 0..10 (2,047), all finite m=1..8 first-one GLOBAL fair images (510 output cylinders), all finite source parent equations through m+1 (1,012), and UI bound arithmetic. This is finite SANITY ONLY; no hosted CI. Full source/novelty gates unchanged.

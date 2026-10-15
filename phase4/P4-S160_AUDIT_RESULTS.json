@@ -1,0 +1,18 @@
+{
+  "session": "P4-S160",
+  "date": "2026-10-15",
+  "status": "PASS_FINITE_SANITY_ONLY",
+  "assertions": {
+    "D_parent_splits": 2047,
+    "first_one_output_cylinders": 510,
+    "finite_source_parent_splits": 1012,
+    "UI_tail_bound_checks": 19
+  },
+  "proof_scope": "INTERNAL_SAME_AGENT",
+  "hosted_CI": "ABSENT_NOT_PASS",
+  "protection": "UNKNOWN_403",
+  "e08": "OPEN",
+  "e00": "OPEN",
+  "s00": "OPEN",
+  "r2_r3": "OPEN"
+}
