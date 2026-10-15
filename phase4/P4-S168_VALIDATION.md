@@ -1,0 +1,14 @@
+# P4-S168 — Hostile validation and executable finite sanity
+
+Grade: INTERNAL SAME-AGENT proof inspection. 0 GitHub Actions runs; 0 commit check-runs; 0 individual status contexts. ABSENT_NOT_PASS != PASS. Branch protection GET 403 UNKNOWN_403; rulesets [] at entry. No external referee, Lean, Palomar or Gate4.
+
+1. B168 arbitrary scan: induction forces all y-consistent complete sources to produce exactly y; distinct queried coordinates make probability of any m-cylinder 2^-m. Infinite missing coordinates leave continuum, not merely many aligned finite cells. All y exist. The q constraint must be true for ALL finite transcripts; it is in B168 hypotheses.
+2. C168 exceptional output y=0^omega: even coordinates queried and fixed to 0; odd coordinates NEVER queried, so actual cardinal 2^aleph0. y with first 1 at n: queried exactly 0,2,...,2n before recovery; least-unused enumeration exhausts their complement, so one inverse. No hidden exceptional 1^omega or finite-stall case.
+3. Input use: first m query addresses all <2m. When no 1 yet, address 2t; after first 1, least unused address at most t. Total computability at all source and output paths.
+4. CR preservation: on a CR x, an all-zero even subsequence impossible by a single explicit total rational source martingale. Deleting the particular finite set after marker and prefixing a fixed finite output word preserve CR (S113). This is not a nonCR output over any CR source. Distinguish the null exceptional OUTPUT from pointwise-finite family F_pf.
+5. B168 scan F2=F3 is a subfamily statement, NOT equality of unrestricted R2 and R3. C168 map with exceptional continuum is in NONE of F_k, even though almost every output is singleton.
+6. A168 certificate barrier: finite observed membership certificate gives no unobserved bit, but cannot rule out S011-type partial oracle information outside the finite certificate. For source-chronological total predictor, legal rational doubling leads to contradiction with CR; no claim about universally total OUTPUT scans.
+7. D168: conull R_fin does not force intersection with ML-null CR\MLR. V_n singleton illustration is not a universal ML test and not a proof of negative H1.
+8. C168 rigidity: CR dense, both H and T continuous, so agreement at all CR forces everywhere agreement; condition is deliberately much stronger than agreement at ONE target source.
+
+Finite audit script phase4/P4-S168_FINITE_AUDIT.py exhausts every input 2m-prefix for m=1..7, asserts each of 2^m output prefixes has exactly 2^m compatible input 2m-prefixes; sums 4^1+...+4^7 = 21,844 input-prefix evaluations. Also checks illustrative finite query schedules (not a proof of infinite fibre counts). Ran locally PASS. Neither enumerations nor any synthetic sample prove the infinite/cardinality/CR statements above, which rely on mathematical arguments. No automated hosted CI expected.
