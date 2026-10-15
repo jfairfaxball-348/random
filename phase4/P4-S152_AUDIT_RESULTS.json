@@ -1,0 +1,18 @@
+{
+  "session": "P4-S152",
+  "kind": "FINITE_SANITY_NOT_PROOF",
+  "method": "complete balanced 3->1 tables and seeded sample 4->2 tables",
+  "exhaustive_balanced_3_to_1": 70,
+  "sampled_balanced_4_to_2": 256,
+  "total_tables": 326,
+  "checks": [
+    "input output first-N coincidence",
+    "finite prefix permutation H",
+    "exact-two finite prefix multiplicity K",
+    "every finite output cylinder through u+2 at source length u+3"
+  ],
+  "result": "PASS",
+  "proves_infinite_claims": false,
+  "hosted_ci": "ABSENT_NOT_PASS",
+  "external_validation": false
+}
