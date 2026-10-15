@@ -1,0 +1,3 @@
+# P4-S164 — Incoming handoff and authorization
+
+The owner explicitly invoked “Run next session.” Main at entry 9cac7391ea9634d3c5f3493379b14b403cac031f, tree f917254484744caf2054839e4c7905844bb7580c, authoritative NEXT_SESSION_PROMPT was P4-S164 future/unexecuted in S163. Verified S163 authored one-parent SHA was integrated through PR #63 as identical merge SHA, parent ad52060089cce2615a191481461d6bb8e940e91d, changed paths 19; no open PR or competing S164 branch. Predecessor hosted Actions/check/status contexts zero (ABSENT_NOT_PASS), rulesets [], protection API 403 UNKNOWN_403. Authority is ONE Phase4 CAND-01 mathematics session. Full incoming prompt remains in S163 CLOSE at entry commit. S165 handoff only.
