@@ -1819,3 +1819,7 @@ Still missing: effective SAME SOURCE R₂-specific fair complete-cap-two observe
 
 
 Still missing: clock-INVARIANT source-relative effective selection with one globally fair complete-cap-two F2/rational d winning on SAME hypothetical R2 x, or ONE R2 survivor with globally legal F3/d. Arbitrary E-00/additive E-08 and strict S-00 OPEN. Next S152 FUTURE ONLY.
+
+## P4-S158 — 2026-10-15 (internal Phase4 mathematics)
+
+**P4-S158 COMPLETED (2026-10-15), INTERNAL POSTERIOR-REVELATION BARRIER AND EXPONENTIAL OUTPUT BETTING.** One explicitly TOTAL globally fair additive-one exactly-two-complete-inverse G preserves ALL CR; EVERY q_s on EVERY output stabilises after ≤1 aligned change, yet q_(0) reveals at arbitrarily late 0^j1 and admits NO finite all-output exact cutoff M(0). For arbitrary globally fair additive-two H, an exactly rational OUTPUT W_s doubles on quarter→half returns and succeeds on infinite posterior changes, with λ{≥2j+1 changes}≤2^-j. This is not a SOURCE martingale or R₂-to-F₂ compiler. Local Fraction 1,023 fairness rows, 15,317 q identities, 16 late reveals and 13 betting rows PASS SANITY ONLY. Same-agent INTERNAL, CI ABSENT_NOT_PASS, protection UNKNOWN, rulesets []; E-08/E-00/S-00 and R₂=R₃ equality/strictness OPEN. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED, S159 FUTURE UNEXECUTED. Y/M/H/X, S101–S103, DEF-0020, PA-0001 and source grades frozen. See phase4/P4-S158_{MATHEMATICS,VALIDATION,QUANTIFIERS,DEPENDENCIES,CLOSE}.md.
