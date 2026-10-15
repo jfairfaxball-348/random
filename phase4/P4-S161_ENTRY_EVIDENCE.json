@@ -1,0 +1,22 @@
+{
+  "session": "P4-S161",
+  "date": "2026-10-15",
+  "entry_main": "0cd8e83e7846b7a938f1682039f163e82a1e2ed4",
+  "entry_tree": "7ede66f4dfbaffa3ae87fe59ac3b407924b8dfc3",
+  "prior_pr": 60,
+  "prior_authored_parent": "247e73d651e0d8553f04f28f4a72b749798ad0ff",
+  "open_pr_count": 0,
+  "competing_s161_branches": 0,
+  "actions_runs": 0,
+  "check_runs": 0,
+  "status_contexts": 0,
+  "ci": "ABSENT_NOT_PASS",
+  "rulesets": [],
+  "protection": "UNKNOWN_403",
+  "audit": "LOCAL_FRACTION_FINITE_SANITY_ONLY",
+  "branch": "phase4/P4-S161-singular-posterior-finance",
+  "gate3": "PASS",
+  "gate4": "NOT_REVIEWED",
+  "phase4": "OPEN",
+  "phase5": "CLOSED"
+}

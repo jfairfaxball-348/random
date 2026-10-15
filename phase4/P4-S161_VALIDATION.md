@@ -1,0 +1,14 @@
+# P4-S161 — hostile validation (2026-10-15)
+
+Entry main 0cd8e83e7846b7a938f1682039f163e82a1e2ed4; source tree 7ede66f4dfbaffa3ae87fe59ac3b407924b8dfc3. S160 PR #60 merged 2026-10-15T11:11:08Z at authored commit 0cd8e83e7846b7a938f1682039f163e82a1e2ed4, sole parent 247e73d651e0d8553f04f28f4a72b749798ad0ff. No open PRs or competing S161 branches. Hosted Actions runs 0, check-runs 0, individual statuses 0 = ABSENT_NOT_PASS. Rulesets []; protection endpoint 403 UNKNOWN_403. Internal SAME-AGENT verification only.
+
+1. S135's source tag s=11 is a complete length-two cylinder; q_11 along T counts ONE of FOUR aligned cells in 3:1 rows and TWO of FOUR in 2:2 rows. The tag remains the same source prefix throughout the recurrence.
+2. Every finite η_m is genuinely projective on ALL source cylinders: η_m[s0]+η_m[s1]=η_m[s], η_m[ε]=1, by integration of D_m∘G. This does NOT imply convergence as m increases. η_m[11] cycles exactly with m mod3.
+3. μ_T[τ] is exactly 2^(-ceil(m/3)) for T-compatible τ and 0 otherwise. The λ contribution to ∫q_11 equals λ[11]=1/4 by the GLOBAL all-sibling fair property, not a guess based on the one T ray.
+4. Positive tilt requires 0<δ<1; at δ=1 no persistent oscillation. The formula (2−δ)/4 is 3/8 at δ=1/2, with difference 1/8; at δ=1/4 it is 7/16 and at δ=3/4 it is 5/16.
+5. Conditional odds formula uses μδ output-cylinder ratios, NOT the source posterior q_11 or μ_T probabilities mislabelled λ. At forced 0 the numerator includes all singular mass plus half of λ mass. The free coordinate is exactly fair even after tilt.
+6. T is uniformly effectively closed λ-null, μ_T(T)=1; d_T,m→0 λ-a.e. and Dδ,m→δ. The λ-a.e. terminal floor δ is too small relative to Dδ(y↾3j). This is not a theorem forbidding ALL UI replacement martingales on all T outputs: S160 provides one for 0^ω.
+7. Infinite event μδ(A_N)≥1−δ follows because T⊂A_N and μδ(T)=1−δ, not from finite checks or from extrapolating λ tail bounds. S158's λ event upper bound remains correct simultaneously.
+8. S011's F is TOTAL globally fair with ≤2 true fibres globally and Y is CR; S160's arbitrary-use compiler only yields contradiction if D has BOTH effective L1 and conewise floor, at the SAME image y. No assertion is made that either condition separately is impossible.
+9. S135's fibres: exactly 2 actual complete streams on T, 3 outside T, so legal F₃ but not F₂. S011 y has exactly 1 actual inverse and is destroyed by legal F₂. Neither source has been proved R₂.
+10. Exact independent-method Fraction finite sanity reconstructs S135 all sibling row transitions and complete partitions through level10, tests δ=1/4,1/2,3/4 with actual μδ cylinder mixtures and all weighted marginal identities, and checks forced-digit conditional cylinder odds. PASS is FINITE SANITY ONLY; infinite claims rest on the written proofs and prior S135/S011 results. No hosted CI, independent referee, Lean, Palomar, novelty or publication.
