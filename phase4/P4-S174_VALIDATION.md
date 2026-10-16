@@ -1,0 +1,16 @@
+# P4-S174 — Hostile mathematical validation and provenance
+
+LOCAL Python Fraction/deterministic exhaustive finite sanity completed: 99,262 assertions. All complete-source words of lengths L=1,3,7,15 (2,8,128,32,768 inputs) checked for H inverse identity, block-prefix factorisation P=Q∘H, and number of distinct H outputs exactly 2^L. P's output-prefix counts at n=1,2,3,4 are exactly 1,2,16,2048 source prefixes per output (2^(L-n)). For each source word length 0..7, verified BOTH sibling martingale identity e(s0)+e(s1)=2e(s) using rational 3/2-versus-1/2 illustrative output D, plus e(s)>=0. All PASS as FINITE SANITY ONLY. These do not prove infinite-path equivalence, all-output fairness, arbitrary input rational martingale, or H1.
+
+Hostile proof checks:
+- One-based p(empty)=1; block B_n starts at 2^n. No output prefix can induce a query in an earlier block. Source query positions are strictly increasing, unlike the paper's two KLR strategies.
+- e(s) is defined on EVERY finite source prefix, not only x. If next selected position lies beyond current source index, both children retain e; if exactly at next position, D's sibling equation yields exact fairness. No martingale division by zero because D=d+1>=1.
+- H output blocks lengths 1,2,4,...; conditional chosen coordinate depends ONLY on earlier COMPLETE blocks, so a permutation of a fresh fair block. Fairness holds for output prefix ending inside a block. Inverse reconstructs all blocks, including nonrandom/all-zero outputs, so cardinal is EXACT ONE everywhere.
+- G=T(P,a) with finite tag has SOME continuum fibre above each fixed alpha by a finite partition; this is NOT a theorem for countably infinitely many auxiliary tags or arbitrary compression.
+- S011 effective OPEN upper probability bound cannot be replaced with computable per-event price; otherwise contradiction with CR Y. A c.e.-open event is not necessarily a computable clopen event.
+- PCR theorem is ∀E∃alpha∃beta; the KLR theorem is ∃E,A,B∀alpha∀beta∃strategy. Neither gives ∀x∈CR\MLR finite-k ordinary-output defeat.
+- R2=R3 and H1 OPEN even if H is F1 and P is fair infinite-sheet; these maps are both NON-SEPARATORS.
+
+PRIMARY PROVENANCE: Read actual https://arxiv.org/pdf/2610.13585, PDF 15 pages and 12 October 2026 title, original §§2–4 statement/proof excerpts. In particular original PDF page 7 (zero-based p6) directly displays Thm4.1, Def4.1 and Claim7; PDF page 4 (p3) Thm3.1 and beginning; pages 6 and 13 (p5/p12) respective proof ending and Proposition 1/final stage argument; intermediate §4 excerpts/claims from p7-p11 also accessed. Compared https://www.paperpeel.com/paper/2610.13585. Status PRIMARY_ORIGINAL_PROOF_EXCERPTS_INSPECTED, NOT LINE_BY_LINE_INDEPENDENT_PROOF_VERIFIED. Background Rute 2016 and JLC2025 Proposition19/Theorem40 statement only. Historical S173 grade not retroactively changed.
+
+Git entry main edc3514602cbeaaa9af6bd41746b249e7b59485f; sole parent 1cc8fe8a5f4e00805a7f273936062492ca7534fb; base tree 561e6eacba69da91d59d9ba76af6fc597ed1a080, prior PR #74 merged identical sha. Pre-entry S174 branch absent; no competing S174 work recorded. check-runs 0; statuses and Actions separately require remote recheck at close; rulesets []; branch protection 403 UNKNOWN_403. SAME-AGENT ONLY; NO Lean, Palomar, independent review, formal certification or hosted CI claim.

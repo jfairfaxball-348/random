@@ -1,0 +1,56 @@
+# P4-S174 — Chronological-completion firewall for Petrović's encoding, finite-advice no-go, and effective-open boundary
+
+Date 2026-10-16. Exactly ONE owner-invoked Phase4 CAND-01 research session. Internal same-agent mathematics, not independently certified originality or formal verification. Live ENTRY main edc3514602cbeaaa9af6bd41746b249e7b59485f; git tree 561e6eacba69da91d59d9ba76af6fc597ed1a080; SOLE parent 1cc8fe8a5f4e00805a7f273936062492ca7534fb; P4-S173 PR #74 MERGED at IDENTICAL SHA. S174 branch absent at entry; isolated branch phase4/P4-S174-chronological-completion-firewall. Check runs 0, rulesets [], protection 403 UNKNOWN_403. Original Y/M/H/X, S101-S103, DEF-0020, PA-0001 and historical grades frozen. Gate3 PASS; Gate4 NOT REVIEWED; Phase4 OPEN; Phase5 CLOSED.
+
+Terminology: 2^omega with fair measure lambda. CR uses nonnegative TOTAL EXACT RATIONAL ordinary martingales. F_k consists of TOTAL computable globally lambda-preserving maps with <=k ACTUAL COMPLETE infinite inverse streams above EVERY output. R_fin=intersection_(k>=1)R_k. H1 R_fin ?= MLR remains OPEN.
+
+## A174.1 — A fully explicit exact-rational martingale compiler: chronological Petrović P conserves CR
+
+For s∈2^n define v(s)=sum_(i<n)2^i s_i and one-based position p(s)=2^n+v(s)∈[2^n,2^(n+1)-1]. Define P(x)_n=x_(p(P(x)|n)), 1-based source indexing. The selected positions are STRICTLY INCREASING because each belongs to a successive disjoint dyadic block. Every selected position is computable from the selected bits already observed before that position. S173 proved P is total, globally fair, and each COMPLETE fibre has cardinal continuum.
+
+**THEOREM A174.1 (internal constructive version of a familiar chronological selection conservation principle).** FOR EVERY total nonnegative exact rational ordinary output martingale d there is ONE total nonnegative exact rational ordinary SOURCE martingale e such that FOR EVERY x, at EACH selected-coordinate boundary j_n=p(P(x)|n),
+  e(x|j_n) = (d(P(x)|(n+1))+1)/(d(empty)+1).
+Consequently, FOR ALL x∈CR, P(x)∈CR. In fact the proof works for ANY total computable adaptive sampling scan with strictly increasing source query addresses known from previous sampled bits; no finiteness of complete fibres is needed.
+
+**PROOF WITH ALL SOURCE SIBLINGS.** Put D(s)=d(s)+1, which is total positive exact rational, D(s0)+D(s1)=2D(s). Define e(empty)=1. For an arbitrary finite source word t of length m, compute its already selected transcript s(t) by simulating the scan at every query address <=m; this is a finite total computation (all queries are increasing). The next address p(s(t)) is >m. At the NEXT input coordinate i=m+1, prescribe
+  e(tb) = e(t) * D(s(t)b)/D(s(t))    if i=p(s(t)),
+  e(tb) = e(t)                       otherwise,
+for b∈{0,1}. Everything is computable, exact rational, and strictly positive. In either case (e(t0)+e(t1))/2=e(t): at a betting position use D's sibling equation; at all skipped source positions hold. These are ALL branches, not merely the target branch. Along x, induction through the disjoint selected addresses telescopes capital into D(P(x)|(n+1))/D(empty) immediately after the n-th selected bit. If d is unbounded on P(x), so is e on that SAME x. Therefore P never destroys CR. QED.
+
+This is stronger for H1 calibration than S173's infinite-fibre count: the same specific published encoder is NOT a candidate CR destroyer even before imposing the all-output finite cap. It does NOT rule out genuinely out-of-order or lookahead finite-sheet transformations (S011 is the positive counterexample to any blanket all-scan preservation assertion).
+
+## A174.2 — Actual finite-sheet completion: total, fair F1 homeomorphism H, and why it is a NON-SEPARATOR
+
+For n>=0 let B_n=[2^n,2^(n+1)-1] be 1-based source positions, length 2^n. Define H(x) blockwise. Given the previously selected transcript s=P(x)|n, select j=p(s)∈B_n. Output first x_j, then every other x_i in B_n in strictly increasing i order. This yields exactly 2^n output bits for each input B_n, in the SAME B_n output-coordinate block. Selected first bits concatenate to P(x).
+
+**FINITE ALL-OUTPUT BIJECTION/FAIRNESS.** Conditioned on earlier complete output blocks, s is known and the next block operation is a permutation of its 2^n independent uniformly fair source bits. Thus for EACH n the entire map on source words of length L_n=2^(n+1)-1 is a bijection onto output words of the same length, and lambda(H^-1([t]))=2^-|t| for EVERY output cylinder [t], including cutoffs strictly INSIDE a block (uniform coordinate permutation). To compute the first m output bits it is enough to read all source bits through the end of the output block containing m: u(m)=2^(floor(log_2 m)+1)-1 for m>=1, u(0)=0. To invert H(y), read each complete output block: its first bit supplies s_n; compute j=p(s), then restore x_j from the block's first output bit and restore all remaining x_i in increasing order from its tail. This is a TOTAL computable inverse on EVERY infinite output, without an exceptional path. Hence H is a globally fair computable homeomorphism with EXACTLY ONE ACTUAL COMPLETE inverse over EVERY output, so H∈F1.
+
+Let Q(y)_n=y_(2^n) (one-based, first bit of each output B_n). Then P=Q∘H on ALL sources, not a.e. Q is a fixed chronological coordinate sampler, globally fair with continuum inverse fibres, and also preserves CR by A174.1. Alternatively H∈F1 preserves CR by the established S001 effective-isomorphism result. Thus for EVERY CR x, H(x)∈CR, and ANY ordinary rational output martingale on H(x) cannot succeed. An encoding which emits ALL omitted source bits in these computable chronological blocks DOES achieve global finite-sheet legality, but does NOT transport any nonCR output success at a CR source. This is a scoped construction FAILURE, not a universal F_k impossibility theorem.
+
+## B174 — Finite-advice postprocessing cannot solve complete fibre legality
+
+**THEOREM B174.1 (precise bounded-side-information no-go).** Let A be ANY fixed finite set, a:2^omega→A ANY function, and T:2^omega×A→2^omega ANY function. Put G(x)=T(P(x),a(x)). Then for EVERY alpha, there EXISTS some output beta such that {x:P(x)=alpha and G(x)=beta} has cardinal 2^aleph0. In particular G is NOT in F_pf, F_count, or ANY finite F_k, regardless of whether G is computable, continuous or measure preserving.
+
+Proof: by A173, P^-1({alpha}) has cardinal continuum. Its partition into finitely many a-colours has some continuum-sized cell. On that cell G is the same value beta=T(alpha,a). Thus beta has continuum complete inverse fibre. Applies also to finite bits of x selected adaptively as a side tag as long as the tag range is fixed finite. QED.
+
+This rules out a very specific compression schema (P plus a bounded number of advice bits), not all compressors: H from A174.2 uses INFINITELY many omitted bits, achieves cap one, and is CR conserving.
+
+## C174 — A genuinely open unbounded-wait finite-sheet counterexample to a clopen firewall extension
+
+Retain S011's EXISTING total globally fair F∈F2 with CR source Y and bad output y=F(Y), and S171–S172's exact output savings bank. Let V_r be the uniformly c.e.-OPEN event that the first r scheduled sentinel wagers on the output occurred in FINITE time and each was correct. By S172, lambda(V_r)<=2^-r, while y∈V_r for ALL r. Thus Y∈F^-1(V_r) for ALL r, despite Y∈CR and F having <=2 COMPLETE preimages of EVERY output.
+
+This is a concrete SAME SOURCE, SINGLE finite-sheet map mechanism escaping B173: effective openness, UNBOUNDED WAIT, and only upper (left-c.e.) prices. Were S173's source rational-capital compiler to hold for arbitrary such effectively OPEN events from upper measure bounds alone, it would defeat the known CR Y. More precisely the source-rational compiler is obstructed even in F2; it is NOT because S011 has infinite fibres. The prices sum_r lambda(V_r) form the S171 NONCOMPUTABLE saved-bank mean, while S172 proves successful trigger clocks at Y eventually exceed EVERY computable clock. The exact-two bit-deletion toy of S173 warns that fixed finite posterior weights do not supply a missing computable L1 terminal expectation. Any computably timed clopen subcharts with packet budgets still obey B173 and fail on Y at infinitely many levels.
+
+No NEW universal conversion is produced. S011 only destroys its existing autoreducible CR Y and similar sources satisfying its partial-oracle prediction hypotheses; nonMLR CR x do NOT all have those hypotheses on present evidence. H1 still lacks a SINGLE legal F_k detector for EVERY SAME x∈CR\MLR.
+
+## D174 — Primary-source comparison and exact logical boundary
+
+Directly consulted the ORIGINAL https://arxiv.org/pdf/2610.13585 (15-page v1 PDF dated 12 Oct 2026) and compared with https://www.paperpeel.com/paper/2610.13585. Inspected original §2 definitions (encoding, scan, KLR/PCR/MLR), §3 Theorem 3.1 statement and portions of its lower-semicomputable semimeasure construction and ending, §4 Theorem 4.1 statement, Definition 4.1 p(s), Claim 7 cylinder measure proof, stage setup and proof excerpts through claims/lemmas, Proposition 1 and final infinite-stage argument, plus conclusion. Page 7 visual screenshot of original confirms p(s) formula and the two nonmonotonic strategies. This upgrades to PRIMARY ORIGINAL PROOF EXCERPTS INSPECTED, **NOT** complete line-by-line externally checked original proof, not independently VERIFIED theorem, and not an originality claim. S173's SECONDARY_HTML_REPRODUCTION grade remains a historical accurate statement of what was accessed THEN.
+
+Theorem 3.1 in the original says FOR EVERY computable encoding E, THERE IS SOME nonMLR alpha and SOME beta∈E(alpha) which is PCR (by negation of the hypothesised forall alpha forall beta nonPCR). It does NOT say that FOR EVERY nonMLR alpha an associated PCR beta exists; does NOT forbid ordinary CR detection of an alpha by a different finite-sheet map; does NOT imply a CR source with NONCR output via the particular P. Since PCR⊆CR and P preserves CR, the theorem's particular existential beta under P must have P(beta) in CR\MLR. Theorem 4.1 says FOR EVERY nonMLR alpha and EVERY beta∈E(alpha), at least ONE of TWO TOTAL COMPUTABLE NONMONOTONIC strategies A,B wins on beta. Those are INPUT-sequence bets whose scan order may skip and revisit EARLIER source coordinates; they are not ordinary rational output martingales on P(beta). Distinguish E set-valued encoding, P induced single-valued fair map, H completion homeomorphism, Q projection, and A/B KLR strategies.
+
+Previously inspected Rute 2016 a.e.-map result and Journal of Logic and Computation 35(8) Proposition 19/Theorem 40 statements remain source-background only. Rute/Petrović a.e.-computable maps are a different class from globally TOTAL finite-complete-fibre observers. No priority, openness, novelty, or independent peer review claimed.
+
+## Honest target disposition
+
+H1 R_fin?=MLR UNRESOLVED: no universal finite-k same-source positive compiler and no ONE common R_fin\MLR survivor. H2 fixed universal finite K collapse OPEN; H3 all-level strictness OPEN; H4 only observer family facts (F1 completion vs F_all original) and no class strictness; H5 prime/modular exact-degree programmes OPEN, R_pi UNDEFINED. R2=R3; S165/S166 A-source; E-08/E-00/S-00 OPEN. Frozen historical evidence untouched.
