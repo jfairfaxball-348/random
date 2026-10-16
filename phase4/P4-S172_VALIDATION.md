@@ -1,0 +1,15 @@
+# P4-S172 — Independent audit labels and hostile checks
+
+SAME-AGENT INTERNAL proof review of A172-E172 only. Local exact Fraction finite sanity script phase4/P4-S172_FINITE_AUDIT.py executed separately in Python 3: PASS 4,095 complete toy sibling nodes (depths 0..11), 36 event-measure identities, 1,785 posterior sibling identities (r=1..7, depths 0..7), truncated finite portfolio martingale at depths 0..7, and eleven depths of toy hybrid-bank domination. None is S011's actual autoreduction, a proof of existence of undecidable K, an infinite-stream proof or external certification. Hosted CI ABSENT_NOT_PASS (0 workflow runs; 0 check runs; 0 statuses) at entry; 403 branch protection UNKNOWN_403, rulesets [].
+
+ENTRY remote main 893f00003f01c4a1c848d2c45798db53318d26a2, git tree 519702780f018ec5fff95b42a14970f5a619c8c0, sole parent 5ea34a7b2ce7458366a6af0ee181a198962f335f. Actual P4-S171 PR #72 merged same SHA. No open PRs and no branch matching S172; prompt file was S172 and previously unexecuted. All frozen grades and Gate3/Gate4 status unchanged.
+
+Hostile A: λ(V_r)≤2^-r uses PREDICTABILITY of the r-th wager and fair output bits, NOT independent triggering or computable stop probabilities. Interchange via monotone convergence; zero-probability infinite outcomes may have infinite bank. Geometric r-tail computable, BUT λ(V_r) may lack effective upper name. Do NOT infer a specific λ(V_r) noncomputable.
+
+Hostile B: p_r(s) is exact rational because of G's computable finite-cylinder modulus, not just because G is fair; fairness gives the root cap. Portfolio h has effective all-sibling bound 2^|s|sum_r 2^-floor(r/2), and recursively generated e is exact rational positive ALL nodes. A_r target membership infinitely often is stronger than unbounded saved bank and is excluded for any CR source. No fibre assumption, no H1 collapse.
+
+Hostile C: c.e. U_n are finite clopen n-cylinders; residual base-4 tail proves p noncomputable for undecidable K. The hybrid expected bank is noncomputable but 0^omega is NONCR; do not call it a CR separator or mistake it for S011. Scale b by 2 for threshold r in B172.
+
+Hostile D: for EVERY computable clock t, eventually not in V_{r,t(r)}, not merely infinitely often missing. Uses one rational source martingale for each proposed clock, not an effective uniform construction of ONE martingale beating all clocks. T_Y computed by the Y oracle; no uniform computable modulus can bound it. S164 already broadly anticipates this speed barrier.
+
+Hostile E: F1 pointwise no-conversion requires x∈CR and T(x)∉CR; does NOT generalise to F2. Theorem40 STATEMENT_INSPECTED, Rute abstract ABSTRACT_INSPECTED, original Rute/Petrović proofs NOT PROOF_INSPECTED. H1 unresolved, all hierarchy/fibre and R2/R3 uncertainties preserved. Outgoing remote commit/CI must be checked after integration; do not invent inside authored files.
