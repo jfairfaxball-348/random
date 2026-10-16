@@ -1,0 +1,5 @@
+# P4-S170 — Incoming handoff and entry audit
+
+Owner invocation: run next session on 2026-10-16. Live main pinned to 16177e2a0f12cc39ca63f7b5f569d7569dd13ab3 (S169 one-parent authored commit), complete tree 30ba0b9163268d695a39ac1249eb470e6b61b9cd; only parent 909009addd9e4ef3d0f9d18558c10ddec4268568. S169 PR #70 merged without a merge commit; its head matches actual main. GitHub S170 branch search and S170 PR search returned none; S170 path absent in recursively read main tree. Check-runs 0, status contexts 0, pull-request Actions runs 0: ABSENT_NOT_PASS. Rulesets []; main protection API 403: UNKNOWN_403 (not unprotected). Scope Phase4 CAND-01 only, last S169, Phase4 OPEN; Gate3 PASS, Gate4 NOT REVIEWED, Phase5 CLOSED.
+
+Authorized goals: H1 R_fin?=MLR or rigorous scoped bridge; priorities partial ML-test oracle prediction, S169 limit transfer, external a.e. conversions and one jointly protected CR\\MLR survivor. Preserve all existing frozen lemmas, source grades and alternate H2–H5/R2–R3 fronts.
