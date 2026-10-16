@@ -1,0 +1,5 @@
+# P4-S171 — Incoming evidence and authorization
+
+Owner explicitly invoked next session 2026-10-16. Independently pinned actual live main 5ea34a7b2ce7458366a6af0ee181a198962f335f, tree 12c1541848dd54c384aae13e69bf17a99dba6822, sole parent 16177e2a0f12cc39ca63f7b5f569d7569dd13ab3; P4-S170 genuine PR #71 merged exact authored head with non-force fast-forward. Next prompt blob b79d593ed7c54fd060752ccdd8a7d3652996247c. No open PRs; no S171 record or active S171 branch at entry (historical branches listed separately). Check-runs 0, individual status contexts 0, workflow runs 0, interpreted ABSENT_NOT_PASS. Rulesets [], main branch protection GET permission denied 403 UNKNOWN_403, not automatically assumed unprotected. Phase4 OPEN, Gate3 PASS, Gate4 NOT REVIEWED, Phase5 CLOSED, current session unused before invocation.
+
+This is exactly ONE proof-first S171. Read prior S011, S155, S160, S164, S167-S170 and owner hierarchy steering, plus authority/protocol/state/gate/failure ledgers. Frozen Y/M/H/X, S101-S103 A-C, DEF-0020 and PA-0001 remain unchanged. Scope target H1 (finite all-k vs MLR), secondary H2-H5, old R2/R3 gap, and precise external a.e. conversion limits.

@@ -1,0 +1,15 @@
+# P4-S171 — Dependencies, failures, inherited fronts
+
+Inherited exact baseline: S001 CR conservation by fair homeomorphisms; S011/S012 wtt partial self-avoiding autoreduction, legal fresh sentinel F2 Y/destroyed y and singleton target fibre; S101-S103 frozen A-C dossiers; S117 finite posterior pricing; S127 R_fin notation and H1 hierarchy; S135/S141 two/fold source examples; S155 noncomputable inverse-degree masses; S160 effective L1 density compiler; S164 computable-real rationalisation and Schnorr-slow crossing; S167 finite-fibre F_sigma locus; S168 exceptional-output T, no fresh bit from arbitrary ML-test certificate; S169 effective-uniform F1 scan limit; S170 finite-advice inversion and nonextendible a.e. P.
+
+B171 exact monotone-bank expected-mass transfer is a scoped, sufficient cross-scale condition, not a general finite-sheet theorem. Its exact rationalisation is proved directly and is related to, but distinct from, S160/S164. C171 makes S011's particular expected saved bank a left-c.e. noncomputable real; its proof uses inherited external SRC-0067/SRC-0068 witness and the internally constructed scan, NOT a newly constructed computably random sequence. The inability to COMPUTE the expected mass is a different failure from merely failing to compute inverse cardinality.
+
+F171-1: No implication finite actual fibre (even singleton at winning output) => computable expectation price for the sentinel output-bank; explicit S011 counterexample C171.
+F171-2: Expected terminal bank computed only with non-effective left-c.e. approximation can yield a lower semicomputable source capital object, NOT automatically a computable exact rational source martingale. Effective L1 tail is the missing strength.
+F171-3: A computable rational all-n source capital envelope for S011's bank is impossible, but an arbitrary alternative transfer for some other bank or observer is NOT excluded.
+F171-4: Global a.e. extension is impossible for P (S170) while EACH individual equal-length cylinder chart of P has a legal total fair F1 replacement. Neither observation resolves a.e. destroying witness conversion.
+F171-5: Arbitrary CR\MLR target does not inherit S011 self-avoiding predictor merely from universal ML-test membership.
+F171-6: Union-of-null-events and per-cap choices cannot construct one common CR\MLR all-F_k survivor.
+F171-7: S155 prices and S160/S164 singular/savings conditions remain hostile controls; do NOT infer universal H1 equality or H4 class strictness.
+
+Primary H1 unresolved. Retained H2 fixed K, H3 strict adjacent, H4 F_ub/F_pf/F_count/F_all observer hierarchies versus randomness classes, H5 exact arithmetic/modular fibres and undefined R_pi, plus R2=R3, E-08/E-00/S-00 and S165/S166 A-source: all open as previously. No changes to catalog evidence grades, PA-0001, DEF-0020, Y/M/H/X, gate states.
