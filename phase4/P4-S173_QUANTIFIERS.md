@@ -1,0 +1,9 @@
+# P4-S173 — Exact quantifiers, targets and limitations
+
+A173: ONE specific external-paper encoder induces ONE explicitly defined total fair P. FOR EVERY alpha in 2^omega its COMPLETE fibre is a Cantor continuum, including ALL exceptional alpha. FOR EACH cylinder [s], inverse mass is 2^-|s| by an exact count. Thus P NOT IN F_count, F_pf, or ANY finite F_k. Petrović's TWO winning strategies are NONMONOTONIC on fibre INPUTS, not total rational martingales on P's OUTPUTS. Original preprint proof NOT PROOF_INSPECTED.
+
+B173: FOR EVERY UNIFORMLY COMPUTABLE family of finite palettes (J_r, G_(r,j), C_(r,j)), with EACH G TOTAL globally fair, EACH C COMPUTABLE CLOPEN, and EACH certified sum_j lambda(C_(r,j))<=2^-r, THERE EXISTS ONE total rational nonnegative SOURCE martingale e such that FOR EVERY SINGLE x, infinitely many r with SOME j target hit imply e(x|n)->infinity. In particular FOR EVERY x in CR, only finitely many such r may hit. Maps and palette sizes may vary with r; fibres may be unbounded. This is NOT a no-go for c.e. open waiting events or for nonuniform x-dependent maps.
+
+C173: EXISTS ONE total computable fair EXACT-TWO-complete-fibre map D with uniform computable half-half branch weights and ONE monotone rational output bank whose terminal expected value is noncomputable; the displayed bank target and BOTH its inverse inputs are NONCR. It is a finance hypothesis falsifier only.
+
+H1 POSITIVE still: FOR EVERY SAME x∈CR\MLR there exists SOME finite k, ONE G∈F_k and ONE total exact rational OUTPUT winner at G(x). H1 NEGATIVE still: EXISTS ONE x∈CR\MLR for ALL k and ALL G∈F_k, G(x)∈CR. NEITHER established. H2/H3, H4 randomness-class differences, H5/R_pi, R2=R3, A-sector and E-08/E-00/S-00 stay open. Internal same-agent and finite toy audit only; external novelty/gates unchanged.
